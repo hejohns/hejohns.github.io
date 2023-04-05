@@ -8,3 +8,11 @@ layout: home
 # home
 
 Some text on the landing page
+
+## meta
+
+This site's repo is [here](https://github.com/hejohns/hejohns.github.io).
+
+I've amalgamated too much of the internet to keep track of what came from where
+(apropos jekyll site construction),
+but I'm trying to reference as much as possible in the `site-construction` posts.
