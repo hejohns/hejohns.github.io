@@ -4,7 +4,7 @@ title:  "getting page last modified time"
 categories: site-construction
 ---
 I spent way too much time mucking around with
-[a stack overflow post](https://stackoverflow.com/a/25513956)
+[a stack overflow post](https://stackoverflow.com/a/36769049)
 and the minima source
 to get page modification times.
 
