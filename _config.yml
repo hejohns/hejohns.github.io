@@ -26,7 +26,7 @@ email: hejohns@umich.edu
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
 description: >- # this means to ignore newlines until "baseurl:"
-  hejohns' jekyll site-- description TODO
+  a pure waste of space
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://hejohns.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb

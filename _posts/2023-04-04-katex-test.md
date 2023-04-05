@@ -1,14 +1,25 @@
 ---
 layout: post
-title:  "katex test"
+title:  "latex with katex"
 categories: site-construction
 ---
 
-(This post has a fake time to test the access times.)
-
-helpful resources:
-- [link1 test](https://codewrites.me/jekyll/katex/blog/2020/08/26/use-katex-gh-pages/)
+I looked up something like "jekyll latex"
+and found some helpful resources:
+- [link1](https://codewrites.me/jekyll/katex/blog/2020/08/26/use-katex-gh-pages/)
 - [link2](https://www.xuningyang.com/blog/2021-01-11-katex-with-jekyll/)
+
+It surprisingly… just works.
+Just had to c/p that stuff into a `_include/custom-head.html`--
+although rn there's a quirk w/ minima that the latest stable version is missing some features like custom-head.html,
+so I had to use minima master.
+Followed [this github comment](https://github.com/jekyll/minima/issues/472#issuecomment-588586974).
+
+I'm not 100% sure katex is running v. mathjax--
+I don't know how to tell--
+but the rendering works one way or another.
+
+## katex examples
 
 double dollar sign
 $$f : A \to B \in \mathcal{P}B$$
@@ -17,15 +28,15 @@ some more text
 
 katex and katex display w/o dollar sign
 
-{%- katex -%}
+{% katex %}
 f : A \to B \in \mathcal{P}B
-{%- endkatex -%}
+{% endkatex %}
 
-{%- katex display -%}
+{% katex display %}
 f : A \to B \in \mathcal{P}B
-{%- endkatex -%}
+{% endkatex %}
 
 single dollar sign inside katexmm
-{%- katexmm -%}
+{% katexmm -%}
 $f : A \to B \in \mathcal{P}B$
-{%- endkatexmm -%}
+{%- endkatexmm %}
