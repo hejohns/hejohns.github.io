@@ -17,6 +17,7 @@ gem "minima", github: 'jekyll/minima'
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
   gem 'jekyll-katex'
+  gem 'jekyll-last-modified-at'
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
@@ -36,5 +37,5 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 gem "webrick", "~> 1.8"
 
 gem "faraday-retry", "~> 2.1"
-# actually we need this for the last-modified-time hook
+# required by jekyll-last-modified-at
 gem "tzinfo", ">= 1", "< 3"
