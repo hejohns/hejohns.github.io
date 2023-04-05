@@ -10,7 +10,7 @@ and found some helpful resources:
 - [link2](https://www.xuningyang.com/blog/2021-01-11-katex-with-jekyll/)
 
 It surprisingly… just works.
-Just had to c/p that stuff into a `_include/custom-head.html`--
+Just had to c/p that stuff into a `_includes/custom-head.html`--
 although rn there's a quirk w/ minima that the latest stable version is missing some features like custom-head.html,
 so I had to use minima master.
 Followed [this github comment](https://github.com/jekyll/minima/issues/472#issuecomment-588586974).
