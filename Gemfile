@@ -39,3 +39,5 @@ gem "webrick", "~> 1.8"
 gem "faraday-retry", "~> 2.1"
 # required by jekyll-last-modified-at
 gem "tzinfo", ">= 1", "< 3"
+
+gem "jekyll-pdf-embed", "~> 1.1"

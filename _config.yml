@@ -49,6 +49,7 @@ plugins:
   - jekyll-feed
   - jekyll-katex
   - jekyll-last-modified-at
+  - jekyll-pdf-embed
 
 minima:
   # Minima date format.
