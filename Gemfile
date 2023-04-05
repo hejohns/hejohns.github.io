@@ -36,3 +36,5 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 gem "webrick", "~> 1.8"
 
 gem "faraday-retry", "~> 2.1"
+# actually we need this for the last-modified-time hook
+gem "tzinfo", ">= 1", "< 3"
