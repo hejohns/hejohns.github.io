@@ -5,6 +5,7 @@
 
     <div class="footer-col-wrapper">
       <div class="footer-col">
+        <!-- I don't need this
         <p class="feed-subscribe">
           <a href="{{ site.feed.path | default: 'feed.xml' | absolute_url }}">
             <svg class="svg-icon orange">
@@ -12,6 +13,7 @@
             </svg><span>Subscribe</span>
           </a>
         </p>
+        -->
       {%- if site.author %}
         <ul class="contact-list">
           {% if site.author.name -%}
@@ -22,11 +24,11 @@
           {%- endif %}
         </ul>
       {%- endif %}
+        <!-- add last-modified-time -->
+        <p>site version: {{ site.time | date: '%Y-%m-%d' }}</p>
       </div>
       <div class="footer-col">
         <p>{{ site.description | escape }}</p>
-        <!-- add last-modified-time -->
-        <p>site version: {{ site.time | date: '%Y-%m-%d' }}</p>
       </div>
     </div>
 

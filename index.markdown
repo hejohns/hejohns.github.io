@@ -4,3 +4,7 @@
 
 layout: home
 ---
+
+# home
+
+Some text on the landing page
