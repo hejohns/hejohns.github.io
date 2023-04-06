@@ -34,5 +34,32 @@ layout: base
     {%- include disqus_comments.html -%}
   {%- endif -%}
 
+  <!-- use minima's column styling since I don't know css -->
+  <div class="footer-col-wrapper">
+      <div class="footer-col">
+          {%- if page.previous -%}
+            <a href="{{ page.previous.url | relative_url }}">prev</a>
+          {%- endif -%}
+      </div>
+      <div class="footer-col">
+        <h2> related </h2>
+        <ul>
+          {%- for post in site.related_posts -%}
+          <li><a href="{{ post.url | relative_url }}">{{ post.title | escape }}
+                  {%- if page.categories -%},{%- endif -%}
+                {%- for cat in page.categories -%}
+                  [{{ page.categories }}]
+                {%- endfor -%}
+              </a></li>
+          {%- endfor -%}
+        </ul>
+      </div>
+      <div class="footer-col">
+          {%- if page.next -%}
+            <a href="{{ page.next.url | relative_url }}">next</a>
+          {%- endif -%}
+      </div>
+  </div>
+
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>

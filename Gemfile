@@ -43,3 +43,5 @@ gem "tzinfo", ">= 1", "< 3"
 gem "jekyll-pdf-embed", "~> 1.1"
 
 gem "jekyll-sitemap", "~> 1.4"
+
+gem "classifier-reborn", "~> 2.3"
