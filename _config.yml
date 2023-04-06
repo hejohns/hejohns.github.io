@@ -80,7 +80,7 @@ minima:
 
 # more minima configuration
 header_pages:
-  - about.markdown
+  - about.md
   - reviews.md
   - etc.md
 show_excerpts: true
