@@ -8,6 +8,7 @@ something here
 ## specs
 made w/
 - `jekyll`, version {{ site.jekyll-version }}
+- `ruby`, version {{ site.ruby-version }}
 - `{{ site.theme }}` theme, version {{ theme.version }}
 - plugins:
 {% for plugin in site.plugins %}   - `{{ plugin }}`
