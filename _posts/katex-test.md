@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "latex with katex"
+title: "latex with katex"
 categories: site-construction
+date: 2023-04-05
 ---
 
 I looked up something like "jekyll latex"

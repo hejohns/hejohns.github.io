@@ -2,6 +2,7 @@
 layout: post
 title:  "getting page last modified time"
 categories: site-construction
+date: 2023-04-05
 ---
 I spent way too much time mucking around with
 [a stack overflow post](https://stackoverflow.com/a/36769049)

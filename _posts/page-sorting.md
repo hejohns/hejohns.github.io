@@ -2,6 +2,7 @@
 layout: post
 title:  "sorting the page links in the top right header"
 categories: site-construction
+date: 2023-04-05
 ---
 **edit**:
 should've read the minima README more carefully…
