@@ -1,22 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://hejohns.github.io/site-construction/2023/04/04/katex-test.html</loc>
-<lastmod>2023-04-05T19:52:57-04:00</lastmod>
-</url>
-<url>
-<loc>https://hejohns.github.io/site-construction/2023/04/05/last-modified-time-test.html</loc>
-<lastmod>2023-04-05T19:32:50-04:00</lastmod>
-</url>
-<url>
-<loc>https://hejohns.github.io/site-construction/2023/04/05/page-sorting.html</loc>
-<lastmod>2023-04-06T16:55:18-04:00</lastmod>
-</url>
-<url>
-<loc>https://hejohns.github.io/site-construction/2023/04/05/welcome-to-jekyll.html</loc>
-<lastmod>2023-04-05T06:29:02-04:00</lastmod>
-</url>
-<url>
 <loc>https://hejohns.github.io/about.html</loc>
 <lastmod>2023-04-05T22:41:12-04:00</lastmod>
 </url>
