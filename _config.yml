@@ -78,6 +78,13 @@ minima:
   #   - { platform: youtube,        user_url: "https://www.youtube.com/jekyll" }
   skin: solarized-light
 
+# more minima configuration
+header_pages:
+  - about.markdown
+  - reviews.md
+  - etc.md
+show_excerpts: true
+
 # If you want to link only specific pages in your header, uncomment this and add the path to the pages in
 # order as they should show up.
 #

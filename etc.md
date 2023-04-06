@@ -1,7 +1,6 @@
 ---
 layout: page
 title: etc
-weight: 99
 ---
 
 some stuff
