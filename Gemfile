@@ -41,3 +41,5 @@ gem "faraday-retry", "~> 2.1"
 gem "tzinfo", ">= 1", "< 3"
 
 gem "jekyll-pdf-embed", "~> 1.1"
+
+gem "jekyll-sitemap", "~> 1.4"

@@ -50,6 +50,7 @@ plugins:
   - jekyll-katex
   - jekyll-last-modified-at
   - jekyll-pdf-embed
+  - jekyll-sitemap
 
 minima:
   # Minima date format.
