@@ -8,8 +8,8 @@
 <meta property="og:title" content="sorting the page links in the top right header" />
 <meta name="author" content="hejohns" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="old" />
-<meta property="og:description" content="old" />
+<meta name="description" content="edit: should’ve read the minima README more carefully…" />
+<meta property="og:description" content="edit: should’ve read the minima README more carefully…" />
 <link rel="canonical" href="https://hejohns.github.io/site-construction/2023/04/05/page-sorting.html" />
 <meta property="og:url" content="https://hejohns.github.io/site-construction/2023/04/05/page-sorting.html" />
 <meta property="og:site_name" content="hejohns’ jekyll site" />
@@ -18,7 +18,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="sorting the page links in the top right header" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"hejohns"},"dateModified":"2023-04-05T22:10:46-04:00","datePublished":"2023-04-05T00:00:00-04:00","description":"old","headline":"sorting the page links in the top right header","mainEntityOfPage":{"@type":"WebPage","@id":"https://hejohns.github.io/site-construction/2023/04/05/page-sorting.html"},"url":"https://hejohns.github.io/site-construction/2023/04/05/page-sorting.html"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"hejohns"},"dateModified":"2023-04-05T22:10:46-04:00","datePublished":"2023-04-05T00:00:00-04:00","description":"edit: should’ve read the minima README more carefully…","headline":"sorting the page links in the top right header","mainEntityOfPage":{"@type":"WebPage","@id":"https://hejohns.github.io/site-construction/2023/04/05/page-sorting.html"},"url":"https://hejohns.github.io/site-construction/2023/04/05/page-sorting.html"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://hejohns.github.io/feed.xml" title="hejohns&apos; jekyll site" />  <!-- see: -->
   <!-- https://codewrites.me/jekyll/katex/blog/2020/08/26/use-katex-gh-pages/ -->
@@ -67,29 +67,20 @@
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <h2 id="old">old</h2>
+    <p><strong>edit</strong>:
+should’ve read the minima README more carefully…</p>
 
-<p><a href="https://stackoverflow.com/a/25513956">this stack overflow post</a>
+<p>the above does work[^1], but I’ve switched over to the intended minima way.</p>
+
+<p><strong>old</strong>:
+<a href="https://stackoverflow.com/a/25513956">this stack overflow post</a>
 explains what to do.</p>
 
 <p>summary: give each page a <code class="language-plaintext highlighter-rouge">weight: [number]</code> in the front matter,
 so the liquid template can sort them when displaying the header.
 (requires overriding the default <code class="language-plaintext highlighter-rouge">_includes/header.html</code>.
-<a href="https://github.com/hejohns/hejohns.github.io/blob/2920839b2cf4c1658c0e7dd45a1b67e1de78deb1/_includes/header.html#L4">eg</a>.)</p>
-
-<h2 id="edit">edit</h2>
-
-<p>should’ve read the minima README more carefully…</p>
-
-<p>the above does work<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>, but I’ve switched over to the intended minima way.</p>
-
-<div class="footnotes" role="doc-endnotes">
-  <ol>
-    <li id="fn:1" role="doc-endnote">
-      <p>and technically works regardless of the theme, so I’m keeping this info here, in case I switch themes. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-  </ol>
-</div>
+<a href="https://github.com/hejohns/hejohns.github.io/blob/2920839b2cf4c1658c0e7dd45a1b67e1de78deb1/_includes/header.html#L4">eg</a>.)
+[^1]: and technically works regardless of the theme, so I’m keeping this info here, in case I switch themes.</p>
 
   </div><!-- use minima's column styling since I don't know css -->
   <div class="footer-col-wrapper">
@@ -127,7 +118,7 @@ so the liquid template can sort them when displaying the header.
             <li>(the answer is yes, you should.)</li>
         </ul>
         <!-- add last-modified-time -->
-        <p>site version: 2023-04-05</p>
+        <p>site version: 2023-04-06</p>
       </div>
       <div class="footer-col">
         <p>a pure waste of space</p>
