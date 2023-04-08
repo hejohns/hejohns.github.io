@@ -17,4 +17,5 @@ summary: give each page a `weight: [number]` in the front matter,
 so the liquid template can sort them when displaying the header.
 (requires overriding the default `_includes/header.html`.
 [eg](https://github.com/hejohns/hejohns.github.io/blob/2920839b2cf4c1658c0e7dd45a1b67e1de78deb1/_includes/header.html#L4).)
+
 [^1]: and technically works regardless of the theme, so I'm keeping this info here, in case I switch themes.
