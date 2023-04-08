@@ -1,8 +1,9 @@
 # https://stackoverflow.com/a/68287682
 class Jekyll::PostReader
-  # Don't use DATE_FILENAME_MATCHER so we don't need to put those stupid dates
-  # in the filename. Also limit to just *.markdown, so it won't process binary
-  # files from e.g. drags.
+  # monkey patch `Jekyll::PostReader::read_posts` so we don't have to write the
+  # date in the post filename
+  #
+  # see the jekyll source
   def read_posts(dir)
     read_publishable(dir, "_posts", Jekyll::Document::DATELESS_FILENAME_MATCHER)
   end
