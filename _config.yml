@@ -51,6 +51,7 @@ plugins:
   - jekyll-last-modified-at
   - jekyll-pdf-embed
   - jekyll-sitemap
+  - jekyll-toc
 
 minima:
   # Minima date format.

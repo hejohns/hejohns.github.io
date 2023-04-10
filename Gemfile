@@ -45,3 +45,5 @@ gem "jekyll-pdf-embed", "~> 1.1"
 gem "jekyll-sitemap", "~> 1.4"
 
 gem "classifier-reborn", "~> 2.3"
+
+gem "jekyll-toc", "~> 0.18.0"
