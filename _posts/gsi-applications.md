@@ -8,7 +8,9 @@ date: 2023-04-09
 
 ## ENGR 101 (F23)
 **outcome**: rejected.
-But they also didn't look at the video, according to youtube analytics.
+But they also didn't look at the video[^1].
+
+[^1]: I dumb and got "private" and "unlisted" backwards.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Cd9Tq7s_BhQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
