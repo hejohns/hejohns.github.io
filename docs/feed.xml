@@ -1,4 +1,22 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://hejohns.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hejohns.github.io/" rel="alternate" type="text/html" /><updated>2023-04-14T01:09:22-04:00</updated><id>https://hejohns.github.io/feed.xml</id><title type="html">hejohns’ jekyll site</title><subtitle>a pure waste of space</subtitle><author><name>hejohns</name><email>(hejohns)α(umich)δ(edu)</email></author><entry><title type="html">funny sayings</title><link href="https://hejohns.github.io/2023/04/10/miserliness.html" rel="alternate" type="text/html" title="funny sayings" /><published>2023-04-10T00:00:00-04:00</published><updated>2023-04-14T01:03:47-04:00</updated><id>https://hejohns.github.io/2023/04/10/miserliness</id><content type="html" xml:base="https://hejohns.github.io/2023/04/10/miserliness.html"><![CDATA[<p>To keep track of funny sayings I’ve come across:</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://hejohns.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hejohns.github.io/" rel="alternate" type="text/html" /><updated>2023-04-14T13:06:33-04:00</updated><id>https://hejohns.github.io/feed.xml</id><title type="html">hejohns’ jekyll site</title><subtitle>a pure waste of space</subtitle><author><name>hejohns</name><email>(hejohns)α(umich)δ(edu)</email></author><entry><title type="html">rasterizing pdfs, among other things</title><link href="https://hejohns.github.io/2023/04/14/rasterize-pdfs.html" rel="alternate" type="text/html" title="rasterizing pdfs, among other things" /><published>2023-04-14T00:00:00-04:00</published><updated>2023-04-14T13:06:16-04:00</updated><id>https://hejohns.github.io/2023/04/14/rasterize-pdfs</id><content type="html" xml:base="https://hejohns.github.io/2023/04/14/rasterize-pdfs.html"><![CDATA[<ul id="markdown-toc">
+  <li><a href="#rasterizingsetting-a-pdf" id="markdown-toc-rasterizingsetting-a-pdf">rasterizing/”setting” a pdf</a></li>
+</ul>
+
+<h2 id="rasterizingsetting-a-pdf">rasterizing/”setting” a pdf</h2>
+<p>I don’t recall running into this before,
+but I was trying to print a pdf that displayed fine on my computer (firefox, okular),
+and the printer failed on the 8th page w/
+    ERROR:
+    typecheck
+    OFFENDING COMMAND:
+    known
+which is apparently some postscript error or incompatibility with the printer.</p>
+
+<p><a href="https://superuser.com/a/1489923">rasterize pdf</a>
+    pdf2djvu -d 1200 input.pdf &gt; output.djvu
+I don’t know how low for density (&lt;300?) is too blurry or too high unnecessary (&gt;1200?)
+<a href="https://superuser.com/a/596167">and convert back to pdf for printing</a>
+    ddjvu -format=pdf output.djvu output.pdf</p>]]></content><author><name>hejohns</name><email>(hejohns)α(umich)δ(edu)</email></author></entry><entry><title type="html">funny sayings</title><link href="https://hejohns.github.io/2023/04/10/miserliness.html" rel="alternate" type="text/html" title="funny sayings" /><published>2023-04-10T00:00:00-04:00</published><updated>2023-04-14T01:09:58-04:00</updated><id>https://hejohns.github.io/2023/04/10/miserliness</id><content type="html" xml:base="https://hejohns.github.io/2023/04/10/miserliness.html"><![CDATA[<p>To keep track of funny sayings I’ve come across:</p>
 
 <p>(most are inevitably heavily distorted, owing to my poor recall.
 Best attempt at attribution.)
@@ -50,8 +68,8 @@ But they also didn’t look at the video<sup id="fnref:1" role="doc-noteref"><a 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Cd9Tq7s_BhQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
 
-<style> .pdf-embed-wrap-5e00838a-2e26-472e-a3a0-6640201c8bbc { display: flex; flex-direction: column; width: 100%; height: 650px; } .pdf-embed-container-5e00838a-2e26-472e-a3a0-6640201c8bbc { height: 100%; } .pdf-link-5e00838a-2e26-472e-a3a0-6640201c8bbc { background-color: white; text-align: center; border-style: solid; } .pdf-embed-container-5e00838a-2e26-472e-a3a0-6640201c8bbc iframe { width: 100%; height: 100%; } </style>
-<div class="pdf-embed-wrap-5e00838a-2e26-472e-a3a0-6640201c8bbc"> <div class="pdf-link-5e00838a-2e26-472e-a3a0-6640201c8bbc"> <a href="/files/101-gsi-application.pdf" target="_blank">View PDF</a> </div> <div class="pdf-embed-container-5e00838a-2e26-472e-a3a0-6640201c8bbc"> <iframe src="/files/101-gsi-application.pdf" frameborder="0" allowfullscreen=""></iframe> </div> </div>
+<style> .pdf-embed-wrap-dd9e52dc-d80d-4fa2-95fa-93a3ec1daf05 { display: flex; flex-direction: column; width: 100%; height: 650px; } .pdf-embed-container-dd9e52dc-d80d-4fa2-95fa-93a3ec1daf05 { height: 100%; } .pdf-link-dd9e52dc-d80d-4fa2-95fa-93a3ec1daf05 { background-color: white; text-align: center; border-style: solid; } .pdf-embed-container-dd9e52dc-d80d-4fa2-95fa-93a3ec1daf05 iframe { width: 100%; height: 100%; } </style>
+<div class="pdf-embed-wrap-dd9e52dc-d80d-4fa2-95fa-93a3ec1daf05"> <div class="pdf-link-dd9e52dc-d80d-4fa2-95fa-93a3ec1daf05"> <a href="/files/101-gsi-application.pdf" target="_blank">View PDF</a> </div> <div class="pdf-embed-container-dd9e52dc-d80d-4fa2-95fa-93a3ec1daf05"> <iframe src="/files/101-gsi-application.pdf" frameborder="0" allowfullscreen=""></iframe> </div> </div>
 <h2 id="eecs-376-f23">EECS 376 (F23)</h2>
 
 <h3 id="too-long-version">too long version</h3>
