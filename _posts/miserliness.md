@@ -7,6 +7,7 @@ To keep track of funny sayings I've come across:
 
 (most are inevitably heavily distorted, owing to my poor recall.
 Best attempt at attribution.)
+(quotes are reserved for actual, checked quotes.)
 
 - miserliness is the surest sign of general unhappiness[^1]
 - you may bark, or not bark, but as part of the pack you *must* wag your tail[^2]
@@ -17,8 +18,10 @@ The tariff I set down for the record, since I shall probably never again have su
 - "This last fact perhaps helps to confirm a theory I have long had,
 that the novel got out of hand,
 that Tanizaki did not really want Taeko to be so likeable."[^5]
+- "By 1965, researchers could no longer read [computability theory] papers."[^6]
 
 [^1]: Kafka, English tr
 [^2]: Chekhov, English tr
 [^4]: E. Seidensticker
 [^5]: *ibid*. After referring to the real life inspiration of Taeko as "coarse and vulgar".
+[^6]: Soare, in *Formalism and intuition in computability*
