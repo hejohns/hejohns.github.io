@@ -18,7 +18,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="rasterizing pdfs, among other things" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"hejohns"},"dateModified":"2023-04-14T13:06:40-04:00","datePublished":"2023-04-14T00:00:00-04:00","description":"a pure waste of space","headline":"rasterizing pdfs, among other things","mainEntityOfPage":{"@type":"WebPage","@id":"https://hejohns.github.io/2023/04/14/rasterize-pdfs.html"},"url":"https://hejohns.github.io/2023/04/14/rasterize-pdfs.html"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"hejohns"},"dateModified":"2023-04-14T13:14:57-04:00","datePublished":"2023-04-14T00:00:00-04:00","description":"a pure waste of space","headline":"rasterizing pdfs, among other things","mainEntityOfPage":{"@type":"WebPage","@id":"https://hejohns.github.io/2023/04/14/rasterize-pdfs.html"},"url":"https://hejohns.github.io/2023/04/14/rasterize-pdfs.html"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://hejohns.github.io/feed.xml" title="hejohns&apos; jekyll site" />  <!-- see: -->
   <!-- https://codewrites.me/jekyll/katex/blog/2020/08/26/use-katex-gh-pages/ -->
@@ -74,18 +74,20 @@
 <h2 id="rasterizingsetting-a-pdf">rasterizing/”setting” a pdf</h2>
 <p>I don’t recall running into this before,
 but I was trying to print a pdf that displayed fine on my computer (firefox, okular),
-and the printer failed on the 8th page w/
-    ERROR:
-    typecheck
-    OFFENDING COMMAND:
-    known
-which is apparently some postscript error or incompatibility with the printer.</p>
+and the printer failed on the 8th page w/</p>
 
-<p><a href="https://superuser.com/a/1489923">rasterize pdf</a>
-    pdf2djvu -d 1200 input.pdf &gt; output.djvu
-I don’t know how low for density (&lt;300?) is too blurry or too high unnecessary (&gt;1200?)
-<a href="https://superuser.com/a/100573">and convert back to pdf for printing</a>
-    ddjvu -format=pdf output.djvu output.pdf</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ERROR:
+typecheck
+OFFENDING COMMAND:
+known which is apparently some postscript error or incompatibility with the printer.
+</code></pre></div></div>
+
+<p><a href="https://superuser.com/a/1489923">rasterize pdf</a></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pdf2djvu -d 1200 input.pdf &gt; output.djvu I don't know how low for density (&lt;300?) is too blurry or too high unnecessary (&gt;1200?) [and convert back to pdf for printing](https://superuser.com/a/100573)
+
+ddjvu -format=pdf output.djvu output.pdf
+</code></pre></div></div>
 
   </div><!-- use minima's column styling since I don't know css -->
   <div class="footer-col-wrapper">
