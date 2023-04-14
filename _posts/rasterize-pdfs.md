@@ -15,6 +15,7 @@ and the printer failed on the 8th page w/
     typecheck
     OFFENDING COMMAND:
     known
+
 which is apparently some postscript error or incompatibility with the printer.
 
 [rasterize pdf](https://superuser.com/a/1489923)
