@@ -1,4 +1,158 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://hejohns.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hejohns.github.io/" rel="alternate" type="text/html" /><updated>2023-04-15T22:39:11-04:00</updated><id>https://hejohns.github.io/feed.xml</id><title type="html">hejohns’ jekyll site</title><subtitle>a pure waste of space</subtitle><author><name>hejohns</name><email>(hejohns)α(umich)δ(edu)</email></author><entry><title type="html">rasterizing pdfs, among other things</title><link href="https://hejohns.github.io/2023/04/14/rasterize-pdfs.html" rel="alternate" type="text/html" title="rasterizing pdfs, among other things" /><published>2023-04-14T00:00:00-04:00</published><updated>2023-04-15T21:26:32-04:00</updated><id>https://hejohns.github.io/2023/04/14/rasterize-pdfs</id><content type="html" xml:base="https://hejohns.github.io/2023/04/14/rasterize-pdfs.html"><![CDATA[<ul id="markdown-toc">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://hejohns.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hejohns.github.io/" rel="alternate" type="text/html" /><updated>2023-04-24T00:12:24-04:00</updated><id>https://hejohns.github.io/feed.xml</id><title type="html">hejohns’ jekyll site</title><subtitle>a pure waste of space</subtitle><author><name>hejohns</name><email>(hejohns)α(umich)δ(edu)</email></author><entry><title type="html">some remarks apropos scripting</title><link href="https://hejohns.github.io/2023/04/23/scripting.html" rel="alternate" type="text/html" title="some remarks apropos scripting" /><published>2023-04-23T00:00:00-04:00</published><updated>2023-04-24T00:11:55-04:00</updated><id>https://hejohns.github.io/2023/04/23/scripting</id><content type="html" xml:base="https://hejohns.github.io/2023/04/23/scripting.html"><![CDATA[<ul id="markdown-toc">
+  <li><a href="#perl" id="markdown-toc-perl">Perl</a>    <ul>
+      <li><a href="#the-good" id="markdown-toc-the-good">the good</a></li>
+      <li><a href="#the-bad" id="markdown-toc-the-bad">the bad</a></li>
+      <li><a href="#the-ugly" id="markdown-toc-the-ugly">the ugly</a></li>
+      <li><a href="#profiling" id="markdown-toc-profiling">profiling</a></li>
+    </ul>
+  </li>
+  <li><a href="#ruby" id="markdown-toc-ruby">Ruby</a>    <ul>
+      <li><a href="#rbenv-bundler-solargraph-and-the-seven-dwarves" id="markdown-toc-rbenv-bundler-solargraph-and-the-seven-dwarves">rbenv, bundler, solargraph, and the seven dwarves</a></li>
+      <li><a href="#parallel" id="markdown-toc-parallel">parallel</a></li>
+      <li><a href="#jruby" id="markdown-toc-jruby">JRuby</a></li>
+    </ul>
+  </li>
+</ul>
+
+<p>The following is a mix between a (personal) wiki and a post</p>
+
+<h2 id="perl">Perl</h2>
+
+<h3 id="the-good">the good</h3>
+<ul>
+  <li>I admit that I tend to proselytize Perl for text scripting.
+Part of it is because I do find it ergonomic for simple text scripts–
+my policy is that it’s great for &lt;100 line scripts. And stay away from the OO–,
+but also because I think people tend to cast aside perfectly functional tools or ideas that are perceived to be <em>old</em>.
+I’m a bit of a stalwart on this point.
+I refuse to use <code class="language-plaintext highlighter-rouge">tmux</code> over GNU <code class="language-plaintext highlighter-rouge">screen</code>, unless I specifically need a feature one has that the other doesn’t.
+Looking backwards too much has it’s own share of problems,
+but as far as scripting goes, I stand by that Perl is a solid tool.</li>
+  <li>ok, but specifically:</li>
+  <li>the $calar-@rray-%ash distinction is quite nice. It’s far from (rich) static types, but it’s better than nothing.
+I suppose nowadays other languages like Python and Ruby have static analyzers, but I don’t have any experience there unfortunately.</li>
+  <li>people always say that CPAN has some really good modules.
+A short list:
+    <ul>
+      <li>CSV (<a href="https://metacpan.org/pod/Text::CSV">Text::CSV</a>)</li>
+      <li>JSON (<a href="https://metacpan.org/pod/JSON">JSON</a>)<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">1</a></sup></li>
+      <li>scripting subprocesses (<a href="https://metacpan.org/pod/IPC::Run">IPC::Run</a>, <a href="https://metacpan.org/pod/Capture::Tiny">Capture::Tiny</a>).
+  Comparable to Ruby’s <a href="https://docs.ruby-lang.org/en/master/Open3.html">Open3</a> gem</li>
+      <li>terminal input (<a href="https://metacpan.org/pod/IO::Prompter">IO::Prompter</a>)</li>
+    </ul>
+  </li>
+</ul>
+
+<ul>
+  <li>the backwards compatibility is superb.
+Like Windows, backwards compatibility has long been a high priority for Perl,
+and people will argue about the merits or demerits, but when something works (well), it’s nice when it stays that way.</li>
+  <li>I have to toss in everyone’s favorite: <em>Perl regex</em>.
+Regexes are almost never the right tool, but as a hack, they’re almost always almost enough.<sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote" rel="footnote">2</a></sup></li>
+</ul>
+
+<h3 id="the-bad">the bad</h3>
+<ul>
+  <li>the parallelism story is… sad.
+The only choice seems to be fork (<a href="https://metacpan.org/pod/Parallel::ForkManager">Parallel::ForkManager</a>).
+<a href="https://metacpan.org/pod/Parallel::ForkManager">Perl threads</a> (see <code class="language-plaintext highlighter-rouge">man perlthrtut</code>) are “discouraged”, and there doesn’t seem to be much on CPAN.
+For <a href="https://github.com/eecs490/gradescope-utils">Gradescope-Utils</a>, I ended up turning to <a href="#parallel">Ruby</a>.
+In any case, this is probably a good thing.
+Who in their right mind is writing a concurrent/parallel perl script?</li>
+</ul>
+
+<h3 id="the-ugly">the ugly</h3>
+<ul>
+  <li>every now and then, the omission or inclusion of (parentheses) changes the parse in an unexpected ways.
+You eventually get used to it, but the error messages are hard to understand w/o experience.
+Not as spammy as C++ stl errors<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">3</a></sup>, but at the same level of wtf.</li>
+</ul>
+
+<h3 id="profiling">profiling</h3>
+<p>Now, I have to say that if you find yourself trying to profile a perl script,
+you’ve made a wrong turn in life.
+That said, having gone through the experience myself, some notes:</p>
+
+<ul>
+  <li>it seems like the standard profiler is <a href="https://metacpan.org/pod/Devel::NYTProf">NYTProf</a> (apparently, some folks at the Times banged it up)</li>
+  <li>you may need to install w/ <code class="language-plaintext highlighter-rouge">cpanm Devel::NYTProf</code></li>
+  <li>standard invocation is <code class="language-plaintext highlighter-rouge">perl -d:NYTProf script.pl</code></li>
+  <li><code class="language-plaintext highlighter-rouge">nytprofhtml</code> generates some html to nytprof/ (or <code class="language-plaintext highlighter-rouge">nytprofhtml -o dir/</code>)</li>
+  <li>open it in your browser.
+Here’s some <a href="/assets/nytprof/index.html">sample output</a>.</li>
+</ul>
+
+<p>That is, NYTProf is <em>very</em> good.
+And the above sample is “real”.
+Yes, I had to wait 14 hours for one of the Gradescope-Utils scripts to finish on some student data I had to upload.</p>
+
+<p><strong>Exercise:</strong> what in the world is that script doing?</p>
+
+<h2 id="ruby">Ruby</h2>
+<h3 id="rbenv-bundler-solargraph-and-the-seven-dwarves">rbenv, bundler, solargraph, and the seven dwarves</h3>
+<p>Ruby has so many tools I often forget what I’m supposed to use.
+Here’s what I’ve been doing:</p>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">rbenv</code> to manage ruby versions, and set local versions. Seems to work well. Think <code class="language-plaintext highlighter-rouge">ghcup</code>, but with local versions as well. And no TUI that segfaults every three seconds.
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">jruby</code> can’t use native gems, but otherwise seems to work quite well.
+  That said, I haven’t gotten a change to really use it since I seem to keep needing native gems.</li>
+    </ul>
+  </li>
+  <li><code class="language-plaintext highlighter-rouge">bundler</code> to manager per project gem dependencies. Think <code class="language-plaintext highlighter-rouge">cabal</code><sup id="fnref:4" role="doc-noteref"><a href="#fn:4" class="footnote" rel="footnote">4</a></sup>.
+    <ul>
+      <li>and <code class="language-plaintext highlighter-rouge">bundler config set --local path 'vendor/bundle'</code>. From the Jekyll documentation.</li>
+      <li>and call everything with <code class="language-plaintext highlighter-rouge">bundler exec cmd</code>, to run <code class="language-plaintext highlighter-rouge">cmd</code> in the bundler ENV.</li>
+    </ul>
+  </li>
+  <li><code class="language-plaintext highlighter-rouge">solargraph</code> is the language server. Think HLS (ie <code class="language-plaintext highlighter-rouge">haskell-language-server-wrapper</code>).
+    <ul>
+      <li>at least I’ve been <code class="language-plaintext highlighter-rouge">bundler add solargraph</code> to the local directory,
+  and <code class="language-plaintext highlighter-rouge">bundler exec solargraph stdio</code> for the language server.
+  Could mess around with global installs.</li>
+    </ul>
+  </li>
+  <li>TODO: <code class="language-plaintext highlighter-rouge">yard</code> is the documentation generator?
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">solargraph</code> needs <code class="language-plaintext highlighter-rouge">yard gems</code> or <code class="language-plaintext highlighter-rouge">bundler exec yard gems</code>? Whenever you add gems?</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="parallel"><a href="https://github.com/grosser/parallel">parallel</a></h3>
+<p>Parallel map. Works well. ‘nuff said.</p>
+
+<p>Everyone needs parallel map.</p>
+
+<h3 id="jruby">JRuby</h3>
+<p>TODO:
+<code class="language-plaintext highlighter-rouge">jrubyc</code> might actually work?</p>
+
+<ul>
+  <li>download the JRuby Complete .jar from the downloads page</li>
+  <li><code class="language-plaintext highlighter-rouge">jrubyc</code> produces a .class file</li>
+  <li><code class="language-plaintext highlighter-rouge">java</code> the .class file with the Complete .jar in the class path</li>
+</ul>
+
+<hr />
+
+<p><a href="https://github.com/grosser/parallel"></a></p>
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:2" role="doc-endnote">
+      <p>in fact, JSON datatypes map to the Perl primitives very smoothly <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:3" role="doc-endnote">
+      <p>the most egregious thing I’ve ever seen was– and I won’t name names– a perl script that git diff ‘d two latex files and inserted color commands for a colored pdf diff (as in the output was a pdf of the common parent, with colored strikeouts and insertions). As you might guess, the “parser” was a bunch of regex. It mostly worked. <a href="#fnref:3" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:1" role="doc-endnote">
+      <p>Michigan put everyone through the C++ wringer for the first couple years…. I spent every semester waiting for c++2a (now c++20) <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:4" role="doc-endnote">
+      <p>v2, if that matters <a href="#fnref:4" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>]]></content><author><name>hejohns</name><email>(hejohns)α(umich)δ(edu)</email></author></entry><entry><title type="html">rasterizing pdfs, among other things</title><link href="https://hejohns.github.io/2023/04/14/rasterize-pdfs.html" rel="alternate" type="text/html" title="rasterizing pdfs, among other things" /><published>2023-04-14T00:00:00-04:00</published><updated>2023-04-15T21:26:32-04:00</updated><id>https://hejohns.github.io/2023/04/14/rasterize-pdfs</id><content type="html" xml:base="https://hejohns.github.io/2023/04/14/rasterize-pdfs.html"><![CDATA[<ul id="markdown-toc">
   <li><a href="#rasterizingsetting-a-pdf" id="markdown-toc-rasterizingsetting-a-pdf">rasterizing/”setting” a pdf</a></li>
 </ul>
 
@@ -83,8 +237,8 @@ But they also didn’t look at the video<sup id="fnref:1" role="doc-noteref"><a 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Cd9Tq7s_BhQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
 
-<style> .pdf-embed-wrap-d8d1775b-64e0-4adc-98de-0a1323882381 { display: flex; flex-direction: column; width: 100%; height: 650px; } .pdf-embed-container-d8d1775b-64e0-4adc-98de-0a1323882381 { height: 100%; } .pdf-link-d8d1775b-64e0-4adc-98de-0a1323882381 { background-color: white; text-align: center; border-style: solid; } .pdf-embed-container-d8d1775b-64e0-4adc-98de-0a1323882381 iframe { width: 100%; height: 100%; } </style>
-<div class="pdf-embed-wrap-d8d1775b-64e0-4adc-98de-0a1323882381"> <div class="pdf-link-d8d1775b-64e0-4adc-98de-0a1323882381"> <a href="/files/101-gsi-application.pdf" target="_blank">View PDF</a> </div> <div class="pdf-embed-container-d8d1775b-64e0-4adc-98de-0a1323882381"> <iframe src="/files/101-gsi-application.pdf" frameborder="0" allowfullscreen=""></iframe> </div> </div>
+<style> .pdf-embed-wrap-52edd717-c3c1-4df6-a4b8-8f828fda87fb { display: flex; flex-direction: column; width: 100%; height: 650px; } .pdf-embed-container-52edd717-c3c1-4df6-a4b8-8f828fda87fb { height: 100%; } .pdf-link-52edd717-c3c1-4df6-a4b8-8f828fda87fb { background-color: white; text-align: center; border-style: solid; } .pdf-embed-container-52edd717-c3c1-4df6-a4b8-8f828fda87fb iframe { width: 100%; height: 100%; } </style>
+<div class="pdf-embed-wrap-52edd717-c3c1-4df6-a4b8-8f828fda87fb"> <div class="pdf-link-52edd717-c3c1-4df6-a4b8-8f828fda87fb"> <a href="/files/101-gsi-application.pdf" target="_blank">View PDF</a> </div> <div class="pdf-embed-container-52edd717-c3c1-4df6-a4b8-8f828fda87fb"> <iframe src="/files/101-gsi-application.pdf" frameborder="0" allowfullscreen=""></iframe> </div> </div>
 <h2 id="eecs-376-f23">EECS 376 (F23)</h2>
 
 <h3 id="too-long-version">too long version</h3>

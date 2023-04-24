@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>some remarks apropos scripting | hejohns’ jekyll site</title>
+<meta name="generator" content="Jekyll v4.3.2" />
+<meta property="og:title" content="some remarks apropos scripting" />
+<meta name="author" content="hejohns" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="a pure waste of space" />
+<meta property="og:description" content="a pure waste of space" />
+<link rel="canonical" href="https://hejohns.github.io/2023/04/23/scripting.html" />
+<meta property="og:url" content="https://hejohns.github.io/2023/04/23/scripting.html" />
+<meta property="og:site_name" content="hejohns’ jekyll site" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2023-04-23T00:00:00-04:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="some remarks apropos scripting" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"hejohns"},"dateModified":"2023-04-24T00:11:55-04:00","datePublished":"2023-04-23T00:00:00-04:00","description":"a pure waste of space","headline":"some remarks apropos scripting","mainEntityOfPage":{"@type":"WebPage","@id":"https://hejohns.github.io/2023/04/23/scripting.html"},"url":"https://hejohns.github.io/2023/04/23/scripting.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://hejohns.github.io/feed.xml" title="hejohns&apos; jekyll site" />  <!-- see: -->
+  <!-- https://codewrites.me/jekyll/katex/blog/2020/08/26/use-katex-gh-pages/ -->
+  <!-- https://www.xuningyang.com/blog/2021-01-11-katex-with-jekyll/ -->
+  <!-- and adjusted according to minima layout -->
+
+  <!--KaTeX-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js" integrity="sha384-g7c+Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI+sEnkvrMWph2EDg4" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js" integrity="sha384-mll67QQFJfxn0IYznZYonOWZ644AWYC+Pt2cHqMaRhXVrursRwvLnLaebdGIlYNa" crossorigin="anonymous"></script>
+  <script>
+      document.addEventListener("DOMContentLoaded", function() {
+          renderMathInElement(document.body, {
+              // ...options...
+          });
+      });
+  </script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">hejohns&#39; jekyll site</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about.html">about</a><a class="page-link" href="/reviews.html">reviews</a><a class="page-link" href="/etc.html">etc</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+          <h3>
+            page version: April 24, 2023
+          </h3>
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">some remarks apropos scripting</h1>
+    <p class="post-meta"><time class="dt-published" datetime="2023-04-23T00:00:00-04:00" itemprop="datePublished">
+        original date: Apr 23, 2023
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <ul id="markdown-toc">
+  <li><a href="#perl" id="markdown-toc-perl">Perl</a>    <ul>
+      <li><a href="#the-good" id="markdown-toc-the-good">the good</a></li>
+      <li><a href="#the-bad" id="markdown-toc-the-bad">the bad</a></li>
+      <li><a href="#the-ugly" id="markdown-toc-the-ugly">the ugly</a></li>
+      <li><a href="#profiling" id="markdown-toc-profiling">profiling</a></li>
+    </ul>
+  </li>
+  <li><a href="#ruby" id="markdown-toc-ruby">Ruby</a>    <ul>
+      <li><a href="#rbenv-bundler-solargraph-and-the-seven-dwarves" id="markdown-toc-rbenv-bundler-solargraph-and-the-seven-dwarves">rbenv, bundler, solargraph, and the seven dwarves</a></li>
+      <li><a href="#parallel" id="markdown-toc-parallel">parallel</a></li>
+      <li><a href="#jruby" id="markdown-toc-jruby">JRuby</a></li>
+    </ul>
+  </li>
+</ul>
+
+<p>The following is a mix between a (personal) wiki and a post</p>
+
+<h2 id="perl">Perl</h2>
+
+<h3 id="the-good">the good</h3>
+<ul>
+  <li>I admit that I tend to proselytize Perl for text scripting.
+Part of it is because I do find it ergonomic for simple text scripts–
+my policy is that it’s great for &lt;100 line scripts. And stay away from the OO–,
+but also because I think people tend to cast aside perfectly functional tools or ideas that are perceived to be <em>old</em>.
+I’m a bit of a stalwart on this point.
+I refuse to use <code class="language-plaintext highlighter-rouge">tmux</code> over GNU <code class="language-plaintext highlighter-rouge">screen</code>, unless I specifically need a feature one has that the other doesn’t.
+Looking backwards too much has it’s own share of problems,
+but as far as scripting goes, I stand by that Perl is a solid tool.</li>
+  <li>ok, but specifically:</li>
+  <li>the $calar-@rray-%ash distinction is quite nice. It’s far from (rich) static types, but it’s better than nothing.
+I suppose nowadays other languages like Python and Ruby have static analyzers, but I don’t have any experience there unfortunately.</li>
+  <li>people always say that CPAN has some really good modules.
+A short list:
+    <ul>
+      <li>CSV (<a href="https://metacpan.org/pod/Text::CSV">Text::CSV</a>)</li>
+      <li>JSON (<a href="https://metacpan.org/pod/JSON">JSON</a>)<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">1</a></sup></li>
+      <li>scripting subprocesses (<a href="https://metacpan.org/pod/IPC::Run">IPC::Run</a>, <a href="https://metacpan.org/pod/Capture::Tiny">Capture::Tiny</a>).
+  Comparable to Ruby’s <a href="https://docs.ruby-lang.org/en/master/Open3.html">Open3</a> gem</li>
+      <li>terminal input (<a href="https://metacpan.org/pod/IO::Prompter">IO::Prompter</a>)</li>
+    </ul>
+  </li>
+</ul>
+
+<ul>
+  <li>the backwards compatibility is superb.
+Like Windows, backwards compatibility has long been a high priority for Perl,
+and people will argue about the merits or demerits, but when something works (well), it’s nice when it stays that way.</li>
+  <li>I have to toss in everyone’s favorite: <em>Perl regex</em>.
+Regexes are almost never the right tool, but as a hack, they’re almost always almost enough.<sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote" rel="footnote">2</a></sup></li>
+</ul>
+
+<h3 id="the-bad">the bad</h3>
+<ul>
+  <li>the parallelism story is… sad.
+The only choice seems to be fork (<a href="https://metacpan.org/pod/Parallel::ForkManager">Parallel::ForkManager</a>).
+<a href="https://metacpan.org/pod/Parallel::ForkManager">Perl threads</a> (see <code class="language-plaintext highlighter-rouge">man perlthrtut</code>) are “discouraged”, and there doesn’t seem to be much on CPAN.
+For <a href="https://github.com/eecs490/gradescope-utils">Gradescope-Utils</a>, I ended up turning to <a href="#parallel">Ruby</a>.
+In any case, this is probably a good thing.
+Who in their right mind is writing a concurrent/parallel perl script?</li>
+</ul>
+
+<h3 id="the-ugly">the ugly</h3>
+<ul>
+  <li>every now and then, the omission or inclusion of (parentheses) changes the parse in an unexpected ways.
+You eventually get used to it, but the error messages are hard to understand w/o experience.
+Not as spammy as C++ stl errors<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">3</a></sup>, but at the same level of wtf.</li>
+</ul>
+
+<h3 id="profiling">profiling</h3>
+<p>Now, I have to say that if you find yourself trying to profile a perl script,
+you’ve made a wrong turn in life.
+That said, having gone through the experience myself, some notes:</p>
+
+<ul>
+  <li>it seems like the standard profiler is <a href="https://metacpan.org/pod/Devel::NYTProf">NYTProf</a> (apparently, some folks at the Times banged it up)</li>
+  <li>you may need to install w/ <code class="language-plaintext highlighter-rouge">cpanm Devel::NYTProf</code></li>
+  <li>standard invocation is <code class="language-plaintext highlighter-rouge">perl -d:NYTProf script.pl</code></li>
+  <li><code class="language-plaintext highlighter-rouge">nytprofhtml</code> generates some html to nytprof/ (or <code class="language-plaintext highlighter-rouge">nytprofhtml -o dir/</code>)</li>
+  <li>open it in your browser.
+Here’s some <a href="/assets/nytprof/index.html">sample output</a>.</li>
+</ul>
+
+<p>That is, NYTProf is <em>very</em> good.
+And the above sample is “real”.
+Yes, I had to wait 14 hours for one of the Gradescope-Utils scripts to finish on some student data I had to upload.</p>
+
+<p><strong>Exercise:</strong> what in the world is that script doing?</p>
+
+<h2 id="ruby">Ruby</h2>
+<h3 id="rbenv-bundler-solargraph-and-the-seven-dwarves">rbenv, bundler, solargraph, and the seven dwarves</h3>
+<p>Ruby has so many tools I often forget what I’m supposed to use.
+Here’s what I’ve been doing:</p>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">rbenv</code> to manage ruby versions, and set local versions. Seems to work well. Think <code class="language-plaintext highlighter-rouge">ghcup</code>, but with local versions as well. And no TUI that segfaults every three seconds.
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">jruby</code> can’t use native gems, but otherwise seems to work quite well.
+  That said, I haven’t gotten a change to really use it since I seem to keep needing native gems.</li>
+    </ul>
+  </li>
+  <li><code class="language-plaintext highlighter-rouge">bundler</code> to manager per project gem dependencies. Think <code class="language-plaintext highlighter-rouge">cabal</code><sup id="fnref:4" role="doc-noteref"><a href="#fn:4" class="footnote" rel="footnote">4</a></sup>.
+    <ul>
+      <li>and <code class="language-plaintext highlighter-rouge">bundler config set --local path 'vendor/bundle'</code>. From the Jekyll documentation.</li>
+      <li>and call everything with <code class="language-plaintext highlighter-rouge">bundler exec cmd</code>, to run <code class="language-plaintext highlighter-rouge">cmd</code> in the bundler ENV.</li>
+    </ul>
+  </li>
+  <li><code class="language-plaintext highlighter-rouge">solargraph</code> is the language server. Think HLS (ie <code class="language-plaintext highlighter-rouge">haskell-language-server-wrapper</code>).
+    <ul>
+      <li>at least I’ve been <code class="language-plaintext highlighter-rouge">bundler add solargraph</code> to the local directory,
+  and <code class="language-plaintext highlighter-rouge">bundler exec solargraph stdio</code> for the language server.
+  Could mess around with global installs.</li>
+    </ul>
+  </li>
+  <li>TODO: <code class="language-plaintext highlighter-rouge">yard</code> is the documentation generator?
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">solargraph</code> needs <code class="language-plaintext highlighter-rouge">yard gems</code> or <code class="language-plaintext highlighter-rouge">bundler exec yard gems</code>? Whenever you add gems?</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="parallel"><a href="https://github.com/grosser/parallel">parallel</a></h3>
+<p>Parallel map. Works well. ‘nuff said.</p>
+
+<p>Everyone needs parallel map.</p>
+
+<h3 id="jruby">JRuby</h3>
+<p>TODO:
+<code class="language-plaintext highlighter-rouge">jrubyc</code> might actually work?</p>
+
+<ul>
+  <li>download the JRuby Complete .jar from the downloads page</li>
+  <li><code class="language-plaintext highlighter-rouge">jrubyc</code> produces a .class file</li>
+  <li><code class="language-plaintext highlighter-rouge">java</code> the .class file with the Complete .jar in the class path</li>
+</ul>
+
+<hr />
+
+<p><a href="https://github.com/grosser/parallel"></a></p>
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:2" role="doc-endnote">
+      <p>in fact, JSON datatypes map to the Perl primitives very smoothly <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:3" role="doc-endnote">
+      <p>the most egregious thing I’ve ever seen was– and I won’t name names– a perl script that git diff ‘d two latex files and inserted color commands for a colored pdf diff (as in the output was a pdf of the common parent, with colored strikeouts and insertions). As you might guess, the “parser” was a bunch of regex. It mostly worked. <a href="#fnref:3" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:1" role="doc-endnote">
+      <p>Michigan put everyone through the C++ wringer for the first couple years…. I spent every semester waiting for c++2a (now c++20) <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:4" role="doc-endnote">
+      <p>v2, if that matters <a href="#fnref:4" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+  </div><!-- use minima's column styling since I don't know css -->
+  <div class="footer-col-wrapper">
+      <div class="footer-col"><a href="/2023/04/14/rasterize-pdfs.html">prev</a></div>
+      <div class="footer-col">
+        <h2> related </h2>
+        <ul><li><a href="/site-construction/2023/04/05/welcome-to-jekyll.html">Welcome to Jekyll!,</a></li><li><a href="/2023/04/10/miserliness.html">funny sayings,</a></li><li><a href="/site-construction/2023/04/05/katex-test.html">latex with katex,</a></li><li><a href="/2023/04/14/rasterize-pdfs.html">rasterizing pdfs, among other things,</a></li><li><a href="/site-construction/2023/04/05/last-modified-time-test.html">getting page last modified time,</a></li><li><a href="/site-construction/2023/04/05/page-sorting.html">sorting the page links in the top right header,</a></li><li><a href="/2023/04/09/gsi-applications.html">my gsi application videos,</a></li><li><a href="/site-construction/2023/04/07/underscore-plugins.html">this jekyll site&#39;s _plugins,</a></li></ul>
+      </div>
+      <div class="footer-col"></div>
+  </div>
+
+  <a class="u-url" href="/2023/04/23/scripting.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <!-- I don't need this
+        <p class="feed-subscribe">
+          <a href="https://hejohns.github.io/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+        -->
+        <ul class="contact-list">
+          <li class="p-name">hejohns</li>
+          <li><a class="u-email" href="mailto:(hejohns)α(umich)δ(edu)">(hejohns)α(umich)δ(edu)</a></li>
+            <li>(the answer is yes, you should.)</li>
+        </ul>
+        <!-- add last-modified-time -->
+        <p>site version: 2023-04-24</p>
+      </div>
+      <div class="footer-col">
+        <p>a pure waste of space</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"><li>
+  <a rel="me" href="https://github.com/hejohns" target="_blank" title="github">
+    <svg class="svg-icon grey">
+      <use xlink:href="/assets/minima-social-icons.svg#github"></use>
+    </svg>
+  </a>
+</li>
+</ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
