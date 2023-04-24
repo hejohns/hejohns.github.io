@@ -88,7 +88,7 @@ Here's what I've been doing:
     Could mess around with global installs.
 - TODO: `yard` is the documentation generator?
     - `solargraph` needs `yard gems` or `bundler exec yard gems`? Whenever you add gems?
-- `irb` for a repl. Think `cabal repl`
+- `irb` is a repl, but you probably want to run `bundler console` instead for the gem environment. Think `cabal repl` instead of `ghci`.
 
 [^4]: v2, if that matters
 
