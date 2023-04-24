@@ -88,6 +88,7 @@ Here's what I've been doing:
     Could mess around with global installs.
 - TODO: `yard` is the documentation generator?
     - `solargraph` needs `yard gems` or `bundler exec yard gems`? Whenever you add gems?
+- `irb` for a repl. Think `cabal repl`
 
 [^4]: v2, if that matters
 
@@ -97,12 +98,16 @@ Parallel map. Works well. 'nuff said.
 Everyone needs parallel map.
 
 ### JRuby
-TODO:
-`jrubyc` might actually work?
+`jrubyc` doesn't seem to handle command line arguments properly,
+but then again what's the point of compiling ruby to JVM bytecode?
+## Haskell
+Haskell isn't exactly a goto scripting language,
+but sometimes you really want types.
+### command line parsing
+[optparse-generic](https://hackage.haskell.org/package/optparse-generic) works like a charm.
+I wish I had this everywhere.
 
-- download the JRuby Complete .jar from the downloads page
-- `jrubyc` produces a .class file
-- `java` the .class file with the Complete .jar in the class path
+I won't besmear the other arg parsers on Hackage, but if optparse-generic is an option, I'm using it.
 
 ---
 

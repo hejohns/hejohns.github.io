@@ -81,6 +81,10 @@
       <li><a href="#jruby" id="markdown-toc-jruby">JRuby</a></li>
     </ul>
   </li>
+  <li><a href="#haskell" id="markdown-toc-haskell">Haskell</a>    <ul>
+      <li><a href="#command-line-parsing" id="markdown-toc-command-line-parsing">command line parsing</a></li>
+    </ul>
+  </li>
 </ul>
 
 <p>The following is a mix between a (personal) wiki and a post</p>
@@ -186,6 +190,7 @@ Here’s what I’ve been doing:</p>
       <li><code class="language-plaintext highlighter-rouge">solargraph</code> needs <code class="language-plaintext highlighter-rouge">yard gems</code> or <code class="language-plaintext highlighter-rouge">bundler exec yard gems</code>? Whenever you add gems?</li>
     </ul>
   </li>
+  <li><code class="language-plaintext highlighter-rouge">irb</code> for a repl. Think <code class="language-plaintext highlighter-rouge">cabal repl</code></li>
 </ul>
 
 <h3 id="parallel"><a href="https://github.com/grosser/parallel">parallel</a></h3>
@@ -194,14 +199,16 @@ Here’s what I’ve been doing:</p>
 <p>Everyone needs parallel map.</p>
 
 <h3 id="jruby">JRuby</h3>
-<p>TODO:
-<code class="language-plaintext highlighter-rouge">jrubyc</code> might actually work?</p>
+<p><code class="language-plaintext highlighter-rouge">jrubyc</code> doesn’t seem to handle command line arguments properly,
+but then again what’s the point of compiling ruby to JVM bytecode?</p>
+<h2 id="haskell">Haskell</h2>
+<p>Haskell isn’t exactly a goto scripting language,
+but sometimes you really want types.</p>
+<h3 id="command-line-parsing">command line parsing</h3>
+<p><a href="https://hackage.haskell.org/package/optparse-generic">optparse-generic</a> works like a charm.
+I wish I had this everywhere.</p>
 
-<ul>
-  <li>download the JRuby Complete .jar from the downloads page</li>
-  <li><code class="language-plaintext highlighter-rouge">jrubyc</code> produces a .class file</li>
-  <li><code class="language-plaintext highlighter-rouge">java</code> the .class file with the Complete .jar in the class path</li>
-</ul>
+<p>I won’t besmear the other arg parsers on Hackage, but if optparse-generic is an option, I’m using it.</p>
 
 <hr />
 

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://hejohns.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hejohns.github.io/" rel="alternate" type="text/html" /><updated>2023-04-24T00:27:43-04:00</updated><id>https://hejohns.github.io/feed.xml</id><title type="html">hejohns’ jekyll site</title><subtitle>a pure waste of space</subtitle><author><name>hejohns</name><email>(hejohns)α(umich)δ(edu)</email></author><entry><title type="html">some remarks apropos scripting</title><link href="https://hejohns.github.io/2023/04/23/scripting.html" rel="alternate" type="text/html" title="some remarks apropos scripting" /><published>2023-04-23T00:00:00-04:00</published><updated>2023-04-24T00:12:44-04:00</updated><id>https://hejohns.github.io/2023/04/23/scripting</id><content type="html" xml:base="https://hejohns.github.io/2023/04/23/scripting.html"><![CDATA[<ul id="markdown-toc">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://hejohns.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hejohns.github.io/" rel="alternate" type="text/html" /><updated>2023-04-24T18:29:51-04:00</updated><id>https://hejohns.github.io/feed.xml</id><title type="html">hejohns’ jekyll site</title><subtitle>a pure waste of space</subtitle><author><name>hejohns</name><email>(hejohns)α(umich)δ(edu)</email></author><entry><title type="html">some remarks apropos scripting</title><link href="https://hejohns.github.io/2023/04/23/scripting.html" rel="alternate" type="text/html" title="some remarks apropos scripting" /><published>2023-04-23T00:00:00-04:00</published><updated>2023-04-24T00:12:44-04:00</updated><id>https://hejohns.github.io/2023/04/23/scripting</id><content type="html" xml:base="https://hejohns.github.io/2023/04/23/scripting.html"><![CDATA[<ul id="markdown-toc">
   <li><a href="#perl" id="markdown-toc-perl">Perl</a>    <ul>
       <li><a href="#the-good" id="markdown-toc-the-good">the good</a></li>
       <li><a href="#the-bad" id="markdown-toc-the-bad">the bad</a></li>
@@ -10,6 +10,10 @@
       <li><a href="#rbenv-bundler-solargraph-and-the-seven-dwarves" id="markdown-toc-rbenv-bundler-solargraph-and-the-seven-dwarves">rbenv, bundler, solargraph, and the seven dwarves</a></li>
       <li><a href="#parallel" id="markdown-toc-parallel">parallel</a></li>
       <li><a href="#jruby" id="markdown-toc-jruby">JRuby</a></li>
+    </ul>
+  </li>
+  <li><a href="#haskell" id="markdown-toc-haskell">Haskell</a>    <ul>
+      <li><a href="#command-line-parsing" id="markdown-toc-command-line-parsing">command line parsing</a></li>
     </ul>
   </li>
 </ul>
@@ -117,6 +121,7 @@ Here’s what I’ve been doing:</p>
       <li><code class="language-plaintext highlighter-rouge">solargraph</code> needs <code class="language-plaintext highlighter-rouge">yard gems</code> or <code class="language-plaintext highlighter-rouge">bundler exec yard gems</code>? Whenever you add gems?</li>
     </ul>
   </li>
+  <li><code class="language-plaintext highlighter-rouge">irb</code> for a repl. Think <code class="language-plaintext highlighter-rouge">cabal repl</code></li>
 </ul>
 
 <h3 id="parallel"><a href="https://github.com/grosser/parallel">parallel</a></h3>
@@ -125,14 +130,16 @@ Here’s what I’ve been doing:</p>
 <p>Everyone needs parallel map.</p>
 
 <h3 id="jruby">JRuby</h3>
-<p>TODO:
-<code class="language-plaintext highlighter-rouge">jrubyc</code> might actually work?</p>
+<p><code class="language-plaintext highlighter-rouge">jrubyc</code> doesn’t seem to handle command line arguments properly,
+but then again what’s the point of compiling ruby to JVM bytecode?</p>
+<h2 id="haskell">Haskell</h2>
+<p>Haskell isn’t exactly a goto scripting language,
+but sometimes you really want types.</p>
+<h3 id="command-line-parsing">command line parsing</h3>
+<p><a href="https://hackage.haskell.org/package/optparse-generic">optparse-generic</a> works like a charm.
+I wish I had this everywhere.</p>
 
-<ul>
-  <li>download the JRuby Complete .jar from the downloads page</li>
-  <li><code class="language-plaintext highlighter-rouge">jrubyc</code> produces a .class file</li>
-  <li><code class="language-plaintext highlighter-rouge">java</code> the .class file with the Complete .jar in the class path</li>
-</ul>
+<p>I won’t besmear the other arg parsers on Hackage, but if optparse-generic is an option, I’m using it.</p>
 
 <hr />
 
@@ -233,8 +240,8 @@ But they also didn’t look at the video<sup id="fnref:1" role="doc-noteref"><a 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Cd9Tq7s_BhQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
 
-<style> .pdf-embed-wrap-57d9a616-3f0b-420b-bfc6-a950d1382606 { display: flex; flex-direction: column; width: 100%; height: 650px; } .pdf-embed-container-57d9a616-3f0b-420b-bfc6-a950d1382606 { height: 100%; } .pdf-link-57d9a616-3f0b-420b-bfc6-a950d1382606 { background-color: white; text-align: center; border-style: solid; } .pdf-embed-container-57d9a616-3f0b-420b-bfc6-a950d1382606 iframe { width: 100%; height: 100%; } </style>
-<div class="pdf-embed-wrap-57d9a616-3f0b-420b-bfc6-a950d1382606"> <div class="pdf-link-57d9a616-3f0b-420b-bfc6-a950d1382606"> <a href="/files/101-gsi-application.pdf" target="_blank">View PDF</a> </div> <div class="pdf-embed-container-57d9a616-3f0b-420b-bfc6-a950d1382606"> <iframe src="/files/101-gsi-application.pdf" frameborder="0" allowfullscreen=""></iframe> </div> </div>
+<style> .pdf-embed-wrap-fe5805be-b3b4-4e89-8407-fb1c9040cd23 { display: flex; flex-direction: column; width: 100%; height: 650px; } .pdf-embed-container-fe5805be-b3b4-4e89-8407-fb1c9040cd23 { height: 100%; } .pdf-link-fe5805be-b3b4-4e89-8407-fb1c9040cd23 { background-color: white; text-align: center; border-style: solid; } .pdf-embed-container-fe5805be-b3b4-4e89-8407-fb1c9040cd23 iframe { width: 100%; height: 100%; } </style>
+<div class="pdf-embed-wrap-fe5805be-b3b4-4e89-8407-fb1c9040cd23"> <div class="pdf-link-fe5805be-b3b4-4e89-8407-fb1c9040cd23"> <a href="/files/101-gsi-application.pdf" target="_blank">View PDF</a> </div> <div class="pdf-embed-container-fe5805be-b3b4-4e89-8407-fb1c9040cd23"> <iframe src="/files/101-gsi-application.pdf" frameborder="0" allowfullscreen=""></iframe> </div> </div>
 <h2 id="eecs-376-f23">EECS 376 (F23)</h2>
 
 <h3 id="too-long-version">too long version</h3>
