@@ -85,22 +85,19 @@ known
 <p>which is apparently some postscript error or incompatibility with the printer.</p>
 
 <ul>
-  <li>
-    <p><a href="https://superuser.com/a/1489923">rasterize pdf</a></p>
-
-    <p>pdf2djvu -d 1200 input.pdf &gt; output.djvu</p>
-  </li>
+  <li><a href="https://superuser.com/a/1489923">rasterize pdf</a></li>
 </ul>
+
+<figure class="highlight"><pre><code class="language-sh" data-lang="sh">    pdf2djvu <span class="nt">-d</span> 1200 input.pdf <span class="o">&gt;</span> output.djvu</code></pre></figure>
 
 <p>I don’t know how low for density (&lt;300?) is too blurry or too high unnecessary (&gt;1200?)</p>
 
 <ul>
-  <li>
-    <p><a href="https://superuser.com/a/100573">and convert back to pdf for printing</a></p>
-
-    <p>ddjvu -format=pdf output.djvu output.pdf</p>
-  </li>
+  <li><a href="https://superuser.com/a/100573">and convert back to pdf for printing</a></li>
 </ul>
+
+<figure class="highlight"><pre><code class="language-sh" data-lang="sh">    ddjvu <span class="nt">-format</span><span class="o">=</span>pdf output.djvu output.pdf</code></pre></figure>
+
 
   </div><!-- use minima's column styling since I don't know css -->
   <div class="footer-col-wrapper">
