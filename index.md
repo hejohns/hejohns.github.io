@@ -6,5 +6,6 @@ layout: home
 ---
 # home
 
-Some text on the landing page
+TODO: Some text on the landing page
 
+---
