@@ -4,8 +4,4 @@
 
 layout: home
 ---
-# home
-
 TODO: Some text on the landing page
-
----

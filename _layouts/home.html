@@ -7,7 +7,24 @@ layout: base
     <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
 
-  {{ content }}
+  <div style="display: flex; flex-wrap: wrap">
+    <div style="flex: 70%">
+      <h1> home </h1>
+
+      {{ content }}
+    </div>
+    <div style="flex: 5%">
+    </div>
+    <div style="flex: 25%">
+      <div style="align-items: center">
+        <ul>
+          <li><a class="page-link" href="/categories"> posts by category </a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <hr>
 
   <h1> posts </h1>
 

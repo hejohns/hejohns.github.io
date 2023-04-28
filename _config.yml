@@ -51,6 +51,7 @@ plugins:
   - jekyll-last-modified-at
   - jekyll-pdf-embed
   - jekyll-sitemap
+  - jekyll-archives
 
 minima:
   # Minima date format.
@@ -78,22 +79,24 @@ minima:
   #   - { platform: youtube,        user_url: "https://www.youtube.com/jekyll" }
   skin: solarized-light
 
-# more minima configuration
-header_pages:
-  - about.md
-  - reviews.md
-  - etc.md
-show_excerpts: true
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    tag: '/tag/:name/'
 
 # If you want to link only specific pages in your header, uncomment this and add the path to the pages in
 # order as they should show up.
 #
-# header_pages:
-#   - about.md
+header_pages:
+  - about.md
+  - reviews.md
+  - etc.md
 
 # Set to `true` to show excerpts on the homepage.
 #
-# show_excerpts: false
+show_excerpts: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
