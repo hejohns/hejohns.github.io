@@ -14,7 +14,7 @@ And as long as github pages is a thing, the site is up [here](https://hejohns.gi
 
 I've amalgamated too much of the internet to keep track of what came from where
 (apropos jekyll site construction),
-but I'm trying to reference as much as possible in the `site-construction` posts.
+but I'm trying to reference as much as possible in the [site-construction](/category/site-construction) posts.
 
 ### specs
 made w/
