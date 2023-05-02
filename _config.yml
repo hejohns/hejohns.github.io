@@ -91,6 +91,7 @@ jekyll-archives:
 #
 header_pages:
   - about.md
+  - posts.md
   - reviews.md
   - etc.md
 
