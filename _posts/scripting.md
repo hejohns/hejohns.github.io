@@ -78,7 +78,7 @@ Ruby has so many tools I often forget what I'm supposed to use.
 Here's what I've been doing:
 - `rbenv` to manage ruby versions, and set local versions. Seems to work well. Think `ghcup`, but with local versions as well. And no TUI that segfaults every three seconds.
     - `jruby` can't use native gems, but otherwise seems to work quite well.
-    That said, I haven't gotten a change to really use it since I seem to keep needing native gems.
+    That said, I haven't gotten a chance to really use it since I seem to keep needing native gems.
 - `bundler` to manager per project gem dependencies. Think `cabal`[^4].
     - and `bundler config set --local path 'vendor/bundle'`. From the Jekyll documentation.
     - and call everything with `bundler exec cmd`, to run `cmd` in the bundler ENV.
