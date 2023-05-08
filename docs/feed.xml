@@ -1,4 +1,15 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://hejohns.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hejohns.github.io/" rel="alternate" type="text/html" /><updated>2023-05-02T03:09:59-04:00</updated><id>https://hejohns.github.io/feed.xml</id><title type="html">hejohns’ jekyll site</title><subtitle>a pure waste of space</subtitle><author><name>hejohns</name><email>(hejohns)α(umich)δ(edu)</email></author><entry><title type="html">chili oil</title><link href="https://hejohns.github.io/2023/05/02/chili-oil.html" rel="alternate" type="text/html" title="chili oil" /><published>2023-05-02T00:00:00-04:00</published><updated>2023-05-02T02:31:47-04:00</updated><id>https://hejohns.github.io/2023/05/02/chili-oil</id><content type="html" xml:base="https://hejohns.github.io/2023/05/02/chili-oil.html"><![CDATA[<p>since I always manage to forget something so simple:</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://hejohns.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hejohns.github.io/" rel="alternate" type="text/html" /><updated>2023-05-08T00:15:14-04:00</updated><id>https://hejohns.github.io/feed.xml</id><title type="html">hejohns’ jekyll site</title><subtitle>a pure waste of space</subtitle><author><name>hejohns</name><email>(hejohns)α(umich)δ(edu)</email></author><entry><title type="html">shelving studying nonstandard analysis</title><link href="https://hejohns.github.io/2023/05/07/nonstandard-analysis.html" rel="alternate" type="text/html" title="shelving studying nonstandard analysis" /><published>2023-05-07T00:00:00-04:00</published><updated>2023-05-08T00:07:32-04:00</updated><id>https://hejohns.github.io/2023/05/07/nonstandard-analysis</id><content type="html" xml:base="https://hejohns.github.io/2023/05/07/nonstandard-analysis.html"><![CDATA[<p>(personal record keeping)</p>
+
+<p>I’ve whiled away my chances last semester to take a close look at nonstandard analysis while I had the time,
+and now I can no longer set aside focus for it in good conscience.
+With pressing matters of higher priority, I formally declare, with great regret,
+an indefinite hiatus of this project, marked by the returning of Goldblatt’s book.</p>
+
+<p>It was an excellent time to study nonstandard analysis,
+on the tails of the excellent model theory class and continuous logic seminar,
+but the model theoretic background seems low enough that picking Goldblatt’s book back up should be smooth.</p>
+
+<p>Alas. One day. One day.</p>]]></content><author><name>hejohns</name><email>(hejohns)α(umich)δ(edu)</email></author><summary type="html"><![CDATA[(personal record keeping)]]></summary></entry><entry><title type="html">chili oil</title><link href="https://hejohns.github.io/2023/05/02/chili-oil.html" rel="alternate" type="text/html" title="chili oil" /><published>2023-05-02T00:00:00-04:00</published><updated>2023-05-02T02:31:47-04:00</updated><id>https://hejohns.github.io/2023/05/02/chili-oil</id><content type="html" xml:base="https://hejohns.github.io/2023/05/02/chili-oil.html"><![CDATA[<p>since I always manage to forget something so simple:</p>
 <ul>
   <li>take the thai chili or equivalent</li>
   <li>remove stem, and remove tip as it’s prone to burning</li>
@@ -257,8 +268,8 @@ But they also didn’t look at the video<sup id="fnref:1" role="doc-noteref"><a 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Cd9Tq7s_BhQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
 
-<style> .pdf-embed-wrap-b9e800bd-af92-4e5b-9736-504c5a87e575 { display: flex; flex-direction: column; width: 100%; height: 650px; } .pdf-embed-container-b9e800bd-af92-4e5b-9736-504c5a87e575 { height: 100%; } .pdf-link-b9e800bd-af92-4e5b-9736-504c5a87e575 { background-color: white; text-align: center; border-style: solid; } .pdf-embed-container-b9e800bd-af92-4e5b-9736-504c5a87e575 iframe { width: 100%; height: 100%; } </style>
-<div class="pdf-embed-wrap-b9e800bd-af92-4e5b-9736-504c5a87e575"> <div class="pdf-link-b9e800bd-af92-4e5b-9736-504c5a87e575"> <a href="/files/101-gsi-application.pdf" target="_blank">View PDF</a> </div> <div class="pdf-embed-container-b9e800bd-af92-4e5b-9736-504c5a87e575"> <iframe src="/files/101-gsi-application.pdf" frameborder="0" allowfullscreen=""></iframe> </div> </div>
+<style> .pdf-embed-wrap-44756480-2c46-40c3-bf8c-12aa54a3353f { display: flex; flex-direction: column; width: 100%; height: 650px; } .pdf-embed-container-44756480-2c46-40c3-bf8c-12aa54a3353f { height: 100%; } .pdf-link-44756480-2c46-40c3-bf8c-12aa54a3353f { background-color: white; text-align: center; border-style: solid; } .pdf-embed-container-44756480-2c46-40c3-bf8c-12aa54a3353f iframe { width: 100%; height: 100%; } </style>
+<div class="pdf-embed-wrap-44756480-2c46-40c3-bf8c-12aa54a3353f"> <div class="pdf-link-44756480-2c46-40c3-bf8c-12aa54a3353f"> <a href="/files/101-gsi-application.pdf" target="_blank">View PDF</a> </div> <div class="pdf-embed-container-44756480-2c46-40c3-bf8c-12aa54a3353f"> <iframe src="/files/101-gsi-application.pdf" frameborder="0" allowfullscreen=""></iframe> </div> </div>
 <h2 id="eecs-376-f23">EECS 376 (F23)</h2>
 
 <h3 id="too-long-version">too long version</h3>
@@ -377,24 +388,4 @@ I should’ve looked harder– a pure waste of time.</p>
       <td>April, 06, 2023</td>
     </tr>
   </tbody>
-</table>]]></content><author><name>hejohns</name><email>(hejohns)α(umich)δ(edu)</email></author><category term="site-construction" /><summary type="html"><![CDATA[I spent way too much time mucking around with a stack overflow post and the minima source to get page modification times.]]></summary></entry><entry><title type="html">sorting the page links in the top right header</title><link href="https://hejohns.github.io/site-construction/2023/04/05/page-sorting.html" rel="alternate" type="text/html" title="sorting the page links in the top right header" /><published>2023-04-05T00:00:00-04:00</published><updated>2023-04-08T02:32:26-04:00</updated><id>https://hejohns.github.io/site-construction/2023/04/05/page-sorting</id><content type="html" xml:base="https://hejohns.github.io/site-construction/2023/04/05/page-sorting.html"><![CDATA[<p><strong>edit</strong>:
-should’ve read the minima README more carefully…</p>
-
-<p>the above does work<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>, but I’ve switched over to the intended minima way.</p>
-
-<p><strong>old</strong>:
-<a href="https://stackoverflow.com/a/25513956">this stack overflow post</a>
-explains what to do.</p>
-
-<p>summary: give each page a <code class="language-plaintext highlighter-rouge">weight: [number]</code> in the front matter,
-so the liquid template can sort them when displaying the header.
-(requires overriding the default <code class="language-plaintext highlighter-rouge">_includes/header.html</code>.
-<a href="https://github.com/hejohns/hejohns.github.io/blob/2920839b2cf4c1658c0e7dd45a1b67e1de78deb1/_includes/header.html#L4">eg</a>.)</p>
-
-<div class="footnotes" role="doc-endnotes">
-  <ol>
-    <li id="fn:1" role="doc-endnote">
-      <p>and technically works regardless of the theme, so I’m keeping this info here, in case I switch themes. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-  </ol>
-</div>]]></content><author><name>hejohns</name><email>(hejohns)α(umich)δ(edu)</email></author><category term="site-construction" /><summary type="html"><![CDATA[edit: should’ve read the minima README more carefully…]]></summary></entry></feed>
+</table>]]></content><author><name>hejohns</name><email>(hejohns)α(umich)δ(edu)</email></author><category term="site-construction" /><summary type="html"><![CDATA[I spent way too much time mucking around with a stack overflow post and the minima source to get page modification times.]]></summary></entry></feed>
