@@ -1,4 +1,36 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://hejohns.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hejohns.github.io/" rel="alternate" type="text/html" /><updated>2023-05-08T00:15:14-04:00</updated><id>https://hejohns.github.io/feed.xml</id><title type="html">hejohns’ jekyll site</title><subtitle>a pure waste of space</subtitle><author><name>hejohns</name><email>(hejohns)α(umich)δ(edu)</email></author><entry><title type="html">shelving studying nonstandard analysis</title><link href="https://hejohns.github.io/2023/05/07/nonstandard-analysis.html" rel="alternate" type="text/html" title="shelving studying nonstandard analysis" /><published>2023-05-07T00:00:00-04:00</published><updated>2023-05-08T00:07:32-04:00</updated><id>https://hejohns.github.io/2023/05/07/nonstandard-analysis</id><content type="html" xml:base="https://hejohns.github.io/2023/05/07/nonstandard-analysis.html"><![CDATA[<p>(personal record keeping)</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://hejohns.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hejohns.github.io/" rel="alternate" type="text/html" /><updated>2023-05-10T01:19:51-04:00</updated><id>https://hejohns.github.io/feed.xml</id><title type="html">hejohns’ jekyll site</title><subtitle>a pure waste of space</subtitle><author><name>hejohns</name><email>(hejohns)α(umich)δ(edu)</email></author><entry><title type="html">multiple displays and linux graphics modules</title><link href="https://hejohns.github.io/2023/05/10/linux-graphics-modules.html" rel="alternate" type="text/html" title="multiple displays and linux graphics modules" /><published>2023-05-10T00:00:00-04:00</published><updated>2023-05-10T01:19:33-04:00</updated><id>https://hejohns.github.io/2023/05/10/linux-graphics-modules</id><content type="html" xml:base="https://hejohns.github.io/2023/05/10/linux-graphics-modules.html"><![CDATA[<p>So I got a HP z2 mini g3 recently
+(to replace an existing dual monitor setup, which is relevant.
+The optiplex 780 usff and its core 2 duo E8400 is a real workhorse.),
+which has an intel xeon e3-1225 v6
+(which could actually replace the pentium G4600 in my T130…<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>)
+and a mobile nvidia quadro m620.</p>
+
+<p>The box has four display port ports in the back, along with a BIOS option to send the integrated graphics along one of the ports.
+One monitor worked fine. I only had a single display port adaptor<sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote" rel="footnote">2</a></sup>, so I had to wait until today to hook up the second monitor.</p>
+
+<p>But I ran into this strange issue where only one display port would work at a time, integrated graphics disabled,
+and when I enabled the integrated graphics to try to run two monitors 1-1, X11 completely failed to start for reasons mere mortals like myself can’t begin to comprehend.
+Apparently the red flag should of been the tons of <code class="language-plaintext highlighter-rouge">modprobe</code> ‘key rejected’ or ‘drm’ errors and the like,
+and that <code class="language-plaintext highlighter-rouge">systemctl status --failed</code> complained about <code class="language-plaintext highlighter-rouge">nvidia-persistenced</code> and whatever the kernel module loader service is<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">3</a></sup>.</p>
+
+<p>There’s probably a downside to this I should care about but it seems like <em>disabling secure boot</em> does the trick and <code class="language-plaintext highlighter-rouge">systemctl status --failed</code> no longer shows anything.</p>
+
+<p>I actually didn’t try this until I tried updating the BIOS, and one of the steps– which required loading a kernel module– failed due to the signing issue.
+I don’t understand security so I’m going w/ the wrong answer for now and just disabling all that stuff.</p>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>especially while the disposition center has the z2 mini g3 ‘s for less than what you typically find just the e3-1225 v6 for… <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:3" role="doc-endnote">
+      <p>my monitors are old. VGA always works; I guess DVI-D is alright. <a href="#fnref:3" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:2" role="doc-endnote">
+      <p>I mean… the single display worked fine with all the errors? <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>]]></content><author><name>hejohns</name><email>(hejohns)α(umich)δ(edu)</email></author><summary type="html"><![CDATA[So I got a HP z2 mini g3 recently (to replace an existing dual monitor setup, which is relevant. The optiplex 780 usff and its core 2 duo E8400 is a real workhorse.), which has an intel xeon e3-1225 v6 (which could actually replace the pentium G4600 in my T130…1) and a mobile nvidia quadro m620. especially while the disposition center has the z2 mini g3 ‘s for less than what you typically find just the e3-1225 v6 for… &#8617;]]></summary></entry><entry><title type="html">shelving studying nonstandard analysis</title><link href="https://hejohns.github.io/2023/05/07/nonstandard-analysis.html" rel="alternate" type="text/html" title="shelving studying nonstandard analysis" /><published>2023-05-07T00:00:00-04:00</published><updated>2023-05-08T00:15:36-04:00</updated><id>https://hejohns.github.io/2023/05/07/nonstandard-analysis</id><content type="html" xml:base="https://hejohns.github.io/2023/05/07/nonstandard-analysis.html"><![CDATA[<p>(personal record keeping)</p>
 
 <p>I’ve whiled away my chances last semester to take a close look at nonstandard analysis while I had the time,
 and now I can no longer set aside focus for it in good conscience.
@@ -268,8 +300,8 @@ But they also didn’t look at the video<sup id="fnref:1" role="doc-noteref"><a 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Cd9Tq7s_BhQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
 
-<style> .pdf-embed-wrap-44756480-2c46-40c3-bf8c-12aa54a3353f { display: flex; flex-direction: column; width: 100%; height: 650px; } .pdf-embed-container-44756480-2c46-40c3-bf8c-12aa54a3353f { height: 100%; } .pdf-link-44756480-2c46-40c3-bf8c-12aa54a3353f { background-color: white; text-align: center; border-style: solid; } .pdf-embed-container-44756480-2c46-40c3-bf8c-12aa54a3353f iframe { width: 100%; height: 100%; } </style>
-<div class="pdf-embed-wrap-44756480-2c46-40c3-bf8c-12aa54a3353f"> <div class="pdf-link-44756480-2c46-40c3-bf8c-12aa54a3353f"> <a href="/files/101-gsi-application.pdf" target="_blank">View PDF</a> </div> <div class="pdf-embed-container-44756480-2c46-40c3-bf8c-12aa54a3353f"> <iframe src="/files/101-gsi-application.pdf" frameborder="0" allowfullscreen=""></iframe> </div> </div>
+<style> .pdf-embed-wrap-679ebbe5-9b93-42d6-a056-cfa108c64986 { display: flex; flex-direction: column; width: 100%; height: 650px; } .pdf-embed-container-679ebbe5-9b93-42d6-a056-cfa108c64986 { height: 100%; } .pdf-link-679ebbe5-9b93-42d6-a056-cfa108c64986 { background-color: white; text-align: center; border-style: solid; } .pdf-embed-container-679ebbe5-9b93-42d6-a056-cfa108c64986 iframe { width: 100%; height: 100%; } </style>
+<div class="pdf-embed-wrap-679ebbe5-9b93-42d6-a056-cfa108c64986"> <div class="pdf-link-679ebbe5-9b93-42d6-a056-cfa108c64986"> <a href="/files/101-gsi-application.pdf" target="_blank">View PDF</a> </div> <div class="pdf-embed-container-679ebbe5-9b93-42d6-a056-cfa108c64986"> <iframe src="/files/101-gsi-application.pdf" frameborder="0" allowfullscreen=""></iframe> </div> </div>
 <h2 id="eecs-376-f23">EECS 376 (F23)</h2>
 
 <h3 id="too-long-version">too long version</h3>
@@ -365,27 +397,4 @@ f : A \to B \in \mathcal{P}B
 </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.10764em;">f</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">:</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault">A</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.72243em;vertical-align:-0.0391em;"></span><span class="mord mathdefault" style="margin-right:0.05017em;">B</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">∈</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord"><span class="mord mathcal" style="margin-right:0.08222em;">P</span></span><span class="mord mathdefault" style="margin-right:0.05017em;">B</span></span></span></span></span></p>
 
 <p>single dollar sign inside katexmm
-<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mo>:</mo><mi>A</mi><mo>→</mo><mi>B</mi><mo>∈</mo><mi mathvariant="script">P</mi><mi>B</mi></mrow><annotation encoding="application/x-tex">f : A \to B \in \mathcal{P}B</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.10764em;">f</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">:</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault">A</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.72243em;vertical-align:-0.0391em;"></span><span class="mord mathdefault" style="margin-right:0.05017em;">B</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">∈</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord"><span class="mord mathcal" style="margin-right:0.08222em;">P</span></span><span class="mord mathdefault" style="margin-right:0.05017em;">B</span></span></span></span></p>]]></content><author><name>hejohns</name><email>(hejohns)α(umich)δ(edu)</email></author><category term="site-construction" /><summary type="html"><![CDATA[I looked up something like “jekyll latex” and found some helpful resources: link1 link2]]></summary></entry><entry><title type="html">getting page last modified time</title><link href="https://hejohns.github.io/site-construction/2023/04/05/last-modified-time-test.html" rel="alternate" type="text/html" title="getting page last modified time" /><published>2023-04-05T00:00:00-04:00</published><updated>2023-04-06T17:10:52-04:00</updated><id>https://hejohns.github.io/site-construction/2023/04/05/last-modified-time-test</id><content type="html" xml:base="https://hejohns.github.io/site-construction/2023/04/05/last-modified-time-test.html"><![CDATA[<p>I spent way too much time mucking around with
-<a href="https://stackoverflow.com/a/36769049">a stack overflow post</a>
-and the minima source
-to get page modification times.</p>
-
-<p>You just need to write a simple jekyll hook to splice in a page’s mtime,
-but anyways, <a href="https://github.com/gjtorikian/jekyll-last-modified-at">jekyll-last-modified-at</a>
-does exactly that, but properly.
-I should’ve looked harder– a pure waste of time.</p>
-
-<p>eg</p>
-
-<table>
-  <tbody>
-    <tr>
-      <td>page.last_modified_at</td>
-      <td>2023-04-06 17:10:52 -0400</td>
-    </tr>
-    <tr>
-      <td>page.last_modified_at | date: ‘%B, %d, %Y’</td>
-      <td>April, 06, 2023</td>
-    </tr>
-  </tbody>
-</table>]]></content><author><name>hejohns</name><email>(hejohns)α(umich)δ(edu)</email></author><category term="site-construction" /><summary type="html"><![CDATA[I spent way too much time mucking around with a stack overflow post and the minima source to get page modification times.]]></summary></entry></feed>
+<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mo>:</mo><mi>A</mi><mo>→</mo><mi>B</mi><mo>∈</mo><mi mathvariant="script">P</mi><mi>B</mi></mrow><annotation encoding="application/x-tex">f : A \to B \in \mathcal{P}B</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.10764em;">f</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">:</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault">A</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.72243em;vertical-align:-0.0391em;"></span><span class="mord mathdefault" style="margin-right:0.05017em;">B</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">∈</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord"><span class="mord mathcal" style="margin-right:0.08222em;">P</span></span><span class="mord mathdefault" style="margin-right:0.05017em;">B</span></span></span></span></p>]]></content><author><name>hejohns</name><email>(hejohns)α(umich)δ(edu)</email></author><category term="site-construction" /><summary type="html"><![CDATA[I looked up something like “jekyll latex” and found some helpful resources: link1 link2]]></summary></entry></feed>
