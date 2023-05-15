@@ -3,22 +3,22 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>sorting the page links in the top right header | hejohns’ jekyll site</title>
+<title>moving from git to darcs | hejohns’ jekyll site</title>
 <meta name="generator" content="Jekyll v4.3.2" />
-<meta property="og:title" content="sorting the page links in the top right header" />
+<meta property="og:title" content="moving from git to darcs" />
 <meta name="author" content="hejohns" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="edit: should’ve read the minima README more carefully…" />
-<meta property="og:description" content="edit: should’ve read the minima README more carefully…" />
-<link rel="canonical" href="https://hejohns.github.io/site-construction/2023/04/05/page-sorting.html" />
-<meta property="og:url" content="https://hejohns.github.io/site-construction/2023/04/05/page-sorting.html" />
+<meta name="description" content="I played around with darcs two summers ago, but in this day and age everyone uses git so it’s just not practical when working with other people." />
+<meta property="og:description" content="I played around with darcs two summers ago, but in this day and age everyone uses git so it’s just not practical when working with other people." />
+<link rel="canonical" href="https://hejohns.github.io/site-construction/2023/05/14/darcs.html" />
+<meta property="og:url" content="https://hejohns.github.io/site-construction/2023/05/14/darcs.html" />
 <meta property="og:site_name" content="hejohns’ jekyll site" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2023-04-05T00:00:00-04:00" />
+<meta property="article:published_time" content="2023-05-14T00:00:00-04:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="sorting the page links in the top right header" />
+<meta property="twitter:title" content="moving from git to darcs" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"hejohns"},"dateModified":"2023-05-15T03:04:57-04:00","datePublished":"2023-04-05T00:00:00-04:00","description":"edit: should’ve read the minima README more carefully…","headline":"sorting the page links in the top right header","mainEntityOfPage":{"@type":"WebPage","@id":"https://hejohns.github.io/site-construction/2023/04/05/page-sorting.html"},"url":"https://hejohns.github.io/site-construction/2023/04/05/page-sorting.html"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"hejohns"},"dateModified":"2023-05-15T04:26:28-04:00","datePublished":"2023-05-14T00:00:00-04:00","description":"I played around with darcs two summers ago, but in this day and age everyone uses git so it’s just not practical when working with other people.","headline":"moving from git to darcs","mainEntityOfPage":{"@type":"WebPage","@id":"https://hejohns.github.io/site-construction/2023/05/14/darcs.html"},"url":"https://hejohns.github.io/site-construction/2023/05/14/darcs.html"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://hejohns.github.io/feed.xml" title="hejohns&apos; jekyll site" />  <!-- see: -->
   <!-- https://codewrites.me/jekyll/katex/blog/2020/08/26/use-katex-gh-pages/ -->
@@ -60,46 +60,35 @@
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">sorting the page links in the top right header</h1>
-    <p class="post-meta"><time class="dt-published" datetime="2023-04-05T00:00:00-04:00" itemprop="datePublished">
-        original date: Apr 5, 2023
+    <h1 class="post-title p-name" itemprop="name headline">moving from git to darcs</h1>
+    <p class="post-meta"><time class="dt-published" datetime="2023-05-14T00:00:00-04:00" itemprop="datePublished">
+        original date: May 14, 2023
       </time></p>
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <p><strong>edit</strong>:
-should’ve read the minima README more carefully…</p>
+    <p>I played around with <code class="language-plaintext highlighter-rouge">darcs</code> two summers ago,
+but in this day and age everyone uses <code class="language-plaintext highlighter-rouge">git</code> so it’s just not practical when working with other people.</p>
 
-<p>the above does work<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>, but I’ve switched over to the intended minima way.</p>
+<p>That said, this is my personal site and I can do whatever I want, so I’m firing darcs back up!</p>
 
-<p><strong>old</strong>:
-<a href="https://stackoverflow.com/a/25513956">this stack overflow post</a>
-explains what to do.</p>
-
-<p>summary: give each page a <code class="language-plaintext highlighter-rouge">weight: [number]</code> in the front matter,
-so the liquid template can sort them when displaying the header.
-(requires overriding the default <code class="language-plaintext highlighter-rouge">_includes/header.html</code>.
-<a href="https://github.com/hejohns/hejohns.github.io/blob/2920839b2cf4c1658c0e7dd45a1b67e1de78deb1/_includes/header.html#L4">eg</a>.)</p>
-
-<div class="footnotes" role="doc-endnotes">
-  <ol>
-    <li id="fn:1" role="doc-endnote">
-      <p>and technically works regardless of the theme, so I’m keeping this info here, in case I switch themes. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-  </ol>
-</div>
+<p>The darcs site <a href="http://darcs.net/Using/Convert">has a page</a> for converting between git and darcs and forth,
+although I couldn’t get the mark files to work,
+and when exporting from darcs to git,
+I needed to <code class="language-plaintext highlighter-rouge">sed</code> (or more precisely  <code class="language-plaintext highlighter-rouge">darcs convert export | perl -pe 's#refs/heads/trunk#refs/heads/trunk#g' | (cd ../hejohns.github.io_git-mirror/ &amp;&amp; git fast-import)</code>)
+to import into the correct git branch.</p>
 
   </div><!-- use minima's column styling since I don't know css -->
   <div class="footer-col-wrapper">
-      <div class="footer-col"><a href="/site-construction/2023/04/05/last-modified-time-test.html">prev</a></div>
+      <div class="footer-col"><a href="/2023/05/10/linux-graphics-modules.html">prev</a></div>
       <div class="footer-col">
         <h2> related </h2>
-        <ul><li><a href="/site-construction/2023/04/05/welcome-to-jekyll.html">Welcome to Jekyll!,[site-construction]</a></li><li><a href="/site-construction/2023/04/05/last-modified-time-test.html">getting page last modified time,[site-construction]</a></li><li><a href="/2023/05/07/nonstandard-analysis.html">shelving studying nonstandard analysis,[site-construction]</a></li><li><a href="/2023/04/23/scripting.html">some remarks apropos scripting,[site-construction]</a></li><li><a href="/2023/05/10/linux-graphics-modules.html">multiple displays and linux graphics modules,[site-construction]</a></li><li><a href="/site-construction/2023/04/05/katex-test.html">latex with katex,[site-construction]</a></li><li><a href="/2023/05/02/chili-oil.html">chili oil,[site-construction]</a></li><li><a href="/2023/04/10/miserliness.html">funny sayings,[site-construction]</a></li><li><a href="/2023/04/09/gsi-applications.html">my gsi application videos,[site-construction]</a></li><li><a href="/site-construction/2023/04/07/underscore-plugins.html">this jekyll site&#39;s _plugins,[site-construction]</a></li><li><a href="/site-construction/2023/05/14/darcs.html">moving from git to darcs,[site-construction]</a></li></ul>
+        <ul><li><a href="/2023/04/23/scripting.html">some remarks apropos scripting,[site-construction]</a></li><li><a href="/site-construction/2023/04/05/welcome-to-jekyll.html">Welcome to Jekyll!,[site-construction]</a></li><li><a href="/2023/05/10/linux-graphics-modules.html">multiple displays and linux graphics modules,[site-construction]</a></li><li><a href="/2023/05/07/nonstandard-analysis.html">shelving studying nonstandard analysis,[site-construction]</a></li><li><a href="/site-construction/2023/04/05/katex-test.html">latex with katex,[site-construction]</a></li><li><a href="/2023/05/02/chili-oil.html">chili oil,[site-construction]</a></li><li><a href="/2023/04/14/rasterize-pdfs.html">rasterizing pdfs, among other things,[site-construction]</a></li><li><a href="/2023/04/10/miserliness.html">funny sayings,[site-construction]</a></li><li><a href="/2023/04/09/gsi-applications.html">my gsi application videos,[site-construction]</a></li><li><a href="/site-construction/2023/04/07/underscore-plugins.html">this jekyll site&#39;s _plugins,[site-construction]</a></li><li><a href="/site-construction/2023/04/05/last-modified-time-test.html">getting page last modified time,[site-construction]</a></li></ul>
       </div>
-      <div class="footer-col"><a href="/site-construction/2023/04/05/welcome-to-jekyll.html">next</a></div>
+      <div class="footer-col"></div>
   </div>
 
-  <a class="u-url" href="/site-construction/2023/04/05/page-sorting.html" hidden></a>
+  <a class="u-url" href="/site-construction/2023/05/14/darcs.html" hidden></a>
 </article>
 
       </div>
@@ -148,3 +137,4 @@ so the liquid template can sort them when displaying the header.
 </body>
 
 </html>
+
