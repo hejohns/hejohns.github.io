@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>equivalence of categories | hejohns’ jekyll site</title>
+<meta name="generator" content="Jekyll v4.3.2" />
+<meta property="og:title" content="equivalence of categories" />
+<meta name="author" content="hejohns" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="An oft-stated characterization of an equivalence of categories is that TFAE: A functor \(F : \mathcal{C} → \mathcal{D}\) is (the forward direction of) an equivalence of categories \(F\) is full, faithful, and essentially surjective on objects1 the definitions are standard, but the way I remember it is that faithful := injective on homsets, full := surjective on homsets, eso := surjective on objects, up to isomorphism &#8617;" />
+<meta property="og:description" content="An oft-stated characterization of an equivalence of categories is that TFAE: A functor \(F : \mathcal{C} → \mathcal{D}\) is (the forward direction of) an equivalence of categories \(F\) is full, faithful, and essentially surjective on objects1 the definitions are standard, but the way I remember it is that faithful := injective on homsets, full := surjective on homsets, eso := surjective on objects, up to isomorphism &#8617;" />
+<link rel="canonical" href="https://hejohns.github.io/category-theory/2023/05/18/equivalence-of-categories.html" />
+<meta property="og:url" content="https://hejohns.github.io/category-theory/2023/05/18/equivalence-of-categories.html" />
+<meta property="og:site_name" content="hejohns’ jekyll site" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2023-05-18T00:00:00-04:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="equivalence of categories" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"hejohns"},"dateModified":"2023-05-18T21:51:35-04:00","datePublished":"2023-05-18T00:00:00-04:00","description":"An oft-stated characterization of an equivalence of categories is that TFAE: A functor \\(F : \\mathcal{C} → \\mathcal{D}\\) is (the forward direction of) an equivalence of categories \\(F\\) is full, faithful, and essentially surjective on objects1 the definitions are standard, but the way I remember it is that faithful := injective on homsets, full := surjective on homsets, eso := surjective on objects, up to isomorphism &#8617;","headline":"equivalence of categories","mainEntityOfPage":{"@type":"WebPage","@id":"https://hejohns.github.io/category-theory/2023/05/18/equivalence-of-categories.html"},"url":"https://hejohns.github.io/category-theory/2023/05/18/equivalence-of-categories.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://hejohns.github.io/feed.xml" title="hejohns&apos; jekyll site" />  <!-- see: -->
+  <!-- https://codewrites.me/jekyll/katex/blog/2020/08/26/use-katex-gh-pages/ -->
+  <!-- https://www.xuningyang.com/blog/2021-01-11-katex-with-jekyll/ -->
+  <!-- and adjusted according to minima layout -->
+
+  <!--KaTeX-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js" integrity="sha384-g7c+Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI+sEnkvrMWph2EDg4" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js" integrity="sha384-mll67QQFJfxn0IYznZYonOWZ644AWYC+Pt2cHqMaRhXVrursRwvLnLaebdGIlYNa" crossorigin="anonymous"></script>
+  <script>
+      document.addEventListener("DOMContentLoaded", function() {
+          renderMathInElement(document.body, {
+              // ...options...
+          });
+      });
+  </script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">hejohns&#39; jekyll site</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about.html">about</a><a class="page-link" href="/posts.html">posts</a><a class="page-link" href="/reviews.html">reviews</a><a class="page-link" href="/etc.html">etc</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+          <h3>
+            page version: May 18, 2023
+          </h3>
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">equivalence of categories</h1>
+    <p class="post-meta"><time class="dt-published" datetime="2023-05-18T00:00:00-04:00" itemprop="datePublished">
+        original date: May 18, 2023
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>An oft-stated characterization of an equivalence of categories is that TFAE:</p>
+<ol>
+  <li>A functor \(F : \mathcal{C} → \mathcal{D}\) is (the forward direction of) an equivalence of categories</li>
+  <li>\(F\) is <em>full</em>, <em>faithful</em>, and <em>essentially surjective on objects</em><sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup></li>
+</ol>
+
+<p><strong>pf (1 ⟹ 2):</strong> (you really need to draw the diagrams. I’m not going to try here)</p>
+
+<p>Let \(F : \mathcal{C} → \mathcal{D}\) be an equivalence of categories.</p>
+<ul>
+  <li>wts \(F\) faithful: assume \(Ff = Fg\), for \(f, g : \mathcal{C}(A, B)\).
+Then \(F⁻¹Ff = F⁻¹Fg\).
+Let \(α : 1_\mathcal{C} ⇒ F⁻¹F\) witness that F is an equivalence.
+Notice that \(α_B ∘ f = F⁻¹Ff ∘ α_A ⟹ α_B ∘ f ∘ α⁻¹_A = F⁻¹Ff\),
+and similarly \(α_B ∘ g = F⁻¹Fg ∘ α_A ⟹ α_B ∘ g ∘ α⁻¹_A = F⁻¹Fg\).
+Thus \(F⁻¹Ff = F⁻¹Fg ⟹ F⁻¹Fg ∘ α_A ⟹ α_B ∘ f ∘ α⁻¹_A = F⁻¹Fg ∘ α_A ⟹ α_B ∘ g ∘ α⁻¹_A ⟹ f = g\).<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup></li>
+</ul>
+
+<ul>
+  <li>wts \(F\) full: Consider \(h : \mathcal{D}(FA, FB)\).
+Then \(α⁻¹_B ∘ F⁻¹h ∘ α_A : \mathcal{C}(A, B)\)
+In a roundabout fashion, consider not \(F(α⁻¹_B ∘ F⁻¹h ∘ α_A)\) directly,
+but \(F⁻¹F(α⁻¹_B ∘ F⁻¹h ∘ α_A)\).
+Actually, our proof above that \(F\) is faithful is symmetric since an equivalence of categories is a symmetric notion, so \(F⁻¹\) is faithful as well.
+Notice that \(F⁻¹F(α⁻¹_B ∘ F⁻¹h ∘ α_A) = α_B ∘ f ∘ α⁻¹_A = F⁻¹h\),
+and since \(F⁻¹\) is faithful, \(F(α⁻¹_B ∘ F⁻¹h ∘ α_A) = h\).</li>
+  <li>wts \(F\) eso:
+Let \(β : FF⁻¹ ⇒ 1_\mathcal{D}\) be the other witness that \(\mathcal{C} ≅ \mathcal{D}\).
+\(∀X ∈ \mathcal{D}. β_X\) witnesses that \(FF⁻¹X ≅ X\).</li>
+</ul>
+
+<p><strong>pf (2 ⟹ 1):</strong></p>
+
+<p>Let \(F\) be fully faithful and eso.
+Define \(F⁻¹\) st</p>
+
+<p>TODO: I’m tired. This is Awodey p.174</p>
+
+<p>Amalgamated from Awodey and Rhiel’s books, and the nlab</p>
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>the definitions are standard, but the way I remember it is that <em>faithful</em> := injective on homsets, <em>full</em> := surjective on homsets, <em>eso</em> := surjective on objects, up to isomorphism <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:2" role="doc-endnote">
+      <p>we make use of the fact that natural transformation ⟹ (natural isomorphism ⟺ each point is an isomorphism) <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+  </div><!-- use minima's column styling since I don't know css -->
+  <div class="footer-col-wrapper">
+      <div class="footer-col"><a href="/site-construction/2023/05/14/darcs.html">prev</a></div>
+      <div class="footer-col">
+        <h2> related </h2>
+        <ul><li><a href="/2023/04/23/scripting.html">some remarks apropos scripting,[category-theory]</a></li><li><a href="/2023/04/10/miserliness.html">funny sayings,[category-theory]</a></li><li><a href="/site-construction/2023/05/14/darcs.html">moving from git to darcs,[category-theory]</a></li><li><a href="/2023/05/02/chili-oil.html">chili oil,[category-theory]</a></li><li><a href="/2023/05/10/linux-graphics-modules.html">multiple displays and linux graphics modules,[category-theory]</a></li><li><a href="/site-construction/2023/04/05/welcome-to-jekyll.html">Welcome to Jekyll!,[category-theory]</a></li><li><a href="/site-construction/2023/04/05/page-sorting.html">sorting the page links in the top right header,[category-theory]</a></li><li><a href="/site-construction/2023/04/05/last-modified-time-test.html">getting page last modified time,[category-theory]</a></li><li><a href="/2023/05/07/nonstandard-analysis.html">shelving studying nonstandard analysis,[category-theory]</a></li><li><a href="/site-construction/2023/04/05/katex-test.html">latex with katex,[category-theory]</a></li><li><a href="/2023/04/14/rasterize-pdfs.html">rasterizing pdfs, among other things,[category-theory]</a></li></ul>
+      </div>
+      <div class="footer-col"></div>
+  </div>
+
+  <a class="u-url" href="/category-theory/2023/05/18/equivalence-of-categories.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <!-- I don't need this
+        <p class="feed-subscribe">
+          <a href="https://hejohns.github.io/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+        -->
+        <ul class="contact-list">
+          <li class="p-name">hejohns</li>
+          <li><a class="u-email" href="mailto:(hejohns)α(umich)δ(edu)">(hejohns)α(umich)δ(edu)</a></li>
+            <li>(the answer is yes, you should.)</li>
+        </ul>
+        <!-- add last-modified-time -->
+        <p>site version: 2023-05-18</p>
+      </div>
+      <div class="footer-col">
+        <p>a pure waste of space</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"><li>
+  <a rel="me" href="https://github.com/hejohns" target="_blank" title="github">
+    <svg class="svg-icon grey">
+      <use xlink:href="/assets/minima-social-icons.svg#github"></use>
+    </svg>
+  </a>
+</li>
+</ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

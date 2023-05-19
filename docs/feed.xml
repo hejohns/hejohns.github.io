@@ -1,4 +1,52 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://hejohns.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hejohns.github.io/" rel="alternate" type="text/html" /><updated>2023-05-15T04:36:16-04:00</updated><id>https://hejohns.github.io/feed.xml</id><title type="html">hejohns’ jekyll site</title><subtitle>a pure waste of space</subtitle><author><name>hejohns</name><email>(hejohns)α(umich)δ(edu)</email></author><entry><title type="html">moving from git to darcs</title><link href="https://hejohns.github.io/site-construction/2023/05/14/darcs.html" rel="alternate" type="text/html" title="moving from git to darcs" /><published>2023-05-14T00:00:00-04:00</published><updated>2023-05-15T04:26:28-04:00</updated><id>https://hejohns.github.io/site-construction/2023/05/14/darcs</id><content type="html" xml:base="https://hejohns.github.io/site-construction/2023/05/14/darcs.html"><![CDATA[<p>I played around with <code class="language-plaintext highlighter-rouge">darcs</code> two summers ago,
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://hejohns.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hejohns.github.io/" rel="alternate" type="text/html" /><updated>2023-05-18T21:51:43-04:00</updated><id>https://hejohns.github.io/feed.xml</id><title type="html">hejohns’ jekyll site</title><subtitle>a pure waste of space</subtitle><author><name>hejohns</name><email>(hejohns)α(umich)δ(edu)</email></author><entry><title type="html">equivalence of categories</title><link href="https://hejohns.github.io/category-theory/2023/05/18/equivalence-of-categories.html" rel="alternate" type="text/html" title="equivalence of categories" /><published>2023-05-18T00:00:00-04:00</published><updated>2023-05-18T21:51:35-04:00</updated><id>https://hejohns.github.io/category-theory/2023/05/18/equivalence-of-categories</id><content type="html" xml:base="https://hejohns.github.io/category-theory/2023/05/18/equivalence-of-categories.html"><![CDATA[<p>An oft-stated characterization of an equivalence of categories is that TFAE:</p>
+<ol>
+  <li>A functor \(F : \mathcal{C} → \mathcal{D}\) is (the forward direction of) an equivalence of categories</li>
+  <li>\(F\) is <em>full</em>, <em>faithful</em>, and <em>essentially surjective on objects</em><sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup></li>
+</ol>
+
+<p><strong>pf (1 ⟹ 2):</strong> (you really need to draw the diagrams. I’m not going to try here)</p>
+
+<p>Let \(F : \mathcal{C} → \mathcal{D}\) be an equivalence of categories.</p>
+<ul>
+  <li>wts \(F\) faithful: assume \(Ff = Fg\), for \(f, g : \mathcal{C}(A, B)\).
+Then \(F⁻¹Ff = F⁻¹Fg\).
+Let \(α : 1_\mathcal{C} ⇒ F⁻¹F\) witness that F is an equivalence.
+Notice that \(α_B ∘ f = F⁻¹Ff ∘ α_A ⟹ α_B ∘ f ∘ α⁻¹_A = F⁻¹Ff\),
+and similarly \(α_B ∘ g = F⁻¹Fg ∘ α_A ⟹ α_B ∘ g ∘ α⁻¹_A = F⁻¹Fg\).
+Thus \(F⁻¹Ff = F⁻¹Fg ⟹ F⁻¹Fg ∘ α_A ⟹ α_B ∘ f ∘ α⁻¹_A = F⁻¹Fg ∘ α_A ⟹ α_B ∘ g ∘ α⁻¹_A ⟹ f = g\).<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup></li>
+</ul>
+
+<ul>
+  <li>wts \(F\) full: Consider \(h : \mathcal{D}(FA, FB)\).
+Then \(α⁻¹_B ∘ F⁻¹h ∘ α_A : \mathcal{C}(A, B)\)
+In a roundabout fashion, consider not \(F(α⁻¹_B ∘ F⁻¹h ∘ α_A)\) directly,
+but \(F⁻¹F(α⁻¹_B ∘ F⁻¹h ∘ α_A)\).
+Actually, our proof above that \(F\) is faithful is symmetric since an equivalence of categories is a symmetric notion, so \(F⁻¹\) is faithful as well.
+Notice that \(F⁻¹F(α⁻¹_B ∘ F⁻¹h ∘ α_A) = α_B ∘ f ∘ α⁻¹_A = F⁻¹h\),
+and since \(F⁻¹\) is faithful, \(F(α⁻¹_B ∘ F⁻¹h ∘ α_A) = h\).</li>
+  <li>wts \(F\) eso:
+Let \(β : FF⁻¹ ⇒ 1_\mathcal{D}\) be the other witness that \(\mathcal{C} ≅ \mathcal{D}\).
+\(∀X ∈ \mathcal{D}. β_X\) witnesses that \(FF⁻¹X ≅ X\).</li>
+</ul>
+
+<p><strong>pf (2 ⟹ 1):</strong></p>
+
+<p>Let \(F\) be fully faithful and eso.
+Define \(F⁻¹\) st</p>
+
+<p>TODO: I’m tired. This is Awodey p.174</p>
+
+<p>Amalgamated from Awodey and Rhiel’s books, and the nlab</p>
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>the definitions are standard, but the way I remember it is that <em>faithful</em> := injective on homsets, <em>full</em> := surjective on homsets, <em>eso</em> := surjective on objects, up to isomorphism <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:2" role="doc-endnote">
+      <p>we make use of the fact that natural transformation ⟹ (natural isomorphism ⟺ each point is an isomorphism) <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>]]></content><author><name>hejohns</name><email>(hejohns)α(umich)δ(edu)</email></author><category term="category-theory" /><summary type="html"><![CDATA[An oft-stated characterization of an equivalence of categories is that TFAE: A functor \(F : \mathcal{C} → \mathcal{D}\) is (the forward direction of) an equivalence of categories \(F\) is full, faithful, and essentially surjective on objects1 the definitions are standard, but the way I remember it is that faithful := injective on homsets, full := surjective on homsets, eso := surjective on objects, up to isomorphism &#8617;]]></summary></entry><entry><title type="html">moving from git to darcs</title><link href="https://hejohns.github.io/site-construction/2023/05/14/darcs.html" rel="alternate" type="text/html" title="moving from git to darcs" /><published>2023-05-14T00:00:00-04:00</published><updated>2023-05-15T04:26:28-04:00</updated><id>https://hejohns.github.io/site-construction/2023/05/14/darcs</id><content type="html" xml:base="https://hejohns.github.io/site-construction/2023/05/14/darcs.html"><![CDATA[<p>I played around with <code class="language-plaintext highlighter-rouge">darcs</code> two summers ago,
 but in this day and age everyone uses <code class="language-plaintext highlighter-rouge">git</code> so it’s just not practical when working with other people.</p>
 
 <p>That said, this is my personal site and I can do whatever I want, so I’m firing darcs back up!</p>
@@ -309,8 +357,8 @@ But they also didn’t look at the video<sup id="fnref:1" role="doc-noteref"><a 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Cd9Tq7s_BhQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
 
-<style> .pdf-embed-wrap-877edd38-d126-420f-ae59-cc63ab736aae { display: flex; flex-direction: column; width: 100%; height: 650px; } .pdf-embed-container-877edd38-d126-420f-ae59-cc63ab736aae { height: 100%; } .pdf-link-877edd38-d126-420f-ae59-cc63ab736aae { background-color: white; text-align: center; border-style: solid; } .pdf-embed-container-877edd38-d126-420f-ae59-cc63ab736aae iframe { width: 100%; height: 100%; } </style>
-<div class="pdf-embed-wrap-877edd38-d126-420f-ae59-cc63ab736aae"> <div class="pdf-link-877edd38-d126-420f-ae59-cc63ab736aae"> <a href="/files/101-gsi-application.pdf" target="_blank">View PDF</a> </div> <div class="pdf-embed-container-877edd38-d126-420f-ae59-cc63ab736aae"> <iframe src="/files/101-gsi-application.pdf" frameborder="0" allowfullscreen=""></iframe> </div> </div>
+<style> .pdf-embed-wrap-0419c15e-4041-4b0d-bd65-fd3821e63423 { display: flex; flex-direction: column; width: 100%; height: 650px; } .pdf-embed-container-0419c15e-4041-4b0d-bd65-fd3821e63423 { height: 100%; } .pdf-link-0419c15e-4041-4b0d-bd65-fd3821e63423 { background-color: white; text-align: center; border-style: solid; } .pdf-embed-container-0419c15e-4041-4b0d-bd65-fd3821e63423 iframe { width: 100%; height: 100%; } </style>
+<div class="pdf-embed-wrap-0419c15e-4041-4b0d-bd65-fd3821e63423"> <div class="pdf-link-0419c15e-4041-4b0d-bd65-fd3821e63423"> <a href="/files/101-gsi-application.pdf" target="_blank">View PDF</a> </div> <div class="pdf-embed-container-0419c15e-4041-4b0d-bd65-fd3821e63423"> <iframe src="/files/101-gsi-application.pdf" frameborder="0" allowfullscreen=""></iframe> </div> </div>
 <h2 id="eecs-376-f23">EECS 376 (F23)</h2>
 
 <h3 id="too-long-version">too long version</h3>
@@ -355,20 +403,4 @@ class Jekyll::PostReader
     read_publishable(dir, "_posts", Jekyll::Document::DATELESS_FILENAME_MATCHER)
   end
 end
-</code></pre></div></div>]]></content><author><name>hejohns</name><email>(hejohns)α(umich)δ(edu)</email></author><category term="site-construction" /><summary type="html"><![CDATA[this page is generated by the plugin source below: hook-_plugins.rb # automatically build the content about this site's _plugins Jekyll::Hooks.register :site, :after_init do |site| acc = [] Dir.each_child("_plugins"){ |filename| acc.push("## #{filename}\n#{(File.readlines(File.join("_plugins", filename)).map {|line| " #{line}"}).join()}\n") } site.config['about-_plugins'] = "this page is generated by the plugin source below:\n#{acc.join()}" end hook-jekyll-version.rb # variables I want in my posts # (I wish I could write the ruby directly in the page sources.) Jekyll::Hooks.register :site, :after_init do |site| site.config['ruby-version'] = RUBY_DESCRIPTION site.config['jekyll-version'] = Gem.loaded_specs['jekyll'].version.version end no_date.rb # https://stackoverflow.com/a/68287682 class Jekyll::PostReader # monkey patch `Jekyll::PostReader::read_posts` so we don't have to write the # date in the post filename # # see the jekyll source def read_posts(dir) read_publishable(dir, "_posts", Jekyll::Document::DATELESS_FILENAME_MATCHER) end end]]></summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="https://hejohns.github.io/site-construction/2023/04/05/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2023-04-05T00:13:48-04:00</published><updated>2023-05-15T03:04:57-04:00</updated><id>https://hejohns.github.io/site-construction/2023/04/05/welcome-to-jekyll</id><content type="html" xml:base="https://hejohns.github.io/site-construction/2023/04/05/welcome-to-jekyll.html"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
-
-<p>Jekyll requires blog post files to be named according to the following format:</p>
-
-<p><code class="language-plaintext highlighter-rouge">YEAR-MONTH-DAY-title.MARKUP</code></p>
-
-<p>Where <code class="language-plaintext highlighter-rouge">YEAR</code> is a four-digit number, <code class="language-plaintext highlighter-rouge">MONTH</code> and <code class="language-plaintext highlighter-rouge">DAY</code> are both two-digit numbers, and <code class="language-plaintext highlighter-rouge">MARKUP</code> is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
-
-<p>Jekyll also offers powerful support for code snippets:</p>
-
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
-<span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
-<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
-
-<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>]]></content><author><name>hejohns</name><email>(hejohns)α(umich)δ(edu)</email></author><category term="site-construction" /><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary></entry></feed>
+</code></pre></div></div>]]></content><author><name>hejohns</name><email>(hejohns)α(umich)δ(edu)</email></author><category term="site-construction" /><summary type="html"><![CDATA[this page is generated by the plugin source below: hook-_plugins.rb # automatically build the content about this site's _plugins Jekyll::Hooks.register :site, :after_init do |site| acc = [] Dir.each_child("_plugins"){ |filename| acc.push("## #{filename}\n#{(File.readlines(File.join("_plugins", filename)).map {|line| " #{line}"}).join()}\n") } site.config['about-_plugins'] = "this page is generated by the plugin source below:\n#{acc.join()}" end hook-jekyll-version.rb # variables I want in my posts # (I wish I could write the ruby directly in the page sources.) Jekyll::Hooks.register :site, :after_init do |site| site.config['ruby-version'] = RUBY_DESCRIPTION site.config['jekyll-version'] = Gem.loaded_specs['jekyll'].version.version end no_date.rb # https://stackoverflow.com/a/68287682 class Jekyll::PostReader # monkey patch `Jekyll::PostReader::read_posts` so we don't have to write the # date in the post filename # # see the jekyll source def read_posts(dir) read_publishable(dir, "_posts", Jekyll::Document::DATELESS_FILENAME_MATCHER) end end]]></summary></entry></feed>
