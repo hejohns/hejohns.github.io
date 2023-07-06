@@ -18,7 +18,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="moving from git to darcs" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"hejohns"},"dateModified":"2023-05-18T22:06:49-04:00","datePublished":"2023-05-14T00:00:00-04:00","description":"I played around with darcs two summers ago, but in this day and age everyone uses git so it’s just not practical when working with other people.","headline":"moving from git to darcs","mainEntityOfPage":{"@type":"WebPage","@id":"https://hejohns.github.io/site-construction/2023/05/14/darcs.html"},"url":"https://hejohns.github.io/site-construction/2023/05/14/darcs.html"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"hejohns"},"dateModified":"2023-07-05T20:26:13-04:00","datePublished":"2023-05-14T00:00:00-04:00","description":"I played around with darcs two summers ago, but in this day and age everyone uses git so it’s just not practical when working with other people.","headline":"moving from git to darcs","mainEntityOfPage":{"@type":"WebPage","@id":"https://hejohns.github.io/site-construction/2023/05/14/darcs.html"},"url":"https://hejohns.github.io/site-construction/2023/05/14/darcs.html"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://hejohns.github.io/feed.xml" title="hejohns&apos; jekyll site" />  <!-- see: -->
   <!-- https://codewrites.me/jekyll/katex/blog/2020/08/26/use-katex-gh-pages/ -->
@@ -55,7 +55,7 @@
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
           <h3>
-            page version: May 18, 2023
+            page version: July 5, 2023
           </h3>
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
@@ -78,7 +78,7 @@ and when exporting from darcs to git,
 I needed to <code class="language-plaintext highlighter-rouge">sed</code> (or more precisely  <code class="language-plaintext highlighter-rouge">darcs convert export | perl -pe 's#refs/heads/trunk#refs/heads/trunk#g' | (cd ../hejohns.github.io_git-mirror/ &amp;&amp; git fast-import)</code>)
 to import into the correct git branch.</p>
 
-<p>NOTE: Should be “refs/heads/<strong>master</strong>#reds/heads/trunk”. I don’t know why but it keeps showing up as trunk twice when I export</p>
+<p><strong>NOTE</strong>: Should be “refs/heads/<strong>master</strong>#refs/heads/trunk”. I don’t know why but it keeps showing up as trunk twice when I export</p>
 
   </div><!-- use minima's column styling since I don't know css -->
   <div class="footer-col-wrapper">
@@ -116,7 +116,7 @@ to import into the correct git branch.</p>
             <li>(the answer is yes, you should.)</li>
         </ul>
         <!-- add last-modified-time -->
-        <p>site version: 2023-05-18</p>
+        <p>site version: 2023-07-05</p>
       </div>
       <div class="footer-col">
         <p>a pure waste of space</p>
