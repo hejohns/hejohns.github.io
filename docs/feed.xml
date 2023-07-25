@@ -1,4 +1,154 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://hejohns.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hejohns.github.io/" rel="alternate" type="text/html" /><updated>2023-07-05T20:26:16-04:00</updated><id>https://hejohns.github.io/feed.xml</id><title type="html">hejohns’ jekyll site</title><subtitle>a pure waste of space</subtitle><author><name>hejohns</name><email>(hejohns)α(umich)δ(edu)</email></author><entry><title type="html">equivalence of categories</title><link href="https://hejohns.github.io/category-theory/2023/05/18/equivalence-of-categories.html" rel="alternate" type="text/html" title="equivalence of categories" /><published>2023-05-18T00:00:00-04:00</published><updated>2023-05-18T21:51:35-04:00</updated><id>https://hejohns.github.io/category-theory/2023/05/18/equivalence-of-categories</id><content type="html" xml:base="https://hejohns.github.io/category-theory/2023/05/18/equivalence-of-categories.html"><![CDATA[<p>An oft-stated characterization of an equivalence of categories is that TFAE:</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://hejohns.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hejohns.github.io/" rel="alternate" type="text/html" /><updated>2023-07-24T20:40:30-04:00</updated><id>https://hejohns.github.io/feed.xml</id><title type="html">hejohns’ jekyll site</title><subtitle>a pure waste of space</subtitle><author><name>hejohns</name><email>(hejohns)α(umich)δ(edu)</email></author><entry><title type="html">book catalogue</title><link href="https://hejohns.github.io/2023/07/24/logic-books.html" rel="alternate" type="text/html" title="book catalogue" /><published>2023-07-24T00:00:00-04:00</published><updated>2023-07-24T20:39:31-04:00</updated><id>https://hejohns.github.io/2023/07/24/logic-books</id><content type="html" xml:base="https://hejohns.github.io/2023/07/24/logic-books.html"><![CDATA[<p>-toc</p>
+
+<p>This evening, I made my largest single import of books to date.
+A certain logician is moving to another university– upwards in the academic food chain–
+and offered up some of their books for grabs.
+I thought I should catalogue the lot, both for my own sake, and as a way to increase their utilization.
+Personal libraries are great, but something is quite sad when you think about a book’s realized reading time v. how often it just sits on the shelf.
+Or in my case, a box.</p>
+
+<p>Extending this to my current collection, the below is a best effort catalogue of what I have.
+Any listing is loanable– just ask.</p>
+
+<p>Each section is roughly in decreasing order of rank, which is an opaque combination of whether I’ve read it, enjoyment, perceived reputation/reverence/significance, etc.</p>
+
+<h2 id="logic">logic</h2>
+<h3 id="introductory-textbooks">introductory textbooks</h3>
+<ul>
+  <li>set theory?</li>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>Chang, Keisler</td>
+          <td>Model Theory</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>Shoenfield</td>
+          <td>Mathematical Logic</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>Mendelson</td>
+          <td>Introduction to Mathematical Logic</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>Hinman</td>
+          <td>Fundamentals of Mathematical Logic</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>Avigad</td>
+          <td>Mathematical Logic and Computation</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>Takeuti</td>
+          <td>Proof Theory</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+  <li>phil?
+    <h3 id="monographs">monographs</h3>
+  </li>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>Kleene, Vesley</td>
+          <td>The Foundation of Intuitionistic Mathematics</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>Hinman</td>
+          <td>Recursion-Theoretic Hierarchies</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+  <li>Buss | Bounded Arithmetic
+    <h3 id="editorials-and-proceedings">editorials and proceedings</h3>
+  </li>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>van Heijenoort</td>
+          <td>From Frege to Gödel</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>Heyting</td>
+          <td>Constructivity in Mathematics</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+  <li>Proceedings of the Herbrand Symposium Logic Colloquium ‘81
+    <h3 id="misc">misc</h3>
+  </li>
+  <li>Menzler-Trott | Logic’s Lost Genius: The life of Gerhard Gentzen
+    <h2 id="computer-science">computer science</h2>
+    <h3 id="programming-languages">programming languages</h3>
+  </li>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>Harper</td>
+          <td>Practical Foundations for Programming Languages</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+  <li>Pierce | Advanced Types and Programming Languages
+    <h3 id="other">other</h3>
+  </li>
+  <li>OSTEP
+    <h2 id="novels-and-related">novels and related</h2>
+  </li>
+  <li>tanizaki</li>
+  <li>childhood years</li>
+  <li>dazai</li>
+</ul>]]></content><author><name>hejohns</name><email>(hejohns)α(umich)δ(edu)</email></author><summary type="html"><![CDATA[-toc]]></summary></entry><entry><title type="html">equivalence of categories</title><link href="https://hejohns.github.io/category-theory/2023/05/18/equivalence-of-categories.html" rel="alternate" type="text/html" title="equivalence of categories" /><published>2023-05-18T00:00:00-04:00</published><updated>2023-05-18T21:51:35-04:00</updated><id>https://hejohns.github.io/category-theory/2023/05/18/equivalence-of-categories</id><content type="html" xml:base="https://hejohns.github.io/category-theory/2023/05/18/equivalence-of-categories.html"><![CDATA[<p>An oft-stated characterization of an equivalence of categories is that TFAE:</p>
 <ol>
   <li>A functor \(F : \mathcal{C} → \mathcal{D}\) is (the forward direction of) an equivalence of categories</li>
   <li>\(F\) is <em>full</em>, <em>faithful</em>, and <em>essentially surjective on objects</em><sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup></li>
@@ -359,8 +509,8 @@ But they also didn’t look at the video<sup id="fnref:1" role="doc-noteref"><a 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Cd9Tq7s_BhQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
 
-<style> .pdf-embed-wrap-450f8dca-6bdf-4c55-936f-54f8dc3daf39 { display: flex; flex-direction: column; width: 100%; height: 650px; } .pdf-embed-container-450f8dca-6bdf-4c55-936f-54f8dc3daf39 { height: 100%; } .pdf-link-450f8dca-6bdf-4c55-936f-54f8dc3daf39 { background-color: white; text-align: center; border-style: solid; } .pdf-embed-container-450f8dca-6bdf-4c55-936f-54f8dc3daf39 iframe { width: 100%; height: 100%; } </style>
-<div class="pdf-embed-wrap-450f8dca-6bdf-4c55-936f-54f8dc3daf39"> <div class="pdf-link-450f8dca-6bdf-4c55-936f-54f8dc3daf39"> <a href="/files/101-gsi-application.pdf" target="_blank">View PDF</a> </div> <div class="pdf-embed-container-450f8dca-6bdf-4c55-936f-54f8dc3daf39"> <iframe src="/files/101-gsi-application.pdf" frameborder="0" allowfullscreen=""></iframe> </div> </div>
+<style> .pdf-embed-wrap-caa6b6c8-cef9-47eb-bd87-b50a78a9ebb4 { display: flex; flex-direction: column; width: 100%; height: 650px; } .pdf-embed-container-caa6b6c8-cef9-47eb-bd87-b50a78a9ebb4 { height: 100%; } .pdf-link-caa6b6c8-cef9-47eb-bd87-b50a78a9ebb4 { background-color: white; text-align: center; border-style: solid; } .pdf-embed-container-caa6b6c8-cef9-47eb-bd87-b50a78a9ebb4 iframe { width: 100%; height: 100%; } </style>
+<div class="pdf-embed-wrap-caa6b6c8-cef9-47eb-bd87-b50a78a9ebb4"> <div class="pdf-link-caa6b6c8-cef9-47eb-bd87-b50a78a9ebb4"> <a href="/files/101-gsi-application.pdf" target="_blank">View PDF</a> </div> <div class="pdf-embed-container-caa6b6c8-cef9-47eb-bd87-b50a78a9ebb4"> <iframe src="/files/101-gsi-application.pdf" frameborder="0" allowfullscreen=""></iframe> </div> </div>
 <h2 id="eecs-376-f23">EECS 376 (F23)</h2>
 
 <h3 id="too-long-version">too long version</h3>
@@ -373,36 +523,4 @@ But they also didn’t look at the video<sup id="fnref:1" role="doc-noteref"><a 
       <p>I dumb and got “private” and “unlisted” backwards. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
-</div>]]></content><author><name>hejohns</name><email>(hejohns)α(umich)δ(edu)</email></author></entry><entry><title type="html">this jekyll site’s _plugins</title><link href="https://hejohns.github.io/site-construction/2023/04/07/underscore-plugins.html" rel="alternate" type="text/html" title="this jekyll site’s _plugins" /><published>2023-04-07T00:00:00-04:00</published><updated>2023-05-15T03:04:57-04:00</updated><id>https://hejohns.github.io/site-construction/2023/04/07/underscore-plugins</id><content type="html" xml:base="https://hejohns.github.io/site-construction/2023/04/07/underscore-plugins.html"><![CDATA[<p>this page is generated by the plugin source below:</p>
-<h2 id="hook-_pluginsrb">hook-_plugins.rb</h2>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># automatically build the content about this site's _plugins
-Jekyll::Hooks.register :site, :after_init do |site|
-  acc = []
-  Dir.each_child("_plugins"){ |filename|
-    acc.push("## #{filename}\n#{(File.readlines(File.join("_plugins", filename)).map {|line| "    #{line}"}).join()}\n")
-  }
-  site.config['about-_plugins'] = "this page is generated by the plugin source below:\n#{acc.join()}"
-end
-</code></pre></div></div>
-
-<h2 id="hook-jekyll-versionrb">hook-jekyll-version.rb</h2>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># variables I want in my posts
-# (I wish I could write the ruby directly in the page sources.)
-Jekyll::Hooks.register :site, :after_init do |site|
-  site.config['ruby-version'] = RUBY_DESCRIPTION
-  site.config['jekyll-version'] = Gem.loaded_specs['jekyll'].version.version
-end
-</code></pre></div></div>
-
-<h2 id="no_daterb">no_date.rb</h2>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># https://stackoverflow.com/a/68287682
-class Jekyll::PostReader
-  # monkey patch `Jekyll::PostReader::read_posts` so we don't have to write the
-  # date in the post filename
-  #
-  # see the jekyll source
-  def read_posts(dir)
-    read_publishable(dir, "_posts", Jekyll::Document::DATELESS_FILENAME_MATCHER)
-  end
-end
-</code></pre></div></div>]]></content><author><name>hejohns</name><email>(hejohns)α(umich)δ(edu)</email></author><category term="site-construction" /><summary type="html"><![CDATA[this page is generated by the plugin source below: hook-_plugins.rb # automatically build the content about this site's _plugins Jekyll::Hooks.register :site, :after_init do |site| acc = [] Dir.each_child("_plugins"){ |filename| acc.push("## #{filename}\n#{(File.readlines(File.join("_plugins", filename)).map {|line| " #{line}"}).join()}\n") } site.config['about-_plugins'] = "this page is generated by the plugin source below:\n#{acc.join()}" end hook-jekyll-version.rb # variables I want in my posts # (I wish I could write the ruby directly in the page sources.) Jekyll::Hooks.register :site, :after_init do |site| site.config['ruby-version'] = RUBY_DESCRIPTION site.config['jekyll-version'] = Gem.loaded_specs['jekyll'].version.version end no_date.rb # https://stackoverflow.com/a/68287682 class Jekyll::PostReader # monkey patch `Jekyll::PostReader::read_posts` so we don't have to write the # date in the post filename # # see the jekyll source def read_posts(dir) read_publishable(dir, "_posts", Jekyll::Document::DATELESS_FILENAME_MATCHER) end end]]></summary></entry></feed>
+</div>]]></content><author><name>hejohns</name><email>(hejohns)α(umich)δ(edu)</email></author></entry></feed>
