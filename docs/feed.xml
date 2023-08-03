@@ -1,4 +1,39 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://hejohns.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hejohns.github.io/" rel="alternate" type="text/html" /><updated>2023-07-24T20:40:30-04:00</updated><id>https://hejohns.github.io/feed.xml</id><title type="html">hejohns’ jekyll site</title><subtitle>a pure waste of space</subtitle><author><name>hejohns</name><email>(hejohns)α(umich)δ(edu)</email></author><entry><title type="html">book catalogue</title><link href="https://hejohns.github.io/2023/07/24/logic-books.html" rel="alternate" type="text/html" title="book catalogue" /><published>2023-07-24T00:00:00-04:00</published><updated>2023-07-24T20:39:31-04:00</updated><id>https://hejohns.github.io/2023/07/24/logic-books</id><content type="html" xml:base="https://hejohns.github.io/2023/07/24/logic-books.html"><![CDATA[<p>-toc</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://hejohns.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hejohns.github.io/" rel="alternate" type="text/html" /><updated>2023-08-03T17:41:19-04:00</updated><id>https://hejohns.github.io/feed.xml</id><title type="html">hejohns’ jekyll site</title><subtitle>a pure waste of space</subtitle><author><name>hejohns</name><email>(hejohns)α(umich)δ(edu)</email></author><entry><title type="html">nic bonding</title><link href="https://hejohns.github.io/2023/08/03/nic-bonding.html" rel="alternate" type="text/html" title="nic bonding" /><published>2023-08-03T00:00:00-04:00</published><updated>2023-08-03T17:41:06-04:00</updated><id>https://hejohns.github.io/2023/08/03/nic-bonding</id><content type="html" xml:base="https://hejohns.github.io/2023/08/03/nic-bonding.html"><![CDATA[<ul>
+  <li>nmtui</li>
+  <li>edit a connection</li>
+  <li>add</li>
+  <li>type bond</li>
+  <li>two slaves
+    <ul>
+      <li>idk why but it seems like you need to create two entirely new connections</li>
+      <li>so deactivate the old connections before activating the bond</li>
+    </ul>
+  </li>
+  <li>set primary device (eg <code class="language-plaintext highlighter-rouge">eno2</code>). This is the mac address used?</li>
+  <li>status:
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">nmcli con</code></li>
+      <li><code class="language-plaintext highlighter-rouge">ip address</code></li>
+    </ul>
+  </li>
+  <li>the mac address changes (not sure why), so you probably have to change the dhcp server settings to statically lease the old ip to the bond mac address</li>
+</ul>
+
+<p>redhat has some documentation online</p>]]></content><author><name>hejohns</name><email>(hejohns)α(umich)δ(edu)</email></author><summary type="html"><![CDATA[nmtui edit a connection add type bond two slaves idk why but it seems like you need to create two entirely new connections so deactivate the old connections before activating the bond set primary device (eg eno2). This is the mac address used? status: nmcli con ip address the mac address changes (not sure why), so you probably have to change the dhcp server settings to statically lease the old ip to the bond mac address]]></summary></entry><entry><title type="html">book catalogue</title><link href="https://hejohns.github.io/2023/07/24/book-catalogue.html" rel="alternate" type="text/html" title="book catalogue" /><published>2023-07-24T00:00:00-04:00</published><updated>2023-08-03T17:34:36-04:00</updated><id>https://hejohns.github.io/2023/07/24/book-catalogue</id><content type="html" xml:base="https://hejohns.github.io/2023/07/24/book-catalogue.html"><![CDATA[<ul id="markdown-toc">
+  <li><a href="#logic" id="markdown-toc-logic">logic</a>    <ul>
+      <li><a href="#introductory-textbooks" id="markdown-toc-introductory-textbooks">introductory textbooks</a></li>
+      <li><a href="#monographs" id="markdown-toc-monographs">monographs</a></li>
+      <li><a href="#editorials-and-proceedings" id="markdown-toc-editorials-and-proceedings">editorials and proceedings</a></li>
+      <li><a href="#misc" id="markdown-toc-misc">misc</a></li>
+    </ul>
+  </li>
+  <li><a href="#computer-science" id="markdown-toc-computer-science">computer science</a>    <ul>
+      <li><a href="#programming-languages" id="markdown-toc-programming-languages">programming languages</a></li>
+      <li><a href="#other" id="markdown-toc-other">other</a></li>
+    </ul>
+  </li>
+  <li><a href="#novels-and-related" id="markdown-toc-novels-and-related">novels and related</a></li>
+</ul>
 
 <p>This evening, I made my largest single import of books to date.
 A certain logician is moving to another university– upwards in the academic food chain–
@@ -148,7 +183,7 @@ Any listing is loanable– just ask.</p>
   <li>tanizaki</li>
   <li>childhood years</li>
   <li>dazai</li>
-</ul>]]></content><author><name>hejohns</name><email>(hejohns)α(umich)δ(edu)</email></author><summary type="html"><![CDATA[-toc]]></summary></entry><entry><title type="html">equivalence of categories</title><link href="https://hejohns.github.io/category-theory/2023/05/18/equivalence-of-categories.html" rel="alternate" type="text/html" title="equivalence of categories" /><published>2023-05-18T00:00:00-04:00</published><updated>2023-05-18T21:51:35-04:00</updated><id>https://hejohns.github.io/category-theory/2023/05/18/equivalence-of-categories</id><content type="html" xml:base="https://hejohns.github.io/category-theory/2023/05/18/equivalence-of-categories.html"><![CDATA[<p>An oft-stated characterization of an equivalence of categories is that TFAE:</p>
+</ul>]]></content><author><name>hejohns</name><email>(hejohns)α(umich)δ(edu)</email></author></entry><entry><title type="html">equivalence of categories</title><link href="https://hejohns.github.io/category-theory/2023/05/18/equivalence-of-categories.html" rel="alternate" type="text/html" title="equivalence of categories" /><published>2023-05-18T00:00:00-04:00</published><updated>2023-05-18T21:51:35-04:00</updated><id>https://hejohns.github.io/category-theory/2023/05/18/equivalence-of-categories</id><content type="html" xml:base="https://hejohns.github.io/category-theory/2023/05/18/equivalence-of-categories.html"><![CDATA[<p>An oft-stated characterization of an equivalence of categories is that TFAE:</p>
 <ol>
   <li>A functor \(F : \mathcal{C} → \mathcal{D}\) is (the forward direction of) an equivalence of categories</li>
   <li>\(F\) is <em>full</em>, <em>faithful</em>, and <em>essentially surjective on objects</em><sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup></li>
@@ -494,33 +529,4 @@ that Tanizaki did not really want Taeko to be so likeable.”<sup id="fnref:5" r
       <p>Soare, in <em>Formalism and intuition in computability</em> <a href="#fnref:6" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
-</div>]]></content><author><name>hejohns</name><email>(hejohns)α(umich)δ(edu)</email></author><summary type="html"><![CDATA[To keep track of funny sayings I’ve come across:]]></summary></entry><entry><title type="html">my gsi application videos</title><link href="https://hejohns.github.io/2023/04/09/gsi-applications.html" rel="alternate" type="text/html" title="my gsi application videos" /><published>2023-04-09T00:00:00-04:00</published><updated>2023-05-15T03:04:57-04:00</updated><id>https://hejohns.github.io/2023/04/09/gsi-applications</id><content type="html" xml:base="https://hejohns.github.io/2023/04/09/gsi-applications.html"><![CDATA[<ul id="markdown-toc">
-  <li><a href="#engr-101-f23" id="markdown-toc-engr-101-f23">ENGR 101 (F23)</a></li>
-  <li><a href="#eecs-376-f23" id="markdown-toc-eecs-376-f23">EECS 376 (F23)</a>    <ul>
-      <li><a href="#too-long-version" id="markdown-toc-too-long-version">too long version</a></li>
-      <li><a href="#actual-submission" id="markdown-toc-actual-submission">actual submission</a></li>
-    </ul>
-  </li>
-</ul>
-
-<h2 id="engr-101-f23">ENGR 101 (F23)</h2>
-<p><strong>outcome</strong>: rejected.
-But they also didn’t look at the video<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>.</p>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Cd9Tq7s_BhQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
-
-<style> .pdf-embed-wrap-caa6b6c8-cef9-47eb-bd87-b50a78a9ebb4 { display: flex; flex-direction: column; width: 100%; height: 650px; } .pdf-embed-container-caa6b6c8-cef9-47eb-bd87-b50a78a9ebb4 { height: 100%; } .pdf-link-caa6b6c8-cef9-47eb-bd87-b50a78a9ebb4 { background-color: white; text-align: center; border-style: solid; } .pdf-embed-container-caa6b6c8-cef9-47eb-bd87-b50a78a9ebb4 iframe { width: 100%; height: 100%; } </style>
-<div class="pdf-embed-wrap-caa6b6c8-cef9-47eb-bd87-b50a78a9ebb4"> <div class="pdf-link-caa6b6c8-cef9-47eb-bd87-b50a78a9ebb4"> <a href="/files/101-gsi-application.pdf" target="_blank">View PDF</a> </div> <div class="pdf-embed-container-caa6b6c8-cef9-47eb-bd87-b50a78a9ebb4"> <iframe src="/files/101-gsi-application.pdf" frameborder="0" allowfullscreen=""></iframe> </div> </div>
-<h2 id="eecs-376-f23">EECS 376 (F23)</h2>
-
-<h3 id="too-long-version">too long version</h3>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/UyT7Oa6Gxdc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
-<h3 id="actual-submission">actual submission</h3>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/2S60JnY5zus" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
-<div class="footnotes" role="doc-endnotes">
-  <ol>
-    <li id="fn:1" role="doc-endnote">
-      <p>I dumb and got “private” and “unlisted” backwards. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-  </ol>
-</div>]]></content><author><name>hejohns</name><email>(hejohns)α(umich)δ(edu)</email></author></entry></feed>
+</div>]]></content><author><name>hejohns</name><email>(hejohns)α(umich)δ(edu)</email></author><summary type="html"><![CDATA[To keep track of funny sayings I’ve come across:]]></summary></entry></feed>

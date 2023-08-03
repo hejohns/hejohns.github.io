@@ -57,13 +57,38 @@
             page version: May 15, 2023
           </h3>
         <ul class="post-list"><li>
+    <span class="post-meta">Aug 3, 2023</span>
+    <h3>
+      <a class="post-link" href="/2023/08/03/nic-bonding.html">
+        nic bonding
+      </a>
+    </h3><ul>
+  <li>nmtui</li>
+  <li>edit a connection</li>
+  <li>add</li>
+  <li>type bond</li>
+  <li>two slaves
+    <ul>
+      <li>idk why but it seems like you need to create two entirely new connections</li>
+      <li>so deactivate the old connections before activating the bond</li>
+    </ul>
+  </li>
+  <li>set primary device (eg <code class="language-plaintext highlighter-rouge">eno2</code>). This is the mac address used?</li>
+  <li>status:
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">nmcli con</code></li>
+      <li><code class="language-plaintext highlighter-rouge">ip address</code></li>
+    </ul>
+  </li>
+  <li>the mac address changes (not sure why), so you probably have to change the dhcp server settings to statically lease the old ip to the bond mac address</li>
+</ul>
+</li><li>
     <span class="post-meta">Jul 24, 2023</span>
     <h3>
-      <a class="post-link" href="/2023/07/24/logic-books.html">
+      <a class="post-link" href="/2023/07/24/book-catalogue.html">
         book catalogue
       </a>
-    </h3><p>-toc</p>
-</li><li>
+    </h3></li><li>
     <span class="post-meta">May 18, 2023</span>
     <h3>
       <a class="post-link" href="/category-theory/2023/05/18/equivalence-of-categories.html">
@@ -269,7 +294,7 @@ and found some helpful resources:</p>
             <li>(the answer is yes, you should.)</li>
         </ul>
         <!-- add last-modified-time -->
-        <p>site version: 2023-07-24</p>
+        <p>site version: 2023-08-03</p>
       </div>
       <div class="footer-col">
         <p>a pure waste of space</p>

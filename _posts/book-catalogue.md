@@ -3,7 +3,7 @@ layout: post
 title: book catalogue
 date: 2023-07-24
 ---
--toc
+- toc
 {:toc}
 
 This evening, I made my largest single import of books to date.
