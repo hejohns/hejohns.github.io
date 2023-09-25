@@ -21,8 +21,8 @@ Each section is roughly in decreasing order of rank, which is an opaque combinat
 ## logic
 ### introductory textbooks
 - set theory?
-- Chang, Keisler | Model Theory
 - Shoenfield | Mathematical Logic
+- Chang, Keisler | Model Theory
 - Mendelson | Introduction to Mathematical Logic
 - Hinman | Fundamentals of Mathematical Logic
 - Avigad | Mathematical Logic and Computation
@@ -38,12 +38,14 @@ Each section is roughly in decreasing order of rank, which is an opaque combinat
 - Proceedings of the Herbrand Symposium Logic Colloquium '81
 ### misc
 - Menzler-Trott | Logic's Lost Genius: The life of Gerhard Gentzen
+
 ## computer science
 ### programming languages
 - Harper | Practical Foundations for Programming Languages
 - Pierce | Advanced Types and Programming Languages
 ### other
 - OSTEP
+
 ## novels and related
 - tanizaki
 - childhood years
