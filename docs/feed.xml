@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://hejohns.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hejohns.github.io/" rel="alternate" type="text/html" /><updated>2023-09-25T02:43:58-04:00</updated><id>https://hejohns.github.io/feed.xml</id><title type="html">hejohns’ jekyll site</title><subtitle>a pure waste of space</subtitle><author><name>hejohns</name><email>(hejohns)α(umich)δ(edu)</email></author><entry><title type="html">nic bonding</title><link href="https://hejohns.github.io/2023/08/03/nic-bonding.html" rel="alternate" type="text/html" title="nic bonding" /><published>2023-08-03T00:00:00-04:00</published><updated>2023-08-03T17:41:06-04:00</updated><id>https://hejohns.github.io/2023/08/03/nic-bonding</id><content type="html" xml:base="https://hejohns.github.io/2023/08/03/nic-bonding.html"><![CDATA[<ul>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://hejohns.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hejohns.github.io/" rel="alternate" type="text/html" /><updated>2023-09-25T03:05:53-04:00</updated><id>https://hejohns.github.io/feed.xml</id><title type="html">hejohns’ jekyll site</title><subtitle>a pure waste of space</subtitle><author><name>hejohns</name><email>(hejohns)α(umich)δ(edu)</email></author><entry><title type="html">nic bonding</title><link href="https://hejohns.github.io/2023/08/03/nic-bonding.html" rel="alternate" type="text/html" title="nic bonding" /><published>2023-08-03T00:00:00-04:00</published><updated>2023-08-03T17:41:06-04:00</updated><id>https://hejohns.github.io/2023/08/03/nic-bonding</id><content type="html" xml:base="https://hejohns.github.io/2023/08/03/nic-bonding.html"><![CDATA[<ul>
   <li>nmtui</li>
   <li>edit a connection</li>
   <li>add</li>
@@ -19,7 +19,7 @@
   <li>the mac address changes (not sure why), so you probably have to change the dhcp server settings to statically lease the old ip to the bond mac address</li>
 </ul>
 
-<p>redhat has some documentation online</p>]]></content><author><name>hejohns</name><email>(hejohns)α(umich)δ(edu)</email></author><summary type="html"><![CDATA[nmtui edit a connection add type bond two slaves idk why but it seems like you need to create two entirely new connections so deactivate the old connections before activating the bond set primary device (eg eno2). This is the mac address used? status: nmcli con ip address the mac address changes (not sure why), so you probably have to change the dhcp server settings to statically lease the old ip to the bond mac address]]></summary></entry><entry><title type="html">book catalogue</title><link href="https://hejohns.github.io/2023/07/24/book-catalogue.html" rel="alternate" type="text/html" title="book catalogue" /><published>2023-07-24T00:00:00-04:00</published><updated>2023-08-03T17:34:36-04:00</updated><id>https://hejohns.github.io/2023/07/24/book-catalogue</id><content type="html" xml:base="https://hejohns.github.io/2023/07/24/book-catalogue.html"><![CDATA[<ul id="markdown-toc">
+<p>redhat has some documentation online</p>]]></content><author><name>hejohns</name><email>(hejohns)α(umich)δ(edu)</email></author><summary type="html"><![CDATA[nmtui edit a connection add type bond two slaves idk why but it seems like you need to create two entirely new connections so deactivate the old connections before activating the bond set primary device (eg eno2). This is the mac address used? status: nmcli con ip address the mac address changes (not sure why), so you probably have to change the dhcp server settings to statically lease the old ip to the bond mac address]]></summary></entry><entry><title type="html">book catalogue</title><link href="https://hejohns.github.io/2023/07/24/book-catalogue.html" rel="alternate" type="text/html" title="book catalogue" /><published>2023-07-24T00:00:00-04:00</published><updated>2023-09-25T02:52:09-04:00</updated><id>https://hejohns.github.io/2023/07/24/book-catalogue</id><content type="html" xml:base="https://hejohns.github.io/2023/07/24/book-catalogue.html"><![CDATA[<ul id="markdown-toc">
   <li><a href="#logic" id="markdown-toc-logic">logic</a>    <ul>
       <li><a href="#introductory-textbooks" id="markdown-toc-introductory-textbooks">introductory textbooks</a></li>
       <li><a href="#monographs" id="markdown-toc-monographs">monographs</a></li>
@@ -55,8 +55,8 @@ Any listing is loanable– just ask.</p>
     <table>
       <tbody>
         <tr>
-          <td>Chang, Keisler</td>
-          <td>Model Theory</td>
+          <td>Shoenfield</td>
+          <td>Mathematical Logic</td>
         </tr>
       </tbody>
     </table>
@@ -65,8 +65,8 @@ Any listing is loanable– just ask.</p>
     <table>
       <tbody>
         <tr>
-          <td>Shoenfield</td>
-          <td>Mathematical Logic</td>
+          <td>Chang, Keisler</td>
+          <td>Model Theory</td>
         </tr>
       </tbody>
     </table>
@@ -160,10 +160,21 @@ Any listing is loanable– just ask.</p>
   <li>Proceedings of the Herbrand Symposium Logic Colloquium ‘81
     <h3 id="misc">misc</h3>
   </li>
-  <li>Menzler-Trott | Logic’s Lost Genius: The life of Gerhard Gentzen
-    <h2 id="computer-science">computer science</h2>
-    <h3 id="programming-languages">programming languages</h3>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>Menzler-Trott</td>
+          <td>Logic’s Lost Genius: The life of Gerhard Gentzen</td>
+        </tr>
+      </tbody>
+    </table>
   </li>
+</ul>
+
+<h2 id="computer-science">computer science</h2>
+<h3 id="programming-languages">programming languages</h3>
+<ul>
   <li>
     <table>
       <tbody>
@@ -177,9 +188,11 @@ Any listing is loanable– just ask.</p>
   <li>Pierce | Advanced Types and Programming Languages
     <h3 id="other">other</h3>
   </li>
-  <li>OSTEP
-    <h2 id="novels-and-related">novels and related</h2>
-  </li>
+  <li>OSTEP</li>
+</ul>
+
+<h2 id="novels-and-related">novels and related</h2>
+<ul>
   <li>tanizaki</li>
   <li>childhood years</li>
   <li>dazai</li>
