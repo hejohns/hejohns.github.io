@@ -4,8 +4,6 @@
 layout: home
 title: home
 ---
-Some text on the landing page
-
 ## code
 - [Gradescope-Utils](https://github.com/eecs490/gradescope-utils), a suite of scripts for EECS 490 grading, but also CSV, JSON, manipulation more broadly
 
@@ -13,4 +11,4 @@ Some text on the landing page
 - [The Second Pass of the Portable C Compiler](https://github.com/hejohns/the-second-pass-of-the-portable-c-compiler)
 
 ## links
-- [fake link](link)
+- [fake link](https://mplse-reading-group.github.io/)
