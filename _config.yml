@@ -93,7 +93,6 @@ header_pages:
   - about.md
   - posts.md
   - reviews.md
-  - etc.md
 
 # Set to `true` to show excerpts on the homepage.
 #
