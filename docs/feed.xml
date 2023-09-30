@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://hejohns.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hejohns.github.io/" rel="alternate" type="text/html" /><updated>2023-09-25T03:05:53-04:00</updated><id>https://hejohns.github.io/feed.xml</id><title type="html">hejohns’ jekyll site</title><subtitle>a pure waste of space</subtitle><author><name>hejohns</name><email>(hejohns)α(umich)δ(edu)</email></author><entry><title type="html">nic bonding</title><link href="https://hejohns.github.io/2023/08/03/nic-bonding.html" rel="alternate" type="text/html" title="nic bonding" /><published>2023-08-03T00:00:00-04:00</published><updated>2023-08-03T17:41:06-04:00</updated><id>https://hejohns.github.io/2023/08/03/nic-bonding</id><content type="html" xml:base="https://hejohns.github.io/2023/08/03/nic-bonding.html"><![CDATA[<ul>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://hejohns.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hejohns.github.io/" rel="alternate" type="text/html" /><updated>2023-09-30T14:54:58-04:00</updated><id>https://hejohns.github.io/feed.xml</id><title type="html">hejohns’ jekyll site</title><subtitle>a pure waste of space</subtitle><author><name>hejohns</name><email>(hejohns)α(umich)δ(edu)</email></author><entry><title type="html">nic bonding</title><link href="https://hejohns.github.io/2023/08/03/nic-bonding.html" rel="alternate" type="text/html" title="nic bonding" /><published>2023-08-03T00:00:00-04:00</published><updated>2023-08-03T17:41:06-04:00</updated><id>https://hejohns.github.io/2023/08/03/nic-bonding</id><content type="html" xml:base="https://hejohns.github.io/2023/08/03/nic-bonding.html"><![CDATA[<ul>
   <li>nmtui</li>
   <li>edit a connection</li>
   <li>add</li>
@@ -19,7 +19,7 @@
   <li>the mac address changes (not sure why), so you probably have to change the dhcp server settings to statically lease the old ip to the bond mac address</li>
 </ul>
 
-<p>redhat has some documentation online</p>]]></content><author><name>hejohns</name><email>(hejohns)α(umich)δ(edu)</email></author><summary type="html"><![CDATA[nmtui edit a connection add type bond two slaves idk why but it seems like you need to create two entirely new connections so deactivate the old connections before activating the bond set primary device (eg eno2). This is the mac address used? status: nmcli con ip address the mac address changes (not sure why), so you probably have to change the dhcp server settings to statically lease the old ip to the bond mac address]]></summary></entry><entry><title type="html">book catalogue</title><link href="https://hejohns.github.io/2023/07/24/book-catalogue.html" rel="alternate" type="text/html" title="book catalogue" /><published>2023-07-24T00:00:00-04:00</published><updated>2023-09-25T02:52:09-04:00</updated><id>https://hejohns.github.io/2023/07/24/book-catalogue</id><content type="html" xml:base="https://hejohns.github.io/2023/07/24/book-catalogue.html"><![CDATA[<ul id="markdown-toc">
+<p>redhat has some documentation online</p>]]></content><author><name>hejohns</name><email>(hejohns)α(umich)δ(edu)</email></author><summary type="html"><![CDATA[nmtui edit a connection add type bond two slaves idk why but it seems like you need to create two entirely new connections so deactivate the old connections before activating the bond set primary device (eg eno2). This is the mac address used? status: nmcli con ip address the mac address changes (not sure why), so you probably have to change the dhcp server settings to statically lease the old ip to the bond mac address]]></summary></entry><entry><title type="html">book catalogue</title><link href="https://hejohns.github.io/2023/07/24/book-catalogue.html" rel="alternate" type="text/html" title="book catalogue" /><published>2023-07-24T00:00:00-04:00</published><updated>2023-09-30T14:54:48-04:00</updated><id>https://hejohns.github.io/2023/07/24/book-catalogue</id><content type="html" xml:base="https://hejohns.github.io/2023/07/24/book-catalogue.html"><![CDATA[<ul id="markdown-toc">
   <li><a href="#logic" id="markdown-toc-logic">logic</a>    <ul>
       <li><a href="#introductory-textbooks" id="markdown-toc-introductory-textbooks">introductory textbooks</a></li>
       <li><a href="#monographs" id="markdown-toc-monographs">monographs</a></li>
@@ -33,6 +33,7 @@
     </ul>
   </li>
   <li><a href="#novels-and-related" id="markdown-toc-novels-and-related">novels and related</a></li>
+  <li><a href="#wishlist" id="markdown-toc-wishlist">wishlist</a></li>
 </ul>
 
 <p>This evening, I made my largest single import of books to date.
@@ -196,6 +197,14 @@ Any listing is loanable– just ask.</p>
   <li>tanizaki</li>
   <li>childhood years</li>
   <li>dazai</li>
+</ul>
+
+<h2 id="wishlist">wishlist</h2>
+<p>ie books that I’ve read small bits of and are just so so good</p>
+
+<ul>
+  <li>Soare’s computability theory book</li>
+  <li>Marker’s model theory book</li>
 </ul>]]></content><author><name>hejohns</name><email>(hejohns)α(umich)δ(edu)</email></author></entry><entry><title type="html">equivalence of categories</title><link href="https://hejohns.github.io/category-theory/2023/05/18/equivalence-of-categories.html" rel="alternate" type="text/html" title="equivalence of categories" /><published>2023-05-18T00:00:00-04:00</published><updated>2023-05-18T21:51:35-04:00</updated><id>https://hejohns.github.io/category-theory/2023/05/18/equivalence-of-categories</id><content type="html" xml:base="https://hejohns.github.io/category-theory/2023/05/18/equivalence-of-categories.html"><![CDATA[<p>An oft-stated characterization of an equivalence of categories is that TFAE:</p>
 <ol>
   <li>A functor \(F : \mathcal{C} → \mathcal{D}\) is (the forward direction of) an equivalence of categories</li>

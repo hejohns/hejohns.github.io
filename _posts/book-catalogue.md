@@ -50,3 +50,9 @@ Each section is roughly in decreasing order of rank, which is an opaque combinat
 - tanizaki
 - childhood years
 - dazai
+
+## wishlist
+ie books that I've read small bits of and are just so so good
+
+- Soare's computability theory book
+- Marker's model theory book
