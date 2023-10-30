@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://hejohns.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hejohns.github.io/" rel="alternate" type="text/html" /><updated>2023-10-11T06:34:48-04:00</updated><id>https://hejohns.github.io/feed.xml</id><title type="html">hejohns’ jekyll site</title><subtitle>a pure waste of space</subtitle><author><name>hejohns</name><email>(hejohns)α(umich)δ(edu)</email></author><entry><title type="html">tortoise text to speech (and piper)</title><link href="https://hejohns.github.io/2023/10/10/tortoise-tts.html" rel="alternate" type="text/html" title="tortoise text to speech (and piper)" /><published>2023-10-10T00:00:00-04:00</published><updated>2023-10-11T06:33:16-04:00</updated><id>https://hejohns.github.io/2023/10/10/tortoise-tts</id><content type="html" xml:base="https://hejohns.github.io/2023/10/10/tortoise-tts.html"><![CDATA[<h2 id="motivation">Motivation</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://hejohns.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hejohns.github.io/" rel="alternate" type="text/html" /><updated>2023-10-30T06:24:00-04:00</updated><id>https://hejohns.github.io/feed.xml</id><title type="html">hejohns’ jekyll site</title><subtitle>a pure waste of space</subtitle><author><name>hejohns</name><email>(hejohns)α(umich)δ(edu)</email></author><entry><title type="html">coordinating processes</title><link href="https://hejohns.github.io/2023/10/29/coordinating-processes.html" rel="alternate" type="text/html" title="coordinating processes" /><published>2023-10-29T00:00:00-04:00</published><updated>2023-10-30T06:23:51-04:00</updated><id>https://hejohns.github.io/2023/10/29/coordinating-processes</id><content type="html" xml:base="https://hejohns.github.io/2023/10/29/coordinating-processes.html"><![CDATA[<p>This has to be a solved problem?!</p>
+
+<p><a href="https://github.com/hejohns/systemp">repo</a></p>]]></content><author><name>hejohns</name><email>(hejohns)α(umich)δ(edu)</email></author><summary type="html"><![CDATA[This has to be a solved problem?!]]></summary></entry><entry><title type="html">tortoise text to speech (and piper)</title><link href="https://hejohns.github.io/2023/10/10/tortoise-tts.html" rel="alternate" type="text/html" title="tortoise text to speech (and piper)" /><published>2023-10-10T00:00:00-04:00</published><updated>2023-10-11T06:33:16-04:00</updated><id>https://hejohns.github.io/2023/10/10/tortoise-tts</id><content type="html" xml:base="https://hejohns.github.io/2023/10/10/tortoise-tts.html"><![CDATA[<h2 id="motivation">Motivation</h2>
 
 <p>I’m getting my butt kicked by EECS 582.
 We’re assigned four papers a week to read–
@@ -632,33 +634,4 @@ I wish I had this everywhere.</p>
       <p>v2, if that matters <a href="#fnref:4" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
-</div>]]></content><author><name>hejohns</name><email>(hejohns)α(umich)δ(edu)</email></author></entry><entry><title type="html">rasterizing pdfs, among other things</title><link href="https://hejohns.github.io/2023/04/14/rasterize-pdfs.html" rel="alternate" type="text/html" title="rasterizing pdfs, among other things" /><published>2023-04-14T00:00:00-04:00</published><updated>2023-05-15T03:04:57-04:00</updated><id>https://hejohns.github.io/2023/04/14/rasterize-pdfs</id><content type="html" xml:base="https://hejohns.github.io/2023/04/14/rasterize-pdfs.html"><![CDATA[<ul id="markdown-toc">
-  <li><a href="#rasterizingsetting-a-pdf" id="markdown-toc-rasterizingsetting-a-pdf">rasterizing/”setting” a pdf</a></li>
-</ul>
-
-<h2 id="rasterizingsetting-a-pdf">rasterizing/”setting” a pdf</h2>
-<p>I don’t recall running into this before,
-but I was trying to print a pdf that displayed fine on my computer (firefox, okular),
-and the printer failed on the 8th page w/</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ERROR:
-typecheck
-OFFENDING COMMAND:
-known
-</code></pre></div></div>
-
-<p>which is apparently some postscript error or incompatibility with the printer.</p>
-
-<ul>
-  <li><a href="https://superuser.com/a/1489923">rasterize pdf</a></li>
-</ul>
-
-<figure class="highlight"><pre><code class="language-sh" data-lang="sh">    pdf2djvu <span class="nt">-d</span> 1200 input.pdf <span class="o">&gt;</span> output.djvu</code></pre></figure>
-
-<p>I don’t know how low for density (&lt;300?) is too blurry or too high unnecessary (&gt;1200?)</p>
-
-<ul>
-  <li><a href="https://superuser.com/a/100573">and convert back to pdf for printing</a></li>
-</ul>
-
-<figure class="highlight"><pre><code class="language-sh" data-lang="sh">    ddjvu <span class="nt">-format</span><span class="o">=</span>pdf output.djvu output.pdf</code></pre></figure>]]></content><author><name>hejohns</name><email>(hejohns)α(umich)δ(edu)</email></author></entry></feed>
+</div>]]></content><author><name>hejohns</name><email>(hejohns)α(umich)δ(edu)</email></author></entry></feed>
