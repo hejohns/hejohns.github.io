@@ -1,6 +1,6 @@
 ---
 layout: page
-title: about
+title: site-construction
 ---
 ## how this site was made
 This site's repo is [here](https://github.com/hejohns/hejohns.github.io)[^1].

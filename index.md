@@ -4,11 +4,16 @@
 layout: home
 title: home
 ---
-## code
+## About
+I'm Johnson He.
+
+My screen name is *hejohns*.
+
+## Code
 - [Gradescope-Utils](https://github.com/eecs490/gradescope-utils), a suite of scripts for EECS 490 grading, but also CSV, JSON, manipulation more broadly
 
-## media
+## Media
 - [The Second Pass of the Portable C Compiler](https://github.com/hejohns/the-second-pass-of-the-portable-c-compiler)
 
-## links
-- [fake link](https://mplse-reading-group.github.io/)
+## Links
+- [MPLSE reading group](https://mplse-reading-group.github.io/)

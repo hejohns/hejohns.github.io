@@ -35,7 +35,7 @@ github_username:  hejohns
 # I think minima >= 3.0 uses the following fields instead:
 # (c/p from minima master)
 author:
-  name: hejohns
+  name: Johnson He
   email: (hejohns)α(umich)δ(edu)
 
 # for github pages (this option also has to be synced w/ the github settings web interface)
@@ -90,8 +90,8 @@ jekyll-archives:
 # order as they should show up.
 #
 header_pages:
-  - about.md
   - posts.md
+  - site-construction.md
   - reviews.md
 
 # Set to `true` to show excerpts on the homepage.

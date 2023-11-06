@@ -4,5 +4,8 @@ export:
 	darcs convert export | perl -pe 's#refs/heads/trunk#refs/heads/trunk#g' | (cd ../hejohns.github.io_git-mirror/ && git fast-import)
 push: export
 	cd ../hejohns.github.io_git-mirror/ && git push
+darcs.tar.gz: $(shell darcs show files | grep -v '^\.$$' | sed 's/ /\\ /g')
+	touch $@
+	tar --exclude=$@ -zcvf $@ .
 .PHONY: export push
 
