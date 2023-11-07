@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Live Reload"
+title: Live Reload
 categories: site-construction
 date: 2023-11-06
 ---

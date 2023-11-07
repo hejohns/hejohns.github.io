@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://hejohns.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hejohns.github.io/" rel="alternate" type="text/html" /><updated>2023-11-06T04:15:46-05:00</updated><id>https://hejohns.github.io/feed.xml</id><title type="html">hejohns’ jekyll site</title><subtitle>a pure waste of space</subtitle><author><name>Johnson He</name><email>(hejohns)α(umich)δ(edu)</email></author><entry><title type="html">Live Reload</title><link href="https://hejohns.github.io/site-construction/2023/11/06/live-reload.html" rel="alternate" type="text/html" title="Live Reload" /><published>2023-11-06T00:00:00-05:00</published><updated>2023-11-06T04:10:10-05:00</updated><id>https://hejohns.github.io/site-construction/2023/11/06/live-reload</id><content type="html" xml:base="https://hejohns.github.io/site-construction/2023/11/06/live-reload.html"><![CDATA[<p>I’ve been writing posts without live reloading/preview
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://hejohns.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hejohns.github.io/" rel="alternate" type="text/html" /><updated>2023-11-07T01:32:31-05:00</updated><id>https://hejohns.github.io/feed.xml</id><title type="html">hejohns’ jekyll site</title><subtitle>a pure waste of space</subtitle><author><name>Johnson He</name><email>(hejohns)α(umich)δ(edu)</email></author><entry><title type="html">ble.sh</title><link href="https://hejohns.github.io/2023/11/07/ble-sh.html" rel="alternate" type="text/html" title="ble.sh" /><published>2023-11-07T00:00:00-05:00</published><updated>2023-11-07T01:32:11-05:00</updated><id>https://hejohns.github.io/2023/11/07/ble-sh</id><content type="html" xml:base="https://hejohns.github.io/2023/11/07/ble-sh.html"><![CDATA[<p>I just installed <a href="https://github.com/akinomyoga/ble.sh">ble.sh</a>
+and wow is this nice.</p>]]></content><author><name>Johnson He</name><email>(hejohns)α(umich)δ(edu)</email></author><summary type="html"><![CDATA[I just installed ble.sh and wow is this nice.]]></summary></entry><entry><title type="html">Live Reload</title><link href="https://hejohns.github.io/site-construction/2023/11/06/live-reload.html" rel="alternate" type="text/html" title="Live Reload" /><published>2023-11-06T00:00:00-05:00</published><updated>2023-11-07T01:31:33-05:00</updated><id>https://hejohns.github.io/site-construction/2023/11/06/live-reload</id><content type="html" xml:base="https://hejohns.github.io/site-construction/2023/11/06/live-reload.html"><![CDATA[<p>I’ve been writing posts without live reloading/preview
 for some reason.
 I think <code class="language-plaintext highlighter-rouge">--watch</code> didn’t work or something.</p>
 
@@ -469,21 +470,4 @@ an indefinite hiatus of this project, marked by the returning of Goldblatt’s b
 on the tails of the excellent model theory class and continuous logic seminar,
 but the model theoretic background seems low enough that picking Goldblatt’s book back up should be smooth.</p>
 
-<p>Alas. One day. One day.</p>]]></content><author><name>Johnson He</name><email>(hejohns)α(umich)δ(edu)</email></author><summary type="html"><![CDATA[(personal record keeping)]]></summary></entry><entry><title type="html">chili oil</title><link href="https://hejohns.github.io/2023/05/02/chili-oil.html" rel="alternate" type="text/html" title="chili oil" /><published>2023-05-02T00:00:00-04:00</published><updated>2023-05-15T03:04:57-04:00</updated><id>https://hejohns.github.io/2023/05/02/chili-oil</id><content type="html" xml:base="https://hejohns.github.io/2023/05/02/chili-oil.html"><![CDATA[<p>since I always manage to forget something so simple:</p>
-<ul>
-  <li>take the thai chili or equivalent</li>
-  <li>remove stem, and remove tip as it’s prone to burning</li>
-  <li>the seeds burn slower than the flesh, so</li>
-  <li>cut in half lengthwise</li>
-  <li>remove the seeds and put them in a spoon</li>
-  <li>cut the flesh into quarters or some sort of strip
-    <ul>
-      <li>if the pieces are too small, they tend to burn</li>
-      <li>if the pieces are too large, it’s a waste of pepper</li>
-    </ul>
-  </li>
-  <li>heat neutral oil in the smallest saucepan</li>
-  <li>seeds in first, dump the spoon</li>
-  <li>wait a bit, then fresh in</li>
-  <li>high heat quickly, then immediately off to prevent burning</li>
-</ul>]]></content><author><name>Johnson He</name><email>(hejohns)α(umich)δ(edu)</email></author><summary type="html"><![CDATA[since I always manage to forget something so simple: take the thai chili or equivalent remove stem, and remove tip as it’s prone to burning the seeds burn slower than the flesh, so cut in half lengthwise remove the seeds and put them in a spoon cut the flesh into quarters or some sort of strip if the pieces are too small, they tend to burn if the pieces are too large, it’s a waste of pepper heat neutral oil in the smallest saucepan seeds in first, dump the spoon wait a bit, then fresh in high heat quickly, then immediately off to prevent burning]]></summary></entry></feed>
+<p>Alas. One day. One day.</p>]]></content><author><name>Johnson He</name><email>(hejohns)α(umich)δ(edu)</email></author><summary type="html"><![CDATA[(personal record keeping)]]></summary></entry></feed>
