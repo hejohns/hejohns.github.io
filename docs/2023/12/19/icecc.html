@@ -3,22 +3,22 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>ble.sh | hejohns’ jekyll site</title>
+<title>icecc | hejohns’ jekyll site</title>
 <meta name="generator" content="Jekyll v4.3.2" />
-<meta property="og:title" content="ble.sh" />
+<meta property="og:title" content="icecc" />
 <meta name="author" content="Johnson He" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="I just installed ble.sh and wow is this nice." />
-<meta property="og:description" content="I just installed ble.sh and wow is this nice." />
-<link rel="canonical" href="http://192.168.1.100:4000/2023/11/07/ble-sh.html" />
-<meta property="og:url" content="http://192.168.1.100:4000/2023/11/07/ble-sh.html" />
+<meta name="description" content="It’s break and I’m cleaning up some computer stuff." />
+<meta property="og:description" content="It’s break and I’m cleaning up some computer stuff." />
+<link rel="canonical" href="http://192.168.1.100:4000/2023/12/19/icecc.html" />
+<meta property="og:url" content="http://192.168.1.100:4000/2023/12/19/icecc.html" />
 <meta property="og:site_name" content="hejohns’ jekyll site" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2023-11-07T00:00:00-05:00" />
+<meta property="article:published_time" content="2023-12-19T00:00:00-05:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="ble.sh" />
+<meta property="twitter:title" content="icecc" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Johnson He"},"dateModified":"2023-11-07T01:32:11-05:00","datePublished":"2023-11-07T00:00:00-05:00","description":"I just installed ble.sh and wow is this nice.","headline":"ble.sh","mainEntityOfPage":{"@type":"WebPage","@id":"http://192.168.1.100:4000/2023/11/07/ble-sh.html"},"url":"http://192.168.1.100:4000/2023/11/07/ble-sh.html"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Johnson He"},"dateModified":"2023-12-19T23:48:09-05:00","datePublished":"2023-12-19T00:00:00-05:00","description":"It’s break and I’m cleaning up some computer stuff.","headline":"icecc","mainEntityOfPage":{"@type":"WebPage","@id":"http://192.168.1.100:4000/2023/12/19/icecc.html"},"url":"http://192.168.1.100:4000/2023/12/19/icecc.html"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="http://192.168.1.100:4000/feed.xml" title="hejohns&apos; jekyll site" />  <!-- see: -->
   <!-- https://codewrites.me/jekyll/katex/blog/2020/08/26/use-katex-gh-pages/ -->
@@ -55,32 +55,57 @@
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
           <h3>
-            page version: November 7, 2023
+            page version: December 19, 2023
           </h3>
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">ble.sh</h1>
-    <p class="post-meta"><time class="dt-published" datetime="2023-11-07T00:00:00-05:00" itemprop="datePublished">
-        original date: Nov 7, 2023
+    <h1 class="post-title p-name" itemprop="name headline">icecc</h1>
+    <p class="post-meta"><time class="dt-published" datetime="2023-12-19T00:00:00-05:00" itemprop="datePublished">
+        original date: Dec 19, 2023
       </time></p>
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <p>I just installed <a href="https://github.com/akinomyoga/ble.sh">ble.sh</a>
-and wow is this nice.</p>
+    <p>It’s break and I’m cleaning up some computer stuff.</p>
+
+<p>One thing I hadn’t gotten around to was setting up <a href="https://github.com/icecc/icecream">icecc</a>,
+which seems like a more automated distcc.
+I thought I’d have to write systemd services for <code class="language-plaintext highlighter-rouge">iceccd -d</code> and <code class="language-plaintext highlighter-rouge">icecc-scheduler -d</code> myself,
+  but the debian package for icecc already does it for you<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>,
+which I was quite pleased about.</p>
+
+<p>So all it takes is</p>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">apt install icecc</code></li>
+  <li><code class="language-plaintext highlighter-rouge">systemctl enable icecc-scheduler</code></li>
+</ul>
+
+<p>From what I can tell, <code class="language-plaintext highlighter-rouge">iceccd</code> and <code class="language-plaintext highlighter-rouge">icecc-scheduler</code> automagically form a local (sub)network-wide cluster, which can be viewed with <code class="language-plaintext highlighter-rouge">icecream-sundae</code>.</p>
+
+<p>And of course, as the icecc README says, clients of the cluster need to
+<code class="language-plaintext highlighter-rouge">export PATH=/usr/lib/icecc/bin:$PATH</code>.</p>
+
+<p>That’s it.</p>
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>As you can probably guess, we both named them <code class="language-plaintext highlighter-rouge">iceccd.service</code> and <code class="language-plaintext highlighter-rouge">icecc-scheduler.service</code>… <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
 
   </div><!-- use minima's column styling since I don't know css -->
   <div class="footer-col-wrapper">
-      <div class="footer-col"><a href="/site-construction/2023/11/06/live-reload.html">prev</a></div>
+      <div class="footer-col"><a href="/2023/12/08/domain-theory-1.html">prev</a></div>
       <div class="footer-col">
         <h2> related </h2>
-        <ul><li><a href="/2023/12/19/icecc.html">icecc,</a></li><li><a href="/2023/04/23/scripting.html">some remarks apropos scripting,</a></li><li><a href="/2023/10/10/tortoise-tts.html">tortoise text to speech (and piper),</a></li><li><a href="/2023/11/07/ble-sh.html">ble.sh,</a></li><li><a href="/site-construction/2023/11/06/live-reload.html">Live Reload,</a></li><li><a href="/site-construction/2023/04/05/last-modified-time-test.html">getting page last modified time,</a></li><li><a href="/site-construction/2023/04/05/page-sorting.html">sorting the page links in the top right header,</a></li><li><a href="/site-construction/2023/04/07/underscore-plugins.html">this jekyll site&#39;s _plugins,</a></li><li><a href="/category-theory/2023/05/18/equivalence-of-categories.html">equivalence of categories,</a></li><li><a href="/site-construction/2023/04/05/katex-test.html">latex with katex,</a></li><li><a href="/2023/04/09/gsi-applications.html">my gsi application videos,</a></li></ul>
+        <ul><li><a href="/2023/12/19/icecc.html">icecc,</a></li><li><a href="/2023/10/10/tortoise-tts.html">tortoise text to speech (and piper),</a></li><li><a href="/2023/04/23/scripting.html">some remarks apropos scripting,</a></li><li><a href="/logical/relations/2023/11/08/LR-1.html">Logical Relations 1,</a></li><li><a href="/2023/05/10/linux-graphics-modules.html">multiple displays and linux graphics modules,</a></li><li><a href="/site-construction/2023/04/05/welcome-to-jekyll.html">Welcome to Jekyll!,</a></li><li><a href="/2023/07/24/book-catalogue.html">book catalogue,</a></li><li><a href="/2023/04/10/miserliness.html">funny sayings,</a></li><li><a href="/site-construction/2023/04/05/katex-test.html">latex with katex,</a></li><li><a href="/2023/04/14/rasterize-pdfs.html">rasterizing pdfs, among other things,</a></li><li><a href="/2023/12/08/domain-theory-1.html">preparing for my final presentation for descriptive set theory,</a></li></ul>
       </div>
-      <div class="footer-col"><a href="/logical/relations/2023/11/08/LR-1.html">next</a></div>
+      <div class="footer-col"></div>
   </div>
 
-  <a class="u-url" href="/2023/11/07/ble-sh.html" hidden></a>
+  <a class="u-url" href="/2023/12/19/icecc.html" hidden></a>
 </article>
 
       </div>
