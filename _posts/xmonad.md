@@ -1,6 +1,6 @@
 ---
 layout: post
-title: icecc
+title: xmonad
 date: 2023-12-20
 ---
 As with the [icecc post]({$ link _posts/icecc.md %}),
