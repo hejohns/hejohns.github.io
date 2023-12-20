@@ -1,4 +1,92 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://192.168.1.100:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://192.168.1.100:4000/" rel="alternate" type="text/html" /><updated>2023-12-19T23:50:02-05:00</updated><id>http://192.168.1.100:4000/feed.xml</id><title type="html">hejohns’ jekyll site</title><subtitle>a pure waste of space</subtitle><author><name>Johnson He</name><email>(hejohns)α(umich)δ(edu)</email></author><entry><title type="html">icecc</title><link href="http://192.168.1.100:4000/2023/12/19/icecc.html" rel="alternate" type="text/html" title="icecc" /><published>2023-12-19T00:00:00-05:00</published><updated>2023-12-19T23:48:09-05:00</updated><id>http://192.168.1.100:4000/2023/12/19/icecc</id><content type="html" xml:base="http://192.168.1.100:4000/2023/12/19/icecc.html"><![CDATA[<p>It’s break and I’m cleaning up some computer stuff.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://hejohns.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hejohns.github.io/" rel="alternate" type="text/html" /><updated>2023-12-20T11:34:05-05:00</updated><id>https://hejohns.github.io/feed.xml</id><title type="html">hejohns’ jekyll site</title><subtitle>a pure waste of space</subtitle><author><name>Johnson He</name><email>(hejohns)α(umich)δ(edu)</email></author><entry><title type="html">icecc</title><link href="https://hejohns.github.io/2023/12/20/xmonad.html" rel="alternate" type="text/html" title="icecc" /><published>2023-12-20T00:00:00-05:00</published><updated>2023-12-20T11:33:40-05:00</updated><id>https://hejohns.github.io/2023/12/20/xmonad</id><content type="html" xml:base="https://hejohns.github.io/2023/12/20/xmonad.html"><![CDATA[<p>As with the <a href="{$ link _posts/icecc.md %}">icecc post</a>,
+I’m moving <a href="https://xmonad.org/">xmonad</a> from one server to another
+for “less downtime”<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>.</p>
+
+<p>I had all the configuration files in <a href="https://github.com/hejohns/.rc">my rc github repo</a>,
+but I didn’t document what to actually do, so here we go:</p>
+
+<ul>
+  <li>Take a fresh debian container
+    <ul>
+      <li>You probably want to <code class="language-plaintext highlighter-rouge">adduser hejohns</code> and <code class="language-plaintext highlighter-rouge">apt install sudo</code> and  <code class="language-plaintext highlighter-rouge">adduser hejohns sudo</code>
+  since we want to <code class="language-plaintext highlighter-rouge">ssh -X</code> into this box later<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup></li>
+    </ul>
+  </li>
+  <li>Install ghc/cabal w/ ghcup
+    <ul>
+      <li>See <a href="https://www.haskell.org/ghcup/install/">https://www.haskell.org/ghcup/install/</a></li>
+      <li>Install the required system packages (eg curl, libffi-dev, libgmp-dev, …)</li>
+      <li>Do their <code class="language-plaintext highlighter-rouge">curl | sh</code> thing</li>
+      <li>If this container is just for xmonad, can do a minimal ghcup install</li>
+      <li>Can probably just use the default version of ghc.
+  You can <code class="language-plaintext highlighter-rouge">ghcup tui</code> to install something newer, but if you pick something too bleeding edge, you might get cabal package constraint errors later</li>
+    </ul>
+  </li>
+  <li>Install xmonad
+    <ul>
+      <li>See <a href="https://xmonad.org/INSTALL.html">https://xmonad.org/INSTALL.html</a></li>
+      <li>Install the required system dependencies (eg libx11-dev, libxss-dev, …)</li>
+      <li><code class="language-plaintext highlighter-rouge">cabal update</code></li>
+      <li><code class="language-plaintext highlighter-rouge">cabal install --lib xmonad xmonad-contrib</code>
+  for the libraries xmonad needs on recompile</li>
+      <li><code class="language-plaintext highlighter-rouge">cabal install xmonad</code> for the actual executable</li>
+    </ul>
+  </li>
+  <li>You still need some X infrastructure for xmonad to work
+    <ul>
+      <li>At the least, you need <code class="language-plaintext highlighter-rouge">apt install x11-utils</code> or else xmonad will error out on some missing executable</li>
+      <li>This might be included in <code class="language-plaintext highlighter-rouge">apt install xorg</code></li>
+      <li>I don’t know anything about X,
+  so I don’t even know if you need an X server or not–
+  but I think it didn’t work until I installed one</li>
+    </ul>
+  </li>
+  <li>I’m lazy, so <code class="language-plaintext highlighter-rouge">xmonad --recompile</code> and wait for it to error out b/c of the missing <em>xmonad.hs</em></li>
+  <li>This creates <em>~/.config/xmonad</em> for you (for create it yourself)</li>
+  <li><code class="language-plaintext highlighter-rouge">git clone</code> the rc repo or equivalent
+(for <em>xmonad.hs</em>, <em>.xsession</em>, and associated systemd files)</li>
+  <li><code class="language-plaintext highlighter-rouge">cp</code> the <em>xmonad.hs</em> into <em>~/.config/xmonad</em></li>
+  <li>Confirm that <code class="language-plaintext highlighter-rouge">xmonad --recompile</code> works now</li>
+  <li><code class="language-plaintext highlighter-rouge">xmonad --replace</code> won’t work yet since the X env isn’t setup properly</li>
+  <li><code class="language-plaintext highlighter-rouge">cp</code> the systemd files in rc under <em>etc/systemd/user</em> to their respective place in the actual system</li>
+  <li>You probably need to <code class="language-plaintext highlighter-rouge">systemctl --user enable</code> the two services</li>
+  <li><code class="language-plaintext highlighter-rouge">cp</code> the <em>xsession</em> into <em>~/.xsession</em></li>
+  <li>Finally add <code class="language-plaintext highlighter-rouge">(bash ~/.xsession &gt; /dev/null 2&gt;&amp;1 &amp;)</code> or equivalent to your <em>.bashrc</em></li>
+</ul>
+
+<h2 id="summary">Summary</h2>
+<p>Now, when you’re on your desktop, you can <code class="language-plaintext highlighter-rouge">ssh -X</code> into this box we just setup
+and when the bashrc gets sourced on login,
+the xsession file will also run and start the systemd user target to fire up
+xmonad and xcompmgr.</p>
+
+<p>Oh right, so you probably want to install <code class="language-plaintext highlighter-rouge">xcompmgr</code> as well.
+The systemd file in the repo currently assumes it was installed with <code class="language-plaintext highlighter-rouge">nix</code>,
+but you can just install it with <code class="language-plaintext highlighter-rouge">apt</code> and change the path.
+(I did that just now.)</p>
+
+<p>My desktop is a “dumb” client
+(actually, it’s a minimally configured debian + xfce install),
+so I can outsource the ghc and xmonad mess to another machine this way.</p>
+
+<p>Why the fuss with systemd?
+xmonad used to segfault all the time for some reason,
+and having your (remote) window manager suddenly stop really sucks.
+A systemd user service that automatically restarts seemed like the right solution.
+(When xmonad restarts, all the tilings get reset, but at least a window manager is still running.)</p>
+
+<p>Actually, I don’t think I’ve had xmonad segfault in a long time now,
+but the principle stands.</p>
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>I’m reproducing the xmonad setup on the Dell T130 (Pentium G4600) to a container on the Lenovo P720 (dual Xeon 6142s), so I can restart other stuff w/o killing my window manager <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:2" role="doc-endnote">
+      <p>I did this all as root the first time, and had to do it all over again as my own user since so much of the ghcup and X stuff is per-user. <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>]]></content><author><name>Johnson He</name><email>(hejohns)α(umich)δ(edu)</email></author><summary type="html"><![CDATA[As with the icecc post, I’m moving xmonad from one server to another for “less downtime”1. I’m reproducing the xmonad setup on the Dell T130 (Pentium G4600) to a container on the Lenovo P720 (dual Xeon 6142s), so I can restart other stuff w/o killing my window manager &#8617;]]></summary></entry><entry><title type="html">icecc</title><link href="https://hejohns.github.io/2023/12/19/icecc.html" rel="alternate" type="text/html" title="icecc" /><published>2023-12-19T00:00:00-05:00</published><updated>2023-12-19T23:48:09-05:00</updated><id>https://hejohns.github.io/2023/12/19/icecc</id><content type="html" xml:base="https://hejohns.github.io/2023/12/19/icecc.html"><![CDATA[<p>It’s break and I’m cleaning up some computer stuff.</p>
 
 <p>One thing I hadn’t gotten around to was setting up <a href="https://github.com/icecc/icecream">icecc</a>,
 which seems like a more automated distcc.
@@ -24,7 +112,7 @@ which I was quite pleased about.</p>
       <p>As you can probably guess, we both named them <code class="language-plaintext highlighter-rouge">iceccd.service</code> and <code class="language-plaintext highlighter-rouge">icecc-scheduler.service</code>… <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
-</div>]]></content><author><name>Johnson He</name><email>(hejohns)α(umich)δ(edu)</email></author><summary type="html"><![CDATA[It’s break and I’m cleaning up some computer stuff.]]></summary></entry><entry><title type="html">preparing for my final presentation for descriptive set theory</title><link href="http://192.168.1.100:4000/2023/12/08/domain-theory-1.html" rel="alternate" type="text/html" title="preparing for my final presentation for descriptive set theory" /><published>2023-12-08T00:00:00-05:00</published><updated>2023-12-14T06:43:57-05:00</updated><id>http://192.168.1.100:4000/2023/12/08/domain-theory-1</id><content type="html" xml:base="http://192.168.1.100:4000/2023/12/08/domain-theory-1.html"><![CDATA[<h2 id="abramsky-and-jung"><a href="https://www.cs.bham.ac.uk/~axj/pub/papers/handy1.pdf">Abramsky and Jung</a></h2>
+</div>]]></content><author><name>Johnson He</name><email>(hejohns)α(umich)δ(edu)</email></author><summary type="html"><![CDATA[It’s break and I’m cleaning up some computer stuff.]]></summary></entry><entry><title type="html">preparing for my final presentation for descriptive set theory</title><link href="https://hejohns.github.io/2023/12/08/domain-theory-1.html" rel="alternate" type="text/html" title="preparing for my final presentation for descriptive set theory" /><published>2023-12-08T00:00:00-05:00</published><updated>2023-12-14T06:43:57-05:00</updated><id>https://hejohns.github.io/2023/12/08/domain-theory-1</id><content type="html" xml:base="https://hejohns.github.io/2023/12/08/domain-theory-1.html"><![CDATA[<h2 id="abramsky-and-jung"><a href="https://www.cs.bham.ac.uk/~axj/pub/papers/handy1.pdf">Abramsky and Jung</a></h2>
 <p>(This is the corrected version of the chapter that appears in the
  Handbook of Logic in Computer Science v. 3)</p>
 <h3 id="sec-1">sec 1</h3>
@@ -75,7 +163,7 @@ which I was quite pleased about.</p>
       </li>
     </ul>
   </li>
-</ul>]]></content><author><name>Johnson He</name><email>(hejohns)α(umich)δ(edu)</email></author><summary type="html"><![CDATA[Abramsky and Jung (This is the corrected version of the chapter that appears in the Handbook of Logic in Computer Science v. 3) sec 1 motivations for domain theory least fixpoints as meanings of recursive definitions ``properly denotational” semantics of datatypes eg for the untyped λ-calculus familiar results: (Knaster-Tarski) every monotone function on a complete lattice has a least fixpoint (var.) every monotone function on a pointed directed-complete partial order has a least fixpoint continuity as an algebraic approximation of computability partial information ordering one verison of higher recursion theory? sec 2 a poset is a dcpo ⟺ each chain has a supremum a pointed poset is a dcpo ⟺ every monotone map on it has a least fixpoint a function between dcpos is Scott-continous iff it is monotone and preserves directed joins a dcpo is continous iff it has a basis a dcpo is algebraic iff it has a basis of compact elements a dcpo is ω-continous iff ∃ ctbl basis a dcpo is ω-algebraic iff K(D) is a ctbl basis “domain” means a structure with a notion of convergence and approximation ω-chains v. directed sets sec 7]]></summary></entry><entry><title type="html">Logical Relations 1</title><link href="http://192.168.1.100:4000/logical/relations/2023/11/08/LR-1.html" rel="alternate" type="text/html" title="Logical Relations 1" /><published>2023-11-08T00:00:00-05:00</published><updated>2023-11-08T19:36:17-05:00</updated><id>http://192.168.1.100:4000/logical/relations/2023/11/08/LR-1</id><content type="html" xml:base="http://192.168.1.100:4000/logical/relations/2023/11/08/LR-1.html"><![CDATA[<p>These notes are for myself and will likely be unsatisfactory for anyone else.</p>
+</ul>]]></content><author><name>Johnson He</name><email>(hejohns)α(umich)δ(edu)</email></author><summary type="html"><![CDATA[Abramsky and Jung (This is the corrected version of the chapter that appears in the Handbook of Logic in Computer Science v. 3) sec 1 motivations for domain theory least fixpoints as meanings of recursive definitions ``properly denotational” semantics of datatypes eg for the untyped λ-calculus familiar results: (Knaster-Tarski) every monotone function on a complete lattice has a least fixpoint (var.) every monotone function on a pointed directed-complete partial order has a least fixpoint continuity as an algebraic approximation of computability partial information ordering one verison of higher recursion theory? sec 2 a poset is a dcpo ⟺ each chain has a supremum a pointed poset is a dcpo ⟺ every monotone map on it has a least fixpoint a function between dcpos is Scott-continous iff it is monotone and preserves directed joins a dcpo is continous iff it has a basis a dcpo is algebraic iff it has a basis of compact elements a dcpo is ω-continous iff ∃ ctbl basis a dcpo is ω-algebraic iff K(D) is a ctbl basis “domain” means a structure with a notion of convergence and approximation ω-chains v. directed sets sec 7]]></summary></entry><entry><title type="html">Logical Relations 1</title><link href="https://hejohns.github.io/logical/relations/2023/11/08/LR-1.html" rel="alternate" type="text/html" title="Logical Relations 1" /><published>2023-11-08T00:00:00-05:00</published><updated>2023-11-08T19:36:17-05:00</updated><id>https://hejohns.github.io/logical/relations/2023/11/08/LR-1</id><content type="html" xml:base="https://hejohns.github.io/logical/relations/2023/11/08/LR-1.html"><![CDATA[<p>These notes are for myself and will likely be unsatisfactory for anyone else.</p>
 
 <p>In the mission to write some notes on LRs for other students,
 and to get a sense for what ties the different approaches together,
@@ -174,8 +262,8 @@ so it’s not just a termination proof.</p>
       <p>I would make a comparison to Girard’s Reducibility criteria, if I knew it off the top of my head better. TODO for LR-2+ <a href="#fnref:3" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
-</div>]]></content><author><name>Johnson He</name><email>(hejohns)α(umich)δ(edu)</email></author><category term="logical" /><category term="relations" /><summary type="html"><![CDATA[These notes are for myself and will likely be unsatisfactory for anyone else.]]></summary></entry><entry><title type="html">ble.sh</title><link href="http://192.168.1.100:4000/2023/11/07/ble-sh.html" rel="alternate" type="text/html" title="ble.sh" /><published>2023-11-07T00:00:00-05:00</published><updated>2023-11-07T01:32:11-05:00</updated><id>http://192.168.1.100:4000/2023/11/07/ble-sh</id><content type="html" xml:base="http://192.168.1.100:4000/2023/11/07/ble-sh.html"><![CDATA[<p>I just installed <a href="https://github.com/akinomyoga/ble.sh">ble.sh</a>
-and wow is this nice.</p>]]></content><author><name>Johnson He</name><email>(hejohns)α(umich)δ(edu)</email></author><summary type="html"><![CDATA[I just installed ble.sh and wow is this nice.]]></summary></entry><entry><title type="html">Live Reload</title><link href="http://192.168.1.100:4000/site-construction/2023/11/06/live-reload.html" rel="alternate" type="text/html" title="Live Reload" /><published>2023-11-06T00:00:00-05:00</published><updated>2023-11-07T01:31:33-05:00</updated><id>http://192.168.1.100:4000/site-construction/2023/11/06/live-reload</id><content type="html" xml:base="http://192.168.1.100:4000/site-construction/2023/11/06/live-reload.html"><![CDATA[<p>I’ve been writing posts without live reloading/preview
+</div>]]></content><author><name>Johnson He</name><email>(hejohns)α(umich)δ(edu)</email></author><category term="logical" /><category term="relations" /><summary type="html"><![CDATA[These notes are for myself and will likely be unsatisfactory for anyone else.]]></summary></entry><entry><title type="html">ble.sh</title><link href="https://hejohns.github.io/2023/11/07/ble-sh.html" rel="alternate" type="text/html" title="ble.sh" /><published>2023-11-07T00:00:00-05:00</published><updated>2023-11-07T01:32:11-05:00</updated><id>https://hejohns.github.io/2023/11/07/ble-sh</id><content type="html" xml:base="https://hejohns.github.io/2023/11/07/ble-sh.html"><![CDATA[<p>I just installed <a href="https://github.com/akinomyoga/ble.sh">ble.sh</a>
+and wow is this nice.</p>]]></content><author><name>Johnson He</name><email>(hejohns)α(umich)δ(edu)</email></author><summary type="html"><![CDATA[I just installed ble.sh and wow is this nice.]]></summary></entry><entry><title type="html">Live Reload</title><link href="https://hejohns.github.io/site-construction/2023/11/06/live-reload.html" rel="alternate" type="text/html" title="Live Reload" /><published>2023-11-06T00:00:00-05:00</published><updated>2023-11-07T01:31:33-05:00</updated><id>https://hejohns.github.io/site-construction/2023/11/06/live-reload</id><content type="html" xml:base="https://hejohns.github.io/site-construction/2023/11/06/live-reload.html"><![CDATA[<p>I’ve been writing posts without live reloading/preview
 for some reason.
 I think <code class="language-plaintext highlighter-rouge">--watch</code> didn’t work or something.</p>
 
@@ -188,9 +276,9 @@ and it’s so nice, I had to make this post.</p>
 <p>Sometimes I have to manually refresh the browser page though
 or else it gets stuck on a blank screen.</p>
 
-<p>(And of course, check out the other <a href="/category/site-construction/">site-construction</a> posts)</p>]]></content><author><name>Johnson He</name><email>(hejohns)α(umich)δ(edu)</email></author><category term="site-construction" /><summary type="html"><![CDATA[I’ve been writing posts without live reloading/preview for some reason. I think --watch didn’t work or something.]]></summary></entry><entry><title type="html">coordinating processes</title><link href="http://192.168.1.100:4000/2023/10/29/coordinating-processes.html" rel="alternate" type="text/html" title="coordinating processes" /><published>2023-10-29T00:00:00-04:00</published><updated>2023-10-30T06:23:51-04:00</updated><id>http://192.168.1.100:4000/2023/10/29/coordinating-processes</id><content type="html" xml:base="http://192.168.1.100:4000/2023/10/29/coordinating-processes.html"><![CDATA[<p>This has to be a solved problem?!</p>
+<p>(And of course, check out the other <a href="/category/site-construction/">site-construction</a> posts)</p>]]></content><author><name>Johnson He</name><email>(hejohns)α(umich)δ(edu)</email></author><category term="site-construction" /><summary type="html"><![CDATA[I’ve been writing posts without live reloading/preview for some reason. I think --watch didn’t work or something.]]></summary></entry><entry><title type="html">coordinating processes</title><link href="https://hejohns.github.io/2023/10/29/coordinating-processes.html" rel="alternate" type="text/html" title="coordinating processes" /><published>2023-10-29T00:00:00-04:00</published><updated>2023-10-30T06:23:51-04:00</updated><id>https://hejohns.github.io/2023/10/29/coordinating-processes</id><content type="html" xml:base="https://hejohns.github.io/2023/10/29/coordinating-processes.html"><![CDATA[<p>This has to be a solved problem?!</p>
 
-<p><a href="https://github.com/hejohns/systemp">repo</a></p>]]></content><author><name>Johnson He</name><email>(hejohns)α(umich)δ(edu)</email></author><summary type="html"><![CDATA[This has to be a solved problem?!]]></summary></entry><entry><title type="html">tortoise text to speech (and piper)</title><link href="http://192.168.1.100:4000/2023/10/10/tortoise-tts.html" rel="alternate" type="text/html" title="tortoise text to speech (and piper)" /><published>2023-10-10T00:00:00-04:00</published><updated>2023-10-11T06:33:16-04:00</updated><id>http://192.168.1.100:4000/2023/10/10/tortoise-tts</id><content type="html" xml:base="http://192.168.1.100:4000/2023/10/10/tortoise-tts.html"><![CDATA[<h2 id="motivation">Motivation</h2>
+<p><a href="https://github.com/hejohns/systemp">repo</a></p>]]></content><author><name>Johnson He</name><email>(hejohns)α(umich)δ(edu)</email></author><summary type="html"><![CDATA[This has to be a solved problem?!]]></summary></entry><entry><title type="html">tortoise text to speech (and piper)</title><link href="https://hejohns.github.io/2023/10/10/tortoise-tts.html" rel="alternate" type="text/html" title="tortoise text to speech (and piper)" /><published>2023-10-10T00:00:00-04:00</published><updated>2023-10-11T06:33:16-04:00</updated><id>https://hejohns.github.io/2023/10/10/tortoise-tts</id><content type="html" xml:base="https://hejohns.github.io/2023/10/10/tortoise-tts.html"><![CDATA[<h2 id="motivation">Motivation</h2>
 
 <p>I’m getting my butt kicked by EECS 582.
 We’re assigned four papers a week to read–
@@ -337,7 +425,7 @@ docker’s quite pleasant to use?</p>
       <p>I’m assuming that means something to the ML-literate <a href="#fnref:3" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
-</div>]]></content><author><name>Johnson He</name><email>(hejohns)α(umich)δ(edu)</email></author><summary type="html"><![CDATA[Motivation]]></summary></entry><entry><title type="html">nic bonding</title><link href="http://192.168.1.100:4000/2023/08/03/nic-bonding.html" rel="alternate" type="text/html" title="nic bonding" /><published>2023-08-03T00:00:00-04:00</published><updated>2023-08-03T17:41:06-04:00</updated><id>http://192.168.1.100:4000/2023/08/03/nic-bonding</id><content type="html" xml:base="http://192.168.1.100:4000/2023/08/03/nic-bonding.html"><![CDATA[<ul>
+</div>]]></content><author><name>Johnson He</name><email>(hejohns)α(umich)δ(edu)</email></author><summary type="html"><![CDATA[Motivation]]></summary></entry><entry><title type="html">nic bonding</title><link href="https://hejohns.github.io/2023/08/03/nic-bonding.html" rel="alternate" type="text/html" title="nic bonding" /><published>2023-08-03T00:00:00-04:00</published><updated>2023-08-03T17:41:06-04:00</updated><id>https://hejohns.github.io/2023/08/03/nic-bonding</id><content type="html" xml:base="https://hejohns.github.io/2023/08/03/nic-bonding.html"><![CDATA[<ul>
   <li>nmtui</li>
   <li>edit a connection</li>
   <li>add</li>
@@ -358,7 +446,7 @@ docker’s quite pleasant to use?</p>
   <li>the mac address changes (not sure why), so you probably have to change the dhcp server settings to statically lease the old ip to the bond mac address</li>
 </ul>
 
-<p>redhat has some documentation online</p>]]></content><author><name>Johnson He</name><email>(hejohns)α(umich)δ(edu)</email></author><summary type="html"><![CDATA[nmtui edit a connection add type bond two slaves idk why but it seems like you need to create two entirely new connections so deactivate the old connections before activating the bond set primary device (eg eno2). This is the mac address used? status: nmcli con ip address the mac address changes (not sure why), so you probably have to change the dhcp server settings to statically lease the old ip to the bond mac address]]></summary></entry><entry><title type="html">book catalogue</title><link href="http://192.168.1.100:4000/2023/07/24/book-catalogue.html" rel="alternate" type="text/html" title="book catalogue" /><published>2023-07-24T00:00:00-04:00</published><updated>2023-09-30T14:54:48-04:00</updated><id>http://192.168.1.100:4000/2023/07/24/book-catalogue</id><content type="html" xml:base="http://192.168.1.100:4000/2023/07/24/book-catalogue.html"><![CDATA[<ul id="markdown-toc">
+<p>redhat has some documentation online</p>]]></content><author><name>Johnson He</name><email>(hejohns)α(umich)δ(edu)</email></author><summary type="html"><![CDATA[nmtui edit a connection add type bond two slaves idk why but it seems like you need to create two entirely new connections so deactivate the old connections before activating the bond set primary device (eg eno2). This is the mac address used? status: nmcli con ip address the mac address changes (not sure why), so you probably have to change the dhcp server settings to statically lease the old ip to the bond mac address]]></summary></entry><entry><title type="html">book catalogue</title><link href="https://hejohns.github.io/2023/07/24/book-catalogue.html" rel="alternate" type="text/html" title="book catalogue" /><published>2023-07-24T00:00:00-04:00</published><updated>2023-09-30T14:54:48-04:00</updated><id>https://hejohns.github.io/2023/07/24/book-catalogue</id><content type="html" xml:base="https://hejohns.github.io/2023/07/24/book-catalogue.html"><![CDATA[<ul id="markdown-toc">
   <li><a href="#logic" id="markdown-toc-logic">logic</a>    <ul>
       <li><a href="#introductory-textbooks" id="markdown-toc-introductory-textbooks">introductory textbooks</a></li>
       <li><a href="#monographs" id="markdown-toc-monographs">monographs</a></li>
@@ -544,52 +632,4 @@ Any listing is loanable– just ask.</p>
 <ul>
   <li>Soare’s computability theory book</li>
   <li>Marker’s model theory book</li>
-</ul>]]></content><author><name>Johnson He</name><email>(hejohns)α(umich)δ(edu)</email></author></entry><entry><title type="html">equivalence of categories</title><link href="http://192.168.1.100:4000/category-theory/2023/05/18/equivalence-of-categories.html" rel="alternate" type="text/html" title="equivalence of categories" /><published>2023-05-18T00:00:00-04:00</published><updated>2023-05-18T21:51:35-04:00</updated><id>http://192.168.1.100:4000/category-theory/2023/05/18/equivalence-of-categories</id><content type="html" xml:base="http://192.168.1.100:4000/category-theory/2023/05/18/equivalence-of-categories.html"><![CDATA[<p>An oft-stated characterization of an equivalence of categories is that TFAE:</p>
-<ol>
-  <li>A functor \(F : \mathcal{C} → \mathcal{D}\) is (the forward direction of) an equivalence of categories</li>
-  <li>\(F\) is <em>full</em>, <em>faithful</em>, and <em>essentially surjective on objects</em><sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup></li>
-</ol>
-
-<p><strong>pf (1 ⟹ 2):</strong> (you really need to draw the diagrams. I’m not going to try here)</p>
-
-<p>Let \(F : \mathcal{C} → \mathcal{D}\) be an equivalence of categories.</p>
-<ul>
-  <li>wts \(F\) faithful: assume \(Ff = Fg\), for \(f, g : \mathcal{C}(A, B)\).
-Then \(F⁻¹Ff = F⁻¹Fg\).
-Let \(α : 1_\mathcal{C} ⇒ F⁻¹F\) witness that F is an equivalence.
-Notice that \(α_B ∘ f = F⁻¹Ff ∘ α_A ⟹ α_B ∘ f ∘ α⁻¹_A = F⁻¹Ff\),
-and similarly \(α_B ∘ g = F⁻¹Fg ∘ α_A ⟹ α_B ∘ g ∘ α⁻¹_A = F⁻¹Fg\).
-Thus \(F⁻¹Ff = F⁻¹Fg ⟹ F⁻¹Fg ∘ α_A ⟹ α_B ∘ f ∘ α⁻¹_A = F⁻¹Fg ∘ α_A ⟹ α_B ∘ g ∘ α⁻¹_A ⟹ f = g\).<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup></li>
-</ul>
-
-<ul>
-  <li>wts \(F\) full: Consider \(h : \mathcal{D}(FA, FB)\).
-Then \(α⁻¹_B ∘ F⁻¹h ∘ α_A : \mathcal{C}(A, B)\)
-In a roundabout fashion, consider not \(F(α⁻¹_B ∘ F⁻¹h ∘ α_A)\) directly,
-but \(F⁻¹F(α⁻¹_B ∘ F⁻¹h ∘ α_A)\).
-Actually, our proof above that \(F\) is faithful is symmetric since an equivalence of categories is a symmetric notion, so \(F⁻¹\) is faithful as well.
-Notice that \(F⁻¹F(α⁻¹_B ∘ F⁻¹h ∘ α_A) = α_B ∘ f ∘ α⁻¹_A = F⁻¹h\),
-and since \(F⁻¹\) is faithful, \(F(α⁻¹_B ∘ F⁻¹h ∘ α_A) = h\).</li>
-  <li>wts \(F\) eso:
-Let \(β : FF⁻¹ ⇒ 1_\mathcal{D}\) be the other witness that \(\mathcal{C} ≅ \mathcal{D}\).
-\(∀X ∈ \mathcal{D}. β_X\) witnesses that \(FF⁻¹X ≅ X\).</li>
-</ul>
-
-<p><strong>pf (2 ⟹ 1):</strong></p>
-
-<p>Let \(F\) be fully faithful and eso.
-Define \(F⁻¹\) st</p>
-
-<p>TODO: I’m tired. This is Awodey p.174</p>
-
-<p>Amalgamated from Awodey and Rhiel’s books, and the nlab</p>
-<div class="footnotes" role="doc-endnotes">
-  <ol>
-    <li id="fn:1" role="doc-endnote">
-      <p>the definitions are standard, but the way I remember it is that <em>faithful</em> := injective on homsets, <em>full</em> := surjective on homsets, <em>eso</em> := surjective on objects, up to isomorphism <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-    <li id="fn:2" role="doc-endnote">
-      <p>we make use of the fact that natural transformation ⟹ (natural isomorphism ⟺ each point is an isomorphism) <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-  </ol>
-</div>]]></content><author><name>Johnson He</name><email>(hejohns)α(umich)δ(edu)</email></author><category term="category-theory" /><summary type="html"><![CDATA[An oft-stated characterization of an equivalence of categories is that TFAE: A functor \(F : \mathcal{C} → \mathcal{D}\) is (the forward direction of) an equivalence of categories \(F\) is full, faithful, and essentially surjective on objects1 the definitions are standard, but the way I remember it is that faithful := injective on homsets, full := surjective on homsets, eso := surjective on objects, up to isomorphism &#8617;]]></summary></entry></feed>
+</ul>]]></content><author><name>Johnson He</name><email>(hejohns)α(umich)δ(edu)</email></author></entry></feed>
