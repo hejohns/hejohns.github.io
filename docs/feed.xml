@@ -1,4 +1,69 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://hejohns.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hejohns.github.io/" rel="alternate" type="text/html" /><updated>2023-12-20T11:36:32-05:00</updated><id>https://hejohns.github.io/feed.xml</id><title type="html">hejohns’ jekyll site</title><subtitle>a pure waste of space</subtitle><author><name>Johnson He</name><email>(hejohns)α(umich)δ(edu)</email></author><entry><title type="html">xmonad</title><link href="https://hejohns.github.io/2023/12/20/xmonad.html" rel="alternate" type="text/html" title="xmonad" /><published>2023-12-20T00:00:00-05:00</published><updated>2023-12-20T11:36:18-05:00</updated><id>https://hejohns.github.io/2023/12/20/xmonad</id><content type="html" xml:base="https://hejohns.github.io/2023/12/20/xmonad.html"><![CDATA[<p>As with the <a href="{$ link _posts/icecc.md %}">icecc post</a>,
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://hejohns.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hejohns.github.io/" rel="alternate" type="text/html" /><updated>2024-01-08T15:21:09-05:00</updated><id>https://hejohns.github.io/feed.xml</id><title type="html">hejohns’ jekyll site</title><subtitle>a pure waste of space</subtitle><author><name>Johnson He</name><email>(hejohns)α(umich)δ(edu)</email></author><entry><title type="html">Thunderbird and Nix</title><link href="https://hejohns.github.io/2024/01/08/thunderbird-and-nix.html" rel="alternate" type="text/html" title="Thunderbird and Nix" /><published>2024-01-08T00:00:00-05:00</published><updated>2024-01-08T15:19:25-05:00</updated><id>https://hejohns.github.io/2024/01/08/thunderbird-and-nix</id><content type="html" xml:base="https://hejohns.github.io/2024/01/08/thunderbird-and-nix.html"><![CDATA[<p>This is the second time I’ve come across this issue,
+and since it seems I’d forgotten about it after the first time,
+I’m making a note here.</p>
+
+<h2 id="context">Context</h2>
+<p>I’m using nix, as installed by <code class="language-plaintext highlighter-rouge">apt</code> (on debian).
+And thunderbird<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup> is installed by nix,
+to get the daily release<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup>.</p>
+
+<p>I’m using using the <a href="https://github.com/Frederick888/external-editor-revived">external-editor-revived</a>
+plugin so I can write emails in vim.
+The setup turns out to be a bit finicky with nix though.</p>
+
+<h2 id="issue">Issue</h2>
+<p>After <code class="language-plaintext highlighter-rouge">nix profile upgrade '.*'</code> ing thunderbird,
+when I try to use the external editor,
+I get the following errors<sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote" rel="footnote">3</a></sup> as some sort of floating X11 dialog/notification box:</p>
+
+<blockquote>
+  <p>gvim: /nix/store/…/libc.so.6: version ‘GLIBC_2.38’ not found
+(required by /nix/store/…-libcap-2.69-lib/lib/libcap.so.2).</p>
+
+  <p>gvim: /nix/store/…/libc.so.6: version ‘GLIBC_2.38’ not found
+(required by /nix/store/…-libtool-2.4.7-lib/lib/libltdl.so.7).</p>
+
+  <p>…</p>
+</blockquote>
+
+<p>And the external editor doesn’t fire up.</p>
+
+<p>My <code class="language-plaintext highlighter-rouge">ldd --version</code> on my host debian system
+shows glibc version 2.37.</p>
+
+<p>Note that gvim is installed through apt,
+on the host system (the “optiplex780” which is actually a hp z2 mini g3).
+A similar error happens on the T130
+when using konsole and vim,
+where konsole is installed with nix.</p>
+
+<h2 id="resolution">Resolution</h2>
+<p>I’m embarrassed to say I still can’t make heads or tails of how nix works,
+much as I’ve tried.
+So I don’t know exactly why some part of the process wants the host system to have
+what’s presumably the glibc version used to build thunderbird.</p>
+
+<p>I hope eventually I’ll figure this one out,
+but the workaround I can live with for now is just to either</p>
+
+<ol>
+  <li>not upgrade thunderbird too much (rollback if it uses a glibc version I don’t have yet)</li>
+  <li>temporarily live w/o a working external-editor until the debian glibc version catches up (which is iirc what I did the last time this happened). And then 1.</li>
+</ol>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>not my email client of choice, but I can’t use mutt with my university gmail, and I get html support this way <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:2" role="doc-endnote">
+      <p>for absolutely no reason, especially considering the amount of plugins that are always losing version support, and issues like the one in this post <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:3" role="doc-endnote">
+      <p>paraphrased from two different pictures of different thunderbird configurations/instances, so the libraries don’t match up, but you get the point. Actually these may be right, but I don’t guarantee it <a href="#fnref:3" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>]]></content><author><name>Johnson He</name><email>(hejohns)α(umich)δ(edu)</email></author><summary type="html"><![CDATA[This is the second time I’ve come across this issue, and since it seems I’d forgotten about it after the first time, I’m making a note here.]]></summary></entry><entry><title type="html">xmonad</title><link href="https://hejohns.github.io/2023/12/20/xmonad.html" rel="alternate" type="text/html" title="xmonad" /><published>2023-12-20T00:00:00-05:00</published><updated>2023-12-20T11:36:18-05:00</updated><id>https://hejohns.github.io/2023/12/20/xmonad</id><content type="html" xml:base="https://hejohns.github.io/2023/12/20/xmonad.html"><![CDATA[<p>As with the <a href="{$ link _posts/icecc.md %}">icecc post</a>,
 I’m moving <a href="https://xmonad.org/">xmonad</a> from one server to another
 for “less downtime”<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>.</p>
 
@@ -446,190 +511,4 @@ docker’s quite pleasant to use?</p>
   <li>the mac address changes (not sure why), so you probably have to change the dhcp server settings to statically lease the old ip to the bond mac address</li>
 </ul>
 
-<p>redhat has some documentation online</p>]]></content><author><name>Johnson He</name><email>(hejohns)α(umich)δ(edu)</email></author><summary type="html"><![CDATA[nmtui edit a connection add type bond two slaves idk why but it seems like you need to create two entirely new connections so deactivate the old connections before activating the bond set primary device (eg eno2). This is the mac address used? status: nmcli con ip address the mac address changes (not sure why), so you probably have to change the dhcp server settings to statically lease the old ip to the bond mac address]]></summary></entry><entry><title type="html">book catalogue</title><link href="https://hejohns.github.io/2023/07/24/book-catalogue.html" rel="alternate" type="text/html" title="book catalogue" /><published>2023-07-24T00:00:00-04:00</published><updated>2023-09-30T14:54:48-04:00</updated><id>https://hejohns.github.io/2023/07/24/book-catalogue</id><content type="html" xml:base="https://hejohns.github.io/2023/07/24/book-catalogue.html"><![CDATA[<ul id="markdown-toc">
-  <li><a href="#logic" id="markdown-toc-logic">logic</a>    <ul>
-      <li><a href="#introductory-textbooks" id="markdown-toc-introductory-textbooks">introductory textbooks</a></li>
-      <li><a href="#monographs" id="markdown-toc-monographs">monographs</a></li>
-      <li><a href="#editorials-and-proceedings" id="markdown-toc-editorials-and-proceedings">editorials and proceedings</a></li>
-      <li><a href="#misc" id="markdown-toc-misc">misc</a></li>
-    </ul>
-  </li>
-  <li><a href="#computer-science" id="markdown-toc-computer-science">computer science</a>    <ul>
-      <li><a href="#programming-languages" id="markdown-toc-programming-languages">programming languages</a></li>
-      <li><a href="#other" id="markdown-toc-other">other</a></li>
-    </ul>
-  </li>
-  <li><a href="#novels-and-related" id="markdown-toc-novels-and-related">novels and related</a></li>
-  <li><a href="#wishlist" id="markdown-toc-wishlist">wishlist</a></li>
-</ul>
-
-<p>This evening, I made my largest single import of books to date.
-A certain logician is moving to another university– upwards in the academic food chain–
-and offered up some of their books for grabs.
-I thought I should catalogue the lot, both for my own sake, and as a way to increase their utilization.
-Personal libraries are great, but something is quite sad when you think about a book’s realized reading time v. how often it just sits on the shelf.
-Or in my case, a box.</p>
-
-<p>Extending this to my current collection, the below is a best effort catalogue of what I have.
-Any listing is loanable– just ask.</p>
-
-<p>Each section is roughly in decreasing order of rank, which is an opaque combination of whether I’ve read it, enjoyment, perceived reputation/reverence/significance, etc.</p>
-
-<h2 id="logic">logic</h2>
-<h3 id="introductory-textbooks">introductory textbooks</h3>
-<ul>
-  <li>set theory?</li>
-  <li>
-    <table>
-      <tbody>
-        <tr>
-          <td>Shoenfield</td>
-          <td>Mathematical Logic</td>
-        </tr>
-      </tbody>
-    </table>
-  </li>
-  <li>
-    <table>
-      <tbody>
-        <tr>
-          <td>Chang, Keisler</td>
-          <td>Model Theory</td>
-        </tr>
-      </tbody>
-    </table>
-  </li>
-  <li>
-    <table>
-      <tbody>
-        <tr>
-          <td>Mendelson</td>
-          <td>Introduction to Mathematical Logic</td>
-        </tr>
-      </tbody>
-    </table>
-  </li>
-  <li>
-    <table>
-      <tbody>
-        <tr>
-          <td>Hinman</td>
-          <td>Fundamentals of Mathematical Logic</td>
-        </tr>
-      </tbody>
-    </table>
-  </li>
-  <li>
-    <table>
-      <tbody>
-        <tr>
-          <td>Avigad</td>
-          <td>Mathematical Logic and Computation</td>
-        </tr>
-      </tbody>
-    </table>
-  </li>
-  <li>
-    <table>
-      <tbody>
-        <tr>
-          <td>Takeuti</td>
-          <td>Proof Theory</td>
-        </tr>
-      </tbody>
-    </table>
-  </li>
-  <li>phil?
-    <h3 id="monographs">monographs</h3>
-  </li>
-  <li>
-    <table>
-      <tbody>
-        <tr>
-          <td>Kleene, Vesley</td>
-          <td>The Foundation of Intuitionistic Mathematics</td>
-        </tr>
-      </tbody>
-    </table>
-  </li>
-  <li>
-    <table>
-      <tbody>
-        <tr>
-          <td>Hinman</td>
-          <td>Recursion-Theoretic Hierarchies</td>
-        </tr>
-      </tbody>
-    </table>
-  </li>
-  <li>Buss | Bounded Arithmetic
-    <h3 id="editorials-and-proceedings">editorials and proceedings</h3>
-  </li>
-  <li>
-    <table>
-      <tbody>
-        <tr>
-          <td>van Heijenoort</td>
-          <td>From Frege to Gödel</td>
-        </tr>
-      </tbody>
-    </table>
-  </li>
-  <li>
-    <table>
-      <tbody>
-        <tr>
-          <td>Heyting</td>
-          <td>Constructivity in Mathematics</td>
-        </tr>
-      </tbody>
-    </table>
-  </li>
-  <li>Proceedings of the Herbrand Symposium Logic Colloquium ‘81
-    <h3 id="misc">misc</h3>
-  </li>
-  <li>
-    <table>
-      <tbody>
-        <tr>
-          <td>Menzler-Trott</td>
-          <td>Logic’s Lost Genius: The life of Gerhard Gentzen</td>
-        </tr>
-      </tbody>
-    </table>
-  </li>
-</ul>
-
-<h2 id="computer-science">computer science</h2>
-<h3 id="programming-languages">programming languages</h3>
-<ul>
-  <li>
-    <table>
-      <tbody>
-        <tr>
-          <td>Harper</td>
-          <td>Practical Foundations for Programming Languages</td>
-        </tr>
-      </tbody>
-    </table>
-  </li>
-  <li>Pierce | Advanced Types and Programming Languages
-    <h3 id="other">other</h3>
-  </li>
-  <li>OSTEP</li>
-</ul>
-
-<h2 id="novels-and-related">novels and related</h2>
-<ul>
-  <li>tanizaki</li>
-  <li>childhood years</li>
-  <li>dazai</li>
-</ul>
-
-<h2 id="wishlist">wishlist</h2>
-<p>ie books that I’ve read small bits of and are just so so good</p>
-
-<ul>
-  <li>Soare’s computability theory book</li>
-  <li>Marker’s model theory book</li>
-</ul>]]></content><author><name>Johnson He</name><email>(hejohns)α(umich)δ(edu)</email></author></entry></feed>
+<p>redhat has some documentation online</p>]]></content><author><name>Johnson He</name><email>(hejohns)α(umich)δ(edu)</email></author><summary type="html"><![CDATA[nmtui edit a connection add type bond two slaves idk why but it seems like you need to create two entirely new connections so deactivate the old connections before activating the bond set primary device (eg eno2). This is the mac address used? status: nmcli con ip address the mac address changes (not sure why), so you probably have to change the dhcp server settings to statically lease the old ip to the bond mac address]]></summary></entry></feed>
