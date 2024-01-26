@@ -47,3 +47,5 @@ gem "jekyll-sitemap", "~> 1.4"
 gem "classifier-reborn", "~> 2.3"
 
 gem "jekyll-archives", "~> 2.2"
+
+gem "mini_racer", "~> 0.8.0"
