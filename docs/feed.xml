@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://hejohns.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hejohns.github.io/" rel="alternate" type="text/html" /><updated>2024-01-17T00:14:24-05:00</updated><id>https://hejohns.github.io/feed.xml</id><title type="html">hejohns’ jekyll site</title><subtitle>a pure waste of space</subtitle><author><name>Johnson He</name><email>(hejohns)α(umich)δ(edu)</email></author><entry><title type="html">Mellanox ConnectX-4 10gbe</title><link href="https://hejohns.github.io/2024/01/16/mellanox.html" rel="alternate" type="text/html" title="Mellanox ConnectX-4 10gbe" /><published>2024-01-16T00:00:00-05:00</published><updated>2024-01-17T00:13:54-05:00</updated><id>https://hejohns.github.io/2024/01/16/mellanox</id><content type="html" xml:base="https://hejohns.github.io/2024/01/16/mellanox.html"><![CDATA[<p>A short post for now:</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-01-28T15:49:58-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">hejohns’ jekyll site</title><subtitle>a pure waste of space</subtitle><author><name>Johnson He</name><email>(hejohns)α(umich)δ(edu)</email></author><entry><title type="html">Mellanox ConnectX-4 10gbe</title><link href="http://localhost:4000/2024/01/16/mellanox.html" rel="alternate" type="text/html" title="Mellanox ConnectX-4 10gbe" /><published>2024-01-16T00:00:00-05:00</published><updated>2024-01-17T00:16:12-05:00</updated><id>http://localhost:4000/2024/01/16/mellanox</id><content type="html" xml:base="http://localhost:4000/2024/01/16/mellanox.html"><![CDATA[<p>A short post for now:</p>
 
 <p>Got two Mellanox ConnectX-4 cards off ebay, and 10gtek dacs, and they all work!
 Or at least iperf says they work at 10gbps.</p>
 
-<p>One for the T130, and one for the Lenovo p720.</p>]]></content><author><name>Johnson He</name><email>(hejohns)α(umich)δ(edu)</email></author><summary type="html"><![CDATA[A short post for now:]]></summary></entry><entry><title type="html">Thunderbird and Nix</title><link href="https://hejohns.github.io/2024/01/08/thunderbird-and-nix.html" rel="alternate" type="text/html" title="Thunderbird and Nix" /><published>2024-01-08T00:00:00-05:00</published><updated>2024-01-08T15:19:25-05:00</updated><id>https://hejohns.github.io/2024/01/08/thunderbird-and-nix</id><content type="html" xml:base="https://hejohns.github.io/2024/01/08/thunderbird-and-nix.html"><![CDATA[<p>This is the second time I’ve come across this issue,
+<p>One for the T130, and one for the Lenovo p720.</p>]]></content><author><name>Johnson He</name><email>(hejohns)α(umich)δ(edu)</email></author><summary type="html"><![CDATA[A short post for now:]]></summary></entry><entry><title type="html">Thunderbird and Nix</title><link href="http://localhost:4000/2024/01/08/thunderbird-and-nix.html" rel="alternate" type="text/html" title="Thunderbird and Nix" /><published>2024-01-08T00:00:00-05:00</published><updated>2024-01-08T15:21:35-05:00</updated><id>http://localhost:4000/2024/01/08/thunderbird-and-nix</id><content type="html" xml:base="http://localhost:4000/2024/01/08/thunderbird-and-nix.html"><![CDATA[<p>This is the second time I’ve come across this issue,
 and since it seems I’d forgotten about it after the first time,
 I’m making a note here.</p>
 
@@ -68,7 +68,7 @@ but the workaround I can live with for now is just to either</p>
       <p>paraphrased from two different pictures of different thunderbird configurations/instances, so the libraries don’t match up, but you get the point. Actually these may be right, but I don’t guarantee it <a href="#fnref:3" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
-</div>]]></content><author><name>Johnson He</name><email>(hejohns)α(umich)δ(edu)</email></author><summary type="html"><![CDATA[This is the second time I’ve come across this issue, and since it seems I’d forgotten about it after the first time, I’m making a note here.]]></summary></entry><entry><title type="html">xmonad</title><link href="https://hejohns.github.io/2023/12/20/xmonad.html" rel="alternate" type="text/html" title="xmonad" /><published>2023-12-20T00:00:00-05:00</published><updated>2023-12-20T11:36:18-05:00</updated><id>https://hejohns.github.io/2023/12/20/xmonad</id><content type="html" xml:base="https://hejohns.github.io/2023/12/20/xmonad.html"><![CDATA[<p>As with the <a href="{$ link _posts/icecc.md %}">icecc post</a>,
+</div>]]></content><author><name>Johnson He</name><email>(hejohns)α(umich)δ(edu)</email></author><summary type="html"><![CDATA[This is the second time I’ve come across this issue, and since it seems I’d forgotten about it after the first time, I’m making a note here.]]></summary></entry><entry><title type="html">xmonad</title><link href="http://localhost:4000/2023/12/20/xmonad.html" rel="alternate" type="text/html" title="xmonad" /><published>2023-12-20T00:00:00-05:00</published><updated>2023-12-20T11:36:46-05:00</updated><id>http://localhost:4000/2023/12/20/xmonad</id><content type="html" xml:base="http://localhost:4000/2023/12/20/xmonad.html"><![CDATA[<p>As with the <a href="{$ link _posts/icecc.md %}">icecc post</a>,
 I’m moving <a href="https://xmonad.org/">xmonad</a> from one server to another
 for “less downtime”<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>.</p>
 
@@ -156,7 +156,7 @@ but the principle stands.</p>
       <p>I did this all as root the first time, and had to do it all over again as my own user since so much of the ghcup and X stuff is per-user. <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
-</div>]]></content><author><name>Johnson He</name><email>(hejohns)α(umich)δ(edu)</email></author><summary type="html"><![CDATA[As with the icecc post, I’m moving xmonad from one server to another for “less downtime”1. I’m reproducing the xmonad setup on the Dell T130 (Pentium G4600) to a container on the Lenovo P720 (dual Xeon 6142s), so I can restart other stuff w/o killing my window manager &#8617;]]></summary></entry><entry><title type="html">icecc</title><link href="https://hejohns.github.io/2023/12/19/icecc.html" rel="alternate" type="text/html" title="icecc" /><published>2023-12-19T00:00:00-05:00</published><updated>2023-12-19T23:48:09-05:00</updated><id>https://hejohns.github.io/2023/12/19/icecc</id><content type="html" xml:base="https://hejohns.github.io/2023/12/19/icecc.html"><![CDATA[<p>It’s break and I’m cleaning up some computer stuff.</p>
+</div>]]></content><author><name>Johnson He</name><email>(hejohns)α(umich)δ(edu)</email></author><summary type="html"><![CDATA[As with the icecc post, I’m moving xmonad from one server to another for “less downtime”1. I’m reproducing the xmonad setup on the Dell T130 (Pentium G4600) to a container on the Lenovo P720 (dual Xeon 6142s), so I can restart other stuff w/o killing my window manager &#8617;]]></summary></entry><entry><title type="html">icecc</title><link href="http://localhost:4000/2023/12/19/icecc.html" rel="alternate" type="text/html" title="icecc" /><published>2023-12-19T00:00:00-05:00</published><updated>2023-12-19T23:50:12-05:00</updated><id>http://localhost:4000/2023/12/19/icecc</id><content type="html" xml:base="http://localhost:4000/2023/12/19/icecc.html"><![CDATA[<p>It’s break and I’m cleaning up some computer stuff.</p>
 
 <p>One thing I hadn’t gotten around to was setting up <a href="https://github.com/icecc/icecream">icecc</a>,
 which seems like a more automated distcc.
@@ -182,158 +182,8 @@ which I was quite pleased about.</p>
       <p>As you can probably guess, we both named them <code class="language-plaintext highlighter-rouge">iceccd.service</code> and <code class="language-plaintext highlighter-rouge">icecc-scheduler.service</code>… <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
-</div>]]></content><author><name>Johnson He</name><email>(hejohns)α(umich)δ(edu)</email></author><summary type="html"><![CDATA[It’s break and I’m cleaning up some computer stuff.]]></summary></entry><entry><title type="html">preparing for my final presentation for descriptive set theory</title><link href="https://hejohns.github.io/2023/12/08/domain-theory-1.html" rel="alternate" type="text/html" title="preparing for my final presentation for descriptive set theory" /><published>2023-12-08T00:00:00-05:00</published><updated>2023-12-14T06:43:57-05:00</updated><id>https://hejohns.github.io/2023/12/08/domain-theory-1</id><content type="html" xml:base="https://hejohns.github.io/2023/12/08/domain-theory-1.html"><![CDATA[<h2 id="abramsky-and-jung"><a href="https://www.cs.bham.ac.uk/~axj/pub/papers/handy1.pdf">Abramsky and Jung</a></h2>
-<p>(This is the corrected version of the chapter that appears in the
- Handbook of Logic in Computer Science v. 3)</p>
-<h3 id="sec-1">sec 1</h3>
-<ul>
-  <li>motivations for domain theory
-    <ul>
-      <li>least fixpoints as meanings of recursive definitions</li>
-      <li>``properly denotational” semantics of datatypes eg for the untyped λ-calculus</li>
-    </ul>
-  </li>
-  <li>familiar results:
-    <ul>
-      <li>(Knaster-Tarski) every monotone function on a complete lattice has a least fixpoint</li>
-      <li>(var.) every monotone function on a pointed directed-complete partial order has a least fixpoint</li>
-    </ul>
-  </li>
-  <li>continuity as an algebraic approximation of computability</li>
-  <li>partial information ordering</li>
-  <li>one verison of higher recursion theory?
-    <h3 id="sec-2">sec 2</h3>
-  </li>
-  <li>a poset is a dcpo ⟺ each chain has a supremum</li>
-  <li>a pointed poset is a dcpo ⟺ every monotone map on it has a least fixpoint</li>
-  <li>a function between dcpos is Scott-continous iff it is monotone and preserves directed joins</li>
-  <li>a dcpo is continous iff it has a basis</li>
-  <li>a dcpo is algebraic iff it has a basis of compact elements</li>
-  <li>a dcpo is ω-continous iff ∃ ctbl basis</li>
-  <li>a dcpo is ω-algebraic iff K(D) is a ctbl basis</li>
-  <li>“domain” means a structure with a notion of convergence and approximation</li>
-  <li>ω-chains v. directed sets
-    <h3 id="sec-7">sec 7</h3>
-  </li>
-  <li></li>
-</ul>
-
-<h2 id="de-brecht">de Brecht?</h2>
-<h3 id="sec-11">sec 11</h3>
-<ul>
-  <li>every ω-cts domain is quasi-polish, since every ctbly based locally compact sober space is quasi-polish</li>
-  <li>TFAE for top X
-    <ul>
-      <li>X quasi-polish</li>
-      <li>
-\[X ≅\]
-      </li>
-      <li>
-\[X ≅\]
-      </li>
-    </ul>
-  </li>
-</ul>]]></content><author><name>Johnson He</name><email>(hejohns)α(umich)δ(edu)</email></author><summary type="html"><![CDATA[Abramsky and Jung (This is the corrected version of the chapter that appears in the Handbook of Logic in Computer Science v. 3) sec 1 motivations for domain theory least fixpoints as meanings of recursive definitions ``properly denotational” semantics of datatypes eg for the untyped λ-calculus familiar results: (Knaster-Tarski) every monotone function on a complete lattice has a least fixpoint (var.) every monotone function on a pointed directed-complete partial order has a least fixpoint continuity as an algebraic approximation of computability partial information ordering one verison of higher recursion theory? sec 2 a poset is a dcpo ⟺ each chain has a supremum a pointed poset is a dcpo ⟺ every monotone map on it has a least fixpoint a function between dcpos is Scott-continous iff it is monotone and preserves directed joins a dcpo is continous iff it has a basis a dcpo is algebraic iff it has a basis of compact elements a dcpo is ω-continous iff ∃ ctbl basis a dcpo is ω-algebraic iff K(D) is a ctbl basis “domain” means a structure with a notion of convergence and approximation ω-chains v. directed sets sec 7]]></summary></entry><entry><title type="html">Logical Relations 1</title><link href="https://hejohns.github.io/logical/relations/2023/11/08/LR-1.html" rel="alternate" type="text/html" title="Logical Relations 1" /><published>2023-11-08T00:00:00-05:00</published><updated>2023-11-08T19:36:17-05:00</updated><id>https://hejohns.github.io/logical/relations/2023/11/08/LR-1</id><content type="html" xml:base="https://hejohns.github.io/logical/relations/2023/11/08/LR-1.html"><![CDATA[<p>These notes are for myself and will likely be unsatisfactory for anyone else.</p>
-
-<p>In the mission to write some notes on LRs for other students,
-and to get a sense for what ties the different approaches together,
-I need to actually read the ``standard” tutorial materials on LRs,
-to make a contribution– rather than repeating what’s already been said well.</p>
-
-<p>Let’s start with [Lau Skorstengaard’s<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup> tutorial](https://arxiv.org/pdf/1907.11133.pdf).</p>
-
-<h2 id="general-remarks">general remarks</h2>
-<h3 id="pre-comments">pre-comments</h3>
-<p>The mathematical machinery seems minimal.
-I believe this is an oft-referenced first reference/tutorial.</p>
-<h3 id="post-comments">post-comments</h3>
-<p>TODO: after reading</p>
-<h2 id="1-introduction">1. Introduction</h2>
-<ul>
-  <li>The name LRs is from Plotkin ‘73, but the ``first” use of the method is attributed to Tait ‘67</li>
-  <li>The name doesn’t really have any (composite) meaning.</li>
-  <li>Maybe should’ve been called Type Indexed Inductive Relations<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup></li>
-  <li>This tutorial is mostly based off Amal’s OPLSS ‘15 lectures– another standard resource.</li>
-  <li>Take STLC as usual, first with only
-\(τ \Coloneqq bool | τ → τ\),
-with a (small-step) operational semantics,
-and λs as values.</li>
-  <li>“examples of properties that can be proven with a logical relation:”
-    <ul>
-      <li>termination (SN)</li>
-      <li>type safety (in what sense?)</li>
-      <li>program equivalences
-        <ul>
-          <li>correctness of programs (in what sense?)</li>
-          <li>representation independence (what is this?)</li>
-          <li>parametricity and free theorems (a la Wadler)</li>
-          <li>security-typed languages, eg Information Flow Control (methinks a sort of Perl taint)</li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-  <li>we split LRs into logical <em>predicates</em> and logical <em>relations</em>.</li>
-</ul>
-
-<table>
-  <thead>
-    <tr>
-      <th>Logical Predicates</th>
-      <th>Logical Relations</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Unary</td>
-      <td>Binary</td>
-    </tr>
-    <tr>
-      <td>\(P_τ(e)\)</td>
-      <td>\(R_τ(e_1, e_2)\)</td>
-    </tr>
-    <tr>
-      <td>One Property</td>
-      <td>Program Equivalence</td>
-    </tr>
-    <tr>
-      <td>SN</td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td>Type Safety</td>
-      <td> </td>
-    </tr>
-  </tbody>
-</table>
-
-<ul>
-  <li>we start w/ logical predicates and generalize to logical relations.</li>
-  <li>roughly speaking, we require the following of the (logical) predicate over expressions \(e\):<sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote" rel="footnote">3</a></sup>
-    <ul>
-      <li>\(P(e) ⟹ ⋅ ⊢ e : τ\) (a footnote says this is relaxed to just require \(e\) be closed in type safety)</li>
-      <li>\(P(e) ⟹ e\) actually has the property we care about</li>
-      <li>\(P(e) ⟹ ∀ E^-[⋅]. P(E^-[e])\) where \(E^-\) is any elimination form (I can’t quite justify this abstractly, but indeed a general requirement)</li>
-    </ul>
-  </li>
-</ul>
-
-<h3 id="sn-of-stlc">SN of STLC</h3>
-<p>Unlike a lot of first presentations, the operation rules only include the β rules,
-so it’s not just a termination proof.</p>
-<div class="footnotes" role="doc-endnotes">
-  <ol>
-    <li id="fn:1" role="doc-endnote">
-      <p>It looks like Lau was a student of Lars Birkedal, and this was written while they were a more senior student. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-    <li id="fn:2" role="doc-endnote">
-      <p>But what about (un/uni)typed LRs? Let’s start with this simple story first. <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-    <li id="fn:3" role="doc-endnote">
-      <p>I would make a comparison to Girard’s Reducibility criteria, if I knew it off the top of my head better. TODO for LR-2+ <a href="#fnref:3" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-  </ol>
-</div>]]></content><author><name>Johnson He</name><email>(hejohns)α(umich)δ(edu)</email></author><category term="logical" /><category term="relations" /><summary type="html"><![CDATA[These notes are for myself and will likely be unsatisfactory for anyone else.]]></summary></entry><entry><title type="html">ble.sh</title><link href="https://hejohns.github.io/2023/11/07/ble-sh.html" rel="alternate" type="text/html" title="ble.sh" /><published>2023-11-07T00:00:00-05:00</published><updated>2023-11-07T01:32:11-05:00</updated><id>https://hejohns.github.io/2023/11/07/ble-sh</id><content type="html" xml:base="https://hejohns.github.io/2023/11/07/ble-sh.html"><![CDATA[<p>I just installed <a href="https://github.com/akinomyoga/ble.sh">ble.sh</a>
-and wow is this nice.</p>]]></content><author><name>Johnson He</name><email>(hejohns)α(umich)δ(edu)</email></author><summary type="html"><![CDATA[I just installed ble.sh and wow is this nice.]]></summary></entry><entry><title type="html">Live Reload</title><link href="https://hejohns.github.io/site-construction/2023/11/06/live-reload.html" rel="alternate" type="text/html" title="Live Reload" /><published>2023-11-06T00:00:00-05:00</published><updated>2023-11-07T01:31:33-05:00</updated><id>https://hejohns.github.io/site-construction/2023/11/06/live-reload</id><content type="html" xml:base="https://hejohns.github.io/site-construction/2023/11/06/live-reload.html"><![CDATA[<p>I’ve been writing posts without live reloading/preview
+</div>]]></content><author><name>Johnson He</name><email>(hejohns)α(umich)δ(edu)</email></author><summary type="html"><![CDATA[It’s break and I’m cleaning up some computer stuff.]]></summary></entry><entry><title type="html">ble.sh</title><link href="http://localhost:4000/2023/11/07/ble-sh.html" rel="alternate" type="text/html" title="ble.sh" /><published>2023-11-07T00:00:00-05:00</published><updated>2023-11-07T01:32:50-05:00</updated><id>http://localhost:4000/2023/11/07/ble-sh</id><content type="html" xml:base="http://localhost:4000/2023/11/07/ble-sh.html"><![CDATA[<p>I just installed <a href="https://github.com/akinomyoga/ble.sh">ble.sh</a>
+and wow is this nice.</p>]]></content><author><name>Johnson He</name><email>(hejohns)α(umich)δ(edu)</email></author><summary type="html"><![CDATA[I just installed ble.sh and wow is this nice.]]></summary></entry><entry><title type="html">Live Reload</title><link href="http://localhost:4000/site-construction/2023/11/06/live-reload.html" rel="alternate" type="text/html" title="Live Reload" /><published>2023-11-06T00:00:00-05:00</published><updated>2023-11-07T01:32:50-05:00</updated><id>http://localhost:4000/site-construction/2023/11/06/live-reload</id><content type="html" xml:base="http://localhost:4000/site-construction/2023/11/06/live-reload.html"><![CDATA[<p>I’ve been writing posts without live reloading/preview
 for some reason.
 I think <code class="language-plaintext highlighter-rouge">--watch</code> didn’t work or something.</p>
 
@@ -346,9 +196,9 @@ and it’s so nice, I had to make this post.</p>
 <p>Sometimes I have to manually refresh the browser page though
 or else it gets stuck on a blank screen.</p>
 
-<p>(And of course, check out the other <a href="/category/site-construction/">site-construction</a> posts)</p>]]></content><author><name>Johnson He</name><email>(hejohns)α(umich)δ(edu)</email></author><category term="site-construction" /><summary type="html"><![CDATA[I’ve been writing posts without live reloading/preview for some reason. I think --watch didn’t work or something.]]></summary></entry><entry><title type="html">coordinating processes</title><link href="https://hejohns.github.io/2023/10/29/coordinating-processes.html" rel="alternate" type="text/html" title="coordinating processes" /><published>2023-10-29T00:00:00-04:00</published><updated>2023-10-30T06:23:51-04:00</updated><id>https://hejohns.github.io/2023/10/29/coordinating-processes</id><content type="html" xml:base="https://hejohns.github.io/2023/10/29/coordinating-processes.html"><![CDATA[<p>This has to be a solved problem?!</p>
+<p>(And of course, check out the other <a href="/category/site-construction/">site-construction</a> posts)</p>]]></content><author><name>Johnson He</name><email>(hejohns)α(umich)δ(edu)</email></author><category term="site-construction" /><summary type="html"><![CDATA[I’ve been writing posts without live reloading/preview for some reason. I think --watch didn’t work or something.]]></summary></entry><entry><title type="html">coordinating processes</title><link href="http://localhost:4000/2023/10/29/coordinating-processes.html" rel="alternate" type="text/html" title="coordinating processes" /><published>2023-10-29T00:00:00-04:00</published><updated>2023-10-30T06:25:11-04:00</updated><id>http://localhost:4000/2023/10/29/coordinating-processes</id><content type="html" xml:base="http://localhost:4000/2023/10/29/coordinating-processes.html"><![CDATA[<p>This has to be a solved problem?!</p>
 
-<p><a href="https://github.com/hejohns/systemp">repo</a></p>]]></content><author><name>Johnson He</name><email>(hejohns)α(umich)δ(edu)</email></author><summary type="html"><![CDATA[This has to be a solved problem?!]]></summary></entry><entry><title type="html">tortoise text to speech (and piper)</title><link href="https://hejohns.github.io/2023/10/10/tortoise-tts.html" rel="alternate" type="text/html" title="tortoise text to speech (and piper)" /><published>2023-10-10T00:00:00-04:00</published><updated>2023-10-11T06:33:16-04:00</updated><id>https://hejohns.github.io/2023/10/10/tortoise-tts</id><content type="html" xml:base="https://hejohns.github.io/2023/10/10/tortoise-tts.html"><![CDATA[<h2 id="motivation">Motivation</h2>
+<p><a href="https://github.com/hejohns/systemp">repo</a></p>]]></content><author><name>Johnson He</name><email>(hejohns)α(umich)δ(edu)</email></author><summary type="html"><![CDATA[This has to be a solved problem?!]]></summary></entry><entry><title type="html">tortoise text to speech (and piper)</title><link href="http://localhost:4000/2023/10/10/tortoise-tts.html" rel="alternate" type="text/html" title="tortoise text to speech (and piper)" /><published>2023-10-10T00:00:00-04:00</published><updated>2023-10-11T06:34:15-04:00</updated><id>http://localhost:4000/2023/10/10/tortoise-tts</id><content type="html" xml:base="http://localhost:4000/2023/10/10/tortoise-tts.html"><![CDATA[<h2 id="motivation">Motivation</h2>
 
 <p>I’m getting my butt kicked by EECS 582.
 We’re assigned four papers a week to read–
@@ -495,4 +345,211 @@ docker’s quite pleasant to use?</p>
       <p>I’m assuming that means something to the ML-literate <a href="#fnref:3" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
-</div>]]></content><author><name>Johnson He</name><email>(hejohns)α(umich)δ(edu)</email></author><summary type="html"><![CDATA[Motivation]]></summary></entry></feed>
+</div>]]></content><author><name>Johnson He</name><email>(hejohns)α(umich)δ(edu)</email></author><summary type="html"><![CDATA[Motivation]]></summary></entry><entry><title type="html">nic bonding</title><link href="http://localhost:4000/2023/08/03/nic-bonding.html" rel="alternate" type="text/html" title="nic bonding" /><published>2023-08-03T00:00:00-04:00</published><updated>2023-08-03T17:41:43-04:00</updated><id>http://localhost:4000/2023/08/03/nic-bonding</id><content type="html" xml:base="http://localhost:4000/2023/08/03/nic-bonding.html"><![CDATA[<ul>
+  <li>nmtui</li>
+  <li>edit a connection</li>
+  <li>add</li>
+  <li>type bond</li>
+  <li>two slaves
+    <ul>
+      <li>idk why but it seems like you need to create two entirely new connections</li>
+      <li>so deactivate the old connections before activating the bond</li>
+    </ul>
+  </li>
+  <li>set primary device (eg <code class="language-plaintext highlighter-rouge">eno2</code>). This is the mac address used?</li>
+  <li>status:
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">nmcli con</code></li>
+      <li><code class="language-plaintext highlighter-rouge">ip address</code></li>
+    </ul>
+  </li>
+  <li>the mac address changes (not sure why), so you probably have to change the dhcp server settings to statically lease the old ip to the bond mac address</li>
+</ul>
+
+<p>redhat has some documentation online</p>]]></content><author><name>Johnson He</name><email>(hejohns)α(umich)δ(edu)</email></author><summary type="html"><![CDATA[nmtui edit a connection add type bond two slaves idk why but it seems like you need to create two entirely new connections so deactivate the old connections before activating the bond set primary device (eg eno2). This is the mac address used? status: nmcli con ip address the mac address changes (not sure why), so you probably have to change the dhcp server settings to statically lease the old ip to the bond mac address]]></summary></entry><entry><title type="html">book catalogue</title><link href="http://localhost:4000/2023/07/24/book-catalogue.html" rel="alternate" type="text/html" title="book catalogue" /><published>2023-07-24T00:00:00-04:00</published><updated>2023-09-30T14:55:08-04:00</updated><id>http://localhost:4000/2023/07/24/book-catalogue</id><content type="html" xml:base="http://localhost:4000/2023/07/24/book-catalogue.html"><![CDATA[<ul id="markdown-toc">
+  <li><a href="#logic" id="markdown-toc-logic">logic</a>    <ul>
+      <li><a href="#introductory-textbooks" id="markdown-toc-introductory-textbooks">introductory textbooks</a></li>
+      <li><a href="#monographs" id="markdown-toc-monographs">monographs</a></li>
+      <li><a href="#editorials-and-proceedings" id="markdown-toc-editorials-and-proceedings">editorials and proceedings</a></li>
+      <li><a href="#misc" id="markdown-toc-misc">misc</a></li>
+    </ul>
+  </li>
+  <li><a href="#computer-science" id="markdown-toc-computer-science">computer science</a>    <ul>
+      <li><a href="#programming-languages" id="markdown-toc-programming-languages">programming languages</a></li>
+      <li><a href="#other" id="markdown-toc-other">other</a></li>
+    </ul>
+  </li>
+  <li><a href="#novels-and-related" id="markdown-toc-novels-and-related">novels and related</a></li>
+  <li><a href="#wishlist" id="markdown-toc-wishlist">wishlist</a></li>
+</ul>
+
+<p>This evening, I made my largest single import of books to date.
+A certain logician is moving to another university– upwards in the academic food chain–
+and offered up some of their books for grabs.
+I thought I should catalogue the lot, both for my own sake, and as a way to increase their utilization.
+Personal libraries are great, but something is quite sad when you think about a book’s realized reading time v. how often it just sits on the shelf.
+Or in my case, a box.</p>
+
+<p>Extending this to my current collection, the below is a best effort catalogue of what I have.
+Any listing is loanable– just ask.</p>
+
+<p>Each section is roughly in decreasing order of rank, which is an opaque combination of whether I’ve read it, enjoyment, perceived reputation/reverence/significance, etc.</p>
+
+<h2 id="logic">logic</h2>
+<h3 id="introductory-textbooks">introductory textbooks</h3>
+<ul>
+  <li>set theory?</li>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>Shoenfield</td>
+          <td>Mathematical Logic</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>Chang, Keisler</td>
+          <td>Model Theory</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>Mendelson</td>
+          <td>Introduction to Mathematical Logic</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>Hinman</td>
+          <td>Fundamentals of Mathematical Logic</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>Avigad</td>
+          <td>Mathematical Logic and Computation</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>Takeuti</td>
+          <td>Proof Theory</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+  <li>phil?
+    <h3 id="monographs">monographs</h3>
+  </li>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>Kleene, Vesley</td>
+          <td>The Foundation of Intuitionistic Mathematics</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>Hinman</td>
+          <td>Recursion-Theoretic Hierarchies</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+  <li>Buss | Bounded Arithmetic
+    <h3 id="editorials-and-proceedings">editorials and proceedings</h3>
+  </li>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>van Heijenoort</td>
+          <td>From Frege to Gödel</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>Heyting</td>
+          <td>Constructivity in Mathematics</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+  <li>Proceedings of the Herbrand Symposium Logic Colloquium ‘81
+    <h3 id="misc">misc</h3>
+  </li>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>Menzler-Trott</td>
+          <td>Logic’s Lost Genius: The life of Gerhard Gentzen</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+</ul>
+
+<h2 id="computer-science">computer science</h2>
+<h3 id="programming-languages">programming languages</h3>
+<ul>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>Harper</td>
+          <td>Practical Foundations for Programming Languages</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+  <li>Pierce | Advanced Types and Programming Languages
+    <h3 id="other">other</h3>
+  </li>
+  <li>OSTEP</li>
+</ul>
+
+<h2 id="novels-and-related">novels and related</h2>
+<ul>
+  <li>tanizaki</li>
+  <li>childhood years</li>
+  <li>dazai</li>
+</ul>
+
+<h2 id="wishlist">wishlist</h2>
+<p>ie books that I’ve read small bits of and are just so so good</p>
+
+<ul>
+  <li>Soare’s computability theory book</li>
+  <li>Marker’s model theory book</li>
+</ul>]]></content><author><name>Johnson He</name><email>(hejohns)α(umich)δ(edu)</email></author></entry></feed>
