@@ -18,4 +18,4 @@ My screen name is *hejohns*.
 - [The Second Pass of the Portable C Compiler](https://github.com/hejohns/the-second-pass-of-the-portable-c-compiler)
 
 ## Links
-- [MPLSE reading group](https://mplse-reading-group.github.io/)
+- [Placeholder Link](https://mplse-reading-group.github.io/)
