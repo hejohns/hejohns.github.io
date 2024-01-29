@@ -68,7 +68,7 @@
 
   <div class="post-content e-content" itemprop="articleBody">
     <ul id="markdown-toc">
-  <li><a href="#sterlings-chapter-2" id="markdown-toc-sterlings-chapter-2">Sterling’s Chapter 2</a></li>
+  <li><a href="#sterlings-chapter-2-update" id="markdown-toc-sterlings-chapter-2-update">Sterling’s Chapter 2 (update)</a></li>
   <li><a href="#misc" id="markdown-toc-misc">Misc</a></li>
   <li><a href="#bundles" id="markdown-toc-bundles">Bundles</a>    <ul>
       <li><a href="#chapter-2---simple-bundles" id="markdown-toc-chapter-2---simple-bundles">Chapter 2 - (simple) Bundles</a></li>
@@ -77,7 +77,7 @@
   </li>
 </ul>
 
-<h2 id="sterlings-chapter-2">Sterling’s Chapter 2</h2>
+<h2 id="sterlings-chapter-2-update">Sterling’s Chapter 2 (update)</h2>
 <p>As discussed last week– and mentioned in the first paragraph of Chapter 2–,
 Sterling’s chapter on topoi is “greatly influenced by [the notes] of Anel and Joyal”.
 This reference chapter is hard-going, so I thought I’d try to concurrently
@@ -85,9 +85,10 @@ march forward and read <a href="http://mathieu.anel.free.fr/mat/doc/Anel-Joyal-T
 which at first glance seems a little more approachable for me.</p>
 
 <ul>
-  <li>At this point, it seems I need to roll up the sleeves and understand some of the sheaf theoretic ideas
+  <li>At this point, it seems I need to understand some of the sheaf theoretic ideas
     <ul>
-      <li>Certainly I don’t intend to <em>actually</em> learn sheaf theory right now, but I need a mental picture of what Kripke-Joyal semantics actually is, and what the notion of “sheaf logic” refers to</li>
+      <li>Certainly I don’t intend to <em>actually</em> learn sheaf theory right now, but I need a mental picture of what Kripke-Joyal semantics actually is, and what the notion of “sheaf logic” refers to
+&lt;!–</li>
       <li>Some concepts which seem related to learn the “101” of:
         <ul>
           <li><a href="https://en.wikipedia.org/wiki/Sheaf_(mathematics)">Sheafs</a>
@@ -96,10 +97,11 @@ which at first glance seems a little more approachable for me.</p>
               <li>I’m hoping Kripke-Joyal semantics as motivation itself will be enough for me, so I’ll punt on other examples</li>
             </ul>
           </li>
-          <li>The canonical example of the <a href="https://en.wikipedia.org/wiki/Fiber_bundle#M%C3%B6bius_strip">cylinder v. mobius strip fiber bundles</a></li>
+          <li>The canonical example of the <a href="https://en.wikipedia.org/wiki/Fiber_bundle#M%C3%B6bius_strip">cylinder v. Möbius strip fiber bundles</a></li>
           <li><a href="https://en.wikipedia.org/wiki/Boolean-valued_model">Boolean valued models</a>
             <ul>
-              <li>There’re many books that go much further into this, but let’s table that</li>
+              <li>There’re many books that go much further into this, but let’s table that
+–&gt;</li>
             </ul>
           </li>
         </ul>
@@ -129,17 +131,17 @@ and Sterling’s Chapter 2.</p>
 from Husemoller’s book, referenced by Wikipedia.</p>
 <h3 id="chapter-2---simple-bundles">Chapter 2 - (simple) Bundles</h3>
 <p>A <strong>bundle</strong> is defined as <em>just</em> the triple
-\((E, p : E \to B, B)\), which could be compressed to just \(p : E \to B\).</p>
+\((E, p : E → B, B)\), which could be compressed to just \(p : E → B\).</p>
 
 <p>\(E\) is called the <strong>total space</strong>, \(p\) the <strong>projection</strong>, and \(B\) the <strong>base space</strong>.
 The namesake comes from thinking of the bundle
-“as a union of <strong>fibers</strong> \(p^{-1}(b)\) for \(b \in B\),
+“as a union of <strong>fibers</strong> \(p^{-1}(b)\) for \(b ∈ B\),
 parameterized by \(B\) and ‘glued together’ by the topology of the space \(E\).”</p>
 
 <p>A simple example that is often referenced
 is the <strong>product bundle</strong>, which is a trivial bundle where
 the fibers are constant.
-That is, the bundle \(\pi_1 : B \times F \to B\).</p>
+That is, the bundle \(π_1 : B × F → B\).</p>
 
 <p>The notion of a <strong>subbundle</strong> is defined in the obvious way,
 but is a special case of a bundle morphism where the morphisms are inclusions
@@ -160,31 +162,17 @@ That is, the category of bundles \(\mathsf{Bun}\) is some subcategory of the arr
 <p>A <strong>\(B\)-morphism</strong> is a morphism of bundles with equal codomain.
 That is, the category of bundles over \(B\), \(\mathsf{Bun}_B\) is <em>just</em> the slice category over \(B\).</p>
 
-<p>The book remarks that a (cross) section of a bundle \(p : E \to B\) can be identified with
-a \(B\)-morphism \(s : 1_B \to p\).</p>
-
-<ul>
-  <li>Although this view is a little weird.
-Certainly, given a section, we can construct the \(B\)-morphism
-where the base-morphism is the identity,
-and the top-morphism is the section.
-But given such a \(B\)-morphism \(: 1_B \to p\),
-you don’t necessarily get a total section?</li>
-  <li>(Consider the trivial \(B\)-morphism that maps every \(b\) in the base to a chosen one,
-and every \(b\) in the total space to a chose element of the fiber over the chosen \(b\).
-This hardly gives a total section.</li>
-</ul>
-
-<p>I think this is actually a small error in the book?
-Every section is such a \(B\)-morphism, so every general property of morphisms applies to sections, but the “precisely” is not warranted.</p>
+<p>The book remarks that a (cross) section of a bundle \(p : E → B\) can be identified with
+a \(B\)-morphism \(s : 1_B → p\).
+(I had written that this seemed like a slight error, but I realize the key point is \(B\)-morphism, not just (bundle) morphism.)</p>
 
 <p>A space \(F\) is called the <strong>fiber of a bundle</strong> if it is isomorphic
 to each fibre.
 In other words, the bundle is isomorphic to the product bundle.</p>
 
 <p>What about the product of bundles?
-Suppose we have bundles \(p : E \to B\) and \(p' : E' \to B'\).
-The product is simply \(p \times p'\).
+Suppose we have bundles \(p : E → B\) and \(p' : E' → B'\).
+The product is simply \(p × p'\).
 (ie \(\mathsf{Bun}\) has products if the category of spaces does.)</p>
 
 <p>But what about in \(\mathsf{Bun}_B\)?
@@ -199,10 +187,10 @@ The pullback is the total space of the product (\(B\)-)bundle.
     <ul>
       <li>An alternative characterization of it,
   is as the union of the products of the fibers.</li>
-      <li>That is, for each \(b \in B\),
-  take the fibers \(p^{-1}(b) \subseteq E\) and \(p'^{-1}(b) \subseteq E'\),
-  and take their product as subspaces, to get a subspace of \(E \times E'\).
-  And aggregate in \(E \times E'\) the rest of the fibers.</li>
+      <li>That is, for each \(b ∈ B\),
+  take the fibers \(p^{-1}(b) ⊆ E\) and \(p'^{-1}(b) ⊆ E'\),
+  and take their product as subspaces, to get a subspace of \(E × E'\).
+  And aggregate in \(E × E'\) the rest of the fibers.</li>
       <li>We then get a (\(B\)-)bundle where each fiber is well, the product of fibers</li>
       <li>The universality of the pullback is that there’s nothing extra in this total space</li>
       <li>(ie the data of both bundles is minimally captured as such)</li>
@@ -217,8 +205,8 @@ where we additionally require that everything commutes with \(1_B\) between the 
 
 <p>A restriction of a bundle is a special case (as before, in the same way)
 of an <strong>induced bundle</strong>,
-whereby a bundle \(p : E \to B\) and \(f : B' \to B\),
-the bundle \(f^*(p) : B' \times_{B', E} E \to B\) is induced by the pullback.</p>
+whereby a bundle \(p : E → B\) and \(f : B' → B\),
+the bundle \(f^*(p) : B' ×_{B', E} E → B\) is induced by the pullback.</p>
 
 <p>This other sense of pullback,
 in which we actually pull back the fibers along the graph \(f\),
@@ -230,21 +218,62 @@ Although of course, this is literally just a tilted version of the other pullbac
 and renaming, simultaneously?</li>
   <li>A much better description of the above is from
 <a href="https://en.wikipedia.org/wiki/Pullback_(category_theory)#Fiber_bundles">the wikipedia page for pullbacks</a>
-which says that the fibered product is just the product \(p \times p' : E \times E' \to B \times B\), pulled back across the diagonal \(\Delta : B \to B \times B\)</li>
+which says that the fibered product is just the product \(p × p' : E × E' → B × B\), pulled back across the diagonal \(Δ : B → B × B\)</li>
 </ul>
 
-<p>Moreover, each \(f : B' \to B\)
-induces a functor \(f^* : \mathsf{Bun}_B \to \mathsf{Bun_{B'}}\).</p>
+<p>Moreover, each \(f : B' → B\)
+induces a functor \(f^* : \mathsf{Bun}_B → \mathsf{Bun_{B'}}\).</p>
 
 <h3 id="chapter-4---fiber-bundles">Chapter 4 - Fiber Bundles</h3>
 
 <ul>
   <li>I don’t understand why we’re talking about topological groups,
-but they seem ubiquitous, so we’ll roll with it</li>
+but they seem ubiquitous, so we’ll roll with it
+    <ul>
+      <li><a href="https://math.stackexchange.com/a/755722">This SO post</a> links to <a href="https://pi.math.cornell.edu/~ismythe/Olivetti_Nov_2011_slides.pdf">slides by Iian Smythe</a>–
+  who was recently here, but unfortunately I never talked to–
+  about topological groups</li>
+    </ul>
+  </li>
 </ul>
 
-<p>A <strong>right \(G\)-space</strong> \(X\) is st there is a action \(X \times G \to X\)
+<p>I’m having trouble with the definition of fiber bundle, so let’s go over some simple <a href="https://en.wikipedia.org/wiki/Fiber_bundle#Examples">examples</a>:</p>
+<ul>
+  <li>The trivial bundle \(π_1 : B × F → B\) is a fiber bundle of \(F\) over \(B\).
+The total space is said to be “globally [a product”, not “just locally”,
+but I don’t know what that means at the moment</li>
+  <li>The Möbius strip is the total space \(E\) of the following bundle:
+    <ul>
+      <li>\(B = S^1\) and \(F = \mathbb{R}(?)\).</li>
+      <li>“The corresponding trivial bundle \(B × F\) would be a cylinder”</li>
+      <li>I guess we take it for granted that we have already constructed \(E\), so this isn’t a construction</li>
+      <li>I still don’t get why the Möbius bundle has no non-vanishing (global) section, so I still have to push on this textbook</li>
+    </ul>
+  </li>
+</ul>
+
+<p>A <strong>right \(G\)-space</strong> \((X, G)\) is a space \(X\) with an action \(X × G → X\)
 for topological group \(G\).</p>
+
+<p>An example of a topological group
+is \((\mathbb{R}, +)\).
+I suppose trivially every topological group is also a \(G\)-space relative to itself.
+That is, \(\mathbb{R}\), forgetting the group structure, is compatible with
+the group action \((\mathbb{R}, +)\).</p>
+
+<p>A <strong>\(G\)-morphism</strong> is a map between \(G\)-spaces
+that is compatible with the group action.</p>
+
+<p>Two elements \(x, x' ∈ (X, G)\) are \(G\)-equivalent if \(∃s∈G. xs=x'\).
+That is, if if they are in the same orbit, as standard.
+Then let \(X \mod G\) denote \(\{xG | x ∈ X\}\), the class of orbits,
+with the quotient topology.</p>
+
+<p>Given a \(G\)-space \(X\)
+Let \(α(X)\) be the bundle</p>
+
+<p>A bundle \(p : X → B\) is a \(G\)-bundle
+if \(p\) and \(α(X)\)</p>
 
 <p>…</p>
 
@@ -286,7 +315,7 @@ for topological group \(G\).</p>
             <li>(the answer is yes, you should.)</li>
         </ul>
         <!-- add last-modified-time -->
-        <p>site version: 2024-01-28</p>
+        <p>site version: 2024-01-29</p>
       </div>
       <div class="footer-col">
         <p>a pure waste of space</p>
