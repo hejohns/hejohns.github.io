@@ -52,3 +52,10 @@ presumably doesn't require inaccessible cardinal assumptions,
 and the famous work of Cohen suggests that there's no natural model of $$ZF + $$¬$$C$$-- in addition to the fact that any $$V_α$$ should satisfy choice.
 
 Okay the reasoning in the last paragraph is all backwards, so let's cap it there.
+
+I forgot to write that the notion *natural model* appears to be due to Montague.
+I can't seem to find this mentioned in Enderton anymore,
+but another Montague fun fact.
+At least I usually call it "Montague's notion of natural model".
+
+Hence my confusion with Awodey's reuse of the term.
