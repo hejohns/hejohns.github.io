@@ -49,3 +49,13 @@ gem "classifier-reborn", "~> 2.3"
 gem "jekyll-archives", "~> 2.2"
 
 gem "mini_racer", "~> 0.8.0"
+
+gem "bundler", "~> 2.4"
+
+gem "rake", "~> 13.1"
+
+gem "csv", "~> 3.2"
+
+gem "base64", "~> 0.2.0"
+
+gem "bigdecimal", "~> 3.1"
