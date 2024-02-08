@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Natural Models | hejohns’ jekyll site</title>
+<meta name="generator" content="Jekyll v4.3.3" />
+<meta property="og:title" content="Natural Models" />
+<meta name="author" content="Johnson He" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="We were talking about natural models today, in the sense of Awodey. And I still have yet to read most of the paper, but I’d always thought that that paper must’ve been about, well, natural models. But as far as I can tell, the paper is not about models of homotopy type theory in a model of homotopy type theory." />
+<meta property="og:description" content="We were talking about natural models today, in the sense of Awodey. And I still have yet to read most of the paper, but I’d always thought that that paper must’ve been about, well, natural models. But as far as I can tell, the paper is not about models of homotopy type theory in a model of homotopy type theory." />
+<link rel="canonical" href="https://hejohns.github.io/2024/02/08/natural-models.html" />
+<meta property="og:url" content="https://hejohns.github.io/2024/02/08/natural-models.html" />
+<meta property="og:site_name" content="hejohns’ jekyll site" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2024-02-08T00:00:00-05:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Natural Models" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Johnson He"},"dateModified":"2024-02-08T18:37:31-05:00","datePublished":"2024-02-08T00:00:00-05:00","description":"We were talking about natural models today, in the sense of Awodey. And I still have yet to read most of the paper, but I’d always thought that that paper must’ve been about, well, natural models. But as far as I can tell, the paper is not about models of homotopy type theory in a model of homotopy type theory.","headline":"Natural Models","mainEntityOfPage":{"@type":"WebPage","@id":"https://hejohns.github.io/2024/02/08/natural-models.html"},"url":"https://hejohns.github.io/2024/02/08/natural-models.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://hejohns.github.io/feed.xml" title="hejohns&apos; jekyll site" />  <!-- see: -->
+  <!-- https://codewrites.me/jekyll/katex/blog/2020/08/26/use-katex-gh-pages/ -->
+  <!-- https://www.xuningyang.com/blog/2021-01-11-katex-with-jekyll/ -->
+  <!-- and adjusted according to minima layout -->
+
+  <!--KaTeX-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js" integrity="sha384-g7c+Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI+sEnkvrMWph2EDg4" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js" integrity="sha384-mll67QQFJfxn0IYznZYonOWZ644AWYC+Pt2cHqMaRhXVrursRwvLnLaebdGIlYNa" crossorigin="anonymous"></script>
+  <script>
+      document.addEventListener("DOMContentLoaded", function() {
+          renderMathInElement(document.body, {
+              // ...options...
+          });
+      });
+  </script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">hejohns&#39; jekyll site</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/posts.html">posts</a><a class="page-link" href="/site-construction.html">site-construction</a><a class="page-link" href="/reviews.html">reviews</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+          <h3>
+            page version: February 8, 2024
+          </h3>
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Natural Models</h1>
+    <p class="post-meta"><time class="dt-published" datetime="2024-02-08T00:00:00-05:00" itemprop="datePublished">
+        original date: Feb 8, 2024
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>We were talking about natural models today,
+in the sense of <a href="https://arxiv.org/abs/1406.3219">Awodey</a>.
+And I still have yet to read most of the paper,
+but I’d always thought that that paper must’ve been about, well, natural models.
+But as far as I can tell, the paper is not about models of homotopy type theory
+in a model of homotopy type theory.</p>
+
+<p>(I first wrote “<em>the</em> intended model” instead of “a model”, but afaik there is no intended model of homotopy type theory– or many type theories– anyways, at least not in the sense which will be described below.)</p>
+
+<p>You see, at the end of Enderton’s undergraduate set theory book,
+he has a small section on <em>natural models</em> of set theory.
+A natural model is \(V_α ⊆ V\)<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>, that is closed under the set theory axioms.
+For example, a natural model of \(Z\)
+(ie \(ZF∖\{\) replacement \(\}\), as per Enderton)
+is some capped off \(V_α\) that is closed under pairing, union, powersets, etc.</p>
+
+<p>So you can go though each axiom and check off that \(V_ω\) is almost a model
+of \(Z\), but actually \(α\) needs to be a limit ordinal (powerset axiom) above \(ω\) (infinity axiom), so the smallest \(α\) is \(2ω\).</p>
+
+<p>Then Enderton shows that \(V_{2ω} ̸⊧ ZF\), thus it must not satisfy replacement.
+But assuming an inaccessible cardinal \(κ\), \(V_κ ⊧ ZF\) (ie the replacement axioms are satisfied as well).</p>
+
+<p>I don’t know if this is the canonical proof that replacement is independent of \(Z\), but it’s a nice one,
+and when I read this section of Enderton,
+it cemented itself as one the all time best things I’d ever read.</p>
+
+<p>To be precise, I should clarify that these results show that
+\(V_{2ω} ⊧ Z\) but \(V_{2ω} ̸⊧ ZF\), ie \(V_{2ω} ̸⊧ Z + \text{replacement}\),
+thus \(Z ̸⊧ \text{replacement}\), thus \(Z ̸⊢ \text{replacement}\).
+And \(Z ̸⊢ ¬\text{replacement}\)<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup>, since \(Z ̸⊧ ¬\text{replacement}\),
+since \(V_κ ⊧ Z + \text{replacement}\).</p>
+
+<p>Thus replacement is independent of \(Z\), ie \(ZF\) is strictly stronger than \(Z\).
+Now, one would ask about \(ZF\) and \(ZFC\)!</p>
+
+<p>I don’t think Enderton makes comment on it in the small section on natural models.
+I would think that choice only gives you sets of smaller rank, so any \(V_α\) is closed under choice? Or at least for nontrivial \(α\)?
+I think I’ve seen that somewhere, but if I’m horribly wrong I’ll be quite embarrassed.</p>
+
+<p>In any case, \(V_κ\) should be a model of \(ZFC\) then,
+which means that Gödel’s famous half of the independence of choice
+presumably doesn’t require inaccessible cardinal assumptions,
+and the famous work of Cohen suggests that there’s no natural model of \(ZF +\)¬\(C\)– in addition to the fact that any \(V_α\) should satisfy choice.</p>
+
+<p>Okay the reasoning in the last paragraph is all backwards, so let’s cap it there.</p>
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>To pay respect to the historical development of models of set theory, and since Enderton mentions as much, we take all models to have the standard \(ϵ\) interpretation. Of course, in general, models \(M ⊆ V\) need not have the same \(ϵ\), and even more generally, models need not be subsets of \(V\). <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:2" role="doc-endnote">
+      <p>ok replacement is an axiom schema or something, but you get the point <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+  </div><!-- use minima's column styling since I don't know css -->
+  <div class="footer-col-wrapper">
+      <div class="footer-col"><a href="/2024/01/16/mellanox.html">prev</a></div>
+      <div class="footer-col">
+        <h2> related </h2>
+        <ul><li><a href="/2024/01/16/mellanox.html">Mellanox ConnectX-4 10gbe,</a></li><li><a href="/2024/01/08/thunderbird-and-nix.html">Thunderbird and Nix,</a></li><li><a href="/2023/12/20/xmonad.html">xmonad,</a></li><li><a href="/2023/12/19/icecc.html">icecc,</a></li><li><a href="/2023/11/07/ble-sh.html">ble.sh,</a></li><li><a href="/site-construction/2023/11/06/live-reload.html">Live Reload,</a></li><li><a href="/2023/10/29/coordinating-processes.html">coordinating processes,</a></li><li><a href="/2023/10/10/tortoise-tts.html">tortoise text to speech (and piper),</a></li><li><a href="/2023/08/03/nic-bonding.html">nic bonding,</a></li><li><a href="/2023/07/24/book-catalogue.html">book catalogue,</a></li></ul>
+      </div>
+      <div class="footer-col"></div>
+  </div>
+
+  <a class="u-url" href="/2024/02/08/natural-models.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <!-- I don't need this
+        <p class="feed-subscribe">
+          <a href="https://hejohns.github.io/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+        -->
+        <ul class="contact-list">
+          <li class="p-name">Johnson He</li>
+          <li><a class="u-email" href="mailto:(hejohns)α(umich)δ(edu)">(hejohns)α(umich)δ(edu)</a></li>
+            <li>(the answer is yes, you should.)</li>
+        </ul>
+        <!-- add last-modified-time -->
+        <p>site version: 2024-02-08</p>
+      </div>
+      <div class="footer-col">
+        <p>a pure waste of space</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"><li>
+  <a rel="me" href="https://github.com/hejohns" target="_blank" title="github">
+    <svg class="svg-icon grey">
+      <use xlink:href="/assets/minima-social-icons.svg#github"></use>
+    </svg>
+  </a>
+</li>
+</ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
