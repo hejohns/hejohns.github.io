@@ -1,4 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://hejohns.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hejohns.github.io/" rel="alternate" type="text/html" /><updated>2024-02-08T18:40:11-05:00</updated><id>https://hejohns.github.io/feed.xml</id><title type="html">hejohns’ jekyll site</title><subtitle>a pure waste of space</subtitle><author><name>Johnson He</name><email>(hejohns)α(umich)δ(edu)</email></author><entry><title type="html">Natural Models</title><link href="https://hejohns.github.io/2024/02/08/natural-models.html" rel="alternate" type="text/html" title="Natural Models" /><published>2024-02-08T00:00:00-05:00</published><updated>2024-02-08T18:37:56-05:00</updated><id>https://hejohns.github.io/2024/02/08/natural-models</id><content type="html" xml:base="https://hejohns.github.io/2024/02/08/natural-models.html"><![CDATA[<p>We were talking about natural models today,
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://hejohns.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hejohns.github.io/" rel="alternate" type="text/html" /><updated>2024-02-12T00:57:32-05:00</updated><id>https://hejohns.github.io/feed.xml</id><title type="html">hejohns’ jekyll site</title><subtitle>a pure waste of space</subtitle><author><name>Johnson He</name><email>(hejohns)α(umich)δ(edu)</email></author><entry><title type="html">noctua fans</title><link href="https://hejohns.github.io/2024/02/12/noctua.html" rel="alternate" type="text/html" title="noctua fans" /><published>2024-02-12T00:00:00-05:00</published><updated>2024-02-12T00:57:26-05:00</updated><id>https://hejohns.github.io/2024/02/12/noctua</id><content type="html" xml:base="https://hejohns.github.io/2024/02/12/noctua.html"><![CDATA[<p>I finally replaced the cpu and case fan on the T130 with noctua fans
+because I couldn’t bear the racket anymore–
+I can’t remember if the stock fans just wouldn’t spin slower or were just loud–
+and I have to say I’m an instant fan– no pun intended.
+The box is finally quiet. It only took ~6 years. Speaking of which, those stock fans were… dirty.</p>
+
+<p>I had to increase the minimum pwm from 5% to 25%,
+or else iDRAC would warn that the fan rpm is <em>too low</em>.</p>
+
+<p>This post is to point out that the noctua voltage reducing cable (“low noise adapter”) is unnecessary, unless the fans are stuck at high rpm for whatever reason (eg non-pwm fans).
+I had installed them first, so I had to then remove them and turn all the fans around, which was annoying and a little painful– those rubber case fan plugs are so hard to reattach.</p>]]></content><author><name>Johnson He</name><email>(hejohns)α(umich)δ(edu)</email></author><summary type="html"><![CDATA[I finally replaced the cpu and case fan on the T130 with noctua fans because I couldn’t bear the racket anymore– I can’t remember if the stock fans just wouldn’t spin slower or were just loud– and I have to say I’m an instant fan– no pun intended. The box is finally quiet. It only took ~6 years. Speaking of which, those stock fans were… dirty.]]></summary></entry><entry><title type="html">Natural Models</title><link href="https://hejohns.github.io/2024/02/08/natural-models.html" rel="alternate" type="text/html" title="Natural Models" /><published>2024-02-08T00:00:00-05:00</published><updated>2024-02-08T18:40:15-05:00</updated><id>https://hejohns.github.io/2024/02/08/natural-models</id><content type="html" xml:base="https://hejohns.github.io/2024/02/08/natural-models.html"><![CDATA[<p>We were talking about natural models today,
 in the sense of <a href="https://arxiv.org/abs/1406.3219">Awodey</a>.
 And I still have yet to read most of the paper,
 but I’d always thought that that paper must’ve been about, well, natural models.
@@ -406,25 +416,4 @@ docker’s quite pleasant to use?</p>
       <p>I’m assuming that means something to the ML-literate <a href="#fnref:3" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
-</div>]]></content><author><name>Johnson He</name><email>(hejohns)α(umich)δ(edu)</email></author><summary type="html"><![CDATA[Motivation]]></summary></entry><entry><title type="html">nic bonding</title><link href="https://hejohns.github.io/2023/08/03/nic-bonding.html" rel="alternate" type="text/html" title="nic bonding" /><published>2023-08-03T00:00:00-04:00</published><updated>2023-08-03T17:41:43-04:00</updated><id>https://hejohns.github.io/2023/08/03/nic-bonding</id><content type="html" xml:base="https://hejohns.github.io/2023/08/03/nic-bonding.html"><![CDATA[<ul>
-  <li>nmtui</li>
-  <li>edit a connection</li>
-  <li>add</li>
-  <li>type bond</li>
-  <li>two slaves
-    <ul>
-      <li>idk why but it seems like you need to create two entirely new connections</li>
-      <li>so deactivate the old connections before activating the bond</li>
-    </ul>
-  </li>
-  <li>set primary device (eg <code class="language-plaintext highlighter-rouge">eno2</code>). This is the mac address used?</li>
-  <li>status:
-    <ul>
-      <li><code class="language-plaintext highlighter-rouge">nmcli con</code></li>
-      <li><code class="language-plaintext highlighter-rouge">ip address</code></li>
-    </ul>
-  </li>
-  <li>the mac address changes (not sure why), so you probably have to change the dhcp server settings to statically lease the old ip to the bond mac address</li>
-</ul>
-
-<p>redhat has some documentation online</p>]]></content><author><name>Johnson He</name><email>(hejohns)α(umich)δ(edu)</email></author><summary type="html"><![CDATA[nmtui edit a connection add type bond two slaves idk why but it seems like you need to create two entirely new connections so deactivate the old connections before activating the bond set primary device (eg eno2). This is the mac address used? status: nmcli con ip address the mac address changes (not sure why), so you probably have to change the dhcp server settings to statically lease the old ip to the bond mac address]]></summary></entry></feed>
+</div>]]></content><author><name>Johnson He</name><email>(hejohns)α(umich)δ(edu)</email></author><summary type="html"><![CDATA[Motivation]]></summary></entry></feed>
