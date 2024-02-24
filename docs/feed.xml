@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://hejohns.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hejohns.github.io/" rel="alternate" type="text/html" /><updated>2024-02-24T15:21:26-05:00</updated><id>https://hejohns.github.io/feed.xml</id><title type="html">hejohns’ jekyll site</title><subtitle>a pure waste of space</subtitle><author><name>Johnson He</name><email>(hejohns)α(umich)δ(edu)</email></author><entry><title type="html">vim</title><link href="https://hejohns.github.io/2024/02/24/vim.html" rel="alternate" type="text/html" title="vim" /><published>2024-02-24T00:00:00-05:00</published><updated>2024-02-24T15:20:56-05:00</updated><id>https://hejohns.github.io/2024/02/24/vim</id><content type="html" xml:base="https://hejohns.github.io/2024/02/24/vim.html"><![CDATA[<p>Instead of doing work, I got to thinking that since I spend so much time in vim,
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://hejohns.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hejohns.github.io/" rel="alternate" type="text/html" /><updated>2024-02-24T18:05:15-05:00</updated><id>https://hejohns.github.io/feed.xml</id><title type="html">hejohns’ jekyll site</title><subtitle>a pure waste of space</subtitle><author><name>Johnson He</name><email>(hejohns)α(umich)δ(edu)</email></author><entry><title type="html">vim</title><link href="https://hejohns.github.io/2024/02/24/vim.html" rel="alternate" type="text/html" title="vim" /><published>2024-02-24T00:00:00-05:00</published><updated>2024-02-24T15:21:39-05:00</updated><id>https://hejohns.github.io/2024/02/24/vim</id><content type="html" xml:base="https://hejohns.github.io/2024/02/24/vim.html"><![CDATA[<p>Instead of doing work, I got to thinking that since I spend so much time in vim,
 I should really build and configure vim from source,
 instead of just using the debian packaged vim-gtk3.</p>
 
@@ -6,7 +6,17 @@ instead of just using the debian packaged vim-gtk3.</p>
 The only thing I’ve contributed back was a bug report about unicode character handling,
 which someone patched and Bram merged within a couple days(!).</p>
 
-<p>So let’s keep a <a href="https://github.com/hejohns/vim">fork</a> to track my config.</p>]]></content><author><name>Johnson He</name><email>(hejohns)α(umich)δ(edu)</email></author><summary type="html"><![CDATA[Instead of doing work, I got to thinking that since I spend so much time in vim, I should really build and configure vim from source, instead of just using the debian packaged vim-gtk3.]]></summary></entry><entry><title type="html">noctua fans</title><link href="https://hejohns.github.io/2024/02/12/noctua.html" rel="alternate" type="text/html" title="noctua fans" /><published>2024-02-12T00:00:00-05:00</published><updated>2024-02-12T00:57:57-05:00</updated><id>https://hejohns.github.io/2024/02/12/noctua</id><content type="html" xml:base="https://hejohns.github.io/2024/02/12/noctua.html"><![CDATA[<p>I finally replaced the cpu and case fan on the T130 with noctua fans
+<p>So let’s keep a <a href="https://github.com/hejohns/vim">fork</a> to track my config.</p>
+
+<p>Building notes:</p>
+<ul>
+  <li>Certain system packages need to be installed for features like gui, ‘+perl’, ‘+python’
+    <ul>
+      <li>I won’t make an exhaustive list, but see src/INSTALL</li>
+      <li><code class="language-plaintext highlighter-rouge">make reconfig</code> after installing</li>
+    </ul>
+  </li>
+</ul>]]></content><author><name>Johnson He</name><email>(hejohns)α(umich)δ(edu)</email></author><summary type="html"><![CDATA[Instead of doing work, I got to thinking that since I spend so much time in vim, I should really build and configure vim from source, instead of just using the debian packaged vim-gtk3.]]></summary></entry><entry><title type="html">noctua fans</title><link href="https://hejohns.github.io/2024/02/12/noctua.html" rel="alternate" type="text/html" title="noctua fans" /><published>2024-02-12T00:00:00-05:00</published><updated>2024-02-12T00:57:57-05:00</updated><id>https://hejohns.github.io/2024/02/12/noctua</id><content type="html" xml:base="https://hejohns.github.io/2024/02/12/noctua.html"><![CDATA[<p>I finally replaced the cpu and case fan on the T130 with noctua fans
 because I couldn’t bear the racket anymore–
 I can’t remember if the stock fans just wouldn’t spin slower or were just loud–
 and I have to say I’m an instant fan– no pun intended.

@@ -18,7 +18,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="vim" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Johnson He"},"dateModified":"2024-02-24T15:20:56-05:00","datePublished":"2024-02-24T00:00:00-05:00","description":"Instead of doing work, I got to thinking that since I spend so much time in vim, I should really build and configure vim from source, instead of just using the debian packaged vim-gtk3.","headline":"vim","mainEntityOfPage":{"@type":"WebPage","@id":"https://hejohns.github.io/2024/02/24/vim.html"},"url":"https://hejohns.github.io/2024/02/24/vim.html"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Johnson He"},"dateModified":"2024-02-24T15:21:39-05:00","datePublished":"2024-02-24T00:00:00-05:00","description":"Instead of doing work, I got to thinking that since I spend so much time in vim, I should really build and configure vim from source, instead of just using the debian packaged vim-gtk3.","headline":"vim","mainEntityOfPage":{"@type":"WebPage","@id":"https://hejohns.github.io/2024/02/24/vim.html"},"url":"https://hejohns.github.io/2024/02/24/vim.html"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://hejohns.github.io/feed.xml" title="hejohns&apos; jekyll site" />  <!-- see: -->
   <!-- https://codewrites.me/jekyll/katex/blog/2020/08/26/use-katex-gh-pages/ -->
@@ -76,6 +76,16 @@ The only thing I’ve contributed back was a bug report about unicode character 
 which someone patched and Bram merged within a couple days(!).</p>
 
 <p>So let’s keep a <a href="https://github.com/hejohns/vim">fork</a> to track my config.</p>
+
+<p>Building notes:</p>
+<ul>
+  <li>Certain system packages need to be installed for features like gui, ‘+perl’, ‘+python’
+    <ul>
+      <li>I won’t make an exhaustive list, but see src/INSTALL</li>
+      <li><code class="language-plaintext highlighter-rouge">make reconfig</code> after installing</li>
+    </ul>
+  </li>
+</ul>
 
   </div><!-- use minima's column styling since I don't know css -->
   <div class="footer-col-wrapper">
