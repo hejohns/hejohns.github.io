@@ -1,4 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://hejohns.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hejohns.github.io/" rel="alternate" type="text/html" /><updated>2024-02-12T00:57:32-05:00</updated><id>https://hejohns.github.io/feed.xml</id><title type="html">hejohns’ jekyll site</title><subtitle>a pure waste of space</subtitle><author><name>Johnson He</name><email>(hejohns)α(umich)δ(edu)</email></author><entry><title type="html">noctua fans</title><link href="https://hejohns.github.io/2024/02/12/noctua.html" rel="alternate" type="text/html" title="noctua fans" /><published>2024-02-12T00:00:00-05:00</published><updated>2024-02-12T00:57:26-05:00</updated><id>https://hejohns.github.io/2024/02/12/noctua</id><content type="html" xml:base="https://hejohns.github.io/2024/02/12/noctua.html"><![CDATA[<p>I finally replaced the cpu and case fan on the T130 with noctua fans
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://hejohns.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hejohns.github.io/" rel="alternate" type="text/html" /><updated>2024-02-24T15:21:26-05:00</updated><id>https://hejohns.github.io/feed.xml</id><title type="html">hejohns’ jekyll site</title><subtitle>a pure waste of space</subtitle><author><name>Johnson He</name><email>(hejohns)α(umich)δ(edu)</email></author><entry><title type="html">vim</title><link href="https://hejohns.github.io/2024/02/24/vim.html" rel="alternate" type="text/html" title="vim" /><published>2024-02-24T00:00:00-05:00</published><updated>2024-02-24T15:20:56-05:00</updated><id>https://hejohns.github.io/2024/02/24/vim</id><content type="html" xml:base="https://hejohns.github.io/2024/02/24/vim.html"><![CDATA[<p>Instead of doing work, I got to thinking that since I spend so much time in vim,
+I should really build and configure vim from source,
+instead of just using the debian packaged vim-gtk3.</p>
+
+<p>Also I should really contribute a little to vim over time.
+The only thing I’ve contributed back was a bug report about unicode character handling,
+which someone patched and Bram merged within a couple days(!).</p>
+
+<p>So let’s keep a <a href="https://github.com/hejohns/vim">fork</a> to track my config.</p>]]></content><author><name>Johnson He</name><email>(hejohns)α(umich)δ(edu)</email></author><summary type="html"><![CDATA[Instead of doing work, I got to thinking that since I spend so much time in vim, I should really build and configure vim from source, instead of just using the debian packaged vim-gtk3.]]></summary></entry><entry><title type="html">noctua fans</title><link href="https://hejohns.github.io/2024/02/12/noctua.html" rel="alternate" type="text/html" title="noctua fans" /><published>2024-02-12T00:00:00-05:00</published><updated>2024-02-12T00:57:57-05:00</updated><id>https://hejohns.github.io/2024/02/12/noctua</id><content type="html" xml:base="https://hejohns.github.io/2024/02/12/noctua.html"><![CDATA[<p>I finally replaced the cpu and case fan on the T130 with noctua fans
 because I couldn’t bear the racket anymore–
 I can’t remember if the stock fans just wouldn’t spin slower or were just loud–
 and I have to say I’m an instant fan– no pun intended.
@@ -269,151 +277,4 @@ or else it gets stuck on a blank screen.</p>
 
 <p>(And of course, check out the other <a href="/category/site-construction/">site-construction</a> posts)</p>]]></content><author><name>Johnson He</name><email>(hejohns)α(umich)δ(edu)</email></author><category term="site-construction" /><summary type="html"><![CDATA[I’ve been writing posts without live reloading/preview for some reason. I think --watch didn’t work or something.]]></summary></entry><entry><title type="html">coordinating processes</title><link href="https://hejohns.github.io/2023/10/29/coordinating-processes.html" rel="alternate" type="text/html" title="coordinating processes" /><published>2023-10-29T00:00:00-04:00</published><updated>2023-10-30T06:25:11-04:00</updated><id>https://hejohns.github.io/2023/10/29/coordinating-processes</id><content type="html" xml:base="https://hejohns.github.io/2023/10/29/coordinating-processes.html"><![CDATA[<p>This has to be a solved problem?!</p>
 
-<p><a href="https://github.com/hejohns/systemp">repo</a></p>]]></content><author><name>Johnson He</name><email>(hejohns)α(umich)δ(edu)</email></author><summary type="html"><![CDATA[This has to be a solved problem?!]]></summary></entry><entry><title type="html">tortoise text to speech (and piper)</title><link href="https://hejohns.github.io/2023/10/10/tortoise-tts.html" rel="alternate" type="text/html" title="tortoise text to speech (and piper)" /><published>2023-10-10T00:00:00-04:00</published><updated>2023-10-11T06:34:15-04:00</updated><id>https://hejohns.github.io/2023/10/10/tortoise-tts</id><content type="html" xml:base="https://hejohns.github.io/2023/10/10/tortoise-tts.html"><![CDATA[<h2 id="motivation">Motivation</h2>
-
-<p>I’m getting my butt kicked by EECS 582.
-We’re assigned four papers a week to read–
-two for Tuesday, two for Thursday–
-and it’s just too much to read with attention to detail.
-But I don’t think the point <em>is</em> to read every paper in detail.
-Or at least that’s not what I really want out of it.</p>
-
-<p>This seems to me an exercise in how to quickly synthesize/accumulate/index
-ideas and knowledge,
-and how to summarize/distill it quickly.
-(The paper reviews used to take me hours, but there just isn’t the time for that.
- I’ve been cramming it into ~45 minutes.)</p>
-
-<p>As such, I’m looking for fast ways to get to the summary,
-if that’s the end-goal, so to speak.
-There’s some tips and tricks people will tell you when it comes to reading papers,
-but I wanted to try something more aggressive.</p>
-
-<h2 id="text-to-speech-tools">text to speech tools</h2>
-
-<p>My eyes were feeling uncomfortable from (I have no medical backing to say this)
-all the, well, load, of screen + reading time,
-so the natural conclusion was to try <em>listening</em> to papers.</p>
-
-<p>So I copy/pasted the entire paper pdf into a text file,
-removed line breaks (eg “libr-\nary”),
-and converted the text to audio with a tts tool.</p>
-
-<p>Of course this requires that the paper has signifiant amounts of prose.
-The papers we’re reading in 582 do<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup> (and more on the effectiveness of the tts tools on papers below), but I have yet to try other areas.</p>
-
-<p>I first tried some online tools, but wasn’t very satisfied.
-I’m sure there are good services online though.</p>
-
-<p>In any case, I ended up trying local text to speech tools,
-and the two that I got working were:</p>
-<ul>
-  <li><a href="https://github.com/rhasspy/piper">piper</a></li>
-  <li><a href="https://github.com/neonbjb/tortoise-tts">tortoise-tts</a></li>
-</ul>
-
-<p>(festival kept crashing, and I think I forgot to try eSpeak-ng.)</p>
-
-<h3 id="piper">piper</h3>
-<p>There’s not much to say.
-Piper “just works”.
-It’s fast– it can stream audio– and sounds good enough to listen to papers.
-I’ve been using **cpu inference. I’m not sure if it supports gpu.</p>
-
-<p>This is what I’ve actually been using since tortoise…
-didn’t “just work” out of the box.</p>
-
-<p>For some reason, the wav file piper produces isn’t readable on my sony icd,
-so I had to ffmpeg it to an mp3.</p>
-<h3 id="tortoise">tortoise</h3>
-<p>Okay… this is the real reason I wrote this post.</p>
-
-<p>The output quality of tortoise is fantastic.
-Yes, it’s slow, but I’m willing to put up with it if it works–
-just run it overnight/overnight + a day.
-I have yet to really evaluate it as a paper reading tool, because I’ve been so bogged down trying to get it working.</p>
-
-<h4 id="docker">docker</h4>
-<p>First, <strong>cpu</strong> only:</p>
-
-<p>The Dockerfile provided works with some small modifications
-which others noted in the issue comments and a PR.
-So I made a <a href="https://github.com/eecs582-andlars-hasinha-hejohns/tortoise-tts">fork</a>
-with those patches.</p>
-
-<p>tortoise hardcodes cuda in some places, so a couple patches are needed, but it does run with only cpu.
-Just invoke <code class="language-plaintext highlighter-rouge">docker run</code> without <code class="language-plaintext highlighter-rouge">--gpus all</code>.</p>
-<h4 id="gpu">gpu</h4>
-<p>I have an nvidia mobile gpu on my desktop (the one from <a href="/2023/05/10/linux-graphics-modules.html">the post about nvidia kernel modules</a>,
-so I thought I’d try to see how it compares to cpu tortoise,
-which I’d been running on a dual xeon gold 6142.</p>
-
-<p>It became issue after issue.</p>
-
-<p>So first you have to install <code class="language-plaintext highlighter-rouge">nvidia-container-toolkit</code>.
-Then when I added <code class="language-plaintext highlighter-rouge">--gpus all</code> back to tortoise’s <code class="language-plaintext highlighter-rouge">docker run</code>,
-docker failed to pickup any gpus.</p>
-
-<p>Okay… everything seemed fine with the gpu setup (<code class="language-plaintext highlighter-rouge">nvidia-smi</code> shows output, no systemd nvidia service errors like <a href="/2023/05/10/linux-graphics-modules.html">the post about nvidia kernel modules</a>),
-except <code class="language-plaintext highlighter-rouge">nvidia-detect</code> errored out,
-complaining about not being able to identify the debian version.</p>
-
-<p>After a display of poor debugging skills, I finally looked at <code class="language-plaintext highlighter-rouge">vim $(which nvidia-detect)</code> and searched for the error message.
-It turned out the nvidia-detect script just hardcodes some logic for each debian release,
-and looks up the value in <code class="language-plaintext highlighter-rouge">/etc/debian_version</code> to dispatch one of the cases.
-If <code class="language-plaintext highlighter-rouge">/etc/debian_version</code> doesn’t match any of the cases,
-an error message prints about not being able to identify  the debian version.</p>
-
-<p>Well, I have debian testing on my desktop, with
-<code class="language-plaintext highlighter-rouge">cat /etc/debian_version</code><sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup> showing <code class="language-plaintext highlighter-rouge">trixie/sid</code>.
-Which just wasn’t a case.
-nvidia-detect only hardcoded up to bookworm/debian 12.</p>
-
-<p>My best guess is that the proper fix is to just wait for a newer nvidia-detect.
-But I wanted some more immediate closure, so I manually set <code class="language-plaintext highlighter-rouge">/etc/debian_version</code>
-to “bookworm/12”, and everyone was happy.</p>
-
-<p>Then docker <code class="language-plaintext highlighter-rouge">--gpus all</code> was finally happy, but tortoise still wasn’t using the gpu.
-Another <em>insert search engine</em> adventure later about cuda versions
-suggested that I did in fact have a card that supported cuda 12.0,
-which should work with tortoise
-(I think tortoise itself wanted cuda 11.7, and the Dockerfile wanted the nvidia cuda 12.2 docker image, which may have worked, but I downgraded it to 12.0 to match my host system).</p>
-
-<p>Then the online oracles said to run <code class="language-plaintext highlighter-rouge">python -m torch.utils.collect_env</code>
-to see what pytorch was up to.
-And indeed, it showed that pytorch was <em>not</em> built with cuda.</p>
-
-<p>I’m not sure why, given that the Dockerfile seems to install pytorch with cuda,
-but in any case, there’s no shortage of hacks here, so the oracle said to
-just <code class="language-plaintext highlighter-rouge">pip uninstall torch</code> and reinstall it with cuda, as per <a href="https://pytorch.org/get-started/locally/">the pytorch site</a>,
-so I did,
-and <code class="language-plaintext highlighter-rouge">python -m torch.utils.collect_env</code> changed to show that cuda was enabled.
-This is all in a docker container, so I don’t actually mind how much of a hack this is.</p>
-
-<p>With pytorch finally gpu enabled, I fired up tortoise for the nth time,
-and it quickly died with a cuda out of memory error.</p>
-
-<p>The cognoscenti may have noticed that I wanted to do this on a quadro M620
-with 2GB ram.
-Me being an ML-ignorant fool, didn’t think that that was insufficient.</p>
-
-<p>Even with <code class="language-plaintext highlighter-rouge">batch_size = 1</code>, as small as possible<sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote" rel="footnote">3</a></sup>,
-tortoise still kept running out of memory.
-From what I could find in the issue comments, 4GB is considered a small memory footprint, so it may be that tortoise simply cannot run on 2GB gpu ram.</p>
-
-<p>So I finally got some closure, and four hours less sleep,
-but on the plus side,
-docker’s quite pleasant to use?</p>
-<div class="footnotes" role="doc-endnotes">
-  <ol>
-    <li id="fn:1" role="doc-endnote">
-      <p>figures don’t meaningfully work if they do at all. They usually don’t get copied as text, and if some parts of the figure do, it’s all mangled. That said, captions <em>do</em> work, and are sometimes enough to get the general idea. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-    <li id="fn:2" role="doc-endnote">
-      <p>what is this used for?? <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-    <li id="fn:3" role="doc-endnote">
-      <p>I’m assuming that means something to the ML-literate <a href="#fnref:3" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-  </ol>
-</div>]]></content><author><name>Johnson He</name><email>(hejohns)α(umich)δ(edu)</email></author><summary type="html"><![CDATA[Motivation]]></summary></entry></feed>
+<p><a href="https://github.com/hejohns/systemp">repo</a></p>]]></content><author><name>Johnson He</name><email>(hejohns)α(umich)δ(edu)</email></author><summary type="html"><![CDATA[This has to be a solved problem?!]]></summary></entry></feed>
