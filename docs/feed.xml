@@ -1,4 +1,65 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://hejohns.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hejohns.github.io/" rel="alternate" type="text/html" /><updated>2024-02-24T18:05:15-05:00</updated><id>https://hejohns.github.io/feed.xml</id><title type="html">hejohns’ jekyll site</title><subtitle>a pure waste of space</subtitle><author><name>Johnson He</name><email>(hejohns)α(umich)δ(edu)</email></author><entry><title type="html">vim</title><link href="https://hejohns.github.io/2024/02/24/vim.html" rel="alternate" type="text/html" title="vim" /><published>2024-02-24T00:00:00-05:00</published><updated>2024-02-24T15:21:39-05:00</updated><id>https://hejohns.github.io/2024/02/24/vim</id><content type="html" xml:base="https://hejohns.github.io/2024/02/24/vim.html"><![CDATA[<p>Instead of doing work, I got to thinking that since I spend so much time in vim,
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://hejohns.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hejohns.github.io/" rel="alternate" type="text/html" /><updated>2024-03-10T20:25:45-04:00</updated><id>https://hejohns.github.io/feed.xml</id><title type="html">hejohns’ jekyll site</title><subtitle>a pure waste of space</subtitle><author><name>Johnson He</name><email>(hejohns)α(umich)δ(edu)</email></author><entry><title type="html">vim</title><link href="https://hejohns.github.io/2024/03/10/deoplete.html" rel="alternate" type="text/html" title="vim" /><published>2024-03-10T00:00:00-05:00</published><updated>2024-03-10T20:25:36-04:00</updated><id>https://hejohns.github.io/2024/03/10/deoplete</id><content type="html" xml:base="https://hejohns.github.io/2024/03/10/deoplete.html"><![CDATA[<p>Instead of doing work, I spent the better half of a day fixing my
+<a href="https://github.com/Shougo/deoplete.nvim">deoplete</a>
+<a href="https://github.com/hejohns/hejohns-vim/blob/trunk/plugin/hejohns.vim">config</a>,
+and added <a href="https://github.com/hejohns/hejohns-vim/blob/trunk/plugins.vim">these deoplete <em>sources</em></a><sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup> on top of the ones that ship with deoplete–
+which are fabulous and could well be all you need.</p>
+
+<p>Autocompletion <em>candidates</em> are sorted by the source that generated them,
+and <em>ranked</em> between sources.
+The <em>rank</em> is a <em>var</em>
+(as in <code class="language-plaintext highlighter-rouge">deoplete#custom#var</code> for global configuration,
+ or <code class="language-plaintext highlighter-rouge">deoplete#custom#buffer#var#</code> for buffer local configuration)
+or <em>source</em> setting
+(as in <code class="language-plaintext highlighter-rouge">deoplete#custom#source</code>).</p>
+
+<p><em>source</em> settings have to be set before deoplete starts up,
+which I’m pretty sure means before <code class="language-plaintext highlighter-rouge">deoplete#initialize()</code>,
+but <em>var</em>s can be updated any time.
+I’m not sure why some sources have the <em>rank</em> or the <em>mark</em>
+as a <em>source</em> settings,
+while others have it as a <em>var</em>, but it’s not a big deal either way.</p>
+
+<p>A <em>mark</em> is a string shown on the right of a <em>candidate</em> in the pum,
+to show which <em>source</em> it came from.
+The default <em>marks</em> are something like ‘[A]’ for the stock “around” source,
+or ‘[B]’ for the stock “buffer” source.</p>
+
+<p>I’ve changed the <em>marks</em> to make it more obvious,
+like ‘[buf]’ for “buffer” or ‘[dict]’ for the “dictionary” third-party source.</p>
+
+<p><strong>Note</strong> that not all sources are asynchronous.
+One thing I haven’t dug far enough into is how <em>sources</em> are written,
+and deoplete implements asynchronous <em>candidate</em> generation and pum update.
+But some sources are explicitly synchronous,
+namely the “omni” (omnicompletion) source,
+which takes candidates from vim’s omnifunc.</p>
+
+<p>This is one of (vanilla) vim’s primary autocompletion hooks,
+which means many other plugins generate <em>candidates</em> with omnifunc,
+but which also means that “omni” <em>candidate</em> generation is synchronous,
+as vim is.</p>
+
+<p>In general, any <em>source</em> that calls vimscript is synchronous.</p>
+
+<p>This was my original problem:
+in some cases, autocompletion would take so long, vim was unusable.
+I’d either have to turn off automatic autocompletion, or <C-c> the autocompletion every time.
+This was usually when I was using vimtex, which searches through all the packages for completions or something.</C-c></p>
+
+<p>So deoplete solves the general problem by providing vim with asynchronous autocompletion,
+but of course you any time you try to use vim’s omnifunc,
+you have the original issue.</p>
+
+<p>I bring this up because as is, I’m still using the “omni” source,
+which means that the original problem is still possible.
+I haven’t observed it recently, but this is a note to my future self.</p>
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>deoplete has a notion of <em>source</em>, which is what generates autocompletion <em>candidates</em> in the pum (pop up menu, as in ‘pumvisible’). Sources are python3 scripts that can contribute candidates asyncly. I haven’t stared much at how to write a source, but the system looks well designed at a glance. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>]]></content><author><name>Johnson He</name><email>(hejohns)α(umich)δ(edu)</email></author><summary type="html"><![CDATA[Instead of doing work, I spent the better half of a day fixing my deoplete config, and added these deoplete sources1 on top of the ones that ship with deoplete– which are fabulous and could well be all you need. deoplete has a notion of source, which is what generates autocompletion candidates in the pum (pop up menu, as in ‘pumvisible’). Sources are python3 scripts that can contribute candidates asyncly. I haven’t stared much at how to write a source, but the system looks well designed at a glance. &#8617;]]></summary></entry><entry><title type="html">vim</title><link href="https://hejohns.github.io/2024/02/24/vim.html" rel="alternate" type="text/html" title="vim" /><published>2024-02-24T00:00:00-05:00</published><updated>2024-02-24T18:05:21-05:00</updated><id>https://hejohns.github.io/2024/02/24/vim</id><content type="html" xml:base="https://hejohns.github.io/2024/02/24/vim.html"><![CDATA[<p>Instead of doing work, I got to thinking that since I spend so much time in vim,
 I should really build and configure vim from source,
 instead of just using the debian packaged vim-gtk3.</p>
 
@@ -285,6 +346,4 @@ and it’s so nice, I had to make this post.</p>
 <p>Sometimes I have to manually refresh the browser page though
 or else it gets stuck on a blank screen.</p>
 
-<p>(And of course, check out the other <a href="/category/site-construction/">site-construction</a> posts)</p>]]></content><author><name>Johnson He</name><email>(hejohns)α(umich)δ(edu)</email></author><category term="site-construction" /><summary type="html"><![CDATA[I’ve been writing posts without live reloading/preview for some reason. I think --watch didn’t work or something.]]></summary></entry><entry><title type="html">coordinating processes</title><link href="https://hejohns.github.io/2023/10/29/coordinating-processes.html" rel="alternate" type="text/html" title="coordinating processes" /><published>2023-10-29T00:00:00-04:00</published><updated>2023-10-30T06:25:11-04:00</updated><id>https://hejohns.github.io/2023/10/29/coordinating-processes</id><content type="html" xml:base="https://hejohns.github.io/2023/10/29/coordinating-processes.html"><![CDATA[<p>This has to be a solved problem?!</p>
-
-<p><a href="https://github.com/hejohns/systemp">repo</a></p>]]></content><author><name>Johnson He</name><email>(hejohns)α(umich)δ(edu)</email></author><summary type="html"><![CDATA[This has to be a solved problem?!]]></summary></entry></feed>
+<p>(And of course, check out the other <a href="/category/site-construction/">site-construction</a> posts)</p>]]></content><author><name>Johnson He</name><email>(hejohns)α(umich)δ(edu)</email></author><category term="site-construction" /><summary type="html"><![CDATA[I’ve been writing posts without live reloading/preview for some reason. I think --watch didn’t work or something.]]></summary></entry></feed>

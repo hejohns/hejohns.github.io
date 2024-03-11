@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>vim | hejohns’ jekyll site</title>
+<meta name="generator" content="Jekyll v4.3.3" />
+<meta property="og:title" content="vim" />
+<meta name="author" content="Johnson He" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Instead of doing work, I spent the better half of a day fixing my deoplete config, and added these deoplete sources1 on top of the ones that ship with deoplete– which are fabulous and could well be all you need. deoplete has a notion of source, which is what generates autocompletion candidates in the pum (pop up menu, as in ‘pumvisible’). Sources are python3 scripts that can contribute candidates asyncly. I haven’t stared much at how to write a source, but the system looks well designed at a glance. &#8617;" />
+<meta property="og:description" content="Instead of doing work, I spent the better half of a day fixing my deoplete config, and added these deoplete sources1 on top of the ones that ship with deoplete– which are fabulous and could well be all you need. deoplete has a notion of source, which is what generates autocompletion candidates in the pum (pop up menu, as in ‘pumvisible’). Sources are python3 scripts that can contribute candidates asyncly. I haven’t stared much at how to write a source, but the system looks well designed at a glance. &#8617;" />
+<link rel="canonical" href="https://hejohns.github.io/2024/03/10/deoplete.html" />
+<meta property="og:url" content="https://hejohns.github.io/2024/03/10/deoplete.html" />
+<meta property="og:site_name" content="hejohns’ jekyll site" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2024-03-10T00:00:00-05:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="vim" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Johnson He"},"dateModified":"2024-03-10T20:25:36-04:00","datePublished":"2024-03-10T00:00:00-05:00","description":"Instead of doing work, I spent the better half of a day fixing my deoplete config, and added these deoplete sources1 on top of the ones that ship with deoplete– which are fabulous and could well be all you need. deoplete has a notion of source, which is what generates autocompletion candidates in the pum (pop up menu, as in ‘pumvisible’). Sources are python3 scripts that can contribute candidates asyncly. I haven’t stared much at how to write a source, but the system looks well designed at a glance. &#8617;","headline":"vim","mainEntityOfPage":{"@type":"WebPage","@id":"https://hejohns.github.io/2024/03/10/deoplete.html"},"url":"https://hejohns.github.io/2024/03/10/deoplete.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://hejohns.github.io/feed.xml" title="hejohns&apos; jekyll site" />  <!-- see: -->
+  <!-- https://codewrites.me/jekyll/katex/blog/2020/08/26/use-katex-gh-pages/ -->
+  <!-- https://www.xuningyang.com/blog/2021-01-11-katex-with-jekyll/ -->
+  <!-- and adjusted according to minima layout -->
+
+  <!--KaTeX-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js" integrity="sha384-g7c+Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI+sEnkvrMWph2EDg4" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js" integrity="sha384-mll67QQFJfxn0IYznZYonOWZ644AWYC+Pt2cHqMaRhXVrursRwvLnLaebdGIlYNa" crossorigin="anonymous"></script>
+  <script>
+      document.addEventListener("DOMContentLoaded", function() {
+          renderMathInElement(document.body, {
+              // ...options...
+          });
+      });
+  </script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">hejohns&#39; jekyll site</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/posts.html">posts</a><a class="page-link" href="/site-construction.html">site-construction</a><a class="page-link" href="/reviews.html">reviews</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+          <h3>
+            page version: March 10, 2024
+          </h3>
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">vim</h1>
+    <p class="post-meta"><time class="dt-published" datetime="2024-03-10T00:00:00-05:00" itemprop="datePublished">
+        original date: Mar 10, 2024
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>Instead of doing work, I spent the better half of a day fixing my
+<a href="https://github.com/Shougo/deoplete.nvim">deoplete</a>
+<a href="https://github.com/hejohns/hejohns-vim/blob/trunk/plugin/hejohns.vim">config</a>,
+and added <a href="https://github.com/hejohns/hejohns-vim/blob/trunk/plugins.vim">these deoplete <em>sources</em></a><sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup> on top of the ones that ship with deoplete–
+which are fabulous and could well be all you need.</p>
+
+<p>Autocompletion <em>candidates</em> are sorted by the source that generated them,
+and <em>ranked</em> between sources.
+The <em>rank</em> is a <em>var</em>
+(as in <code class="language-plaintext highlighter-rouge">deoplete#custom#var</code> for global configuration,
+ or <code class="language-plaintext highlighter-rouge">deoplete#custom#buffer#var#</code> for buffer local configuration)
+or <em>source</em> setting
+(as in <code class="language-plaintext highlighter-rouge">deoplete#custom#source</code>).</p>
+
+<p><em>source</em> settings have to be set before deoplete starts up,
+which I’m pretty sure means before <code class="language-plaintext highlighter-rouge">deoplete#initialize()</code>,
+but <em>var</em>s can be updated any time.
+I’m not sure why some sources have the <em>rank</em> or the <em>mark</em>
+as a <em>source</em> settings,
+while others have it as a <em>var</em>, but it’s not a big deal either way.</p>
+
+<p>A <em>mark</em> is a string shown on the right of a <em>candidate</em> in the pum,
+to show which <em>source</em> it came from.
+The default <em>marks</em> are something like ‘[A]’ for the stock “around” source,
+or ‘[B]’ for the stock “buffer” source.</p>
+
+<p>I’ve changed the <em>marks</em> to make it more obvious,
+like ‘[buf]’ for “buffer” or ‘[dict]’ for the “dictionary” third-party source.</p>
+
+<p><strong>Note</strong> that not all sources are asynchronous.
+One thing I haven’t dug far enough into is how <em>sources</em> are written,
+and deoplete implements asynchronous <em>candidate</em> generation and pum update.
+But some sources are explicitly synchronous,
+namely the “omni” (omnicompletion) source,
+which takes candidates from vim’s omnifunc.</p>
+
+<p>This is one of (vanilla) vim’s primary autocompletion hooks,
+which means many other plugins generate <em>candidates</em> with omnifunc,
+but which also means that “omni” <em>candidate</em> generation is synchronous,
+as vim is.</p>
+
+<p>In general, any <em>source</em> that calls vimscript is synchronous.</p>
+
+<p>This was my original problem:
+in some cases, autocompletion would take so long, vim was unusable.
+I’d either have to turn off automatic autocompletion, or <C-c> the autocompletion every time.
+This was usually when I was using vimtex, which searches through all the packages for completions or something.</C-c></p>
+
+<p>So deoplete solves the general problem by providing vim with asynchronous autocompletion,
+but of course you any time you try to use vim’s omnifunc,
+you have the original issue.</p>
+
+<p>I bring this up because as is, I’m still using the “omni” source,
+which means that the original problem is still possible.
+I haven’t observed it recently, but this is a note to my future self.</p>
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>deoplete has a notion of <em>source</em>, which is what generates autocompletion <em>candidates</em> in the pum (pop up menu, as in ‘pumvisible’). Sources are python3 scripts that can contribute candidates asyncly. I haven’t stared much at how to write a source, but the system looks well designed at a glance. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+  </div><!-- use minima's column styling since I don't know css -->
+  <div class="footer-col-wrapper">
+      <div class="footer-col"><a href="/2024/02/24/vim.html">prev</a></div>
+      <div class="footer-col">
+        <h2> related </h2>
+        <ul><li><a href="/2024/02/24/vim.html">vim,</a></li><li><a href="/2024/02/12/noctua.html">noctua fans,</a></li><li><a href="/2024/02/08/natural-models.html">Natural Models,</a></li><li><a href="/2024/01/16/mellanox.html">Mellanox ConnectX-4 10gbe,</a></li><li><a href="/2024/01/08/thunderbird-and-nix.html">Thunderbird and Nix,</a></li><li><a href="/2023/12/20/xmonad.html">xmonad,</a></li><li><a href="/2023/12/19/icecc.html">icecc,</a></li><li><a href="/2023/11/07/ble-sh.html">ble.sh,</a></li><li><a href="/site-construction/2023/11/06/live-reload.html">Live Reload,</a></li><li><a href="/2023/10/29/coordinating-processes.html">coordinating processes,</a></li></ul>
+      </div>
+      <div class="footer-col"></div>
+  </div>
+
+  <a class="u-url" href="/2024/03/10/deoplete.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <!-- I don't need this
+        <p class="feed-subscribe">
+          <a href="https://hejohns.github.io/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+        -->
+        <ul class="contact-list">
+          <li class="p-name">Johnson He</li>
+          <li><a class="u-email" href="mailto:(hejohns)α(umich)δ(edu)">(hejohns)α(umich)δ(edu)</a></li>
+            <li>(the answer is yes, you should.)</li>
+        </ul>
+        <!-- add last-modified-time -->
+        <p>site version: 2024-03-10</p>
+      </div>
+      <div class="footer-col">
+        <p>a pure waste of space</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"><li>
+  <a rel="me" href="https://github.com/hejohns" target="_blank" title="github">
+    <svg class="svg-icon grey">
+      <use xlink:href="/assets/minima-social-icons.svg#github"></use>
+    </svg>
+  </a>
+</li>
+</ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
