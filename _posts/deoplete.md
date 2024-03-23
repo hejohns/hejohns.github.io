@@ -1,6 +1,6 @@
 ---
 layout: post
-title: vim
+title: deoplete
 date: 2024-03-10
 ---
 Instead of doing work, I spent the better half of a day fixing my
