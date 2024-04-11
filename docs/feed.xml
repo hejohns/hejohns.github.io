@@ -1,4 +1,56 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://hejohns.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hejohns.github.io/" rel="alternate" type="text/html" /><updated>2024-03-23T16:43:29-04:00</updated><id>https://hejohns.github.io/feed.xml</id><title type="html">hejohns’ jekyll site</title><subtitle>a pure waste of space</subtitle><author><name>Johnson He</name><email>(hejohns)α(umich)δ(edu)</email></author><entry><title type="html">deoplete</title><link href="https://hejohns.github.io/2024/03/10/deoplete.html" rel="alternate" type="text/html" title="deoplete" /><published>2024-03-10T00:00:00-05:00</published><updated>2024-03-10T20:25:52-04:00</updated><id>https://hejohns.github.io/2024/03/10/deoplete</id><content type="html" xml:base="https://hejohns.github.io/2024/03/10/deoplete.html"><![CDATA[<p>Instead of doing work, I spent the better half of a day fixing my
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://hejohns.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hejohns.github.io/" rel="alternate" type="text/html" /><updated>2024-04-11T17:48:10-04:00</updated><id>https://hejohns.github.io/feed.xml</id><title type="html">hejohns’ jekyll site</title><subtitle>a pure waste of space</subtitle><author><name>Johnson He</name><email>(hejohns)α(umich)δ(edu)</email></author><entry><title type="html">fountain pen nibs</title><link href="https://hejohns.github.io/2024/04/11/fountain-pen-nibs.html" rel="alternate" type="text/html" title="fountain pen nibs" /><published>2024-04-11T00:00:00-04:00</published><updated>2024-04-11T17:48:02-04:00</updated><id>https://hejohns.github.io/2024/04/11/fountain-pen-nibs</id><content type="html" xml:base="https://hejohns.github.io/2024/04/11/fountain-pen-nibs.html"><![CDATA[<p>Several weeks ago, I lost my other TWSBI 580 (technically, the 580 ALR)
+which meant that I didn’t have any EF nibs left<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>.</p>
+
+<p>Through the process of sourcing nibs, I learned a lot about the details so:</p>
+
+<p>You can buy “nib units” from TWSBI for around $20.
+This is the standard replacement part.
+This includes a (EF|F|M) nib,
+already fit on a feed (the plastic thing with fins),
+and the plastic housing that holds the nib and feed together, and that screws into the pen.</p>
+
+<p>The TWSBI replacement unit also comes in a small threaded storage case,
+which the nib + feed + housing comes threaded into,
+and the little upper metal grip section between the grip proper and nib on the 580
+that fits around the housing.
+We will come back to this crucial point later.</p>
+
+<p>It turns out that the TWSBI is one of the many companies that makes the pen, but not the nibs–
+the TWSBI 580 uses the Jowo #5 nib + feed + housing.
+That is, the 580 uses stock Jowo #5 nibs with the Jowo #5 compatible feeds and housings,
+and the pen body is threaded to fit a Jowo #5 nib/feed housing.</p>
+
+<p>So you can use any replacement Jowo #5 nib,
+but the reason I don’t say that the 580 uses the stock Jowo #5 housings
+is that the TWSBI housings actually have small grooves that align with the upper metal grip section.</p>
+
+<p>I had gotten a Jowo #5 nib + feed + housing from Franklin-Christoph to make sure that the TWSBI replacement unit
+is just the same thing,
+but <em>the Franklin-Christoph housing doesn’t have the grooves</em>.</p>
+
+<p>So when you try to screw the nib unit into the pen,
+the upper grip section rotates by itself and you can’t completely screw the nib in.</p>
+
+<p>This means that while eg you can take the nib off the Franklin-Christoph nib unit and fit it onto an existing TWSBI feed + housing,
+you can’t directly use the Franklin-Christoph nib unit in the 580.</p>
+
+<p>I think aside from the small grooves, the nib units are otherwise identical,
+so you could swap just the feeds between the housings but this is probably unnecessary.</p>
+
+<p>Unfortunately I forget where I saw this advice
+while I saw looking into all this last month,
+but the man in the youtube video suggested to always keep feeds and housings,
+since those are more often going to be specific to the pen.
+Unless the feed itself somehow breaks, you can always mate it with a new nib if you damage the old one, which is more standard.</p>
+
+<p>Actually I might’ve misremembered the reason he gave, but definitely always keep old feeds around.</p>
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>TWSBI F nibs are more like a M, so you need a EF if you want a F. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>]]></content><author><name>Johnson He</name><email>(hejohns)α(umich)δ(edu)</email></author><summary type="html"><![CDATA[Several weeks ago, I lost my other TWSBI 580 (technically, the 580 ALR) which meant that I didn’t have any EF nibs left1. TWSBI F nibs are more like a M, so you need a EF if you want a F. &#8617;]]></summary></entry><entry><title type="html">deoplete</title><link href="https://hejohns.github.io/2024/03/10/deoplete.html" rel="alternate" type="text/html" title="deoplete" /><published>2024-03-10T00:00:00-05:00</published><updated>2024-03-23T16:43:34-04:00</updated><id>https://hejohns.github.io/2024/03/10/deoplete</id><content type="html" xml:base="https://hejohns.github.io/2024/03/10/deoplete.html"><![CDATA[<p>Instead of doing work, I spent the better half of a day fixing my
 <a href="https://github.com/Shougo/deoplete.nvim">deoplete</a>
 <a href="https://github.com/hejohns/hejohns-vim/blob/trunk/plugin/hejohns.vim">config</a>,
 and added <a href="https://github.com/hejohns/hejohns-vim/blob/trunk/plugins.vim">these deoplete <em>sources</em></a><sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup> on top of the ones that ship with deoplete–
@@ -333,17 +385,4 @@ which I was quite pleased about.</p>
     </li>
   </ol>
 </div>]]></content><author><name>Johnson He</name><email>(hejohns)α(umich)δ(edu)</email></author><summary type="html"><![CDATA[It’s break and I’m cleaning up some computer stuff.]]></summary></entry><entry><title type="html">ble.sh</title><link href="https://hejohns.github.io/2023/11/07/ble-sh.html" rel="alternate" type="text/html" title="ble.sh" /><published>2023-11-07T00:00:00-05:00</published><updated>2023-11-07T01:32:50-05:00</updated><id>https://hejohns.github.io/2023/11/07/ble-sh</id><content type="html" xml:base="https://hejohns.github.io/2023/11/07/ble-sh.html"><![CDATA[<p>I just installed <a href="https://github.com/akinomyoga/ble.sh">ble.sh</a>
-and wow is this nice.</p>]]></content><author><name>Johnson He</name><email>(hejohns)α(umich)δ(edu)</email></author><summary type="html"><![CDATA[I just installed ble.sh and wow is this nice.]]></summary></entry><entry><title type="html">Live Reload</title><link href="https://hejohns.github.io/site-construction/2023/11/06/live-reload.html" rel="alternate" type="text/html" title="Live Reload" /><published>2023-11-06T00:00:00-05:00</published><updated>2023-11-07T01:32:50-05:00</updated><id>https://hejohns.github.io/site-construction/2023/11/06/live-reload</id><content type="html" xml:base="https://hejohns.github.io/site-construction/2023/11/06/live-reload.html"><![CDATA[<p>I’ve been writing posts without live reloading/preview
-for some reason.
-I think <code class="language-plaintext highlighter-rouge">--watch</code> didn’t work or something.</p>
-
-<p>In any case, I just tried this while editing the homepage,
-and it’s so nice, I had to make this post.</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bundler exec jekyll serve -l --lsi -H 192.168.1.100
-</code></pre></div></div>
-
-<p>Sometimes I have to manually refresh the browser page though
-or else it gets stuck on a blank screen.</p>
-
-<p>(And of course, check out the other <a href="/category/site-construction/">site-construction</a> posts)</p>]]></content><author><name>Johnson He</name><email>(hejohns)α(umich)δ(edu)</email></author><category term="site-construction" /><summary type="html"><![CDATA[I’ve been writing posts without live reloading/preview for some reason. I think --watch didn’t work or something.]]></summary></entry></feed>
+and wow is this nice.</p>]]></content><author><name>Johnson He</name><email>(hejohns)α(umich)δ(edu)</email></author><summary type="html"><![CDATA[I just installed ble.sh and wow is this nice.]]></summary></entry></feed>
