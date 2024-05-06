@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="true"><fr:frontmatter><fr:anchor>257</fr:anchor><fr:addr>index</fr:addr><fr:route>index.xml</fr:route><fr:title>Johnson He</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>5</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>6</fr:day></fr:date><fr:meta
+name="author">false</fr:meta></fr:frontmatter><fr:mainmatter>
+    
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>249</fr:anchor><fr:taxon>Person</fr:taxon><fr:addr>hejohns</fr:addr><fr:route>hejohns.xml</fr:route><fr:title>About Me</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>5</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>6</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p>My screen name is <fr:code>hejohns</fr:code>. This is my forest.</fr:p><fr:ul><fr:li>
+        email: <fr:embedded-tex
+hash="981fdd9f85dd838fc676b7448e3e9273"><fr:embedded-tex-preamble></fr:embedded-tex-preamble><fr:embedded-tex-body>hejohns@umich.edu</fr:embedded-tex-body></fr:embedded-tex></fr:li></fr:ul></fr:mainmatter></fr:tree>
+<fr:p>TODO: I've copied over what's on <fr:link
+href="https://hejohns.github.io/"
+type="external">https://hejohns.github.io/</fr:link>, but this isn't a good selection.</fr:p><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>250</fr:anchor><fr:addr>#246</fr:addr><fr:route>unstable-246.xml</fr:route><fr:title>Code</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>5</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>6</fr:day></fr:date><fr:parent>index</fr:parent></fr:frontmatter><fr:mainmatter><fr:ul><fr:li><fr:link
+href="https://github.com/eecs490/gradescope-utils"
+type="external">Gradescope-Utils</fr:link>, a suite of scripts for EECS 490 grading, but also CSV, JSON, manipulation more broadly
+        </fr:li>
+        <fr:li><fr:link
+href="https://github.com/hejohns/.rc/tree/master/home/bin"
+type="external">misc cmdline utils</fr:link>. <fr:code>colorless</fr:code> is nice for long <fr:code>git status</fr:code> output (it's really color<fr:strong>-</fr:strong>less).
+        </fr:li></fr:ul></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>251</fr:anchor><fr:addr>#247</fr:addr><fr:route>unstable-247.xml</fr:route><fr:title>Media</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>5</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>6</fr:day></fr:date><fr:parent>index</fr:parent></fr:frontmatter><fr:mainmatter><fr:ul><fr:li><fr:link
+href="https://github.com/hejohns/the-second-pass-of-the-portable-c-compiler"
+type="external">The Second Pass of the Portable C Compiler</fr:link></fr:li></fr:ul></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>252</fr:anchor><fr:addr>#248</fr:addr><fr:route>unstable-248.xml</fr:route><fr:title>Links</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>5</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>6</fr:day></fr:date><fr:parent>index</fr:parent></fr:frontmatter><fr:mainmatter><fr:ul><fr:li><fr:link
+href="https://mplse-reading-group.github.io/"
+type="external">Placeholder Link</fr:link></fr:li></fr:ul></fr:mainmatter></fr:tree></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context></fr:context><fr:related></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
