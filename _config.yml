@@ -39,7 +39,7 @@ author:
   email: (hejohns)α(umich)δ(edu)
 
 # for github pages (this option also has to be synced w/ the github settings web interface)
-destination: docs
+destination: _site
 # not sure if we need to set this
 timezone: America/New_York
 
