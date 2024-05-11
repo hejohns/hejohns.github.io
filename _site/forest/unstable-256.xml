@@ -27,14 +27,14 @@ addr="sub-0007">the short proof</fr:link>
 href="street-2012.xml"
 type="local"
 addr="street-2012">the
-        paper</fr:link>.  It's also how you'd attack <fr:link
+        paper</fr:link>. It's also how you'd attack <fr:link
 href="hejohns-0007.xml"
 type="local"
 addr="hejohns-0007">the
         precursor</fr:link> head-on. The utility is that it holds in
         enriched categories.
     </fr:p><fr:p>
-        The forwards direction is trivial.
+        The forward directions are trivial.
         Suppose <fr:tex>(F, U, (π_{a, x})_{a ∈ A, x ∈ X})</fr:tex> extends to <fr:tex>\overline {F}  ⊣_π  \overline {U}</fr:tex>.
         Then <fr:link
 href="subb-000E.xml"
@@ -45,14 +45,11 @@ addr="subb-000E">I</fr:link> expresses that <fr:tex>∀g : A(a, b). ∀f : A(F(x
         <fr:link
 href="subbb-000E.xml"
 type="local"
-addr="subbb-000E">II</fr:link> expresses something similar, but we've already shown
-        the forwards direction.
+addr="subbb-000E">II</fr:link> expresses something similar (dual).
     </fr:p><fr:p>
-        The nontrivial direction is the backwards direction.
-        We case on whether I or II holds.
-    </fr:p><fr:ul><fr:li>
-            (I) wts I <fr:tex>⟹  \overline {U}</fr:tex> is a functor.
-            <fr:p>
+        The nontrivial directions are the backward directions.
+    </fr:p><fr:ul><fr:li><fr:p>
+                (I) wts I <fr:tex>⟹  \overline {U}</fr:tex> is a functor.
                 Suppose <fr:tex>∀a,b ∈ A. ∀x ∈ X.</fr:tex> I holds.
                 Then in particular, <fr:tex>∀c ∈ A. </fr:tex>I holds at <fr:tex>x = U(c)</fr:tex>.
             </fr:p>
@@ -139,9 +136,8 @@ addr="hejohns-0007">the precusor</fr:link> to each
                     functor in turn, just knowing the other is a well-defined
                     functor.
                 </fr:li></fr:ul></fr:li>
-        <fr:li>
-            (II) wts II <fr:tex>⟹  \overline {F}</fr:tex> is a functor.
-            <fr:p>
+        <fr:li><fr:p>
+                (II) wts II <fr:tex>⟹  \overline {F}</fr:tex> is a functor.
                 This is dual.
             </fr:p></fr:li></fr:ul></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
@@ -181,15 +177,15 @@ root="false"><fr:frontmatter><fr:anchor>265</fr:anchor><fr:taxon>Proposition</fr
 href="hejohns.xml"
 type="local"
 addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000E</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-        An adjunction core extends to an adjuction iff (<fr:tex>∀a,b ∈ A. ∀x ∈ X.</fr:tex>
+        An adjunction core extends to an adjuction iff <fr:tex>∀a,b ∈ A. ∀x ∈ X.</fr:tex>
         <fr:link
 href="subb-000E.xml"
 type="local"
-addr="subb-000E">I</fr:link> commutes) or (<fr:tex>∀x,y ∈ X. a ∈ A.</fr:tex> <fr:link
+addr="subb-000E">I</fr:link> commutes, and iff <fr:tex>∀x,y ∈ X. a ∈ A.</fr:tex> <fr:link
 href="subbb-000E.xml"
 type="local"
 addr="subbb-000E">II</fr:link>
-        commutes).
+        commutes.
         The adjunction is unique when it exists.
     </fr:p><fr:p>
         The <fr:link
@@ -261,14 +257,14 @@ addr="sub-0007">the short proof</fr:link>
 href="street-2012.xml"
 type="local"
 addr="street-2012">the
-        paper</fr:link>.  It's also how you'd attack <fr:link
+        paper</fr:link>. It's also how you'd attack <fr:link
 href="hejohns-0007.xml"
 type="local"
 addr="hejohns-0007">the
         precursor</fr:link> head-on. The utility is that it holds in
         enriched categories.
     </fr:p><fr:p>
-        The forwards direction is trivial.
+        The forward directions are trivial.
         Suppose <fr:tex>(F, U, (π_{a, x})_{a ∈ A, x ∈ X})</fr:tex> extends to <fr:tex>\overline {F}  ⊣_π  \overline {U}</fr:tex>.
         Then <fr:link
 href="subb-000E.xml"
@@ -279,14 +275,11 @@ addr="subb-000E">I</fr:link> expresses that <fr:tex>∀g : A(a, b). ∀f : A(F(x
         <fr:link
 href="subbb-000E.xml"
 type="local"
-addr="subbb-000E">II</fr:link> expresses something similar, but we've already shown
-        the forwards direction.
+addr="subbb-000E">II</fr:link> expresses something similar (dual).
     </fr:p><fr:p>
-        The nontrivial direction is the backwards direction.
-        We case on whether I or II holds.
-    </fr:p><fr:ul><fr:li>
-            (I) wts I <fr:tex>⟹  \overline {U}</fr:tex> is a functor.
-            <fr:p>
+        The nontrivial directions are the backward directions.
+    </fr:p><fr:ul><fr:li><fr:p>
+                (I) wts I <fr:tex>⟹  \overline {U}</fr:tex> is a functor.
                 Suppose <fr:tex>∀a,b ∈ A. ∀x ∈ X.</fr:tex> I holds.
                 Then in particular, <fr:tex>∀c ∈ A. </fr:tex>I holds at <fr:tex>x = U(c)</fr:tex>.
             </fr:p>
@@ -373,9 +366,8 @@ addr="hejohns-0007">the precusor</fr:link> to each
                     functor in turn, just knowing the other is a well-defined
                     functor.
                 </fr:li></fr:ul></fr:li>
-        <fr:li>
-            (II) wts II <fr:tex>⟹  \overline {F}</fr:tex> is a functor.
-            <fr:p>
+        <fr:li><fr:p>
+                (II) wts II <fr:tex>⟹  \overline {F}</fr:tex> is a functor.
                 This is dual.
             </fr:p></fr:li></fr:ul></fr:mainmatter></fr:tree><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
