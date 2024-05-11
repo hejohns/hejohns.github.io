@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>402</fr:anchor><fr:taxon>Scratch</fr:taxon><fr:addr>hejohns-0009</fr:addr><fr:route>hejohns-0009.xml</fr:route><fr:title>Fibrations v. functors</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>8</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="hejohns.xml"
+type="local"
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+    What is the actual <fr:em>logic</fr:em> when doing a logical relation?
+    Do you only actually need functors? Zeilberger's <fr:link
+href="millies-zeilberger-2015.pdf"
+type="external">Functors as Type Refinement Systems</fr:link>, is a <fr:strong>must read</fr:strong>.
+    Then you lose the internal logic... maybe? Maybe you just have a different internal logic?
+</fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context></fr:context><fr:related></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

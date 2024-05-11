@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>411</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>sub-0006</fr:addr><fr:route>sub-0006.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>7</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="hejohns.xml"
+type="local"
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-0006</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        Suppose <fr:tex>p₁ ≤ p₂</fr:tex>.
+        Notice that <fr:tex>p₂ ≤ u∘f(p₂)</fr:tex>, by the unit of the (thin) adjunction.
+        Then <fr:tex>p₁ ≤ p₂ ≤ u∘f(p₂) ⟹ f(p₁) ≤ f(p₂)</fr:tex> by the Hom bijection of the (thin) adjunction.
+    </fr:p><fr:p>
+        (dual)
+        Suppose <fr:tex>q₁ ≤ q₂</fr:tex>.
+        Notice that <fr:tex>f∘u(q₁) ≤ q₂</fr:tex> by the counit of the (thin) adjunction.
+        Then <fr:tex>f∘u(q₁) ≤ q₁ ≤ q₂ ⟹ u(q₁) ≤ u(q₂)</fr:tex> by the Hom bijection of the (thin) adjunction.
+    </fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>409</fr:anchor><fr:taxon>Lemma</fr:taxon><fr:addr>hejohns-0006</fr:addr><fr:route>hejohns-0006.xml</fr:route><fr:title>The core of adjoint monotone functions</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>7</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="hejohns.xml"
+type="local"
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+    This is mentioned in passing, in the intro to <fr:link
+href="street-2012.xml"
+type="local"
+addr="street-2012">The Core of Adjoint Functors</fr:link>.
+</fr:p><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>350</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:addr>#253</fr:addr><fr:route>unstable-253.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>7</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="hejohns.xml"
+type="local"
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-0006</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        Suppose <fr:tex>P</fr:tex> and <fr:tex>Q</fr:tex> are posets, <fr:tex>f : P → Q</fr:tex> is a priori just a function, and <fr:tex>u : P ← Q</fr:tex> monotone,
+        such that <fr:tex>f(x) ≤ a ⟺ x ≤ u(a)</fr:tex>.
+        Then <fr:tex>f</fr:tex> monotone as well.
+    </fr:p><fr:p>
+        Or dually, suppose that <fr:tex>f</fr:tex> monotone, but <fr:tex>u</fr:tex> is a priori just a function.
+        Then <fr:tex>u</fr:tex> monotone as well.
+    </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>352</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>sub-0006</fr:addr><fr:route>sub-0006.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>7</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="hejohns.xml"
+type="local"
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-0006</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        Suppose <fr:tex>p₁ ≤ p₂</fr:tex>.
+        Notice that <fr:tex>p₂ ≤ u∘f(p₂)</fr:tex>, by the unit of the (thin) adjunction.
+        Then <fr:tex>p₁ ≤ p₂ ≤ u∘f(p₂) ⟹ f(p₁) ≤ f(p₂)</fr:tex> by the Hom bijection of the (thin) adjunction.
+    </fr:p><fr:p>
+        (dual)
+        Suppose <fr:tex>q₁ ≤ q₂</fr:tex>.
+        Notice that <fr:tex>f∘u(q₁) ≤ q₂</fr:tex> by the counit of the (thin) adjunction.
+        Then <fr:tex>f∘u(q₁) ≤ q₁ ≤ q₂ ⟹ u(q₁) ≤ u(q₂)</fr:tex> by the Hom bijection of the (thin) adjunction.
+    </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>354</fr:anchor><fr:taxon>Proof corollary</fr:taxon><fr:addr>subb-0006</fr:addr><fr:route>subb-0006.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>7</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="hejohns.xml"
+type="local"
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-0006</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        Notice that <fr:link
+href="sub-0006.xml"
+type="local"
+addr="sub-0006">the above proof</fr:link> does <fr:em>not</fr:em> use the information that <fr:tex>u</fr:tex> is monotone.
+        Thus <fr:link
+href="hejohns-0006.xml"
+type="local"
+addr="hejohns-0006">the above lemma</fr:link> holds where <fr:tex>f</fr:tex> and <fr:tex>u</fr:tex> are just a priori functions.
+        The <fr:link
+href="hejohns-0006.xml"
+type="local"
+addr="hejohns-0006">above lemma</fr:link> is in some sense the more
+        immediately natural question, but can be easily strengthened to
+        the form of this corollary.
+    </fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>407</fr:anchor><fr:taxon>Proof corollary</fr:taxon><fr:addr>subb-0006</fr:addr><fr:route>subb-0006.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>7</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="hejohns.xml"
+type="local"
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-0006</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        Notice that <fr:link
+href="sub-0006.xml"
+type="local"
+addr="sub-0006">the above proof</fr:link> does <fr:em>not</fr:em> use the information that <fr:tex>u</fr:tex> is monotone.
+        Thus <fr:link
+href="hejohns-0006.xml"
+type="local"
+addr="hejohns-0006">the above lemma</fr:link> holds where <fr:tex>f</fr:tex> and <fr:tex>u</fr:tex> are just a priori functions.
+        The <fr:link
+href="hejohns-0006.xml"
+type="local"
+addr="hejohns-0006">above lemma</fr:link> is in some sense the more
+        immediately natural question, but can be easily strengthened to
+        the form of this corollary.
+    </fr:p></fr:mainmatter></fr:tree></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
