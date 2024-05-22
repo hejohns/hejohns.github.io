@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>282</fr:anchor><fr:taxon>Abstract</fr:taxon><fr:addr>#259</fr:addr><fr:route>unstable-259.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>13</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>22</fr:day></fr:date><fr:parent>friedman-1975</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        The λ-calculus, in both its typed and untyped forms, has primarily been
+        regarded as an attempt to formalize the concept of <fr:em>rule</fr:em> or
+        <fr:em>process</fr:em>, and ultimately to provide a new foundation for mathematics.
+        It seems fair to say that this aspect of the λ-calculus is currently in an
+        embryonic state of development, awaiting further conceptual advances.
+    </fr:p><fr:p>
+        There is, however, another aspect of the <fr:em>typed</fr:em> λ-calculus, which is
+        readily understood. This is its connection with the full classical finite
+        type structure over ω, (i.e., with the functionals of finite type). In an
+        obvious way, each closed term in the typed λ-calculus defines a functional
+        of finite type over ω.  Call a functional <fr:em>simple</fr:em> if it is given by
+        some closed term in the typed x-calculus.
+    </fr:p><fr:p>
+        Several definitions of <fr:em>convertibility</fr:em> between terms in the λ-calculus,
+        with or without types, have been considered. The motivation for introducing
+        these definitions has primarily been to analyze the notion of the
+        <fr:em>identity</fr:em> between rules, or processes. The relation <fr:tex>⊢ s = t</fr:tex> defined
+        in the text, is equivalent to one of these definitions of convertibility.
+        It is easy to see that any two convertible terms define the same functional
+        of finite type. We show here that any two non- convertible terms define
+        different functionals of finite type.[This result was obtained in 1970.]
+        This, coupled with the known decidability of convertibility, tells us that
+        "equality between simple functionals is recursive."
+    </fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>281</fr:anchor><fr:taxon>Scratch</fr:taxon><fr:addr>friedman-1975</fr:addr><fr:route>friedman-1975.xml</fr:route><fr:title>Equality Between Functionals</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>13</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>22</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>267</fr:anchor><fr:taxon>Abstract</fr:taxon><fr:addr>#259</fr:addr><fr:route>unstable-259.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>13</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>22</fr:day></fr:date><fr:parent>friedman-1975</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        The λ-calculus, in both its typed and untyped forms, has primarily been
+        regarded as an attempt to formalize the concept of <fr:em>rule</fr:em> or
+        <fr:em>process</fr:em>, and ultimately to provide a new foundation for mathematics.
+        It seems fair to say that this aspect of the λ-calculus is currently in an
+        embryonic state of development, awaiting further conceptual advances.
+    </fr:p><fr:p>
+        There is, however, another aspect of the <fr:em>typed</fr:em> λ-calculus, which is
+        readily understood. This is its connection with the full classical finite
+        type structure over ω, (i.e., with the functionals of finite type). In an
+        obvious way, each closed term in the typed λ-calculus defines a functional
+        of finite type over ω.  Call a functional <fr:em>simple</fr:em> if it is given by
+        some closed term in the typed x-calculus.
+    </fr:p><fr:p>
+        Several definitions of <fr:em>convertibility</fr:em> between terms in the λ-calculus,
+        with or without types, have been considered. The motivation for introducing
+        these definitions has primarily been to analyze the notion of the
+        <fr:em>identity</fr:em> between rules, or processes. The relation <fr:tex>⊢ s = t</fr:tex> defined
+        in the text, is equivalent to one of these definitions of convertibility.
+        It is easy to see that any two convertible terms define the same functional
+        of finite type. We show here that any two non- convertible terms define
+        different functionals of finite type.[This result was obtained in 1970.]
+        This, coupled with the known decidability of convertibility, tells us that
+        "equality between simple functionals is recursive."
+    </fr:p></fr:mainmatter></fr:tree><fr:p>
+    Square brackets denote author's footnotes.
+    <fr:link
+href="friedman-1975.pdf"
+type="external">friedman-1975.pdf</fr:link></fr:p></fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

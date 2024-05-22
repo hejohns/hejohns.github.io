@@ -7,45 +7,24 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>505</fr:anchor><fr:addr>#251</fr:addr><fr:route>unstable-251.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>364</fr:anchor><fr:addr>#251</fr:addr><fr:route>unstable-251.xml</fr:route><fr:title><fr:link
 href="index.xml"
 type="local"
-addr="index">Johnson He</fr:link> › Inbox</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>5</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>9</fr:day></fr:date><fr:parent>index</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"><fr:frontmatter><fr:anchor>497</fr:anchor><fr:taxon>Scratch</fr:taxon><fr:addr>hejohns-000A</fr:addr><fr:route>hejohns-000A.xml</fr:route><fr:title>Fiberwise Structure</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>8</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="hejohns.xml"
-type="local"
-addr="hejohns">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-    Fibered Right Adjoints are automatically fibered?
-</fr:p></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"><fr:frontmatter><fr:anchor>499</fr:anchor><fr:taxon>Scratch</fr:taxon><fr:addr>hejohns-0009</fr:addr><fr:route>hejohns-0009.xml</fr:route><fr:title>Fibrations v. functors</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>8</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="hejohns.xml"
-type="local"
-addr="hejohns">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-    What is the actual <fr:em>logic</fr:em> when doing a logical relation?
-    Do you only actually need functors? Zeilberger's <fr:link
-href="millies-zeilberger-2015.pdf"
-type="external">Functors as Type Refinement Systems</fr:link>, is a <fr:strong>must read</fr:strong>.
-    Then you lose the internal logic... maybe? Maybe you just have a different internal logic?
-</fr:p></fr:mainmatter></fr:tree></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
+addr="index">Johnson He</fr:link> › Code</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>5</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>22</fr:day></fr:date><fr:parent>index</fr:parent></fr:frontmatter><fr:mainmatter><fr:ul><fr:li><fr:link
+href="https://github.com/eecs490/gradescope-utils"
+type="external">Gradescope-Utils</fr:link>, a suite of scripts for EECS 490 grading, but also CSV, JSON, manipulation more broadly
+        </fr:li>
+        <fr:li><fr:link
+href="https://github.com/hejohns/.rc/tree/master/home/bin"
+type="external">misc cmdline utils</fr:link>. <fr:code>colorless</fr:code> is nice for long <fr:code>git status</fr:code> output (it's really color<fr:strong>-</fr:strong>less).
+        </fr:li></fr:ul></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="true"><fr:frontmatter><fr:anchor>504</fr:anchor><fr:addr>index</fr:addr><fr:route>index.xml</fr:route><fr:title>Johnson He</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>5</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>9</fr:day></fr:date><fr:meta
+root="true"><fr:frontmatter><fr:anchor>363</fr:anchor><fr:addr>index</fr:addr><fr:route>index.xml</fr:route><fr:title>Johnson He</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>5</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>22</fr:day></fr:date><fr:meta
 name="author">false</fr:meta></fr:frontmatter><fr:mainmatter>
     
     <fr:tree
@@ -55,7 +34,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>480</fr:anchor><fr:taxon>Person</fr:taxon><fr:addr>hejohns</fr:addr><fr:route>hejohns.xml</fr:route><fr:title>About Me</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>5</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>9</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p>My screen name is <fr:code>hejohns</fr:code>. This is my forest.</fr:p><fr:ul><fr:li>
+root="false"><fr:frontmatter><fr:anchor>283</fr:anchor><fr:taxon>Person</fr:taxon><fr:addr>hejohns</fr:addr><fr:route>hejohns.xml</fr:route><fr:title>About Me</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>5</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>9</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p>My screen name is <fr:code>hejohns</fr:code>. This is my forest.</fr:p><fr:ul><fr:li>
                 email: <fr:embedded-tex
 hash="981fdd9f85dd838fc676b7448e3e9273"><fr:embedded-tex-preamble></fr:embedded-tex-preamble><fr:embedded-tex-body>hejohns@umich.edu</fr:embedded-tex-body></fr:embedded-tex></fr:li></fr:ul></fr:mainmatter></fr:tree>
 <fr:p>TODO: I've copied over what's on <fr:link
@@ -67,7 +46,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>481</fr:anchor><fr:addr>#247</fr:addr><fr:route>unstable-247.xml</fr:route><fr:title>Code</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>5</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>9</fr:day></fr:date><fr:parent>index</fr:parent></fr:frontmatter><fr:mainmatter><fr:ul><fr:li><fr:link
+root="false"><fr:frontmatter><fr:anchor>284</fr:anchor><fr:addr>#251</fr:addr><fr:route>unstable-251.xml</fr:route><fr:title>Code</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>5</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>22</fr:day></fr:date><fr:parent>index</fr:parent></fr:frontmatter><fr:mainmatter><fr:ul><fr:li><fr:link
 href="https://github.com/eecs490/gradescope-utils"
 type="external">Gradescope-Utils</fr:link>, a suite of scripts for EECS 490 grading, but also CSV, JSON, manipulation more broadly
         </fr:li>
@@ -81,7 +60,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>482</fr:anchor><fr:addr>#248</fr:addr><fr:route>unstable-248.xml</fr:route><fr:title>Media</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>5</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>9</fr:day></fr:date><fr:parent>index</fr:parent></fr:frontmatter><fr:mainmatter><fr:ul><fr:li><fr:link
+root="false"><fr:frontmatter><fr:anchor>285</fr:anchor><fr:addr>#252</fr:addr><fr:route>unstable-252.xml</fr:route><fr:title>Media</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>5</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>22</fr:day></fr:date><fr:parent>index</fr:parent></fr:frontmatter><fr:mainmatter><fr:ul><fr:li><fr:link
 href="https://github.com/hejohns/the-second-pass-of-the-portable-c-compiler"
 type="external">The Second Pass of the Portable C Compiler</fr:link></fr:li></fr:ul></fr:mainmatter></fr:tree><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
@@ -90,7 +69,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>483</fr:anchor><fr:addr>#249</fr:addr><fr:route>unstable-249.xml</fr:route><fr:title>Links</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>5</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>9</fr:day></fr:date><fr:parent>index</fr:parent></fr:frontmatter><fr:mainmatter><fr:ul><fr:li><fr:link
+root="false"><fr:frontmatter><fr:anchor>286</fr:anchor><fr:addr>#253</fr:addr><fr:route>unstable-253.xml</fr:route><fr:title>Links</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>5</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>22</fr:day></fr:date><fr:parent>index</fr:parent></fr:frontmatter><fr:mainmatter><fr:ul><fr:li><fr:link
 href="https://mplse-reading-group.github.io/"
 type="external">Placeholder Link</fr:link></fr:li></fr:ul></fr:mainmatter></fr:tree><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
@@ -99,14 +78,14 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>496</fr:anchor><fr:addr>#250</fr:addr><fr:route>unstable-250.xml</fr:route><fr:title>Notes</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>5</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>9</fr:day></fr:date><fr:parent>index</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
+root="false"><fr:frontmatter><fr:anchor>341</fr:anchor><fr:addr>#254</fr:addr><fr:route>unstable-254.xml</fr:route><fr:title>Notes</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>5</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>22</fr:day></fr:date><fr:parent>index</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="false"
 numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="false"
-root="false"><fr:frontmatter><fr:anchor>484</fr:anchor><fr:taxon>Exposition</fr:taxon><fr:addr>hejohns-0008</fr:addr><fr:route>hejohns-0008.xml</fr:route><fr:title>The core of adjoint functors</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>8</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>10</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>329</fr:anchor><fr:taxon>Exposition</fr:taxon><fr:addr>hejohns-0008</fr:addr><fr:route>hejohns-0008.xml</fr:route><fr:title>The core of adjoint functors</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>8</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>10</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
 addr="hejohns">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:tree
@@ -116,7 +95,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>356</fr:anchor><fr:taxon>Lemma</fr:taxon><fr:addr>hejohns-0006</fr:addr><fr:route>hejohns-0006.xml</fr:route><fr:title>The core of adjoint monotone functions</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>7</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>293</fr:anchor><fr:taxon>Lemma</fr:taxon><fr:addr>hejohns-0006</fr:addr><fr:route>hejohns-0006.xml</fr:route><fr:title>The core of adjoint monotone functions</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>7</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
 addr="hejohns">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -131,7 +110,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>350</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:addr>#253</fr:addr><fr:route>unstable-253.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>7</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>287</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:addr>#258</fr:addr><fr:route>unstable-258.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>7</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
 addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-0006</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
@@ -148,7 +127,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>352</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>sub-0006</fr:addr><fr:route>sub-0006.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>7</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>289</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>sub-0006</fr:addr><fr:route>sub-0006.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>7</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
 addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-0006</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
@@ -167,7 +146,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>354</fr:anchor><fr:taxon>Proof corollary</fr:taxon><fr:addr>subb-0006</fr:addr><fr:route>subb-0006.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>7</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>291</fr:anchor><fr:taxon>Proof corollary</fr:taxon><fr:addr>subb-0006</fr:addr><fr:route>subb-0006.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>7</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
 addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-0006</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
@@ -192,7 +171,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>358</fr:anchor><fr:taxon>Lemma</fr:taxon><fr:addr>hejohns-0007</fr:addr><fr:route>hejohns-0007.xml</fr:route><fr:title>Precursor to The Core of Adjoint Functors</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>7</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>313</fr:anchor><fr:taxon>Lemma</fr:taxon><fr:addr>hejohns-0007</fr:addr><fr:route>hejohns-0007.xml</fr:route><fr:title>Precursor to The Core of Adjoint Functors</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>7</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
 addr="hejohns">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -207,7 +186,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>305</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:addr>#252</fr:addr><fr:route>unstable-252.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>7</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>295</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:addr>#257</fr:addr><fr:route>unstable-257.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>7</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
 addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-0007</fr:parent></fr:frontmatter><fr:mainmatter><fr:ul><fr:li>
@@ -235,7 +214,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>311</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>sub-0007</fr:addr><fr:route>sub-0007.xml</fr:route><fr:title>The short proof (sketch)</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>7</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>301</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>sub-0007</fr:addr><fr:route>sub-0007.xml</fr:route><fr:title>The short proof (sketch)</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>7</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
 addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-0007</fr:parent></fr:frontmatter><fr:mainmatter><fr:ul><fr:li>
@@ -249,7 +228,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>307</fr:anchor><fr:addr>subsub-0007</fr:addr><fr:route>subsub-0007.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>7</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>297</fr:anchor><fr:addr>subsub-0007</fr:addr><fr:route>subsub-0007.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>7</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
 addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>sub-0007</fr:parent></fr:frontmatter><fr:mainmatter><fr:embedded-tex
@@ -272,7 +251,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>309</fr:anchor><fr:addr>subsubb-0007</fr:addr><fr:route>subsubb-0007.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>7</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>299</fr:anchor><fr:addr>subsubb-0007</fr:addr><fr:route>subsubb-0007.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>7</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
 addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>sub-0007</fr:parent></fr:frontmatter><fr:mainmatter><fr:embedded-tex
@@ -290,7 +269,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>313</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>hejohns-000D</fr:addr><fr:route>hejohns-000D.xml</fr:route><fr:title>The verbose proof</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>10</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>311</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>hejohns-000D</fr:addr><fr:route>hejohns-000D.xml</fr:route><fr:title>The verbose proof</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>10</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
 addr="hejohns">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -328,7 +307,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>295</fr:anchor><fr:addr>subb-000D</fr:addr><fr:route>subb-000D.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>10</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>303</fr:anchor><fr:addr>subb-000D</fr:addr><fr:route>subb-000D.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>10</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
 addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000D</fr:parent></fr:frontmatter><fr:mainmatter><fr:embedded-tex
@@ -374,7 +353,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>297</fr:anchor><fr:addr>sub-000D</fr:addr><fr:route>sub-000D.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>10</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>305</fr:anchor><fr:addr>sub-000D</fr:addr><fr:route>sub-000D.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>10</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
 addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000D</fr:parent></fr:frontmatter><fr:mainmatter><fr:embedded-tex
@@ -458,7 +437,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>299</fr:anchor><fr:addr>subsub-0007</fr:addr><fr:route>subsub-0007.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>7</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>307</fr:anchor><fr:addr>subsub-0007</fr:addr><fr:route>subsub-0007.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>7</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
 addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>sub-0007</fr:parent></fr:frontmatter><fr:mainmatter><fr:embedded-tex
@@ -491,7 +470,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>301</fr:anchor><fr:taxon>Moral</fr:taxon><fr:addr>subbb-000D</fr:addr><fr:route>subbb-000D.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>10</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>309</fr:anchor><fr:taxon>Moral</fr:taxon><fr:addr>subbb-000D</fr:addr><fr:route>subbb-000D.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>10</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
 addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000D</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
@@ -522,7 +501,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>360</fr:anchor><fr:taxon>Lemma</fr:taxon><fr:addr>hejohns-000E</fr:addr><fr:route>hejohns-000E.xml</fr:route><fr:title>Adjunction core</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>327</fr:anchor><fr:taxon>Lemma</fr:taxon><fr:addr>hejohns-000E</fr:addr><fr:route>hejohns-000E.xml</fr:route><fr:title>Adjunction core</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
 addr="hejohns">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:tree
@@ -532,7 +511,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>259</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>#254</fr:addr><fr:route>unstable-254.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>315</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>#261</fr:addr><fr:route>unstable-261.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
 addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000E</fr:parent></fr:frontmatter><fr:mainmatter><fr:p><fr:link
@@ -549,7 +528,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>265</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:addr>#255</fr:addr><fr:route>unstable-255.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>321</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:addr>#262</fr:addr><fr:route>unstable-262.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
 addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000E</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
@@ -577,10 +556,10 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>261</fr:anchor><fr:addr>subb-000E</fr:addr><fr:route>subb-000E.xml</fr:route><fr:title>I</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>317</fr:anchor><fr:addr>subb-000E</fr:addr><fr:route>subb-000E.xml</fr:route><fr:title>I</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
-addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>#255</fr:parent></fr:frontmatter><fr:mainmatter>
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>#262</fr:parent></fr:frontmatter><fr:mainmatter>
         <fr:embedded-tex
 hash="a09fe1256faafb1bc13a1cc059df3388"><fr:embedded-tex-preamble>\usepackage {tikz-cd} \usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
              \begin {tikzcd}
@@ -595,10 +574,10 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>263</fr:anchor><fr:addr>subbb-000E</fr:addr><fr:route>subbb-000E.xml</fr:route><fr:title>II</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>319</fr:anchor><fr:addr>subbb-000E</fr:addr><fr:route>subbb-000E.xml</fr:route><fr:title>II</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
-addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>#255</fr:parent></fr:frontmatter><fr:mainmatter>
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>#262</fr:parent></fr:frontmatter><fr:mainmatter>
         <fr:embedded-tex
 hash="8fd7996c4b1a3e39d4bda43697f06cf9"><fr:embedded-tex-preamble>\usepackage {tikz-cd} \usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
              \begin {tikzcd}
@@ -613,7 +592,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>267</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#256</fr:addr><fr:route>unstable-256.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>323</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#263</fr:addr><fr:route>unstable-263.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
 addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000E</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
@@ -752,7 +731,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>269</fr:anchor><fr:taxon>Proof corollary</fr:taxon><fr:addr>sub-000E</fr:addr><fr:route>sub-000E.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>325</fr:anchor><fr:taxon>Proof corollary</fr:taxon><fr:addr>sub-000E</fr:addr><fr:route>sub-000E.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
 addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000E</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
@@ -771,7 +750,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="false"
-root="false"><fr:frontmatter><fr:anchor>494</fr:anchor><fr:taxon>Exposition</fr:taxon><fr:addr>hejohns-0005</fr:addr><fr:route>hejohns-0005.xml</fr:route><fr:title>Simulations</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>6</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>339</fr:anchor><fr:taxon>Exposition</fr:taxon><fr:addr>hejohns-0005</fr:addr><fr:route>hejohns-0005.xml</fr:route><fr:title>Simulations</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>6</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
 addr="hejohns">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>This is a fundamental notion.</fr:p><fr:p>
@@ -789,7 +768,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>492</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hejohns-0001</fr:addr><fr:route>hejohns-0001.xml</fr:route><fr:title>Simulation</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>6</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>337</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hejohns-0001</fr:addr><fr:route>hejohns-0001.xml</fr:route><fr:title>Simulation</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>6</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
 addr="hejohns">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -802,7 +781,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="false"
-root="false"><fr:frontmatter><fr:anchor>488</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hejohns-0002</fr:addr><fr:route>hejohns-0002.xml</fr:route><fr:title>Bisimulation</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>6</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>333</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hejohns-0002</fr:addr><fr:route>hejohns-0002.xml</fr:route><fr:title>Bisimulation</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>6</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
 addr="hejohns">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -822,7 +801,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>486</fr:anchor><fr:taxon>Moral corollary</fr:taxon><fr:addr>hejohns-0003</fr:addr><fr:route>hejohns-0003.xml</fr:route><fr:title>Bisimilar Kripke frames are elementarily equivalent</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>6</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>331</fr:anchor><fr:taxon>Moral corollary</fr:taxon><fr:addr>hejohns-0003</fr:addr><fr:route>hejohns-0003.xml</fr:route><fr:title>Bisimilar Kripke frames are elementarily equivalent</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>6</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
 addr="hejohns">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -837,7 +816,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>490</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>hejohns-0004</fr:addr><fr:route>hejohns-0004.xml</fr:route><fr:title>Preservation under simulations</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>6</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>335</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>hejohns-0004</fr:addr><fr:route>hejohns-0004.xml</fr:route><fr:title>Preservation under simulations</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>6</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
 addr="hejohns">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -850,18 +829,410 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>501</fr:anchor><fr:addr>#251</fr:addr><fr:route>unstable-251.xml</fr:route><fr:title>Inbox</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>5</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>9</fr:day></fr:date><fr:parent>index</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
+root="false"><fr:frontmatter><fr:anchor>352</fr:anchor><fr:addr>#255</fr:addr><fr:route>unstable-255.xml</fr:route><fr:title>References</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>5</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>22</fr:day></fr:date><fr:parent>index</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="false"
 numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="false"
-root="false"><fr:frontmatter><fr:anchor>497</fr:anchor><fr:taxon>Scratch</fr:taxon><fr:addr>hejohns-000A</fr:addr><fr:route>hejohns-000A.xml</fr:route><fr:title>Fiberwise Structure</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>8</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>342</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>millies-zeilberger-2015</fr:addr><fr:route>millies-zeilberger-2015.xml</fr:route><fr:title>Functors are Type Refinement Systems</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>22</fr:day></fr:date><fr:authors><fr:contributor><fr:link
 href="hejohns.xml"
 type="local"
-addr="hejohns">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-    Fibered Right Adjoints are automatically fibered?
+addr="hejohns">Johnson He</fr:link></fr:contributor></fr:authors></fr:frontmatter><fr:mainmatter><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>272</fr:anchor><fr:taxon>Abstract</fr:taxon><fr:addr>#248</fr:addr><fr:route>unstable-248.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>22</fr:day></fr:date><fr:parent>millies-zeilberger-2015</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        The standard reading of type theory through the lens of category theory
+        is based on the idea of viewing a type system as a category of
+        well-typed terms. We propose a basic revision of this reading: rather
+        than interpreting type systems as categories, we describe them as
+        functors from a category of typing derivations to a category of
+        underlying terms. Then, turning this around, we explain how in fact any
+        functor gives rise to a generalized type system, with an abstract
+        notion of typing judgment, typing derivations and typing rules. This
+        leads to a purely categorical reformulation of various natural classes
+        of type systems as natural classes of functors. The main purpose of
+        this paper is to describe the general framework (which can also be seen
+        as providing a categorical analysis of refinement types), and to
+        present a few applications. As a larger case study, we revisit
+        Reynolds’ paper on “The Meaning of Types” (2000), showing how the
+        paper’s main results may be reconstructed along these lines.
+    </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>273</fr:anchor><fr:taxon>Scratch</fr:taxon><fr:addr>#249</fr:addr><fr:route>unstable-249.xml</fr:route><fr:title>Sections 1-2</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>22</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="hejohns.xml"
+type="local"
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>millies-zeilberger-2015</fr:parent></fr:frontmatter><fr:mainmatter><fr:p><fr:em>What</fr:em> is a logical relation?
+        A LR is just a model of the syntax, used to prove <fr:tex>∀M</fr:tex> statements.
+        Thus, it's usually <fr:em>just</fr:em> a model "above" (or a structure preserving
+        functor into) the syntax, typically trivially constructed as a pullback
+        (it's hard in general to concoct models with structure preserving maps
+        into the syntax).
+        This is so we can take advantage of the universal property of the
+        syntax (its initiality), as we always do (eg classical soundness of
+        Prop logic).
+        The initiality lets us lift any syntactic term into the model, and talk
+        about it in the model. The projection of the model then let's us
+        actually say something about the syntax itself.
+        So a logical relations argument is <fr:em>just</fr:em> a clever choice of model,
+        to let us say something interesting/talk about what we care about.
+    </fr:p><fr:p>
+        So (classical) parametricity (a la Reynolds '83) is just this.
+        He constructs a set-theoretic model of system F (all models in the
+        paper are set theoretic) out of <fr:em>two</fr:em> standard models.
+        In terms of data abstraction/automata, the point is to construct a
+        bisimulation between the two models, so we can say that two types are
+        "the same"-- every step in the program preserves the relation in
+        lock-step.
+        This is entirely analogous to canonicity, where we need to actually
+        reason about the whole language preserving the type, not just intro and
+        elims for that type, for a stronger inductive hypothesis.
+    </fr:p><fr:p>
+        This way, we can show that two different semantics and implementations
+        for a <fr:code>intset</fr:code> type are in a precise sense, "the same".  We
+        typically relate a naive implementation and a optimized implementation.
+        That is, the reference and optimized implementations are
+        bisimilar/extensionally equivalent.
+    </fr:p><fr:p>
+        I'm still not super clear on why parametricity fundamentally is tied
+        with this notion of data hiding.  I guess it's that to give an account
+        of "operating on a type, just knowing it's a type", one has to give a
+        notion of "just knowing it's a type".  For this, Reynolds defines a
+        notion of "respecting interfaces" w/ relations between models, and that
+        polymophic terms respect any interface?
+    </fr:p><fr:p>
+        That last question is that the "constructing a bisimulation between two
+        models" view seems to make sense, but as a phrasing of parametricity,
+        it should really be that "for any two models, we can always construct
+        (using a LR) a bisimulation between them".
+        Assuming it's actually true eg you can't construct the model if you say
+        that the empty intlist is related to a nonempty one.
+    </fr:p><fr:p>
+        And do we get anything interesting if one of the models is itself the syntax?
+        Is this what parametricity is?
+        What if we put the same model on both sides? It should be trivial, thinking of it as a bisimulation, but I guess it just gives you a logical predicate.
+        What about the syntax as a "closed terms" henkin model?
+    </fr:p><fr:p>
+        Maybe I'm finally close to being able to understand what a Kripke
+        logical relation is.
+    </fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"><fr:frontmatter><fr:anchor>344</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>street-2012</fr:addr><fr:route>street-2012.xml</fr:route><fr:title>The Core of Adjoint Functors</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>7</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>22</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p>
+    The first point:
+</fr:p><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>264</fr:anchor><fr:taxon>Abstract</fr:taxon><fr:addr>#246</fr:addr><fr:route>unstable-246.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>7</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>22</fr:day></fr:date><fr:parent>street-2012</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        During my Topology lectures at Macquarie University in the 1970s, the
+        students and I realized, in proving that a function f between posets was
+        order preserving when there was a function u in the reverse direction such
+        that f (x) ≤ a if and only if x ≤ u(a), did not require u to be order
+        preserving. I realized then that knowing functors in the two directions
+        only on objects and the usual hom adjointness isomorphism implied the
+        effect of the functors on homs was uniquely determined. Writing this down
+        properly led to the present paper.
+    </fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"><fr:frontmatter><fr:anchor>345</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>maddy-2019</fr:addr><fr:route>maddy-2019.xml</fr:route><fr:title>What do we want a foundation to do?</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>21</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>22</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>278</fr:anchor><fr:taxon>Abstract</fr:taxon><fr:addr>#250</fr:addr><fr:route>unstable-250.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>21</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>22</fr:day></fr:date><fr:parent>maddy-2019</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        Mainstream orthodoxy holds that set theory provides a foundation for
+        contemporary pure mathematics. Critics of this view argue that category
+        theory, or more recently univalent foundations, is better suited to this
+        role. Some observers of this controversy suggest that it might be resolved
+        by a better understanding of what a foundation is. Despite considerable
+        sympathy to this line of thought, I’m skeptical of the unspoken assumption
+        that there’s an underlying concept of a ‘foundation’ up for analysis, that
+        this analysis would properly guide our assessment of the various
+        candidates. In contrast, it seems to me that the considerations the
+        combatants offer against opponents and for their preferred candidates, as
+        well as the roles each candidate actually or potentially succeeds in
+        playing, reveal quite a number of different jobs that mathematicians want
+        done. What matters is these jobs we want our theories to do and how well
+        they do them. Whether any or all of them, jobs or theories, deserves to be
+        called ‘foundational’ is really beside the point.
+    </fr:p></fr:mainmatter></fr:tree><fr:p>
+    A nice article that can be briefly summarized as
+    <fr:ul><fr:li>
+            There is no one clear set of desiderata for a <fr:em>foundational</fr:em>
+            system, whatever that means
+        </fr:li>
+        <fr:li>
+            Classical set theory is perfectly fine as a foundational system in
+            the traditionally (ie ZFC) conceived sense
+        </fr:li>
+        <fr:li>
+            There is promise for the new 21ˢᵗ century desiderata of <fr:em>proof
+            checking</fr:em> (recalling Voevodsky's concerns with correctness "at the
+            bleeding edge").
+        </fr:li></fr:ul></fr:p><fr:p>
+    The contrast between the minimalistic ZFC and potentially enormous "user
+    friendly" univalent type theories is reminiscent of Hilbert style proofs vs
+    natural deduction. Indeed, it's like how Ronnie calls set theory "the
+    machine/assembly language of math" (kind of paraphrase), and Max calls SK
+    combinators "the machine/assembly language of λ-calculus".
+</fr:p><fr:p>
+    Natural deduction is certainly more complicated than SK/Hilbert proof
+    systems, but has nice usability properties that are worth study and
+    implementation.
+    The general mathematical trend seems to be that of starting with a spartan
+    formal system, then gradually making it more user friendly to accomodate
+    every increasingly complicated mathematics, where the minimalistic system
+    starts to leave one wanting.
+</fr:p><fr:p>
+    Maddy only mentions Coq, but being 2019 it would've been nice is somewhat
+    redundant to mention other proof assistants eg Cubical Agda.
+</fr:p><fr:p>
+    I've used quotes here as air quotes, not actual quotes of Maddy.
+    <fr:link
+href="maddy-2019.pdf"
+type="external">maddy-2019.pdf</fr:link></fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"><fr:frontmatter><fr:anchor>348</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>dummett-91</fr:addr><fr:route>dummett-91.xml</fr:route><fr:title>The Logical Basis of Metaphysics</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>12</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="hejohns.xml"
+type="local"
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>346</fr:anchor><fr:addr>#260</fr:addr><fr:route>unstable-260.xml</fr:route><fr:title>Stability</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>12</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="hejohns.xml"
+type="local"
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>dummett-91</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        The opening sentence is what <fr:link
+href="zeilberger"
+type="external">zeilberger</fr:link> quotes on his work on
+        polarity.
+    </fr:p><fr:p>
+        What's the relationship between harmony-stability and Pfenning's local
+        soundness and completeness?
+        They're not literally the same thing, but they're similar.
+    </fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"><fr:frontmatter><fr:anchor>350</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>jacobs-1999</fr:addr><fr:route>jacobs-1999.xml</fr:route><fr:title>Categorical Logic and Type Theory</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>6</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="hejohns.xml"
+type="local"
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>362</fr:anchor><fr:addr>#256</fr:addr><fr:route>unstable-256.xml</fr:route><fr:title>Inbox</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>5</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>22</fr:day></fr:date><fr:parent>index</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"><fr:frontmatter><fr:anchor>353</fr:anchor><fr:taxon>Scratch</fr:taxon><fr:addr>friedman-1975</fr:addr><fr:route>friedman-1975.xml</fr:route><fr:title>Equality Between Functionals</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>13</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>22</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>267</fr:anchor><fr:taxon>Abstract</fr:taxon><fr:addr>#259</fr:addr><fr:route>unstable-259.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>13</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>22</fr:day></fr:date><fr:parent>friedman-1975</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        The λ-calculus, in both its typed and untyped forms, has primarily been
+        regarded as an attempt to formalize the concept of <fr:em>rule</fr:em> or
+        <fr:em>process</fr:em>, and ultimately to provide a new foundation for mathematics.
+        It seems fair to say that this aspect of the λ-calculus is currently in an
+        embryonic state of development, awaiting further conceptual advances.
+    </fr:p><fr:p>
+        There is, however, another aspect of the <fr:em>typed</fr:em> λ-calculus, which is
+        readily understood. This is its connection with the full classical finite
+        type structure over ω, (i.e., with the functionals of finite type). In an
+        obvious way, each closed term in the typed λ-calculus defines a functional
+        of finite type over ω.  Call a functional <fr:em>simple</fr:em> if it is given by
+        some closed term in the typed x-calculus.
+    </fr:p><fr:p>
+        Several definitions of <fr:em>convertibility</fr:em> between terms in the λ-calculus,
+        with or without types, have been considered. The motivation for introducing
+        these definitions has primarily been to analyze the notion of the
+        <fr:em>identity</fr:em> between rules, or processes. The relation <fr:tex>⊢ s = t</fr:tex> defined
+        in the text, is equivalent to one of these definitions of convertibility.
+        It is easy to see that any two convertible terms define the same functional
+        of finite type. We show here that any two non- convertible terms define
+        different functionals of finite type.[This result was obtained in 1970.]
+        This, coupled with the known decidability of convertibility, tells us that
+        "equality between simple functionals is recursive."
+    </fr:p></fr:mainmatter></fr:tree><fr:p>
+    Square brackets denote author's footnotes.
+    <fr:link
+href="friedman-1975.pdf"
+type="external">friedman-1975.pdf</fr:link></fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"><fr:frontmatter><fr:anchor>354</fr:anchor><fr:taxon>Scratch</fr:taxon><fr:addr>statman-1985</fr:addr><fr:route>statman-1985.xml</fr:route><fr:title>Equality Between Functionals Revisited</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>13</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>22</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>269</fr:anchor><fr:taxon>Abstract</fr:taxon><fr:addr>#247</fr:addr><fr:route>unstable-247.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>13</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>22</fr:day></fr:date><fr:parent>statman-1985</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        In this note we shall try to place Friedman's remarkable little paper
+        (<fr:link
+href="friedman-1975.xml"
+type="local"
+addr="friedman-1975">3</fr:link>) in the context of what we know today about the model
+        theory of the typed λ-calculus. In order to do this, it is appropriate to
+        survey recent work in this area, in so far as it touches on issues raised
+        by Friedman. We don't intend a general survey; much will be left out. In
+        particular, we shall omit discussion of unification, fragments of L.C.F.,
+        and polymorphic types, which are areas of interest to the author, and the
+        specialist will surely find other omissions. However, we will try to show
+        the reader how Friedman's paper <fr:em>lays the foundation</fr:em> for the general
+        model theory of the typed λ-calculus.
+    </fr:p><fr:p>
+        The plan of this note is the following. We shall begin by a brief, informal
+        introduction to the subject. The reader is then advised to read Friedman's
+        paper. It is, after all, quite accessible and easy to read. We shall then
+        proceed to consider the three major issues touched on in "Equality between
+        functionals" as we view them today. These issues are
+        <fr:ul><fr:li>
+                completness theorems,
+            </fr:li>
+            <fr:li>
+                the solvability of higher type functional equations, and
+            </fr:li>
+            <fr:li>
+                logical relations.
+            </fr:li></fr:ul></fr:p></fr:mainmatter></fr:tree><fr:p><fr:link
+href="statman-1985.pdf"
+type="external">statman-1985.pdf</fr:link></fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"><fr:frontmatter><fr:anchor>355</fr:anchor><fr:taxon>Scratch</fr:taxon><fr:addr>#249</fr:addr><fr:route>unstable-249.xml</fr:route><fr:title><fr:link
+href="millies-zeilberger-2015.xml"
+type="local"
+addr="millies-zeilberger-2015">Functors are Type Refinement Systems</fr:link> › Sections 1-2</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>22</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="hejohns.xml"
+type="local"
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>millies-zeilberger-2015</fr:parent></fr:frontmatter><fr:mainmatter><fr:p><fr:em>What</fr:em> is a logical relation?
+        A LR is just a model of the syntax, used to prove <fr:tex>∀M</fr:tex> statements.
+        Thus, it's usually <fr:em>just</fr:em> a model "above" (or a structure preserving
+        functor into) the syntax, typically trivially constructed as a pullback
+        (it's hard in general to concoct models with structure preserving maps
+        into the syntax).
+        This is so we can take advantage of the universal property of the
+        syntax (its initiality), as we always do (eg classical soundness of
+        Prop logic).
+        The initiality lets us lift any syntactic term into the model, and talk
+        about it in the model. The projection of the model then let's us
+        actually say something about the syntax itself.
+        So a logical relations argument is <fr:em>just</fr:em> a clever choice of model,
+        to let us say something interesting/talk about what we care about.
+    </fr:p><fr:p>
+        So (classical) parametricity (a la Reynolds '83) is just this.
+        He constructs a set-theoretic model of system F (all models in the
+        paper are set theoretic) out of <fr:em>two</fr:em> standard models.
+        In terms of data abstraction/automata, the point is to construct a
+        bisimulation between the two models, so we can say that two types are
+        "the same"-- every step in the program preserves the relation in
+        lock-step.
+        This is entirely analogous to canonicity, where we need to actually
+        reason about the whole language preserving the type, not just intro and
+        elims for that type, for a stronger inductive hypothesis.
+    </fr:p><fr:p>
+        This way, we can show that two different semantics and implementations
+        for a <fr:code>intset</fr:code> type are in a precise sense, "the same".  We
+        typically relate a naive implementation and a optimized implementation.
+        That is, the reference and optimized implementations are
+        bisimilar/extensionally equivalent.
+    </fr:p><fr:p>
+        I'm still not super clear on why parametricity fundamentally is tied
+        with this notion of data hiding.  I guess it's that to give an account
+        of "operating on a type, just knowing it's a type", one has to give a
+        notion of "just knowing it's a type".  For this, Reynolds defines a
+        notion of "respecting interfaces" w/ relations between models, and that
+        polymophic terms respect any interface?
+    </fr:p><fr:p>
+        That last question is that the "constructing a bisimulation between two
+        models" view seems to make sense, but as a phrasing of parametricity,
+        it should really be that "for any two models, we can always construct
+        (using a LR) a bisimulation between them".
+        Assuming it's actually true eg you can't construct the model if you say
+        that the empty intlist is related to a nonempty one.
+    </fr:p><fr:p>
+        And do we get anything interesting if one of the models is itself the syntax?
+        Is this what parametricity is?
+        What if we put the same model on both sides? It should be trivial, thinking of it as a bisimulation, but I guess it just gives you a logical predicate.
+        What about the syntax as a "closed terms" henkin model?
+    </fr:p><fr:p>
+        Maybe I'm finally close to being able to understand what a Kripke
+        logical relation is.
+    </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"><fr:frontmatter><fr:anchor>357</fr:anchor><fr:taxon>Scratch</fr:taxon><fr:addr>scherer-2017</fr:addr><fr:route>scherer-2017.xml</fr:route><fr:title>Deciding equivalence with sums and the empty type</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>13</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>13</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p><fr:link
+href="https://arxiv.org/pdf/1610.01213"
+type="external">https://arxiv.org/pdf/1610.01213</fr:link>.
+    Informed me of <fr:link
+href="friedman-1975.xml"
+type="local"
+addr="friedman-1975">Equality Between Functionals</fr:link> and <fr:link
+href="statman-1985.xml"
+type="local"
+addr="statman-1985">Equality Between Functionals Revisited</fr:link>, in the intro.
+    Referenced on <fr:link
+href="https://proofassistants.stackexchange.com/a/1177"
+type="external">stack overflow</fr:link>.
 </fr:p></fr:mainmatter></fr:tree><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="false"
@@ -869,7 +1240,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="false"
-root="false"><fr:frontmatter><fr:anchor>499</fr:anchor><fr:taxon>Scratch</fr:taxon><fr:addr>hejohns-0009</fr:addr><fr:route>hejohns-0009.xml</fr:route><fr:title>Fibrations v. functors</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>8</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>358</fr:anchor><fr:taxon>Scratch</fr:taxon><fr:addr>hejohns-0009</fr:addr><fr:route>hejohns-0009.xml</fr:route><fr:title>Fibrations v. functors</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>8</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
 addr="hejohns">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -878,4 +1249,24 @@ addr="hejohns">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr
 href="millies-zeilberger-2015.pdf"
 type="external">Functors as Type Refinement Systems</fr:link>, is a <fr:strong>must read</fr:strong>.
     Then you lose the internal logic... maybe? Maybe you just have a different internal logic?
+</fr:p><fr:p>
+    Talked to Max about this on 5-9.
+    They really just give to different notions of "logic over syntax"--
+    a hoare logic, and a implicational (eg FO) logic.
+    I suppose one'd want to study a bit the relationship between the two.
+    <fr:link
+href="millies-zeilberger-2015.xml"
+type="local"
+addr="millies-zeilberger-2015">paper</fr:link></fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"><fr:frontmatter><fr:anchor>360</fr:anchor><fr:taxon>Scratch</fr:taxon><fr:addr>hejohns-000A</fr:addr><fr:route>hejohns-000A.xml</fr:route><fr:title>Fiberwise Structure</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>8</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="hejohns.xml"
+type="local"
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+    Fibered Right Adjoints are automatically fibered?
 </fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
