@@ -7,159 +7,118 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>388</fr:anchor><fr:taxon>Scratch</fr:taxon><fr:addr>#249</fr:addr><fr:route>unstable-249.xml</fr:route><fr:title><fr:link
-href="millies-zeilberger-2015.xml"
+root="false"><fr:frontmatter><fr:anchor>316</fr:anchor><fr:taxon>Abstract</fr:taxon><fr:addr>#249</fr:addr><fr:route>unstable-249.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>13</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>22</fr:day></fr:date><fr:parent>statman-1985</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        In this note we shall try to place Friedman's remarkable little paper
+        (<fr:link
+href="friedman-1975.xml"
 type="local"
-addr="millies-zeilberger-2015">Functors are Type Refinement Systems</fr:link> › Sections 1-2</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>22</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="hejohns.xml"
-type="local"
-addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>millies-zeilberger-2015</fr:parent></fr:frontmatter><fr:mainmatter><fr:p><fr:em>What</fr:em> is a logical relation?
-        A LR is just a model of the syntax, used to prove <fr:tex>∀M</fr:tex> statements.
-        Thus, it's usually <fr:em>just</fr:em> a model "above" (or a structure preserving
-        functor into) the syntax, typically trivially constructed as a pullback
-        (it's hard in general to concoct models with structure preserving maps
-        into the syntax).
-        This is so we can take advantage of the universal property of the
-        syntax (its initiality), as we always do (eg classical soundness of
-        Prop logic).
-        The initiality lets us lift any syntactic term into the model, and talk
-        about it in the model. The projection of the model then let's us
-        actually say something about the syntax itself.
-        So a logical relations argument is <fr:em>just</fr:em> a clever choice of model,
-        to let us say something interesting/talk about what we care about.
+addr="friedman-1975">3</fr:link>) in the context of what we know today about the model
+        theory of the typed λ-calculus. In order to do this, it is appropriate to
+        survey recent work in this area, in so far as it touches on issues raised
+        by Friedman. We don't intend a general survey; much will be left out. In
+        particular, we shall omit discussion of unification, fragments of L.C.F.,
+        and polymorphic types, which are areas of interest to the author, and the
+        specialist will surely find other omissions. However, we will try to show
+        the reader how Friedman's paper <fr:em>lays the foundation</fr:em> for the general
+        model theory of the typed λ-calculus.
     </fr:p><fr:p>
-        So (classical) parametricity (a la Reynolds '83) is just this.
-        He constructs a set-theoretic model of system F (all models in the
-        paper are set theoretic) out of <fr:em>two</fr:em> standard models.
-        In terms of data abstraction/automata, the point is to construct a
-        bisimulation between the two models, so we can say that two types are
-        "the same"-- every step in the program preserves the relation in
-        lock-step.
-        This is entirely analogous to canonicity, where we need to actually
-        reason about the whole language preserving the type, not just intro and
-        elims for that type, for a stronger inductive hypothesis.
-    </fr:p><fr:p>
-        This way, we can show that two different semantics and implementations
-        for a <fr:code>intset</fr:code> type are in a precise sense, "the same".  We
-        typically relate a naive implementation and a optimized implementation.
-        That is, the reference and optimized implementations are
-        bisimilar/extensionally equivalent.
-    </fr:p><fr:p>
-        I'm still not super clear on why parametricity fundamentally is tied
-        with this notion of data hiding.  I guess it's that to give an account
-        of "operating on a type, just knowing it's a type", one has to give a
-        notion of "just knowing it's a type".  For this, Reynolds defines a
-        notion of "respecting interfaces" w/ relations between models, and that
-        polymophic terms respect any interface?
-    </fr:p><fr:p>
-        That last question is that the "constructing a bisimulation between two
-        models" view seems to make sense, but as a phrasing of parametricity,
-        it should really be that "for any two models, we can always construct
-        (using a LR) a bisimulation between them".
-        Assuming it's actually true eg you can't construct the model if you say
-        that the empty intlist is related to a nonempty one.
-    </fr:p><fr:p>
-        And do we get anything interesting if one of the models is itself the syntax?
-        Is this what parametricity is?
-        What if we put the same model on both sides? It should be trivial, thinking of it as a bisimulation, but I guess it just gives you a logical predicate.
-        What about the syntax as a "closed terms" henkin model?
-    </fr:p><fr:p>
-        Maybe I'm finally close to being able to understand what a Kripke
-        logical relation is.
-    </fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
+        The plan of this note is the following. We shall begin by a brief, informal
+        introduction to the subject. The reader is then advised to read Friedman's
+        paper. It is, after all, quite accessible and easy to read. We shall then
+        proceed to consider the three major issues touched on in "Equality between
+        functionals" as we view them today. These issues are
+        <fr:ul><fr:li>
+                completness theorems,
+            </fr:li>
+            <fr:li>
+                the solvability of higher type functional equations, and
+            </fr:li>
+            <fr:li>
+                logical relations.
+            </fr:li></fr:ul></fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>386</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>millies-zeilberger-2015</fr:addr><fr:route>millies-zeilberger-2015.xml</fr:route><fr:title>Functors are Type Refinement Systems</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>22</fr:day></fr:date><fr:authors><fr:contributor><fr:link
-href="hejohns.xml"
-type="local"
-addr="hejohns">Johnson He</fr:link></fr:contributor></fr:authors></fr:frontmatter><fr:mainmatter><fr:tree
+root="false"><fr:frontmatter><fr:anchor>315</fr:anchor><fr:taxon>Scratch</fr:taxon><fr:addr>statman-1985</fr:addr><fr:route>statman-1985.xml</fr:route><fr:title>Equality Between Functionals Revisited</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>13</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>22</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>272</fr:anchor><fr:taxon>Abstract</fr:taxon><fr:addr>#248</fr:addr><fr:route>unstable-248.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>22</fr:day></fr:date><fr:parent>millies-zeilberger-2015</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-        The standard reading of type theory through the lens of category theory
-        is based on the idea of viewing a type system as a category of
-        well-typed terms. We propose a basic revision of this reading: rather
-        than interpreting type systems as categories, we describe them as
-        functors from a category of typing derivations to a category of
-        underlying terms. Then, turning this around, we explain how in fact any
-        functor gives rise to a generalized type system, with an abstract
-        notion of typing judgment, typing derivations and typing rules. This
-        leads to a purely categorical reformulation of various natural classes
-        of type systems as natural classes of functors. The main purpose of
-        this paper is to describe the general framework (which can also be seen
-        as providing a categorical analysis of refinement types), and to
-        present a few applications. As a larger case study, we revisit
-        Reynolds’ paper on “The Meaning of Types” (2000), showing how the
-        paper’s main results may be reconstructed along these lines.
-    </fr:p></fr:mainmatter></fr:tree><fr:tree
+root="false"><fr:frontmatter><fr:anchor>314</fr:anchor><fr:taxon>Abstract</fr:taxon><fr:addr>#249</fr:addr><fr:route>unstable-249.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>13</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>22</fr:day></fr:date><fr:parent>statman-1985</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        In this note we shall try to place Friedman's remarkable little paper
+        (<fr:link
+href="friedman-1975.xml"
+type="local"
+addr="friedman-1975">3</fr:link>) in the context of what we know today about the model
+        theory of the typed λ-calculus. In order to do this, it is appropriate to
+        survey recent work in this area, in so far as it touches on issues raised
+        by Friedman. We don't intend a general survey; much will be left out. In
+        particular, we shall omit discussion of unification, fragments of L.C.F.,
+        and polymorphic types, which are areas of interest to the author, and the
+        specialist will surely find other omissions. However, we will try to show
+        the reader how Friedman's paper <fr:em>lays the foundation</fr:em> for the general
+        model theory of the typed λ-calculus.
+    </fr:p><fr:p>
+        The plan of this note is the following. We shall begin by a brief, informal
+        introduction to the subject. The reader is then advised to read Friedman's
+        paper. It is, after all, quite accessible and easy to read. We shall then
+        proceed to consider the three major issues touched on in "Equality between
+        functionals" as we view them today. These issues are
+        <fr:ul><fr:li>
+                completness theorems,
+            </fr:li>
+            <fr:li>
+                the solvability of higher type functional equations, and
+            </fr:li>
+            <fr:li>
+                logical relations.
+            </fr:li></fr:ul></fr:p></fr:mainmatter></fr:tree><fr:p><fr:link
+href="statman-1985.pdf"
+type="external">statman-1985.pdf</fr:link></fr:p></fr:mainmatter></fr:tree></fr:context><fr:related><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>313</fr:anchor><fr:taxon>Scratch</fr:taxon><fr:addr>friedman-1975</fr:addr><fr:route>friedman-1975.xml</fr:route><fr:title>Equality Between Functionals</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>13</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>22</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>273</fr:anchor><fr:taxon>Scratch</fr:taxon><fr:addr>#249</fr:addr><fr:route>unstable-249.xml</fr:route><fr:title>Sections 1-2</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>22</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="hejohns.xml"
-type="local"
-addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>millies-zeilberger-2015</fr:parent></fr:frontmatter><fr:mainmatter><fr:p><fr:em>What</fr:em> is a logical relation?
-        A LR is just a model of the syntax, used to prove <fr:tex>∀M</fr:tex> statements.
-        Thus, it's usually <fr:em>just</fr:em> a model "above" (or a structure preserving
-        functor into) the syntax, typically trivially constructed as a pullback
-        (it's hard in general to concoct models with structure preserving maps
-        into the syntax).
-        This is so we can take advantage of the universal property of the
-        syntax (its initiality), as we always do (eg classical soundness of
-        Prop logic).
-        The initiality lets us lift any syntactic term into the model, and talk
-        about it in the model. The projection of the model then let's us
-        actually say something about the syntax itself.
-        So a logical relations argument is <fr:em>just</fr:em> a clever choice of model,
-        to let us say something interesting/talk about what we care about.
+root="false"><fr:frontmatter><fr:anchor>312</fr:anchor><fr:taxon>Abstract</fr:taxon><fr:addr>#262</fr:addr><fr:route>unstable-262.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>13</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>22</fr:day></fr:date><fr:parent>friedman-1975</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        The λ-calculus, in both its typed and untyped forms, has primarily been
+        regarded as an attempt to formalize the concept of <fr:em>rule</fr:em> or
+        <fr:em>process</fr:em>, and ultimately to provide a new foundation for mathematics.
+        It seems fair to say that this aspect of the λ-calculus is currently in an
+        embryonic state of development, awaiting further conceptual advances.
     </fr:p><fr:p>
-        So (classical) parametricity (a la Reynolds '83) is just this.
-        He constructs a set-theoretic model of system F (all models in the
-        paper are set theoretic) out of <fr:em>two</fr:em> standard models.
-        In terms of data abstraction/automata, the point is to construct a
-        bisimulation between the two models, so we can say that two types are
-        "the same"-- every step in the program preserves the relation in
-        lock-step.
-        This is entirely analogous to canonicity, where we need to actually
-        reason about the whole language preserving the type, not just intro and
-        elims for that type, for a stronger inductive hypothesis.
+        There is, however, another aspect of the <fr:em>typed</fr:em> λ-calculus, which is
+        readily understood. This is its connection with the full classical finite
+        type structure over ω, (i.e., with the functionals of finite type). In an
+        obvious way, each closed term in the typed λ-calculus defines a functional
+        of finite type over ω.  Call a functional <fr:em>simple</fr:em> if it is given by
+        some closed term in the typed x-calculus.
     </fr:p><fr:p>
-        This way, we can show that two different semantics and implementations
-        for a <fr:code>intset</fr:code> type are in a precise sense, "the same".  We
-        typically relate a naive implementation and a optimized implementation.
-        That is, the reference and optimized implementations are
-        bisimilar/extensionally equivalent.
-    </fr:p><fr:p>
-        I'm still not super clear on why parametricity fundamentally is tied
-        with this notion of data hiding.  I guess it's that to give an account
-        of "operating on a type, just knowing it's a type", one has to give a
-        notion of "just knowing it's a type".  For this, Reynolds defines a
-        notion of "respecting interfaces" w/ relations between models, and that
-        polymophic terms respect any interface?
-    </fr:p><fr:p>
-        That last question is that the "constructing a bisimulation between two
-        models" view seems to make sense, but as a phrasing of parametricity,
-        it should really be that "for any two models, we can always construct
-        (using a LR) a bisimulation between them".
-        Assuming it's actually true eg you can't construct the model if you say
-        that the empty intlist is related to a nonempty one.
-    </fr:p><fr:p>
-        And do we get anything interesting if one of the models is itself the syntax?
-        Is this what parametricity is?
-        What if we put the same model on both sides? It should be trivial, thinking of it as a bisimulation, but I guess it just gives you a logical predicate.
-        What about the syntax as a "closed terms" henkin model?
-    </fr:p><fr:p>
-        Maybe I'm finally close to being able to understand what a Kripke
-        logical relation is.
-    </fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+        Several definitions of <fr:em>convertibility</fr:em> between terms in the λ-calculus,
+        with or without types, have been considered. The motivation for introducing
+        these definitions has primarily been to analyze the notion of the
+        <fr:em>identity</fr:em> between rules, or processes. The relation <fr:tex>⊢ s = t</fr:tex> defined
+        in the text, is equivalent to one of these definitions of convertibility.
+        It is easy to see that any two convertible terms define the same functional
+        of finite type. We show here that any two non- convertible terms define
+        different functionals of finite type.[This result was obtained in 1970.]
+        This, coupled with the known decidability of convertibility, tells us that
+        "equality between simple functionals is recursive."
+    </fr:p></fr:mainmatter></fr:tree><fr:p>
+    Square brackets denote author's footnotes.
+    <fr:link
+href="friedman-1975.pdf"
+type="external">friedman-1975.pdf</fr:link></fr:p></fr:mainmatter></fr:tree></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

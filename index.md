@@ -4,6 +4,11 @@
 layout: home
 title: home
 ---
+# Site Notice
+
+I am about to move this site to `forester`.
+The forest is already accessible on the top menu.
+
 ## About
 I'm Johnson He.
 

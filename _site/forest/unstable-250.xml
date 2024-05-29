@@ -7,22 +7,59 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>280</fr:anchor><fr:taxon>Abstract</fr:taxon><fr:addr>#250</fr:addr><fr:route>unstable-250.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>21</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>22</fr:day></fr:date><fr:parent>maddy-2019</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-        Mainstream orthodoxy holds that set theory provides a foundation for
-        contemporary pure mathematics. Critics of this view argue that category
-        theory, or more recently univalent foundations, is better suited to this
-        role. Some observers of this controversy suggest that it might be resolved
-        by a better understanding of what a foundation is. Despite considerable
-        sympathy to this line of thought, I’m skeptical of the unspoken assumption
-        that there’s an underlying concept of a ‘foundation’ up for analysis, that
-        this analysis would properly guide our assessment of the various
-        candidates. In contrast, it seems to me that the considerations the
-        combatants offer against opponents and for their preferred candidates, as
-        well as the roles each candidate actually or potentially succeeds in
-        playing, reveal quite a number of different jobs that mathematicians want
-        done. What matters is these jobs we want our theories to do and how well
-        they do them. Whether any or all of them, jobs or theories, deserves to be
-        called ‘foundational’ is really beside the point.
+root="false"><fr:frontmatter><fr:anchor>284</fr:anchor><fr:taxon>Email</fr:taxon><fr:addr>#250</fr:addr><fr:route>unstable-250.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>28</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>29</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="hejohns.xml"
+type="local"
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>quine-1960</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        Thanks for sharing this nice little note, which sketches a combinatory
+        (classical) first-order logic.
+    </fr:p><fr:p>
+        I was surprised by the mention of von Neumann 1925 in this snippet:
+    </fr:p><fr:p>
+        "In a way our operators are reminiscent also of the axioms of class
+        existence in Neumann, J. von, Eine Axiomatisierung der Mengenlehre,
+        Journal für reine und ungewandte Mathematik 154: 219-240, 1925, despite
+        dissimilarity of purpose." (Footnote 1, p. 346)
+    </fr:p><fr:p>
+        From what I gather, the reminiscence with von Neumann 1925 (I assume
+        Quine was principally referring to the "III. Logical Construction
+        Axioms") is that the purposes (of Quine's predicate combinators and von
+        Neumann's axioms of existence of II-objects) are actually quite
+        similar.
+    </fr:p><fr:p>
+        It seems that the system of von Neumann 1925 isn't couched in any
+        particular formal system (although it's maybe implicitly first-order,
+        and apparently translated into such by Skolem 1938), thus von Neumann
+        wants to recover from any definite property ("logical condition") on
+        I-objects, the (existence of a) class (II-object) of those I-objects.
+        Wikipedia calls this the <fr:link
+href="https://en.wikipedia.org/wiki/Von_Neumann%E2%80%93Bernays%E2%80%93G%C3%B6del_set_theory#Class_existence_theorem"
+type="external">class existence theorem</fr:link>.
+    </fr:p><fr:p>
+        (More generally, the "reduction theorem" in von Neumann 1925 says that
+        every expression of I-objects (definable class-function) is indeed a
+        II-object (class-function). This restricts to logical conditions and
+        classes.)
+    </fr:p><fr:p>
+        To do this economically, the existence of a few basic
+        combinator-classes are stipulated (=, ∀, ∃!), and more complex logical
+        conditions are put in "normal form" by eliminating variables with the
+        combinator-classes.  The 'uneconomic' way, if von Neumann 1925 were
+        working in an explicit logic, would be to just stipulate a schema of
+        class comprehension (also mentioned in the Wikipedia article), as
+        included in the back of Chang and Keisler.
+    </fr:p><fr:p>
+        Actually, while there are explicit class existence axioms for absorbing
+        =, ∀, ∃!, I don't see any for things like ∧ or ¬, and don't see how
+        they'd follow with the other axioms, but I suppose they must. The
+        Wikipedia article has a write-up starting from more user-friendly
+        axioms.
+    </fr:p><fr:p>
+        In any case, I hadn't realized that the historic move to make precise
+        the notion of 'definite property' as 'first-order definable' was
+        nontrivial, and found this connection with Quine's note interesting,
+    </fr:p><fr:p>
+        Johnson He
     </fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
@@ -30,62 +67,80 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>279</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>maddy-2019</fr:addr><fr:route>maddy-2019.xml</fr:route><fr:title>What do we want a foundation to do?</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>21</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>22</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:tree
+root="false"><fr:frontmatter><fr:anchor>282</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>quine-1960</fr:addr><fr:route>quine-1960.xml</fr:route><fr:title>Variables Explained Away</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>28</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>29</fr:day></fr:date><fr:authors><fr:contributor><fr:link
+href="hejohns.xml"
+type="local"
+addr="hejohns">Johnson He</fr:link></fr:contributor></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+    "Separately I sent a copy of Quine's 1950 paper on combinatory logic to
+    this list. Whatever else you might think about Quine, he was a terrific
+    explainer, and this is the best introduction to the subject I know."
+</fr:p><fr:p>
+    (Yes, that 50 should be a 60(b).)
+    Here is the followup I wrote:
+</fr:p><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>278</fr:anchor><fr:taxon>Abstract</fr:taxon><fr:addr>#250</fr:addr><fr:route>unstable-250.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>21</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>22</fr:day></fr:date><fr:parent>maddy-2019</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-        Mainstream orthodoxy holds that set theory provides a foundation for
-        contemporary pure mathematics. Critics of this view argue that category
-        theory, or more recently univalent foundations, is better suited to this
-        role. Some observers of this controversy suggest that it might be resolved
-        by a better understanding of what a foundation is. Despite considerable
-        sympathy to this line of thought, I’m skeptical of the unspoken assumption
-        that there’s an underlying concept of a ‘foundation’ up for analysis, that
-        this analysis would properly guide our assessment of the various
-        candidates. In contrast, it seems to me that the considerations the
-        combatants offer against opponents and for their preferred candidates, as
-        well as the roles each candidate actually or potentially succeeds in
-        playing, reveal quite a number of different jobs that mathematicians want
-        done. What matters is these jobs we want our theories to do and how well
-        they do them. Whether any or all of them, jobs or theories, deserves to be
-        called ‘foundational’ is really beside the point.
-    </fr:p></fr:mainmatter></fr:tree><fr:p>
-    A nice article that can be briefly summarized as
-    <fr:ul><fr:li>
-            There is no one clear set of desiderata for a <fr:em>foundational</fr:em>
-            system, whatever that means
-        </fr:li>
-        <fr:li>
-            Classical set theory is perfectly fine as a foundational system in
-            the traditionally (ie ZFC) conceived sense
-        </fr:li>
-        <fr:li>
-            There is promise for the new 21ˢᵗ century desiderata of <fr:em>proof
-            checking</fr:em> (recalling Voevodsky's concerns with correctness "at the
-            bleeding edge").
-        </fr:li></fr:ul></fr:p><fr:p>
-    The contrast between the minimalistic ZFC and potentially enormous "user
-    friendly" univalent type theories is reminiscent of Hilbert style proofs vs
-    natural deduction. Indeed, it's like how Ronnie calls set theory "the
-    machine/assembly language of math" (kind of paraphrase), and Max calls SK
-    combinators "the machine/assembly language of λ-calculus".
-</fr:p><fr:p>
-    Natural deduction is certainly more complicated than SK/Hilbert proof
-    systems, but has nice usability properties that are worth study and
-    implementation.
-    The general mathematical trend seems to be that of starting with a spartan
-    formal system, then gradually making it more user friendly to accomodate
-    every increasingly complicated mathematics, where the minimalistic system
-    starts to leave one wanting.
-</fr:p><fr:p>
-    Maddy only mentions Coq, but being 2019 it would've been nice is somewhat
-    redundant to mention other proof assistants eg Cubical Agda.
-</fr:p><fr:p>
-    I've used quotes here as air quotes, not actual quotes of Maddy.
-    <fr:link
-href="maddy-2019.pdf"
-type="external">maddy-2019.pdf</fr:link></fr:p></fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+root="false"><fr:frontmatter><fr:anchor>280</fr:anchor><fr:taxon>Email</fr:taxon><fr:addr>#250</fr:addr><fr:route>unstable-250.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>28</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>29</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="hejohns.xml"
+type="local"
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>quine-1960</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        Thanks for sharing this nice little note, which sketches a combinatory
+        (classical) first-order logic.
+    </fr:p><fr:p>
+        I was surprised by the mention of von Neumann 1925 in this snippet:
+    </fr:p><fr:p>
+        "In a way our operators are reminiscent also of the axioms of class
+        existence in Neumann, J. von, Eine Axiomatisierung der Mengenlehre,
+        Journal für reine und ungewandte Mathematik 154: 219-240, 1925, despite
+        dissimilarity of purpose." (Footnote 1, p. 346)
+    </fr:p><fr:p>
+        From what I gather, the reminiscence with von Neumann 1925 (I assume
+        Quine was principally referring to the "III. Logical Construction
+        Axioms") is that the purposes (of Quine's predicate combinators and von
+        Neumann's axioms of existence of II-objects) are actually quite
+        similar.
+    </fr:p><fr:p>
+        It seems that the system of von Neumann 1925 isn't couched in any
+        particular formal system (although it's maybe implicitly first-order,
+        and apparently translated into such by Skolem 1938), thus von Neumann
+        wants to recover from any definite property ("logical condition") on
+        I-objects, the (existence of a) class (II-object) of those I-objects.
+        Wikipedia calls this the <fr:link
+href="https://en.wikipedia.org/wiki/Von_Neumann%E2%80%93Bernays%E2%80%93G%C3%B6del_set_theory#Class_existence_theorem"
+type="external">class existence theorem</fr:link>.
+    </fr:p><fr:p>
+        (More generally, the "reduction theorem" in von Neumann 1925 says that
+        every expression of I-objects (definable class-function) is indeed a
+        II-object (class-function). This restricts to logical conditions and
+        classes.)
+    </fr:p><fr:p>
+        To do this economically, the existence of a few basic
+        combinator-classes are stipulated (=, ∀, ∃!), and more complex logical
+        conditions are put in "normal form" by eliminating variables with the
+        combinator-classes.  The 'uneconomic' way, if von Neumann 1925 were
+        working in an explicit logic, would be to just stipulate a schema of
+        class comprehension (also mentioned in the Wikipedia article), as
+        included in the back of Chang and Keisler.
+    </fr:p><fr:p>
+        Actually, while there are explicit class existence axioms for absorbing
+        =, ∀, ∃!, I don't see any for things like ∧ or ¬, and don't see how
+        they'd follow with the other axioms, but I suppose they must. The
+        Wikipedia article has a write-up starting from more user-friendly
+        axioms.
+    </fr:p><fr:p>
+        In any case, I hadn't realized that the historic move to make precise
+        the notion of 'definite property' as 'first-order definable' was
+        nontrivial, and found this connection with Quine's note interesting,
+    </fr:p><fr:p>
+        Johnson He
+    </fr:p></fr:mainmatter></fr:tree><fr:ul><fr:li><fr:link
+href="quine-1960.pdf"
+type="external">quine-1960.pdf</fr:link></fr:li>
+    <fr:li><fr:link
+href="von-neumann-1925.xml"
+type="local"
+addr="von-neumann-1925">An Axiomatization of Set Theory</fr:link></fr:li></fr:ul></fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
