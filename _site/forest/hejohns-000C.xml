@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>466</fr:anchor><fr:taxon>Exposition</fr:taxon><fr:addr>hejohns-000C</fr:addr><fr:route>hejohns-000C.xml</fr:route><fr:title>Elementary² toposes</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>31</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="hejohns.xml"
+type="local"
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+    The following are some basic (alt. elementary) questions, whose "elevator
+    pitch" answers ought to roll off the tongue:
+    <fr:ul><fr:li>
+            What is a(n elementary) topos?
+        </fr:li>
+        <fr:li>
+            What is this "topos logic" that is sound in any elementary topos?
+            As in literally, what is the syntax?
+            Is it the same thing as this "higher-order intuitionistic logic"?
+            What are the inference rules/axioms?
+        </fr:li>
+        <fr:li>
+            What is this "Kripke-Joyal semantics"?
+            Is this the same thing as the so-called "forcing semantics"?
+        </fr:li>
+        <fr:li>
+            What is this "Mitchell-Bénabou language"?
+            Is it the same thing as "topos logic"?
+        </fr:li></fr:ul>
+    Following <fr:link
+href="mclarty-1992.xml"
+type="local"
+addr="mclarty-1992">Elementary Categories, Elementary Toposes</fr:link>, we sketch <fr:em>elementary</fr:em> answers to these.
+</fr:p><fr:p>
+    Some more difficult questions we do not attempt to answer at the moment:
+    <fr:ul><fr:li>
+            What is a Grothendieck topos, and what's the difference v.
+            elementary toposes?
+        </fr:li>
+        <fr:li>
+            What is a "geometric logic" and a "geometric morphism"?
+            And what's the difference v. a "logical morphism"?
+        </fr:li>
+        <fr:li>
+            In what sense is "Kripke-Joyal semantics" a "forcing semantics"?
+            (What is forcing??)
+        </fr:li>
+        <fr:li>
+            And everything else…
+        </fr:li></fr:ul></fr:p><fr:p>
+    Many object to the name "higher-order intuitionistic logic".
+    <fr:link
+href="blass-1988.xml"
+type="local"
+addr="blass-1988">Topoi and Computation</fr:link> says "Strictly speaking, the phrase 'higher-order
+    intuitionistic' makes little sense, since it is not clear that
+    constructions like the power set are intuitionistically acceptable. What is
+    meant by the phrase is a type theory built on a formally intuitionistic
+    underlying logic."
+    <fr:link
+href="maclarty-1992"
+type="external">maclarty-1992</fr:link> says "TODO".
+</fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context></fr:context><fr:related></fr:related><fr:backlinks></fr:backlinks><fr:references><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>464</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>mclarty-1992</fr:addr><fr:route>mclarty-1992.xml</fr:route><fr:title>Elementary Categories, Elementary Toposes</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>31</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date></fr:frontmatter><fr:mainmatter></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>465</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>blass-1988</fr:addr><fr:route>blass-1988.xml</fr:route><fr:title>Topoi and Computation</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>308</fr:anchor><fr:taxon>Abstract</fr:taxon><fr:addr>#274</fr:addr><fr:route>unstable-274.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:parent>blass-1988</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        This is the written version of a talk given at the C.I.R.M. Workshop on
+        Logic in Computer Science at Marseille, France in June, 1988. Its purpose
+        is to argue that there is a close connection between the theory of
+        computation and the geometric side of topos theory. We begin with a brief
+        outline of the history and basic concepts of topos theory.
+    </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>309</fr:anchor><fr:taxon>Notes</fr:taxon><fr:addr>#275</fr:addr><fr:route>unstable-275.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:parent>blass-1988</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        Prof. Blass essentially described this background over the course of
+        the logic seminar last semester (as comments at various meetings,
+        culminating with a full talk), but this is a nice written account of
+        the history of topos theory, the relation between Grothendieck and
+        Elementary topoi, and the relation between geometric and logical
+        morphisms.
+    </fr:p></fr:mainmatter></fr:tree><fr:p><fr:link
+href="blass-1988.pdf"
+type="external">blass-1988.pdf</fr:link></fr:p></fr:mainmatter></fr:tree></fr:references></fr:backmatter></fr:tree>

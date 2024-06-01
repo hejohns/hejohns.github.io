@@ -7,22 +7,15 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>325</fr:anchor><fr:taxon>Abstract</fr:taxon><fr:addr>#253</fr:addr><fr:route>unstable-253.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>21</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>22</fr:day></fr:date><fr:parent>maddy-2019</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-        Mainstream orthodoxy holds that set theory provides a foundation for
-        contemporary pure mathematics. Critics of this view argue that category
-        theory, or more recently univalent foundations, is better suited to this
-        role. Some observers of this controversy suggest that it might be resolved
-        by a better understanding of what a foundation is. Despite considerable
-        sympathy to this line of thought, I’m skeptical of the unspoken assumption
-        that there’s an underlying concept of a ‘foundation’ up for analysis, that
-        this analysis would properly guide our assessment of the various
-        candidates. In contrast, it seems to me that the considerations the
-        combatants offer against opponents and for their preferred candidates, as
-        well as the roles each candidate actually or potentially succeeds in
-        playing, reveal quite a number of different jobs that mathematicians want
-        done. What matters is these jobs we want our theories to do and how well
-        they do them. Whether any or all of them, jobs or theories, deserves to be
-        called ‘foundational’ is really beside the point.
+root="false"><fr:frontmatter><fr:anchor>493</fr:anchor><fr:taxon>Abstract</fr:taxon><fr:addr>#253</fr:addr><fr:route>unstable-253.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>7</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>22</fr:day></fr:date><fr:parent>street-2012</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        During my Topology lectures at Macquarie University in the 1970s, the
+        students and I realized, in proving that a function f between posets was
+        order preserving when there was a function u in the reverse direction such
+        that f (x) ≤ a if and only if x ≤ u(a), did not require u to be order
+        preserving. I realized then that knowing functors in the two directions
+        only on objects and the usual hom adjointness isomorphism implied the
+        effect of the functors on homs was uniquely determined. Writing this down
+        properly led to the present paper.
     </fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
@@ -30,62 +23,22 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>324</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>maddy-2019</fr:addr><fr:route>maddy-2019.xml</fr:route><fr:title>What do we want a foundation to do?</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>21</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>22</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:tree
+root="false"><fr:frontmatter><fr:anchor>492</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>street-2012</fr:addr><fr:route>street-2012.xml</fr:route><fr:title>The Core of Adjoint Functors</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>7</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>22</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p>
+    The first point:
+</fr:p><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>323</fr:anchor><fr:taxon>Abstract</fr:taxon><fr:addr>#253</fr:addr><fr:route>unstable-253.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>21</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>22</fr:day></fr:date><fr:parent>maddy-2019</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-        Mainstream orthodoxy holds that set theory provides a foundation for
-        contemporary pure mathematics. Critics of this view argue that category
-        theory, or more recently univalent foundations, is better suited to this
-        role. Some observers of this controversy suggest that it might be resolved
-        by a better understanding of what a foundation is. Despite considerable
-        sympathy to this line of thought, I’m skeptical of the unspoken assumption
-        that there’s an underlying concept of a ‘foundation’ up for analysis, that
-        this analysis would properly guide our assessment of the various
-        candidates. In contrast, it seems to me that the considerations the
-        combatants offer against opponents and for their preferred candidates, as
-        well as the roles each candidate actually or potentially succeeds in
-        playing, reveal quite a number of different jobs that mathematicians want
-        done. What matters is these jobs we want our theories to do and how well
-        they do them. Whether any or all of them, jobs or theories, deserves to be
-        called ‘foundational’ is really beside the point.
-    </fr:p></fr:mainmatter></fr:tree><fr:p>
-    A nice article that can be briefly summarized as
-    <fr:ul><fr:li>
-            There is no one clear set of desiderata for a <fr:em>foundational</fr:em>
-            system, whatever that means
-        </fr:li>
-        <fr:li>
-            Classical set theory is perfectly fine as a foundational system in
-            the traditionally (ie ZFC) conceived sense
-        </fr:li>
-        <fr:li>
-            There is promise for the new 21ˢᵗ century desiderata of <fr:em>proof
-            checking</fr:em> (recalling Voevodsky's concerns with correctness "at the
-            bleeding edge").
-        </fr:li></fr:ul></fr:p><fr:p>
-    The contrast between the minimalistic ZFC and potentially enormous "user
-    friendly" univalent type theories is reminiscent of Hilbert style proofs vs
-    natural deduction. Indeed, it's like how Ronnie calls set theory "the
-    machine/assembly language of math" (kind of paraphrase), and Max calls SK
-    combinators "the machine/assembly language of λ-calculus".
-</fr:p><fr:p>
-    Natural deduction is certainly more complicated than SK/Hilbert proof
-    systems, but has nice usability properties that are worth study and
-    implementation.
-    The general mathematical trend seems to be that of starting with a spartan
-    formal system, then gradually making it more user friendly to accomodate
-    every increasingly complicated mathematics, where the minimalistic system
-    starts to leave one wanting.
-</fr:p><fr:p>
-    Maddy only mentions Coq, but being 2019 it would've been nice is somewhat
-    redundant to mention other proof assistants eg Cubical Agda.
-</fr:p><fr:p>
-    I've used quotes here as air quotes, not actual quotes of Maddy.
-    <fr:link
-href="maddy-2019.pdf"
-type="external">maddy-2019.pdf</fr:link></fr:p></fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+root="false"><fr:frontmatter><fr:anchor>391</fr:anchor><fr:taxon>Abstract</fr:taxon><fr:addr>#253</fr:addr><fr:route>unstable-253.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>7</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>22</fr:day></fr:date><fr:parent>street-2012</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        During my Topology lectures at Macquarie University in the 1970s, the
+        students and I realized, in proving that a function f between posets was
+        order preserving when there was a function u in the reverse direction such
+        that f (x) ≤ a if and only if x ≤ u(a), did not require u to be order
+        preserving. I realized then that knowing functors in the two directions
+        only on objects and the usual hom adjointness isomorphism implied the
+        effect of the functors on homs was uniquely determined. Writing this down
+        properly led to the present paper.
+    </fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

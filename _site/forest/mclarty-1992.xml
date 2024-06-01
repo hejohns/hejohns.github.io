@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>425</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>mclarty-1992</fr:addr><fr:route>mclarty-1992.xml</fr:route><fr:title>Elementary Categories, Elementary Toposes</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>31</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date></fr:frontmatter><fr:mainmatter></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context></fr:context><fr:related></fr:related><fr:backlinks><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>423</fr:anchor><fr:taxon>Exposition</fr:taxon><fr:addr>hejohns-000C</fr:addr><fr:route>hejohns-000C.xml</fr:route><fr:title>Elementary² toposes</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>31</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="hejohns.xml"
+type="local"
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+    The following are some basic (alt. elementary) questions, whose "elevator
+    pitch" answers ought to roll off the tongue:
+    <fr:ul><fr:li>
+            What is a(n elementary) topos?
+        </fr:li>
+        <fr:li>
+            What is this "topos logic" that is sound in any elementary topos?
+            As in literally, what is the syntax?
+            Is it the same thing as this "higher-order intuitionistic logic"?
+            What are the inference rules/axioms?
+        </fr:li>
+        <fr:li>
+            What is this "Kripke-Joyal semantics"?
+            Is this the same thing as the so-called "forcing semantics"?
+        </fr:li>
+        <fr:li>
+            What is this "Mitchell-Bénabou language"?
+            Is it the same thing as "topos logic"?
+        </fr:li></fr:ul>
+    Following <fr:link
+href="mclarty-1992.xml"
+type="local"
+addr="mclarty-1992">Elementary Categories, Elementary Toposes</fr:link>, we sketch <fr:em>elementary</fr:em> answers to these.
+</fr:p><fr:p>
+    Some more difficult questions we do not attempt to answer at the moment:
+    <fr:ul><fr:li>
+            What is a Grothendieck topos, and what's the difference v.
+            elementary toposes?
+        </fr:li>
+        <fr:li>
+            What is a "geometric logic" and a "geometric morphism"?
+            And what's the difference v. a "logical morphism"?
+        </fr:li>
+        <fr:li>
+            In what sense is "Kripke-Joyal semantics" a "forcing semantics"?
+            (What is forcing??)
+        </fr:li>
+        <fr:li>
+            And everything else…
+        </fr:li></fr:ul></fr:p><fr:p>
+    Many object to the name "higher-order intuitionistic logic".
+    <fr:link
+href="blass-1988.xml"
+type="local"
+addr="blass-1988">Topoi and Computation</fr:link> says "Strictly speaking, the phrase 'higher-order
+    intuitionistic' makes little sense, since it is not clear that
+    constructions like the power set are intuitionistically acceptable. What is
+    meant by the phrase is a type theory built on a formally intuitionistic
+    underlying logic."
+    <fr:link
+href="maclarty-1992"
+type="external">maclarty-1992</fr:link> says "TODO".
+</fr:p></fr:mainmatter></fr:tree></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

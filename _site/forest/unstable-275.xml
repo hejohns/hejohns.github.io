@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>313</fr:anchor><fr:taxon>Notes</fr:taxon><fr:addr>#275</fr:addr><fr:route>unstable-275.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:parent>blass-1988</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        Prof. Blass essentially described this background over the course of
+        the logic seminar last semester (as comments at various meetings,
+        culminating with a full talk), but this is a nice written account of
+        the history of topos theory, the relation between Grothendieck and
+        Elementary topoi, and the relation between geometric and logical
+        morphisms.
+    </fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>312</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>blass-1988</fr:addr><fr:route>blass-1988.xml</fr:route><fr:title>Topoi and Computation</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>308</fr:anchor><fr:taxon>Abstract</fr:taxon><fr:addr>#274</fr:addr><fr:route>unstable-274.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:parent>blass-1988</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        This is the written version of a talk given at the C.I.R.M. Workshop on
+        Logic in Computer Science at Marseille, France in June, 1988. Its purpose
+        is to argue that there is a close connection between the theory of
+        computation and the geometric side of topos theory. We begin with a brief
+        outline of the history and basic concepts of topos theory.
+    </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>309</fr:anchor><fr:taxon>Notes</fr:taxon><fr:addr>#275</fr:addr><fr:route>unstable-275.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:parent>blass-1988</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        Prof. Blass essentially described this background over the course of
+        the logic seminar last semester (as comments at various meetings,
+        culminating with a full talk), but this is a nice written account of
+        the history of topos theory, the relation between Grothendieck and
+        Elementary topoi, and the relation between geometric and logical
+        morphisms.
+    </fr:p></fr:mainmatter></fr:tree><fr:p><fr:link
+href="blass-1988.pdf"
+type="external">blass-1988.pdf</fr:link></fr:p></fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

@@ -7,7 +7,7 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>299</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>van-heijenoort-1967</fr:addr><fr:route>van-heijenoort-1967.xml</fr:route><fr:title>From Frege To Gödel</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>28</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>29</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>487</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>van-heijenoort-1967</fr:addr><fr:route>van-heijenoort-1967.xml</fr:route><fr:title>From Frege To Gödel</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>28</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>29</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p>
     A+. I should get a second copy to gift whenever needed.
 </fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context></fr:context><fr:related></fr:related><fr:backlinks><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
@@ -16,7 +16,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>298</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>von-neumann-1925</fr:addr><fr:route>von-neumann-1925.xml</fr:route><fr:title>An Axiomatization of Set Theory</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>28</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>29</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>486</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>von-neumann-1925</fr:addr><fr:route>von-neumann-1925.xml</fr:route><fr:title>An Axiomatization of Set Theory</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>28</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>29</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p>
     One of the early NBG papers. Maybe "the" NBG paper.
     My notes on this are currently in <fr:link
 href="quine-1960.xml"

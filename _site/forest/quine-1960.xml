@@ -7,7 +7,7 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>307</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>quine-1960</fr:addr><fr:route>quine-1960.xml</fr:route><fr:title>Variables Explained Away</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>28</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>29</fr:day></fr:date><fr:authors><fr:contributor><fr:link
+root="false"><fr:frontmatter><fr:anchor>490</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>quine-1960</fr:addr><fr:route>quine-1960.xml</fr:route><fr:title>Variables Explained Away</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>28</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>29</fr:day></fr:date><fr:authors><fr:contributor><fr:link
 href="hejohns.xml"
 type="local"
 addr="hejohns">Johnson He</fr:link></fr:contributor></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -24,7 +24,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>280</fr:anchor><fr:taxon>Email</fr:taxon><fr:addr>#250</fr:addr><fr:route>unstable-250.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>28</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>29</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>387</fr:anchor><fr:taxon>Email</fr:taxon><fr:addr>#257</fr:addr><fr:route>unstable-257.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>28</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>29</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
 addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>quine-1960</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
@@ -90,7 +90,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>306</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>von-neumann-1925</fr:addr><fr:route>von-neumann-1925.xml</fr:route><fr:title>An Axiomatization of Set Theory</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>28</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>29</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>489</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>von-neumann-1925</fr:addr><fr:route>von-neumann-1925.xml</fr:route><fr:title>An Axiomatization of Set Theory</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>28</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>29</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p>
     One of the early NBG papers. Maybe "the" NBG paper.
     My notes on this are currently in <fr:link
 href="quine-1960.xml"
@@ -108,7 +108,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>305</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>von-neumann-1925</fr:addr><fr:route>von-neumann-1925.xml</fr:route><fr:title>An Axiomatization of Set Theory</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>28</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>29</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>488</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>von-neumann-1925</fr:addr><fr:route>von-neumann-1925.xml</fr:route><fr:title>An Axiomatization of Set Theory</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>28</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>29</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p>
     One of the early NBG papers. Maybe "the" NBG paper.
     My notes on this are currently in <fr:link
 href="quine-1960.xml"
