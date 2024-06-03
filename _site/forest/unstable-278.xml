@@ -7,146 +7,70 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>597</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#278</fr:addr><fr:route>unstable-278.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>449</fr:anchor><fr:addr>#278</fr:addr><fr:route>unstable-278.xml</fr:route><fr:title><fr:link
+href="hejohns-000C.xml"
+type="local"
+addr="hejohns-000C">Elementary² toposes</fr:link> › elementary questions</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>31</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
-addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000E</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-        We use the same notation and definitions of <fr:tex>η, ϵ,  \overline {F} ,  \overline {U}</fr:tex> as <fr:link
-href="hejohns-000D.xml"
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000C</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        Some basic questions, whose "elevator pitch" answers ought to roll off
+        the tongue:
+        <fr:ul><fr:li>
+                What is a(n elementary) topos?
+            </fr:li>
+            <fr:li>
+                What is this "topos logic" that is sound in any elementary topos?
+                As in literally, what is the syntax?
+                Is it the same thing as this "higher-order intuitionistic logic"?
+                What are the inference rules/axioms?
+            </fr:li>
+            <fr:li>
+                What is this "Kripke-Joyal semantics"?
+                Is this the same thing as the so-called "forcing semantics"?
+            </fr:li>
+            <fr:li>
+                What is this "Mitchell-Bénabou language"?
+                Is it the same thing as "topos logic"?
+            </fr:li></fr:ul>
+        Following <fr:link
+href="mclarty-1992.xml"
 type="local"
-addr="hejohns-000D">the
-        explicit proof of the precursor lemma</fr:link>.
-        The definition of <fr:tex>\overline {F} ,  \overline {U}</fr:tex> in <fr:link
-href="sub-0007.xml"
-type="local"
-addr="sub-0007">the short proof</fr:link>
-        presupposes that <fr:tex>U</fr:tex> is a functor, so we're scrupulous to avoid
-        circularity.
+addr="mclarty-1992">Elementary Categories, Elementary Toposes</fr:link>, we sketch <fr:em>elementary</fr:em> answers to these.
     </fr:p><fr:p>
-        This proof is rather low tech and is lifted straight from <fr:link
-href="street-2012.xml"
-type="local"
-addr="street-2012">the
-        paper</fr:link>. It's also how you'd attack <fr:link
-href="hejohns-0007.xml"
-type="local"
-addr="hejohns-0007">the
-        precursor</fr:link> head-on. The utility is that it holds in
-        enriched categories.
-    </fr:p><fr:p>
-        The forward directions are trivial.
-        Suppose <fr:tex>(F, U, (π_{a, x})_{a ∈ A, x ∈ X})</fr:tex> extends to <fr:tex>\overline {F}  ⊣_π  \overline {U}</fr:tex>.
-        Then <fr:link
-href="subb-000E.xml"
-type="local"
-addr="subb-000E">I</fr:link> expresses that <fr:tex>∀g : A(a, b). ∀f : A(F(x), a).         π_{x, b}(g∘f) =  \overline {U} (g)∘π_{a, x}(f)</fr:tex>. This is exactly the condition
-        that <fr:tex>∀g : A(a, b). π</fr:tex> is natural in <fr:tex>a</fr:tex> at <fr:tex>g</fr:tex>, which is certainly
-        true of an adjunction.
-        <fr:link
-href="subbb-000E.xml"
-type="local"
-addr="subbb-000E">II</fr:link> expresses something similar (dual).
-    </fr:p><fr:p>
-        The nontrivial directions are the backward directions.
-    </fr:p><fr:ul><fr:li><fr:p>
-                (I) wts I <fr:tex>⟹  \overline {U}</fr:tex> is a functor.
-                Suppose <fr:tex>∀a,b ∈ A. ∀x ∈ X.</fr:tex> I holds.
-                Then in particular, <fr:tex>∀c ∈ A. </fr:tex>I holds at <fr:tex>x = U(c)</fr:tex>.
-            </fr:p>
-            
-        <fr:embedded-tex
-hash="ac9736f09827370a30fbadded4abb953"><fr:embedded-tex-preamble>\usepackage {tikz-cd} \usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
-             \begin {tikzcd}
-                A( a ,  b )×A(F Uc ,  a )  \ar [r, " \overline {U} ×π_{ a , Uc }"] \ar [d, "∘"] &amp; X(U a , U b )×X( Uc , U a )  \ar [d, "∘"]  \\ 
-                A(F Uc ,  b )  \ar [r, "π_{ Uc ,  b }"] &amp; X( Uc , U b )
-             \end {tikzcd}
-        </fr:embedded-tex-body></fr:embedded-tex>
-
-            <fr:p>
-                As does this trivial square:
-            </fr:p>
-            <fr:embedded-tex
-hash="aaf8d81120cfc4781697983614442d7a"><fr:embedded-tex-preamble>\usepackage {tikz-cd} \usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
-                 \begin {tikzcd}
-                    A(a, b)×A(c, a)  \ar [r, "id×(-∘ϵ_c)"] \ar [d, "∘"] &amp; A(a, b)×A(FUc, a)  \ar [d, "∘"]  \\ 
-                    A(c, b)  \ar [r, "(-∘ϵ_c)"] &amp; A(FUc, b)
-                 \end {tikzcd}
-            </fr:embedded-tex-body></fr:embedded-tex>
-            <fr:p>
-                which when pasted together, tells us magically:
-            </fr:p>
-            <fr:embedded-tex
-hash="2dec512dfc1acbbf48b6d09e3842ea04"><fr:embedded-tex-preamble>\usepackage {tikz-cd} \usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
-                 \begin {tikzcd}
-                    A(a, b)×A(c, a)  \ar [r, " \overline {U} × \overline {U} "] \ar [d, "∘"] &amp; X(Ua, Ub)×X(Uc, Ua)  \ar [d, "∘"]  \\ 
-                    A(c, b)  \ar [r, " \overline {U} "] &amp; X(Uc, Ub)
-                 \end {tikzcd}
-            </fr:embedded-tex-body></fr:embedded-tex>
-            <fr:p>
-                Combined with <fr:link
-href="hejohns-000D.xml"
-type="local"
-addr="hejohns-000D">the earlier proof</fr:link> that <fr:tex>\overline {U} (1ₐ)                 = 1_{ \overline {U} (a)}</fr:tex> (which just follows by definition),
-                we've shown that <fr:tex>\overline {U}</fr:tex> defines a functorial action on morphisms.
-                Actually, we saw earlier that <fr:link
-href="subb-000E.xml"
-type="local"
-addr="subb-000E">I</fr:link> expresses that
-                <fr:tex>π</fr:tex> is natural in <fr:tex>a</fr:tex>, so we've met the preconditions of <fr:link
-href="hejohns-0007.xml"
-type="local"
-addr="hejohns-0007">the
-                precursor lemma</fr:link>, thus there is a unique
-                extension <fr:tex>\overline {F}</fr:tex> st <fr:tex>\overline {F}  ⊣_π  \overline {U}</fr:tex>.
-            </fr:p>
-            <fr:p>
-                There's two ways ways to see the uniqueness situation:
-            </fr:p>
-            <fr:ul><fr:li>
-                    (An intermediate notion) <fr:tex>\overline {U}</fr:tex> is the unique extension of
-                    <fr:tex>U</fr:tex> to a functor st <fr:tex>π</fr:tex> is natural in <fr:tex>a</fr:tex>.
-                    We've essentially seen this already, if not literally.
-                    For any functor <fr:tex>U'</fr:tex>, naturality in <fr:tex>a</fr:tex> requires the following square to hold for all <fr:tex>g : A(a, b)</fr:tex>:
-                    <fr:embedded-tex
-hash="7bced74c5568df77fd9237f12eab5655"><fr:embedded-tex-preamble>\usepackage {tikz-cd} \usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
-                         \begin {tikzcd}
-                            A(FU'a, a)  \ar [r, "g∘-"] &amp; A(FU'a, b)  \ar [d, "≀"', "π"]  \\ 
-                            X(U'a, U'a)  \ar [r, "U'g∘-"] \ar [u, "≀"', "π⁻¹"] &amp; X(U'a, U'b)
-                         \end {tikzcd}
-                    </fr:embedded-tex-body></fr:embedded-tex>
-                    Thus, <fr:tex>∀g. U'(g) =  \overline {U} (g)</fr:tex>.
-                    Then, with <fr:tex>\overline {U}</fr:tex> a functor and <fr:tex>π</fr:tex> natural in <fr:tex>a</fr:tex>, <fr:link
-href="hejohns-0007.xml"
-type="local"
-addr="hejohns-0007">the
-                    precursor</fr:link> gives us a unique <fr:tex>\overline {F}</fr:tex> st <fr:tex>\overline {F}                      ⊣  \overline {U}</fr:tex> uniquely.
-                </fr:li>
-                <fr:li>
-                    (Going backwards) Since the definitions of <fr:tex>\overline {F}</fr:tex> and
-                    <fr:tex>\overline {U}</fr:tex> (in <fr:link
-href="hejohns-0007.xml"
-type="local"
-addr="hejohns-0007">the precursor</fr:link>) are not dependent
-                    on the other functor, the total adjunction <fr:tex>\overline {F}  ⊣  \overline {U}</fr:tex> is
-                    the unique one extending the core by applying the
-                    uniqueness result of <fr:link
-href="hejohns-0007.xml"
-type="local"
-addr="hejohns-0007">the precusor</fr:link> to each
-                    functor in turn, just knowing the other is a well-defined
-                    functor.
-                </fr:li></fr:ul></fr:li>
-        <fr:li><fr:p>
-                (II) wts II <fr:tex>⟹  \overline {F}</fr:tex> is a functor.
-                This is dual.
-            </fr:p></fr:li></fr:ul></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
+        Some more difficult questions we do not attempt to answer at the moment:
+        <fr:ul><fr:li>
+                What is a Grothendieck topos, and what's the difference v.
+                elementary toposes?
+            </fr:li>
+            <fr:li>
+                What is a "geometric logic" and a "geometric morphism"?
+                And what's the difference v. a "logical morphism"?
+            </fr:li>
+            <fr:li>
+                In what sense is "Kripke-Joyal semantics" a "forcing semantics"?
+                What is forcing??
+                Why does the concept of "generic" show up everywhere?
+            </fr:li>
+            <fr:li>
+                What's all this algebraic geometry stuff?
+            </fr:li>
+            <fr:li>
+                And everything else…
+            </fr:li></fr:ul></fr:p><fr:p>
+        Although as you might expect, we quickly derail from "elevator pitch"
+        answers, to "quick, write that down before I lose motivation and never
+        complete the sentence".
+        A truly FAQ-style answer compendium will have to come later-- after I've
+        actually learned the basics.
+    </fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>595</fr:anchor><fr:taxon>Lemma</fr:taxon><fr:addr>hejohns-000E</fr:addr><fr:route>hejohns-000E.xml</fr:route><fr:title>Adjunction core</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>447</fr:anchor><fr:taxon>Exposition</fr:taxon><fr:addr>hejohns-000C</fr:addr><fr:route>hejohns-000C.xml</fr:route><fr:title>Elementary² toposes</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>31</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
 addr="hejohns">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:tree
@@ -156,869 +80,132 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>358</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>#276</fr:addr><fr:route>unstable-276.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>330</fr:anchor><fr:addr>#278</fr:addr><fr:route>unstable-278.xml</fr:route><fr:title>Elementary questions</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>31</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
-addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000E</fr:parent></fr:frontmatter><fr:mainmatter><fr:p><fr:link
-href="street-2012.xml"
-type="local"
-addr="street-2012">"An adjunction core consists of"</fr:link>
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000C</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        Some basic questions, whose "elevator pitch" answers ought to roll off
+        the tongue:
         <fr:ul><fr:li>
-                functions <fr:tex>U : A .ob → X .ob</fr:tex> and <fr:tex>F : X .ob → A .ob</fr:tex></fr:li>
+                What is a(n elementary) topos?
+            </fr:li>
             <fr:li>
-                a family of isomorphisms <fr:tex>(π_{x,a} : A(F(x), a) ≅ X(X, U(a)))_{a ∈ A, x ∈ X}</fr:tex></fr:li></fr:ul></fr:p></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>364</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:addr>#277</fr:addr><fr:route>unstable-277.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="hejohns.xml"
+                What is this "topos logic" that is sound in any elementary topos?
+                As in literally, what is the syntax?
+                Is it the same thing as this "higher-order intuitionistic logic"?
+                What are the inference rules/axioms?
+            </fr:li>
+            <fr:li>
+                What is this "Kripke-Joyal semantics"?
+                Is this the same thing as the so-called "forcing semantics"?
+            </fr:li>
+            <fr:li>
+                What is this "Mitchell-Bénabou language"?
+                Is it the same thing as "topos logic"?
+            </fr:li></fr:ul>
+        Following <fr:link
+href="mclarty-1992.xml"
 type="local"
-addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000E</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-        An adjunction core extends to an adjuction iff <fr:tex>∀a,b ∈ A. ∀x ∈ X.</fr:tex>
-        <fr:link
-href="subb-000E.xml"
-type="local"
-addr="subb-000E">I</fr:link> commutes, and iff <fr:tex>∀x,y ∈ X. a ∈ A.</fr:tex> <fr:link
-href="subbb-000E.xml"
-type="local"
-addr="subbb-000E">II</fr:link>
-        commutes.
-        The adjunction is unique when it exists.
+addr="mclarty-1992">Elementary Categories, Elementary Toposes</fr:link>, we sketch <fr:em>elementary</fr:em> answers to these.
     </fr:p><fr:p>
-        The <fr:link
-href="street-2012.xml"
-type="local"
-addr="street-2012">original theorem</fr:link> is stated in terms of
-        <fr:tex>\mathcal {V}</fr:tex>-enriched categories, but we only treat the simple case
-        of Homset-categories here.
-    </fr:p><fr:tree
+        Some more difficult questions we do not attempt to answer at the moment:
+        <fr:ul><fr:li>
+                What is a Grothendieck topos, and what's the difference v.
+                elementary toposes?
+            </fr:li>
+            <fr:li>
+                What is a "geometric logic" and a "geometric morphism"?
+                And what's the difference v. a "logical morphism"?
+            </fr:li>
+            <fr:li>
+                In what sense is "Kripke-Joyal semantics" a "forcing semantics"?
+                What is forcing??
+                Why does the concept of "generic" show up everywhere?
+            </fr:li>
+            <fr:li>
+                What's all this algebraic geometry stuff?
+            </fr:li>
+            <fr:li>
+                And everything else…
+            </fr:li></fr:ul></fr:p><fr:p>
+        Although as you might expect, we quickly derail from "elevator pitch"
+        answers, to "quick, write that down before I lose motivation and never
+        complete the sentence".
+        A truly FAQ-style answer compendium will have to come later-- after I've
+        actually learned the basics.
+    </fr:p></fr:mainmatter></fr:tree><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>360</fr:anchor><fr:addr>subb-000E</fr:addr><fr:route>subb-000E.xml</fr:route><fr:title>I</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>332</fr:anchor><fr:addr>#279</fr:addr><fr:route>unstable-279.xml</fr:route><fr:title>Elementary answers</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>31</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
-addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>#277</fr:parent></fr:frontmatter><fr:mainmatter>
-        <fr:embedded-tex
-hash="a09fe1256faafb1bc13a1cc059df3388"><fr:embedded-tex-preamble>\usepackage {tikz-cd} \usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
-             \begin {tikzcd}
-                A( a ,  b )×A(F x ,  a )  \ar [r, " \overline {U} ×π_{ a , x }"] \ar [d, "∘"] &amp; X(U a , U b )×X( x , U a )  \ar [d, "∘"]  \\ 
-                A(F x ,  b )  \ar [r, "π_{ x ,  b }"] &amp; X( x , U b )
-             \end {tikzcd}
-        </fr:embedded-tex-body></fr:embedded-tex>
-</fr:mainmatter></fr:tree><fr:tree
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000C</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>362</fr:anchor><fr:addr>subbb-000E</fr:addr><fr:route>subbb-000E.xml</fr:route><fr:title>II</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>302</fr:anchor><fr:addr>hejohns-000H</fr:addr><fr:route>hejohns-000H.xml</fr:route><fr:title>Why is it called an "elementary" topos?</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
-addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>#277</fr:parent></fr:frontmatter><fr:mainmatter>
-        <fr:embedded-tex
-hash="8fd7996c4b1a3e39d4bda43697f06cf9"><fr:embedded-tex-preamble>\usepackage {tikz-cd} \usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
-             \begin {tikzcd}
-                X( y , U a )×X( x ,  y )  \ar [r, "π_{ y ,  a }⁻¹× \overline {F} "] \ar [d, "∘"] &amp; A(F y ,  a )×A(F x , F y )  \ar [d, "∘"]  \\ 
-                X( x , U a )  \ar [r, "π_{x, a}⁻¹"] &amp; A(F x ,  a )
-             \end {tikzcd}
-        </fr:embedded-tex-body></fr:embedded-tex>
-</fr:mainmatter></fr:tree></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>366</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#278</fr:addr><fr:route>unstable-278.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="hejohns.xml"
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:link
+href="blass-1988.xml"
 type="local"
-addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000E</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-        We use the same notation and definitions of <fr:tex>η, ϵ,  \overline {F} ,  \overline {U}</fr:tex> as <fr:link
-href="hejohns-000D.xml"
-type="local"
-addr="hejohns-000D">the
-        explicit proof of the precursor lemma</fr:link>.
-        The definition of <fr:tex>\overline {F} ,  \overline {U}</fr:tex> in <fr:link
-href="sub-0007.xml"
-type="local"
-addr="sub-0007">the short proof</fr:link>
-        presupposes that <fr:tex>U</fr:tex> is a functor, so we're scrupulous to avoid
-        circularity.
-    </fr:p><fr:p>
-        This proof is rather low tech and is lifted straight from <fr:link
-href="street-2012.xml"
-type="local"
-addr="street-2012">the
-        paper</fr:link>. It's also how you'd attack <fr:link
-href="hejohns-0007.xml"
-type="local"
-addr="hejohns-0007">the
-        precursor</fr:link> head-on. The utility is that it holds in
-        enriched categories.
-    </fr:p><fr:p>
-        The forward directions are trivial.
-        Suppose <fr:tex>(F, U, (π_{a, x})_{a ∈ A, x ∈ X})</fr:tex> extends to <fr:tex>\overline {F}  ⊣_π  \overline {U}</fr:tex>.
-        Then <fr:link
-href="subb-000E.xml"
-type="local"
-addr="subb-000E">I</fr:link> expresses that <fr:tex>∀g : A(a, b). ∀f : A(F(x), a).         π_{x, b}(g∘f) =  \overline {U} (g)∘π_{a, x}(f)</fr:tex>. This is exactly the condition
-        that <fr:tex>∀g : A(a, b). π</fr:tex> is natural in <fr:tex>a</fr:tex> at <fr:tex>g</fr:tex>, which is certainly
-        true of an adjunction.
-        <fr:link
-href="subbb-000E.xml"
-type="local"
-addr="subbb-000E">II</fr:link> expresses something similar (dual).
-    </fr:p><fr:p>
-        The nontrivial directions are the backward directions.
-    </fr:p><fr:ul><fr:li><fr:p>
-                (I) wts I <fr:tex>⟹  \overline {U}</fr:tex> is a functor.
-                Suppose <fr:tex>∀a,b ∈ A. ∀x ∈ X.</fr:tex> I holds.
-                Then in particular, <fr:tex>∀c ∈ A. </fr:tex>I holds at <fr:tex>x = U(c)</fr:tex>.
-            </fr:p>
-            
-        <fr:embedded-tex
-hash="ac9736f09827370a30fbadded4abb953"><fr:embedded-tex-preamble>\usepackage {tikz-cd} \usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
-             \begin {tikzcd}
-                A( a ,  b )×A(F Uc ,  a )  \ar [r, " \overline {U} ×π_{ a , Uc }"] \ar [d, "∘"] &amp; X(U a , U b )×X( Uc , U a )  \ar [d, "∘"]  \\ 
-                A(F Uc ,  b )  \ar [r, "π_{ Uc ,  b }"] &amp; X( Uc , U b )
-             \end {tikzcd}
-        </fr:embedded-tex-body></fr:embedded-tex>
-
-            <fr:p>
-                As does this trivial square:
-            </fr:p>
-            <fr:embedded-tex
-hash="aaf8d81120cfc4781697983614442d7a"><fr:embedded-tex-preamble>\usepackage {tikz-cd} \usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
-                 \begin {tikzcd}
-                    A(a, b)×A(c, a)  \ar [r, "id×(-∘ϵ_c)"] \ar [d, "∘"] &amp; A(a, b)×A(FUc, a)  \ar [d, "∘"]  \\ 
-                    A(c, b)  \ar [r, "(-∘ϵ_c)"] &amp; A(FUc, b)
-                 \end {tikzcd}
-            </fr:embedded-tex-body></fr:embedded-tex>
-            <fr:p>
-                which when pasted together, tells us magically:
-            </fr:p>
-            <fr:embedded-tex
-hash="2dec512dfc1acbbf48b6d09e3842ea04"><fr:embedded-tex-preamble>\usepackage {tikz-cd} \usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
-                 \begin {tikzcd}
-                    A(a, b)×A(c, a)  \ar [r, " \overline {U} × \overline {U} "] \ar [d, "∘"] &amp; X(Ua, Ub)×X(Uc, Ua)  \ar [d, "∘"]  \\ 
-                    A(c, b)  \ar [r, " \overline {U} "] &amp; X(Uc, Ub)
-                 \end {tikzcd}
-            </fr:embedded-tex-body></fr:embedded-tex>
-            <fr:p>
-                Combined with <fr:link
-href="hejohns-000D.xml"
-type="local"
-addr="hejohns-000D">the earlier proof</fr:link> that <fr:tex>\overline {U} (1ₐ)                 = 1_{ \overline {U} (a)}</fr:tex> (which just follows by definition),
-                we've shown that <fr:tex>\overline {U}</fr:tex> defines a functorial action on morphisms.
-                Actually, we saw earlier that <fr:link
-href="subb-000E.xml"
-type="local"
-addr="subb-000E">I</fr:link> expresses that
-                <fr:tex>π</fr:tex> is natural in <fr:tex>a</fr:tex>, so we've met the preconditions of <fr:link
-href="hejohns-0007.xml"
-type="local"
-addr="hejohns-0007">the
-                precursor lemma</fr:link>, thus there is a unique
-                extension <fr:tex>\overline {F}</fr:tex> st <fr:tex>\overline {F}  ⊣_π  \overline {U}</fr:tex>.
-            </fr:p>
-            <fr:p>
-                There's two ways ways to see the uniqueness situation:
-            </fr:p>
-            <fr:ul><fr:li>
-                    (An intermediate notion) <fr:tex>\overline {U}</fr:tex> is the unique extension of
-                    <fr:tex>U</fr:tex> to a functor st <fr:tex>π</fr:tex> is natural in <fr:tex>a</fr:tex>.
-                    We've essentially seen this already, if not literally.
-                    For any functor <fr:tex>U'</fr:tex>, naturality in <fr:tex>a</fr:tex> requires the following square to hold for all <fr:tex>g : A(a, b)</fr:tex>:
-                    <fr:embedded-tex
-hash="7bced74c5568df77fd9237f12eab5655"><fr:embedded-tex-preamble>\usepackage {tikz-cd} \usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
-                         \begin {tikzcd}
-                            A(FU'a, a)  \ar [r, "g∘-"] &amp; A(FU'a, b)  \ar [d, "≀"', "π"]  \\ 
-                            X(U'a, U'a)  \ar [r, "U'g∘-"] \ar [u, "≀"', "π⁻¹"] &amp; X(U'a, U'b)
-                         \end {tikzcd}
-                    </fr:embedded-tex-body></fr:embedded-tex>
-                    Thus, <fr:tex>∀g. U'(g) =  \overline {U} (g)</fr:tex>.
-                    Then, with <fr:tex>\overline {U}</fr:tex> a functor and <fr:tex>π</fr:tex> natural in <fr:tex>a</fr:tex>, <fr:link
-href="hejohns-0007.xml"
-type="local"
-addr="hejohns-0007">the
-                    precursor</fr:link> gives us a unique <fr:tex>\overline {F}</fr:tex> st <fr:tex>\overline {F}                      ⊣  \overline {U}</fr:tex> uniquely.
-                </fr:li>
-                <fr:li>
-                    (Going backwards) Since the definitions of <fr:tex>\overline {F}</fr:tex> and
-                    <fr:tex>\overline {U}</fr:tex> (in <fr:link
-href="hejohns-0007.xml"
-type="local"
-addr="hejohns-0007">the precursor</fr:link>) are not dependent
-                    on the other functor, the total adjunction <fr:tex>\overline {F}  ⊣  \overline {U}</fr:tex> is
-                    the unique one extending the core by applying the
-                    uniqueness result of <fr:link
-href="hejohns-0007.xml"
-type="local"
-addr="hejohns-0007">the precusor</fr:link> to each
-                    functor in turn, just knowing the other is a well-defined
-                    functor.
-                </fr:li></fr:ul></fr:li>
-        <fr:li><fr:p>
-                (II) wts II <fr:tex>⟹  \overline {F}</fr:tex> is a functor.
-                This is dual.
-            </fr:p></fr:li></fr:ul></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>368</fr:anchor><fr:taxon>Proof corollary</fr:taxon><fr:addr>sub-000E</fr:addr><fr:route>sub-000E.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="hejohns.xml"
-type="local"
-addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000E</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-        (For <fr:tex>V</fr:tex>-enriched categories, ) If <fr:tex>V</fr:tex> is thin, all diagrams commute,
-        thus an adjunction core always determines an adjunction.
-    </fr:p><fr:p><fr:tex>Set</fr:tex> isn't thin, but <fr:tex>2</fr:tex> is, thus for posets, an adjunction core
-        gives rise to a thin adjunction, as remarked <fr:link
-href="subb-0006.xml"
-type="local"
-addr="subb-0006">here</fr:link>.
-        I don't know how useful this lemma is for ordinary Homset categories.
-    </fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:context><fr:related><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>585</fr:anchor><fr:addr>subb-000E</fr:addr><fr:route>subb-000E.xml</fr:route><fr:title><fr:link
-href="unstable-277.xml"
-type="local"
-addr="#277">Untitled</fr:link> › I</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="hejohns.xml"
-type="local"
-addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>#277</fr:parent></fr:frontmatter><fr:mainmatter>
-        <fr:embedded-tex
-hash="a09fe1256faafb1bc13a1cc059df3388"><fr:embedded-tex-preamble>\usepackage {tikz-cd} \usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
-             \begin {tikzcd}
-                A( a ,  b )×A(F x ,  a )  \ar [r, " \overline {U} ×π_{ a , x }"] \ar [d, "∘"] &amp; X(U a , U b )×X( x , U a )  \ar [d, "∘"]  \\ 
-                A(F x ,  b )  \ar [r, "π_{ x ,  b }"] &amp; X( x , U b )
-             \end {tikzcd}
-        </fr:embedded-tex-body></fr:embedded-tex>
-</fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>587</fr:anchor><fr:addr>subbb-000E</fr:addr><fr:route>subbb-000E.xml</fr:route><fr:title><fr:link
-href="unstable-277.xml"
-type="local"
-addr="#277">Untitled</fr:link> › II</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="hejohns.xml"
-type="local"
-addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>#277</fr:parent></fr:frontmatter><fr:mainmatter>
-        <fr:embedded-tex
-hash="8fd7996c4b1a3e39d4bda43697f06cf9"><fr:embedded-tex-preamble>\usepackage {tikz-cd} \usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
-             \begin {tikzcd}
-                X( y , U a )×X( x ,  y )  \ar [r, "π_{ y ,  a }⁻¹× \overline {F} "] \ar [d, "∘"] &amp; A(F y ,  a )×A(F x , F y )  \ar [d, "∘"]  \\ 
-                X( x , U a )  \ar [r, "π_{x, a}⁻¹"] &amp; A(F x ,  a )
-             \end {tikzcd}
-        </fr:embedded-tex-body></fr:embedded-tex>
-</fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>589</fr:anchor><fr:taxon>Lemma</fr:taxon><fr:addr>hejohns-0007</fr:addr><fr:route>hejohns-0007.xml</fr:route><fr:title>Precursor to The Core of Adjoint Functors</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>7</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="hejohns.xml"
-type="local"
-addr="hejohns">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-    Mentioned in passing as <fr:link
-href="street-2012.xml"
-type="local"
-addr="street-2012">2.1. Proposition.</fr:link>, as "well-known".
-</fr:p><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>338</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:addr>#267</fr:addr><fr:route>unstable-267.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>7</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="hejohns.xml"
-type="local"
-addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-0007</fr:parent></fr:frontmatter><fr:mainmatter><fr:ul><fr:li>
-            Suppose <fr:tex>U : A → X</fr:tex> is a functor, <fr:tex>F : X .ob → A .ob</fr:tex> a function,
-            and <fr:tex>(πₓ : A(F(x), -) ≅ X(x, U(-)))_{x ∈ X}</fr:tex> a family of natural
-            isomorphisms. Then there is a unique extension <fr:tex>\overline {F}</fr:tex> of <fr:tex>F</fr:tex> such
-            that <fr:tex>(πₓ)_{x ∈ X}</fr:tex> is natural in <fr:tex>x</fr:tex>, witnessing <fr:tex>\overline {F}  ⊣ U</fr:tex>.
-        </fr:li>
-        <fr:li>
-            Or dually, suppose that <fr:tex>F</fr:tex> is a functor, but <fr:tex>U</fr:tex> is just a
-            function on objects, and <fr:tex>(πₐ : A(F(-), a) ≅ X(-, U(a)))_{a ∈ A}</fr:tex>.
-            Then <fr:tex>U</fr:tex> uniquely extends to <fr:tex>\overline {U}</fr:tex>.
-        </fr:li></fr:ul></fr:mainmatter></fr:tree><fr:p>
-    Let's be pedantic and clarify that <fr:tex>A(F(-), -), X(-, U(-)): Xᵒᵖ → Setᴬ</fr:tex>
-    have the same action on morphisms as <fr:tex>Hom(-, -)∘Fᵒᵖ, λx. Hom(x, -)∘U</fr:tex>.
-    This is conventionally left implicit, but we remark to clarify what we mean
-    by the family of natural isomorphisms being natural.
+addr="blass-1988">Topoi and Computation</fr:link> writes that "The word 'elementary' in connection with the Lawvere-Tierney definition refers to the fact that their axioms are expressed in the first-order language of categories; in fact the axioms are essentially algebraic." (p. 2).
+    (Recall that categories can be formalized as a two or dependently-sorted
+    first order theory.)
 </fr:p><fr:p>
-    NOTE: I couldn't get よ to render in the latex (diagrams).
-    I'm not sure if it's a lualatex/dvi or font issue.
-</fr:p><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>344</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>sub-0007</fr:addr><fr:route>sub-0007.xml</fr:route><fr:title>The short proof (sketch)</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>7</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="hejohns.xml"
+    This is corroborated by <fr:link
+href="marquis-reyes-2012.xml"
 type="local"
-addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-0007</fr:parent></fr:frontmatter><fr:mainmatter><fr:ul><fr:li>
-            Suppose such a <fr:tex>\overline {F}</fr:tex> exists.
-            Then naturality of <fr:tex>π</fr:tex> requires that
-            <fr:tex>∀f : X(x, y).</fr:tex> this square in <fr:tex>Setᴬ</fr:tex> commutes:
-            <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>340</fr:anchor><fr:addr>subsub-0007</fr:addr><fr:route>subsub-0007.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>7</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="hejohns.xml"
+addr="marquis-reyes-2012">The history of categorical logic: 1963-1977</fr:link>, writing that "In the years
+    that followed, Lawvere tried to extend his analysis and sketched a
+    categorical version of first-order theories under the name of elementary
+    theories. Then, in 1969, in collaboration with Myles Tierney, Lawvere
+    introduced the notion of an elementary topos, making an explicit connection
+    with higher-order logic and type theories. Both Lawvere and Tierney were
+    aiming at an elementary, that is first-order, axiomatic presentation of
+    what are now called Grothendieck toposes, a special type of categories
+    introduced by Alexandre Grothendieck in the context of algebraic geometry
+    and sheaf theory. Soon after, connections with intuitionistic analysis,
+    recursive functions, completeness theorems for various logical systems,
+    differential geometry, constructive mathematics were made." (p. 2).
+</fr:p><fr:p>
+    If <fr:link
+href="lawvere-1970.xml"
 type="local"
-addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>sub-0007</fr:parent></fr:frontmatter><fr:mainmatter><fr:embedded-tex
-hash="04c41799d5084f092a5df1e435c7b32e"><fr:embedded-tex-preamble>\usepackage {tikz-cd} \usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
-                     \begin {tikzcd}                     A(F(x), -)  \ar [d, Rightarrow, "≀", "πₓ"'] &amp; A(F(y), -)  \ar [d, Rightarrow, "≀"', "π_y"] \ar [l, Rightarrow, "-∘ \overline {F} (f)"']  \\ 
-                        X(x, U(-)) &amp; X(y, U(-))  \ar [l, Rightarrow, "-∘f"]
-                     \end {tikzcd}
-                </fr:embedded-tex-body></fr:embedded-tex></fr:mainmatter></fr:tree>
-            Then clearly <fr:tex>∃! \overline {F} .∀f : X(x, y).  \overline {F} (f) = よ⁻¹(πₓ⁻¹∘(-∘f)∘π_y)</fr:tex>.
-        </fr:li>
-
-        <fr:li>
-            (dual) Suppose such a <fr:tex>\overline {U}</fr:tex> exists.
-            Then naturality of <fr:tex>π</fr:tex> requires that
-            <fr:tex>∀u : A(a, b).</fr:tex> this square in <fr:tex>Set^{Xᵒᵖ}</fr:tex> commutes:
-            <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>342</fr:anchor><fr:addr>subsubb-0007</fr:addr><fr:route>subsubb-0007.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>7</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="hejohns.xml"
-type="local"
-addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>sub-0007</fr:parent></fr:frontmatter><fr:mainmatter><fr:embedded-tex
-hash="8efe46a4066df01c4e80f07f43789adb"><fr:embedded-tex-preamble>\usepackage {tikz-cd} \usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
-                     \begin {tikzcd}
-                        A(F(-), a)  \ar [r, Rightarrow, "(u∘-)"] \ar [d, Rightarrow, "≀"', "πₐ"] &amp; A(F(-), b)  \ar [d, Rightarrow, "≀"', "π_b"]  \\ 
-                        X(-, U(a))  \ar [r, Rightarrow, "( \overline {U} (u)∘-)"] &amp; X(-, U(b))
-                     \end {tikzcd}
-                </fr:embedded-tex-body></fr:embedded-tex></fr:mainmatter></fr:tree>
-            and clearly <fr:tex>∃! \overline {U} .∀u : A(a, b).  \overline {U} (u) = よ⁻¹(π_b∘(u∘-)∘πₐ⁻¹)</fr:tex>.
-        </fr:li></fr:ul></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>354</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>hejohns-000D</fr:addr><fr:route>hejohns-000D.xml</fr:route><fr:title>The verbose proof</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>10</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="hejohns.xml"
-type="local"
-addr="hejohns">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-    We take inspiration from <fr:link
-href="hejohns-0006.xml"
-type="local"
-addr="hejohns-0006">the thin case</fr:link>.
-    We wts the <fr:tex>F</fr:tex>-action on morphisms is fully determined already (∃!).
-    That is, we have two goals:
-    <fr:ul><fr:li>
-            (∃) Show that there is a suitable <fr:tex>F</fr:tex>-action.
-        </fr:li>
-        <fr:li>
-            (!) That any other <fr:tex>F</fr:tex>-action is <fr:em>equal</fr:em> to it.
-        </fr:li></fr:ul>
-    As usual, let <fr:tex>η_x = πₓ(F(x))(1_{F(x)}) : X(x, U∘F(x))</fr:tex> denote the
-    component of the unit of the (a posteriori) adjunction
-    and <fr:tex>ϵₐ = π_{U(a)}(a)⁻¹(1_{U(a)})</fr:tex> denote the component of the counit.
-</fr:p><fr:ul><fr:li>
-        (∃)
-        <fr:p>
-            Now suppose <fr:tex>∃f : X(x, y)</fr:tex>.
-            Since <fr:tex>η_y : X(y, U∘F(y))</fr:tex>, we have <fr:tex>η_y∘f : X(x, U∘F(y))</fr:tex>.
-            By the Hom bijection, <fr:tex>πₓ(F(y))⁻¹(η_y∘f) : A(F(x), F(y))</fr:tex>.
-            This is our candidate for the <fr:tex>F</fr:tex>-action.
-            <fr:tex>\overline {F} (f) ≔ πₓ(F(y))⁻¹(η_y ∘ f)</fr:tex>.
-        </fr:p>
-        <fr:p>
-            As a picture, each <fr:tex>f : X(x, y)</fr:tex> gives rise to the following
-            square in <fr:tex>Set</fr:tex>:
-            <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>346</fr:anchor><fr:addr>subb-000D</fr:addr><fr:route>subb-000D.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>10</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="hejohns.xml"
-type="local"
-addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000D</fr:parent></fr:frontmatter><fr:mainmatter><fr:embedded-tex
-hash="7da984d3ff2027c69ebefb406d434b29"><fr:embedded-tex-preamble>\usepackage {tikz-cd} \usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
-                     \begin {tikzcd}
-                        A(F(x), F(y)) &amp; A(F(y), F(y))  \ar [d, "≀"', "π_y(F(y))"]  \\ 
-                        X(x, U∘F(y))  \ar [u, "≀"', "πₓ(F(y))⁻¹"] &amp; X(y, U∘F(y))  \ar [l, "-∘f"]
-                     \end {tikzcd}
-                </fr:embedded-tex-body></fr:embedded-tex></fr:mainmatter></fr:tree>
-            And our candidate <fr:tex>\overline {F} (f)</fr:tex> is the one we know to exist by
-            chasing <fr:tex>1_{F(y)}</fr:tex> around the square.
-        </fr:p>
-        <fr:p>
-            We could directly try to show that <fr:tex>\overline {F}</fr:tex> defined as such is
-            indeed functorial--and I <fr:em>have</fr:em> tried--, but it's rather
-            difficult without the clarifying perspective of the Yoneda
-            lemma (no, seriously, although I'm sure one could do it).
-        </fr:p>
-        <fr:p>
-            It's instructive to try directly, if one hasn't.
-            The problem is that <fr:tex>\overline {F} (f)</fr:tex> as defined is not obviously the
-            composition of morphisms in any diagram-- how do you reason
-            about the functoriality of <fr:tex>πₓ(F(y))⁻¹</fr:tex>?
-            Instead, we want to invoke a representation theorem and work
-            with <fr:tex>\overline {F} (f)</fr:tex> as an explicit composition in some diagram.
-            The solution is to follow the Yoneda principle and
-            pass from reasoning in <fr:tex>Set</fr:tex> to <fr:tex>Setᴬ</fr:tex>.
-        </fr:p>
-        <fr:p>
-            Notice that the <fr:link
-href="subb-000D.xml"
-type="local"
-addr="subb-000D">above square</fr:link> is
-            moreover <fr:em>natural</fr:em> in the variable <fr:tex>F(y)</fr:tex>.
-            That is, we've actually described the <fr:tex>F(y)</fr:tex> component of the
-            natural transformation <fr:tex>πₓ⁻¹∘(-∘f)∘π_y : A(F(x), -) ⇐ A(F(y),             -)</fr:tex>.
-            As a picture, each <fr:tex>f : X(x, y)</fr:tex> gives
-            rise to the following square in <fr:tex>Setᴬ</fr:tex>:
-            <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>348</fr:anchor><fr:addr>sub-000D</fr:addr><fr:route>sub-000D.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>10</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="hejohns.xml"
-type="local"
-addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000D</fr:parent></fr:frontmatter><fr:mainmatter><fr:embedded-tex
-hash="6fafc80d9b9e7f0489fcf2637e5c0717"><fr:embedded-tex-preamble>\usepackage {tikz-cd} \usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
-                     \begin {tikzcd}
-                        A(F(x), -) &amp; A(F(y), -)  \ar [d, Rightarrow, "≀"', "π_y"]  \\ 
-                        X(x, U(-))  \ar [u, Rightarrow, "≀"', "πₓ⁻¹"] &amp; X(y, U(-))  \ar [l, Rightarrow, "-∘f"]
-                     \end {tikzcd}
-                </fr:embedded-tex-body></fr:embedded-tex></fr:mainmatter></fr:tree></fr:p>
-        <fr:p>
-            We first make the trivial observation that <fr:tex>A(F(x), -)</fr:tex> and
-            <fr:tex>A(F(y), -)</fr:tex> are both Yoneda embeddings (we use the "version"
-            where <fr:tex>よ : Aᵒᵖ → Setᴬ</fr:tex>, ie the Yoneda embedding on <fr:tex>Aᵒᵖ</fr:tex>),
-            <fr:tex>よ(F(x))</fr:tex> and <fr:tex>よ(F(y))</fr:tex> respectively.
-        </fr:p>
-        <fr:ul><fr:li><fr:p>
-                    Then the Yoneda lemma tells us that by specifying an
-                    element <fr:tex>\overline {F} (f) : A(F(x), F(y))</fr:tex>, this fully
-                    determines (ie freely extends to) a natural
-                    transformation <fr:tex
-display="block">よ( \overline {F} (f)) = (-∘ \overline {F} (f)) : よ(F(x)) ⇐                     よ(F(y))</fr:tex></fr:p></fr:li>
-            <fr:li><fr:p>
-                    Equivalently, the Yoneda principle tells us that an
-                    element <fr:tex>\overline {F} (f) : A(F(x), F(y))</fr:tex> fully failthfully
-                    embeds as a natural transformation <fr:tex
-display="block">よ( \overline {F} (f)) =                     (-∘ \overline {F} (f)) : よ(F(x)) ⇐ よ(F(y))</fr:tex></fr:p></fr:li></fr:ul>
-        <fr:p>
-            With this in mind, we notice that by definition,
-            <fr:tex>よ( \overline {F} (f))</fr:tex> is exactly the lid to <fr:link
-href="sub-000D.xml"
-type="local"
-addr="sub-000D">the above <fr:tex>Setᴬ</fr:tex>
-            square</fr:link>.
-            <fr:embedded-tex
-hash="af1879add0ed781bb43f5010d17e0754"><fr:embedded-tex-preamble>\usepackage {tikz-cd} \usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
-                 \begin {tikzcd}                 A(F(x), -) &amp; A(F(y), -)  \ar [d, Rightarrow, "≀"', "π_y"] \ar [l, Rightarrow, "-∘ \overline {F} (f)"']  \\ 
-                    X(x, U(-))  \ar [u, Rightarrow, "≀", "πₓ⁻¹"'] &amp; X(y, U(-))  \ar [l, Rightarrow, "-∘f"]
-                 \end {tikzcd}
-            </fr:embedded-tex-body></fr:embedded-tex>
-            That is, both natural transformations map <fr:tex>1_{F(y)}</fr:tex> to the
-            same thing-- <fr:tex>\overline {F} {F}(f)</fr:tex>-- by definition, thus must be equal
-            by the Yoneda Lemma.
-            (<fr:link
-href="subbb-000D.xml"
-type="local"
-addr="subbb-000D">In hindsight</fr:link>, this line of reasoning is quite
-            circumlocutious and you might as well start by saying such a
-            <fr:tex>\overline {F}</fr:tex> would have to satisfy this square, but I think it's the
-            more obvious starting point without presupposing it exists.)
-            Now that we've represented <fr:tex>\overline {F} (f)</fr:tex> as an explicit
-            composition, we have enough to tools consider
-            functoriality.
-        </fr:p>
-        <fr:p>
-            Wts <fr:tex>\overline {F}</fr:tex> actually defines a functorial action on morphisms for a functor extending <fr:tex>F</fr:tex>.
-            Indeed, <fr:tex>\overline {F} (1ₓ : X(x, x)) =  πₓ(F(x))⁻¹(ηₓ∘1ₓ) = πₓ(F(x))⁻¹(ηₓ) = 1_{F(x)}</fr:tex> by definition.
-            And suppose <fr:tex>∃g : X(y, z)</fr:tex>.
-            Then <fr:tex>\overline {F} (g∘f : X(x, z))</fr:tex> viewed as a natural transformation gives rise to the following superimposed squares:
-            <fr:embedded-tex
-hash="0dd47869e77364c0688d537d44f8f49f"><fr:embedded-tex-preamble>\usepackage {tikz-cd} \usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
-                 \begin {tikzcd}
-                    A(F(x), -) &amp; A(F(y), -)  \ar [d, Rightarrow, "π_y"', shift right=2] \ar [l, Rightarrow, "-∘ \overline {F} (f)"'] &amp; A(F(z), -)  \ar [d, Rightarrow, "π_z"] \ar [l, Rightarrow, "-∘ \tilde {F}(g)"'] \ar [ll, Rightarrow, "-∘ \overline {F} (g∘f)"', bend right]  \\ 
-                    X(x, U(-))  \ar [u, Rightarrow, "≀"', "πₓ⁻¹"] &amp; X(y, U(-))  \ar [l, Rightarrow, "-∘f"] \ar [u, Rightarrow, "π_y⁻¹"', shift right=2] &amp; X(z, U(-))  \ar [l, Rightarrow, "-∘g"] \ar [ll, Rightarrow, "-∘(g∘f)", bend left]
-                 \end {tikzcd}
-            </fr:embedded-tex-body></fr:embedded-tex>
-            A diagram chase verifies that the diagram indeed commutes, and
-            that <fr:tex>よ( \overline {F} (g∘f)) = よ( \overline {F} (f))∘よ( \overline {F} (g))</fr:tex>.
-            By the ("going home" direction of the) Yoneda principle, <fr:tex>\overline {F} (g∘f) =  \overline {F} (f)∘ \overline {F} (g)</fr:tex>.
-            Thus at last, <fr:tex>\overline {F}</fr:tex> defines a functorial action on <fr:tex>X</fr:tex>-morphisms.
-        </fr:p>
-        <fr:p>
-            We should also check that <fr:tex>\overline {F}</fr:tex> is actually adjoint to <fr:tex>U</fr:tex>--
-            ie, that <fr:tex>(πₓ)_{x ∈ X}</fr:tex> is indeed <fr:em>natural in the variable
-            <fr:tex>x</fr:tex></fr:em> as well as <fr:tex>a</fr:tex>.
-            By great good fortune, by defining <fr:tex>\overline {F}</fr:tex> st
-            <fr:tex>∀x,y ∈ X. ∀f ∈ X(x, y).</fr:tex>
-            <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>350</fr:anchor><fr:addr>subsub-0007</fr:addr><fr:route>subsub-0007.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>7</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="hejohns.xml"
-type="local"
-addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>sub-0007</fr:parent></fr:frontmatter><fr:mainmatter><fr:embedded-tex
-hash="04c41799d5084f092a5df1e435c7b32e"><fr:embedded-tex-preamble>\usepackage {tikz-cd} \usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
-                     \begin {tikzcd}                     A(F(x), -)  \ar [d, Rightarrow, "≀", "πₓ"'] &amp; A(F(y), -)  \ar [d, Rightarrow, "≀"', "π_y"] \ar [l, Rightarrow, "-∘ \overline {F} (f)"']  \\ 
-                        X(x, U(-)) &amp; X(y, U(-))  \ar [l, Rightarrow, "-∘f"]
-                     \end {tikzcd}
-                </fr:embedded-tex-body></fr:embedded-tex></fr:mainmatter></fr:tree>
-            it is indeed the case.
-        </fr:p></fr:li>
-    <fr:li>
-        (!)
-        <fr:p>
-            To finish off the result, we wts for any other <fr:tex>F'</fr:tex> extending
-            <fr:tex>F</fr:tex> to morphisms st <fr:tex>F' ⊣ U</fr:tex>, witnessed by <fr:tex>π : Xᵒᵖ → Setᴬ</fr:tex>,
-            that <fr:tex>F' =  \overline {F}</fr:tex>.
-            This simply follows from the observation that <fr:tex>∀f.</fr:tex> naturality
-            of <fr:tex>π</fr:tex> is exactly <fr:link
-href="subbbb-000D"
-type="external">this square</fr:link>, and forces
-            <fr:tex>よ(F'(f)) = πₓ⁻¹∘(-∘f)∘π_y = よ( \overline {F} (f))</fr:tex></fr:p></fr:li></fr:ul><fr:p>
-    So this result is really a corollary of the Yoneda lemma.
-    <fr:link
-href="https://ncatlab.org/nlab/show/adjoint+functor#AdjointFunctorFromObjectwiseRepresentingObject"
-type="external">The nlab page is here</fr:link>.
-</fr:p><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>352</fr:anchor><fr:taxon>Moral</fr:taxon><fr:addr>subbb-000D</fr:addr><fr:route>subbb-000D.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>10</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="hejohns.xml"
-type="local"
-addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000D</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-        Of course in hindsight, we could've (or even should've)
-        <fr:em>just</fr:em> defined  <fr:tex>\overline {F}</fr:tex> <fr:em>to be</fr:em>
-        <fr:tex>よ⁻¹(πₓ⁻¹∘(-∘f)∘π_y)</fr:tex> from the get-go, since it's a much
-        more clearly well-behaved definition, but unless you're
-        already sold on the Yoneda principle, I find it a difficult
-        leap without struggling with lower-level objects a bit
-        first.
-        I'm still in training.
-    </fr:p><fr:p>
-        This is the perspective taken in <fr:link
-href="sub-0007.xml"
-type="local"
-addr="sub-0007">the short proof</fr:link>.
-    </fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree><fr:p>
-    However, unlike <fr:link
-href="hejohns-0006.xml"
-type="local"
-addr="hejohns-0006">the thin case</fr:link>,
-    we crucially use the information that <fr:tex>U</fr:tex> is a functor
-    so the natural transformation squares are well-defined.
+addr="lawvere-1970">Quantifiers and Sheaves</fr:link> is indeed the paper that introduces elementary toposes,
+    it's curious to note that the word "elementary" never appears.
+    It must've been coined sometime later, but I don't know the details.
 </fr:p></fr:mainmatter></fr:tree><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>591</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>sub-0007</fr:addr><fr:route>sub-0007.xml</fr:route><fr:title><fr:link
-href="hejohns-0007.xml"
-type="local"
-addr="hejohns-0007">Precursor to The Core of Adjoint Functors</fr:link> › the short proof (sketch)</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>7</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="hejohns.xml"
-type="local"
-addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-0007</fr:parent></fr:frontmatter><fr:mainmatter><fr:ul><fr:li>
-            Suppose such a <fr:tex>\overline {F}</fr:tex> exists.
-            Then naturality of <fr:tex>π</fr:tex> requires that
-            <fr:tex>∀f : X(x, y).</fr:tex> this square in <fr:tex>Setᴬ</fr:tex> commutes:
-            <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>340</fr:anchor><fr:addr>subsub-0007</fr:addr><fr:route>subsub-0007.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>7</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="hejohns.xml"
-type="local"
-addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>sub-0007</fr:parent></fr:frontmatter><fr:mainmatter><fr:embedded-tex
-hash="04c41799d5084f092a5df1e435c7b32e"><fr:embedded-tex-preamble>\usepackage {tikz-cd} \usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
-                     \begin {tikzcd}                     A(F(x), -)  \ar [d, Rightarrow, "≀", "πₓ"'] &amp; A(F(y), -)  \ar [d, Rightarrow, "≀"', "π_y"] \ar [l, Rightarrow, "-∘ \overline {F} (f)"']  \\ 
-                        X(x, U(-)) &amp; X(y, U(-))  \ar [l, Rightarrow, "-∘f"]
-                     \end {tikzcd}
-                </fr:embedded-tex-body></fr:embedded-tex></fr:mainmatter></fr:tree>
-            Then clearly <fr:tex>∃! \overline {F} .∀f : X(x, y).  \overline {F} (f) = よ⁻¹(πₓ⁻¹∘(-∘f)∘π_y)</fr:tex>.
-        </fr:li>
-
-        <fr:li>
-            (dual) Suppose such a <fr:tex>\overline {U}</fr:tex> exists.
-            Then naturality of <fr:tex>π</fr:tex> requires that
-            <fr:tex>∀u : A(a, b).</fr:tex> this square in <fr:tex>Set^{Xᵒᵖ}</fr:tex> commutes:
-            <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>342</fr:anchor><fr:addr>subsubb-0007</fr:addr><fr:route>subsubb-0007.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>7</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="hejohns.xml"
-type="local"
-addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>sub-0007</fr:parent></fr:frontmatter><fr:mainmatter><fr:embedded-tex
-hash="8efe46a4066df01c4e80f07f43789adb"><fr:embedded-tex-preamble>\usepackage {tikz-cd} \usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
-                     \begin {tikzcd}
-                        A(F(-), a)  \ar [r, Rightarrow, "(u∘-)"] \ar [d, Rightarrow, "≀"', "πₐ"] &amp; A(F(-), b)  \ar [d, Rightarrow, "≀"', "π_b"]  \\ 
-                        X(-, U(a))  \ar [r, Rightarrow, "( \overline {U} (u)∘-)"] &amp; X(-, U(b))
-                     \end {tikzcd}
-                </fr:embedded-tex-body></fr:embedded-tex></fr:mainmatter></fr:tree>
-            and clearly <fr:tex>∃! \overline {U} .∀u : A(a, b).  \overline {U} (u) = よ⁻¹(π_b∘(u∘-)∘πₐ⁻¹)</fr:tex>.
-        </fr:li></fr:ul></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>593</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>hejohns-000D</fr:addr><fr:route>hejohns-000D.xml</fr:route><fr:title>The verbose proof</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>10</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>321</fr:anchor><fr:addr>hejohns-000G</fr:addr><fr:route>hejohns-000G.xml</fr:route><fr:title>What is an elementary topos?</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
 addr="hejohns">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-    We take inspiration from <fr:link
-href="hejohns-0006.xml"
+    The usual 30-second description of an elementary topos, is that "it's like
+    <fr:tex>Set</fr:tex>" (but not quite), or "it's an axiomatization of the basic properties
+    of <fr:tex>Set</fr:tex>".
+    Of course, these are always the kind of descriptions that only make sense
+    once you've <fr:em>already</fr:em> learned what a(n elementary) topos is.
+    We remark that <fr:link
+href="mclarty-1990b.xml"
 type="local"
-addr="hejohns-0006">the thin case</fr:link>.
-    We wts the <fr:tex>F</fr:tex>-action on morphisms is fully determined already (∃!).
-    That is, we have two goals:
-    <fr:ul><fr:li>
-            (∃) Show that there is a suitable <fr:tex>F</fr:tex>-action.
-        </fr:li>
-        <fr:li>
-            (!) That any other <fr:tex>F</fr:tex>-action is <fr:em>equal</fr:em> to it.
-        </fr:li></fr:ul>
-    As usual, let <fr:tex>η_x = πₓ(F(x))(1_{F(x)}) : X(x, U∘F(x))</fr:tex> denote the
-    component of the unit of the (a posteriori) adjunction
-    and <fr:tex>ϵₐ = π_{U(a)}(a)⁻¹(1_{U(a)})</fr:tex> denote the component of the counit.
-</fr:p><fr:ul><fr:li>
-        (∃)
-        <fr:p>
-            Now suppose <fr:tex>∃f : X(x, y)</fr:tex>.
-            Since <fr:tex>η_y : X(y, U∘F(y))</fr:tex>, we have <fr:tex>η_y∘f : X(x, U∘F(y))</fr:tex>.
-            By the Hom bijection, <fr:tex>πₓ(F(y))⁻¹(η_y∘f) : A(F(x), F(y))</fr:tex>.
-            This is our candidate for the <fr:tex>F</fr:tex>-action.
-            <fr:tex>\overline {F} (f) ≔ πₓ(F(y))⁻¹(η_y ∘ f)</fr:tex>.
-        </fr:p>
-        <fr:p>
-            As a picture, each <fr:tex>f : X(x, y)</fr:tex> gives rise to the following
-            square in <fr:tex>Set</fr:tex>:
-            <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>346</fr:anchor><fr:addr>subb-000D</fr:addr><fr:route>subb-000D.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>10</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="hejohns.xml"
-type="local"
-addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000D</fr:parent></fr:frontmatter><fr:mainmatter><fr:embedded-tex
-hash="7da984d3ff2027c69ebefb406d434b29"><fr:embedded-tex-preamble>\usepackage {tikz-cd} \usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
-                     \begin {tikzcd}
-                        A(F(x), F(y)) &amp; A(F(y), F(y))  \ar [d, "≀"', "π_y(F(y))"]  \\ 
-                        X(x, U∘F(y))  \ar [u, "≀"', "πₓ(F(y))⁻¹"] &amp; X(y, U∘F(y))  \ar [l, "-∘f"]
-                     \end {tikzcd}
-                </fr:embedded-tex-body></fr:embedded-tex></fr:mainmatter></fr:tree>
-            And our candidate <fr:tex>\overline {F} (f)</fr:tex> is the one we know to exist by
-            chasing <fr:tex>1_{F(y)}</fr:tex> around the square.
-        </fr:p>
-        <fr:p>
-            We could directly try to show that <fr:tex>\overline {F}</fr:tex> defined as such is
-            indeed functorial--and I <fr:em>have</fr:em> tried--, but it's rather
-            difficult without the clarifying perspective of the Yoneda
-            lemma (no, seriously, although I'm sure one could do it).
-        </fr:p>
-        <fr:p>
-            It's instructive to try directly, if one hasn't.
-            The problem is that <fr:tex>\overline {F} (f)</fr:tex> as defined is not obviously the
-            composition of morphisms in any diagram-- how do you reason
-            about the functoriality of <fr:tex>πₓ(F(y))⁻¹</fr:tex>?
-            Instead, we want to invoke a representation theorem and work
-            with <fr:tex>\overline {F} (f)</fr:tex> as an explicit composition in some diagram.
-            The solution is to follow the Yoneda principle and
-            pass from reasoning in <fr:tex>Set</fr:tex> to <fr:tex>Setᴬ</fr:tex>.
-        </fr:p>
-        <fr:p>
-            Notice that the <fr:link
-href="subb-000D.xml"
-type="local"
-addr="subb-000D">above square</fr:link> is
-            moreover <fr:em>natural</fr:em> in the variable <fr:tex>F(y)</fr:tex>.
-            That is, we've actually described the <fr:tex>F(y)</fr:tex> component of the
-            natural transformation <fr:tex>πₓ⁻¹∘(-∘f)∘π_y : A(F(x), -) ⇐ A(F(y),             -)</fr:tex>.
-            As a picture, each <fr:tex>f : X(x, y)</fr:tex> gives
-            rise to the following square in <fr:tex>Setᴬ</fr:tex>:
-            <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>348</fr:anchor><fr:addr>sub-000D</fr:addr><fr:route>sub-000D.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>10</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="hejohns.xml"
-type="local"
-addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000D</fr:parent></fr:frontmatter><fr:mainmatter><fr:embedded-tex
-hash="6fafc80d9b9e7f0489fcf2637e5c0717"><fr:embedded-tex-preamble>\usepackage {tikz-cd} \usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
-                     \begin {tikzcd}
-                        A(F(x), -) &amp; A(F(y), -)  \ar [d, Rightarrow, "≀"', "π_y"]  \\ 
-                        X(x, U(-))  \ar [u, Rightarrow, "≀"', "πₓ⁻¹"] &amp; X(y, U(-))  \ar [l, Rightarrow, "-∘f"]
-                     \end {tikzcd}
-                </fr:embedded-tex-body></fr:embedded-tex></fr:mainmatter></fr:tree></fr:p>
-        <fr:p>
-            We first make the trivial observation that <fr:tex>A(F(x), -)</fr:tex> and
-            <fr:tex>A(F(y), -)</fr:tex> are both Yoneda embeddings (we use the "version"
-            where <fr:tex>よ : Aᵒᵖ → Setᴬ</fr:tex>, ie the Yoneda embedding on <fr:tex>Aᵒᵖ</fr:tex>),
-            <fr:tex>よ(F(x))</fr:tex> and <fr:tex>よ(F(y))</fr:tex> respectively.
-        </fr:p>
-        <fr:ul><fr:li><fr:p>
-                    Then the Yoneda lemma tells us that by specifying an
-                    element <fr:tex>\overline {F} (f) : A(F(x), F(y))</fr:tex>, this fully
-                    determines (ie freely extends to) a natural
-                    transformation <fr:tex
-display="block">よ( \overline {F} (f)) = (-∘ \overline {F} (f)) : よ(F(x)) ⇐                     よ(F(y))</fr:tex></fr:p></fr:li>
-            <fr:li><fr:p>
-                    Equivalently, the Yoneda principle tells us that an
-                    element <fr:tex>\overline {F} (f) : A(F(x), F(y))</fr:tex> fully failthfully
-                    embeds as a natural transformation <fr:tex
-display="block">よ( \overline {F} (f)) =                     (-∘ \overline {F} (f)) : よ(F(x)) ⇐ よ(F(y))</fr:tex></fr:p></fr:li></fr:ul>
-        <fr:p>
-            With this in mind, we notice that by definition,
-            <fr:tex>よ( \overline {F} (f))</fr:tex> is exactly the lid to <fr:link
-href="sub-000D.xml"
-type="local"
-addr="sub-000D">the above <fr:tex>Setᴬ</fr:tex>
-            square</fr:link>.
-            <fr:embedded-tex
-hash="af1879add0ed781bb43f5010d17e0754"><fr:embedded-tex-preamble>\usepackage {tikz-cd} \usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
-                 \begin {tikzcd}                 A(F(x), -) &amp; A(F(y), -)  \ar [d, Rightarrow, "≀"', "π_y"] \ar [l, Rightarrow, "-∘ \overline {F} (f)"']  \\ 
-                    X(x, U(-))  \ar [u, Rightarrow, "≀", "πₓ⁻¹"'] &amp; X(y, U(-))  \ar [l, Rightarrow, "-∘f"]
-                 \end {tikzcd}
-            </fr:embedded-tex-body></fr:embedded-tex>
-            That is, both natural transformations map <fr:tex>1_{F(y)}</fr:tex> to the
-            same thing-- <fr:tex>\overline {F} {F}(f)</fr:tex>-- by definition, thus must be equal
-            by the Yoneda Lemma.
-            (<fr:link
-href="subbb-000D.xml"
-type="local"
-addr="subbb-000D">In hindsight</fr:link>, this line of reasoning is quite
-            circumlocutious and you might as well start by saying such a
-            <fr:tex>\overline {F}</fr:tex> would have to satisfy this square, but I think it's the
-            more obvious starting point without presupposing it exists.)
-            Now that we've represented <fr:tex>\overline {F} (f)</fr:tex> as an explicit
-            composition, we have enough to tools consider
-            functoriality.
-        </fr:p>
-        <fr:p>
-            Wts <fr:tex>\overline {F}</fr:tex> actually defines a functorial action on morphisms for a functor extending <fr:tex>F</fr:tex>.
-            Indeed, <fr:tex>\overline {F} (1ₓ : X(x, x)) =  πₓ(F(x))⁻¹(ηₓ∘1ₓ) = πₓ(F(x))⁻¹(ηₓ) = 1_{F(x)}</fr:tex> by definition.
-            And suppose <fr:tex>∃g : X(y, z)</fr:tex>.
-            Then <fr:tex>\overline {F} (g∘f : X(x, z))</fr:tex> viewed as a natural transformation gives rise to the following superimposed squares:
-            <fr:embedded-tex
-hash="0dd47869e77364c0688d537d44f8f49f"><fr:embedded-tex-preamble>\usepackage {tikz-cd} \usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
-                 \begin {tikzcd}
-                    A(F(x), -) &amp; A(F(y), -)  \ar [d, Rightarrow, "π_y"', shift right=2] \ar [l, Rightarrow, "-∘ \overline {F} (f)"'] &amp; A(F(z), -)  \ar [d, Rightarrow, "π_z"] \ar [l, Rightarrow, "-∘ \tilde {F}(g)"'] \ar [ll, Rightarrow, "-∘ \overline {F} (g∘f)"', bend right]  \\ 
-                    X(x, U(-))  \ar [u, Rightarrow, "≀"', "πₓ⁻¹"] &amp; X(y, U(-))  \ar [l, Rightarrow, "-∘f"] \ar [u, Rightarrow, "π_y⁻¹"', shift right=2] &amp; X(z, U(-))  \ar [l, Rightarrow, "-∘g"] \ar [ll, Rightarrow, "-∘(g∘f)", bend left]
-                 \end {tikzcd}
-            </fr:embedded-tex-body></fr:embedded-tex>
-            A diagram chase verifies that the diagram indeed commutes, and
-            that <fr:tex>よ( \overline {F} (g∘f)) = よ( \overline {F} (f))∘よ( \overline {F} (g))</fr:tex>.
-            By the ("going home" direction of the) Yoneda principle, <fr:tex>\overline {F} (g∘f) =  \overline {F} (f)∘ \overline {F} (g)</fr:tex>.
-            Thus at last, <fr:tex>\overline {F}</fr:tex> defines a functorial action on <fr:tex>X</fr:tex>-morphisms.
-        </fr:p>
-        <fr:p>
-            We should also check that <fr:tex>\overline {F}</fr:tex> is actually adjoint to <fr:tex>U</fr:tex>--
-            ie, that <fr:tex>(πₓ)_{x ∈ X}</fr:tex> is indeed <fr:em>natural in the variable
-            <fr:tex>x</fr:tex></fr:em> as well as <fr:tex>a</fr:tex>.
-            By great good fortune, by defining <fr:tex>\overline {F}</fr:tex> st
-            <fr:tex>∀x,y ∈ X. ∀f ∈ X(x, y).</fr:tex>
-            <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>350</fr:anchor><fr:addr>subsub-0007</fr:addr><fr:route>subsub-0007.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>7</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="hejohns.xml"
-type="local"
-addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>sub-0007</fr:parent></fr:frontmatter><fr:mainmatter><fr:embedded-tex
-hash="04c41799d5084f092a5df1e435c7b32e"><fr:embedded-tex-preamble>\usepackage {tikz-cd} \usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
-                     \begin {tikzcd}                     A(F(x), -)  \ar [d, Rightarrow, "≀", "πₓ"'] &amp; A(F(y), -)  \ar [d, Rightarrow, "≀"', "π_y"] \ar [l, Rightarrow, "-∘ \overline {F} (f)"']  \\ 
-                        X(x, U(-)) &amp; X(y, U(-))  \ar [l, Rightarrow, "-∘f"]
-                     \end {tikzcd}
-                </fr:embedded-tex-body></fr:embedded-tex></fr:mainmatter></fr:tree>
-            it is indeed the case.
-        </fr:p></fr:li>
-    <fr:li>
-        (!)
-        <fr:p>
-            To finish off the result, we wts for any other <fr:tex>F'</fr:tex> extending
-            <fr:tex>F</fr:tex> to morphisms st <fr:tex>F' ⊣ U</fr:tex>, witnessed by <fr:tex>π : Xᵒᵖ → Setᴬ</fr:tex>,
-            that <fr:tex>F' =  \overline {F}</fr:tex>.
-            This simply follows from the observation that <fr:tex>∀f.</fr:tex> naturality
-            of <fr:tex>π</fr:tex> is exactly <fr:link
-href="subbbb-000D"
-type="external">this square</fr:link>, and forces
-            <fr:tex>よ(F'(f)) = πₓ⁻¹∘(-∘f)∘π_y = よ( \overline {F} (f))</fr:tex></fr:p></fr:li></fr:ul><fr:p>
-    So this result is really a corollary of the Yoneda lemma.
-    <fr:link
-href="https://ncatlab.org/nlab/show/adjoint+functor#AdjointFunctorFromObjectwiseRepresentingObject"
-type="external">The nlab page is here</fr:link>.
+addr="mclarty-1990b">The Uses and Abuses of the History of Topos Theory</fr:link> is precisely about this "<fr:tex>Set</fr:tex>"-based
+    perspective.
+</fr:p><fr:p>
+    Instead, I've gathered every book I could conveniently get my hands on just
+    now, and we'll see how each defines an elementary topos.
 </fr:p><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
@@ -1026,46 +213,325 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>352</fr:anchor><fr:taxon>Moral</fr:taxon><fr:addr>subbb-000D</fr:addr><fr:route>subbb-000D.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>10</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>304</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>#271</fr:addr><fr:route>unstable-271.xml</fr:route><fr:title>Topos à la <fr:link
+href="makkai-reyes-1977.xml"
+type="local"
+addr="makkai-reyes-1977">First Order Categorical Logic</fr:link></fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
-addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000D</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-        Of course in hindsight, we could've (or even should've)
-        <fr:em>just</fr:em> defined  <fr:tex>\overline {F}</fr:tex> <fr:em>to be</fr:em>
-        <fr:tex>よ⁻¹(πₓ⁻¹∘(-∘f)∘π_y)</fr:tex> from the get-go, since it's a much
-        more clearly well-behaved definition, but unless you're
-        already sold on the Yoneda principle, I find it a difficult
-        leap without struggling with lower-level objects a bit
-        first.
-        I'm still in training.
-    </fr:p><fr:p>
-        This is the perspective taken in <fr:link
-href="sub-0007.xml"
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000G</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        Okay so they only define a Grothendieck topos. We'll leave the
+        discussion of Grothendieck topoi to another time.
+    </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>306</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>#272</fr:addr><fr:route>unstable-272.xml</fr:route><fr:title>Topos à la <fr:link
+href="goldblatt-2006.xml"
 type="local"
-addr="sub-0007">the short proof</fr:link>.
-    </fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:related><fr:backlinks></fr:backlinks><fr:references><fr:tree
+addr="goldblatt-2006">Topoi: The Categorial Analysis of Logic</fr:link> 4.3</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="hejohns.xml"
+type="local"
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000G</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        "An <fr:em>elementary topos</fr:em> is a category <fr:tex>\mathcal {C}</fr:tex> such that
+        <fr:ul><fr:li>
+                (1) <fr:tex>\mathcal {C}</fr:tex> is finitely complete,
+            </fr:li>
+            <fr:li>
+                (2) <fr:tex>\mathcal {C}</fr:tex> is finitely co-complete,
+            </fr:li>
+            <fr:li>
+                (3) <fr:tex>\mathcal {C}</fr:tex> has exponentiation,
+            </fr:li>
+            <fr:li>
+                (4) <fr:tex>\mathcal {C}</fr:tex> has a subobject classifier.
+            </fr:li></fr:ul>
+        As observed in Chapter 3, (1) and (3) constitute the definition of 'Cartesian closed' while (1) can be replaced by
+        <fr:ul><fr:li>
+                (1') <fr:tex>\mathcal {C}</fr:tex> has a terminal object and pullbacks,
+            </fr:li></fr:ul>
+        and dually (2) replaced by
+        <fr:ul><fr:li>
+                (2') <fr:tex>\mathcal {C}</fr:tex> has an initial object <fr:tex>0</fr:tex>, and pushouts.
+            </fr:li></fr:ul>
+        The definition just given is the one originally proposed by Lawvere and
+        Tierney, in terms of which they started [elementary] topos theory in
+        1969. Subsequently C. Juul Mikkelsen discovered that condition (2) is
+        implied by the combination of (1), (3) and (4) (cf. Paré [1974]). Thus
+        a topos can be defined as a Cartesian closed category with a subobject
+        classifier. In 4.7 we shall consider a different definition, based on a
+        categorial characterisation of power sets."
+    </fr:p><fr:p>
+        (<fr:em>complete</fr:em>, meaning every diagram has a limit, <fr:em>finitely
+        complete</fr:em>, meaning every finite diagram (finite objects, finite
+        morphisms) has a limit, "constitute", meaning that "cartesian closed"
+        is defined as (1) and (3), not just (3) as one expects nowadays.  See,
+        <fr:link
+href="https://math.stackexchange.com/q/1845697"
+type="external">this stack overflow post</fr:link>.)
+    </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>308</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>#273</fr:addr><fr:route>unstable-273.xml</fr:route><fr:title>Topos à la <fr:link
+href="johnstone-2002.xml"
+type="local"
+addr="johnstone-2002">Sketches of an Elephant: a topos theory compendium</fr:link> 2.1.1</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="hejohns.xml"
+type="local"
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000G</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        "We are now ready to present the definition of an (elementary) topos,
+        which is the central notion of this book: it is a category having all
+        the good 'set-like' properties discussed in the previous chapter,
+        except (possibly) for Booleanness. It is a remarkable fact that all
+        these properties are implied by the conjunction of just two of them:"
+    </fr:p><fr:p>
+        "A <fr:em>topos</fr:em> is a properly cartesian closed category with a subobject
+        classifier."
+    </fr:p><fr:p>
+        "… Before that, however, we must mention that the above definition of a
+        topos, though it is appreciably simplified from that originally adopted
+        by F. W. Lawvere and M. Tierney when they began the subject in 1969, is
+        not the simplest possible; one can combine the exponentials and the
+        subobject classifier into a single structure, that of power objects."
+    </fr:p><fr:p>
+        ("We say a category <fr:tex>\mathcal {C}</fr:tex> is <fr:em>cartesian closed</fr:em> if it has finite
+        products and all its objects are exponentiable. … Nevertheless, most of
+        the cartesian closed categories we shall meet will have equalizers as
+        well as finite products; we shall indicate this (with a note of mild
+        reproof in our voice) by calling them <fr:em>properly cartesian closed</fr:em>.")
+        (Recall that finite products <fr:tex>+</fr:tex> equalizers <fr:tex>⟺</fr:tex> finite limits.)
+    </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>310</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>#274</fr:addr><fr:route>unstable-274.xml</fr:route><fr:title>Topos à la <fr:link
+href="awodey-2010.xml"
+type="local"
+addr="awodey-2010">Category Theory</fr:link> 8.17</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="hejohns.xml"
+type="local"
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000G</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        "A <fr:em>topos</fr:em> is a category <fr:tex>\mathcal {E}</fr:tex> such that
+        <fr:ul><fr:li>
+                1. <fr:tex>\mathcal {E}</fr:tex> has all finite limits,
+            </fr:li>
+            <fr:li>
+                2. <fr:tex>\mathcal {E}</fr:tex> has a subobject classifier,
+            </fr:li>
+            <fr:li>
+                3. <fr:tex>\mathcal {E}</fr:tex> has all exponentials.
+            </fr:li></fr:ul>
+        This compact definition proves to be amazingly rich in consequences:
+        it can be shown for instance that topoi also have all finite colimits, and that every slice category of a topos is again a topos."
+    </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>312</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>#275</fr:addr><fr:route>unstable-275.xml</fr:route><fr:title>Topos à la <fr:link
+href="mclarty-1992.xml"
+type="local"
+addr="mclarty-1992">Elementary Categories, Elementary Toposes</fr:link> 13.1</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="hejohns.xml"
+type="local"
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000G</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        "A <fr:em>topos</fr:em> is a Cartesian closed category with a sub-object
+        classifier."
+    </fr:p><fr:p>
+        Note though, that McLarty "assumes a base category with finite limits"
+        when talking about cartesian closed categories.
+    </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>318</fr:anchor><fr:addr>#276</fr:addr><fr:route>unstable-276.xml</fr:route><fr:title>Topos à la <fr:link
+href="maclane-moerdijk-1994.xml"
+type="local"
+addr="maclane-moerdijk-1994">Sheaves in Geometry and Logic: A First Introduction to Topos Theory</fr:link></fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="hejohns.xml"
+type="local"
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000G</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>314</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>sub-000G</fr:addr><fr:route>sub-000G.xml</fr:route><fr:title>Topos à la <fr:link
+href="maclane-moerdijk-1994.xml"
+type="local"
+addr="maclane-moerdijk-1994">Sheaves in Geometry and Logic: A First Introduction to Topos Theory</fr:link> p. 48</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="hejohns.xml"
+type="local"
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>#276</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+            "[A <fr:em>topos</fr:em> <fr:tex>\mathcal {E}</fr:tex> is a category] with the following properties
+            <fr:ul><fr:li>
+                    (i) <fr:tex>\mathcal {E}</fr:tex> has all finite limits and colimits,
+                </fr:li>
+                <fr:li>
+                    (ii) <fr:tex>\mathcal {E}</fr:tex> has exponentials,
+                </fr:li>
+                <fr:li>
+                    (iii) <fr:tex>\mathcal {E}</fr:tex> has a subobject classifier <fr:tex>1 → Ω</fr:tex></fr:li></fr:ul></fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>316</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>#277</fr:addr><fr:route>unstable-277.xml</fr:route><fr:title>Topos à la <fr:link
+href="maclane-moerdijk-1994.xml"
+type="local"
+addr="maclane-moerdijk-1994">Sheaves in Geometry and Logic: A First Introduction to Topos Theory</fr:link> p. 161</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="hejohns.xml"
+type="local"
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>#276</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+            "A <fr:em>topos</fr:em> <fr:tex>\mathcal {E}</fr:tex> is a category with all finite limites, equipped with
+            an object <fr:tex>Ω</fr:tex>, with a function <fr:tex>P</fr:tex> which assigns to each object <fr:tex>B</fr:tex>
+            of <fr:tex>\mathcal {E}</fr:tex> an object <fr:tex>PB</fr:tex> of <fr:tex>\mathcal {E}</fr:tex>, and, for each object <fr:tex>A</fr:tex> of <fr:tex>\mathcal {E}</fr:tex>, with two
+            isomorphisms, each natural in <fr:tex>A</fr:tex>
+            <fr:tex
+display="block">                  \begin {align*}                     Sub_{ \mathcal {E} } &amp;≅ Hom_{ \mathcal {E} }(A, Ω) &amp;(1) \\                      Hom_{ \mathcal {E} }(B × A, Ω) &amp;≅ Hom_{ \mathcal {E} }(A, PB) &amp;(2)  \\                   \end {align*}             </fr:tex>
+            In other words, the functors <fr:tex>Sub_{ \mathcal {E} }</fr:tex> and <fr:tex>Hom_{ \mathcal {E} }(B × -, Ω)</fr:tex>, the
+            latter for each object <fr:tex>B</fr:tex> of <fr:tex>\mathcal {E}</fr:tex>, are required to be representable.
+            In the first case, the representing object <fr:tex>Ω</fr:tex> is the <fr:em>subobject
+            classifier</fr:em>, as already described in §I.3, while in the second case
+            <fr:tex>PB</fr:tex> may be called the <fr:em>power object</fr:em> of <fr:tex>B</fr:tex>; moreover, the
+            function <fr:tex>P</fr:tex> can be extended to a functor <fr:tex>P :  \mathcal {E} ^{op} →  \mathcal {E}</fr:tex> in
+            exactly one way so that (2) becomes natural in <fr:tex>B</fr:tex> (as well as in
+            <fr:tex>A</fr:tex>), see (7) below. Equivalently, the natural isomorphism (2) states
+            that <fr:tex>PB</fr:tex> is the exponential <fr:tex>Ω^B</fr:tex>, as described in §I.6; therefore,
+            any category which satisfies (1) and has all exponentials will, in
+            particular, have all power objects. We emphasize that at first sight the axioms for at topos just giben seem weaker than those of <fr:link
+href="sub-000G.xml"
+type="local"
+addr="sub-000G">§I.6</fr:link>. However, it will be shown in the
+            course of this chapter that the two sets of axioms are actually
+            equivalent.
+        </fr:p><fr:p>
+            Notice that the two natural isomorphisms (1) and (2) may be combined
+            in a single isomorphism
+            <fr:tex
+display="block">                  \begin {align*}                     Sub_{ \mathcal {E} }(B × A) &amp;≅ Hom_{ \mathcal {E} }(A, PB) &amp;(3)  \\                   \end {align*}             </fr:tex>
+            natural in A. With <fr:tex>B = 1</fr:tex>, this implies (1) with <fr:tex>Ω = P1</fr:tex>, and hence
+            also (2). In other words, we could define a topos as a category with
+            finite limits equipped with a single operation <fr:tex>P</fr:tex> satisfying (3)."
+        </fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree><fr:p>
+    We collect the definition of a <fr:em>subobject classifier</fr:em>, which appears in
+    every definition, and give a standard one:
+</fr:p><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>320</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hejohns-000I</fr:addr><fr:route>hejohns-000I.xml</fr:route><fr:title>Subobject classifier</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p>
+    For a category <fr:tex>\mathcal {C}</fr:tex>, a <fr:em>subobject classifier</fr:em> is an object <fr:tex>Ω</fr:tex> together
+    with a global element <fr:tex>true : 1 → Ω</fr:tex> such that <fr:tex>∀ A ∈  \mathcal {C} . ∀ s : S ↣ A. ∃!     χ_s : A → Ω.</fr:tex>
+    <fr:embedded-tex
+hash="e02927923b00b58796778a2184dd7584"><fr:embedded-tex-preamble>\usepackage {tikz-cd} \usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
+         \begin {tikzcd}
+            S  \ar [d, rightarrowtail, "s"'] \ar [r] \ar [dr, phantom, " \lrcorner ", very near start]  &amp; 1  \ar [d, rightarrowtail, "true"]  \\ 
+            A  \ar [r, "χ_s"'] &amp; Ω
+         \end {tikzcd}
+    </fr:embedded-tex-body></fr:embedded-tex>
+    is a pullback square.
+</fr:p><fr:p>
+    Notice that <fr:tex>true</fr:tex> is trivially monic since every global element is
+    trivially monic.
+    Recall that "monos are stable under pullback".
+</fr:p><fr:p>
+    This is from <fr:link
+href="mclarty-1992.xml"
+type="local"
+addr="mclarty-1992">Elementary Categories, Elementary Toposes</fr:link>.
+</fr:p></fr:mainmatter></fr:tree><fr:p>
+    So comparing each definition with another, they're all about par for
+    course.
+</fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>323</fr:anchor><fr:addr>hejohns-000F</fr:addr><fr:route>hejohns-000F.xml</fr:route><fr:title>"Higher-order intuitionistic logic" v. "topos logic"</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="hejohns.xml"
+type="local"
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+    Many authors object to the name "higher-order intuitionistic logic".
+</fr:p><fr:p><fr:link
+href="blass-1988.xml"
+type="local"
+addr="blass-1988">Topoi and Computation</fr:link> writes that "Strictly speaking, the phrase 'higher-order
+    intuitionistic' makes little sense, since it is not clear that
+    constructions like the power set are intuitionistically acceptable. What is
+    meant by the phrase is a type theory built on a formally intuitionistic
+    underlying logic." (p. 2).
+</fr:p><fr:p>
+    And <fr:link
+href="mclarty-1992.xml"
+type="local"
+addr="mclarty-1992">Elementary Categories, Elementary Toposes</fr:link> similarly writes "In Part III the first order topos
+    axioms are used to define the higher order internal language. The logic is
+    called 'topos logic' here, although 'intuitionistic logic' is often
+    referred to in the literature. I believe that 'intuitionism' is usually,
+    and rightly, taken to mean Brouwer's epistemology of mathematics, which is
+    unrelated to the origin or content of topos theory. Topos logic strikingly resembles formal intuitionistic logic and the two have interacted, as in
+    van der Hoeven and Moerdijk (1984) or many papers in Fourman <fr:em>et al.</fr:em>
+    (1979). But topos logic coincides with no intuitionistic logic studied
+    before toposes, and this is due to real philosophical differences (see
+    McLarty 1990a)." (p. vii).
+</fr:p><fr:p>
+    Of course this discrepancy is what one should come to expect, since the
+    very notion of a formalized logic of intuitionistic reasoning is at odds
+    with Brouwer's notion of intuitionism, so when one speaks of
+    "intuitionistic logic" it's usually in the purely formal sense.
+</fr:p><fr:p>
+    Combining the two names, I think "higher-order intuitionistic topos logic"
+    is at least a little more descriptive.
+</fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>327</fr:anchor><fr:addr>hejohns-000J</fr:addr><fr:route>hejohns-000J.xml</fr:route><fr:title>Higher-order intuitionistic topos logic</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>325</fr:anchor><fr:addr>#269</fr:addr><fr:route>unstable-269.xml</fr:route><fr:title>Syntax</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:parent>hejohns-000J</fr:parent></fr:frontmatter><fr:mainmatter></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>326</fr:anchor><fr:addr>#270</fr:addr><fr:route>unstable-270.xml</fr:route><fr:title>Semantics</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:parent>hejohns-000J</fr:parent></fr:frontmatter><fr:mainmatter></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks></fr:backlinks><fr:references><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>584</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>street-2012</fr:addr><fr:route>street-2012.xml</fr:route><fr:title>The Core of Adjoint Functors</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>7</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>22</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p>
-    The first point:
-</fr:p><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>391</fr:anchor><fr:taxon>Abstract</fr:taxon><fr:addr>#253</fr:addr><fr:route>unstable-253.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>7</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>22</fr:day></fr:date><fr:parent>street-2012</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-        During my Topology lectures at Macquarie University in the 1970s, the
-        students and I realized, in proving that a function f between posets was
-        order preserving when there was a function u in the reverse direction such
-        that f (x) ≤ a if and only if x ≤ u(a), did not require u to be order
-        preserving. I realized then that knowing functors in the two directions
-        only on objects and the usual hom adjointness isomorphism implied the
-        effect of the functors on homs was uniquely determined. Writing this down
-        properly led to the present paper.
-    </fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:references></fr:backmatter></fr:tree>
+root="false"><fr:frontmatter><fr:anchor>446</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>mclarty-1992</fr:addr><fr:route>mclarty-1992.xml</fr:route><fr:title>Elementary Categories, Elementary Toposes</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>31</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date></fr:frontmatter><fr:mainmatter></fr:mainmatter></fr:tree></fr:references></fr:backmatter></fr:tree>

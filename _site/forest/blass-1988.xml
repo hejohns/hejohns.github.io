@@ -7,14 +7,14 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>463</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>blass-1988</fr:addr><fr:route>blass-1988.xml</fr:route><fr:title>Topoi and Computation</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:tree
+root="false"><fr:frontmatter><fr:anchor>676</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>blass-1988</fr:addr><fr:route>blass-1988.xml</fr:route><fr:title>Topoi and Computation</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>308</fr:anchor><fr:taxon>Abstract</fr:taxon><fr:addr>#274</fr:addr><fr:route>unstable-274.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:parent>blass-1988</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>299</fr:anchor><fr:taxon>Abstract</fr:taxon><fr:addr>#287</fr:addr><fr:route>unstable-287.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:parent>blass-1988</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
         This is the written version of a talk given at the C.I.R.M. Workshop on
         Logic in Computer Science at Marseille, France in June, 1988. Its purpose
         is to argue that there is a close connection between the theory of
@@ -27,7 +27,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>309</fr:anchor><fr:taxon>Notes</fr:taxon><fr:addr>#275</fr:addr><fr:route>unstable-275.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:parent>blass-1988</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>300</fr:anchor><fr:taxon>Notes</fr:taxon><fr:addr>#288</fr:addr><fr:route>unstable-288.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:parent>blass-1988</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
         Prof. Blass essentially described this background over the course of
         the logic seminar last semester (as comments at various meetings,
         culminating with a full talk), but this is a nice written account of
@@ -43,60 +43,78 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>461</fr:anchor><fr:taxon>Exposition</fr:taxon><fr:addr>hejohns-000C</fr:addr><fr:route>hejohns-000C.xml</fr:route><fr:title>Elementary² toposes</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>31</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>672</fr:anchor><fr:addr>hejohns-000F</fr:addr><fr:route>hejohns-000F.xml</fr:route><fr:title>"Higher-order intuitionistic logic" v. "topos logic"</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
 addr="hejohns">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-    The following are some basic (alt. elementary) questions, whose "elevator
-    pitch" answers ought to roll off the tongue:
-    <fr:ul><fr:li>
-            What is a(n elementary) topos?
-        </fr:li>
-        <fr:li>
-            What is this "topos logic" that is sound in any elementary topos?
-            As in literally, what is the syntax?
-            Is it the same thing as this "higher-order intuitionistic logic"?
-            What are the inference rules/axioms?
-        </fr:li>
-        <fr:li>
-            What is this "Kripke-Joyal semantics"?
-            Is this the same thing as the so-called "forcing semantics"?
-        </fr:li>
-        <fr:li>
-            What is this "Mitchell-Bénabou language"?
-            Is it the same thing as "topos logic"?
-        </fr:li></fr:ul>
-    Following <fr:link
-href="mclarty-1992.xml"
-type="local"
-addr="mclarty-1992">Elementary Categories, Elementary Toposes</fr:link>, we sketch <fr:em>elementary</fr:em> answers to these.
-</fr:p><fr:p>
-    Some more difficult questions we do not attempt to answer at the moment:
-    <fr:ul><fr:li>
-            What is a Grothendieck topos, and what's the difference v.
-            elementary toposes?
-        </fr:li>
-        <fr:li>
-            What is a "geometric logic" and a "geometric morphism"?
-            And what's the difference v. a "logical morphism"?
-        </fr:li>
-        <fr:li>
-            In what sense is "Kripke-Joyal semantics" a "forcing semantics"?
-            (What is forcing??)
-        </fr:li>
-        <fr:li>
-            And everything else…
-        </fr:li></fr:ul></fr:p><fr:p>
-    Many object to the name "higher-order intuitionistic logic".
-    <fr:link
+    Many authors object to the name "higher-order intuitionistic logic".
+</fr:p><fr:p><fr:link
 href="blass-1988.xml"
 type="local"
-addr="blass-1988">Topoi and Computation</fr:link> says "Strictly speaking, the phrase 'higher-order
+addr="blass-1988">Topoi and Computation</fr:link> writes that "Strictly speaking, the phrase 'higher-order
     intuitionistic' makes little sense, since it is not clear that
     constructions like the power set are intuitionistically acceptable. What is
     meant by the phrase is a type theory built on a formally intuitionistic
-    underlying logic."
-    <fr:link
-href="maclarty-1992"
-type="external">maclarty-1992</fr:link> says "TODO".
+    underlying logic." (p. 2).
+</fr:p><fr:p>
+    And <fr:link
+href="mclarty-1992.xml"
+type="local"
+addr="mclarty-1992">Elementary Categories, Elementary Toposes</fr:link> similarly writes "In Part III the first order topos
+    axioms are used to define the higher order internal language. The logic is
+    called 'topos logic' here, although 'intuitionistic logic' is often
+    referred to in the literature. I believe that 'intuitionism' is usually,
+    and rightly, taken to mean Brouwer's epistemology of mathematics, which is
+    unrelated to the origin or content of topos theory. Topos logic strikingly resembles formal intuitionistic logic and the two have interacted, as in
+    van der Hoeven and Moerdijk (1984) or many papers in Fourman <fr:em>et al.</fr:em>
+    (1979). But topos logic coincides with no intuitionistic logic studied
+    before toposes, and this is due to real philosophical differences (see
+    McLarty 1990a)." (p. vii).
+</fr:p><fr:p>
+    Of course this discrepancy is what one should come to expect, since the
+    very notion of a formalized logic of intuitionistic reasoning is at odds
+    with Brouwer's notion of intuitionism, so when one speaks of
+    "intuitionistic logic" it's usually in the purely formal sense.
+</fr:p><fr:p>
+    Combining the two names, I think "higher-order intuitionistic topos logic"
+    is at least a little more descriptive.
+</fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>674</fr:anchor><fr:addr>hejohns-000H</fr:addr><fr:route>hejohns-000H.xml</fr:route><fr:title>Why is it called an "elementary" topos?</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="hejohns.xml"
+type="local"
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:link
+href="blass-1988.xml"
+type="local"
+addr="blass-1988">Topoi and Computation</fr:link> writes that "The word 'elementary' in connection with the Lawvere-Tierney definition refers to the fact that their axioms are expressed in the first-order language of categories; in fact the axioms are essentially algebraic." (p. 2).
+    (Recall that categories can be formalized as a two or dependently-sorted
+    first order theory.)
+</fr:p><fr:p>
+    This is corroborated by <fr:link
+href="marquis-reyes-2012.xml"
+type="local"
+addr="marquis-reyes-2012">The history of categorical logic: 1963-1977</fr:link>, writing that "In the years
+    that followed, Lawvere tried to extend his analysis and sketched a
+    categorical version of first-order theories under the name of elementary
+    theories. Then, in 1969, in collaboration with Myles Tierney, Lawvere
+    introduced the notion of an elementary topos, making an explicit connection
+    with higher-order logic and type theories. Both Lawvere and Tierney were
+    aiming at an elementary, that is first-order, axiomatic presentation of
+    what are now called Grothendieck toposes, a special type of categories
+    introduced by Alexandre Grothendieck in the context of algebraic geometry
+    and sheaf theory. Soon after, connections with intuitionistic analysis,
+    recursive functions, completeness theorems for various logical systems,
+    differential geometry, constructive mathematics were made." (p. 2).
+</fr:p><fr:p>
+    If <fr:link
+href="lawvere-1970.xml"
+type="local"
+addr="lawvere-1970">Quantifiers and Sheaves</fr:link> is indeed the paper that introduces elementary toposes,
+    it's curious to note that the word "elementary" never appears.
+    It must've been coined sometime later, but I don't know the details.
 </fr:p></fr:mainmatter></fr:tree></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

@@ -7,22 +7,17 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>495</fr:anchor><fr:taxon>Abstract</fr:taxon><fr:addr>#260</fr:addr><fr:route>unstable-260.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>21</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>22</fr:day></fr:date><fr:parent>maddy-2019</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-        Mainstream orthodoxy holds that set theory provides a foundation for
-        contemporary pure mathematics. Critics of this view argue that category
-        theory, or more recently univalent foundations, is better suited to this
-        role. Some observers of this controversy suggest that it might be resolved
-        by a better understanding of what a foundation is. Despite considerable
-        sympathy to this line of thought, I’m skeptical of the unspoken assumption
-        that there’s an underlying concept of a ‘foundation’ up for analysis, that
-        this analysis would properly guide our assessment of the various
-        candidates. In contrast, it seems to me that the considerations the
-        combatants offer against opponents and for their preferred candidates, as
-        well as the roles each candidate actually or potentially succeeds in
-        playing, reveal quite a number of different jobs that mathematicians want
-        done. What matters is these jobs we want our theories to do and how well
-        they do them. Whether any or all of them, jobs or theories, deserves to be
-        called ‘foundational’ is really beside the point.
+root="false"><fr:frontmatter><fr:anchor>294</fr:anchor><fr:taxon>Abstract</fr:taxon><fr:addr>#260</fr:addr><fr:route>unstable-260.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:parent>mclarty-1990b</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        The view that toposes originated as generalized set theory is a figment of
+        set theoretically educated common sense. This false history obstructs
+        understanding of category theory and especially of categorical foundations
+        for mathematics. Problems in geometry, topology, and related algebra led to
+        categories and toposes. Elementary toposes arose when Lawvere's interest in
+        the foundations of physics and Tierney's in the foundations of topology led
+        both to study Grothendieck's foundations for algebraic geometry. I end with
+        remarks on a categorical view of the history of set theory, including a
+        false history plausible from that point of view that would make it helpful
+        to introduce toposes as a generalization from set theory.
     </fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
@@ -30,62 +25,24 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>494</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>maddy-2019</fr:addr><fr:route>maddy-2019.xml</fr:route><fr:title>What do we want a foundation to do?</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>21</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>22</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:tree
+root="false"><fr:frontmatter><fr:anchor>293</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>mclarty-1990b</fr:addr><fr:route>mclarty-1990b.xml</fr:route><fr:title>The Uses and Abuses of the History of Topos Theory</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>393</fr:anchor><fr:taxon>Abstract</fr:taxon><fr:addr>#260</fr:addr><fr:route>unstable-260.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>21</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>22</fr:day></fr:date><fr:parent>maddy-2019</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-        Mainstream orthodoxy holds that set theory provides a foundation for
-        contemporary pure mathematics. Critics of this view argue that category
-        theory, or more recently univalent foundations, is better suited to this
-        role. Some observers of this controversy suggest that it might be resolved
-        by a better understanding of what a foundation is. Despite considerable
-        sympathy to this line of thought, I’m skeptical of the unspoken assumption
-        that there’s an underlying concept of a ‘foundation’ up for analysis, that
-        this analysis would properly guide our assessment of the various
-        candidates. In contrast, it seems to me that the considerations the
-        combatants offer against opponents and for their preferred candidates, as
-        well as the roles each candidate actually or potentially succeeds in
-        playing, reveal quite a number of different jobs that mathematicians want
-        done. What matters is these jobs we want our theories to do and how well
-        they do them. Whether any or all of them, jobs or theories, deserves to be
-        called ‘foundational’ is really beside the point.
-    </fr:p></fr:mainmatter></fr:tree><fr:p>
-    A nice article that can be briefly summarized as
-    <fr:ul><fr:li>
-            There is no one clear set of desiderata for a <fr:em>foundational</fr:em>
-            system, whatever that means
-        </fr:li>
-        <fr:li>
-            Classical set theory is perfectly fine as a foundational system in
-            the traditionally (ie ZFC) conceived sense
-        </fr:li>
-        <fr:li>
-            There is promise for the new 21ˢᵗ century desiderata of <fr:em>proof
-            checking</fr:em> (recalling Voevodsky's concerns with correctness "at the
-            bleeding edge").
-        </fr:li></fr:ul></fr:p><fr:p>
-    The contrast between the minimalistic ZFC and potentially enormous "user
-    friendly" univalent type theories is reminiscent of Hilbert style proofs vs
-    natural deduction. Indeed, it's like how Ronnie calls set theory "the
-    machine/assembly language of math" (kind of paraphrase), and Max calls SK
-    combinators "the machine/assembly language of λ-calculus".
-</fr:p><fr:p>
-    Natural deduction is certainly more complicated than SK/Hilbert proof
-    systems, but has nice usability properties that are worth study and
-    implementation.
-    The general mathematical trend seems to be that of starting with a spartan
-    formal system, then gradually making it more user friendly to accomodate
-    every increasingly complicated mathematics, where the minimalistic system
-    starts to leave one wanting.
-</fr:p><fr:p>
-    Maddy only mentions Coq, but being 2019 it would've been nice is somewhat
-    redundant to mention other proof assistants eg Cubical Agda.
-</fr:p><fr:p>
-    I've used quotes here as air quotes, not actual quotes of Maddy.
-    <fr:link
-href="maddy-2019.pdf"
-type="external">maddy-2019.pdf</fr:link></fr:p></fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+root="false"><fr:frontmatter><fr:anchor>292</fr:anchor><fr:taxon>Abstract</fr:taxon><fr:addr>#260</fr:addr><fr:route>unstable-260.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:parent>mclarty-1990b</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        The view that toposes originated as generalized set theory is a figment of
+        set theoretically educated common sense. This false history obstructs
+        understanding of category theory and especially of categorical foundations
+        for mathematics. Problems in geometry, topology, and related algebra led to
+        categories and toposes. Elementary toposes arose when Lawvere's interest in
+        the foundations of physics and Tierney's in the foundations of topology led
+        both to study Grothendieck's foundations for algebraic geometry. I end with
+        remarks on a categorical view of the history of set theory, including a
+        false history plausible from that point of view that would make it helpful
+        to introduce toposes as a generalization from set theory.
+    </fr:p></fr:mainmatter></fr:tree><fr:p><fr:link
+href="mclarty-1990b.pdf"
+type="external">mclarty-1990b.pdf</fr:link></fr:p></fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
