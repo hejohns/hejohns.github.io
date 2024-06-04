@@ -7,7 +7,7 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>421</fr:anchor><fr:addr>hejohns-000G</fr:addr><fr:route>hejohns-000G.xml</fr:route><fr:title>What is an elementary topos?</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>411</fr:anchor><fr:addr>hejohns-000G</fr:addr><fr:route>hejohns-000G.xml</fr:route><fr:title>What is an elementary topos?</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
 addr="hejohns">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -31,10 +31,80 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>304</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>#271</fr:addr><fr:route>unstable-271.xml</fr:route><fr:title>Topos à la <fr:link
+root="false"><fr:frontmatter><fr:anchor>310</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>#274</fr:addr><fr:route>unstable-274.xml</fr:route><fr:title>Topos à la <fr:link
+href="lambek-scott-1986.xml"
+type="local"
+addr="lambek-scott-1986">Introduction to higher order categorical logic</fr:link> p.140</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="hejohns.xml"
+type="local"
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000G</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        "A <fr:em>topos</fr:em> is a cartesian closed category with a sub-object
+        classifier and a natural numbers object."
+    </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>312</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>#275</fr:addr><fr:route>unstable-275.xml</fr:route><fr:title>Topos à la <fr:link
+href="johnstone-2002.xml"
+type="local"
+addr="johnstone-2002">Sketches of an Elephant: a topos theory compendium</fr:link> 2.1.1</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="hejohns.xml"
+type="local"
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000G</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        "We are now ready to present the definition of an (elementary) topos,
+        which is the central notion of this book: it is a category having all
+        the good 'set-like' properties discussed in the previous chapter,
+        except (possibly) for Booleanness. It is a remarkable fact that all
+        these properties are implied by the conjunction of just two of them:"
+    </fr:p><fr:p>
+        "A <fr:em>topos</fr:em> is a properly cartesian closed category with a subobject
+        classifier."
+    </fr:p><fr:p>
+        "… Before that, however, we must mention that the above definition of a
+        topos, though it is appreciably simplified from that originally adopted
+        by F. W. Lawvere and M. Tierney when they began the subject in 1969, is
+        not the simplest possible; one can combine the exponentials and the
+        subobject classifier into a single structure, that of power objects."
+    </fr:p><fr:p>
+        ("We say a category <fr:tex>\mathcal {C}</fr:tex> is <fr:em>cartesian closed</fr:em> if it has finite
+        products and all its objects are exponentiable. … Nevertheless, most of
+        the cartesian closed categories we shall meet will have equalizers as
+        well as finite products; we shall indicate this (with a note of mild
+        reproof in our voice) by calling them <fr:em>properly cartesian closed</fr:em>.")
+        (Recall that finite products <fr:tex>+</fr:tex> equalizers <fr:tex>⟺</fr:tex> finite limits.)
+    </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>314</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>#276</fr:addr><fr:route>unstable-276.xml</fr:route><fr:title>Topos à la <fr:link
+href="mclarty-1992.xml"
+type="local"
+addr="mclarty-1992">Elementary Categories, Elementary Toposes</fr:link> 13.1</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="hejohns.xml"
+type="local"
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000G</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        "A <fr:em>topos</fr:em> is a Cartesian closed category with a sub-object
+        classifier."
+    </fr:p><fr:p>
+        Note though, that McLarty "assumes a base category with finite limits"
+        when talking about cartesian closed categories.
+    </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>316</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>#277</fr:addr><fr:route>unstable-277.xml</fr:route><fr:title>Topos à la <fr:link
 href="makkai-reyes-1977.xml"
 type="local"
-addr="makkai-reyes-1977">First Order Categorical Logic</fr:link></fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+addr="makkai-reyes-1977">First Order Categorical Logic</fr:link></fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
 addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000G</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
@@ -47,10 +117,36 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>306</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>#272</fr:addr><fr:route>unstable-272.xml</fr:route><fr:title>Topos à la <fr:link
+root="false"><fr:frontmatter><fr:anchor>318</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>#278</fr:addr><fr:route>unstable-278.xml</fr:route><fr:title>Topos à la <fr:link
+href="awodey-2010.xml"
+type="local"
+addr="awodey-2010">Category Theory</fr:link> 8.17</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="hejohns.xml"
+type="local"
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000G</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        "A <fr:em>topos</fr:em> is a category <fr:tex>\mathcal {E}</fr:tex> such that
+        <fr:ul><fr:li>
+                1. <fr:tex>\mathcal {E}</fr:tex> has all finite limits,
+            </fr:li>
+            <fr:li>
+                2. <fr:tex>\mathcal {E}</fr:tex> has a subobject classifier,
+            </fr:li>
+            <fr:li>
+                3. <fr:tex>\mathcal {E}</fr:tex> has all exponentials.
+            </fr:li></fr:ul>
+        This compact definition proves to be amazingly rich in consequences:
+        it can be shown for instance that topoi also have all finite colimits, and that every slice category of a topos is again a topos."
+    </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>320</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>#279</fr:addr><fr:route>unstable-279.xml</fr:route><fr:title>Topos à la <fr:link
 href="goldblatt-2006.xml"
 type="local"
-addr="goldblatt-2006">Topoi: The Categorial Analysis of Logic</fr:link> 4.3</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+addr="goldblatt-2006">Topoi: The Categorial Analysis of Logic</fr:link> 4.3</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
 addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000G</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
@@ -97,90 +193,10 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>308</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>#273</fr:addr><fr:route>unstable-273.xml</fr:route><fr:title>Topos à la <fr:link
-href="johnstone-2002.xml"
-type="local"
-addr="johnstone-2002">Sketches of an Elephant: a topos theory compendium</fr:link> 2.1.1</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="hejohns.xml"
-type="local"
-addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000G</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-        "We are now ready to present the definition of an (elementary) topos,
-        which is the central notion of this book: it is a category having all
-        the good 'set-like' properties discussed in the previous chapter,
-        except (possibly) for Booleanness. It is a remarkable fact that all
-        these properties are implied by the conjunction of just two of them:"
-    </fr:p><fr:p>
-        "A <fr:em>topos</fr:em> is a properly cartesian closed category with a subobject
-        classifier."
-    </fr:p><fr:p>
-        "… Before that, however, we must mention that the above definition of a
-        topos, though it is appreciably simplified from that originally adopted
-        by F. W. Lawvere and M. Tierney when they began the subject in 1969, is
-        not the simplest possible; one can combine the exponentials and the
-        subobject classifier into a single structure, that of power objects."
-    </fr:p><fr:p>
-        ("We say a category <fr:tex>\mathcal {C}</fr:tex> is <fr:em>cartesian closed</fr:em> if it has finite
-        products and all its objects are exponentiable. … Nevertheless, most of
-        the cartesian closed categories we shall meet will have equalizers as
-        well as finite products; we shall indicate this (with a note of mild
-        reproof in our voice) by calling them <fr:em>properly cartesian closed</fr:em>.")
-        (Recall that finite products <fr:tex>+</fr:tex> equalizers <fr:tex>⟺</fr:tex> finite limits.)
-    </fr:p></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>310</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>#274</fr:addr><fr:route>unstable-274.xml</fr:route><fr:title>Topos à la <fr:link
-href="awodey-2010.xml"
-type="local"
-addr="awodey-2010">Category Theory</fr:link> 8.17</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="hejohns.xml"
-type="local"
-addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000G</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-        "A <fr:em>topos</fr:em> is a category <fr:tex>\mathcal {E}</fr:tex> such that
-        <fr:ul><fr:li>
-                1. <fr:tex>\mathcal {E}</fr:tex> has all finite limits,
-            </fr:li>
-            <fr:li>
-                2. <fr:tex>\mathcal {E}</fr:tex> has a subobject classifier,
-            </fr:li>
-            <fr:li>
-                3. <fr:tex>\mathcal {E}</fr:tex> has all exponentials.
-            </fr:li></fr:ul>
-        This compact definition proves to be amazingly rich in consequences:
-        it can be shown for instance that topoi also have all finite colimits, and that every slice category of a topos is again a topos."
-    </fr:p></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>312</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>#275</fr:addr><fr:route>unstable-275.xml</fr:route><fr:title>Topos à la <fr:link
-href="mclarty-1992.xml"
-type="local"
-addr="mclarty-1992">Elementary Categories, Elementary Toposes</fr:link> 13.1</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="hejohns.xml"
-type="local"
-addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000G</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-        "A <fr:em>topos</fr:em> is a Cartesian closed category with a sub-object
-        classifier."
-    </fr:p><fr:p>
-        Note though, that McLarty "assumes a base category with finite limits"
-        when talking about cartesian closed categories.
-    </fr:p></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>318</fr:anchor><fr:addr>#276</fr:addr><fr:route>unstable-276.xml</fr:route><fr:title>Topos à la <fr:link
+root="false"><fr:frontmatter><fr:anchor>326</fr:anchor><fr:addr>#280</fr:addr><fr:route>unstable-280.xml</fr:route><fr:title>Topos à la <fr:link
 href="maclane-moerdijk-1994.xml"
 type="local"
-addr="maclane-moerdijk-1994">Sheaves in Geometry and Logic: A First Introduction to Topos Theory</fr:link></fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+addr="maclane-moerdijk-1994">Sheaves in Geometry and Logic: A First Introduction to Topos Theory</fr:link></fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
 addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000G</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
@@ -190,13 +206,13 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>314</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>sub-000G</fr:addr><fr:route>sub-000G.xml</fr:route><fr:title>Topos à la <fr:link
+root="false"><fr:frontmatter><fr:anchor>322</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>sub-000G</fr:addr><fr:route>sub-000G.xml</fr:route><fr:title>Topos à la <fr:link
 href="maclane-moerdijk-1994.xml"
 type="local"
-addr="maclane-moerdijk-1994">Sheaves in Geometry and Logic: A First Introduction to Topos Theory</fr:link> p. 48</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+addr="maclane-moerdijk-1994">Sheaves in Geometry and Logic: A First Introduction to Topos Theory</fr:link> p. 48</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
-addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>#276</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>#280</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
             "[A <fr:em>topos</fr:em> <fr:tex>\mathcal {E}</fr:tex> is a category] with the following properties
             <fr:ul><fr:li>
                     (i) <fr:tex>\mathcal {E}</fr:tex> has all finite limits and colimits,
@@ -212,13 +228,13 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>316</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>#277</fr:addr><fr:route>unstable-277.xml</fr:route><fr:title>Topos à la <fr:link
+root="false"><fr:frontmatter><fr:anchor>324</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>#281</fr:addr><fr:route>unstable-281.xml</fr:route><fr:title>Topos à la <fr:link
 href="maclane-moerdijk-1994.xml"
 type="local"
-addr="maclane-moerdijk-1994">Sheaves in Geometry and Logic: A First Introduction to Topos Theory</fr:link> p. 161</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+addr="maclane-moerdijk-1994">Sheaves in Geometry and Logic: A First Introduction to Topos Theory</fr:link> p. 161</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
-addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>#276</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>#280</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
             "A <fr:em>topos</fr:em> <fr:tex>\mathcal {E}</fr:tex> is a category with all finite limites, equipped with
             an object <fr:tex>Ω</fr:tex>, with a function <fr:tex>P</fr:tex> which assigns to each object <fr:tex>B</fr:tex>
             of <fr:tex>\mathcal {E}</fr:tex> an object <fr:tex>PB</fr:tex> of <fr:tex>\mathcal {E}</fr:tex>, and, for each object <fr:tex>A</fr:tex> of <fr:tex>\mathcal {E}</fr:tex>, with two
@@ -259,7 +275,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>320</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hejohns-000I</fr:addr><fr:route>hejohns-000I.xml</fr:route><fr:title>Subobject classifier</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>328</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hejohns-000I</fr:addr><fr:route>hejohns-000I.xml</fr:route><fr:title>Subobject classifier</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p>
     For a category <fr:tex>\mathcal {C}</fr:tex>, a <fr:em>subobject classifier</fr:em> is an object <fr:tex>Ω</fr:tex> together
     with a global element <fr:tex>true : 1 → Ω</fr:tex> such that <fr:tex>∀ A ∈  \mathcal {C} . ∀ s : S ↣ A. ∃!     χ_s : A → Ω.</fr:tex>
     <fr:embedded-tex
@@ -271,9 +287,12 @@ hash="e02927923b00b58796778a2184dd7584"><fr:embedded-tex-preamble>\usepackage {t
     </fr:embedded-tex-body></fr:embedded-tex>
     is a pullback square.
 </fr:p><fr:p>
-    Notice that <fr:tex>true</fr:tex> is trivially monic since every global element is
-    trivially monic.
-    Recall that "monos are stable under pullback".
+    Notice that <fr:tex>true</fr:tex> is trivially monic since every <fr:link
+href="hejohns-000K.xml"
+type="local"
+addr="hejohns-000K">global
+    element</fr:link> is trivially monic. Recall that "monos are stable
+    under pullback".
 </fr:p><fr:p>
     This is from <fr:link
 href="mclarty-1992.xml"
@@ -281,7 +300,7 @@ type="local"
 addr="mclarty-1992">Elementary Categories, Elementary Toposes</fr:link>.
 </fr:p></fr:mainmatter></fr:tree><fr:p>
     So comparing each definition with another, they're all about par for
-    course.
+    course, if we ignore natural numbers objects for now.
 </fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
@@ -289,7 +308,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>417</fr:anchor><fr:addr>#279</fr:addr><fr:route>unstable-279.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>403</fr:anchor><fr:addr>#283</fr:addr><fr:route>unstable-283.xml</fr:route><fr:title><fr:link
 href="hejohns-000C.xml"
 type="local"
 addr="hejohns-000C">Elementary² toposes</fr:link> › elementary answers</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>31</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
@@ -302,7 +321,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>302</fr:anchor><fr:addr>hejohns-000H</fr:addr><fr:route>hejohns-000H.xml</fr:route><fr:title>Why is it called an "elementary" topos?</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>394</fr:anchor><fr:addr>hejohns-000H</fr:addr><fr:route>hejohns-000H.xml</fr:route><fr:title>Why is it called an "elementary" topos?</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
 addr="hejohns">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:link
@@ -341,7 +360,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>321</fr:anchor><fr:addr>hejohns-000G</fr:addr><fr:route>hejohns-000G.xml</fr:route><fr:title>What is an elementary topos?</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>396</fr:anchor><fr:addr>hejohns-000G</fr:addr><fr:route>hejohns-000G.xml</fr:route><fr:title>What is an elementary topos?</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
 addr="hejohns">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -365,10 +384,80 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>304</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>#271</fr:addr><fr:route>unstable-271.xml</fr:route><fr:title>Topos à la <fr:link
+root="false"><fr:frontmatter><fr:anchor>310</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>#274</fr:addr><fr:route>unstable-274.xml</fr:route><fr:title>Topos à la <fr:link
+href="lambek-scott-1986.xml"
+type="local"
+addr="lambek-scott-1986">Introduction to higher order categorical logic</fr:link> p.140</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="hejohns.xml"
+type="local"
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000G</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        "A <fr:em>topos</fr:em> is a cartesian closed category with a sub-object
+        classifier and a natural numbers object."
+    </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>312</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>#275</fr:addr><fr:route>unstable-275.xml</fr:route><fr:title>Topos à la <fr:link
+href="johnstone-2002.xml"
+type="local"
+addr="johnstone-2002">Sketches of an Elephant: a topos theory compendium</fr:link> 2.1.1</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="hejohns.xml"
+type="local"
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000G</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        "We are now ready to present the definition of an (elementary) topos,
+        which is the central notion of this book: it is a category having all
+        the good 'set-like' properties discussed in the previous chapter,
+        except (possibly) for Booleanness. It is a remarkable fact that all
+        these properties are implied by the conjunction of just two of them:"
+    </fr:p><fr:p>
+        "A <fr:em>topos</fr:em> is a properly cartesian closed category with a subobject
+        classifier."
+    </fr:p><fr:p>
+        "… Before that, however, we must mention that the above definition of a
+        topos, though it is appreciably simplified from that originally adopted
+        by F. W. Lawvere and M. Tierney when they began the subject in 1969, is
+        not the simplest possible; one can combine the exponentials and the
+        subobject classifier into a single structure, that of power objects."
+    </fr:p><fr:p>
+        ("We say a category <fr:tex>\mathcal {C}</fr:tex> is <fr:em>cartesian closed</fr:em> if it has finite
+        products and all its objects are exponentiable. … Nevertheless, most of
+        the cartesian closed categories we shall meet will have equalizers as
+        well as finite products; we shall indicate this (with a note of mild
+        reproof in our voice) by calling them <fr:em>properly cartesian closed</fr:em>.")
+        (Recall that finite products <fr:tex>+</fr:tex> equalizers <fr:tex>⟺</fr:tex> finite limits.)
+    </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>314</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>#276</fr:addr><fr:route>unstable-276.xml</fr:route><fr:title>Topos à la <fr:link
+href="mclarty-1992.xml"
+type="local"
+addr="mclarty-1992">Elementary Categories, Elementary Toposes</fr:link> 13.1</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="hejohns.xml"
+type="local"
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000G</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        "A <fr:em>topos</fr:em> is a Cartesian closed category with a sub-object
+        classifier."
+    </fr:p><fr:p>
+        Note though, that McLarty "assumes a base category with finite limits"
+        when talking about cartesian closed categories.
+    </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>316</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>#277</fr:addr><fr:route>unstable-277.xml</fr:route><fr:title>Topos à la <fr:link
 href="makkai-reyes-1977.xml"
 type="local"
-addr="makkai-reyes-1977">First Order Categorical Logic</fr:link></fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+addr="makkai-reyes-1977">First Order Categorical Logic</fr:link></fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
 addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000G</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
@@ -381,10 +470,36 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>306</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>#272</fr:addr><fr:route>unstable-272.xml</fr:route><fr:title>Topos à la <fr:link
+root="false"><fr:frontmatter><fr:anchor>318</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>#278</fr:addr><fr:route>unstable-278.xml</fr:route><fr:title>Topos à la <fr:link
+href="awodey-2010.xml"
+type="local"
+addr="awodey-2010">Category Theory</fr:link> 8.17</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="hejohns.xml"
+type="local"
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000G</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        "A <fr:em>topos</fr:em> is a category <fr:tex>\mathcal {E}</fr:tex> such that
+        <fr:ul><fr:li>
+                1. <fr:tex>\mathcal {E}</fr:tex> has all finite limits,
+            </fr:li>
+            <fr:li>
+                2. <fr:tex>\mathcal {E}</fr:tex> has a subobject classifier,
+            </fr:li>
+            <fr:li>
+                3. <fr:tex>\mathcal {E}</fr:tex> has all exponentials.
+            </fr:li></fr:ul>
+        This compact definition proves to be amazingly rich in consequences:
+        it can be shown for instance that topoi also have all finite colimits, and that every slice category of a topos is again a topos."
+    </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>320</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>#279</fr:addr><fr:route>unstable-279.xml</fr:route><fr:title>Topos à la <fr:link
 href="goldblatt-2006.xml"
 type="local"
-addr="goldblatt-2006">Topoi: The Categorial Analysis of Logic</fr:link> 4.3</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+addr="goldblatt-2006">Topoi: The Categorial Analysis of Logic</fr:link> 4.3</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
 addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000G</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
@@ -431,90 +546,10 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>308</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>#273</fr:addr><fr:route>unstable-273.xml</fr:route><fr:title>Topos à la <fr:link
-href="johnstone-2002.xml"
-type="local"
-addr="johnstone-2002">Sketches of an Elephant: a topos theory compendium</fr:link> 2.1.1</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="hejohns.xml"
-type="local"
-addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000G</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-        "We are now ready to present the definition of an (elementary) topos,
-        which is the central notion of this book: it is a category having all
-        the good 'set-like' properties discussed in the previous chapter,
-        except (possibly) for Booleanness. It is a remarkable fact that all
-        these properties are implied by the conjunction of just two of them:"
-    </fr:p><fr:p>
-        "A <fr:em>topos</fr:em> is a properly cartesian closed category with a subobject
-        classifier."
-    </fr:p><fr:p>
-        "… Before that, however, we must mention that the above definition of a
-        topos, though it is appreciably simplified from that originally adopted
-        by F. W. Lawvere and M. Tierney when they began the subject in 1969, is
-        not the simplest possible; one can combine the exponentials and the
-        subobject classifier into a single structure, that of power objects."
-    </fr:p><fr:p>
-        ("We say a category <fr:tex>\mathcal {C}</fr:tex> is <fr:em>cartesian closed</fr:em> if it has finite
-        products and all its objects are exponentiable. … Nevertheless, most of
-        the cartesian closed categories we shall meet will have equalizers as
-        well as finite products; we shall indicate this (with a note of mild
-        reproof in our voice) by calling them <fr:em>properly cartesian closed</fr:em>.")
-        (Recall that finite products <fr:tex>+</fr:tex> equalizers <fr:tex>⟺</fr:tex> finite limits.)
-    </fr:p></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>310</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>#274</fr:addr><fr:route>unstable-274.xml</fr:route><fr:title>Topos à la <fr:link
-href="awodey-2010.xml"
-type="local"
-addr="awodey-2010">Category Theory</fr:link> 8.17</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="hejohns.xml"
-type="local"
-addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000G</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-        "A <fr:em>topos</fr:em> is a category <fr:tex>\mathcal {E}</fr:tex> such that
-        <fr:ul><fr:li>
-                1. <fr:tex>\mathcal {E}</fr:tex> has all finite limits,
-            </fr:li>
-            <fr:li>
-                2. <fr:tex>\mathcal {E}</fr:tex> has a subobject classifier,
-            </fr:li>
-            <fr:li>
-                3. <fr:tex>\mathcal {E}</fr:tex> has all exponentials.
-            </fr:li></fr:ul>
-        This compact definition proves to be amazingly rich in consequences:
-        it can be shown for instance that topoi also have all finite colimits, and that every slice category of a topos is again a topos."
-    </fr:p></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>312</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>#275</fr:addr><fr:route>unstable-275.xml</fr:route><fr:title>Topos à la <fr:link
-href="mclarty-1992.xml"
-type="local"
-addr="mclarty-1992">Elementary Categories, Elementary Toposes</fr:link> 13.1</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="hejohns.xml"
-type="local"
-addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000G</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-        "A <fr:em>topos</fr:em> is a Cartesian closed category with a sub-object
-        classifier."
-    </fr:p><fr:p>
-        Note though, that McLarty "assumes a base category with finite limits"
-        when talking about cartesian closed categories.
-    </fr:p></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>318</fr:anchor><fr:addr>#276</fr:addr><fr:route>unstable-276.xml</fr:route><fr:title>Topos à la <fr:link
+root="false"><fr:frontmatter><fr:anchor>326</fr:anchor><fr:addr>#280</fr:addr><fr:route>unstable-280.xml</fr:route><fr:title>Topos à la <fr:link
 href="maclane-moerdijk-1994.xml"
 type="local"
-addr="maclane-moerdijk-1994">Sheaves in Geometry and Logic: A First Introduction to Topos Theory</fr:link></fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+addr="maclane-moerdijk-1994">Sheaves in Geometry and Logic: A First Introduction to Topos Theory</fr:link></fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
 addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000G</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
@@ -524,13 +559,13 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>314</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>sub-000G</fr:addr><fr:route>sub-000G.xml</fr:route><fr:title>Topos à la <fr:link
+root="false"><fr:frontmatter><fr:anchor>322</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>sub-000G</fr:addr><fr:route>sub-000G.xml</fr:route><fr:title>Topos à la <fr:link
 href="maclane-moerdijk-1994.xml"
 type="local"
-addr="maclane-moerdijk-1994">Sheaves in Geometry and Logic: A First Introduction to Topos Theory</fr:link> p. 48</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+addr="maclane-moerdijk-1994">Sheaves in Geometry and Logic: A First Introduction to Topos Theory</fr:link> p. 48</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
-addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>#276</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>#280</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
             "[A <fr:em>topos</fr:em> <fr:tex>\mathcal {E}</fr:tex> is a category] with the following properties
             <fr:ul><fr:li>
                     (i) <fr:tex>\mathcal {E}</fr:tex> has all finite limits and colimits,
@@ -546,13 +581,13 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>316</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>#277</fr:addr><fr:route>unstable-277.xml</fr:route><fr:title>Topos à la <fr:link
+root="false"><fr:frontmatter><fr:anchor>324</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>#281</fr:addr><fr:route>unstable-281.xml</fr:route><fr:title>Topos à la <fr:link
 href="maclane-moerdijk-1994.xml"
 type="local"
-addr="maclane-moerdijk-1994">Sheaves in Geometry and Logic: A First Introduction to Topos Theory</fr:link> p. 161</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+addr="maclane-moerdijk-1994">Sheaves in Geometry and Logic: A First Introduction to Topos Theory</fr:link> p. 161</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
-addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>#276</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>#280</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
             "A <fr:em>topos</fr:em> <fr:tex>\mathcal {E}</fr:tex> is a category with all finite limites, equipped with
             an object <fr:tex>Ω</fr:tex>, with a function <fr:tex>P</fr:tex> which assigns to each object <fr:tex>B</fr:tex>
             of <fr:tex>\mathcal {E}</fr:tex> an object <fr:tex>PB</fr:tex> of <fr:tex>\mathcal {E}</fr:tex>, and, for each object <fr:tex>A</fr:tex> of <fr:tex>\mathcal {E}</fr:tex>, with two
@@ -593,7 +628,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>320</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hejohns-000I</fr:addr><fr:route>hejohns-000I.xml</fr:route><fr:title>Subobject classifier</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>328</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hejohns-000I</fr:addr><fr:route>hejohns-000I.xml</fr:route><fr:title>Subobject classifier</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p>
     For a category <fr:tex>\mathcal {C}</fr:tex>, a <fr:em>subobject classifier</fr:em> is an object <fr:tex>Ω</fr:tex> together
     with a global element <fr:tex>true : 1 → Ω</fr:tex> such that <fr:tex>∀ A ∈  \mathcal {C} . ∀ s : S ↣ A. ∃!     χ_s : A → Ω.</fr:tex>
     <fr:embedded-tex
@@ -605,9 +640,12 @@ hash="e02927923b00b58796778a2184dd7584"><fr:embedded-tex-preamble>\usepackage {t
     </fr:embedded-tex-body></fr:embedded-tex>
     is a pullback square.
 </fr:p><fr:p>
-    Notice that <fr:tex>true</fr:tex> is trivially monic since every global element is
-    trivially monic.
-    Recall that "monos are stable under pullback".
+    Notice that <fr:tex>true</fr:tex> is trivially monic since every <fr:link
+href="hejohns-000K.xml"
+type="local"
+addr="hejohns-000K">global
+    element</fr:link> is trivially monic. Recall that "monos are stable
+    under pullback".
 </fr:p><fr:p>
     This is from <fr:link
 href="mclarty-1992.xml"
@@ -615,7 +653,7 @@ type="local"
 addr="mclarty-1992">Elementary Categories, Elementary Toposes</fr:link>.
 </fr:p></fr:mainmatter></fr:tree><fr:p>
     So comparing each definition with another, they're all about par for
-    course.
+    course, if we ignore natural numbers objects for now.
 </fr:p></fr:mainmatter></fr:tree><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
@@ -623,7 +661,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>323</fr:anchor><fr:addr>hejohns-000F</fr:addr><fr:route>hejohns-000F.xml</fr:route><fr:title>"Higher-order intuitionistic logic" v. "topos logic"</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>398</fr:anchor><fr:addr>hejohns-000F</fr:addr><fr:route>hejohns-000F.xml</fr:route><fr:title>"Higher-order intuitionistic logic" v. "topos logic"</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
 addr="hejohns">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -665,28 +703,185 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>327</fr:anchor><fr:addr>hejohns-000J</fr:addr><fr:route>hejohns-000J.xml</fr:route><fr:title>Higher-order intuitionistic topos logic</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:tree
+root="false"><fr:frontmatter><fr:anchor>402</fr:anchor><fr:addr>hejohns-000J</fr:addr><fr:route>hejohns-000J.xml</fr:route><fr:title>Higher-order intuitionistic topos logic</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date></fr:frontmatter><fr:mainmatter>
+    
+    <fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>325</fr:anchor><fr:addr>#269</fr:addr><fr:route>unstable-269.xml</fr:route><fr:title>Syntax</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:parent>hejohns-000J</fr:parent></fr:frontmatter><fr:mainmatter></fr:mainmatter></fr:tree><fr:tree
+root="false"><fr:frontmatter><fr:anchor>400</fr:anchor><fr:addr>hejohns-000M</fr:addr><fr:route>hejohns-000M.xml</fr:route><fr:title>Syntax</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p>
+    Finite-type intuitionistic predicate logic is a predicate logic over a
+    typed term language. Thus we describe the types, then terms. The formulas
+    over those terms will be certain terms (of type <fr:tex>Ω</fr:tex>), and thus mutually
+    defined with the terms.
+</fr:p><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>326</fr:anchor><fr:addr>#270</fr:addr><fr:route>unstable-270.xml</fr:route><fr:title>Semantics</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:parent>hejohns-000J</fr:parent></fr:frontmatter><fr:mainmatter></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree><fr:tree
+root="false"><fr:frontmatter><fr:anchor>296</fr:anchor><fr:addr>#269</fr:addr><fr:route>unstable-269.xml</fr:route><fr:title>Types</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date><fr:parent>hejohns-000M</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        Given a collection of atomic type symbols <fr:tex>\mathcal {L} _{ \mathsf {base}}</fr:tex>, the collection of
+        (all) <fr:tex>\mathcal {L} _{ \mathsf {base}}</fr:tex>-types is the smallest such that
+        <fr:ul><fr:li>
+                if <fr:tex>A ∈  \mathcal {L} _{ \mathsf {base}}</fr:tex>, then <fr:tex>A</fr:tex> is a type
+            </fr:li>
+            <fr:li>
+                if <fr:tex>A</fr:tex> and <fr:tex>B</fr:tex> are types, <fr:tex>A × B</fr:tex> is a type
+            </fr:li>
+            <fr:li>
+                if <fr:tex>A</fr:tex> and <fr:tex>B</fr:tex> are types, then <fr:tex>A → B</fr:tex> is a type
+            </fr:li>
+            <fr:li><fr:tex>1</fr:tex> is a type
+            </fr:li>
+            <fr:li>
+                either
+                <fr:ul><fr:li><fr:tex>Ω</fr:tex> is a type, and let <fr:tex>\mathcal {P} A  ≔ A → Ω</fr:tex></fr:li>
+                    <fr:li>
+                        if <fr:tex>A</fr:tex> is a type, <fr:tex>\mathcal {P} A</fr:tex> is a type, and let <fr:tex>Ω ≔  \mathcal {P} 1</fr:tex></fr:li></fr:ul></fr:li></fr:ul></fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>297</fr:anchor><fr:addr>#270</fr:addr><fr:route>unstable-270.xml</fr:route><fr:title>Terms</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date><fr:parent>hejohns-000M</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        We write <fr:tex>x : y</fr:tex> to mean "'x' is a term of type 'y'".
+    </fr:p><fr:p>
+        Given a collection of constant term symbols <fr:tex>\mathcal {L} _{ \mathsf {const}}</fr:tex>, a collection of
+        function symbols <fr:tex>\mathcal {L} _{ \mathsf {fun}}</fr:tex>, and a collection of relation symbols <fr:tex>\mathcal {L} _{ \mathsf {rel}}</fr:tex>, the
+        collection of (all, possibly open) <fr:tex>( \mathcal {L} _{ \mathsf {const}} ,  \mathcal {L} _{ \mathsf {fun}} ,  \mathcal {L} _{ \mathsf {rel}} )</fr:tex>-terms is the
+        smallest such that
+        <fr:ul><fr:li>
+                if <fr:tex>A</fr:tex> is a type, there are sufficient variables <fr:tex>x : A</fr:tex></fr:li>
+            <fr:li>
+                if <fr:tex>(c : A) ∈  \mathcal {L} _{ \mathsf {const}}</fr:tex>, then <fr:tex>c : A</fr:tex></fr:li>
+            <fr:li>
+                if <fr:tex>(f~``: A₁ × … Aₙ → B") ∈  \mathcal {L} _{ \mathsf {fun}}</fr:tex> and <fr:tex>a₁ : A₁</fr:tex>, … <fr:tex>aₙ :                 Aₙ</fr:tex>, then <fr:tex>f(a₁, …, aₙ) : A</fr:tex> (quotes are used to avoid making
+                <fr:tex>f</fr:tex> look like a constant symbol of function type, but we don't
+                bother to write something correct)
+            </fr:li>
+            <fr:li>
+                if <fr:tex>R~``: A₁ × … Aₙ → Ω" ∈  \mathcal {L} _{ \mathsf {rel}}</fr:tex> and <fr:tex>a₁ : A₁</fr:tex>, … <fr:tex>aₙ : Aₙ</fr:tex>,
+                then <fr:tex>R(a₁, …, aₙ) : Ω</fr:tex> (sim.)
+            </fr:li>
+            <fr:li><fr:tex>* : 1</fr:tex></fr:li>
+            <fr:li>
+                if <fr:tex>a : A</fr:tex> and <fr:tex>b : B</fr:tex>, then <fr:tex>(a, b) : A × B</fr:tex></fr:li>
+            <fr:li>
+                if <fr:tex>t : A × B</fr:tex>, then <fr:tex>π₁ t : A</fr:tex>, <fr:tex>π₂ t : B</fr:tex></fr:li>
+            <fr:li>
+                if <fr:tex>t(x) : B</fr:tex>, where <fr:tex>x : A</fr:tex>, then <fr:tex>λx : A. t : A → B</fr:tex> such
+                that <fr:tex>x</fr:tex> is now bound
+            </fr:li>
+            <fr:li>
+                if <fr:tex>s : A → B</fr:tex> and <fr:tex>t : A</fr:tex>, then <fr:tex>s t : B</fr:tex></fr:li>
+            <fr:li>
+                if <fr:tex>a : A</fr:tex> and <fr:tex>α :  \mathcal {P} A</fr:tex>, then <fr:tex>a ∈ α : Ω</fr:tex></fr:li>
+            <fr:li>
+                if <fr:tex>ϕ(x) : Ω</fr:tex>, where by this notation we mean <fr:tex>ϕ</fr:tex> may contain
+                the free variable <fr:tex>x : A</fr:tex>, then <fr:tex>\{ x ∈ A | ϕ(x) \}  :  \mathcal {P} A</fr:tex>
+                such that <fr:tex>x</fr:tex> is now bound
+            </fr:li>
+            <fr:li><fr:tex>⊤, ⊥ : Ω</fr:tex></fr:li>
+            <fr:li>
+                if <fr:tex>ϕ, ψ : Ω</fr:tex>, so are <fr:tex>ϕ ∧ ψ, ϕ ∨ ψ, ϕ ⟹ ψ</fr:tex></fr:li>
+            <fr:li>
+                if <fr:tex>ϕ(x) : Ω</fr:tex>, where <fr:tex>x : A</fr:tex>, then <fr:tex>∀x∈A. ϕ(x), ∃x∈A. ϕ(x) :                 Ω</fr:tex> such that <fr:tex>x</fr:tex> is now bound
+            </fr:li></fr:ul></fr:p><fr:p>
+        We generally conflate an <fr:tex>n</fr:tex>-ary function symbol with a unary function
+        symbol from the product type, with a constant symbol of function type,
+        but keep in mind the existence of this difference.
+    </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>298</fr:anchor><fr:addr>#271</fr:addr><fr:route>unstable-271.xml</fr:route><fr:title>Formulas</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date><fr:parent>hejohns-000M</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        The formulas are simply the terms of type <fr:tex>Ω</fr:tex>.
+        Note that we actually cannot separately define terms and formulas,
+        since the comprehension term depends on a formula, and formulas are
+        generally over terms.
+    </fr:p><fr:p>
+        We could make the formulas a distinct syntactic class as in
+        <fr:link
+href="johnstone-2002.xml"
+type="local"
+addr="johnstone-2002">Sketches of an Elephant: a topos theory compendium</fr:link>, which allows for a more uniform treatment of
+        subsystems, but in the spirit of full-higher-order-ness, we allow for
+        formulas like <fr:tex>π₁(⊤, ⊥)</fr:tex>. Of course, this choice has no significant
+        effect.
+    </fr:p></fr:mainmatter></fr:tree><fr:p>
+    Then one would expect:
+</fr:p><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>299</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>#272</fr:addr><fr:route>unstable-272.xml</fr:route><fr:title>(Finite-type intuitionistic predicate) language</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date><fr:parent>hejohns-000M</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        A <fr:em>language</fr:em> <fr:tex>\mathcal {L}</fr:tex> is a dependent <fr:tex>3</fr:tex>-tuple <fr:tex>⟨ \mathcal {L} _{ \mathsf {base}} , ⟨ \mathcal {L} _{ \mathsf {const}} ,  \mathcal {L} _{ \mathsf {fun}} ⟩,          \mathcal {L} _{ \mathsf {rel}} ⟩</fr:tex>, where
+        <fr:ul><fr:li><fr:tex>\mathcal {L} _{ \mathsf {base}}</fr:tex> is a collection of atomic type symbols (shortened to
+                "<fr:em>base types</fr:em>")
+            </fr:li>
+            <fr:li><fr:tex>\mathcal {L} _{ \mathsf {const}}</fr:tex> is a collection of constant term symbols (shortened to
+                "<fr:em>constants</fr:em>"), with type assignment
+            </fr:li>
+            <fr:li><fr:tex>\mathcal {L} _{ \mathsf {fun}}</fr:tex> is a collection of function symbols (shortened to
+                "<fr:em>functions</fr:em>"), with type and arity assignment
+            </fr:li>
+            <fr:li><fr:tex>\mathcal {L} _{ \mathsf {rel}}</fr:tex> is a collection of relation symbols (shorted to
+                "<fr:em>relations</fr:em>"), with type and arity assignment
+            </fr:li></fr:ul></fr:p></fr:mainmatter></fr:tree><fr:p>
+    Since the varying names for this logic betray a certain perspective bias,
+    we use the syntax-first name "finite-type intuitionistic predicate logic"
+    here. This is the same logic as discussed in <fr:link
+href="hejohns-000F.xml"
+type="local"
+addr="hejohns-000F">"higher-order intuitionistic logic" v. "topos logic"</fr:link>.
+</fr:p><fr:p>
+    This started off as based on <fr:link
+href="lambek-scott-1986.xml"
+type="local"
+addr="lambek-scott-1986">Introduction to higher order categorical logic</fr:link>, but I couldn't
+    obviously see why certain types and terms were omitted (TODO: why don't
+    they have <fr:tex>→</fr:tex> types?), and <fr:link
+href="johnstone-2002.xml"
+type="local"
+addr="johnstone-2002">Sketches of an Elephant: a topos theory compendium</fr:link> instead presents the syntax
+    <fr:em>exactly</fr:em> as we want. (Johnstone has a tendency to explain things in
+    <fr:em>exactly</fr:em> the way one ought to.)
+    The formalization of syntax in the traditional language used
+    <fr:link
+href="hinman-2005.xml"
+type="local"
+addr="hinman-2005">Fundamentals of Mathematical Logic</fr:link> 2.1 as a reference (see <fr:link
+href="hejohns-000N.xml"
+type="local"
+addr="hejohns-000N">L (Language)</fr:link>).
+</fr:p></fr:mainmatter></fr:tree>
+<fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>401</fr:anchor><fr:addr>#273</fr:addr><fr:route>unstable-273.xml</fr:route><fr:title>Semantics</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date><fr:parent>hejohns-000J</fr:parent></fr:frontmatter><fr:mainmatter></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>419</fr:anchor><fr:taxon>Exposition</fr:taxon><fr:addr>hejohns-000C</fr:addr><fr:route>hejohns-000C.xml</fr:route><fr:title>Elementary² toposes</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>31</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>409</fr:anchor><fr:taxon>Exposition</fr:taxon><fr:addr>hejohns-000C</fr:addr><fr:route>hejohns-000C.xml</fr:route><fr:title>Elementary² toposes</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>31</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
 addr="hejohns">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:tree
@@ -696,7 +891,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>330</fr:anchor><fr:addr>#278</fr:addr><fr:route>unstable-278.xml</fr:route><fr:title>Elementary questions</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>31</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>405</fr:anchor><fr:addr>#282</fr:addr><fr:route>unstable-282.xml</fr:route><fr:title>Elementary questions</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>31</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
 addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000C</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
@@ -756,7 +951,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>332</fr:anchor><fr:addr>#279</fr:addr><fr:route>unstable-279.xml</fr:route><fr:title>Elementary answers</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>31</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>407</fr:anchor><fr:addr>#283</fr:addr><fr:route>unstable-283.xml</fr:route><fr:title>Elementary answers</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>31</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
 addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000C</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
@@ -766,7 +961,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>302</fr:anchor><fr:addr>hejohns-000H</fr:addr><fr:route>hejohns-000H.xml</fr:route><fr:title>Why is it called an "elementary" topos?</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>394</fr:anchor><fr:addr>hejohns-000H</fr:addr><fr:route>hejohns-000H.xml</fr:route><fr:title>Why is it called an "elementary" topos?</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
 addr="hejohns">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:link
@@ -805,7 +1000,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>321</fr:anchor><fr:addr>hejohns-000G</fr:addr><fr:route>hejohns-000G.xml</fr:route><fr:title>What is an elementary topos?</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>396</fr:anchor><fr:addr>hejohns-000G</fr:addr><fr:route>hejohns-000G.xml</fr:route><fr:title>What is an elementary topos?</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
 addr="hejohns">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -829,10 +1024,80 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>304</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>#271</fr:addr><fr:route>unstable-271.xml</fr:route><fr:title>Topos à la <fr:link
+root="false"><fr:frontmatter><fr:anchor>310</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>#274</fr:addr><fr:route>unstable-274.xml</fr:route><fr:title>Topos à la <fr:link
+href="lambek-scott-1986.xml"
+type="local"
+addr="lambek-scott-1986">Introduction to higher order categorical logic</fr:link> p.140</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="hejohns.xml"
+type="local"
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000G</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        "A <fr:em>topos</fr:em> is a cartesian closed category with a sub-object
+        classifier and a natural numbers object."
+    </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>312</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>#275</fr:addr><fr:route>unstable-275.xml</fr:route><fr:title>Topos à la <fr:link
+href="johnstone-2002.xml"
+type="local"
+addr="johnstone-2002">Sketches of an Elephant: a topos theory compendium</fr:link> 2.1.1</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="hejohns.xml"
+type="local"
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000G</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        "We are now ready to present the definition of an (elementary) topos,
+        which is the central notion of this book: it is a category having all
+        the good 'set-like' properties discussed in the previous chapter,
+        except (possibly) for Booleanness. It is a remarkable fact that all
+        these properties are implied by the conjunction of just two of them:"
+    </fr:p><fr:p>
+        "A <fr:em>topos</fr:em> is a properly cartesian closed category with a subobject
+        classifier."
+    </fr:p><fr:p>
+        "… Before that, however, we must mention that the above definition of a
+        topos, though it is appreciably simplified from that originally adopted
+        by F. W. Lawvere and M. Tierney when they began the subject in 1969, is
+        not the simplest possible; one can combine the exponentials and the
+        subobject classifier into a single structure, that of power objects."
+    </fr:p><fr:p>
+        ("We say a category <fr:tex>\mathcal {C}</fr:tex> is <fr:em>cartesian closed</fr:em> if it has finite
+        products and all its objects are exponentiable. … Nevertheless, most of
+        the cartesian closed categories we shall meet will have equalizers as
+        well as finite products; we shall indicate this (with a note of mild
+        reproof in our voice) by calling them <fr:em>properly cartesian closed</fr:em>.")
+        (Recall that finite products <fr:tex>+</fr:tex> equalizers <fr:tex>⟺</fr:tex> finite limits.)
+    </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>314</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>#276</fr:addr><fr:route>unstable-276.xml</fr:route><fr:title>Topos à la <fr:link
+href="mclarty-1992.xml"
+type="local"
+addr="mclarty-1992">Elementary Categories, Elementary Toposes</fr:link> 13.1</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="hejohns.xml"
+type="local"
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000G</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        "A <fr:em>topos</fr:em> is a Cartesian closed category with a sub-object
+        classifier."
+    </fr:p><fr:p>
+        Note though, that McLarty "assumes a base category with finite limits"
+        when talking about cartesian closed categories.
+    </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>316</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>#277</fr:addr><fr:route>unstable-277.xml</fr:route><fr:title>Topos à la <fr:link
 href="makkai-reyes-1977.xml"
 type="local"
-addr="makkai-reyes-1977">First Order Categorical Logic</fr:link></fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+addr="makkai-reyes-1977">First Order Categorical Logic</fr:link></fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
 addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000G</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
@@ -845,10 +1110,36 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>306</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>#272</fr:addr><fr:route>unstable-272.xml</fr:route><fr:title>Topos à la <fr:link
+root="false"><fr:frontmatter><fr:anchor>318</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>#278</fr:addr><fr:route>unstable-278.xml</fr:route><fr:title>Topos à la <fr:link
+href="awodey-2010.xml"
+type="local"
+addr="awodey-2010">Category Theory</fr:link> 8.17</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="hejohns.xml"
+type="local"
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000G</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        "A <fr:em>topos</fr:em> is a category <fr:tex>\mathcal {E}</fr:tex> such that
+        <fr:ul><fr:li>
+                1. <fr:tex>\mathcal {E}</fr:tex> has all finite limits,
+            </fr:li>
+            <fr:li>
+                2. <fr:tex>\mathcal {E}</fr:tex> has a subobject classifier,
+            </fr:li>
+            <fr:li>
+                3. <fr:tex>\mathcal {E}</fr:tex> has all exponentials.
+            </fr:li></fr:ul>
+        This compact definition proves to be amazingly rich in consequences:
+        it can be shown for instance that topoi also have all finite colimits, and that every slice category of a topos is again a topos."
+    </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>320</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>#279</fr:addr><fr:route>unstable-279.xml</fr:route><fr:title>Topos à la <fr:link
 href="goldblatt-2006.xml"
 type="local"
-addr="goldblatt-2006">Topoi: The Categorial Analysis of Logic</fr:link> 4.3</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+addr="goldblatt-2006">Topoi: The Categorial Analysis of Logic</fr:link> 4.3</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
 addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000G</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
@@ -895,90 +1186,10 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>308</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>#273</fr:addr><fr:route>unstable-273.xml</fr:route><fr:title>Topos à la <fr:link
-href="johnstone-2002.xml"
-type="local"
-addr="johnstone-2002">Sketches of an Elephant: a topos theory compendium</fr:link> 2.1.1</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="hejohns.xml"
-type="local"
-addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000G</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-        "We are now ready to present the definition of an (elementary) topos,
-        which is the central notion of this book: it is a category having all
-        the good 'set-like' properties discussed in the previous chapter,
-        except (possibly) for Booleanness. It is a remarkable fact that all
-        these properties are implied by the conjunction of just two of them:"
-    </fr:p><fr:p>
-        "A <fr:em>topos</fr:em> is a properly cartesian closed category with a subobject
-        classifier."
-    </fr:p><fr:p>
-        "… Before that, however, we must mention that the above definition of a
-        topos, though it is appreciably simplified from that originally adopted
-        by F. W. Lawvere and M. Tierney when they began the subject in 1969, is
-        not the simplest possible; one can combine the exponentials and the
-        subobject classifier into a single structure, that of power objects."
-    </fr:p><fr:p>
-        ("We say a category <fr:tex>\mathcal {C}</fr:tex> is <fr:em>cartesian closed</fr:em> if it has finite
-        products and all its objects are exponentiable. … Nevertheless, most of
-        the cartesian closed categories we shall meet will have equalizers as
-        well as finite products; we shall indicate this (with a note of mild
-        reproof in our voice) by calling them <fr:em>properly cartesian closed</fr:em>.")
-        (Recall that finite products <fr:tex>+</fr:tex> equalizers <fr:tex>⟺</fr:tex> finite limits.)
-    </fr:p></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>310</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>#274</fr:addr><fr:route>unstable-274.xml</fr:route><fr:title>Topos à la <fr:link
-href="awodey-2010.xml"
-type="local"
-addr="awodey-2010">Category Theory</fr:link> 8.17</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="hejohns.xml"
-type="local"
-addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000G</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-        "A <fr:em>topos</fr:em> is a category <fr:tex>\mathcal {E}</fr:tex> such that
-        <fr:ul><fr:li>
-                1. <fr:tex>\mathcal {E}</fr:tex> has all finite limits,
-            </fr:li>
-            <fr:li>
-                2. <fr:tex>\mathcal {E}</fr:tex> has a subobject classifier,
-            </fr:li>
-            <fr:li>
-                3. <fr:tex>\mathcal {E}</fr:tex> has all exponentials.
-            </fr:li></fr:ul>
-        This compact definition proves to be amazingly rich in consequences:
-        it can be shown for instance that topoi also have all finite colimits, and that every slice category of a topos is again a topos."
-    </fr:p></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>312</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>#275</fr:addr><fr:route>unstable-275.xml</fr:route><fr:title>Topos à la <fr:link
-href="mclarty-1992.xml"
-type="local"
-addr="mclarty-1992">Elementary Categories, Elementary Toposes</fr:link> 13.1</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="hejohns.xml"
-type="local"
-addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000G</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-        "A <fr:em>topos</fr:em> is a Cartesian closed category with a sub-object
-        classifier."
-    </fr:p><fr:p>
-        Note though, that McLarty "assumes a base category with finite limits"
-        when talking about cartesian closed categories.
-    </fr:p></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>318</fr:anchor><fr:addr>#276</fr:addr><fr:route>unstable-276.xml</fr:route><fr:title>Topos à la <fr:link
+root="false"><fr:frontmatter><fr:anchor>326</fr:anchor><fr:addr>#280</fr:addr><fr:route>unstable-280.xml</fr:route><fr:title>Topos à la <fr:link
 href="maclane-moerdijk-1994.xml"
 type="local"
-addr="maclane-moerdijk-1994">Sheaves in Geometry and Logic: A First Introduction to Topos Theory</fr:link></fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+addr="maclane-moerdijk-1994">Sheaves in Geometry and Logic: A First Introduction to Topos Theory</fr:link></fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
 addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000G</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
@@ -988,13 +1199,13 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>314</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>sub-000G</fr:addr><fr:route>sub-000G.xml</fr:route><fr:title>Topos à la <fr:link
+root="false"><fr:frontmatter><fr:anchor>322</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>sub-000G</fr:addr><fr:route>sub-000G.xml</fr:route><fr:title>Topos à la <fr:link
 href="maclane-moerdijk-1994.xml"
 type="local"
-addr="maclane-moerdijk-1994">Sheaves in Geometry and Logic: A First Introduction to Topos Theory</fr:link> p. 48</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+addr="maclane-moerdijk-1994">Sheaves in Geometry and Logic: A First Introduction to Topos Theory</fr:link> p. 48</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
-addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>#276</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>#280</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
             "[A <fr:em>topos</fr:em> <fr:tex>\mathcal {E}</fr:tex> is a category] with the following properties
             <fr:ul><fr:li>
                     (i) <fr:tex>\mathcal {E}</fr:tex> has all finite limits and colimits,
@@ -1010,13 +1221,13 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>316</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>#277</fr:addr><fr:route>unstable-277.xml</fr:route><fr:title>Topos à la <fr:link
+root="false"><fr:frontmatter><fr:anchor>324</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>#281</fr:addr><fr:route>unstable-281.xml</fr:route><fr:title>Topos à la <fr:link
 href="maclane-moerdijk-1994.xml"
 type="local"
-addr="maclane-moerdijk-1994">Sheaves in Geometry and Logic: A First Introduction to Topos Theory</fr:link> p. 161</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+addr="maclane-moerdijk-1994">Sheaves in Geometry and Logic: A First Introduction to Topos Theory</fr:link> p. 161</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
-addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>#276</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>#280</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
             "A <fr:em>topos</fr:em> <fr:tex>\mathcal {E}</fr:tex> is a category with all finite limites, equipped with
             an object <fr:tex>Ω</fr:tex>, with a function <fr:tex>P</fr:tex> which assigns to each object <fr:tex>B</fr:tex>
             of <fr:tex>\mathcal {E}</fr:tex> an object <fr:tex>PB</fr:tex> of <fr:tex>\mathcal {E}</fr:tex>, and, for each object <fr:tex>A</fr:tex> of <fr:tex>\mathcal {E}</fr:tex>, with two
@@ -1057,7 +1268,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>320</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hejohns-000I</fr:addr><fr:route>hejohns-000I.xml</fr:route><fr:title>Subobject classifier</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>328</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hejohns-000I</fr:addr><fr:route>hejohns-000I.xml</fr:route><fr:title>Subobject classifier</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p>
     For a category <fr:tex>\mathcal {C}</fr:tex>, a <fr:em>subobject classifier</fr:em> is an object <fr:tex>Ω</fr:tex> together
     with a global element <fr:tex>true : 1 → Ω</fr:tex> such that <fr:tex>∀ A ∈  \mathcal {C} . ∀ s : S ↣ A. ∃!     χ_s : A → Ω.</fr:tex>
     <fr:embedded-tex
@@ -1069,9 +1280,12 @@ hash="e02927923b00b58796778a2184dd7584"><fr:embedded-tex-preamble>\usepackage {t
     </fr:embedded-tex-body></fr:embedded-tex>
     is a pullback square.
 </fr:p><fr:p>
-    Notice that <fr:tex>true</fr:tex> is trivially monic since every global element is
-    trivially monic.
-    Recall that "monos are stable under pullback".
+    Notice that <fr:tex>true</fr:tex> is trivially monic since every <fr:link
+href="hejohns-000K.xml"
+type="local"
+addr="hejohns-000K">global
+    element</fr:link> is trivially monic. Recall that "monos are stable
+    under pullback".
 </fr:p><fr:p>
     This is from <fr:link
 href="mclarty-1992.xml"
@@ -1079,7 +1293,7 @@ type="local"
 addr="mclarty-1992">Elementary Categories, Elementary Toposes</fr:link>.
 </fr:p></fr:mainmatter></fr:tree><fr:p>
     So comparing each definition with another, they're all about par for
-    course.
+    course, if we ignore natural numbers objects for now.
 </fr:p></fr:mainmatter></fr:tree><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
@@ -1087,7 +1301,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>323</fr:anchor><fr:addr>hejohns-000F</fr:addr><fr:route>hejohns-000F.xml</fr:route><fr:title>"Higher-order intuitionistic logic" v. "topos logic"</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>398</fr:anchor><fr:addr>hejohns-000F</fr:addr><fr:route>hejohns-000F.xml</fr:route><fr:title>"Higher-order intuitionistic logic" v. "topos logic"</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
 addr="hejohns">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -1129,31 +1343,188 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>327</fr:anchor><fr:addr>hejohns-000J</fr:addr><fr:route>hejohns-000J.xml</fr:route><fr:title>Higher-order intuitionistic topos logic</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:tree
+root="false"><fr:frontmatter><fr:anchor>402</fr:anchor><fr:addr>hejohns-000J</fr:addr><fr:route>hejohns-000J.xml</fr:route><fr:title>Higher-order intuitionistic topos logic</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date></fr:frontmatter><fr:mainmatter>
+    
+    <fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>325</fr:anchor><fr:addr>#269</fr:addr><fr:route>unstable-269.xml</fr:route><fr:title>Syntax</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:parent>hejohns-000J</fr:parent></fr:frontmatter><fr:mainmatter></fr:mainmatter></fr:tree><fr:tree
+root="false"><fr:frontmatter><fr:anchor>400</fr:anchor><fr:addr>hejohns-000M</fr:addr><fr:route>hejohns-000M.xml</fr:route><fr:title>Syntax</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p>
+    Finite-type intuitionistic predicate logic is a predicate logic over a
+    typed term language. Thus we describe the types, then terms. The formulas
+    over those terms will be certain terms (of type <fr:tex>Ω</fr:tex>), and thus mutually
+    defined with the terms.
+</fr:p><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>326</fr:anchor><fr:addr>#270</fr:addr><fr:route>unstable-270.xml</fr:route><fr:title>Semantics</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:parent>hejohns-000J</fr:parent></fr:frontmatter><fr:mainmatter></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:context><fr:related><fr:tree
+root="false"><fr:frontmatter><fr:anchor>296</fr:anchor><fr:addr>#269</fr:addr><fr:route>unstable-269.xml</fr:route><fr:title>Types</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date><fr:parent>hejohns-000M</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        Given a collection of atomic type symbols <fr:tex>\mathcal {L} _{ \mathsf {base}}</fr:tex>, the collection of
+        (all) <fr:tex>\mathcal {L} _{ \mathsf {base}}</fr:tex>-types is the smallest such that
+        <fr:ul><fr:li>
+                if <fr:tex>A ∈  \mathcal {L} _{ \mathsf {base}}</fr:tex>, then <fr:tex>A</fr:tex> is a type
+            </fr:li>
+            <fr:li>
+                if <fr:tex>A</fr:tex> and <fr:tex>B</fr:tex> are types, <fr:tex>A × B</fr:tex> is a type
+            </fr:li>
+            <fr:li>
+                if <fr:tex>A</fr:tex> and <fr:tex>B</fr:tex> are types, then <fr:tex>A → B</fr:tex> is a type
+            </fr:li>
+            <fr:li><fr:tex>1</fr:tex> is a type
+            </fr:li>
+            <fr:li>
+                either
+                <fr:ul><fr:li><fr:tex>Ω</fr:tex> is a type, and let <fr:tex>\mathcal {P} A  ≔ A → Ω</fr:tex></fr:li>
+                    <fr:li>
+                        if <fr:tex>A</fr:tex> is a type, <fr:tex>\mathcal {P} A</fr:tex> is a type, and let <fr:tex>Ω ≔  \mathcal {P} 1</fr:tex></fr:li></fr:ul></fr:li></fr:ul></fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>297</fr:anchor><fr:addr>#270</fr:addr><fr:route>unstable-270.xml</fr:route><fr:title>Terms</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date><fr:parent>hejohns-000M</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        We write <fr:tex>x : y</fr:tex> to mean "'x' is a term of type 'y'".
+    </fr:p><fr:p>
+        Given a collection of constant term symbols <fr:tex>\mathcal {L} _{ \mathsf {const}}</fr:tex>, a collection of
+        function symbols <fr:tex>\mathcal {L} _{ \mathsf {fun}}</fr:tex>, and a collection of relation symbols <fr:tex>\mathcal {L} _{ \mathsf {rel}}</fr:tex>, the
+        collection of (all, possibly open) <fr:tex>( \mathcal {L} _{ \mathsf {const}} ,  \mathcal {L} _{ \mathsf {fun}} ,  \mathcal {L} _{ \mathsf {rel}} )</fr:tex>-terms is the
+        smallest such that
+        <fr:ul><fr:li>
+                if <fr:tex>A</fr:tex> is a type, there are sufficient variables <fr:tex>x : A</fr:tex></fr:li>
+            <fr:li>
+                if <fr:tex>(c : A) ∈  \mathcal {L} _{ \mathsf {const}}</fr:tex>, then <fr:tex>c : A</fr:tex></fr:li>
+            <fr:li>
+                if <fr:tex>(f~``: A₁ × … Aₙ → B") ∈  \mathcal {L} _{ \mathsf {fun}}</fr:tex> and <fr:tex>a₁ : A₁</fr:tex>, … <fr:tex>aₙ :                 Aₙ</fr:tex>, then <fr:tex>f(a₁, …, aₙ) : A</fr:tex> (quotes are used to avoid making
+                <fr:tex>f</fr:tex> look like a constant symbol of function type, but we don't
+                bother to write something correct)
+            </fr:li>
+            <fr:li>
+                if <fr:tex>R~``: A₁ × … Aₙ → Ω" ∈  \mathcal {L} _{ \mathsf {rel}}</fr:tex> and <fr:tex>a₁ : A₁</fr:tex>, … <fr:tex>aₙ : Aₙ</fr:tex>,
+                then <fr:tex>R(a₁, …, aₙ) : Ω</fr:tex> (sim.)
+            </fr:li>
+            <fr:li><fr:tex>* : 1</fr:tex></fr:li>
+            <fr:li>
+                if <fr:tex>a : A</fr:tex> and <fr:tex>b : B</fr:tex>, then <fr:tex>(a, b) : A × B</fr:tex></fr:li>
+            <fr:li>
+                if <fr:tex>t : A × B</fr:tex>, then <fr:tex>π₁ t : A</fr:tex>, <fr:tex>π₂ t : B</fr:tex></fr:li>
+            <fr:li>
+                if <fr:tex>t(x) : B</fr:tex>, where <fr:tex>x : A</fr:tex>, then <fr:tex>λx : A. t : A → B</fr:tex> such
+                that <fr:tex>x</fr:tex> is now bound
+            </fr:li>
+            <fr:li>
+                if <fr:tex>s : A → B</fr:tex> and <fr:tex>t : A</fr:tex>, then <fr:tex>s t : B</fr:tex></fr:li>
+            <fr:li>
+                if <fr:tex>a : A</fr:tex> and <fr:tex>α :  \mathcal {P} A</fr:tex>, then <fr:tex>a ∈ α : Ω</fr:tex></fr:li>
+            <fr:li>
+                if <fr:tex>ϕ(x) : Ω</fr:tex>, where by this notation we mean <fr:tex>ϕ</fr:tex> may contain
+                the free variable <fr:tex>x : A</fr:tex>, then <fr:tex>\{ x ∈ A | ϕ(x) \}  :  \mathcal {P} A</fr:tex>
+                such that <fr:tex>x</fr:tex> is now bound
+            </fr:li>
+            <fr:li><fr:tex>⊤, ⊥ : Ω</fr:tex></fr:li>
+            <fr:li>
+                if <fr:tex>ϕ, ψ : Ω</fr:tex>, so are <fr:tex>ϕ ∧ ψ, ϕ ∨ ψ, ϕ ⟹ ψ</fr:tex></fr:li>
+            <fr:li>
+                if <fr:tex>ϕ(x) : Ω</fr:tex>, where <fr:tex>x : A</fr:tex>, then <fr:tex>∀x∈A. ϕ(x), ∃x∈A. ϕ(x) :                 Ω</fr:tex> such that <fr:tex>x</fr:tex> is now bound
+            </fr:li></fr:ul></fr:p><fr:p>
+        We generally conflate an <fr:tex>n</fr:tex>-ary function symbol with a unary function
+        symbol from the product type, with a constant symbol of function type,
+        but keep in mind the existence of this difference.
+    </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>298</fr:anchor><fr:addr>#271</fr:addr><fr:route>unstable-271.xml</fr:route><fr:title>Formulas</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date><fr:parent>hejohns-000M</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        The formulas are simply the terms of type <fr:tex>Ω</fr:tex>.
+        Note that we actually cannot separately define terms and formulas,
+        since the comprehension term depends on a formula, and formulas are
+        generally over terms.
+    </fr:p><fr:p>
+        We could make the formulas a distinct syntactic class as in
+        <fr:link
+href="johnstone-2002.xml"
+type="local"
+addr="johnstone-2002">Sketches of an Elephant: a topos theory compendium</fr:link>, which allows for a more uniform treatment of
+        subsystems, but in the spirit of full-higher-order-ness, we allow for
+        formulas like <fr:tex>π₁(⊤, ⊥)</fr:tex>. Of course, this choice has no significant
+        effect.
+    </fr:p></fr:mainmatter></fr:tree><fr:p>
+    Then one would expect:
+</fr:p><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>299</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>#272</fr:addr><fr:route>unstable-272.xml</fr:route><fr:title>(Finite-type intuitionistic predicate) language</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date><fr:parent>hejohns-000M</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        A <fr:em>language</fr:em> <fr:tex>\mathcal {L}</fr:tex> is a dependent <fr:tex>3</fr:tex>-tuple <fr:tex>⟨ \mathcal {L} _{ \mathsf {base}} , ⟨ \mathcal {L} _{ \mathsf {const}} ,  \mathcal {L} _{ \mathsf {fun}} ⟩,          \mathcal {L} _{ \mathsf {rel}} ⟩</fr:tex>, where
+        <fr:ul><fr:li><fr:tex>\mathcal {L} _{ \mathsf {base}}</fr:tex> is a collection of atomic type symbols (shortened to
+                "<fr:em>base types</fr:em>")
+            </fr:li>
+            <fr:li><fr:tex>\mathcal {L} _{ \mathsf {const}}</fr:tex> is a collection of constant term symbols (shortened to
+                "<fr:em>constants</fr:em>"), with type assignment
+            </fr:li>
+            <fr:li><fr:tex>\mathcal {L} _{ \mathsf {fun}}</fr:tex> is a collection of function symbols (shortened to
+                "<fr:em>functions</fr:em>"), with type and arity assignment
+            </fr:li>
+            <fr:li><fr:tex>\mathcal {L} _{ \mathsf {rel}}</fr:tex> is a collection of relation symbols (shorted to
+                "<fr:em>relations</fr:em>"), with type and arity assignment
+            </fr:li></fr:ul></fr:p></fr:mainmatter></fr:tree><fr:p>
+    Since the varying names for this logic betray a certain perspective bias,
+    we use the syntax-first name "finite-type intuitionistic predicate logic"
+    here. This is the same logic as discussed in <fr:link
+href="hejohns-000F.xml"
+type="local"
+addr="hejohns-000F">"higher-order intuitionistic logic" v. "topos logic"</fr:link>.
+</fr:p><fr:p>
+    This started off as based on <fr:link
+href="lambek-scott-1986.xml"
+type="local"
+addr="lambek-scott-1986">Introduction to higher order categorical logic</fr:link>, but I couldn't
+    obviously see why certain types and terms were omitted (TODO: why don't
+    they have <fr:tex>→</fr:tex> types?), and <fr:link
+href="johnstone-2002.xml"
+type="local"
+addr="johnstone-2002">Sketches of an Elephant: a topos theory compendium</fr:link> instead presents the syntax
+    <fr:em>exactly</fr:em> as we want. (Johnstone has a tendency to explain things in
+    <fr:em>exactly</fr:em> the way one ought to.)
+    The formalization of syntax in the traditional language used
+    <fr:link
+href="hinman-2005.xml"
+type="local"
+addr="hinman-2005">Fundamentals of Mathematical Logic</fr:link> 2.1 as a reference (see <fr:link
+href="hejohns-000N.xml"
+type="local"
+addr="hejohns-000N">L (Language)</fr:link>).
+</fr:p></fr:mainmatter></fr:tree>
+<fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>401</fr:anchor><fr:addr>#273</fr:addr><fr:route>unstable-273.xml</fr:route><fr:title>Semantics</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date><fr:parent>hejohns-000J</fr:parent></fr:frontmatter><fr:mainmatter></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:context><fr:related><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>415</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>sub-000G</fr:addr><fr:route>sub-000G.xml</fr:route><fr:title><fr:link
-href="unstable-276.xml"
+root="false"><fr:frontmatter><fr:anchor>392</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>sub-000G</fr:addr><fr:route>sub-000G.xml</fr:route><fr:title><fr:link
+href="unstable-280.xml"
 type="local"
-addr="#276"><fr:link
+addr="#280"><fr:link
 href="hejohns-000G.xml"
 type="local"
 addr="hejohns-000G">What is an elementary topos?</fr:link> › Topos à la <fr:link
@@ -1162,10 +1533,10 @@ type="local"
 addr="maclane-moerdijk-1994">Sheaves in Geometry and Logic: A First Introduction to Topos Theory</fr:link></fr:link> › Topos à la <fr:link
 href="maclane-moerdijk-1994.xml"
 type="local"
-addr="maclane-moerdijk-1994">Sheaves in Geometry and Logic: A First Introduction to Topos Theory</fr:link> p. 48</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+addr="maclane-moerdijk-1994">Sheaves in Geometry and Logic: A First Introduction to Topos Theory</fr:link> p. 48</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
-addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>#276</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>#280</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
             "[A <fr:em>topos</fr:em> <fr:tex>\mathcal {E}</fr:tex> is a category] with the following properties
             <fr:ul><fr:li>
                     (i) <fr:tex>\mathcal {E}</fr:tex> has all finite limits and colimits,
@@ -1181,14 +1552,21 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>408</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>awodey-2010</fr:addr><fr:route>awodey-2010.xml</fr:route><fr:title>Category Theory</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>2</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date></fr:frontmatter><fr:mainmatter></fr:mainmatter></fr:tree><fr:tree
+root="false"><fr:frontmatter><fr:anchor>383</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>lambek-scott-1986</fr:addr><fr:route>lambek-scott-1986.xml</fr:route><fr:title>Introduction to higher order categorical logic</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date></fr:frontmatter><fr:mainmatter></fr:mainmatter></fr:tree><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>409</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>makkai-reyes-1977</fr:addr><fr:route>makkai-reyes-1977.xml</fr:route><fr:title>First Order Categorical Logic</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>2</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>384</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>awodey-2010</fr:addr><fr:route>awodey-2010.xml</fr:route><fr:title>Category Theory</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>2</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date></fr:frontmatter><fr:mainmatter></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>385</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>makkai-reyes-1977</fr:addr><fr:route>makkai-reyes-1977.xml</fr:route><fr:title>First Order Categorical Logic</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>2</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p>
     I've heard/been told this is <fr:em>the</fr:em> book for, well, the subject in the
     title, and Makkai completeness.
 </fr:p></fr:mainmatter></fr:tree><fr:tree
@@ -1198,28 +1576,28 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>410</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>maclane-moerdijk-1994</fr:addr><fr:route>maclane-moerdijk-1994.xml</fr:route><fr:title>Sheaves in Geometry and Logic: A First Introduction to Topos Theory</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>2</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date></fr:frontmatter><fr:mainmatter></fr:mainmatter></fr:tree><fr:tree
+root="false"><fr:frontmatter><fr:anchor>386</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>maclane-moerdijk-1994</fr:addr><fr:route>maclane-moerdijk-1994.xml</fr:route><fr:title>Sheaves in Geometry and Logic: A First Introduction to Topos Theory</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>2</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date></fr:frontmatter><fr:mainmatter></fr:mainmatter></fr:tree><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>411</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>johnstone-2002</fr:addr><fr:route>johnstone-2002.xml</fr:route><fr:title>Sketches of an Elephant: a topos theory compendium</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>2</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date></fr:frontmatter><fr:mainmatter></fr:mainmatter></fr:tree><fr:tree
+root="false"><fr:frontmatter><fr:anchor>387</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>johnstone-2002</fr:addr><fr:route>johnstone-2002.xml</fr:route><fr:title>Sketches of an Elephant: a topos theory compendium</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>2</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date></fr:frontmatter><fr:mainmatter></fr:mainmatter></fr:tree><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>412</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>mclarty-1990b</fr:addr><fr:route>mclarty-1990b.xml</fr:route><fr:title>The Uses and Abuses of the History of Topos Theory</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:tree
+root="false"><fr:frontmatter><fr:anchor>389</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>mclarty-1990b</fr:addr><fr:route>mclarty-1990b.xml</fr:route><fr:title>The Uses and Abuses of the History of Topos Theory</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>292</fr:anchor><fr:taxon>Abstract</fr:taxon><fr:addr>#260</fr:addr><fr:route>unstable-260.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:parent>mclarty-1990b</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>388</fr:anchor><fr:taxon>Abstract</fr:taxon><fr:addr>#260</fr:addr><fr:route>unstable-260.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:parent>mclarty-1990b</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
         The view that toposes originated as generalized set theory is a figment of
         set theoretically educated common sense. This false history obstructs
         understanding of category theory and especially of categorical foundations
@@ -1239,7 +1617,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>413</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>goldblatt-2006</fr:addr><fr:route>goldblatt-2006.xml</fr:route><fr:title>Topoi: The Categorial Analysis of Logic</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>2</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>390</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>goldblatt-2006</fr:addr><fr:route>goldblatt-2006.xml</fr:route><fr:title>Topoi: The Categorial Analysis of Logic</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>2</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p>
     "Bibliographical Note: This Dover edition, first published in 2006, is a
     slightly corrected unabridged republication of the revised (second) edition
     of the work originally published in 1984 by Elsevier Science Publishers
@@ -1253,4 +1631,4 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>414</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>mclarty-1992</fr:addr><fr:route>mclarty-1992.xml</fr:route><fr:title>Elementary Categories, Elementary Toposes</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>31</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date></fr:frontmatter><fr:mainmatter></fr:mainmatter></fr:tree></fr:references></fr:backmatter></fr:tree>
+root="false"><fr:frontmatter><fr:anchor>391</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>mclarty-1992</fr:addr><fr:route>mclarty-1992.xml</fr:route><fr:title>Elementary Categories, Elementary Toposes</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>31</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date></fr:frontmatter><fr:mainmatter></fr:mainmatter></fr:tree></fr:references></fr:backmatter></fr:tree>

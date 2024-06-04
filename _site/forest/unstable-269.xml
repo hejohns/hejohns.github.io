@@ -7,28 +7,186 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>475</fr:anchor><fr:addr>#269</fr:addr><fr:route>unstable-269.xml</fr:route><fr:title><fr:link
-href="hejohns-000J.xml"
+root="false"><fr:frontmatter><fr:anchor>452</fr:anchor><fr:addr>#269</fr:addr><fr:route>unstable-269.xml</fr:route><fr:title><fr:link
+href="hejohns-000M.xml"
 type="local"
-addr="hejohns-000J">Higher-order intuitionistic topos logic</fr:link> › syntax</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:parent>hejohns-000J</fr:parent></fr:frontmatter><fr:mainmatter></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
+addr="hejohns-000M">Finite-type intuitionistic predicate logic</fr:link> › types</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date><fr:parent>hejohns-000M</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        Given a collection of atomic type symbols <fr:tex>\mathcal {L} _{ \mathsf {base}}</fr:tex>, the collection of
+        (all) <fr:tex>\mathcal {L} _{ \mathsf {base}}</fr:tex>-types is the smallest such that
+        <fr:ul><fr:li>
+                if <fr:tex>A ∈  \mathcal {L} _{ \mathsf {base}}</fr:tex>, then <fr:tex>A</fr:tex> is a type
+            </fr:li>
+            <fr:li>
+                if <fr:tex>A</fr:tex> and <fr:tex>B</fr:tex> are types, <fr:tex>A × B</fr:tex> is a type
+            </fr:li>
+            <fr:li>
+                if <fr:tex>A</fr:tex> and <fr:tex>B</fr:tex> are types, then <fr:tex>A → B</fr:tex> is a type
+            </fr:li>
+            <fr:li><fr:tex>1</fr:tex> is a type
+            </fr:li>
+            <fr:li>
+                either
+                <fr:ul><fr:li><fr:tex>Ω</fr:tex> is a type, and let <fr:tex>\mathcal {P} A  ≔ A → Ω</fr:tex></fr:li>
+                    <fr:li>
+                        if <fr:tex>A</fr:tex> is a type, <fr:tex>\mathcal {P} A</fr:tex> is a type, and let <fr:tex>Ω ≔  \mathcal {P} 1</fr:tex></fr:li></fr:ul></fr:li></fr:ul></fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>474</fr:anchor><fr:addr>hejohns-000J</fr:addr><fr:route>hejohns-000J.xml</fr:route><fr:title>Higher-order intuitionistic topos logic</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:tree
+root="false"><fr:frontmatter><fr:anchor>451</fr:anchor><fr:addr>hejohns-000M</fr:addr><fr:route>hejohns-000M.xml</fr:route><fr:title>Finite-type intuitionistic predicate logic</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p>
+    Finite-type intuitionistic predicate logic is a predicate logic over a
+    typed term language. Thus we describe the types, then terms. The formulas
+    over those terms will be certain terms (of type <fr:tex>Ω</fr:tex>), and thus mutually
+    defined with the terms.
+</fr:p><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>325</fr:anchor><fr:addr>#269</fr:addr><fr:route>unstable-269.xml</fr:route><fr:title>Syntax</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:parent>hejohns-000J</fr:parent></fr:frontmatter><fr:mainmatter></fr:mainmatter></fr:tree><fr:tree
+root="false"><fr:frontmatter><fr:anchor>296</fr:anchor><fr:addr>#269</fr:addr><fr:route>unstable-269.xml</fr:route><fr:title>Types</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date><fr:parent>hejohns-000M</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        Given a collection of atomic type symbols <fr:tex>\mathcal {L} _{ \mathsf {base}}</fr:tex>, the collection of
+        (all) <fr:tex>\mathcal {L} _{ \mathsf {base}}</fr:tex>-types is the smallest such that
+        <fr:ul><fr:li>
+                if <fr:tex>A ∈  \mathcal {L} _{ \mathsf {base}}</fr:tex>, then <fr:tex>A</fr:tex> is a type
+            </fr:li>
+            <fr:li>
+                if <fr:tex>A</fr:tex> and <fr:tex>B</fr:tex> are types, <fr:tex>A × B</fr:tex> is a type
+            </fr:li>
+            <fr:li>
+                if <fr:tex>A</fr:tex> and <fr:tex>B</fr:tex> are types, then <fr:tex>A → B</fr:tex> is a type
+            </fr:li>
+            <fr:li><fr:tex>1</fr:tex> is a type
+            </fr:li>
+            <fr:li>
+                either
+                <fr:ul><fr:li><fr:tex>Ω</fr:tex> is a type, and let <fr:tex>\mathcal {P} A  ≔ A → Ω</fr:tex></fr:li>
+                    <fr:li>
+                        if <fr:tex>A</fr:tex> is a type, <fr:tex>\mathcal {P} A</fr:tex> is a type, and let <fr:tex>Ω ≔  \mathcal {P} 1</fr:tex></fr:li></fr:ul></fr:li></fr:ul></fr:p></fr:mainmatter></fr:tree><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>326</fr:anchor><fr:addr>#270</fr:addr><fr:route>unstable-270.xml</fr:route><fr:title>Semantics</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:parent>hejohns-000J</fr:parent></fr:frontmatter><fr:mainmatter></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+root="false"><fr:frontmatter><fr:anchor>297</fr:anchor><fr:addr>#270</fr:addr><fr:route>unstable-270.xml</fr:route><fr:title>Terms</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date><fr:parent>hejohns-000M</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        We write <fr:tex>x : y</fr:tex> to mean "'x' is a term of type 'y'".
+    </fr:p><fr:p>
+        Given a collection of constant term symbols <fr:tex>\mathcal {L} _{ \mathsf {const}}</fr:tex>, a collection of
+        function symbols <fr:tex>\mathcal {L} _{ \mathsf {fun}}</fr:tex>, and a collection of relation symbols <fr:tex>\mathcal {L} _{ \mathsf {rel}}</fr:tex>, the
+        collection of (all, possibly open) <fr:tex>( \mathcal {L} _{ \mathsf {const}} ,  \mathcal {L} _{ \mathsf {fun}} ,  \mathcal {L} _{ \mathsf {rel}} )</fr:tex>-terms is the
+        smallest such that
+        <fr:ul><fr:li>
+                if <fr:tex>A</fr:tex> is a type, there are sufficient variables <fr:tex>x : A</fr:tex></fr:li>
+            <fr:li>
+                if <fr:tex>(c : A) ∈  \mathcal {L} _{ \mathsf {const}}</fr:tex>, then <fr:tex>c : A</fr:tex></fr:li>
+            <fr:li>
+                if <fr:tex>(f~``: A₁ × … Aₙ → B") ∈  \mathcal {L} _{ \mathsf {fun}}</fr:tex> and <fr:tex>a₁ : A₁</fr:tex>, … <fr:tex>aₙ :                 Aₙ</fr:tex>, then <fr:tex>f(a₁, …, aₙ) : A</fr:tex> (quotes are used to avoid making
+                <fr:tex>f</fr:tex> look like a constant symbol of function type, but we don't
+                bother to write something correct)
+            </fr:li>
+            <fr:li>
+                if <fr:tex>R~``: A₁ × … Aₙ → Ω" ∈  \mathcal {L} _{ \mathsf {rel}}</fr:tex> and <fr:tex>a₁ : A₁</fr:tex>, … <fr:tex>aₙ : Aₙ</fr:tex>,
+                then <fr:tex>R(a₁, …, aₙ) : Ω</fr:tex> (sim.)
+            </fr:li>
+            <fr:li><fr:tex>* : 1</fr:tex></fr:li>
+            <fr:li>
+                if <fr:tex>a : A</fr:tex> and <fr:tex>b : B</fr:tex>, then <fr:tex>(a, b) : A × B</fr:tex></fr:li>
+            <fr:li>
+                if <fr:tex>t : A × B</fr:tex>, then <fr:tex>π₁ t : A</fr:tex>, <fr:tex>π₂ t : B</fr:tex></fr:li>
+            <fr:li>
+                if <fr:tex>t(x) : B</fr:tex>, where <fr:tex>x : A</fr:tex>, then <fr:tex>λx : A. t : A → B</fr:tex> such
+                that <fr:tex>x</fr:tex> is now bound
+            </fr:li>
+            <fr:li>
+                if <fr:tex>s : A → B</fr:tex> and <fr:tex>t : A</fr:tex>, then <fr:tex>s t : B</fr:tex></fr:li>
+            <fr:li>
+                if <fr:tex>a : A</fr:tex> and <fr:tex>α :  \mathcal {P} A</fr:tex>, then <fr:tex>a ∈ α : Ω</fr:tex></fr:li>
+            <fr:li>
+                if <fr:tex>ϕ(x) : Ω</fr:tex>, where by this notation we mean <fr:tex>ϕ</fr:tex> may contain
+                the free variable <fr:tex>x : A</fr:tex>, then <fr:tex>\{ x ∈ A | ϕ(x) \}  :  \mathcal {P} A</fr:tex>
+                such that <fr:tex>x</fr:tex> is now bound
+            </fr:li>
+            <fr:li><fr:tex>⊤, ⊥ : Ω</fr:tex></fr:li>
+            <fr:li>
+                if <fr:tex>ϕ, ψ : Ω</fr:tex>, so are <fr:tex>ϕ ∧ ψ, ϕ ∨ ψ, ϕ ⟹ ψ</fr:tex></fr:li>
+            <fr:li>
+                if <fr:tex>ϕ(x) : Ω</fr:tex>, where <fr:tex>x : A</fr:tex>, then <fr:tex>∀x∈A. ϕ(x), ∃x∈A. ϕ(x) :                 Ω</fr:tex> such that <fr:tex>x</fr:tex> is now bound
+            </fr:li></fr:ul></fr:p><fr:p>
+        We generally conflate an <fr:tex>n</fr:tex>-ary function symbol with a unary function
+        symbol from the product type, with a constant symbol of function type,
+        but keep in mind the existence of this difference.
+    </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>298</fr:anchor><fr:addr>#271</fr:addr><fr:route>unstable-271.xml</fr:route><fr:title>Formulas</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date><fr:parent>hejohns-000M</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        The formulas are simply the terms of type <fr:tex>Ω</fr:tex>.
+        Note that we actually cannot separately define terms and formulas,
+        since the comprehension term depends on a formula, and formulas are
+        generally over terms.
+    </fr:p><fr:p>
+        We could make the formulas a distinct syntactic class as in
+        <fr:link
+href="johnstone-2002.xml"
+type="local"
+addr="johnstone-2002">Sketches of an Elephant: a topos theory compendium</fr:link>, which allows for a more uniform treatment of
+        subsystems, but in the spirit of full-higher-order-ness, we allow for
+        formulas like <fr:tex>π₁(⊤, ⊥)</fr:tex>. Of course, this choice has no significant
+        effect.
+    </fr:p></fr:mainmatter></fr:tree><fr:p>
+    Then one would expect:
+</fr:p><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>299</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>#272</fr:addr><fr:route>unstable-272.xml</fr:route><fr:title>(Finite-type intuitionistic predicate) language</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date><fr:parent>hejohns-000M</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        A <fr:em>language</fr:em> <fr:tex>\mathcal {L}</fr:tex> is a dependent <fr:tex>3</fr:tex>-tuple <fr:tex>⟨ \mathcal {L} _{ \mathsf {base}} , ⟨ \mathcal {L} _{ \mathsf {const}} ,  \mathcal {L} _{ \mathsf {fun}} ⟩,          \mathcal {L} _{ \mathsf {rel}} ⟩</fr:tex>, where
+        <fr:ul><fr:li><fr:tex>\mathcal {L} _{ \mathsf {base}}</fr:tex> is a collection of atomic type symbols (shortened to
+                "<fr:em>base types</fr:em>")
+            </fr:li>
+            <fr:li><fr:tex>\mathcal {L} _{ \mathsf {const}}</fr:tex> is a collection of constant term symbols (shortened to
+                "<fr:em>constants</fr:em>"), with type assignment
+            </fr:li>
+            <fr:li><fr:tex>\mathcal {L} _{ \mathsf {fun}}</fr:tex> is a collection of function symbols (shortened to
+                "<fr:em>functions</fr:em>"), with type and arity assignment
+            </fr:li>
+            <fr:li><fr:tex>\mathcal {L} _{ \mathsf {rel}}</fr:tex> is a collection of relation symbols (shorted to
+                "<fr:em>relations</fr:em>"), with type and arity assignment
+            </fr:li></fr:ul></fr:p></fr:mainmatter></fr:tree><fr:p>
+    Since the varying names for this logic betray a certain perspective bias,
+    we use the syntax-first name "finite-type intuitionistic predicate logic"
+    here. This is the same logic as discussed in <fr:link
+href="hejohns-000F.xml"
+type="local"
+addr="hejohns-000F">"higher-order intuitionistic logic" v. "topos logic"</fr:link>.
+</fr:p><fr:p>
+    This started off as based on <fr:link
+href="lambek-scott-1986.xml"
+type="local"
+addr="lambek-scott-1986">Introduction to higher order categorical logic</fr:link>, but I couldn't
+    obviously see why certain types and terms were omitted (TODO: why don't
+    they have <fr:tex>→</fr:tex> types?), and <fr:link
+href="johnstone-2002.xml"
+type="local"
+addr="johnstone-2002">Sketches of an Elephant: a topos theory compendium</fr:link> instead presents the syntax
+    <fr:em>exactly</fr:em> as we want. (Johnstone has a tendency to explain things in
+    <fr:em>exactly</fr:em> the way one ought to.)
+    The formalization of syntax in the traditional language used
+    <fr:link
+href="hinman-2005.xml"
+type="local"
+addr="hinman-2005">Fundamentals of Mathematical Logic</fr:link> 2.1 as a reference (see <fr:link
+href="hejohns-000N.xml"
+type="local"
+addr="hejohns-000N">L (Language)</fr:link>).
+</fr:p></fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
