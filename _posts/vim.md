@@ -9,7 +9,7 @@ instead of just using the debian packaged vim-gtk3.
 
 Also I should really contribute a little to vim over time.
 The only thing I've contributed back was a bug report about unicode character handling,
-which someone patched and Bram merged within a couple days(!).
+which someone patched and Bram merged the same day(!).
 
 So let's keep a [fork](https://github.com/hejohns/vim) to track my config.
 
