@@ -7,59 +7,22 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>894</fr:anchor><fr:taxon>Email</fr:taxon><fr:addr>#257</fr:addr><fr:route>unstable-257.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>28</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>29</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="hejohns.xml"
-type="local"
-addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>quine-1960</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-        Thanks for sharing this nice little note, which sketches a combinatory
-        (classical) first-order logic.
-    </fr:p><fr:p>
-        I was surprised by the mention of von Neumann 1925 in this snippet:
-    </fr:p><fr:p>
-        "In a way our operators are reminiscent also of the axioms of class
-        existence in Neumann, J. von, Eine Axiomatisierung der Mengenlehre,
-        Journal für reine und ungewandte Mathematik 154: 219-240, 1925, despite
-        dissimilarity of purpose." (Footnote 1, p. 346)
-    </fr:p><fr:p>
-        From what I gather, the reminiscence with von Neumann 1925 (I assume
-        Quine was principally referring to the "III. Logical Construction
-        Axioms") is that the purposes (of Quine's predicate combinators and von
-        Neumann's axioms of existence of II-objects) are actually quite
-        similar.
-    </fr:p><fr:p>
-        It seems that the system of von Neumann 1925 isn't couched in any
-        particular formal system (although it's maybe implicitly first-order,
-        and apparently translated into such by Skolem 1938), thus von Neumann
-        wants to recover from any definite property ("logical condition") on
-        I-objects, the (existence of a) class (II-object) of those I-objects.
-        Wikipedia calls this the <fr:link
-href="https://en.wikipedia.org/wiki/Von_Neumann%E2%80%93Bernays%E2%80%93G%C3%B6del_set_theory#Class_existence_theorem"
-type="external">class existence theorem</fr:link>.
-    </fr:p><fr:p>
-        (More generally, the "reduction theorem" in von Neumann 1925 says that
-        every expression of I-objects (definable class-function) is indeed a
-        II-object (class-function). This restricts to logical conditions and
-        classes.)
-    </fr:p><fr:p>
-        To do this economically, the existence of a few basic
-        combinator-classes are stipulated (=, ∀, ∃!), and more complex logical
-        conditions are put in "normal form" by eliminating variables with the
-        combinator-classes.  The 'uneconomic' way, if von Neumann 1925 were
-        working in an explicit logic, would be to just stipulate a schema of
-        class comprehension (also mentioned in the Wikipedia article), as
-        included in the back of Chang and Keisler.
-    </fr:p><fr:p>
-        Actually, while there are explicit class existence axioms for absorbing
-        =, ∀, ∃!, I don't see any for things like ∧ or ¬, and don't see how
-        they'd follow with the other axioms, but I suppose they must. The
-        Wikipedia article has a write-up starting from more user-friendly
-        axioms.
-    </fr:p><fr:p>
-        In any case, I hadn't realized that the historic move to make precise
-        the notion of 'definite property' as 'first-order definable' was
-        nontrivial, and found this connection with Quine's note interesting,
-    </fr:p><fr:p>
-        Johnson He
+root="false"><fr:frontmatter><fr:anchor>820</fr:anchor><fr:taxon>Abstract</fr:taxon><fr:addr>#257</fr:addr><fr:route>unstable-257.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:parent>millies-zeilberger-2015</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        The standard reading of type theory through the lens of category theory
+        is based on the idea of viewing a type system as a category of
+        well-typed terms. We propose a basic revision of this reading: rather
+        than interpreting type systems as categories, we describe them as
+        functors from a category of typing derivations to a category of
+        underlying terms. Then, turning this around, we explain how in fact any
+        functor gives rise to a generalized type system, with an abstract
+        notion of typing judgment, typing derivations and typing rules. This
+        leads to a purely categorical reformulation of various natural classes
+        of type systems as natural classes of functors. The main purpose of
+        this paper is to describe the general framework (which can also be seen
+        as providing a categorical analysis of refinement types), and to
+        present a few applications. As a larger case study, we revisit
+        Reynolds’ paper on “The Meaning of Types” (2000), showing how the
+        paper’s main results may be reconstructed along these lines.
     </fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
@@ -67,80 +30,93 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>892</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>quine-1960</fr:addr><fr:route>quine-1960.xml</fr:route><fr:title>Variables Explained Away</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>28</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>29</fr:day></fr:date><fr:authors><fr:contributor><fr:link
+root="false"><fr:frontmatter><fr:anchor>818</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>millies-zeilberger-2015</fr:addr><fr:route>millies-zeilberger-2015.xml</fr:route><fr:title>Functors are Type Refinement Systems</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:authors><fr:contributor><fr:link
 href="hejohns.xml"
 type="local"
-addr="hejohns">Johnson He</fr:link></fr:contributor></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-    "Separately I sent a copy of Quine's 1950 paper on combinatory logic to
-    this list. Whatever else you might think about Quine, he was a terrific
-    explainer, and this is the best introduction to the subject I know."
-</fr:p><fr:p>
-    (Yes, that 50 should be a 60(b).)
-    Here is the followup I wrote:
-</fr:p><fr:tree
+addr="hejohns">Johnson He</fr:link></fr:contributor></fr:authors></fr:frontmatter><fr:mainmatter><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>430</fr:anchor><fr:taxon>Email</fr:taxon><fr:addr>#257</fr:addr><fr:route>unstable-257.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>28</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>29</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>414</fr:anchor><fr:taxon>Abstract</fr:taxon><fr:addr>#257</fr:addr><fr:route>unstable-257.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:parent>millies-zeilberger-2015</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        The standard reading of type theory through the lens of category theory
+        is based on the idea of viewing a type system as a category of
+        well-typed terms. We propose a basic revision of this reading: rather
+        than interpreting type systems as categories, we describe them as
+        functors from a category of typing derivations to a category of
+        underlying terms. Then, turning this around, we explain how in fact any
+        functor gives rise to a generalized type system, with an abstract
+        notion of typing judgment, typing derivations and typing rules. This
+        leads to a purely categorical reformulation of various natural classes
+        of type systems as natural classes of functors. The main purpose of
+        this paper is to describe the general framework (which can also be seen
+        as providing a categorical analysis of refinement types), and to
+        present a few applications. As a larger case study, we revisit
+        Reynolds’ paper on “The Meaning of Types” (2000), showing how the
+        paper’s main results may be reconstructed along these lines.
+    </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>415</fr:anchor><fr:addr>#258</fr:addr><fr:route>unstable-258.xml</fr:route><fr:title>Sections 1-2</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
-addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>quine-1960</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-        Thanks for sharing this nice little note, which sketches a combinatory
-        (classical) first-order logic.
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>millies-zeilberger-2015</fr:parent></fr:frontmatter><fr:mainmatter><fr:p><fr:em>What</fr:em> is a logical relation?
+        A LR is just a model of the syntax, used to prove <fr:tex>∀M</fr:tex> statements.
+        Thus, it's usually <fr:em>just</fr:em> a model "above" (or a structure preserving
+        functor into) the syntax, typically trivially constructed as a pullback
+        (it's hard in general to concoct models with structure preserving maps
+        into the syntax).
+        This is so we can take advantage of the universal property of the
+        syntax (its initiality), as we always do (eg classical soundness of
+        Prop logic).
+        The initiality lets us lift any syntactic term into the model, and talk
+        about it in the model. The projection of the model then let's us
+        actually say something about the syntax itself.
+        So a logical relations argument is <fr:em>just</fr:em> a clever choice of model,
+        to let us say something interesting/talk about what we care about.
     </fr:p><fr:p>
-        I was surprised by the mention of von Neumann 1925 in this snippet:
+        So (classical) parametricity (a la Reynolds '83) is just this.
+        He constructs a set-theoretic model of system F (all models in the
+        paper are set theoretic) out of <fr:em>two</fr:em> standard models.
+        In terms of data abstraction/automata, the point is to construct a
+        bisimulation between the two models, so we can say that two types are
+        "the same"-- every step in the program preserves the relation in
+        lock-step.
+        This is entirely analogous to canonicity, where we need to actually
+        reason about the whole language preserving the type, not just intro and
+        elims for that type, for a stronger inductive hypothesis.
     </fr:p><fr:p>
-        "In a way our operators are reminiscent also of the axioms of class
-        existence in Neumann, J. von, Eine Axiomatisierung der Mengenlehre,
-        Journal für reine und ungewandte Mathematik 154: 219-240, 1925, despite
-        dissimilarity of purpose." (Footnote 1, p. 346)
+        This way, we can show that two different semantics and implementations
+        for a <fr:code>intset</fr:code> type are in a precise sense, "the same".  We
+        typically relate a naive implementation and a optimized implementation.
+        That is, the reference and optimized implementations are
+        bisimilar/extensionally equivalent.
     </fr:p><fr:p>
-        From what I gather, the reminiscence with von Neumann 1925 (I assume
-        Quine was principally referring to the "III. Logical Construction
-        Axioms") is that the purposes (of Quine's predicate combinators and von
-        Neumann's axioms of existence of II-objects) are actually quite
-        similar.
+        I'm still not super clear on why parametricity fundamentally is tied
+        with this notion of data hiding.  I guess it's that to give an account
+        of "operating on a type, just knowing it's a type", one has to give a
+        notion of "just knowing it's a type".  For this, Reynolds defines a
+        notion of "respecting interfaces" w/ relations between models, and that
+        polymophic terms respect any interface?
     </fr:p><fr:p>
-        It seems that the system of von Neumann 1925 isn't couched in any
-        particular formal system (although it's maybe implicitly first-order,
-        and apparently translated into such by Skolem 1938), thus von Neumann
-        wants to recover from any definite property ("logical condition") on
-        I-objects, the (existence of a) class (II-object) of those I-objects.
-        Wikipedia calls this the <fr:link
-href="https://en.wikipedia.org/wiki/Von_Neumann%E2%80%93Bernays%E2%80%93G%C3%B6del_set_theory#Class_existence_theorem"
-type="external">class existence theorem</fr:link>.
+        That last question is that the "constructing a bisimulation between two
+        models" view seems to make sense, but as a phrasing of parametricity,
+        it should really be that "for any two models, we can always construct
+        (using a LR) a bisimulation between them".
+        Assuming it's actually true eg you can't construct the model if you say
+        that the empty intlist is related to a nonempty one.
     </fr:p><fr:p>
-        (More generally, the "reduction theorem" in von Neumann 1925 says that
-        every expression of I-objects (definable class-function) is indeed a
-        II-object (class-function). This restricts to logical conditions and
-        classes.)
+        And do we get anything interesting if one of the models is itself the syntax?
+        Is this what parametricity is?
+        What if we put the same model on both sides? It should be trivial, thinking of it as a bisimulation, but I guess it just gives you a logical predicate.
+        What about the syntax as a "closed terms" henkin model?
     </fr:p><fr:p>
-        To do this economically, the existence of a few basic
-        combinator-classes are stipulated (=, ∀, ∃!), and more complex logical
-        conditions are put in "normal form" by eliminating variables with the
-        combinator-classes.  The 'uneconomic' way, if von Neumann 1925 were
-        working in an explicit logic, would be to just stipulate a schema of
-        class comprehension (also mentioned in the Wikipedia article), as
-        included in the back of Chang and Keisler.
-    </fr:p><fr:p>
-        Actually, while there are explicit class existence axioms for absorbing
-        =, ∀, ∃!, I don't see any for things like ∧ or ¬, and don't see how
-        they'd follow with the other axioms, but I suppose they must. The
-        Wikipedia article has a write-up starting from more user-friendly
-        axioms.
-    </fr:p><fr:p>
-        In any case, I hadn't realized that the historic move to make precise
-        the notion of 'definite property' as 'first-order definable' was
-        nontrivial, and found this connection with Quine's note interesting,
-    </fr:p><fr:p>
-        Johnson He
-    </fr:p></fr:mainmatter></fr:tree><fr:ul><fr:li><fr:link
-href="quine-1960.pdf"
-type="external">quine-1960.pdf</fr:link></fr:li>
-    <fr:li><fr:link
-href="von-neumann-1925.xml"
-type="local"
-addr="von-neumann-1925">An Axiomatization of Set Theory</fr:link></fr:li></fr:ul></fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+        Maybe I'm finally close to being able to understand what a Kripke
+        logical relation is.
+    </fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

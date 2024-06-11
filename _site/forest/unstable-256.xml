@@ -7,118 +7,140 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>830</fr:anchor><fr:taxon>Abstract</fr:taxon><fr:addr>#256</fr:addr><fr:route>unstable-256.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>13</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:parent>statman-1985</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-        In this note we shall try to place Friedman's remarkable little paper
-        (<fr:link
-href="friedman-1975.xml"
+root="false"><fr:frontmatter><fr:anchor>881</fr:anchor><fr:taxon>Email</fr:taxon><fr:addr>#256</fr:addr><fr:route>unstable-256.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>28</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>29</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="hejohns.xml"
 type="local"
-addr="friedman-1975">3</fr:link>) in the context of what we know today about the model
-        theory of the typed λ-calculus. In order to do this, it is appropriate to
-        survey recent work in this area, in so far as it touches on issues raised
-        by Friedman. We don't intend a general survey; much will be left out. In
-        particular, we shall omit discussion of unification, fragments of L.C.F.,
-        and polymorphic types, which are areas of interest to the author, and the
-        specialist will surely find other omissions. However, we will try to show
-        the reader how Friedman's paper <fr:em>lays the foundation</fr:em> for the general
-        model theory of the typed λ-calculus.
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>quine-1960</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        Thanks for sharing this nice little note, which sketches a combinatory
+        (classical) first-order logic.
     </fr:p><fr:p>
-        The plan of this note is the following. We shall begin by a brief, informal
-        introduction to the subject. The reader is then advised to read Friedman's
-        paper. It is, after all, quite accessible and easy to read. We shall then
-        proceed to consider the three major issues touched on in "Equality between
-        functionals" as we view them today. These issues are
-        <fr:ul><fr:li>
-                completness theorems,
-            </fr:li>
-            <fr:li>
-                the solvability of higher type functional equations, and
-            </fr:li>
-            <fr:li>
-                logical relations.
-            </fr:li></fr:ul></fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
+        I was surprised by the mention of von Neumann 1925 in this snippet:
+    </fr:p><fr:p>
+        "In a way our operators are reminiscent also of the axioms of class
+        existence in Neumann, J. von, Eine Axiomatisierung der Mengenlehre,
+        Journal für reine und ungewandte Mathematik 154: 219-240, 1925, despite
+        dissimilarity of purpose." (Footnote 1, p. 346)
+    </fr:p><fr:p>
+        From what I gather, the reminiscence with von Neumann 1925 (I assume
+        Quine was principally referring to the "III. Logical Construction
+        Axioms") is that the purposes (of Quine's predicate combinators and von
+        Neumann's axioms of existence of II-objects) are actually quite
+        similar.
+    </fr:p><fr:p>
+        It seems that the system of von Neumann 1925 isn't couched in any
+        particular formal system (although it's maybe implicitly first-order,
+        and apparently translated into such by Skolem 1938), thus von Neumann
+        wants to recover from any definite property ("logical condition") on
+        I-objects, the (existence of a) class (II-object) of those I-objects.
+        Wikipedia calls this the <fr:link
+href="https://en.wikipedia.org/wiki/Von_Neumann%E2%80%93Bernays%E2%80%93G%C3%B6del_set_theory#Class_existence_theorem"
+type="external">class existence theorem</fr:link>.
+    </fr:p><fr:p>
+        (More generally, the "reduction theorem" in von Neumann 1925 says that
+        every expression of I-objects (definable class-function) is indeed a
+        II-object (class-function). This restricts to logical conditions and
+        classes.)
+    </fr:p><fr:p>
+        To do this economically, the existence of a few basic
+        combinator-classes are stipulated (=, ∀, ∃!), and more complex logical
+        conditions are put in "normal form" by eliminating variables with the
+        combinator-classes.  The 'uneconomic' way, if von Neumann 1925 were
+        working in an explicit logic, would be to just stipulate a schema of
+        class comprehension (also mentioned in the Wikipedia article), as
+        included in the back of Chang and Keisler.
+    </fr:p><fr:p>
+        Actually, while there are explicit class existence axioms for absorbing
+        =, ∀, ∃!, I don't see any for things like ∧ or ¬, and don't see how
+        they'd follow with the other axioms, but I suppose they must. The
+        Wikipedia article has a write-up starting from more user-friendly
+        axioms.
+    </fr:p><fr:p>
+        In any case, I hadn't realized that the historic move to make precise
+        the notion of 'definite property' as 'first-order definable' was
+        nontrivial, and found this connection with Quine's note interesting,
+    </fr:p><fr:p>
+        Johnson He
+    </fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>829</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>statman-1985</fr:addr><fr:route>statman-1985.xml</fr:route><fr:title>Equality Between Functionals Revisited</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>13</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>410</fr:anchor><fr:taxon>Abstract</fr:taxon><fr:addr>#256</fr:addr><fr:route>unstable-256.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>13</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:parent>statman-1985</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-        In this note we shall try to place Friedman's remarkable little paper
-        (<fr:link
-href="friedman-1975.xml"
+root="false"><fr:frontmatter><fr:anchor>879</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>quine-1960</fr:addr><fr:route>quine-1960.xml</fr:route><fr:title>Variables Explained Away</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>28</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>29</fr:day></fr:date><fr:authors><fr:contributor><fr:link
+href="hejohns.xml"
 type="local"
-addr="friedman-1975">3</fr:link>) in the context of what we know today about the model
-        theory of the typed λ-calculus. In order to do this, it is appropriate to
-        survey recent work in this area, in so far as it touches on issues raised
-        by Friedman. We don't intend a general survey; much will be left out. In
-        particular, we shall omit discussion of unification, fragments of L.C.F.,
-        and polymorphic types, which are areas of interest to the author, and the
-        specialist will surely find other omissions. However, we will try to show
-        the reader how Friedman's paper <fr:em>lays the foundation</fr:em> for the general
-        model theory of the typed λ-calculus.
-    </fr:p><fr:p>
-        The plan of this note is the following. We shall begin by a brief, informal
-        introduction to the subject. The reader is then advised to read Friedman's
-        paper. It is, after all, quite accessible and easy to read. We shall then
-        proceed to consider the three major issues touched on in "Equality between
-        functionals" as we view them today. These issues are
-        <fr:ul><fr:li>
-                completness theorems,
-            </fr:li>
-            <fr:li>
-                the solvability of higher type functional equations, and
-            </fr:li>
-            <fr:li>
-                logical relations.
-            </fr:li></fr:ul></fr:p></fr:mainmatter></fr:tree><fr:p><fr:link
-href="statman-1985.pdf"
-type="external">statman-1985.pdf</fr:link></fr:p></fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks></fr:backlinks><fr:references><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>828</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>friedman-1975</fr:addr><fr:route>friedman-1975.xml</fr:route><fr:title>Equality Between Functionals</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>13</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:tree
+addr="hejohns">Johnson He</fr:link></fr:contributor></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+    "Separately I sent a copy of Quine's 1950 paper on combinatory logic to
+    this list. Whatever else you might think about Quine, he was a terrific
+    explainer, and this is the best introduction to the subject I know."
+</fr:p><fr:p>
+    (Yes, that 50 should be a 60(b).)
+    Here is the followup I wrote:
+</fr:p><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>408</fr:anchor><fr:taxon>Abstract</fr:taxon><fr:addr>#287</fr:addr><fr:route>unstable-287.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>13</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:parent>friedman-1975</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-        The λ-calculus, in both its typed and untyped forms, has primarily been
-        regarded as an attempt to formalize the concept of <fr:em>rule</fr:em> or
-        <fr:em>process</fr:em>, and ultimately to provide a new foundation for mathematics.
-        It seems fair to say that this aspect of the λ-calculus is currently in an
-        embryonic state of development, awaiting further conceptual advances.
+root="false"><fr:frontmatter><fr:anchor>429</fr:anchor><fr:taxon>Email</fr:taxon><fr:addr>#256</fr:addr><fr:route>unstable-256.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>28</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>29</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="hejohns.xml"
+type="local"
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>quine-1960</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        Thanks for sharing this nice little note, which sketches a combinatory
+        (classical) first-order logic.
     </fr:p><fr:p>
-        There is, however, another aspect of the <fr:em>typed</fr:em> λ-calculus, which is
-        readily understood. This is its connection with the full classical finite
-        type structure over ω, (i.e., with the functionals of finite type). In an
-        obvious way, each closed term in the typed λ-calculus defines a functional
-        of finite type over ω.  Call a functional <fr:em>simple</fr:em> if it is given by
-        some closed term in the typed x-calculus.
+        I was surprised by the mention of von Neumann 1925 in this snippet:
     </fr:p><fr:p>
-        Several definitions of <fr:em>convertibility</fr:em> between terms in the λ-calculus,
-        with or without types, have been considered. The motivation for introducing
-        these definitions has primarily been to analyze the notion of the
-        <fr:em>identity</fr:em> between rules, or processes. The relation <fr:tex>⊢ s = t</fr:tex> defined
-        in the text, is equivalent to one of these definitions of convertibility.
-        It is easy to see that any two convertible terms define the same functional
-        of finite type. We show here that any two non- convertible terms define
-        different functionals of finite type.[This result was obtained in 1970.]
-        This, coupled with the known decidability of convertibility, tells us that
-        "equality between simple functionals is recursive."
-    </fr:p></fr:mainmatter></fr:tree><fr:p>
-    Square brackets denote author's footnotes.
-    <fr:link
-href="friedman-1975.pdf"
-type="external">friedman-1975.pdf</fr:link></fr:p></fr:mainmatter></fr:tree></fr:references></fr:backmatter></fr:tree>
+        "In a way our operators are reminiscent also of the axioms of class
+        existence in Neumann, J. von, Eine Axiomatisierung der Mengenlehre,
+        Journal für reine und ungewandte Mathematik 154: 219-240, 1925, despite
+        dissimilarity of purpose." (Footnote 1, p. 346)
+    </fr:p><fr:p>
+        From what I gather, the reminiscence with von Neumann 1925 (I assume
+        Quine was principally referring to the "III. Logical Construction
+        Axioms") is that the purposes (of Quine's predicate combinators and von
+        Neumann's axioms of existence of II-objects) are actually quite
+        similar.
+    </fr:p><fr:p>
+        It seems that the system of von Neumann 1925 isn't couched in any
+        particular formal system (although it's maybe implicitly first-order,
+        and apparently translated into such by Skolem 1938), thus von Neumann
+        wants to recover from any definite property ("logical condition") on
+        I-objects, the (existence of a) class (II-object) of those I-objects.
+        Wikipedia calls this the <fr:link
+href="https://en.wikipedia.org/wiki/Von_Neumann%E2%80%93Bernays%E2%80%93G%C3%B6del_set_theory#Class_existence_theorem"
+type="external">class existence theorem</fr:link>.
+    </fr:p><fr:p>
+        (More generally, the "reduction theorem" in von Neumann 1925 says that
+        every expression of I-objects (definable class-function) is indeed a
+        II-object (class-function). This restricts to logical conditions and
+        classes.)
+    </fr:p><fr:p>
+        To do this economically, the existence of a few basic
+        combinator-classes are stipulated (=, ∀, ∃!), and more complex logical
+        conditions are put in "normal form" by eliminating variables with the
+        combinator-classes.  The 'uneconomic' way, if von Neumann 1925 were
+        working in an explicit logic, would be to just stipulate a schema of
+        class comprehension (also mentioned in the Wikipedia article), as
+        included in the back of Chang and Keisler.
+    </fr:p><fr:p>
+        Actually, while there are explicit class existence axioms for absorbing
+        =, ∀, ∃!, I don't see any for things like ∧ or ¬, and don't see how
+        they'd follow with the other axioms, but I suppose they must. The
+        Wikipedia article has a write-up starting from more user-friendly
+        axioms.
+    </fr:p><fr:p>
+        In any case, I hadn't realized that the historic move to make precise
+        the notion of 'definite property' as 'first-order definable' was
+        nontrivial, and found this connection with Quine's note interesting,
+    </fr:p><fr:p>
+        Johnson He
+    </fr:p></fr:mainmatter></fr:tree><fr:ul><fr:li><fr:link
+href="quine-1960.pdf"
+type="external">quine-1960.pdf</fr:link></fr:li>
+    <fr:li><fr:link
+href="von-neumann-1925.xml"
+type="local"
+addr="von-neumann-1925">An Axiomatization of Set Theory</fr:link></fr:li></fr:ul></fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

@@ -7,13 +7,12 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>841</fr:anchor><fr:taxon>Abstract</fr:taxon><fr:addr>#291</fr:addr><fr:route>unstable-291.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:parent>blass-2003</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-        Using Herbrand's Theorem, we define simple Herbrand validity, a sort of
-        resource consciousness that makes sense in classical predicate logic.
-        We characterize the propositional formulas all of whose first-order
-        instances are simply Herbrand valid. The characterization turns out to
-        coincide with a known characterization of game semantical validity for
-        multiplicative formulas.
+root="false"><fr:frontmatter><fr:anchor>830</fr:anchor><fr:taxon>Abstract</fr:taxon><fr:addr>#291</fr:addr><fr:route>unstable-291.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:parent>blass-1988</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        This is the written version of a talk given at the C.I.R.M. Workshop on
+        Logic in Computer Science at Marseille, France in June, 1988. Its purpose
+        is to argue that there is a close connection between the theory of
+        computation and the geometric side of topos theory. We begin with a brief
+        outline of the history and basic concepts of topos theory.
     </fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
@@ -21,23 +20,33 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>840</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>blass-2003</fr:addr><fr:route>blass-2003.xml</fr:route><fr:title>Resource Consciousness in Classical Logic</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:tree
+root="false"><fr:frontmatter><fr:anchor>829</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>blass-1988</fr:addr><fr:route>blass-1988.xml</fr:route><fr:title>Topoi and Computation</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>423</fr:anchor><fr:taxon>Abstract</fr:taxon><fr:addr>#291</fr:addr><fr:route>unstable-291.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:parent>blass-2003</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-        Using Herbrand's Theorem, we define simple Herbrand validity, a sort of
-        resource consciousness that makes sense in classical predicate logic.
-        We characterize the propositional formulas all of whose first-order
-        instances are simply Herbrand valid. The characterization turns out to
-        coincide with a known characterization of game semantical validity for
-        multiplicative formulas.
-    </fr:p></fr:mainmatter></fr:tree><fr:p>
-    This is currently a "would like to read, but no urgency" paper, because
-    Blass + Herbrand's theorem.
-    <fr:link
-href="blass-2003.pdf"
-type="external">blass-2003.pdf</fr:link></fr:p></fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+root="false"><fr:frontmatter><fr:anchor>424</fr:anchor><fr:taxon>Abstract</fr:taxon><fr:addr>#291</fr:addr><fr:route>unstable-291.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:parent>blass-1988</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        This is the written version of a talk given at the C.I.R.M. Workshop on
+        Logic in Computer Science at Marseille, France in June, 1988. Its purpose
+        is to argue that there is a close connection between the theory of
+        computation and the geometric side of topos theory. We begin with a brief
+        outline of the history and basic concepts of topos theory.
+    </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>425</fr:anchor><fr:taxon>Notes</fr:taxon><fr:addr>#292</fr:addr><fr:route>unstable-292.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:parent>blass-1988</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        Prof. Blass essentially described this background over the course of
+        the logic seminar last semester (as comments at various meetings,
+        culminating with a full talk), but this is a nice written account of
+        the history of topos theory, the relation between Grothendieck and
+        Elementary topoi, and the relation between geometric and logical
+        morphisms.
+    </fr:p></fr:mainmatter></fr:tree><fr:p><fr:link
+href="blass-1988.pdf"
+type="external">blass-1988.pdf</fr:link></fr:p></fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
