@@ -1,5 +1,7 @@
 .PHONY: site
 site:
+	cd _forest; git pull
+	git add _forest
 	$(MAKE) -C _forest
 	bundler exec jekyll build --lsi --trace
 .PHONY: export
