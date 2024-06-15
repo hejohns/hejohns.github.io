@@ -7,7 +7,7 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>832</fr:anchor><fr:taxon>Notes</fr:taxon><fr:addr>#292</fr:addr><fr:route>unstable-292.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:parent>blass-1988</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>837</fr:anchor><fr:taxon>Notes</fr:taxon><fr:addr>#292</fr:addr><fr:route>unstable-292.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:parent>blass-1988</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
         Prof. Blass essentially described this background over the course of
         the logic seminar last semester (as comments at various meetings,
         culminating with a full talk), but this is a nice written account of
@@ -21,14 +21,14 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>831</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>blass-1988</fr:addr><fr:route>blass-1988.xml</fr:route><fr:title>Topoi and Computation</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:tree
+root="false"><fr:frontmatter><fr:anchor>836</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>blass-1988</fr:addr><fr:route>blass-1988.xml</fr:route><fr:title>Topoi and Computation</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>424</fr:anchor><fr:taxon>Abstract</fr:taxon><fr:addr>#291</fr:addr><fr:route>unstable-291.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:parent>blass-1988</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>313</fr:anchor><fr:taxon>Abstract</fr:taxon><fr:addr>#291</fr:addr><fr:route>unstable-291.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:parent>blass-1988</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
         This is the written version of a talk given at the C.I.R.M. Workshop on
         Logic in Computer Science at Marseille, France in June, 1988. Its purpose
         is to argue that there is a close connection between the theory of
@@ -41,7 +41,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>425</fr:anchor><fr:taxon>Notes</fr:taxon><fr:addr>#292</fr:addr><fr:route>unstable-292.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:parent>blass-1988</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>314</fr:anchor><fr:taxon>Notes</fr:taxon><fr:addr>#292</fr:addr><fr:route>unstable-292.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:parent>blass-1988</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
         Prof. Blass essentially described this background over the course of
         the logic seminar last semester (as comments at various meetings,
         culminating with a full talk), but this is a nice written account of

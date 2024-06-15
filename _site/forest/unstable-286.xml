@@ -7,7 +7,7 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>822</fr:anchor><fr:taxon>Abstract</fr:taxon><fr:addr>#286</fr:addr><fr:route>unstable-286.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>13</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:parent>friedman-1975</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>827</fr:anchor><fr:taxon>Abstract</fr:taxon><fr:addr>#286</fr:addr><fr:route>unstable-286.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>13</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:parent>friedman-1975</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
         The λ-calculus, in both its typed and untyped forms, has primarily been
         regarded as an attempt to formalize the concept of <fr:em>rule</fr:em> or
         <fr:em>process</fr:em>, and ultimately to provide a new foundation for mathematics.
@@ -38,14 +38,14 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>821</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>friedman-1975</fr:addr><fr:route>friedman-1975.xml</fr:route><fr:title>Equality Between Functionals</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>13</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:tree
+root="false"><fr:frontmatter><fr:anchor>826</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>friedman-1975</fr:addr><fr:route>friedman-1975.xml</fr:route><fr:title>Equality Between Functionals</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>13</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>407</fr:anchor><fr:taxon>Abstract</fr:taxon><fr:addr>#286</fr:addr><fr:route>unstable-286.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>13</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:parent>friedman-1975</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>449</fr:anchor><fr:taxon>Abstract</fr:taxon><fr:addr>#286</fr:addr><fr:route>unstable-286.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>13</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:parent>friedman-1975</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
         The λ-calculus, in both its typed and untyped forms, has primarily been
         regarded as an attempt to formalize the concept of <fr:em>rule</fr:em> or
         <fr:em>process</fr:em>, and ultimately to provide a new foundation for mathematics.

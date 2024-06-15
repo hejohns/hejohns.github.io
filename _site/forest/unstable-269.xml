@@ -7,7 +7,7 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>729</fr:anchor><fr:addr>#269</fr:addr><fr:route>unstable-269.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>769</fr:anchor><fr:addr>#269</fr:addr><fr:route>unstable-269.xml</fr:route><fr:title><fr:link
 href="hejohns-000M.xml"
 type="local"
 addr="hejohns-000M">Finite-type intuitionistic predicate logic</fr:link> › terms</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date><fr:parent>hejohns-000M</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
@@ -64,7 +64,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>728</fr:anchor><fr:addr>hejohns-000M</fr:addr><fr:route>hejohns-000M.xml</fr:route><fr:title>Finite-type intuitionistic predicate logic</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>768</fr:anchor><fr:addr>hejohns-000M</fr:addr><fr:route>hejohns-000M.xml</fr:route><fr:title>Finite-type intuitionistic predicate logic</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p>
     Finite-type intuitionistic predicate logic is a predicate logic over a
     typed term language. Thus we describe the types, then terms. The formulas
     over those terms will be certain terms (of type <fr:tex>Ω</fr:tex>), and thus mutually
@@ -76,7 +76,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>326</fr:anchor><fr:addr>#268</fr:addr><fr:route>unstable-268.xml</fr:route><fr:title>Types</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date><fr:parent>hejohns-000M</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>343</fr:anchor><fr:addr>#268</fr:addr><fr:route>unstable-268.xml</fr:route><fr:title>Types</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date><fr:parent>hejohns-000M</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
         Given a collection of atomic type symbols <fr:tex>\mathcal {L} _{ \mathsf {base}}</fr:tex>, the collection of
         (all) <fr:tex>\mathcal {L} _{ \mathsf {base}}</fr:tex>-types is the smallest such that
         <fr:ul><fr:li>
@@ -101,7 +101,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>327</fr:anchor><fr:addr>#269</fr:addr><fr:route>unstable-269.xml</fr:route><fr:title>Terms</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date><fr:parent>hejohns-000M</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>344</fr:anchor><fr:addr>#269</fr:addr><fr:route>unstable-269.xml</fr:route><fr:title>Terms</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date><fr:parent>hejohns-000M</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
         We write <fr:tex>x : y</fr:tex> to mean "'x' is a term of type 'y'".
     </fr:p><fr:p>
         Given a collection of constant term symbols <fr:tex>\mathcal {L} _{ \mathsf {const}}</fr:tex>, a collection of
@@ -155,7 +155,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>328</fr:anchor><fr:addr>#270</fr:addr><fr:route>unstable-270.xml</fr:route><fr:title>Formulas</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date><fr:parent>hejohns-000M</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>345</fr:anchor><fr:addr>#270</fr:addr><fr:route>unstable-270.xml</fr:route><fr:title>Formulas</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date><fr:parent>hejohns-000M</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
         The formulas are simply the terms of type <fr:tex>Ω</fr:tex>.
         Note that we actually cannot separately define terms and formulas,
         since the comprehension term depends on a formula, and formulas are
@@ -178,7 +178,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>329</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>#271</fr:addr><fr:route>unstable-271.xml</fr:route><fr:title>(Finite-type intuitionistic predicate) language</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date><fr:parent>hejohns-000M</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>346</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>#271</fr:addr><fr:route>unstable-271.xml</fr:route><fr:title>(Finite-type intuitionistic predicate) language</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date><fr:parent>hejohns-000M</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
         A <fr:em>language</fr:em> <fr:tex>\mathcal {L}</fr:tex> is a dependent <fr:tex>3</fr:tex>-tuple <fr:tex>⟨ \mathcal {L} _{ \mathsf {base}} , ⟨ \mathcal {L} _{ \mathsf {const}} ,  \mathcal {L} _{ \mathsf {fun}} ⟩,          \mathcal {L} _{ \mathsf {rel}} ⟩</fr:tex>, where
         <fr:ul><fr:li><fr:tex>\mathcal {L} _{ \mathsf {base}}</fr:tex> is a collection of atomic type symbols (shortened to
                 "<fr:em>base types</fr:em>")
