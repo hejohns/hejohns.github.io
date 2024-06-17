@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://hejohns.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hejohns.github.io/" rel="alternate" type="text/html" /><updated>2024-06-17T00:41:35-04:00</updated><id>https://hejohns.github.io/feed.xml</id><title type="html">hejohns’ jekyll site</title><subtitle>a pure waste of space</subtitle><author><name>Johnson He</name><email>hejohns α umich δ edu</email></author><entry><title type="html">archiving stack overflow (for the forest)</title><link href="https://hejohns.github.io/2024/06/17/archiving-stack-overflow.html" rel="alternate" type="text/html" title="archiving stack overflow (for the forest)" /><published>2024-06-17T00:00:00-04:00</published><updated>2024-06-17T00:34:59-04:00</updated><id>https://hejohns.github.io/2024/06/17/archiving-stack-overflow</id><content type="html" xml:base="https://hejohns.github.io/2024/06/17/archiving-stack-overflow.html"><![CDATA[<p>(Note: I call any stack exchange site “stack overflow”.)</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://hejohns.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hejohns.github.io/" rel="alternate" type="text/html" /><updated>2024-06-17T03:43:18-04:00</updated><id>https://hejohns.github.io/feed.xml</id><title type="html">hejohns’ jekyll site</title><subtitle>a pure waste of space</subtitle><author><name>Johnson He</name><email>hejohns α umich δ edu</email></author><entry><title type="html">archiving stack overflow (for the forest)</title><link href="https://hejohns.github.io/2024/06/17/archiving-stack-overflow.html" rel="alternate" type="text/html" title="archiving stack overflow (for the forest)" /><published>2024-06-17T00:00:00-04:00</published><updated>2024-06-17T00:46:43-04:00</updated><id>https://hejohns.github.io/2024/06/17/archiving-stack-overflow</id><content type="html" xml:base="https://hejohns.github.io/2024/06/17/archiving-stack-overflow.html"><![CDATA[<h2 id="first-iteration">First Iteration</h2>
+
+<p>(Note: I call any stack exchange site “stack overflow”.)</p>
 
 <p>Stack overflow has some phenomenal content.
 I won’t wax on what precisely is great about stack overflow, but one issue is
@@ -13,10 +15,6 @@ some math rendering on stack overflow.
 I’m not sure how deep of an issue this is, but I’d like an archival solution
 that doesn’t have this shortcoming.</p>
 
-<p>Firefox has “Save Page As…”, which works great and can save the post as a
-single html file, but it’d also be nice to have a more portable solution, in a
-loose sense of the word.</p>
-
 <p><code class="language-plaintext highlighter-rouge">wget</code> seems to be the tool for the job, so this post is really to collect the
 <code class="language-plaintext highlighter-rouge">wget</code> flags we should use for our own web snapshotting.</p>
 
@@ -26,9 +24,31 @@ loose sense of the word.</p>
 <p>This will download a single html page, with (hopefully) any resources required
 for that page, in a hierarchical directory structure.</p>
 
-<p>At first, I thought this was a mal-feature, and wanted Firefox’s all-in-one
-html page semantics, but this might actually be better for the forest since all
-the different archived links will be stored hierarchically, instead of flat.</p>]]></content><author><name>Johnson He</name><email>hejohns α umich δ edu</email></author><summary type="html"><![CDATA[(Note: I call any stack exchange site “stack overflow”.)]]></summary></entry><entry><title type="html">fountain pen nibs</title><link href="https://hejohns.github.io/2024/04/11/fountain-pen-nibs.html" rel="alternate" type="text/html" title="fountain pen nibs" /><published>2024-04-11T00:00:00-04:00</published><updated>2024-04-11T17:48:22-04:00</updated><id>https://hejohns.github.io/2024/04/11/fountain-pen-nibs</id><content type="html" xml:base="https://hejohns.github.io/2024/04/11/fountain-pen-nibs.html"><![CDATA[<p>Several weeks ago, I lost my other TWSBI 580 (technically, the 580 ALR)
+<h2 id="second-iteration">Second Iteration</h2>
+
+<p>So I was completely and utterly wrong.</p>
+
+<p>I just spent a low several hours realising that the command should also have <code class="language-plaintext highlighter-rouge">--adjust-extension</code>, so the full <code class="language-plaintext highlighter-rouge">wget</code> command should be</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wget --timestamping --convert-links --page-requisites --adjust-extension --wait=1 --random-wait LINK
+</code></pre></div></div>
+
+<p>Except that the stack overflow “Show \(n\) more comment” button is javascript
+(uses javascript to load the rest of the comments).
+Which means any <code class="language-plaintext highlighter-rouge">wget</code> solution fails to save any collapsed comments.
+And the much of the point was to save the (full of content) comments.</p>
+
+<p>So we instead need a tool to expand the comments by running the javascript
+click events, <em>then</em> save the page as it appears.
+The method we settled on and hacked up is to use <a href="https://www.selenium.dev/documentation/webdriver/">selenium webdriver</a>
+to run <a href="https://meta.stackoverflow.com/q/268400">javascript to expand all comments</a>,
+then save the page with Firefox’s “Save Page As…”, scripted with <code class="language-plaintext highlighter-rouge">xdotool</code>.</p>
+
+<p>The slightly less gross way would be to dump the page from selenium, but for
+some reason the stack overflow MathJax initially loads fine, then disappears
+with “math processing error”.</p>
+
+<p>Yeah… not the way I wanted this to go but I think this second version works.</p>]]></content><author><name>Johnson He</name><email>hejohns α umich δ edu</email></author><summary type="html"><![CDATA[First Iteration]]></summary></entry><entry><title type="html">fountain pen nibs</title><link href="https://hejohns.github.io/2024/04/11/fountain-pen-nibs.html" rel="alternate" type="text/html" title="fountain pen nibs" /><published>2024-04-11T00:00:00-04:00</published><updated>2024-04-11T17:48:22-04:00</updated><id>https://hejohns.github.io/2024/04/11/fountain-pen-nibs</id><content type="html" xml:base="https://hejohns.github.io/2024/04/11/fountain-pen-nibs.html"><![CDATA[<p>Several weeks ago, I lost my other TWSBI 580 (technically, the 580 ALR)
 which meant that I didn’t have any EF nibs left<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>.</p>
 
 <p>Through the process of sourcing nibs, I learned a lot about the details so:</p>

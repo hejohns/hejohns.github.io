@@ -8,8 +8,8 @@
 <meta property="og:title" content="archiving stack overflow (for the forest)" />
 <meta name="author" content="Johnson He" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="(Note: I call any stack exchange site “stack overflow”.)" />
-<meta property="og:description" content="(Note: I call any stack exchange site “stack overflow”.)" />
+<meta name="description" content="First Iteration" />
+<meta property="og:description" content="First Iteration" />
 <link rel="canonical" href="https://hejohns.github.io/2024/06/17/archiving-stack-overflow.html" />
 <meta property="og:url" content="https://hejohns.github.io/2024/06/17/archiving-stack-overflow.html" />
 <meta property="og:site_name" content="hejohns’ jekyll site" />
@@ -18,7 +18,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="archiving stack overflow (for the forest)" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Johnson He"},"dateModified":"2024-06-17T00:34:59-04:00","datePublished":"2024-06-17T00:00:00-04:00","description":"(Note: I call any stack exchange site “stack overflow”.)","headline":"archiving stack overflow (for the forest)","mainEntityOfPage":{"@type":"WebPage","@id":"https://hejohns.github.io/2024/06/17/archiving-stack-overflow.html"},"url":"https://hejohns.github.io/2024/06/17/archiving-stack-overflow.html"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Johnson He"},"dateModified":"2024-06-17T00:46:43-04:00","datePublished":"2024-06-17T00:00:00-04:00","description":"First Iteration","headline":"archiving stack overflow (for the forest)","mainEntityOfPage":{"@type":"WebPage","@id":"https://hejohns.github.io/2024/06/17/archiving-stack-overflow.html"},"url":"https://hejohns.github.io/2024/06/17/archiving-stack-overflow.html"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://hejohns.github.io/feed.xml" title="hejohns&apos; jekyll site" />  <!-- see: -->
   <!-- https://codewrites.me/jekyll/katex/blog/2020/08/26/use-katex-gh-pages/ -->
@@ -67,7 +67,9 @@
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <p>(Note: I call any stack exchange site “stack overflow”.)</p>
+    <h2 id="first-iteration">First Iteration</h2>
+
+<p>(Note: I call any stack exchange site “stack overflow”.)</p>
 
 <p>Stack overflow has some phenomenal content.
 I won’t wax on what precisely is great about stack overflow, but one issue is
@@ -82,10 +84,6 @@ some math rendering on stack overflow.
 I’m not sure how deep of an issue this is, but I’d like an archival solution
 that doesn’t have this shortcoming.</p>
 
-<p>Firefox has “Save Page As…”, which works great and can save the post as a
-single html file, but it’d also be nice to have a more portable solution, in a
-loose sense of the word.</p>
-
 <p><code class="language-plaintext highlighter-rouge">wget</code> seems to be the tool for the job, so this post is really to collect the
 <code class="language-plaintext highlighter-rouge">wget</code> flags we should use for our own web snapshotting.</p>
 
@@ -95,16 +93,38 @@ loose sense of the word.</p>
 <p>This will download a single html page, with (hopefully) any resources required
 for that page, in a hierarchical directory structure.</p>
 
-<p>At first, I thought this was a mal-feature, and wanted Firefox’s all-in-one
-html page semantics, but this might actually be better for the forest since all
-the different archived links will be stored hierarchically, instead of flat.</p>
+<h2 id="second-iteration">Second Iteration</h2>
+
+<p>So I was completely and utterly wrong.</p>
+
+<p>I just spent a low several hours realising that the command should also have <code class="language-plaintext highlighter-rouge">--adjust-extension</code>, so the full <code class="language-plaintext highlighter-rouge">wget</code> command should be</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wget --timestamping --convert-links --page-requisites --adjust-extension --wait=1 --random-wait LINK
+</code></pre></div></div>
+
+<p>Except that the stack overflow “Show \(n\) more comment” button is javascript
+(uses javascript to load the rest of the comments).
+Which means any <code class="language-plaintext highlighter-rouge">wget</code> solution fails to save any collapsed comments.
+And the much of the point was to save the (full of content) comments.</p>
+
+<p>So we instead need a tool to expand the comments by running the javascript
+click events, <em>then</em> save the page as it appears.
+The method we settled on and hacked up is to use <a href="https://www.selenium.dev/documentation/webdriver/">selenium webdriver</a>
+to run <a href="https://meta.stackoverflow.com/q/268400">javascript to expand all comments</a>,
+then save the page with Firefox’s “Save Page As…”, scripted with <code class="language-plaintext highlighter-rouge">xdotool</code>.</p>
+
+<p>The slightly less gross way would be to dump the page from selenium, but for
+some reason the stack overflow MathJax initially loads fine, then disappears
+with “math processing error”.</p>
+
+<p>Yeah… not the way I wanted this to go but I think this second version works.</p>
 
   </div><!-- use minima's column styling since I don't know css -->
   <div class="footer-col-wrapper">
       <div class="footer-col"><a href="/2024/04/11/fountain-pen-nibs.html">prev</a></div>
       <div class="footer-col">
         <h2> related </h2>
-        <ul><li><a href="/2023/10/10/tortoise-tts.html">tortoise text to speech (and piper),</a></li><li><a href="/2023/04/23/scripting.html">some remarks apropos scripting,</a></li><li><a href="/2023/12/20/xmonad.html">xmonad,</a></li><li><a href="/2024/03/10/deoplete.html">deoplete,</a></li><li><a href="/2024/02/08/natural-models.html">Natural Models,</a></li><li><a href="/2024/01/08/thunderbird-and-nix.html">Thunderbird and Nix,</a></li><li><a href="/2023/05/10/linux-graphics-modules.html">multiple displays and linux graphics modules,</a></li><li><a href="/2024/04/11/fountain-pen-nibs.html">fountain pen nibs,</a></li><li><a href="/site-construction/2023/04/05/welcome-to-jekyll.html">Welcome to Jekyll!,</a></li><li><a href="/2023/12/19/icecc.html">icecc,</a></li><li><a href="/2024/01/16/mellanox.html">Mellanox ConnectX-4 10gbe,</a></li></ul>
+        <ul><li><a href="/2023/10/10/tortoise-tts.html">tortoise text to speech (and piper),</a></li><li><a href="/2023/04/23/scripting.html">some remarks apropos scripting,</a></li><li><a href="/2024/03/10/deoplete.html">deoplete,</a></li><li><a href="/2023/12/20/xmonad.html">xmonad,</a></li><li><a href="/2023/05/10/linux-graphics-modules.html">multiple displays and linux graphics modules,</a></li><li><a href="/2024/01/08/thunderbird-and-nix.html">Thunderbird and Nix,</a></li><li><a href="/2024/02/08/natural-models.html">Natural Models,</a></li><li><a href="/2024/04/11/fountain-pen-nibs.html">fountain pen nibs,</a></li><li><a href="/site-construction/2023/04/05/welcome-to-jekyll.html">Welcome to Jekyll!,</a></li><li><a href="/2023/04/14/rasterize-pdfs.html">rasterizing pdfs, among other things,</a></li><li><a href="/site-construction/2023/04/05/last-modified-time-test.html">getting page last modified time,</a></li></ul>
       </div>
       <div class="footer-col"></div>
   </div>

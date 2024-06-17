@@ -7,15 +7,15 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>612</fr:anchor><fr:addr>sub-000D</fr:addr><fr:route>sub-000D.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>10</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>854</fr:anchor><fr:addr>sub-000D</fr:addr><fr:route>sub-000D.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>10</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
 addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000D</fr:parent></fr:frontmatter><fr:mainmatter><fr:embedded-tex
-hash="6fafc80d9b9e7f0489fcf2637e5c0717"><fr:embedded-tex-preamble>\usepackage {tikz-cd} \usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
-                     \begin {tikzcd}
-                        A(F(x), -) &amp; A(F(y), -)  \ar [d, Rightarrow, "≀"', "π_y"]  \\ 
-                        X(x, U(-))  \ar [u, Rightarrow, "≀"', "πₓ⁻¹"] &amp; X(y, U(-))  \ar [l, Rightarrow, "-∘f"]
-                     \end {tikzcd}
+hash="15c5a25c9843cce64b041e5e69e926cf"><fr:embedded-tex-preamble>\usepackage {tikz-cd}\usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
+                    \begin {tikzcd}
+                        A(F(x), -) &amp; A(F(y), -) \ar [d, Rightarrow, "≀"', "π_y"] \\
+                        X(x, U(-)) \ar [u, Rightarrow, "≀"', "πₓ⁻¹"] &amp; X(y, U(-)) \ar [l, Rightarrow, "-∘f"]
+                    \end {tikzcd}
                 </fr:embedded-tex-body></fr:embedded-tex></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
@@ -23,7 +23,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>610</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>hejohns-000D</fr:addr><fr:route>hejohns-000D.xml</fr:route><fr:title>The verbose proof</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>10</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>852</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>hejohns-000D</fr:addr><fr:route>hejohns-000D.xml</fr:route><fr:title>The verbose proof</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>10</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
 addr="hejohns">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -49,7 +49,7 @@ addr="hejohns-0006">the thin case</fr:link>.
             Since <fr:tex>η_y : X(y, U∘F(y))</fr:tex>, we have <fr:tex>η_y∘f : X(x, U∘F(y))</fr:tex>.
             By the Hom bijection, <fr:tex>πₓ(F(y))⁻¹(η_y∘f) : A(F(x), F(y))</fr:tex>.
             This is our candidate for the <fr:tex>F</fr:tex>-action.
-            <fr:tex>\overline {F} (f) ≔ πₓ(F(y))⁻¹(η_y ∘ f)</fr:tex>.
+            <fr:tex>\overline {F}(f) ≔ πₓ(F(y))⁻¹(η_y ∘ f)</fr:tex>.
         </fr:p>
         <fr:p>
             As a picture, each <fr:tex>f : X(x, y)</fr:tex> gives rise to the following
@@ -61,17 +61,17 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>313</fr:anchor><fr:addr>subb-000D</fr:addr><fr:route>subb-000D.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>10</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>330</fr:anchor><fr:addr>subb-000D</fr:addr><fr:route>subb-000D.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>10</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
 addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000D</fr:parent></fr:frontmatter><fr:mainmatter><fr:embedded-tex
-hash="7da984d3ff2027c69ebefb406d434b29"><fr:embedded-tex-preamble>\usepackage {tikz-cd} \usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
-                     \begin {tikzcd}
-                        A(F(x), F(y)) &amp; A(F(y), F(y))  \ar [d, "≀"', "π_y(F(y))"]  \\ 
-                        X(x, U∘F(y))  \ar [u, "≀"', "πₓ(F(y))⁻¹"] &amp; X(y, U∘F(y))  \ar [l, "-∘f"]
-                     \end {tikzcd}
+hash="3bbd5cc482a2937801440e7dc20c0690"><fr:embedded-tex-preamble>\usepackage {tikz-cd}\usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
+                    \begin {tikzcd}
+                        A(F(x), F(y)) &amp; A(F(y), F(y)) \ar [d, "≀"', "π_y(F(y))"] \\
+                        X(x, U∘F(y)) \ar [u, "≀"', "πₓ(F(y))⁻¹"] &amp; X(y, U∘F(y)) \ar [l, "-∘f"]
+                    \end {tikzcd}
                 </fr:embedded-tex-body></fr:embedded-tex></fr:mainmatter></fr:tree>
-            And our candidate <fr:tex>\overline {F} (f)</fr:tex> is the one we know to exist by
+            And our candidate <fr:tex>\overline {F}(f)</fr:tex> is the one we know to exist by
             chasing <fr:tex>1_{F(y)}</fr:tex> around the square.
         </fr:p>
         <fr:p>
@@ -82,11 +82,11 @@ hash="7da984d3ff2027c69ebefb406d434b29"><fr:embedded-tex-preamble>\usepackage {t
         </fr:p>
         <fr:p>
             It's instructive to try directly, if one hasn't.
-            The problem is that <fr:tex>\overline {F} (f)</fr:tex> as defined is not obviously the
+            The problem is that <fr:tex>\overline {F}(f)</fr:tex> as defined is not obviously the
             composition of morphisms in any diagram-- how do you reason
             about the functoriality of <fr:tex>πₓ(F(y))⁻¹</fr:tex>?
             Instead, we want to invoke a representation theorem and work
-            with <fr:tex>\overline {F} (f)</fr:tex> as an explicit composition in some diagram.
+            with <fr:tex>\overline {F}(f)</fr:tex> as an explicit composition in some diagram.
             The solution is to follow the Yoneda principle and
             pass from reasoning in <fr:tex>Set</fr:tex> to <fr:tex>Setᴬ</fr:tex>.
         </fr:p>
@@ -107,15 +107,15 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>315</fr:anchor><fr:addr>sub-000D</fr:addr><fr:route>sub-000D.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>10</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>332</fr:anchor><fr:addr>sub-000D</fr:addr><fr:route>sub-000D.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>10</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
 addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000D</fr:parent></fr:frontmatter><fr:mainmatter><fr:embedded-tex
-hash="6fafc80d9b9e7f0489fcf2637e5c0717"><fr:embedded-tex-preamble>\usepackage {tikz-cd} \usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
-                     \begin {tikzcd}
-                        A(F(x), -) &amp; A(F(y), -)  \ar [d, Rightarrow, "≀"', "π_y"]  \\ 
-                        X(x, U(-))  \ar [u, Rightarrow, "≀"', "πₓ⁻¹"] &amp; X(y, U(-))  \ar [l, Rightarrow, "-∘f"]
-                     \end {tikzcd}
+hash="15c5a25c9843cce64b041e5e69e926cf"><fr:embedded-tex-preamble>\usepackage {tikz-cd}\usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
+                    \begin {tikzcd}
+                        A(F(x), -) &amp; A(F(y), -) \ar [d, Rightarrow, "≀"', "π_y"] \\
+                        X(x, U(-)) \ar [u, Rightarrow, "≀"', "πₓ⁻¹"] &amp; X(y, U(-)) \ar [l, Rightarrow, "-∘f"]
+                    \end {tikzcd}
                 </fr:embedded-tex-body></fr:embedded-tex></fr:mainmatter></fr:tree></fr:p>
         <fr:p>
             We first make the trivial observation that <fr:tex>A(F(x), -)</fr:tex> and
@@ -125,30 +125,30 @@ hash="6fafc80d9b9e7f0489fcf2637e5c0717"><fr:embedded-tex-preamble>\usepackage {t
         </fr:p>
         <fr:ul><fr:li><fr:p>
                     Then the Yoneda lemma tells us that by specifying an
-                    element <fr:tex>\overline {F} (f) : A(F(x), F(y))</fr:tex>, this fully
+                    element <fr:tex>\overline {F}(f) : A(F(x), F(y))</fr:tex>, this fully
                     determines (ie freely extends to) a natural
                     transformation <fr:tex
-display="block">よ( \overline {F} (f)) = (-∘ \overline {F} (f)) : よ(F(x)) ⇐                     よ(F(y))</fr:tex></fr:p></fr:li>
+display="block">よ(\overline {F}(f)) = (-∘\overline {F}(f)) : よ(F(x)) ⇐                     よ(F(y))</fr:tex></fr:p></fr:li>
             <fr:li><fr:p>
                     Equivalently, the Yoneda principle tells us that an
-                    element <fr:tex>\overline {F} (f) : A(F(x), F(y))</fr:tex> fully failthfully
+                    element <fr:tex>\overline {F}(f) : A(F(x), F(y))</fr:tex> fully failthfully
                     embeds as a natural transformation <fr:tex
-display="block">よ( \overline {F} (f)) =                     (-∘ \overline {F} (f)) : よ(F(x)) ⇐ よ(F(y))</fr:tex></fr:p></fr:li></fr:ul>
+display="block">よ(\overline {F}(f)) =                     (-∘\overline {F}(f)) : よ(F(x)) ⇐ よ(F(y))</fr:tex></fr:p></fr:li></fr:ul>
         <fr:p>
             With this in mind, we notice that by definition,
-            <fr:tex>よ( \overline {F} (f))</fr:tex> is exactly the lid to <fr:link
+            <fr:tex>よ(\overline {F}(f))</fr:tex> is exactly the lid to <fr:link
 href="sub-000D.xml"
 type="local"
 addr="sub-000D">the above <fr:tex>Setᴬ</fr:tex>
             square</fr:link>.
             <fr:embedded-tex
-hash="af1879add0ed781bb43f5010d17e0754"><fr:embedded-tex-preamble>\usepackage {tikz-cd} \usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
-                 \begin {tikzcd}                 A(F(x), -) &amp; A(F(y), -)  \ar [d, Rightarrow, "≀"', "π_y"] \ar [l, Rightarrow, "-∘ \overline {F} (f)"']  \\ 
-                    X(x, U(-))  \ar [u, Rightarrow, "≀", "πₓ⁻¹"'] &amp; X(y, U(-))  \ar [l, Rightarrow, "-∘f"]
-                 \end {tikzcd}
+hash="6a7be1450e162f11307400423dc3e4e1"><fr:embedded-tex-preamble>\usepackage {tikz-cd}\usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
+                \begin {tikzcd}                 A(F(x), -) &amp; A(F(y), -) \ar [d, Rightarrow, "≀"', "π_y"]\ar [l, Rightarrow, "-∘\overline {F}(f)"'] \\
+                    X(x, U(-)) \ar [u, Rightarrow, "≀", "πₓ⁻¹"'] &amp; X(y, U(-)) \ar [l, Rightarrow, "-∘f"]
+                \end {tikzcd}
             </fr:embedded-tex-body></fr:embedded-tex>
             That is, both natural transformations map <fr:tex>1_{F(y)}</fr:tex> to the
-            same thing-- <fr:tex>\overline {F} {F}(f)</fr:tex>-- by definition, thus must be equal
+            same thing-- <fr:tex>\overline {F}{F}(f)</fr:tex>-- by definition, thus must be equal
             by the Yoneda Lemma.
             (<fr:link
 href="subbb-000D.xml"
@@ -157,25 +157,25 @@ addr="subbb-000D">In hindsight</fr:link>, this line of reasoning is quite
             circumlocutious and you might as well start by saying such a
             <fr:tex>\overline {F}</fr:tex> would have to satisfy this square, but I think it's the
             more obvious starting point without presupposing it exists.)
-            Now that we've represented <fr:tex>\overline {F} (f)</fr:tex> as an explicit
+            Now that we've represented <fr:tex>\overline {F}(f)</fr:tex> as an explicit
             composition, we have enough to tools consider
             functoriality.
         </fr:p>
         <fr:p>
             Wts <fr:tex>\overline {F}</fr:tex> actually defines a functorial action on morphisms for a functor extending <fr:tex>F</fr:tex>.
-            Indeed, <fr:tex>\overline {F} (1ₓ : X(x, x)) =  πₓ(F(x))⁻¹(ηₓ∘1ₓ) = πₓ(F(x))⁻¹(ηₓ) = 1_{F(x)}</fr:tex> by definition.
+            Indeed, <fr:tex>\overline {F}(1ₓ : X(x, x)) =  πₓ(F(x))⁻¹(ηₓ∘1ₓ) = πₓ(F(x))⁻¹(ηₓ) = 1_{F(x)}</fr:tex> by definition.
             And suppose <fr:tex>∃g : X(y, z)</fr:tex>.
-            Then <fr:tex>\overline {F} (g∘f : X(x, z))</fr:tex> viewed as a natural transformation gives rise to the following superimposed squares:
+            Then <fr:tex>\overline {F}(g∘f : X(x, z))</fr:tex> viewed as a natural transformation gives rise to the following superimposed squares:
             <fr:embedded-tex
-hash="0dd47869e77364c0688d537d44f8f49f"><fr:embedded-tex-preamble>\usepackage {tikz-cd} \usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
-                 \begin {tikzcd}
-                    A(F(x), -) &amp; A(F(y), -)  \ar [d, Rightarrow, "π_y"', shift right=2] \ar [l, Rightarrow, "-∘ \overline {F} (f)"'] &amp; A(F(z), -)  \ar [d, Rightarrow, "π_z"] \ar [l, Rightarrow, "-∘ \tilde {F}(g)"'] \ar [ll, Rightarrow, "-∘ \overline {F} (g∘f)"', bend right]  \\ 
-                    X(x, U(-))  \ar [u, Rightarrow, "≀"', "πₓ⁻¹"] &amp; X(y, U(-))  \ar [l, Rightarrow, "-∘f"] \ar [u, Rightarrow, "π_y⁻¹"', shift right=2] &amp; X(z, U(-))  \ar [l, Rightarrow, "-∘g"] \ar [ll, Rightarrow, "-∘(g∘f)", bend left]
-                 \end {tikzcd}
+hash="a1aae49cf27956251484176f63510158"><fr:embedded-tex-preamble>\usepackage {tikz-cd}\usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
+                \begin {tikzcd}
+                    A(F(x), -) &amp; A(F(y), -) \ar [d, Rightarrow, "π_y"', shift right=2]\ar [l, Rightarrow, "-∘\overline {F}(f)"'] &amp; A(F(z), -) \ar [d, Rightarrow, "π_z"]\ar [l, Rightarrow, "-∘\tilde {F}(g)"']\ar [ll, Rightarrow, "-∘\overline {F}(g∘f)"', bend right] \\
+                    X(x, U(-)) \ar [u, Rightarrow, "≀"', "πₓ⁻¹"] &amp; X(y, U(-)) \ar [l, Rightarrow, "-∘f"]\ar [u, Rightarrow, "π_y⁻¹"', shift right=2] &amp; X(z, U(-)) \ar [l, Rightarrow, "-∘g"]\ar [ll, Rightarrow, "-∘(g∘f)", bend left]
+                \end {tikzcd}
             </fr:embedded-tex-body></fr:embedded-tex>
             A diagram chase verifies that the diagram indeed commutes, and
-            that <fr:tex>よ( \overline {F} (g∘f)) = よ( \overline {F} (f))∘よ( \overline {F} (g))</fr:tex>.
-            By the ("going home" direction of the) Yoneda principle, <fr:tex>\overline {F} (g∘f) =  \overline {F} (f)∘ \overline {F} (g)</fr:tex>.
+            that <fr:tex>よ(\overline {F}(g∘f)) = よ(\overline {F}(f))∘よ(\overline {F}(g))</fr:tex>.
+            By the ("going home" direction of the) Yoneda principle, <fr:tex>\overline {F}(g∘f) = \overline {F}(f)∘\overline {F}(g)</fr:tex>.
             Thus at last, <fr:tex>\overline {F}</fr:tex> defines a functorial action on <fr:tex>X</fr:tex>-morphisms.
         </fr:p>
         <fr:p>
@@ -191,14 +191,14 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>317</fr:anchor><fr:addr>subsub-0007</fr:addr><fr:route>subsub-0007.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>7</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>334</fr:anchor><fr:addr>subsub-0007</fr:addr><fr:route>subsub-0007.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>7</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
 addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>sub-0007</fr:parent></fr:frontmatter><fr:mainmatter><fr:embedded-tex
-hash="04c41799d5084f092a5df1e435c7b32e"><fr:embedded-tex-preamble>\usepackage {tikz-cd} \usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
-                     \begin {tikzcd}                     A(F(x), -)  \ar [d, Rightarrow, "≀", "πₓ"'] &amp; A(F(y), -)  \ar [d, Rightarrow, "≀"', "π_y"] \ar [l, Rightarrow, "-∘ \overline {F} (f)"']  \\ 
-                        X(x, U(-)) &amp; X(y, U(-))  \ar [l, Rightarrow, "-∘f"]
-                     \end {tikzcd}
+hash="72916137e0dd482f96165eaf52c81f4c"><fr:embedded-tex-preamble>\usepackage {tikz-cd}\usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
+                    \begin {tikzcd}                     A(F(x), -) \ar [d, Rightarrow, "≀", "πₓ"'] &amp; A(F(y), -) \ar [d, Rightarrow, "≀"', "π_y"]\ar [l, Rightarrow, "-∘\overline {F}(f)"'] \\
+                        X(x, U(-)) &amp; X(y, U(-)) \ar [l, Rightarrow, "-∘f"]
+                    \end {tikzcd}
                 </fr:embedded-tex-body></fr:embedded-tex></fr:mainmatter></fr:tree>
             it is indeed the case.
         </fr:p></fr:li>
@@ -207,12 +207,12 @@ hash="04c41799d5084f092a5df1e435c7b32e"><fr:embedded-tex-preamble>\usepackage {t
         <fr:p>
             To finish off the result, we wts for any other <fr:tex>F'</fr:tex> extending
             <fr:tex>F</fr:tex> to morphisms st <fr:tex>F' ⊣ U</fr:tex>, witnessed by <fr:tex>π : Xᵒᵖ → Setᴬ</fr:tex>,
-            that <fr:tex>F' =  \overline {F}</fr:tex>.
+            that <fr:tex>F' = \overline {F}</fr:tex>.
             This simply follows from the observation that <fr:tex>∀f.</fr:tex> naturality
             of <fr:tex>π</fr:tex> is exactly <fr:link
 href="subbbb-000D"
 type="external">this square</fr:link>, and forces
-            <fr:tex>よ(F'(f)) = πₓ⁻¹∘(-∘f)∘π_y = よ( \overline {F} (f))</fr:tex></fr:p></fr:li></fr:ul><fr:p>
+            <fr:tex>よ(F'(f)) = πₓ⁻¹∘(-∘f)∘π_y = よ(\overline {F}(f))</fr:tex></fr:p></fr:li></fr:ul><fr:p>
     So this result is really a corollary of the Yoneda lemma.
     <fr:link
 href="https://ncatlab.org/nlab/show/adjoint+functor#AdjointFunctorFromObjectwiseRepresentingObject"
@@ -224,7 +224,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>319</fr:anchor><fr:taxon>Moral</fr:taxon><fr:addr>subbb-000D</fr:addr><fr:route>subbb-000D.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>10</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>336</fr:anchor><fr:taxon>Moral</fr:taxon><fr:addr>subbb-000D</fr:addr><fr:route>subbb-000D.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>10</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
 addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000D</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
@@ -248,7 +248,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>608</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>hejohns-000D</fr:addr><fr:route>hejohns-000D.xml</fr:route><fr:title>The verbose proof</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>10</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>850</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>hejohns-000D</fr:addr><fr:route>hejohns-000D.xml</fr:route><fr:title>The verbose proof</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>10</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
 addr="hejohns">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -274,7 +274,7 @@ addr="hejohns-0006">the thin case</fr:link>.
             Since <fr:tex>η_y : X(y, U∘F(y))</fr:tex>, we have <fr:tex>η_y∘f : X(x, U∘F(y))</fr:tex>.
             By the Hom bijection, <fr:tex>πₓ(F(y))⁻¹(η_y∘f) : A(F(x), F(y))</fr:tex>.
             This is our candidate for the <fr:tex>F</fr:tex>-action.
-            <fr:tex>\overline {F} (f) ≔ πₓ(F(y))⁻¹(η_y ∘ f)</fr:tex>.
+            <fr:tex>\overline {F}(f) ≔ πₓ(F(y))⁻¹(η_y ∘ f)</fr:tex>.
         </fr:p>
         <fr:p>
             As a picture, each <fr:tex>f : X(x, y)</fr:tex> gives rise to the following
@@ -286,17 +286,17 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>313</fr:anchor><fr:addr>subb-000D</fr:addr><fr:route>subb-000D.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>10</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>330</fr:anchor><fr:addr>subb-000D</fr:addr><fr:route>subb-000D.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>10</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
 addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000D</fr:parent></fr:frontmatter><fr:mainmatter><fr:embedded-tex
-hash="7da984d3ff2027c69ebefb406d434b29"><fr:embedded-tex-preamble>\usepackage {tikz-cd} \usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
-                     \begin {tikzcd}
-                        A(F(x), F(y)) &amp; A(F(y), F(y))  \ar [d, "≀"', "π_y(F(y))"]  \\ 
-                        X(x, U∘F(y))  \ar [u, "≀"', "πₓ(F(y))⁻¹"] &amp; X(y, U∘F(y))  \ar [l, "-∘f"]
-                     \end {tikzcd}
+hash="3bbd5cc482a2937801440e7dc20c0690"><fr:embedded-tex-preamble>\usepackage {tikz-cd}\usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
+                    \begin {tikzcd}
+                        A(F(x), F(y)) &amp; A(F(y), F(y)) \ar [d, "≀"', "π_y(F(y))"] \\
+                        X(x, U∘F(y)) \ar [u, "≀"', "πₓ(F(y))⁻¹"] &amp; X(y, U∘F(y)) \ar [l, "-∘f"]
+                    \end {tikzcd}
                 </fr:embedded-tex-body></fr:embedded-tex></fr:mainmatter></fr:tree>
-            And our candidate <fr:tex>\overline {F} (f)</fr:tex> is the one we know to exist by
+            And our candidate <fr:tex>\overline {F}(f)</fr:tex> is the one we know to exist by
             chasing <fr:tex>1_{F(y)}</fr:tex> around the square.
         </fr:p>
         <fr:p>
@@ -307,11 +307,11 @@ hash="7da984d3ff2027c69ebefb406d434b29"><fr:embedded-tex-preamble>\usepackage {t
         </fr:p>
         <fr:p>
             It's instructive to try directly, if one hasn't.
-            The problem is that <fr:tex>\overline {F} (f)</fr:tex> as defined is not obviously the
+            The problem is that <fr:tex>\overline {F}(f)</fr:tex> as defined is not obviously the
             composition of morphisms in any diagram-- how do you reason
             about the functoriality of <fr:tex>πₓ(F(y))⁻¹</fr:tex>?
             Instead, we want to invoke a representation theorem and work
-            with <fr:tex>\overline {F} (f)</fr:tex> as an explicit composition in some diagram.
+            with <fr:tex>\overline {F}(f)</fr:tex> as an explicit composition in some diagram.
             The solution is to follow the Yoneda principle and
             pass from reasoning in <fr:tex>Set</fr:tex> to <fr:tex>Setᴬ</fr:tex>.
         </fr:p>
@@ -332,15 +332,15 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>315</fr:anchor><fr:addr>sub-000D</fr:addr><fr:route>sub-000D.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>10</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>332</fr:anchor><fr:addr>sub-000D</fr:addr><fr:route>sub-000D.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>10</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
 addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000D</fr:parent></fr:frontmatter><fr:mainmatter><fr:embedded-tex
-hash="6fafc80d9b9e7f0489fcf2637e5c0717"><fr:embedded-tex-preamble>\usepackage {tikz-cd} \usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
-                     \begin {tikzcd}
-                        A(F(x), -) &amp; A(F(y), -)  \ar [d, Rightarrow, "≀"', "π_y"]  \\ 
-                        X(x, U(-))  \ar [u, Rightarrow, "≀"', "πₓ⁻¹"] &amp; X(y, U(-))  \ar [l, Rightarrow, "-∘f"]
-                     \end {tikzcd}
+hash="15c5a25c9843cce64b041e5e69e926cf"><fr:embedded-tex-preamble>\usepackage {tikz-cd}\usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
+                    \begin {tikzcd}
+                        A(F(x), -) &amp; A(F(y), -) \ar [d, Rightarrow, "≀"', "π_y"] \\
+                        X(x, U(-)) \ar [u, Rightarrow, "≀"', "πₓ⁻¹"] &amp; X(y, U(-)) \ar [l, Rightarrow, "-∘f"]
+                    \end {tikzcd}
                 </fr:embedded-tex-body></fr:embedded-tex></fr:mainmatter></fr:tree></fr:p>
         <fr:p>
             We first make the trivial observation that <fr:tex>A(F(x), -)</fr:tex> and
@@ -350,30 +350,30 @@ hash="6fafc80d9b9e7f0489fcf2637e5c0717"><fr:embedded-tex-preamble>\usepackage {t
         </fr:p>
         <fr:ul><fr:li><fr:p>
                     Then the Yoneda lemma tells us that by specifying an
-                    element <fr:tex>\overline {F} (f) : A(F(x), F(y))</fr:tex>, this fully
+                    element <fr:tex>\overline {F}(f) : A(F(x), F(y))</fr:tex>, this fully
                     determines (ie freely extends to) a natural
                     transformation <fr:tex
-display="block">よ( \overline {F} (f)) = (-∘ \overline {F} (f)) : よ(F(x)) ⇐                     よ(F(y))</fr:tex></fr:p></fr:li>
+display="block">よ(\overline {F}(f)) = (-∘\overline {F}(f)) : よ(F(x)) ⇐                     よ(F(y))</fr:tex></fr:p></fr:li>
             <fr:li><fr:p>
                     Equivalently, the Yoneda principle tells us that an
-                    element <fr:tex>\overline {F} (f) : A(F(x), F(y))</fr:tex> fully failthfully
+                    element <fr:tex>\overline {F}(f) : A(F(x), F(y))</fr:tex> fully failthfully
                     embeds as a natural transformation <fr:tex
-display="block">よ( \overline {F} (f)) =                     (-∘ \overline {F} (f)) : よ(F(x)) ⇐ よ(F(y))</fr:tex></fr:p></fr:li></fr:ul>
+display="block">よ(\overline {F}(f)) =                     (-∘\overline {F}(f)) : よ(F(x)) ⇐ よ(F(y))</fr:tex></fr:p></fr:li></fr:ul>
         <fr:p>
             With this in mind, we notice that by definition,
-            <fr:tex>よ( \overline {F} (f))</fr:tex> is exactly the lid to <fr:link
+            <fr:tex>よ(\overline {F}(f))</fr:tex> is exactly the lid to <fr:link
 href="sub-000D.xml"
 type="local"
 addr="sub-000D">the above <fr:tex>Setᴬ</fr:tex>
             square</fr:link>.
             <fr:embedded-tex
-hash="af1879add0ed781bb43f5010d17e0754"><fr:embedded-tex-preamble>\usepackage {tikz-cd} \usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
-                 \begin {tikzcd}                 A(F(x), -) &amp; A(F(y), -)  \ar [d, Rightarrow, "≀"', "π_y"] \ar [l, Rightarrow, "-∘ \overline {F} (f)"']  \\ 
-                    X(x, U(-))  \ar [u, Rightarrow, "≀", "πₓ⁻¹"'] &amp; X(y, U(-))  \ar [l, Rightarrow, "-∘f"]
-                 \end {tikzcd}
+hash="6a7be1450e162f11307400423dc3e4e1"><fr:embedded-tex-preamble>\usepackage {tikz-cd}\usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
+                \begin {tikzcd}                 A(F(x), -) &amp; A(F(y), -) \ar [d, Rightarrow, "≀"', "π_y"]\ar [l, Rightarrow, "-∘\overline {F}(f)"'] \\
+                    X(x, U(-)) \ar [u, Rightarrow, "≀", "πₓ⁻¹"'] &amp; X(y, U(-)) \ar [l, Rightarrow, "-∘f"]
+                \end {tikzcd}
             </fr:embedded-tex-body></fr:embedded-tex>
             That is, both natural transformations map <fr:tex>1_{F(y)}</fr:tex> to the
-            same thing-- <fr:tex>\overline {F} {F}(f)</fr:tex>-- by definition, thus must be equal
+            same thing-- <fr:tex>\overline {F}{F}(f)</fr:tex>-- by definition, thus must be equal
             by the Yoneda Lemma.
             (<fr:link
 href="subbb-000D.xml"
@@ -382,25 +382,25 @@ addr="subbb-000D">In hindsight</fr:link>, this line of reasoning is quite
             circumlocutious and you might as well start by saying such a
             <fr:tex>\overline {F}</fr:tex> would have to satisfy this square, but I think it's the
             more obvious starting point without presupposing it exists.)
-            Now that we've represented <fr:tex>\overline {F} (f)</fr:tex> as an explicit
+            Now that we've represented <fr:tex>\overline {F}(f)</fr:tex> as an explicit
             composition, we have enough to tools consider
             functoriality.
         </fr:p>
         <fr:p>
             Wts <fr:tex>\overline {F}</fr:tex> actually defines a functorial action on morphisms for a functor extending <fr:tex>F</fr:tex>.
-            Indeed, <fr:tex>\overline {F} (1ₓ : X(x, x)) =  πₓ(F(x))⁻¹(ηₓ∘1ₓ) = πₓ(F(x))⁻¹(ηₓ) = 1_{F(x)}</fr:tex> by definition.
+            Indeed, <fr:tex>\overline {F}(1ₓ : X(x, x)) =  πₓ(F(x))⁻¹(ηₓ∘1ₓ) = πₓ(F(x))⁻¹(ηₓ) = 1_{F(x)}</fr:tex> by definition.
             And suppose <fr:tex>∃g : X(y, z)</fr:tex>.
-            Then <fr:tex>\overline {F} (g∘f : X(x, z))</fr:tex> viewed as a natural transformation gives rise to the following superimposed squares:
+            Then <fr:tex>\overline {F}(g∘f : X(x, z))</fr:tex> viewed as a natural transformation gives rise to the following superimposed squares:
             <fr:embedded-tex
-hash="0dd47869e77364c0688d537d44f8f49f"><fr:embedded-tex-preamble>\usepackage {tikz-cd} \usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
-                 \begin {tikzcd}
-                    A(F(x), -) &amp; A(F(y), -)  \ar [d, Rightarrow, "π_y"', shift right=2] \ar [l, Rightarrow, "-∘ \overline {F} (f)"'] &amp; A(F(z), -)  \ar [d, Rightarrow, "π_z"] \ar [l, Rightarrow, "-∘ \tilde {F}(g)"'] \ar [ll, Rightarrow, "-∘ \overline {F} (g∘f)"', bend right]  \\ 
-                    X(x, U(-))  \ar [u, Rightarrow, "≀"', "πₓ⁻¹"] &amp; X(y, U(-))  \ar [l, Rightarrow, "-∘f"] \ar [u, Rightarrow, "π_y⁻¹"', shift right=2] &amp; X(z, U(-))  \ar [l, Rightarrow, "-∘g"] \ar [ll, Rightarrow, "-∘(g∘f)", bend left]
-                 \end {tikzcd}
+hash="a1aae49cf27956251484176f63510158"><fr:embedded-tex-preamble>\usepackage {tikz-cd}\usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
+                \begin {tikzcd}
+                    A(F(x), -) &amp; A(F(y), -) \ar [d, Rightarrow, "π_y"', shift right=2]\ar [l, Rightarrow, "-∘\overline {F}(f)"'] &amp; A(F(z), -) \ar [d, Rightarrow, "π_z"]\ar [l, Rightarrow, "-∘\tilde {F}(g)"']\ar [ll, Rightarrow, "-∘\overline {F}(g∘f)"', bend right] \\
+                    X(x, U(-)) \ar [u, Rightarrow, "≀"', "πₓ⁻¹"] &amp; X(y, U(-)) \ar [l, Rightarrow, "-∘f"]\ar [u, Rightarrow, "π_y⁻¹"', shift right=2] &amp; X(z, U(-)) \ar [l, Rightarrow, "-∘g"]\ar [ll, Rightarrow, "-∘(g∘f)", bend left]
+                \end {tikzcd}
             </fr:embedded-tex-body></fr:embedded-tex>
             A diagram chase verifies that the diagram indeed commutes, and
-            that <fr:tex>よ( \overline {F} (g∘f)) = よ( \overline {F} (f))∘よ( \overline {F} (g))</fr:tex>.
-            By the ("going home" direction of the) Yoneda principle, <fr:tex>\overline {F} (g∘f) =  \overline {F} (f)∘ \overline {F} (g)</fr:tex>.
+            that <fr:tex>よ(\overline {F}(g∘f)) = よ(\overline {F}(f))∘よ(\overline {F}(g))</fr:tex>.
+            By the ("going home" direction of the) Yoneda principle, <fr:tex>\overline {F}(g∘f) = \overline {F}(f)∘\overline {F}(g)</fr:tex>.
             Thus at last, <fr:tex>\overline {F}</fr:tex> defines a functorial action on <fr:tex>X</fr:tex>-morphisms.
         </fr:p>
         <fr:p>
@@ -416,14 +416,14 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>317</fr:anchor><fr:addr>subsub-0007</fr:addr><fr:route>subsub-0007.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>7</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>334</fr:anchor><fr:addr>subsub-0007</fr:addr><fr:route>subsub-0007.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>7</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
 addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>sub-0007</fr:parent></fr:frontmatter><fr:mainmatter><fr:embedded-tex
-hash="04c41799d5084f092a5df1e435c7b32e"><fr:embedded-tex-preamble>\usepackage {tikz-cd} \usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
-                     \begin {tikzcd}                     A(F(x), -)  \ar [d, Rightarrow, "≀", "πₓ"'] &amp; A(F(y), -)  \ar [d, Rightarrow, "≀"', "π_y"] \ar [l, Rightarrow, "-∘ \overline {F} (f)"']  \\ 
-                        X(x, U(-)) &amp; X(y, U(-))  \ar [l, Rightarrow, "-∘f"]
-                     \end {tikzcd}
+hash="72916137e0dd482f96165eaf52c81f4c"><fr:embedded-tex-preamble>\usepackage {tikz-cd}\usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
+                    \begin {tikzcd}                     A(F(x), -) \ar [d, Rightarrow, "≀", "πₓ"'] &amp; A(F(y), -) \ar [d, Rightarrow, "≀"', "π_y"]\ar [l, Rightarrow, "-∘\overline {F}(f)"'] \\
+                        X(x, U(-)) &amp; X(y, U(-)) \ar [l, Rightarrow, "-∘f"]
+                    \end {tikzcd}
                 </fr:embedded-tex-body></fr:embedded-tex></fr:mainmatter></fr:tree>
             it is indeed the case.
         </fr:p></fr:li>
@@ -432,12 +432,12 @@ hash="04c41799d5084f092a5df1e435c7b32e"><fr:embedded-tex-preamble>\usepackage {t
         <fr:p>
             To finish off the result, we wts for any other <fr:tex>F'</fr:tex> extending
             <fr:tex>F</fr:tex> to morphisms st <fr:tex>F' ⊣ U</fr:tex>, witnessed by <fr:tex>π : Xᵒᵖ → Setᴬ</fr:tex>,
-            that <fr:tex>F' =  \overline {F}</fr:tex>.
+            that <fr:tex>F' = \overline {F}</fr:tex>.
             This simply follows from the observation that <fr:tex>∀f.</fr:tex> naturality
             of <fr:tex>π</fr:tex> is exactly <fr:link
 href="subbbb-000D"
 type="external">this square</fr:link>, and forces
-            <fr:tex>よ(F'(f)) = πₓ⁻¹∘(-∘f)∘π_y = よ( \overline {F} (f))</fr:tex></fr:p></fr:li></fr:ul><fr:p>
+            <fr:tex>よ(F'(f)) = πₓ⁻¹∘(-∘f)∘π_y = よ(\overline {F}(f))</fr:tex></fr:p></fr:li></fr:ul><fr:p>
     So this result is really a corollary of the Yoneda lemma.
     <fr:link
 href="https://ncatlab.org/nlab/show/adjoint+functor#AdjointFunctorFromObjectwiseRepresentingObject"
@@ -449,7 +449,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>319</fr:anchor><fr:taxon>Moral</fr:taxon><fr:addr>subbb-000D</fr:addr><fr:route>subbb-000D.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>10</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>336</fr:anchor><fr:taxon>Moral</fr:taxon><fr:addr>subbb-000D</fr:addr><fr:route>subbb-000D.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>10</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
 addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000D</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>

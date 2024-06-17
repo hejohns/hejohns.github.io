@@ -7,7 +7,7 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>645</fr:anchor><fr:addr>hejohns-0009</fr:addr><fr:route>hejohns-0009.xml</fr:route><fr:title>Fibrations v. functors</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>8</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>804</fr:anchor><fr:addr>hejohns-0009</fr:addr><fr:route>hejohns-0009.xml</fr:route><fr:title>Fibrations v. functors</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>8</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
 addr="hejohns">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -31,14 +31,17 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>644</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>millies-zeilberger-2015</fr:addr><fr:route>millies-zeilberger-2015.xml</fr:route><fr:title>Functors are Type Refinement Systems</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:tree
+root="false"><fr:frontmatter><fr:anchor>802</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>millies-zeilberger-2015</fr:addr><fr:route>millies-zeilberger-2015.xml</fr:route><fr:title>Functors are Type Refinement Systems</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:authors><fr:contributor><fr:link
+href="hejohns.xml"
+type="local"
+addr="hejohns">Johnson He</fr:link></fr:contributor></fr:authors></fr:frontmatter><fr:mainmatter><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>395</fr:anchor><fr:taxon>Abstract</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:parent>millies-zeilberger-2015</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>380</fr:anchor><fr:taxon>Abstract</fr:taxon><fr:addr>#181</fr:addr><fr:route>unstable-181.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:parent>millies-zeilberger-2015</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
         The standard reading of type theory through the lens of category theory
         is based on the idea of viewing a type system as a category of
         well-typed terms. We propose a basic revision of this reading: rather
@@ -61,7 +64,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>396</fr:anchor><fr:title>Sections 1-2</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>381</fr:anchor><fr:addr>#182</fr:addr><fr:route>unstable-182.xml</fr:route><fr:title>Sections 1-2</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
 addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>millies-zeilberger-2015</fr:parent></fr:frontmatter><fr:mainmatter><fr:p><fr:em>What</fr:em> is a logical relation?

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>464</fr:anchor><fr:addr>#209</fr:addr><fr:route>unstable-209.xml</fr:route><fr:title><fr:link
+href="hejohns.xml"
+type="local"
+addr="hejohns">Johnson He</fr:link> › Extended About</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>5</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>10</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="hejohns.xml"
+type="local"
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        My screen name is <fr:code>hejohns</fr:code>, eg <fr:link
+href="https://github.com/hejohns"
+type="external">https://github.com/hejohns</fr:link>.
+    </fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>462</fr:anchor><fr:taxon>Person</fr:taxon><fr:addr>hejohns</fr:addr><fr:route>hejohns.xml</fr:route><fr:title>Johnson He</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>5</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>10</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="hejohns.xml"
+type="local"
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+    
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>439</fr:anchor><fr:addr>hejohns-000O</fr:addr><fr:route>hejohns-000O.xml</fr:route><fr:title>About</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>10</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="hejohns.xml"
+type="local"
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+    I am a master's student in Computer Science and Engineering at the
+    University of Michigan.
+    I'm interested in logic and related areas of computer science, particularly
+    programming languages.
+</fr:p><fr:p>
+    This is my <fr:link
+href="https://www.jonmsterling.com/jms-005P.xml"
+type="external">forest</fr:link>.
+</fr:p><fr:ul><fr:li>
+                email: <fr:embedded-tex
+hash="981fdd9f85dd838fc676b7448e3e9273"><fr:embedded-tex-preamble></fr:embedded-tex-preamble><fr:embedded-tex-body>hejohns@umich.edu</fr:embedded-tex-body></fr:embedded-tex></fr:li>
+    <fr:li>
+        photo:
+        <fr:p><html:img
+xmlns:html="http://www.w3.org/1999/xhtml"
+src="hejohns.jpeg"
+width="150"
+height="150"></html:img></fr:p></fr:li>
+    <fr:li>
+        cv: <fr:link
+href="cv.pdf"
+type="external">cv.pdf</fr:link> (TODO)
+    </fr:li></fr:ul></fr:mainmatter></fr:tree>
+<fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>441</fr:anchor><fr:addr>#209</fr:addr><fr:route>unstable-209.xml</fr:route><fr:title>Extended About</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>5</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>10</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="hejohns.xml"
+type="local"
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        My screen name is <fr:code>hejohns</fr:code>, eg <fr:link
+href="https://github.com/hejohns"
+type="external">https://github.com/hejohns</fr:link>.
+    </fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

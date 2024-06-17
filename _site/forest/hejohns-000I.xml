@@ -7,15 +7,15 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>465</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hejohns-000I</fr:addr><fr:route>hejohns-000I.xml</fr:route><fr:title>Subobject classifier</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>691</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hejohns-000I</fr:addr><fr:route>hejohns-000I.xml</fr:route><fr:title>Subobject classifier</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p>
     For a category <fr:tex>\mathcal {C}</fr:tex>, a <fr:em>subobject classifier</fr:em> is an object <fr:tex>Ω</fr:tex> together
-    with a global element <fr:tex>true : 1 → Ω</fr:tex> such that <fr:tex>∀ A ∈  \mathcal {C} . ∀ s : S ↣ A. ∃!     χ_s : A → Ω.</fr:tex>
+    with a global element <fr:tex>true : 1 → Ω</fr:tex> such that <fr:tex>∀ A ∈ \mathcal {C}. ∀ s : S ↣ A. ∃!     χ_s : A → Ω.</fr:tex>
     <fr:embedded-tex
-hash="e02927923b00b58796778a2184dd7584"><fr:embedded-tex-preamble>\usepackage {tikz-cd} \usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
-         \begin {tikzcd}
-            S  \ar [d, rightarrowtail, "s"'] \ar [r] \ar [dr, phantom, " \lrcorner ", very near start]  &amp; 1  \ar [d, rightarrowtail, "true"]  \\ 
-            A  \ar [r, "χ_s"'] &amp; Ω
-         \end {tikzcd}
+hash="1fb1dbf087f1accd0542d92729e7da0d"><fr:embedded-tex-preamble>\usepackage {tikz-cd}\usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
+        \begin {tikzcd}
+            S \ar [d, rightarrowtail, "s"']\ar [r]\ar [dr, phantom, "\lrcorner ", very near start] &amp; 1 \ar [d, rightarrowtail, "true"] \\
+            A \ar [r, "χ_s"'] &amp; Ω
+        \end {tikzcd}
     </fr:embedded-tex-body></fr:embedded-tex>
     is a pullback square.
 </fr:p><fr:p>
@@ -37,7 +37,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>463</fr:anchor><fr:addr>hejohns-000G</fr:addr><fr:route>hejohns-000G.xml</fr:route><fr:title>What is an elementary topos?</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>689</fr:anchor><fr:addr>hejohns-000G</fr:addr><fr:route>hejohns-000G.xml</fr:route><fr:title>What is an elementary topos?</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
 addr="hejohns">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -61,7 +61,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>263</fr:anchor><fr:taxon>Definition</fr:taxon><fr:title>Topos à la <fr:link
+root="false"><fr:frontmatter><fr:anchor>244</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>#197</fr:addr><fr:route>unstable-197.xml</fr:route><fr:title>Topos à la <fr:link
 href="lambek-scott-1986.xml"
 type="local"
 addr="lambek-scott-1986">Introduction to higher order categorical logic</fr:link> p.140</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
@@ -77,7 +77,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>265</fr:anchor><fr:taxon>Definition</fr:taxon><fr:title>Topos à la <fr:link
+root="false"><fr:frontmatter><fr:anchor>246</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>#198</fr:addr><fr:route>unstable-198.xml</fr:route><fr:title>Topos à la <fr:link
 href="johnstone-2002.xml"
 type="local"
 addr="johnstone-2002">Sketches of an Elephant: a topos theory compendium</fr:link> 2.1.1</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
@@ -112,7 +112,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>267</fr:anchor><fr:taxon>Definition</fr:taxon><fr:title>Topos à la <fr:link
+root="false"><fr:frontmatter><fr:anchor>248</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>#199</fr:addr><fr:route>unstable-199.xml</fr:route><fr:title>Topos à la <fr:link
 href="mclarty-1992.xml"
 type="local"
 addr="mclarty-1992">Elementary Categories, Elementary Toposes</fr:link> 13.1</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
@@ -131,7 +131,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>269</fr:anchor><fr:taxon>Definition</fr:taxon><fr:title>Topos à la <fr:link
+root="false"><fr:frontmatter><fr:anchor>250</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>#200</fr:addr><fr:route>unstable-200.xml</fr:route><fr:title>Topos à la <fr:link
 href="makkai-reyes-1977.xml"
 type="local"
 addr="makkai-reyes-1977">First Order Categorical Logic</fr:link></fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
@@ -147,7 +147,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>271</fr:anchor><fr:taxon>Definition</fr:taxon><fr:title>Topos à la <fr:link
+root="false"><fr:frontmatter><fr:anchor>252</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>#201</fr:addr><fr:route>unstable-201.xml</fr:route><fr:title>Topos à la <fr:link
 href="awodey-2010.xml"
 type="local"
 addr="awodey-2010">Category Theory</fr:link> 8.17</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
@@ -173,7 +173,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>273</fr:anchor><fr:taxon>Definition</fr:taxon><fr:title>Topos à la <fr:link
+root="false"><fr:frontmatter><fr:anchor>254</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>#202</fr:addr><fr:route>unstable-202.xml</fr:route><fr:title>Topos à la <fr:link
 href="goldblatt-2006.xml"
 type="local"
 addr="goldblatt-2006">Topoi: The Categorial Analysis of Logic</fr:link> 4.3</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
@@ -223,7 +223,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>279</fr:anchor><fr:title>Topos à la <fr:link
+root="false"><fr:frontmatter><fr:anchor>260</fr:anchor><fr:addr>#203</fr:addr><fr:route>unstable-203.xml</fr:route><fr:title>Topos à la <fr:link
 href="maclane-moerdijk-1994.xml"
 type="local"
 addr="maclane-moerdijk-1994">Sheaves in Geometry and Logic: A First Introduction to Topos Theory</fr:link></fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
@@ -236,13 +236,13 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>275</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>sub-000G</fr:addr><fr:route>sub-000G.xml</fr:route><fr:title>Topos à la <fr:link
+root="false"><fr:frontmatter><fr:anchor>256</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>sub-000G</fr:addr><fr:route>sub-000G.xml</fr:route><fr:title>Topos à la <fr:link
 href="maclane-moerdijk-1994.xml"
 type="local"
 addr="maclane-moerdijk-1994">Sheaves in Geometry and Logic: A First Introduction to Topos Theory</fr:link> p. 48</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
-addr="hejohns">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>#203</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
             "[A <fr:em>topos</fr:em> <fr:tex>\mathcal {E}</fr:tex> is a category] with the following properties
             <fr:ul><fr:li>
                     (i) <fr:tex>\mathcal {E}</fr:tex> has all finite limits and colimits,
@@ -258,25 +258,25 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>277</fr:anchor><fr:taxon>Definition</fr:taxon><fr:title>Topos à la <fr:link
+root="false"><fr:frontmatter><fr:anchor>258</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>#204</fr:addr><fr:route>unstable-204.xml</fr:route><fr:title>Topos à la <fr:link
 href="maclane-moerdijk-1994.xml"
 type="local"
 addr="maclane-moerdijk-1994">Sheaves in Geometry and Logic: A First Introduction to Topos Theory</fr:link> p. 161</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
-addr="hejohns">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>#203</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
             "A <fr:em>topos</fr:em> <fr:tex>\mathcal {E}</fr:tex> is a category with all finite limites, equipped with
             an object <fr:tex>Ω</fr:tex>, with a function <fr:tex>P</fr:tex> which assigns to each object <fr:tex>B</fr:tex>
             of <fr:tex>\mathcal {E}</fr:tex> an object <fr:tex>PB</fr:tex> of <fr:tex>\mathcal {E}</fr:tex>, and, for each object <fr:tex>A</fr:tex> of <fr:tex>\mathcal {E}</fr:tex>, with two
             isomorphisms, each natural in <fr:tex>A</fr:tex>
             <fr:tex
-display="block">                  \begin {align*}                     Sub_{ \mathcal {E} } &amp;≅ Hom_{ \mathcal {E} }(A, Ω) &amp;(1) \\                      Hom_{ \mathcal {E} }(B × A, Ω) &amp;≅ Hom_{ \mathcal {E} }(A, PB) &amp;(2)  \\                   \end {align*}             </fr:tex>
-            In other words, the functors <fr:tex>Sub_{ \mathcal {E} }</fr:tex> and <fr:tex>Hom_{ \mathcal {E} }(B × -, Ω)</fr:tex>, the
+display="block">                 \begin {align*}                     Sub_{\mathcal {E}} &amp;≅ Hom_{\mathcal {E}}(A, Ω) &amp;(1)\\                     Hom_{\mathcal {E}}(B × A, Ω) &amp;≅ Hom_{\mathcal {E}}(A, PB) &amp;(2) \\                 \end {align*}             </fr:tex>
+            In other words, the functors <fr:tex>Sub_{\mathcal {E}}</fr:tex> and <fr:tex>Hom_{\mathcal {E}}(B × -, Ω)</fr:tex>, the
             latter for each object <fr:tex>B</fr:tex> of <fr:tex>\mathcal {E}</fr:tex>, are required to be representable.
             In the first case, the representing object <fr:tex>Ω</fr:tex> is the <fr:em>subobject
             classifier</fr:em>, as already described in §I.3, while in the second case
             <fr:tex>PB</fr:tex> may be called the <fr:em>power object</fr:em> of <fr:tex>B</fr:tex>; moreover, the
-            function <fr:tex>P</fr:tex> can be extended to a functor <fr:tex>P :  \mathcal {E} ^{op} →  \mathcal {E}</fr:tex> in
+            function <fr:tex>P</fr:tex> can be extended to a functor <fr:tex>P : \mathcal {E}^{op} → \mathcal {E}</fr:tex> in
             exactly one way so that (2) becomes natural in <fr:tex>B</fr:tex> (as well as in
             <fr:tex>A</fr:tex>), see (7) below. Equivalently, the natural isomorphism (2) states
             that <fr:tex>PB</fr:tex> is the exponential <fr:tex>Ω^B</fr:tex>, as described in §I.6; therefore,
@@ -291,7 +291,7 @@ addr="sub-000G">§I.6</fr:link>. However, it will be shown in the
             Notice that the two natural isomorphisms (1) and (2) may be combined
             in a single isomorphism
             <fr:tex
-display="block">                  \begin {align*}                     Sub_{ \mathcal {E} }(B × A) &amp;≅ Hom_{ \mathcal {E} }(A, PB) &amp;(3)  \\                   \end {align*}             </fr:tex>
+display="block">                 \begin {align*}                     Sub_{\mathcal {E}}(B × A) &amp;≅ Hom_{\mathcal {E}}(A, PB) &amp;(3) \\                 \end {align*}             </fr:tex>
             natural in A. With <fr:tex>B = 1</fr:tex>, this implies (1) with <fr:tex>Ω = P1</fr:tex>, and hence
             also (2). In other words, we could define a topos as a category with
             finite limits equipped with a single operation <fr:tex>P</fr:tex> satisfying (3)."
@@ -305,15 +305,15 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>281</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hejohns-000I</fr:addr><fr:route>hejohns-000I.xml</fr:route><fr:title>Subobject classifier</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>262</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hejohns-000I</fr:addr><fr:route>hejohns-000I.xml</fr:route><fr:title>Subobject classifier</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p>
     For a category <fr:tex>\mathcal {C}</fr:tex>, a <fr:em>subobject classifier</fr:em> is an object <fr:tex>Ω</fr:tex> together
-    with a global element <fr:tex>true : 1 → Ω</fr:tex> such that <fr:tex>∀ A ∈  \mathcal {C} . ∀ s : S ↣ A. ∃!     χ_s : A → Ω.</fr:tex>
+    with a global element <fr:tex>true : 1 → Ω</fr:tex> such that <fr:tex>∀ A ∈ \mathcal {C}. ∀ s : S ↣ A. ∃!     χ_s : A → Ω.</fr:tex>
     <fr:embedded-tex
-hash="e02927923b00b58796778a2184dd7584"><fr:embedded-tex-preamble>\usepackage {tikz-cd} \usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
-         \begin {tikzcd}
-            S  \ar [d, rightarrowtail, "s"'] \ar [r] \ar [dr, phantom, " \lrcorner ", very near start]  &amp; 1  \ar [d, rightarrowtail, "true"]  \\ 
-            A  \ar [r, "χ_s"'] &amp; Ω
-         \end {tikzcd}
+hash="1fb1dbf087f1accd0542d92729e7da0d"><fr:embedded-tex-preamble>\usepackage {tikz-cd}\usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
+        \begin {tikzcd}
+            S \ar [d, rightarrowtail, "s"']\ar [r]\ar [dr, phantom, "\lrcorner ", very near start] &amp; 1 \ar [d, rightarrowtail, "true"] \\
+            A \ar [r, "χ_s"'] &amp; Ω
+        \end {tikzcd}
     </fr:embedded-tex-body></fr:embedded-tex>
     is a pullback square.
 </fr:p><fr:p>
@@ -338,8 +338,8 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>462</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hejohns-000K</fr:addr><fr:route>hejohns-000K.xml</fr:route><fr:title>Global element</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p>
-    A <fr:em>global element</fr:em> of an object <fr:tex>A ∈  \mathcal {C}</fr:tex> is <fr:em>just</fr:em> a
+root="false"><fr:frontmatter><fr:anchor>688</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hejohns-000K</fr:addr><fr:route>hejohns-000K.xml</fr:route><fr:title>Global element</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p>
+    A <fr:em>global element</fr:em> of an object <fr:tex>A ∈ \mathcal {C}</fr:tex> is <fr:em>just</fr:em> a
     morphism <fr:tex>e : 1 → A</fr:tex>.
 </fr:p><fr:p>
     From <fr:link
@@ -356,4 +356,4 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>461</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>mclarty-1992</fr:addr><fr:route>mclarty-1992.xml</fr:route><fr:title>Elementary Categories, Elementary Toposes</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>31</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date></fr:frontmatter><fr:mainmatter></fr:mainmatter></fr:tree></fr:references></fr:backmatter></fr:tree>
+root="false"><fr:frontmatter><fr:anchor>687</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>mclarty-1992</fr:addr><fr:route>mclarty-1992.xml</fr:route><fr:title>Elementary Categories, Elementary Toposes</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>31</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date></fr:frontmatter><fr:mainmatter></fr:mainmatter></fr:tree></fr:references></fr:backmatter></fr:tree>

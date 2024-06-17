@@ -7,16 +7,19 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>585</fr:anchor><fr:addr>subb-000E</fr:addr><fr:route>subb-000E.xml</fr:route><fr:title>I</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>939</fr:anchor><fr:addr>subb-000E</fr:addr><fr:route>subb-000E.xml</fr:route><fr:title><fr:link
+href="unstable-218.xml"
+type="local"
+addr="#218">Untitled</fr:link> › I</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
-addr="hejohns">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>#218</fr:parent></fr:frontmatter><fr:mainmatter>
         <fr:embedded-tex
-hash="a09fe1256faafb1bc13a1cc059df3388"><fr:embedded-tex-preamble>\usepackage {tikz-cd} \usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
-             \begin {tikzcd}
-                A( a ,  b )×A(F x ,  a )  \ar [r, " \overline {U} ×π_{ a , x }"] \ar [d, "∘"] &amp; X(U a , U b )×X( x , U a )  \ar [d, "∘"]  \\ 
-                A(F x ,  b )  \ar [r, "π_{ x ,  b }"] &amp; X( x , U b )
-             \end {tikzcd}
+hash="b806fb8c112337fe6c4b4a1e244b5d97"><fr:embedded-tex-preamble>\usepackage {tikz-cd}\usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
+            \begin {tikzcd}
+                A(a, b)×A(Fx, a) \ar [r, "\overline {U}×π_{a,x}"]\ar [d, "∘"] &amp; X(Ua, Ub)×X(x, Ua) \ar [d, "∘"] \\
+                A(Fx, b) \ar [r, "π_{x, b}"] &amp; X(x, Ub)
+            \end {tikzcd}
         </fr:embedded-tex-body></fr:embedded-tex>
 </fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
@@ -25,34 +28,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>583</fr:anchor><fr:taxon>Lemma</fr:taxon><fr:addr>hejohns-000E</fr:addr><fr:route>hejohns-000E.xml</fr:route><fr:title>Adjunction core</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="hejohns.xml"
-type="local"
-addr="hejohns">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>325</fr:anchor><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="hejohns.xml"
-type="local"
-addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000E</fr:parent></fr:frontmatter><fr:mainmatter><fr:p><fr:link
-href="street-2012.xml"
-type="local"
-addr="street-2012">"An adjunction core consists of"</fr:link>
-        <fr:ul><fr:li>
-                functions <fr:tex>U : A .ob → X .ob</fr:tex> and <fr:tex>F : X .ob → A .ob</fr:tex></fr:li>
-            <fr:li>
-                a family of isomorphisms <fr:tex>(π_{x,a} : A(F(x), a) ≅ X(X, U(a)))_{a ∈ A, x ∈ X}</fr:tex></fr:li></fr:ul></fr:p></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>331</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>935</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:addr>#218</fr:addr><fr:route>unstable-218.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
 addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000E</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
@@ -80,16 +56,16 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>327</fr:anchor><fr:addr>subb-000E</fr:addr><fr:route>subb-000E.xml</fr:route><fr:title>I</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>344</fr:anchor><fr:addr>subb-000E</fr:addr><fr:route>subb-000E.xml</fr:route><fr:title>I</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
-addr="hejohns">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>#218</fr:parent></fr:frontmatter><fr:mainmatter>
         <fr:embedded-tex
-hash="a09fe1256faafb1bc13a1cc059df3388"><fr:embedded-tex-preamble>\usepackage {tikz-cd} \usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
-             \begin {tikzcd}
-                A( a ,  b )×A(F x ,  a )  \ar [r, " \overline {U} ×π_{ a , x }"] \ar [d, "∘"] &amp; X(U a , U b )×X( x , U a )  \ar [d, "∘"]  \\ 
-                A(F x ,  b )  \ar [r, "π_{ x ,  b }"] &amp; X( x , U b )
-             \end {tikzcd}
+hash="b806fb8c112337fe6c4b4a1e244b5d97"><fr:embedded-tex-preamble>\usepackage {tikz-cd}\usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
+            \begin {tikzcd}
+                A(a, b)×A(Fx, a) \ar [r, "\overline {U}×π_{a,x}"]\ar [d, "∘"] &amp; X(Ua, Ub)×X(x, Ua) \ar [d, "∘"] \\
+                A(Fx, b) \ar [r, "π_{x, b}"] &amp; X(x, Ub)
+            \end {tikzcd}
         </fr:embedded-tex-body></fr:embedded-tex>
 </fr:mainmatter></fr:tree><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
@@ -98,16 +74,107 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>329</fr:anchor><fr:addr>subbb-000E</fr:addr><fr:route>subbb-000E.xml</fr:route><fr:title>II</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>346</fr:anchor><fr:addr>subbb-000E</fr:addr><fr:route>subbb-000E.xml</fr:route><fr:title>II</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
-addr="hejohns">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>#218</fr:parent></fr:frontmatter><fr:mainmatter>
         <fr:embedded-tex
-hash="8fd7996c4b1a3e39d4bda43697f06cf9"><fr:embedded-tex-preamble>\usepackage {tikz-cd} \usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
-             \begin {tikzcd}
-                X( y , U a )×X( x ,  y )  \ar [r, "π_{ y ,  a }⁻¹× \overline {F} "] \ar [d, "∘"] &amp; A(F y ,  a )×A(F x , F y )  \ar [d, "∘"]  \\ 
-                X( x , U a )  \ar [r, "π_{x, a}⁻¹"] &amp; A(F x ,  a )
-             \end {tikzcd}
+hash="802fd9b68c66249dd8fb86046d5d2e19"><fr:embedded-tex-preamble>\usepackage {tikz-cd}\usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
+            \begin {tikzcd}
+                X(y, Ua)×X(x, y) \ar [r, "π_{y, a}⁻¹×\overline {F}"]\ar [d, "∘"] &amp; A(Fy, a)×A(Fx, Fy) \ar [d, "∘"] \\
+                X(x, Ua) \ar [r, "π_{x, a}⁻¹"] &amp; A(Fx, a)
+            \end {tikzcd}
+        </fr:embedded-tex-body></fr:embedded-tex>
+</fr:mainmatter></fr:tree></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>937</fr:anchor><fr:taxon>Lemma</fr:taxon><fr:addr>hejohns-000E</fr:addr><fr:route>hejohns-000E.xml</fr:route><fr:title>Adjunction core</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="hejohns.xml"
+type="local"
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>342</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>#217</fr:addr><fr:route>unstable-217.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="hejohns.xml"
+type="local"
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000E</fr:parent></fr:frontmatter><fr:mainmatter><fr:p><fr:link
+href="street-2012.xml"
+type="local"
+addr="street-2012">"An adjunction core consists of"</fr:link>
+        <fr:ul><fr:li>
+                functions <fr:tex>U : A .ob → X .ob</fr:tex> and <fr:tex>F : X .ob → A .ob</fr:tex></fr:li>
+            <fr:li>
+                a family of isomorphisms <fr:tex>(π_{x,a} : A(F(x), a) ≅ X(X, U(a)))_{a ∈ A, x ∈ X}</fr:tex></fr:li></fr:ul></fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>348</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:addr>#218</fr:addr><fr:route>unstable-218.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="hejohns.xml"
+type="local"
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000E</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        An adjunction core extends to an adjuction iff <fr:tex>∀a,b ∈ A. ∀x ∈ X.</fr:tex>
+        <fr:link
+href="subb-000E.xml"
+type="local"
+addr="subb-000E">I</fr:link> commutes, and iff <fr:tex>∀x,y ∈ X. a ∈ A.</fr:tex> <fr:link
+href="subbb-000E.xml"
+type="local"
+addr="subbb-000E">II</fr:link>
+        commutes.
+        The adjunction is unique when it exists.
+    </fr:p><fr:p>
+        The <fr:link
+href="street-2012.xml"
+type="local"
+addr="street-2012">original theorem</fr:link> is stated in terms of
+        <fr:tex>\mathcal {V}</fr:tex>-enriched categories, but we only treat the simple case
+        of Homset-categories here.
+    </fr:p><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>344</fr:anchor><fr:addr>subb-000E</fr:addr><fr:route>subb-000E.xml</fr:route><fr:title>I</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="hejohns.xml"
+type="local"
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>#218</fr:parent></fr:frontmatter><fr:mainmatter>
+        <fr:embedded-tex
+hash="b806fb8c112337fe6c4b4a1e244b5d97"><fr:embedded-tex-preamble>\usepackage {tikz-cd}\usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
+            \begin {tikzcd}
+                A(a, b)×A(Fx, a) \ar [r, "\overline {U}×π_{a,x}"]\ar [d, "∘"] &amp; X(Ua, Ub)×X(x, Ua) \ar [d, "∘"] \\
+                A(Fx, b) \ar [r, "π_{x, b}"] &amp; X(x, Ub)
+            \end {tikzcd}
+        </fr:embedded-tex-body></fr:embedded-tex>
+</fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>346</fr:anchor><fr:addr>subbb-000E</fr:addr><fr:route>subbb-000E.xml</fr:route><fr:title>II</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="hejohns.xml"
+type="local"
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>#218</fr:parent></fr:frontmatter><fr:mainmatter>
+        <fr:embedded-tex
+hash="802fd9b68c66249dd8fb86046d5d2e19"><fr:embedded-tex-preamble>\usepackage {tikz-cd}\usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
+            \begin {tikzcd}
+                X(y, Ua)×X(x, y) \ar [r, "π_{y, a}⁻¹×\overline {F}"]\ar [d, "∘"] &amp; A(Fy, a)×A(Fx, Fy) \ar [d, "∘"] \\
+                X(x, Ua) \ar [r, "π_{x, a}⁻¹"] &amp; A(Fx, a)
+            \end {tikzcd}
         </fr:embedded-tex-body></fr:embedded-tex>
 </fr:mainmatter></fr:tree></fr:mainmatter></fr:tree><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
@@ -116,16 +183,16 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>333</fr:anchor><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>350</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#219</fr:addr><fr:route>unstable-219.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
 addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000E</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-        We use the same notation and definitions of <fr:tex>η, ϵ,  \overline {F} ,  \overline {U}</fr:tex> as <fr:link
+        We use the same notation and definitions of <fr:tex>η, ϵ, \overline {F}, \overline {U}</fr:tex> as <fr:link
 href="hejohns-000D.xml"
 type="local"
 addr="hejohns-000D">the
         explicit proof of the precursor lemma</fr:link>.
-        The definition of <fr:tex>\overline {F} ,  \overline {U}</fr:tex> in <fr:link
+        The definition of <fr:tex>\overline {F}, \overline {U}</fr:tex> in <fr:link
 href="sub-0007.xml"
 type="local"
 addr="sub-0007">the short proof</fr:link>
@@ -144,11 +211,11 @@ addr="hejohns-0007">the
         enriched categories.
     </fr:p><fr:p>
         The forward directions are trivial.
-        Suppose <fr:tex>(F, U, (π_{a, x})_{a ∈ A, x ∈ X})</fr:tex> extends to <fr:tex>\overline {F}  ⊣_π  \overline {U}</fr:tex>.
+        Suppose <fr:tex>(F, U, (π_{a, x})_{a ∈ A, x ∈ X})</fr:tex> extends to <fr:tex>\overline {F} ⊣_π \overline {U}</fr:tex>.
         Then <fr:link
 href="subb-000E.xml"
 type="local"
-addr="subb-000E">I</fr:link> expresses that <fr:tex>∀g : A(a, b). ∀f : A(F(x), a).         π_{x, b}(g∘f) =  \overline {U} (g)∘π_{a, x}(f)</fr:tex>. This is exactly the condition
+addr="subb-000E">I</fr:link> expresses that <fr:tex>∀g : A(a, b). ∀f : A(F(x), a).         π_{x, b}(g∘f) = \overline {U}(g)∘π_{a, x}(f)</fr:tex>. This is exactly the condition
         that <fr:tex>∀g : A(a, b). π</fr:tex> is natural in <fr:tex>a</fr:tex> at <fr:tex>g</fr:tex>, which is certainly
         true of an adjunction.
         <fr:link
@@ -158,44 +225,44 @@ addr="subbb-000E">II</fr:link> expresses something similar (dual).
     </fr:p><fr:p>
         The nontrivial directions are the backward directions.
     </fr:p><fr:ul><fr:li><fr:p>
-                (I) wts I <fr:tex>⟹  \overline {U}</fr:tex> is a functor.
+                (I) wts I <fr:tex>⟹ \overline {U}</fr:tex> is a functor.
                 Suppose <fr:tex>∀a,b ∈ A. ∀x ∈ X.</fr:tex> I holds.
                 Then in particular, <fr:tex>∀c ∈ A. </fr:tex>I holds at <fr:tex>x = U(c)</fr:tex>.
             </fr:p>
             
         <fr:embedded-tex
-hash="ac9736f09827370a30fbadded4abb953"><fr:embedded-tex-preamble>\usepackage {tikz-cd} \usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
-             \begin {tikzcd}
-                A( a ,  b )×A(F Uc ,  a )  \ar [r, " \overline {U} ×π_{ a , Uc }"] \ar [d, "∘"] &amp; X(U a , U b )×X( Uc , U a )  \ar [d, "∘"]  \\ 
-                A(F Uc ,  b )  \ar [r, "π_{ Uc ,  b }"] &amp; X( Uc , U b )
-             \end {tikzcd}
+hash="e29a45e5c3dfdeb85542e204370f1350"><fr:embedded-tex-preamble>\usepackage {tikz-cd}\usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
+            \begin {tikzcd}
+                A(a, b)×A(FUc, a) \ar [r, "\overline {U}×π_{a,Uc}"]\ar [d, "∘"] &amp; X(Ua, Ub)×X(Uc, Ua) \ar [d, "∘"] \\
+                A(FUc, b) \ar [r, "π_{Uc, b}"] &amp; X(Uc, Ub)
+            \end {tikzcd}
         </fr:embedded-tex-body></fr:embedded-tex>
 
             <fr:p>
                 As does this trivial square:
             </fr:p>
             <fr:embedded-tex
-hash="aaf8d81120cfc4781697983614442d7a"><fr:embedded-tex-preamble>\usepackage {tikz-cd} \usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
-                 \begin {tikzcd}
-                    A(a, b)×A(c, a)  \ar [r, "id×(-∘ϵ_c)"] \ar [d, "∘"] &amp; A(a, b)×A(FUc, a)  \ar [d, "∘"]  \\ 
-                    A(c, b)  \ar [r, "(-∘ϵ_c)"] &amp; A(FUc, b)
-                 \end {tikzcd}
+hash="09f36af7f81c413359f103936dde5f36"><fr:embedded-tex-preamble>\usepackage {tikz-cd}\usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
+                \begin {tikzcd}
+                    A(a, b)×A(c, a) \ar [r, "id×(-∘ϵ_c)"]\ar [d, "∘"] &amp; A(a, b)×A(FUc, a) \ar [d, "∘"] \\
+                    A(c, b) \ar [r, "(-∘ϵ_c)"] &amp; A(FUc, b)
+                \end {tikzcd}
             </fr:embedded-tex-body></fr:embedded-tex>
             <fr:p>
                 which when pasted together, tells us magically:
             </fr:p>
             <fr:embedded-tex
-hash="2dec512dfc1acbbf48b6d09e3842ea04"><fr:embedded-tex-preamble>\usepackage {tikz-cd} \usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
-                 \begin {tikzcd}
-                    A(a, b)×A(c, a)  \ar [r, " \overline {U} × \overline {U} "] \ar [d, "∘"] &amp; X(Ua, Ub)×X(Uc, Ua)  \ar [d, "∘"]  \\ 
-                    A(c, b)  \ar [r, " \overline {U} "] &amp; X(Uc, Ub)
-                 \end {tikzcd}
+hash="4de6c4a2a2cb4b6f0547069c1ccdc586"><fr:embedded-tex-preamble>\usepackage {tikz-cd}\usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
+                \begin {tikzcd}
+                    A(a, b)×A(c, a) \ar [r, "\overline {U}×\overline {U}"]\ar [d, "∘"] &amp; X(Ua, Ub)×X(Uc, Ua) \ar [d, "∘"] \\
+                    A(c, b) \ar [r, "\overline {U}"] &amp; X(Uc, Ub)
+                \end {tikzcd}
             </fr:embedded-tex-body></fr:embedded-tex>
             <fr:p>
                 Combined with <fr:link
 href="hejohns-000D.xml"
 type="local"
-addr="hejohns-000D">the earlier proof</fr:link> that <fr:tex>\overline {U} (1ₐ)                 = 1_{ \overline {U} (a)}</fr:tex> (which just follows by definition),
+addr="hejohns-000D">the earlier proof</fr:link> that <fr:tex>\overline {U}(1ₐ)                 = 1_{\overline {U}(a)}</fr:tex> (which just follows by definition),
                 we've shown that <fr:tex>\overline {U}</fr:tex> defines a functorial action on morphisms.
                 Actually, we saw earlier that <fr:link
 href="subb-000E.xml"
@@ -206,7 +273,7 @@ href="hejohns-0007.xml"
 type="local"
 addr="hejohns-0007">the
                 precursor lemma</fr:link>, thus there is a unique
-                extension <fr:tex>\overline {F}</fr:tex> st <fr:tex>\overline {F}  ⊣_π  \overline {U}</fr:tex>.
+                extension <fr:tex>\overline {F}</fr:tex> st <fr:tex>\overline {F} ⊣_π \overline {U}</fr:tex>.
             </fr:p>
             <fr:p>
                 There's two ways ways to see the uniqueness situation:
@@ -217,18 +284,18 @@ addr="hejohns-0007">the
                     We've essentially seen this already, if not literally.
                     For any functor <fr:tex>U'</fr:tex>, naturality in <fr:tex>a</fr:tex> requires the following square to hold for all <fr:tex>g : A(a, b)</fr:tex>:
                     <fr:embedded-tex
-hash="7bced74c5568df77fd9237f12eab5655"><fr:embedded-tex-preamble>\usepackage {tikz-cd} \usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
-                         \begin {tikzcd}
-                            A(FU'a, a)  \ar [r, "g∘-"] &amp; A(FU'a, b)  \ar [d, "≀"', "π"]  \\ 
-                            X(U'a, U'a)  \ar [r, "U'g∘-"] \ar [u, "≀"', "π⁻¹"] &amp; X(U'a, U'b)
-                         \end {tikzcd}
+hash="2811be9da07c73dde4ea7d726bca767c"><fr:embedded-tex-preamble>\usepackage {tikz-cd}\usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
+                        \begin {tikzcd}
+                            A(FU'a, a) \ar [r, "g∘-"] &amp; A(FU'a, b) \ar [d, "≀"', "π"] \\
+                            X(U'a, U'a) \ar [r, "U'g∘-"]\ar [u, "≀"', "π⁻¹"] &amp; X(U'a, U'b)
+                        \end {tikzcd}
                     </fr:embedded-tex-body></fr:embedded-tex>
-                    Thus, <fr:tex>∀g. U'(g) =  \overline {U} (g)</fr:tex>.
+                    Thus, <fr:tex>∀g. U'(g) = \overline {U}(g)</fr:tex>.
                     Then, with <fr:tex>\overline {U}</fr:tex> a functor and <fr:tex>π</fr:tex> natural in <fr:tex>a</fr:tex>, <fr:link
 href="hejohns-0007.xml"
 type="local"
 addr="hejohns-0007">the
-                    precursor</fr:link> gives us a unique <fr:tex>\overline {F}</fr:tex> st <fr:tex>\overline {F}                      ⊣  \overline {U}</fr:tex> uniquely.
+                    precursor</fr:link> gives us a unique <fr:tex>\overline {F}</fr:tex> st <fr:tex>\overline {F}                     ⊣ \overline {U}</fr:tex> uniquely.
                 </fr:li>
                 <fr:li>
                     (Going backwards) Since the definitions of <fr:tex>\overline {F}</fr:tex> and
@@ -236,7 +303,7 @@ addr="hejohns-0007">the
 href="hejohns-0007.xml"
 type="local"
 addr="hejohns-0007">the precursor</fr:link>) are not dependent
-                    on the other functor, the total adjunction <fr:tex>\overline {F}  ⊣  \overline {U}</fr:tex> is
+                    on the other functor, the total adjunction <fr:tex>\overline {F} ⊣ \overline {U}</fr:tex> is
                     the unique one extending the core by applying the
                     uniqueness result of <fr:link
 href="hejohns-0007.xml"
@@ -246,7 +313,7 @@ addr="hejohns-0007">the precusor</fr:link> to each
                     functor.
                 </fr:li></fr:ul></fr:li>
         <fr:li><fr:p>
-                (II) wts II <fr:tex>⟹  \overline {F}</fr:tex> is a functor.
+                (II) wts II <fr:tex>⟹ \overline {F}</fr:tex> is a functor.
                 This is dual.
             </fr:p></fr:li></fr:ul></fr:mainmatter></fr:tree><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
@@ -255,7 +322,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>335</fr:anchor><fr:taxon>Proof corollary</fr:taxon><fr:addr>sub-000E</fr:addr><fr:route>sub-000E.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>352</fr:anchor><fr:taxon>Proof corollary</fr:taxon><fr:addr>sub-000E</fr:addr><fr:route>sub-000E.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
 addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000E</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
@@ -274,7 +341,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>581</fr:anchor><fr:taxon>Lemma</fr:taxon><fr:addr>hejohns-000E</fr:addr><fr:route>hejohns-000E.xml</fr:route><fr:title>Adjunction core</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>933</fr:anchor><fr:taxon>Lemma</fr:taxon><fr:addr>hejohns-000E</fr:addr><fr:route>hejohns-000E.xml</fr:route><fr:title>Adjunction core</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
 addr="hejohns">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:tree
@@ -284,7 +351,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>325</fr:anchor><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>342</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>#217</fr:addr><fr:route>unstable-217.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
 addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000E</fr:parent></fr:frontmatter><fr:mainmatter><fr:p><fr:link
@@ -301,7 +368,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>331</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>348</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:addr>#218</fr:addr><fr:route>unstable-218.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
 addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000E</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
@@ -329,16 +396,16 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>327</fr:anchor><fr:addr>subb-000E</fr:addr><fr:route>subb-000E.xml</fr:route><fr:title>I</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>344</fr:anchor><fr:addr>subb-000E</fr:addr><fr:route>subb-000E.xml</fr:route><fr:title>I</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
-addr="hejohns">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>#218</fr:parent></fr:frontmatter><fr:mainmatter>
         <fr:embedded-tex
-hash="a09fe1256faafb1bc13a1cc059df3388"><fr:embedded-tex-preamble>\usepackage {tikz-cd} \usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
-             \begin {tikzcd}
-                A( a ,  b )×A(F x ,  a )  \ar [r, " \overline {U} ×π_{ a , x }"] \ar [d, "∘"] &amp; X(U a , U b )×X( x , U a )  \ar [d, "∘"]  \\ 
-                A(F x ,  b )  \ar [r, "π_{ x ,  b }"] &amp; X( x , U b )
-             \end {tikzcd}
+hash="b806fb8c112337fe6c4b4a1e244b5d97"><fr:embedded-tex-preamble>\usepackage {tikz-cd}\usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
+            \begin {tikzcd}
+                A(a, b)×A(Fx, a) \ar [r, "\overline {U}×π_{a,x}"]\ar [d, "∘"] &amp; X(Ua, Ub)×X(x, Ua) \ar [d, "∘"] \\
+                A(Fx, b) \ar [r, "π_{x, b}"] &amp; X(x, Ub)
+            \end {tikzcd}
         </fr:embedded-tex-body></fr:embedded-tex>
 </fr:mainmatter></fr:tree><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
@@ -347,16 +414,16 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>329</fr:anchor><fr:addr>subbb-000E</fr:addr><fr:route>subbb-000E.xml</fr:route><fr:title>II</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>346</fr:anchor><fr:addr>subbb-000E</fr:addr><fr:route>subbb-000E.xml</fr:route><fr:title>II</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
-addr="hejohns">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>#218</fr:parent></fr:frontmatter><fr:mainmatter>
         <fr:embedded-tex
-hash="8fd7996c4b1a3e39d4bda43697f06cf9"><fr:embedded-tex-preamble>\usepackage {tikz-cd} \usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
-             \begin {tikzcd}
-                X( y , U a )×X( x ,  y )  \ar [r, "π_{ y ,  a }⁻¹× \overline {F} "] \ar [d, "∘"] &amp; A(F y ,  a )×A(F x , F y )  \ar [d, "∘"]  \\ 
-                X( x , U a )  \ar [r, "π_{x, a}⁻¹"] &amp; A(F x ,  a )
-             \end {tikzcd}
+hash="802fd9b68c66249dd8fb86046d5d2e19"><fr:embedded-tex-preamble>\usepackage {tikz-cd}\usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
+            \begin {tikzcd}
+                X(y, Ua)×X(x, y) \ar [r, "π_{y, a}⁻¹×\overline {F}"]\ar [d, "∘"] &amp; A(Fy, a)×A(Fx, Fy) \ar [d, "∘"] \\
+                X(x, Ua) \ar [r, "π_{x, a}⁻¹"] &amp; A(Fx, a)
+            \end {tikzcd}
         </fr:embedded-tex-body></fr:embedded-tex>
 </fr:mainmatter></fr:tree></fr:mainmatter></fr:tree><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
@@ -365,16 +432,16 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>333</fr:anchor><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>350</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#219</fr:addr><fr:route>unstable-219.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
 addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000E</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-        We use the same notation and definitions of <fr:tex>η, ϵ,  \overline {F} ,  \overline {U}</fr:tex> as <fr:link
+        We use the same notation and definitions of <fr:tex>η, ϵ, \overline {F}, \overline {U}</fr:tex> as <fr:link
 href="hejohns-000D.xml"
 type="local"
 addr="hejohns-000D">the
         explicit proof of the precursor lemma</fr:link>.
-        The definition of <fr:tex>\overline {F} ,  \overline {U}</fr:tex> in <fr:link
+        The definition of <fr:tex>\overline {F}, \overline {U}</fr:tex> in <fr:link
 href="sub-0007.xml"
 type="local"
 addr="sub-0007">the short proof</fr:link>
@@ -393,11 +460,11 @@ addr="hejohns-0007">the
         enriched categories.
     </fr:p><fr:p>
         The forward directions are trivial.
-        Suppose <fr:tex>(F, U, (π_{a, x})_{a ∈ A, x ∈ X})</fr:tex> extends to <fr:tex>\overline {F}  ⊣_π  \overline {U}</fr:tex>.
+        Suppose <fr:tex>(F, U, (π_{a, x})_{a ∈ A, x ∈ X})</fr:tex> extends to <fr:tex>\overline {F} ⊣_π \overline {U}</fr:tex>.
         Then <fr:link
 href="subb-000E.xml"
 type="local"
-addr="subb-000E">I</fr:link> expresses that <fr:tex>∀g : A(a, b). ∀f : A(F(x), a).         π_{x, b}(g∘f) =  \overline {U} (g)∘π_{a, x}(f)</fr:tex>. This is exactly the condition
+addr="subb-000E">I</fr:link> expresses that <fr:tex>∀g : A(a, b). ∀f : A(F(x), a).         π_{x, b}(g∘f) = \overline {U}(g)∘π_{a, x}(f)</fr:tex>. This is exactly the condition
         that <fr:tex>∀g : A(a, b). π</fr:tex> is natural in <fr:tex>a</fr:tex> at <fr:tex>g</fr:tex>, which is certainly
         true of an adjunction.
         <fr:link
@@ -407,44 +474,44 @@ addr="subbb-000E">II</fr:link> expresses something similar (dual).
     </fr:p><fr:p>
         The nontrivial directions are the backward directions.
     </fr:p><fr:ul><fr:li><fr:p>
-                (I) wts I <fr:tex>⟹  \overline {U}</fr:tex> is a functor.
+                (I) wts I <fr:tex>⟹ \overline {U}</fr:tex> is a functor.
                 Suppose <fr:tex>∀a,b ∈ A. ∀x ∈ X.</fr:tex> I holds.
                 Then in particular, <fr:tex>∀c ∈ A. </fr:tex>I holds at <fr:tex>x = U(c)</fr:tex>.
             </fr:p>
             
         <fr:embedded-tex
-hash="ac9736f09827370a30fbadded4abb953"><fr:embedded-tex-preamble>\usepackage {tikz-cd} \usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
-             \begin {tikzcd}
-                A( a ,  b )×A(F Uc ,  a )  \ar [r, " \overline {U} ×π_{ a , Uc }"] \ar [d, "∘"] &amp; X(U a , U b )×X( Uc , U a )  \ar [d, "∘"]  \\ 
-                A(F Uc ,  b )  \ar [r, "π_{ Uc ,  b }"] &amp; X( Uc , U b )
-             \end {tikzcd}
+hash="e29a45e5c3dfdeb85542e204370f1350"><fr:embedded-tex-preamble>\usepackage {tikz-cd}\usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
+            \begin {tikzcd}
+                A(a, b)×A(FUc, a) \ar [r, "\overline {U}×π_{a,Uc}"]\ar [d, "∘"] &amp; X(Ua, Ub)×X(Uc, Ua) \ar [d, "∘"] \\
+                A(FUc, b) \ar [r, "π_{Uc, b}"] &amp; X(Uc, Ub)
+            \end {tikzcd}
         </fr:embedded-tex-body></fr:embedded-tex>
 
             <fr:p>
                 As does this trivial square:
             </fr:p>
             <fr:embedded-tex
-hash="aaf8d81120cfc4781697983614442d7a"><fr:embedded-tex-preamble>\usepackage {tikz-cd} \usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
-                 \begin {tikzcd}
-                    A(a, b)×A(c, a)  \ar [r, "id×(-∘ϵ_c)"] \ar [d, "∘"] &amp; A(a, b)×A(FUc, a)  \ar [d, "∘"]  \\ 
-                    A(c, b)  \ar [r, "(-∘ϵ_c)"] &amp; A(FUc, b)
-                 \end {tikzcd}
+hash="09f36af7f81c413359f103936dde5f36"><fr:embedded-tex-preamble>\usepackage {tikz-cd}\usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
+                \begin {tikzcd}
+                    A(a, b)×A(c, a) \ar [r, "id×(-∘ϵ_c)"]\ar [d, "∘"] &amp; A(a, b)×A(FUc, a) \ar [d, "∘"] \\
+                    A(c, b) \ar [r, "(-∘ϵ_c)"] &amp; A(FUc, b)
+                \end {tikzcd}
             </fr:embedded-tex-body></fr:embedded-tex>
             <fr:p>
                 which when pasted together, tells us magically:
             </fr:p>
             <fr:embedded-tex
-hash="2dec512dfc1acbbf48b6d09e3842ea04"><fr:embedded-tex-preamble>\usepackage {tikz-cd} \usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
-                 \begin {tikzcd}
-                    A(a, b)×A(c, a)  \ar [r, " \overline {U} × \overline {U} "] \ar [d, "∘"] &amp; X(Ua, Ub)×X(Uc, Ua)  \ar [d, "∘"]  \\ 
-                    A(c, b)  \ar [r, " \overline {U} "] &amp; X(Uc, Ub)
-                 \end {tikzcd}
+hash="4de6c4a2a2cb4b6f0547069c1ccdc586"><fr:embedded-tex-preamble>\usepackage {tikz-cd}\usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
+                \begin {tikzcd}
+                    A(a, b)×A(c, a) \ar [r, "\overline {U}×\overline {U}"]\ar [d, "∘"] &amp; X(Ua, Ub)×X(Uc, Ua) \ar [d, "∘"] \\
+                    A(c, b) \ar [r, "\overline {U}"] &amp; X(Uc, Ub)
+                \end {tikzcd}
             </fr:embedded-tex-body></fr:embedded-tex>
             <fr:p>
                 Combined with <fr:link
 href="hejohns-000D.xml"
 type="local"
-addr="hejohns-000D">the earlier proof</fr:link> that <fr:tex>\overline {U} (1ₐ)                 = 1_{ \overline {U} (a)}</fr:tex> (which just follows by definition),
+addr="hejohns-000D">the earlier proof</fr:link> that <fr:tex>\overline {U}(1ₐ)                 = 1_{\overline {U}(a)}</fr:tex> (which just follows by definition),
                 we've shown that <fr:tex>\overline {U}</fr:tex> defines a functorial action on morphisms.
                 Actually, we saw earlier that <fr:link
 href="subb-000E.xml"
@@ -455,7 +522,7 @@ href="hejohns-0007.xml"
 type="local"
 addr="hejohns-0007">the
                 precursor lemma</fr:link>, thus there is a unique
-                extension <fr:tex>\overline {F}</fr:tex> st <fr:tex>\overline {F}  ⊣_π  \overline {U}</fr:tex>.
+                extension <fr:tex>\overline {F}</fr:tex> st <fr:tex>\overline {F} ⊣_π \overline {U}</fr:tex>.
             </fr:p>
             <fr:p>
                 There's two ways ways to see the uniqueness situation:
@@ -466,18 +533,18 @@ addr="hejohns-0007">the
                     We've essentially seen this already, if not literally.
                     For any functor <fr:tex>U'</fr:tex>, naturality in <fr:tex>a</fr:tex> requires the following square to hold for all <fr:tex>g : A(a, b)</fr:tex>:
                     <fr:embedded-tex
-hash="7bced74c5568df77fd9237f12eab5655"><fr:embedded-tex-preamble>\usepackage {tikz-cd} \usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
-                         \begin {tikzcd}
-                            A(FU'a, a)  \ar [r, "g∘-"] &amp; A(FU'a, b)  \ar [d, "≀"', "π"]  \\ 
-                            X(U'a, U'a)  \ar [r, "U'g∘-"] \ar [u, "≀"', "π⁻¹"] &amp; X(U'a, U'b)
-                         \end {tikzcd}
+hash="2811be9da07c73dde4ea7d726bca767c"><fr:embedded-tex-preamble>\usepackage {tikz-cd}\usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
+                        \begin {tikzcd}
+                            A(FU'a, a) \ar [r, "g∘-"] &amp; A(FU'a, b) \ar [d, "≀"', "π"] \\
+                            X(U'a, U'a) \ar [r, "U'g∘-"]\ar [u, "≀"', "π⁻¹"] &amp; X(U'a, U'b)
+                        \end {tikzcd}
                     </fr:embedded-tex-body></fr:embedded-tex>
-                    Thus, <fr:tex>∀g. U'(g) =  \overline {U} (g)</fr:tex>.
+                    Thus, <fr:tex>∀g. U'(g) = \overline {U}(g)</fr:tex>.
                     Then, with <fr:tex>\overline {U}</fr:tex> a functor and <fr:tex>π</fr:tex> natural in <fr:tex>a</fr:tex>, <fr:link
 href="hejohns-0007.xml"
 type="local"
 addr="hejohns-0007">the
-                    precursor</fr:link> gives us a unique <fr:tex>\overline {F}</fr:tex> st <fr:tex>\overline {F}                      ⊣  \overline {U}</fr:tex> uniquely.
+                    precursor</fr:link> gives us a unique <fr:tex>\overline {F}</fr:tex> st <fr:tex>\overline {F}                     ⊣ \overline {U}</fr:tex> uniquely.
                 </fr:li>
                 <fr:li>
                     (Going backwards) Since the definitions of <fr:tex>\overline {F}</fr:tex> and
@@ -485,7 +552,7 @@ addr="hejohns-0007">the
 href="hejohns-0007.xml"
 type="local"
 addr="hejohns-0007">the precursor</fr:link>) are not dependent
-                    on the other functor, the total adjunction <fr:tex>\overline {F}  ⊣  \overline {U}</fr:tex> is
+                    on the other functor, the total adjunction <fr:tex>\overline {F} ⊣ \overline {U}</fr:tex> is
                     the unique one extending the core by applying the
                     uniqueness result of <fr:link
 href="hejohns-0007.xml"
@@ -495,7 +562,7 @@ addr="hejohns-0007">the precusor</fr:link> to each
                     functor.
                 </fr:li></fr:ul></fr:li>
         <fr:li><fr:p>
-                (II) wts II <fr:tex>⟹  \overline {F}</fr:tex> is a functor.
+                (II) wts II <fr:tex>⟹ \overline {F}</fr:tex> is a functor.
                 This is dual.
             </fr:p></fr:li></fr:ul></fr:mainmatter></fr:tree><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
@@ -504,7 +571,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>335</fr:anchor><fr:taxon>Proof corollary</fr:taxon><fr:addr>sub-000E</fr:addr><fr:route>sub-000E.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>352</fr:anchor><fr:taxon>Proof corollary</fr:taxon><fr:addr>sub-000E</fr:addr><fr:route>sub-000E.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
 addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000E</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>

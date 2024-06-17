@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>827</fr:anchor><fr:taxon>Abstract</fr:taxon><fr:addr>#176</fr:addr><fr:route>unstable-176.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>7</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>22</fr:day></fr:date><fr:parent>street-2012</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        During my Topology lectures at Macquarie University in the 1970s, the
+        students and I realized, in proving that a function f between posets was
+        order preserving when there was a function u in the reverse direction such
+        that f (x) ≤ a if and only if x ≤ u(a), did not require u to be order
+        preserving. I realized then that knowing functors in the two directions
+        only on objects and the usual hom adjointness isomorphism implied the
+        effect of the functors on homs was uniquely determined. Writing this down
+        properly led to the present paper.
+    </fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>826</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>street-2012</fr:addr><fr:route>street-2012.xml</fr:route><fr:title>The Core of Adjoint Functors</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>7</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>22</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p>
+    The first point:
+</fr:p><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>397</fr:anchor><fr:taxon>Abstract</fr:taxon><fr:addr>#176</fr:addr><fr:route>unstable-176.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>7</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>22</fr:day></fr:date><fr:parent>street-2012</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        During my Topology lectures at Macquarie University in the 1970s, the
+        students and I realized, in proving that a function f between posets was
+        order preserving when there was a function u in the reverse direction such
+        that f (x) ≤ a if and only if x ≤ u(a), did not require u to be order
+        preserving. I realized then that knowing functors in the two directions
+        only on objects and the usual hom adjointness isomorphism implied the
+        effect of the functors on homs was uniquely determined. Writing this down
+        properly led to the present paper.
+    </fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

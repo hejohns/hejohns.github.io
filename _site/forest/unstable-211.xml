@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>840</fr:anchor><fr:addr>#211</fr:addr><fr:route>unstable-211.xml</fr:route><fr:title><fr:link
+href="dummett-91.xml"
+type="local"
+addr="dummett-91">The Logical Basis of Metaphysics</fr:link> › Stability</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>12</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="hejohns.xml"
+type="local"
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>dummett-91</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        The opening sentence is what <fr:link
+href="zeilberger"
+type="external">zeilberger</fr:link> quotes on his work on
+        polarity.
+    </fr:p><fr:p>
+        What's the relationship between harmony-stability and Pfenning's local
+        soundness and completeness?
+        They're not literally the same thing, but they're similar.
+    </fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>838</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>dummett-91</fr:addr><fr:route>dummett-91.xml</fr:route><fr:title>The Logical Basis of Metaphysics</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>12</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="hejohns.xml"
+type="local"
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>401</fr:anchor><fr:addr>#211</fr:addr><fr:route>unstable-211.xml</fr:route><fr:title>Stability</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>12</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="hejohns.xml"
+type="local"
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>dummett-91</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        The opening sentence is what <fr:link
+href="zeilberger"
+type="external">zeilberger</fr:link> quotes on his work on
+        polarity.
+    </fr:p><fr:p>
+        What's the relationship between harmony-stability and Pfenning's local
+        soundness and completeness?
+        They're not literally the same thing, but they're similar.
+    </fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
