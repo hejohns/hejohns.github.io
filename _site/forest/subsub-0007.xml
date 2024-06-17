@@ -7,7 +7,7 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>966</fr:anchor><fr:addr>subsub-0007</fr:addr><fr:route>subsub-0007.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>7</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>670</fr:anchor><fr:addr>subsub-0007</fr:addr><fr:route>subsub-0007.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>7</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
 addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>sub-0007</fr:parent></fr:frontmatter><fr:mainmatter><fr:embedded-tex
@@ -22,65 +22,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>962</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>sub-0007</fr:addr><fr:route>sub-0007.xml</fr:route><fr:title><fr:link
-href="hejohns-0007.xml"
-type="local"
-addr="hejohns-0007">Precursor to The Core of Adjoint Functors</fr:link> › the short proof (sketch)</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>7</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="hejohns.xml"
-type="local"
-addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-0007</fr:parent></fr:frontmatter><fr:mainmatter><fr:ul><fr:li>
-            Suppose such a <fr:tex>\overline {F}</fr:tex> exists.
-            Then naturality of <fr:tex>π</fr:tex> requires that
-            <fr:tex>∀f : X(x, y).</fr:tex> this square in <fr:tex>Setᴬ</fr:tex> commutes:
-            <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>400</fr:anchor><fr:addr>subsub-0007</fr:addr><fr:route>subsub-0007.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>7</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="hejohns.xml"
-type="local"
-addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>sub-0007</fr:parent></fr:frontmatter><fr:mainmatter><fr:embedded-tex
-hash="04c41799d5084f092a5df1e435c7b32e"><fr:embedded-tex-preamble>\usepackage {tikz-cd} \usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
-                     \begin {tikzcd}                     A(F(x), -)  \ar [d, Rightarrow, "≀", "πₓ"'] &amp; A(F(y), -)  \ar [d, Rightarrow, "≀"', "π_y"] \ar [l, Rightarrow, "-∘ \overline {F} (f)"']  \\ 
-                        X(x, U(-)) &amp; X(y, U(-))  \ar [l, Rightarrow, "-∘f"]
-                     \end {tikzcd}
-                </fr:embedded-tex-body></fr:embedded-tex></fr:mainmatter></fr:tree>
-            Then clearly <fr:tex>∃! \overline {F} .∀f : X(x, y).  \overline {F} (f) = よ⁻¹(πₓ⁻¹∘(-∘f)∘π_y)</fr:tex>.
-        </fr:li>
-
-        <fr:li>
-            (dual) Suppose such a <fr:tex>\overline {U}</fr:tex> exists.
-            Then naturality of <fr:tex>π</fr:tex> requires that
-            <fr:tex>∀u : A(a, b).</fr:tex> this square in <fr:tex>Set^{Xᵒᵖ}</fr:tex> commutes:
-            <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>402</fr:anchor><fr:addr>subsubb-0007</fr:addr><fr:route>subsubb-0007.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>7</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="hejohns.xml"
-type="local"
-addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>sub-0007</fr:parent></fr:frontmatter><fr:mainmatter><fr:embedded-tex
-hash="8efe46a4066df01c4e80f07f43789adb"><fr:embedded-tex-preamble>\usepackage {tikz-cd} \usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
-                     \begin {tikzcd}
-                        A(F(-), a)  \ar [r, Rightarrow, "(u∘-)"] \ar [d, Rightarrow, "≀"', "πₐ"] &amp; A(F(-), b)  \ar [d, Rightarrow, "≀"', "π_b"]  \\ 
-                        X(-, U(a))  \ar [r, Rightarrow, "( \overline {U} (u)∘-)"] &amp; X(-, U(b))
-                     \end {tikzcd}
-                </fr:embedded-tex-body></fr:embedded-tex></fr:mainmatter></fr:tree>
-            and clearly <fr:tex>∃! \overline {U} .∀u : A(a, b).  \overline {U} (u) = よ⁻¹(π_b∘(u∘-)∘πₐ⁻¹)</fr:tex>.
-        </fr:li></fr:ul></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>964</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>hejohns-000D</fr:addr><fr:route>hejohns-000D.xml</fr:route><fr:title>The verbose proof</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>10</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>666</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>hejohns-000D</fr:addr><fr:route>hejohns-000D.xml</fr:route><fr:title>The verbose proof</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>10</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
 addr="hejohns">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -118,7 +60,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>406</fr:anchor><fr:addr>subb-000D</fr:addr><fr:route>subb-000D.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>10</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>313</fr:anchor><fr:addr>subb-000D</fr:addr><fr:route>subb-000D.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>10</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
 addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000D</fr:parent></fr:frontmatter><fr:mainmatter><fr:embedded-tex
@@ -164,7 +106,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>408</fr:anchor><fr:addr>sub-000D</fr:addr><fr:route>sub-000D.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>10</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>315</fr:anchor><fr:addr>sub-000D</fr:addr><fr:route>sub-000D.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>10</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
 addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000D</fr:parent></fr:frontmatter><fr:mainmatter><fr:embedded-tex
@@ -248,7 +190,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>410</fr:anchor><fr:addr>subsub-0007</fr:addr><fr:route>subsub-0007.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>7</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>317</fr:anchor><fr:addr>subsub-0007</fr:addr><fr:route>subsub-0007.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>7</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
 addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>sub-0007</fr:parent></fr:frontmatter><fr:mainmatter><fr:embedded-tex
@@ -281,7 +223,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>412</fr:anchor><fr:taxon>Moral</fr:taxon><fr:addr>subbb-000D</fr:addr><fr:route>subbb-000D.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>10</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>319</fr:anchor><fr:taxon>Moral</fr:taxon><fr:addr>subbb-000D</fr:addr><fr:route>subbb-000D.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>10</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
 addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000D</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
@@ -298,4 +240,62 @@ addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-0
 href="sub-0007.xml"
 type="local"
 addr="sub-0007">the short proof</fr:link>.
-    </fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+    </fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>668</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>sub-0007</fr:addr><fr:route>sub-0007.xml</fr:route><fr:title><fr:link
+href="hejohns-0007.xml"
+type="local"
+addr="hejohns-0007">Precursor to The Core of Adjoint Functors</fr:link> › the short proof (sketch)</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>7</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="hejohns.xml"
+type="local"
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-0007</fr:parent></fr:frontmatter><fr:mainmatter><fr:ul><fr:li>
+            Suppose such a <fr:tex>\overline {F}</fr:tex> exists.
+            Then naturality of <fr:tex>π</fr:tex> requires that
+            <fr:tex>∀f : X(x, y).</fr:tex> this square in <fr:tex>Setᴬ</fr:tex> commutes:
+            <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>307</fr:anchor><fr:addr>subsub-0007</fr:addr><fr:route>subsub-0007.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>7</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="hejohns.xml"
+type="local"
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>sub-0007</fr:parent></fr:frontmatter><fr:mainmatter><fr:embedded-tex
+hash="04c41799d5084f092a5df1e435c7b32e"><fr:embedded-tex-preamble>\usepackage {tikz-cd} \usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
+                     \begin {tikzcd}                     A(F(x), -)  \ar [d, Rightarrow, "≀", "πₓ"'] &amp; A(F(y), -)  \ar [d, Rightarrow, "≀"', "π_y"] \ar [l, Rightarrow, "-∘ \overline {F} (f)"']  \\ 
+                        X(x, U(-)) &amp; X(y, U(-))  \ar [l, Rightarrow, "-∘f"]
+                     \end {tikzcd}
+                </fr:embedded-tex-body></fr:embedded-tex></fr:mainmatter></fr:tree>
+            Then clearly <fr:tex>∃! \overline {F} .∀f : X(x, y).  \overline {F} (f) = よ⁻¹(πₓ⁻¹∘(-∘f)∘π_y)</fr:tex>.
+        </fr:li>
+
+        <fr:li>
+            (dual) Suppose such a <fr:tex>\overline {U}</fr:tex> exists.
+            Then naturality of <fr:tex>π</fr:tex> requires that
+            <fr:tex>∀u : A(a, b).</fr:tex> this square in <fr:tex>Set^{Xᵒᵖ}</fr:tex> commutes:
+            <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>309</fr:anchor><fr:addr>subsubb-0007</fr:addr><fr:route>subsubb-0007.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>7</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="hejohns.xml"
+type="local"
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>sub-0007</fr:parent></fr:frontmatter><fr:mainmatter><fr:embedded-tex
+hash="8efe46a4066df01c4e80f07f43789adb"><fr:embedded-tex-preamble>\usepackage {tikz-cd} \usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
+                     \begin {tikzcd}
+                        A(F(-), a)  \ar [r, Rightarrow, "(u∘-)"] \ar [d, Rightarrow, "≀"', "πₐ"] &amp; A(F(-), b)  \ar [d, Rightarrow, "≀"', "π_b"]  \\ 
+                        X(-, U(a))  \ar [r, Rightarrow, "( \overline {U} (u)∘-)"] &amp; X(-, U(b))
+                     \end {tikzcd}
+                </fr:embedded-tex-body></fr:embedded-tex></fr:mainmatter></fr:tree>
+            and clearly <fr:tex>∃! \overline {U} .∀u : A(a, b).  \overline {U} (u) = よ⁻¹(π_b∘(u∘-)∘πₐ⁻¹)</fr:tex>.
+        </fr:li></fr:ul></fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
