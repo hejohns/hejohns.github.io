@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>742</fr:anchor><fr:addr>#167</fr:addr><fr:route>unstable-167.xml</fr:route><fr:taxon>Email</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>28</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>29</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="hejohns.xml"
+addr="hejohns"
+title="Johnson He">Johnson He</fr:link></fr:author></fr:authors><fr:parent>quine-1960</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        Thanks for sharing this nice little note, which sketches a combinatory
+        (classical) first-order logic.
+    </fr:p><fr:p>
+        I was surprised by the mention of von Neumann 1925 in this snippet:
+    </fr:p><fr:p>
+        "In a way our operators are reminiscent also of the axioms of class
+        existence in Neumann, J. von, Eine Axiomatisierung der Mengenlehre,
+        Journal für reine und ungewandte Mathematik 154: 219-240, 1925, despite
+        dissimilarity of purpose." (Footnote 1, p. 346)
+    </fr:p><fr:p>
+        From what I gather, the reminiscence with von Neumann 1925 (I assume
+        Quine was principally referring to the "III. Logical Construction
+        Axioms") is that the purposes (of Quine's predicate combinators and von
+        Neumann's axioms of existence of II-objects) are actually quite
+        similar.
+    </fr:p><fr:p>
+        It seems that the system of von Neumann 1925 isn't couched in any
+        particular formal system (although it's maybe implicitly first-order,
+        and apparently translated into such by Skolem 1938), thus von Neumann
+        wants to recover from any definite property ("logical condition") on
+        I-objects, the (existence of a) class (II-object) of those I-objects.
+        Wikipedia calls this the <fr:link
+type="external"
+href="https://en.wikipedia.org/wiki/Von_Neumann%E2%80%93Bernays%E2%80%93G%C3%B6del_set_theory#Class_existence_theorem">class existence theorem</fr:link>.
+    </fr:p><fr:p>
+        (More generally, the "reduction theorem" in von Neumann 1925 says that
+        every expression of I-objects (definable class-function) is indeed a
+        II-object (class-function). This restricts to logical conditions and
+        classes.)
+    </fr:p><fr:p>
+        To do this economically, the existence of a few basic
+        combinator-classes are stipulated (=, ∀, ∃!), and more complex logical
+        conditions are put in "normal form" by eliminating variables with the
+        combinator-classes.  The 'uneconomic' way, if von Neumann 1925 were
+        working in an explicit logic, would be to just stipulate a schema of
+        class comprehension (also mentioned in the Wikipedia article), as
+        included in the back of Chang and Keisler.
+    </fr:p><fr:p>
+        Actually, while there are explicit class existence axioms for absorbing
+        =, ∀, ∃!, I don't see any for things like ∧ or ¬, and don't see how
+        they'd follow with the other axioms, but I suppose they must. The
+        Wikipedia article has a write-up starting from more user-friendly
+        axioms.
+    </fr:p><fr:p>
+        In any case, I hadn't realized that the historic move to make precise
+        the notion of 'definite property' as 'first-order definable' was
+        nontrivial, and found this connection with Quine's note interesting,
+    </fr:p><fr:p>
+        Johnson He
+    </fr:p></fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title>Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>744</fr:anchor><fr:addr>quine-1960</fr:addr><fr:route>quine-1960.xml</fr:route><fr:title>Variables Explained Away</fr:title><fr:taxon>Reference</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>28</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>29</fr:day></fr:date><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p>
+    "Separately I sent a copy of Quine's 1950 paper on combinatory logic to
+    this list. Whatever else you might think about Quine, he was a terrific
+    explainer, and this is the best introduction to the subject I know."
+</fr:p><fr:p>
+    (Yes, that 50 should be a 60(b).)
+    Here is the followup I wrote:
+</fr:p><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>438</fr:anchor><fr:addr>#167</fr:addr><fr:route>unstable-167.xml</fr:route><fr:taxon>Email</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>28</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>29</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="hejohns.xml"
+addr="hejohns"
+title="Johnson He">Johnson He</fr:link></fr:author></fr:authors><fr:parent>quine-1960</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        Thanks for sharing this nice little note, which sketches a combinatory
+        (classical) first-order logic.
+    </fr:p><fr:p>
+        I was surprised by the mention of von Neumann 1925 in this snippet:
+    </fr:p><fr:p>
+        "In a way our operators are reminiscent also of the axioms of class
+        existence in Neumann, J. von, Eine Axiomatisierung der Mengenlehre,
+        Journal für reine und ungewandte Mathematik 154: 219-240, 1925, despite
+        dissimilarity of purpose." (Footnote 1, p. 346)
+    </fr:p><fr:p>
+        From what I gather, the reminiscence with von Neumann 1925 (I assume
+        Quine was principally referring to the "III. Logical Construction
+        Axioms") is that the purposes (of Quine's predicate combinators and von
+        Neumann's axioms of existence of II-objects) are actually quite
+        similar.
+    </fr:p><fr:p>
+        It seems that the system of von Neumann 1925 isn't couched in any
+        particular formal system (although it's maybe implicitly first-order,
+        and apparently translated into such by Skolem 1938), thus von Neumann
+        wants to recover from any definite property ("logical condition") on
+        I-objects, the (existence of a) class (II-object) of those I-objects.
+        Wikipedia calls this the <fr:link
+type="external"
+href="https://en.wikipedia.org/wiki/Von_Neumann%E2%80%93Bernays%E2%80%93G%C3%B6del_set_theory#Class_existence_theorem">class existence theorem</fr:link>.
+    </fr:p><fr:p>
+        (More generally, the "reduction theorem" in von Neumann 1925 says that
+        every expression of I-objects (definable class-function) is indeed a
+        II-object (class-function). This restricts to logical conditions and
+        classes.)
+    </fr:p><fr:p>
+        To do this economically, the existence of a few basic
+        combinator-classes are stipulated (=, ∀, ∃!), and more complex logical
+        conditions are put in "normal form" by eliminating variables with the
+        combinator-classes.  The 'uneconomic' way, if von Neumann 1925 were
+        working in an explicit logic, would be to just stipulate a schema of
+        class comprehension (also mentioned in the Wikipedia article), as
+        included in the back of Chang and Keisler.
+    </fr:p><fr:p>
+        Actually, while there are explicit class existence axioms for absorbing
+        =, ∀, ∃!, I don't see any for things like ∧ or ¬, and don't see how
+        they'd follow with the other axioms, but I suppose they must. The
+        Wikipedia article has a write-up starting from more user-friendly
+        axioms.
+    </fr:p><fr:p>
+        In any case, I hadn't realized that the historic move to make precise
+        the notion of 'definite property' as 'first-order definable' was
+        nontrivial, and found this connection with Quine's note interesting,
+    </fr:p><fr:p>
+        Johnson He
+    </fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:ul><fr:li><fr:link
+type="external"
+href="quine-1960.pdf">quine-1960.pdf</fr:link></fr:li>
+    <fr:li><fr:link
+type="local"
+href="von-neumann-1925.xml"
+addr="von-neumann-1925"
+title="An Axiomatization of Set Theory">An Axiomatization of Set Theory</fr:link></fr:li></fr:ul></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
