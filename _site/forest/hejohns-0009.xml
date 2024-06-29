@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>739</fr:anchor><fr:addr>hejohns-0009</fr:addr><fr:route>hejohns-0009.xml</fr:route><fr:title>Fibrations v. functors</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>8</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
+root="false"><fr:frontmatter><fr:anchor>657</fr:anchor><fr:addr>hejohns-0009</fr:addr><fr:route>hejohns-0009.xml</fr:route><fr:title>Fibrations v. functors</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>8</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
-addr="hejohns"
-title="Johnson He">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+type="local"
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
     What is the actual <fr:em>logic</fr:em> when doing a logical relation?
     Do you only actually need functors? Zeilberger's <fr:link
-type="external"
-href="millies-zeilberger-2015.pdf">Functors as Type Refinement Systems</fr:link>, is a <fr:strong>must read</fr:strong>.
+href="millies-zeilberger-2015.pdf"
+type="external">Functors as Type Refinement Systems</fr:link>, is a <fr:strong>must read</fr:strong>.
     Then you lose the internal logic... maybe? Maybe you just have a different internal logic?
 </fr:p><fr:p>
     Talked to Max about this on 5-9.
@@ -23,31 +22,23 @@ href="millies-zeilberger-2015.pdf">Functors as Type Refinement Systems</fr:link>
     a hoare logic, and a implicational (eg FO) logic.
     I suppose one'd want to study a bit the relationship between the two.
     <fr:link
-type="local"
 href="millies-zeilberger-2015.xml"
-addr="millies-zeilberger-2015"
-title="Functors are Type Refinement Systems">paper</fr:link></fr:p></fr:mainmatter><fr:backmatter><fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title>References</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+type="local"
+addr="millies-zeilberger-2015">paper</fr:link></fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context></fr:context><fr:related></fr:related><fr:backlinks></fr:backlinks><fr:references><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>741</fr:anchor><fr:addr>millies-zeilberger-2015</fr:addr><fr:route>millies-zeilberger-2015.xml</fr:route><fr:title>Functors are Type Refinement Systems</fr:title><fr:taxon>Reference</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>656</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>millies-zeilberger-2015</fr:addr><fr:route>millies-zeilberger-2015.xml</fr:route><fr:title>Functors are Type Refinement Systems</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>426</fr:anchor><fr:addr>#168</fr:addr><fr:route>unstable-168.xml</fr:route><fr:taxon>Abstract</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:authors /><fr:parent>millies-zeilberger-2015</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>401</fr:anchor><fr:taxon>Abstract</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:parent>millies-zeilberger-2015</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
         The standard reading of type theory through the lens of category theory
         is based on the idea of viewing a type system as a category of
         well-typed terms. We propose a basic revision of this reading: rather
@@ -63,20 +54,18 @@ xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4
         present a few applications. As a larger case study, we revisit
         Reynolds’ paper on “The Meaning of Types” (2000), showing how the
         paper’s main results may be reconstructed along these lines.
-    </fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+    </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>427</fr:anchor><fr:addr>#169</fr:addr><fr:route>unstable-169.xml</fr:route><fr:title>Sections 1-2</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
+root="false"><fr:frontmatter><fr:anchor>402</fr:anchor><fr:title>Sections 1-2</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
-addr="hejohns"
-title="Johnson He">Johnson He</fr:link></fr:author></fr:authors><fr:parent>millies-zeilberger-2015</fr:parent></fr:frontmatter><fr:mainmatter><fr:p><fr:em>What</fr:em> is a logical relation?
-        A LR is just a model of the syntax, used to prove <fr:tex
-display="inline"><![CDATA[∀M]]></fr:tex> statements.
+type="local"
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>millies-zeilberger-2015</fr:parent></fr:frontmatter><fr:mainmatter><fr:p><fr:em>What</fr:em> is a logical relation?
+        A LR is just a model of the syntax, used to prove <fr:tex>∀M</fr:tex> statements.
         Thus, it's usually <fr:em>just</fr:em> a model "above" (or a structure preserving
         functor into) the syntax, typically trivially constructed as a pullback
         (it's hard in general to concoct models with structure preserving maps
@@ -128,4 +117,4 @@ display="inline"><![CDATA[∀M]]></fr:tex> statements.
     </fr:p><fr:p>
         Maybe I'm finally close to being able to understand what a Kripke
         logical relation is.
-    </fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
+    </fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:references></fr:backmatter></fr:tree>

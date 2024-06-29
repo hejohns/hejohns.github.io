@@ -1,675 +1,519 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>850</fr:anchor><fr:addr>subbb-000E</fr:addr><fr:route>subbb-000E.xml</fr:route><fr:title><fr:link
-type="local"
-href="unstable-214.xml"
-addr="#214">Untitled</fr:link> › II</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
+root="false"><fr:frontmatter><fr:anchor>603</fr:anchor><fr:addr>subbb-000E</fr:addr><fr:route>subbb-000E.xml</fr:route><fr:title>II</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
-addr="hejohns"
-title="Johnson He">Johnson He</fr:link></fr:author></fr:authors><fr:parent>#214</fr:parent></fr:frontmatter><fr:mainmatter>
+type="local"
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
         <fr:embedded-tex
-hash="802fd9b68c66249dd8fb86046d5d2e19"><fr:embedded-tex-preamble><![CDATA[\usepackage {tikz-cd}\usepackage {unicode-math}]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[
-            \begin {tikzcd}
-                X(y, Ua)×X(x, y) \ar [r, "π_{y, a}⁻¹×\overline {F}"]\ar [d, "∘"] & A(Fy, a)×A(Fx, Fy) \ar [d, "∘"] \\
-                X(x, Ua) \ar [r, "π_{x, a}⁻¹"] & A(Fx, a)
-            \end {tikzcd}
-        ]]></fr:embedded-tex-body></fr:embedded-tex>
-</fr:mainmatter><fr:backmatter><fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title>Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+hash="8fd7996c4b1a3e39d4bda43697f06cf9"><fr:embedded-tex-preamble>\usepackage {tikz-cd} \usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
+             \begin {tikzcd}
+                X( y , U a )×X( x ,  y )  \ar [r, "π_{ y ,  a }⁻¹× \overline {F} "] \ar [d, "∘"] &amp; A(F y ,  a )×A(F x , F y )  \ar [d, "∘"]  \\ 
+                X( x , U a )  \ar [r, "π_{x, a}⁻¹"] &amp; A(F x ,  a )
+             \end {tikzcd}
+        </fr:embedded-tex-body></fr:embedded-tex>
+</fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>852</fr:anchor><fr:addr>hejohns-000E</fr:addr><fr:route>hejohns-000E.xml</fr:route><fr:title>Adjunction core</fr:title><fr:taxon>Lemma</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>601</fr:anchor><fr:taxon>Lemma</fr:taxon><fr:addr>hejohns-000E</fr:addr><fr:route>hejohns-000E.xml</fr:route><fr:title>Adjunction core</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
-addr="hejohns"
-title="Johnson He">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:tree
+type="local"
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>391</fr:anchor><fr:addr>#213</fr:addr><fr:route>unstable-213.xml</fr:route><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
+root="false"><fr:frontmatter><fr:anchor>341</fr:anchor><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
-addr="hejohns"
-title="Johnson He">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000E</fr:parent></fr:frontmatter><fr:mainmatter><fr:p><fr:link
 type="local"
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000E</fr:parent></fr:frontmatter><fr:mainmatter><fr:p><fr:link
 href="street-2012.xml"
-addr="street-2012"
-title="The Core of Adjoint Functors">"An adjunction core consists of"</fr:link>
+type="local"
+addr="street-2012">"An adjunction core consists of"</fr:link>
         <fr:ul><fr:li>
-                functions <fr:tex
-display="inline"><![CDATA[U : A .ob → X .ob]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[F : X .ob → A .ob]]></fr:tex></fr:li>
+                functions <fr:tex>U : A .ob → X .ob</fr:tex> and <fr:tex>F : X .ob → A .ob</fr:tex></fr:li>
             <fr:li>
-                a family of isomorphisms <fr:tex
-display="inline"><![CDATA[(π_{x,a} : A(F(x), a) ≅ X(X, U(a)))_{a ∈ A, x ∈ X}]]></fr:tex></fr:li></fr:ul></fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+                a family of isomorphisms <fr:tex>(π_{x,a} : A(F(x), a) ≅ X(X, U(a)))_{a ∈ A, x ∈ X}</fr:tex></fr:li></fr:ul></fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>393</fr:anchor><fr:addr>#214</fr:addr><fr:route>unstable-214.xml</fr:route><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
+root="false"><fr:frontmatter><fr:anchor>347</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
-addr="hejohns"
-title="Johnson He">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000E</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-        An adjunction core extends to an adjuction iff <fr:tex
-display="inline"><![CDATA[∀a,b ∈ A. ∀x ∈ X.]]></fr:tex>
+type="local"
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000E</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        An adjunction core extends to an adjuction iff <fr:tex>∀a,b ∈ A. ∀x ∈ X.</fr:tex>
         <fr:link
-type="local"
 href="subb-000E.xml"
-addr="subb-000E"
-title="Untitled › I">I</fr:link> commutes, and iff <fr:tex
-display="inline"><![CDATA[∀x,y ∈ X. a ∈ A.]]></fr:tex> <fr:link
 type="local"
+addr="subb-000E">I</fr:link> commutes, and iff <fr:tex>∀x,y ∈ X. a ∈ A.</fr:tex> <fr:link
 href="subbb-000E.xml"
-addr="subbb-000E"
-title="Untitled › II">II</fr:link>
+type="local"
+addr="subbb-000E">II</fr:link>
         commutes.
         The adjunction is unique when it exists.
     </fr:p><fr:p>
         The <fr:link
-type="local"
 href="street-2012.xml"
-addr="street-2012"
-title="The Core of Adjoint Functors">original theorem</fr:link> is stated in terms of
-        <fr:tex
-display="inline"><![CDATA[\mathcal {V}]]></fr:tex>-enriched categories, but we only treat the simple case
+type="local"
+addr="street-2012">original theorem</fr:link> is stated in terms of
+        <fr:tex>\mathcal {V}</fr:tex>-enriched categories, but we only treat the simple case
         of Homset-categories here.
     </fr:p><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>395</fr:anchor><fr:addr>subb-000E</fr:addr><fr:route>subb-000E.xml</fr:route><fr:title>I</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
+root="false"><fr:frontmatter><fr:anchor>343</fr:anchor><fr:addr>subb-000E</fr:addr><fr:route>subb-000E.xml</fr:route><fr:title>I</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
-addr="hejohns"
-title="Johnson He">Johnson He</fr:link></fr:author></fr:authors><fr:parent>#214</fr:parent></fr:frontmatter><fr:mainmatter>
+type="local"
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
         <fr:embedded-tex
-hash="b806fb8c112337fe6c4b4a1e244b5d97"><fr:embedded-tex-preamble><![CDATA[\usepackage {tikz-cd}\usepackage {unicode-math}]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[
-            \begin {tikzcd}
-                A(a, b)×A(Fx, a) \ar [r, "\overline {U}×π_{a,x}"]\ar [d, "∘"] & X(Ua, Ub)×X(x, Ua) \ar [d, "∘"] \\
-                A(Fx, b) \ar [r, "π_{x, b}"] & X(x, Ub)
-            \end {tikzcd}
-        ]]></fr:embedded-tex-body></fr:embedded-tex>
-</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+hash="a09fe1256faafb1bc13a1cc059df3388"><fr:embedded-tex-preamble>\usepackage {tikz-cd} \usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
+             \begin {tikzcd}
+                A( a ,  b )×A(F x ,  a )  \ar [r, " \overline {U} ×π_{ a , x }"] \ar [d, "∘"] &amp; X(U a , U b )×X( x , U a )  \ar [d, "∘"]  \\ 
+                A(F x ,  b )  \ar [r, "π_{ x ,  b }"] &amp; X( x , U b )
+             \end {tikzcd}
+        </fr:embedded-tex-body></fr:embedded-tex>
+</fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>397</fr:anchor><fr:addr>subbb-000E</fr:addr><fr:route>subbb-000E.xml</fr:route><fr:title>II</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
+root="false"><fr:frontmatter><fr:anchor>345</fr:anchor><fr:addr>subbb-000E</fr:addr><fr:route>subbb-000E.xml</fr:route><fr:title>II</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
-addr="hejohns"
-title="Johnson He">Johnson He</fr:link></fr:author></fr:authors><fr:parent>#214</fr:parent></fr:frontmatter><fr:mainmatter>
+type="local"
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
         <fr:embedded-tex
-hash="802fd9b68c66249dd8fb86046d5d2e19"><fr:embedded-tex-preamble><![CDATA[\usepackage {tikz-cd}\usepackage {unicode-math}]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[
-            \begin {tikzcd}
-                X(y, Ua)×X(x, y) \ar [r, "π_{y, a}⁻¹×\overline {F}"]\ar [d, "∘"] & A(Fy, a)×A(Fx, Fy) \ar [d, "∘"] \\
-                X(x, Ua) \ar [r, "π_{x, a}⁻¹"] & A(Fx, a)
-            \end {tikzcd}
-        ]]></fr:embedded-tex-body></fr:embedded-tex>
-</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+hash="8fd7996c4b1a3e39d4bda43697f06cf9"><fr:embedded-tex-preamble>\usepackage {tikz-cd} \usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
+             \begin {tikzcd}
+                X( y , U a )×X( x ,  y )  \ar [r, "π_{ y ,  a }⁻¹× \overline {F} "] \ar [d, "∘"] &amp; A(F y ,  a )×A(F x , F y )  \ar [d, "∘"]  \\ 
+                X( x , U a )  \ar [r, "π_{x, a}⁻¹"] &amp; A(F x ,  a )
+             \end {tikzcd}
+        </fr:embedded-tex-body></fr:embedded-tex>
+</fr:mainmatter></fr:tree></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>399</fr:anchor><fr:addr>#215</fr:addr><fr:route>unstable-215.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
+root="false"><fr:frontmatter><fr:anchor>349</fr:anchor><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
-addr="hejohns"
-title="Johnson He">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000E</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-        We use the same notation and definitions of <fr:tex
-display="inline"><![CDATA[η, ϵ, \overline {F}, \overline {U}]]></fr:tex> as <fr:link
 type="local"
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000E</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        We use the same notation and definitions of <fr:tex>η, ϵ,  \overline {F} ,  \overline {U}</fr:tex> as <fr:link
 href="hejohns-000D.xml"
-addr="hejohns-000D"
-title="The verbose proof">the
-        explicit proof of the precursor lemma</fr:link>.
-        The definition of <fr:tex
-display="inline"><![CDATA[\overline {F}, \overline {U}]]></fr:tex> in <fr:link
 type="local"
+addr="hejohns-000D">the
+        explicit proof of the precursor lemma</fr:link>.
+        The definition of <fr:tex>\overline {F} ,  \overline {U}</fr:tex> in <fr:link
 href="sub-0007.xml"
-addr="sub-0007"
-title="Precursor to The Core of Adjoint Functors › the short proof (sketch)">the short proof</fr:link>
-        presupposes that <fr:tex
-display="inline"><![CDATA[U]]></fr:tex> is a functor, so we're scrupulous to avoid
+type="local"
+addr="sub-0007">the short proof</fr:link>
+        presupposes that <fr:tex>U</fr:tex> is a functor, so we're scrupulous to avoid
         circularity.
     </fr:p><fr:p>
         This proof is rather low tech and is lifted straight from <fr:link
-type="local"
 href="street-2012.xml"
-addr="street-2012"
-title="The Core of Adjoint Functors">the
-        paper</fr:link>. It's also how you'd attack <fr:link
 type="local"
+addr="street-2012">the
+        paper</fr:link>. It's also how you'd attack <fr:link
 href="hejohns-0007.xml"
-addr="hejohns-0007"
-title="Precursor to The Core of Adjoint Functors">the
+type="local"
+addr="hejohns-0007">the
         precursor</fr:link> head-on. The utility is that it holds in
         enriched categories.
     </fr:p><fr:p>
         The forward directions are trivial.
-        Suppose <fr:tex
-display="inline"><![CDATA[(F, U, (π_{a, x})_{a ∈ A, x ∈ X})]]></fr:tex> extends to <fr:tex
-display="inline"><![CDATA[\overline {F} ⊣_π \overline {U}]]></fr:tex>.
+        Suppose <fr:tex>(F, U, (π_{a, x})_{a ∈ A, x ∈ X})</fr:tex> extends to <fr:tex>\overline {F}  ⊣_π  \overline {U}</fr:tex>.
         Then <fr:link
-type="local"
 href="subb-000E.xml"
-addr="subb-000E"
-title="Untitled › I">I</fr:link> expresses that <fr:tex
-display="inline"><![CDATA[∀g : A(a, b). ∀f : A(F(x), a).         π_{x, b}(g∘f) = \overline {U}(g)∘π_{a, x}(f)]]></fr:tex>. This is exactly the condition
-        that <fr:tex
-display="inline"><![CDATA[∀g : A(a, b). π]]></fr:tex> is natural in <fr:tex
-display="inline"><![CDATA[a]]></fr:tex> at <fr:tex
-display="inline"><![CDATA[g]]></fr:tex>, which is certainly
+type="local"
+addr="subb-000E">I</fr:link> expresses that <fr:tex>∀g : A(a, b). ∀f : A(F(x), a).         π_{x, b}(g∘f) =  \overline {U} (g)∘π_{a, x}(f)</fr:tex>. This is exactly the condition
+        that <fr:tex>∀g : A(a, b). π</fr:tex> is natural in <fr:tex>a</fr:tex> at <fr:tex>g</fr:tex>, which is certainly
         true of an adjunction.
         <fr:link
-type="local"
 href="subbb-000E.xml"
-addr="subbb-000E"
-title="Untitled › II">II</fr:link> expresses something similar (dual).
+type="local"
+addr="subbb-000E">II</fr:link> expresses something similar (dual).
     </fr:p><fr:p>
         The nontrivial directions are the backward directions.
     </fr:p><fr:ul><fr:li><fr:p>
-                (I) wts I <fr:tex
-display="inline"><![CDATA[⟹ \overline {U}]]></fr:tex> is a functor.
-                Suppose <fr:tex
-display="inline"><![CDATA[∀a,b ∈ A. ∀x ∈ X.]]></fr:tex> I holds.
-                Then in particular, <fr:tex
-display="inline"><![CDATA[∀c ∈ A. ]]></fr:tex>I holds at <fr:tex
-display="inline"><![CDATA[x = U(c)]]></fr:tex>.
+                (I) wts I <fr:tex>⟹  \overline {U}</fr:tex> is a functor.
+                Suppose <fr:tex>∀a,b ∈ A. ∀x ∈ X.</fr:tex> I holds.
+                Then in particular, <fr:tex>∀c ∈ A. </fr:tex>I holds at <fr:tex>x = U(c)</fr:tex>.
             </fr:p>
             
         <fr:embedded-tex
-hash="e29a45e5c3dfdeb85542e204370f1350"><fr:embedded-tex-preamble><![CDATA[\usepackage {tikz-cd}\usepackage {unicode-math}]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[
-            \begin {tikzcd}
-                A(a, b)×A(FUc, a) \ar [r, "\overline {U}×π_{a,Uc}"]\ar [d, "∘"] & X(Ua, Ub)×X(Uc, Ua) \ar [d, "∘"] \\
-                A(FUc, b) \ar [r, "π_{Uc, b}"] & X(Uc, Ub)
-            \end {tikzcd}
-        ]]></fr:embedded-tex-body></fr:embedded-tex>
+hash="ac9736f09827370a30fbadded4abb953"><fr:embedded-tex-preamble>\usepackage {tikz-cd} \usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
+             \begin {tikzcd}
+                A( a ,  b )×A(F Uc ,  a )  \ar [r, " \overline {U} ×π_{ a , Uc }"] \ar [d, "∘"] &amp; X(U a , U b )×X( Uc , U a )  \ar [d, "∘"]  \\ 
+                A(F Uc ,  b )  \ar [r, "π_{ Uc ,  b }"] &amp; X( Uc , U b )
+             \end {tikzcd}
+        </fr:embedded-tex-body></fr:embedded-tex>
 
             <fr:p>
                 As does this trivial square:
             </fr:p>
             <fr:embedded-tex
-hash="09f36af7f81c413359f103936dde5f36"><fr:embedded-tex-preamble><![CDATA[\usepackage {tikz-cd}\usepackage {unicode-math}]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[
-                \begin {tikzcd}
-                    A(a, b)×A(c, a) \ar [r, "id×(-∘ϵ_c)"]\ar [d, "∘"] & A(a, b)×A(FUc, a) \ar [d, "∘"] \\
-                    A(c, b) \ar [r, "(-∘ϵ_c)"] & A(FUc, b)
-                \end {tikzcd}
-            ]]></fr:embedded-tex-body></fr:embedded-tex>
+hash="aaf8d81120cfc4781697983614442d7a"><fr:embedded-tex-preamble>\usepackage {tikz-cd} \usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
+                 \begin {tikzcd}
+                    A(a, b)×A(c, a)  \ar [r, "id×(-∘ϵ_c)"] \ar [d, "∘"] &amp; A(a, b)×A(FUc, a)  \ar [d, "∘"]  \\ 
+                    A(c, b)  \ar [r, "(-∘ϵ_c)"] &amp; A(FUc, b)
+                 \end {tikzcd}
+            </fr:embedded-tex-body></fr:embedded-tex>
             <fr:p>
                 which when pasted together, tells us magically:
             </fr:p>
             <fr:embedded-tex
-hash="4de6c4a2a2cb4b6f0547069c1ccdc586"><fr:embedded-tex-preamble><![CDATA[\usepackage {tikz-cd}\usepackage {unicode-math}]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[
-                \begin {tikzcd}
-                    A(a, b)×A(c, a) \ar [r, "\overline {U}×\overline {U}"]\ar [d, "∘"] & X(Ua, Ub)×X(Uc, Ua) \ar [d, "∘"] \\
-                    A(c, b) \ar [r, "\overline {U}"] & X(Uc, Ub)
-                \end {tikzcd}
-            ]]></fr:embedded-tex-body></fr:embedded-tex>
+hash="2dec512dfc1acbbf48b6d09e3842ea04"><fr:embedded-tex-preamble>\usepackage {tikz-cd} \usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
+                 \begin {tikzcd}
+                    A(a, b)×A(c, a)  \ar [r, " \overline {U} × \overline {U} "] \ar [d, "∘"] &amp; X(Ua, Ub)×X(Uc, Ua)  \ar [d, "∘"]  \\ 
+                    A(c, b)  \ar [r, " \overline {U} "] &amp; X(Uc, Ub)
+                 \end {tikzcd}
+            </fr:embedded-tex-body></fr:embedded-tex>
             <fr:p>
                 Combined with <fr:link
-type="local"
 href="hejohns-000D.xml"
-addr="hejohns-000D"
-title="The verbose proof">the earlier proof</fr:link> that <fr:tex
-display="inline"><![CDATA[\overline {U}(1ₐ)                 = 1_{\overline {U}(a)}]]></fr:tex> (which just follows by definition),
-                we've shown that <fr:tex
-display="inline"><![CDATA[\overline {U}]]></fr:tex> defines a functorial action on morphisms.
+type="local"
+addr="hejohns-000D">the earlier proof</fr:link> that <fr:tex>\overline {U} (1ₐ)                 = 1_{ \overline {U} (a)}</fr:tex> (which just follows by definition),
+                we've shown that <fr:tex>\overline {U}</fr:tex> defines a functorial action on morphisms.
                 Actually, we saw earlier that <fr:link
-type="local"
 href="subb-000E.xml"
-addr="subb-000E"
-title="Untitled › I">I</fr:link> expresses that
-                <fr:tex
-display="inline"><![CDATA[π]]></fr:tex> is natural in <fr:tex
-display="inline"><![CDATA[a]]></fr:tex>, so we've met the preconditions of <fr:link
 type="local"
+addr="subb-000E">I</fr:link> expresses that
+                <fr:tex>π</fr:tex> is natural in <fr:tex>a</fr:tex>, so we've met the preconditions of <fr:link
 href="hejohns-0007.xml"
-addr="hejohns-0007"
-title="Precursor to The Core of Adjoint Functors">the
+type="local"
+addr="hejohns-0007">the
                 precursor lemma</fr:link>, thus there is a unique
-                extension <fr:tex
-display="inline"><![CDATA[\overline {F}]]></fr:tex> st <fr:tex
-display="inline"><![CDATA[\overline {F} ⊣_π \overline {U}]]></fr:tex>.
+                extension <fr:tex>\overline {F}</fr:tex> st <fr:tex>\overline {F}  ⊣_π  \overline {U}</fr:tex>.
             </fr:p>
             <fr:p>
                 There's two ways ways to see the uniqueness situation:
             </fr:p>
             <fr:ul><fr:li>
-                    (An intermediate notion) <fr:tex
-display="inline"><![CDATA[\overline {U}]]></fr:tex> is the unique extension of
-                    <fr:tex
-display="inline"><![CDATA[U]]></fr:tex> to a functor st <fr:tex
-display="inline"><![CDATA[π]]></fr:tex> is natural in <fr:tex
-display="inline"><![CDATA[a]]></fr:tex>.
+                    (An intermediate notion) <fr:tex>\overline {U}</fr:tex> is the unique extension of
+                    <fr:tex>U</fr:tex> to a functor st <fr:tex>π</fr:tex> is natural in <fr:tex>a</fr:tex>.
                     We've essentially seen this already, if not literally.
-                    For any functor <fr:tex
-display="inline"><![CDATA[U']]></fr:tex>, naturality in <fr:tex
-display="inline"><![CDATA[a]]></fr:tex> requires the following square to hold for all <fr:tex
-display="inline"><![CDATA[g : A(a, b)]]></fr:tex>:
+                    For any functor <fr:tex>U'</fr:tex>, naturality in <fr:tex>a</fr:tex> requires the following square to hold for all <fr:tex>g : A(a, b)</fr:tex>:
                     <fr:embedded-tex
-hash="2811be9da07c73dde4ea7d726bca767c"><fr:embedded-tex-preamble><![CDATA[\usepackage {tikz-cd}\usepackage {unicode-math}]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[
-                        \begin {tikzcd}
-                            A(FU'a, a) \ar [r, "g∘-"] & A(FU'a, b) \ar [d, "≀"', "π"] \\
-                            X(U'a, U'a) \ar [r, "U'g∘-"]\ar [u, "≀"', "π⁻¹"] & X(U'a, U'b)
-                        \end {tikzcd}
-                    ]]></fr:embedded-tex-body></fr:embedded-tex>
-                    Thus, <fr:tex
-display="inline"><![CDATA[∀g. U'(g) = \overline {U}(g)]]></fr:tex>.
-                    Then, with <fr:tex
-display="inline"><![CDATA[\overline {U}]]></fr:tex> a functor and <fr:tex
-display="inline"><![CDATA[π]]></fr:tex> natural in <fr:tex
-display="inline"><![CDATA[a]]></fr:tex>, <fr:link
-type="local"
+hash="7bced74c5568df77fd9237f12eab5655"><fr:embedded-tex-preamble>\usepackage {tikz-cd} \usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
+                         \begin {tikzcd}
+                            A(FU'a, a)  \ar [r, "g∘-"] &amp; A(FU'a, b)  \ar [d, "≀"', "π"]  \\ 
+                            X(U'a, U'a)  \ar [r, "U'g∘-"] \ar [u, "≀"', "π⁻¹"] &amp; X(U'a, U'b)
+                         \end {tikzcd}
+                    </fr:embedded-tex-body></fr:embedded-tex>
+                    Thus, <fr:tex>∀g. U'(g) =  \overline {U} (g)</fr:tex>.
+                    Then, with <fr:tex>\overline {U}</fr:tex> a functor and <fr:tex>π</fr:tex> natural in <fr:tex>a</fr:tex>, <fr:link
 href="hejohns-0007.xml"
-addr="hejohns-0007"
-title="Precursor to The Core of Adjoint Functors">the
-                    precursor</fr:link> gives us a unique <fr:tex
-display="inline"><![CDATA[\overline {F}]]></fr:tex> st <fr:tex
-display="inline"><![CDATA[\overline {F}                     ⊣ \overline {U}]]></fr:tex> uniquely.
+type="local"
+addr="hejohns-0007">the
+                    precursor</fr:link> gives us a unique <fr:tex>\overline {F}</fr:tex> st <fr:tex>\overline {F}                      ⊣  \overline {U}</fr:tex> uniquely.
                 </fr:li>
                 <fr:li>
-                    (Going backwards) Since the definitions of <fr:tex
-display="inline"><![CDATA[\overline {F}]]></fr:tex> and
-                    <fr:tex
-display="inline"><![CDATA[\overline {U}]]></fr:tex> (in <fr:link
-type="local"
+                    (Going backwards) Since the definitions of <fr:tex>\overline {F}</fr:tex> and
+                    <fr:tex>\overline {U}</fr:tex> (in <fr:link
 href="hejohns-0007.xml"
-addr="hejohns-0007"
-title="Precursor to The Core of Adjoint Functors">the precursor</fr:link>) are not dependent
-                    on the other functor, the total adjunction <fr:tex
-display="inline"><![CDATA[\overline {F} ⊣ \overline {U}]]></fr:tex> is
+type="local"
+addr="hejohns-0007">the precursor</fr:link>) are not dependent
+                    on the other functor, the total adjunction <fr:tex>\overline {F}  ⊣  \overline {U}</fr:tex> is
                     the unique one extending the core by applying the
                     uniqueness result of <fr:link
-type="local"
 href="hejohns-0007.xml"
-addr="hejohns-0007"
-title="Precursor to The Core of Adjoint Functors">the precusor</fr:link> to each
+type="local"
+addr="hejohns-0007">the precusor</fr:link> to each
                     functor in turn, just knowing the other is a well-defined
                     functor.
                 </fr:li></fr:ul></fr:li>
         <fr:li><fr:p>
-                (II) wts II <fr:tex
-display="inline"><![CDATA[⟹ \overline {F}]]></fr:tex> is a functor.
+                (II) wts II <fr:tex>⟹  \overline {F}</fr:tex> is a functor.
                 This is dual.
-            </fr:p></fr:li></fr:ul></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+            </fr:p></fr:li></fr:ul></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>401</fr:anchor><fr:addr>sub-000E</fr:addr><fr:route>sub-000E.xml</fr:route><fr:taxon>Proof corollary</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
+root="false"><fr:frontmatter><fr:anchor>351</fr:anchor><fr:taxon>Proof corollary</fr:taxon><fr:addr>sub-000E</fr:addr><fr:route>sub-000E.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
-addr="hejohns"
-title="Johnson He">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000E</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-        (For <fr:tex
-display="inline"><![CDATA[V]]></fr:tex>-enriched categories, ) If <fr:tex
-display="inline"><![CDATA[V]]></fr:tex> is thin, all diagrams commute,
-        thus an adjunction core always determines an adjunction.
-    </fr:p><fr:p><fr:tex
-display="inline"><![CDATA[Set]]></fr:tex> isn't thin, but <fr:tex
-display="inline"><![CDATA[2]]></fr:tex> is, thus for posets, an adjunction core
-        gives rise to a thin adjunction, as remarked <fr:link
 type="local"
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000E</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        (For <fr:tex>V</fr:tex>-enriched categories, ) If <fr:tex>V</fr:tex> is thin, all diagrams commute,
+        thus an adjunction core always determines an adjunction.
+    </fr:p><fr:p><fr:tex>Set</fr:tex> isn't thin, but <fr:tex>2</fr:tex> is, thus for posets, an adjunction core
+        gives rise to a thin adjunction, as remarked <fr:link
 href="subb-0006.xml"
+type="local"
 addr="subb-0006">here</fr:link>.
         I don't know how useful this lemma is for ordinary Homset categories.
-    </fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title>Backlinks</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+    </fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>854</fr:anchor><fr:addr>hejohns-000E</fr:addr><fr:route>hejohns-000E.xml</fr:route><fr:title>Adjunction core</fr:title><fr:taxon>Lemma</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>599</fr:anchor><fr:taxon>Lemma</fr:taxon><fr:addr>hejohns-000E</fr:addr><fr:route>hejohns-000E.xml</fr:route><fr:title>Adjunction core</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
-addr="hejohns"
-title="Johnson He">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:tree
+type="local"
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>391</fr:anchor><fr:addr>#213</fr:addr><fr:route>unstable-213.xml</fr:route><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
+root="false"><fr:frontmatter><fr:anchor>341</fr:anchor><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
-addr="hejohns"
-title="Johnson He">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000E</fr:parent></fr:frontmatter><fr:mainmatter><fr:p><fr:link
 type="local"
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000E</fr:parent></fr:frontmatter><fr:mainmatter><fr:p><fr:link
 href="street-2012.xml"
-addr="street-2012"
-title="The Core of Adjoint Functors">"An adjunction core consists of"</fr:link>
+type="local"
+addr="street-2012">"An adjunction core consists of"</fr:link>
         <fr:ul><fr:li>
-                functions <fr:tex
-display="inline"><![CDATA[U : A .ob → X .ob]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[F : X .ob → A .ob]]></fr:tex></fr:li>
+                functions <fr:tex>U : A .ob → X .ob</fr:tex> and <fr:tex>F : X .ob → A .ob</fr:tex></fr:li>
             <fr:li>
-                a family of isomorphisms <fr:tex
-display="inline"><![CDATA[(π_{x,a} : A(F(x), a) ≅ X(X, U(a)))_{a ∈ A, x ∈ X}]]></fr:tex></fr:li></fr:ul></fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+                a family of isomorphisms <fr:tex>(π_{x,a} : A(F(x), a) ≅ X(X, U(a)))_{a ∈ A, x ∈ X}</fr:tex></fr:li></fr:ul></fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>393</fr:anchor><fr:addr>#214</fr:addr><fr:route>unstable-214.xml</fr:route><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
+root="false"><fr:frontmatter><fr:anchor>347</fr:anchor><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
-addr="hejohns"
-title="Johnson He">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000E</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-        An adjunction core extends to an adjuction iff <fr:tex
-display="inline"><![CDATA[∀a,b ∈ A. ∀x ∈ X.]]></fr:tex>
+type="local"
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000E</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        An adjunction core extends to an adjuction iff <fr:tex>∀a,b ∈ A. ∀x ∈ X.</fr:tex>
         <fr:link
-type="local"
 href="subb-000E.xml"
-addr="subb-000E"
-title="Untitled › I">I</fr:link> commutes, and iff <fr:tex
-display="inline"><![CDATA[∀x,y ∈ X. a ∈ A.]]></fr:tex> <fr:link
 type="local"
+addr="subb-000E">I</fr:link> commutes, and iff <fr:tex>∀x,y ∈ X. a ∈ A.</fr:tex> <fr:link
 href="subbb-000E.xml"
-addr="subbb-000E"
-title="Untitled › II">II</fr:link>
+type="local"
+addr="subbb-000E">II</fr:link>
         commutes.
         The adjunction is unique when it exists.
     </fr:p><fr:p>
         The <fr:link
-type="local"
 href="street-2012.xml"
-addr="street-2012"
-title="The Core of Adjoint Functors">original theorem</fr:link> is stated in terms of
-        <fr:tex
-display="inline"><![CDATA[\mathcal {V}]]></fr:tex>-enriched categories, but we only treat the simple case
+type="local"
+addr="street-2012">original theorem</fr:link> is stated in terms of
+        <fr:tex>\mathcal {V}</fr:tex>-enriched categories, but we only treat the simple case
         of Homset-categories here.
     </fr:p><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>395</fr:anchor><fr:addr>subb-000E</fr:addr><fr:route>subb-000E.xml</fr:route><fr:title>I</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
+root="false"><fr:frontmatter><fr:anchor>343</fr:anchor><fr:addr>subb-000E</fr:addr><fr:route>subb-000E.xml</fr:route><fr:title>I</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
-addr="hejohns"
-title="Johnson He">Johnson He</fr:link></fr:author></fr:authors><fr:parent>#214</fr:parent></fr:frontmatter><fr:mainmatter>
+type="local"
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
         <fr:embedded-tex
-hash="b806fb8c112337fe6c4b4a1e244b5d97"><fr:embedded-tex-preamble><![CDATA[\usepackage {tikz-cd}\usepackage {unicode-math}]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[
-            \begin {tikzcd}
-                A(a, b)×A(Fx, a) \ar [r, "\overline {U}×π_{a,x}"]\ar [d, "∘"] & X(Ua, Ub)×X(x, Ua) \ar [d, "∘"] \\
-                A(Fx, b) \ar [r, "π_{x, b}"] & X(x, Ub)
-            \end {tikzcd}
-        ]]></fr:embedded-tex-body></fr:embedded-tex>
-</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+hash="a09fe1256faafb1bc13a1cc059df3388"><fr:embedded-tex-preamble>\usepackage {tikz-cd} \usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
+             \begin {tikzcd}
+                A( a ,  b )×A(F x ,  a )  \ar [r, " \overline {U} ×π_{ a , x }"] \ar [d, "∘"] &amp; X(U a , U b )×X( x , U a )  \ar [d, "∘"]  \\ 
+                A(F x ,  b )  \ar [r, "π_{ x ,  b }"] &amp; X( x , U b )
+             \end {tikzcd}
+        </fr:embedded-tex-body></fr:embedded-tex>
+</fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>397</fr:anchor><fr:addr>subbb-000E</fr:addr><fr:route>subbb-000E.xml</fr:route><fr:title>II</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
+root="false"><fr:frontmatter><fr:anchor>345</fr:anchor><fr:addr>subbb-000E</fr:addr><fr:route>subbb-000E.xml</fr:route><fr:title>II</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
-addr="hejohns"
-title="Johnson He">Johnson He</fr:link></fr:author></fr:authors><fr:parent>#214</fr:parent></fr:frontmatter><fr:mainmatter>
+type="local"
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
         <fr:embedded-tex
-hash="802fd9b68c66249dd8fb86046d5d2e19"><fr:embedded-tex-preamble><![CDATA[\usepackage {tikz-cd}\usepackage {unicode-math}]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[
-            \begin {tikzcd}
-                X(y, Ua)×X(x, y) \ar [r, "π_{y, a}⁻¹×\overline {F}"]\ar [d, "∘"] & A(Fy, a)×A(Fx, Fy) \ar [d, "∘"] \\
-                X(x, Ua) \ar [r, "π_{x, a}⁻¹"] & A(Fx, a)
-            \end {tikzcd}
-        ]]></fr:embedded-tex-body></fr:embedded-tex>
-</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+hash="8fd7996c4b1a3e39d4bda43697f06cf9"><fr:embedded-tex-preamble>\usepackage {tikz-cd} \usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
+             \begin {tikzcd}
+                X( y , U a )×X( x ,  y )  \ar [r, "π_{ y ,  a }⁻¹× \overline {F} "] \ar [d, "∘"] &amp; A(F y ,  a )×A(F x , F y )  \ar [d, "∘"]  \\ 
+                X( x , U a )  \ar [r, "π_{x, a}⁻¹"] &amp; A(F x ,  a )
+             \end {tikzcd}
+        </fr:embedded-tex-body></fr:embedded-tex>
+</fr:mainmatter></fr:tree></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>399</fr:anchor><fr:addr>#215</fr:addr><fr:route>unstable-215.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
+root="false"><fr:frontmatter><fr:anchor>349</fr:anchor><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
-addr="hejohns"
-title="Johnson He">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000E</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-        We use the same notation and definitions of <fr:tex
-display="inline"><![CDATA[η, ϵ, \overline {F}, \overline {U}]]></fr:tex> as <fr:link
 type="local"
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000E</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        We use the same notation and definitions of <fr:tex>η, ϵ,  \overline {F} ,  \overline {U}</fr:tex> as <fr:link
 href="hejohns-000D.xml"
-addr="hejohns-000D"
-title="The verbose proof">the
-        explicit proof of the precursor lemma</fr:link>.
-        The definition of <fr:tex
-display="inline"><![CDATA[\overline {F}, \overline {U}]]></fr:tex> in <fr:link
 type="local"
+addr="hejohns-000D">the
+        explicit proof of the precursor lemma</fr:link>.
+        The definition of <fr:tex>\overline {F} ,  \overline {U}</fr:tex> in <fr:link
 href="sub-0007.xml"
-addr="sub-0007"
-title="Precursor to The Core of Adjoint Functors › the short proof (sketch)">the short proof</fr:link>
-        presupposes that <fr:tex
-display="inline"><![CDATA[U]]></fr:tex> is a functor, so we're scrupulous to avoid
+type="local"
+addr="sub-0007">the short proof</fr:link>
+        presupposes that <fr:tex>U</fr:tex> is a functor, so we're scrupulous to avoid
         circularity.
     </fr:p><fr:p>
         This proof is rather low tech and is lifted straight from <fr:link
-type="local"
 href="street-2012.xml"
-addr="street-2012"
-title="The Core of Adjoint Functors">the
-        paper</fr:link>. It's also how you'd attack <fr:link
 type="local"
+addr="street-2012">the
+        paper</fr:link>. It's also how you'd attack <fr:link
 href="hejohns-0007.xml"
-addr="hejohns-0007"
-title="Precursor to The Core of Adjoint Functors">the
+type="local"
+addr="hejohns-0007">the
         precursor</fr:link> head-on. The utility is that it holds in
         enriched categories.
     </fr:p><fr:p>
         The forward directions are trivial.
-        Suppose <fr:tex
-display="inline"><![CDATA[(F, U, (π_{a, x})_{a ∈ A, x ∈ X})]]></fr:tex> extends to <fr:tex
-display="inline"><![CDATA[\overline {F} ⊣_π \overline {U}]]></fr:tex>.
+        Suppose <fr:tex>(F, U, (π_{a, x})_{a ∈ A, x ∈ X})</fr:tex> extends to <fr:tex>\overline {F}  ⊣_π  \overline {U}</fr:tex>.
         Then <fr:link
-type="local"
 href="subb-000E.xml"
-addr="subb-000E"
-title="Untitled › I">I</fr:link> expresses that <fr:tex
-display="inline"><![CDATA[∀g : A(a, b). ∀f : A(F(x), a).         π_{x, b}(g∘f) = \overline {U}(g)∘π_{a, x}(f)]]></fr:tex>. This is exactly the condition
-        that <fr:tex
-display="inline"><![CDATA[∀g : A(a, b). π]]></fr:tex> is natural in <fr:tex
-display="inline"><![CDATA[a]]></fr:tex> at <fr:tex
-display="inline"><![CDATA[g]]></fr:tex>, which is certainly
+type="local"
+addr="subb-000E">I</fr:link> expresses that <fr:tex>∀g : A(a, b). ∀f : A(F(x), a).         π_{x, b}(g∘f) =  \overline {U} (g)∘π_{a, x}(f)</fr:tex>. This is exactly the condition
+        that <fr:tex>∀g : A(a, b). π</fr:tex> is natural in <fr:tex>a</fr:tex> at <fr:tex>g</fr:tex>, which is certainly
         true of an adjunction.
         <fr:link
-type="local"
 href="subbb-000E.xml"
-addr="subbb-000E"
-title="Untitled › II">II</fr:link> expresses something similar (dual).
+type="local"
+addr="subbb-000E">II</fr:link> expresses something similar (dual).
     </fr:p><fr:p>
         The nontrivial directions are the backward directions.
     </fr:p><fr:ul><fr:li><fr:p>
-                (I) wts I <fr:tex
-display="inline"><![CDATA[⟹ \overline {U}]]></fr:tex> is a functor.
-                Suppose <fr:tex
-display="inline"><![CDATA[∀a,b ∈ A. ∀x ∈ X.]]></fr:tex> I holds.
-                Then in particular, <fr:tex
-display="inline"><![CDATA[∀c ∈ A. ]]></fr:tex>I holds at <fr:tex
-display="inline"><![CDATA[x = U(c)]]></fr:tex>.
+                (I) wts I <fr:tex>⟹  \overline {U}</fr:tex> is a functor.
+                Suppose <fr:tex>∀a,b ∈ A. ∀x ∈ X.</fr:tex> I holds.
+                Then in particular, <fr:tex>∀c ∈ A. </fr:tex>I holds at <fr:tex>x = U(c)</fr:tex>.
             </fr:p>
             
         <fr:embedded-tex
-hash="e29a45e5c3dfdeb85542e204370f1350"><fr:embedded-tex-preamble><![CDATA[\usepackage {tikz-cd}\usepackage {unicode-math}]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[
-            \begin {tikzcd}
-                A(a, b)×A(FUc, a) \ar [r, "\overline {U}×π_{a,Uc}"]\ar [d, "∘"] & X(Ua, Ub)×X(Uc, Ua) \ar [d, "∘"] \\
-                A(FUc, b) \ar [r, "π_{Uc, b}"] & X(Uc, Ub)
-            \end {tikzcd}
-        ]]></fr:embedded-tex-body></fr:embedded-tex>
+hash="ac9736f09827370a30fbadded4abb953"><fr:embedded-tex-preamble>\usepackage {tikz-cd} \usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
+             \begin {tikzcd}
+                A( a ,  b )×A(F Uc ,  a )  \ar [r, " \overline {U} ×π_{ a , Uc }"] \ar [d, "∘"] &amp; X(U a , U b )×X( Uc , U a )  \ar [d, "∘"]  \\ 
+                A(F Uc ,  b )  \ar [r, "π_{ Uc ,  b }"] &amp; X( Uc , U b )
+             \end {tikzcd}
+        </fr:embedded-tex-body></fr:embedded-tex>
 
             <fr:p>
                 As does this trivial square:
             </fr:p>
             <fr:embedded-tex
-hash="09f36af7f81c413359f103936dde5f36"><fr:embedded-tex-preamble><![CDATA[\usepackage {tikz-cd}\usepackage {unicode-math}]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[
-                \begin {tikzcd}
-                    A(a, b)×A(c, a) \ar [r, "id×(-∘ϵ_c)"]\ar [d, "∘"] & A(a, b)×A(FUc, a) \ar [d, "∘"] \\
-                    A(c, b) \ar [r, "(-∘ϵ_c)"] & A(FUc, b)
-                \end {tikzcd}
-            ]]></fr:embedded-tex-body></fr:embedded-tex>
+hash="aaf8d81120cfc4781697983614442d7a"><fr:embedded-tex-preamble>\usepackage {tikz-cd} \usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
+                 \begin {tikzcd}
+                    A(a, b)×A(c, a)  \ar [r, "id×(-∘ϵ_c)"] \ar [d, "∘"] &amp; A(a, b)×A(FUc, a)  \ar [d, "∘"]  \\ 
+                    A(c, b)  \ar [r, "(-∘ϵ_c)"] &amp; A(FUc, b)
+                 \end {tikzcd}
+            </fr:embedded-tex-body></fr:embedded-tex>
             <fr:p>
                 which when pasted together, tells us magically:
             </fr:p>
             <fr:embedded-tex
-hash="4de6c4a2a2cb4b6f0547069c1ccdc586"><fr:embedded-tex-preamble><![CDATA[\usepackage {tikz-cd}\usepackage {unicode-math}]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[
-                \begin {tikzcd}
-                    A(a, b)×A(c, a) \ar [r, "\overline {U}×\overline {U}"]\ar [d, "∘"] & X(Ua, Ub)×X(Uc, Ua) \ar [d, "∘"] \\
-                    A(c, b) \ar [r, "\overline {U}"] & X(Uc, Ub)
-                \end {tikzcd}
-            ]]></fr:embedded-tex-body></fr:embedded-tex>
+hash="2dec512dfc1acbbf48b6d09e3842ea04"><fr:embedded-tex-preamble>\usepackage {tikz-cd} \usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
+                 \begin {tikzcd}
+                    A(a, b)×A(c, a)  \ar [r, " \overline {U} × \overline {U} "] \ar [d, "∘"] &amp; X(Ua, Ub)×X(Uc, Ua)  \ar [d, "∘"]  \\ 
+                    A(c, b)  \ar [r, " \overline {U} "] &amp; X(Uc, Ub)
+                 \end {tikzcd}
+            </fr:embedded-tex-body></fr:embedded-tex>
             <fr:p>
                 Combined with <fr:link
-type="local"
 href="hejohns-000D.xml"
-addr="hejohns-000D"
-title="The verbose proof">the earlier proof</fr:link> that <fr:tex
-display="inline"><![CDATA[\overline {U}(1ₐ)                 = 1_{\overline {U}(a)}]]></fr:tex> (which just follows by definition),
-                we've shown that <fr:tex
-display="inline"><![CDATA[\overline {U}]]></fr:tex> defines a functorial action on morphisms.
+type="local"
+addr="hejohns-000D">the earlier proof</fr:link> that <fr:tex>\overline {U} (1ₐ)                 = 1_{ \overline {U} (a)}</fr:tex> (which just follows by definition),
+                we've shown that <fr:tex>\overline {U}</fr:tex> defines a functorial action on morphisms.
                 Actually, we saw earlier that <fr:link
-type="local"
 href="subb-000E.xml"
-addr="subb-000E"
-title="Untitled › I">I</fr:link> expresses that
-                <fr:tex
-display="inline"><![CDATA[π]]></fr:tex> is natural in <fr:tex
-display="inline"><![CDATA[a]]></fr:tex>, so we've met the preconditions of <fr:link
 type="local"
+addr="subb-000E">I</fr:link> expresses that
+                <fr:tex>π</fr:tex> is natural in <fr:tex>a</fr:tex>, so we've met the preconditions of <fr:link
 href="hejohns-0007.xml"
-addr="hejohns-0007"
-title="Precursor to The Core of Adjoint Functors">the
+type="local"
+addr="hejohns-0007">the
                 precursor lemma</fr:link>, thus there is a unique
-                extension <fr:tex
-display="inline"><![CDATA[\overline {F}]]></fr:tex> st <fr:tex
-display="inline"><![CDATA[\overline {F} ⊣_π \overline {U}]]></fr:tex>.
+                extension <fr:tex>\overline {F}</fr:tex> st <fr:tex>\overline {F}  ⊣_π  \overline {U}</fr:tex>.
             </fr:p>
             <fr:p>
                 There's two ways ways to see the uniqueness situation:
             </fr:p>
             <fr:ul><fr:li>
-                    (An intermediate notion) <fr:tex
-display="inline"><![CDATA[\overline {U}]]></fr:tex> is the unique extension of
-                    <fr:tex
-display="inline"><![CDATA[U]]></fr:tex> to a functor st <fr:tex
-display="inline"><![CDATA[π]]></fr:tex> is natural in <fr:tex
-display="inline"><![CDATA[a]]></fr:tex>.
+                    (An intermediate notion) <fr:tex>\overline {U}</fr:tex> is the unique extension of
+                    <fr:tex>U</fr:tex> to a functor st <fr:tex>π</fr:tex> is natural in <fr:tex>a</fr:tex>.
                     We've essentially seen this already, if not literally.
-                    For any functor <fr:tex
-display="inline"><![CDATA[U']]></fr:tex>, naturality in <fr:tex
-display="inline"><![CDATA[a]]></fr:tex> requires the following square to hold for all <fr:tex
-display="inline"><![CDATA[g : A(a, b)]]></fr:tex>:
+                    For any functor <fr:tex>U'</fr:tex>, naturality in <fr:tex>a</fr:tex> requires the following square to hold for all <fr:tex>g : A(a, b)</fr:tex>:
                     <fr:embedded-tex
-hash="2811be9da07c73dde4ea7d726bca767c"><fr:embedded-tex-preamble><![CDATA[\usepackage {tikz-cd}\usepackage {unicode-math}]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[
-                        \begin {tikzcd}
-                            A(FU'a, a) \ar [r, "g∘-"] & A(FU'a, b) \ar [d, "≀"', "π"] \\
-                            X(U'a, U'a) \ar [r, "U'g∘-"]\ar [u, "≀"', "π⁻¹"] & X(U'a, U'b)
-                        \end {tikzcd}
-                    ]]></fr:embedded-tex-body></fr:embedded-tex>
-                    Thus, <fr:tex
-display="inline"><![CDATA[∀g. U'(g) = \overline {U}(g)]]></fr:tex>.
-                    Then, with <fr:tex
-display="inline"><![CDATA[\overline {U}]]></fr:tex> a functor and <fr:tex
-display="inline"><![CDATA[π]]></fr:tex> natural in <fr:tex
-display="inline"><![CDATA[a]]></fr:tex>, <fr:link
-type="local"
+hash="7bced74c5568df77fd9237f12eab5655"><fr:embedded-tex-preamble>\usepackage {tikz-cd} \usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
+                         \begin {tikzcd}
+                            A(FU'a, a)  \ar [r, "g∘-"] &amp; A(FU'a, b)  \ar [d, "≀"', "π"]  \\ 
+                            X(U'a, U'a)  \ar [r, "U'g∘-"] \ar [u, "≀"', "π⁻¹"] &amp; X(U'a, U'b)
+                         \end {tikzcd}
+                    </fr:embedded-tex-body></fr:embedded-tex>
+                    Thus, <fr:tex>∀g. U'(g) =  \overline {U} (g)</fr:tex>.
+                    Then, with <fr:tex>\overline {U}</fr:tex> a functor and <fr:tex>π</fr:tex> natural in <fr:tex>a</fr:tex>, <fr:link
 href="hejohns-0007.xml"
-addr="hejohns-0007"
-title="Precursor to The Core of Adjoint Functors">the
-                    precursor</fr:link> gives us a unique <fr:tex
-display="inline"><![CDATA[\overline {F}]]></fr:tex> st <fr:tex
-display="inline"><![CDATA[\overline {F}                     ⊣ \overline {U}]]></fr:tex> uniquely.
+type="local"
+addr="hejohns-0007">the
+                    precursor</fr:link> gives us a unique <fr:tex>\overline {F}</fr:tex> st <fr:tex>\overline {F}                      ⊣  \overline {U}</fr:tex> uniquely.
                 </fr:li>
                 <fr:li>
-                    (Going backwards) Since the definitions of <fr:tex
-display="inline"><![CDATA[\overline {F}]]></fr:tex> and
-                    <fr:tex
-display="inline"><![CDATA[\overline {U}]]></fr:tex> (in <fr:link
-type="local"
+                    (Going backwards) Since the definitions of <fr:tex>\overline {F}</fr:tex> and
+                    <fr:tex>\overline {U}</fr:tex> (in <fr:link
 href="hejohns-0007.xml"
-addr="hejohns-0007"
-title="Precursor to The Core of Adjoint Functors">the precursor</fr:link>) are not dependent
-                    on the other functor, the total adjunction <fr:tex
-display="inline"><![CDATA[\overline {F} ⊣ \overline {U}]]></fr:tex> is
+type="local"
+addr="hejohns-0007">the precursor</fr:link>) are not dependent
+                    on the other functor, the total adjunction <fr:tex>\overline {F}  ⊣  \overline {U}</fr:tex> is
                     the unique one extending the core by applying the
                     uniqueness result of <fr:link
-type="local"
 href="hejohns-0007.xml"
-addr="hejohns-0007"
-title="Precursor to The Core of Adjoint Functors">the precusor</fr:link> to each
+type="local"
+addr="hejohns-0007">the precusor</fr:link> to each
                     functor in turn, just knowing the other is a well-defined
                     functor.
                 </fr:li></fr:ul></fr:li>
         <fr:li><fr:p>
-                (II) wts II <fr:tex
-display="inline"><![CDATA[⟹ \overline {F}]]></fr:tex> is a functor.
+                (II) wts II <fr:tex>⟹  \overline {F}</fr:tex> is a functor.
                 This is dual.
-            </fr:p></fr:li></fr:ul></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+            </fr:p></fr:li></fr:ul></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>401</fr:anchor><fr:addr>sub-000E</fr:addr><fr:route>sub-000E.xml</fr:route><fr:taxon>Proof corollary</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
+root="false"><fr:frontmatter><fr:anchor>351</fr:anchor><fr:taxon>Proof corollary</fr:taxon><fr:addr>sub-000E</fr:addr><fr:route>sub-000E.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
-addr="hejohns"
-title="Johnson He">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000E</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-        (For <fr:tex
-display="inline"><![CDATA[V]]></fr:tex>-enriched categories, ) If <fr:tex
-display="inline"><![CDATA[V]]></fr:tex> is thin, all diagrams commute,
-        thus an adjunction core always determines an adjunction.
-    </fr:p><fr:p><fr:tex
-display="inline"><![CDATA[Set]]></fr:tex> isn't thin, but <fr:tex
-display="inline"><![CDATA[2]]></fr:tex> is, thus for posets, an adjunction core
-        gives rise to a thin adjunction, as remarked <fr:link
 type="local"
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000E</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+        (For <fr:tex>V</fr:tex>-enriched categories, ) If <fr:tex>V</fr:tex> is thin, all diagrams commute,
+        thus an adjunction core always determines an adjunction.
+    </fr:p><fr:p><fr:tex>Set</fr:tex> isn't thin, but <fr:tex>2</fr:tex> is, thus for posets, an adjunction core
+        gives rise to a thin adjunction, as remarked <fr:link
 href="subb-0006.xml"
+type="local"
 addr="subb-0006">here</fr:link>.
         I don't know how useful this lemma is for ordinary Homset categories.
-    </fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
+    </fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

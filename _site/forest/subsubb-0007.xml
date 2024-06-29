@@ -1,99 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>820</fr:anchor><fr:addr>subsubb-0007</fr:addr><fr:route>subsubb-0007.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>7</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
+root="false"><fr:frontmatter><fr:anchor>686</fr:anchor><fr:addr>subsubb-0007</fr:addr><fr:route>subsubb-0007.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>7</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
-addr="hejohns"
-title="Johnson He">Johnson He</fr:link></fr:author></fr:authors><fr:parent>sub-0007</fr:parent></fr:frontmatter><fr:mainmatter><fr:embedded-tex
-hash="d297a9e21f314451cdc6a305c57a3560"><fr:embedded-tex-preamble><![CDATA[\usepackage {tikz-cd}\usepackage {unicode-math}]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[
-                    \begin {tikzcd}
-                        A(F(-), a) \ar [r, Rightarrow, "(u∘-)"]\ar [d, Rightarrow, "≀"', "πₐ"] & A(F(-), b) \ar [d, Rightarrow, "≀"', "π_b"] \\
-                        X(-, U(a)) \ar [r, Rightarrow, "(\overline {U}(u)∘-)"] & X(-, U(b))
-                    \end {tikzcd}
-                ]]></fr:embedded-tex-body></fr:embedded-tex></fr:mainmatter><fr:backmatter><fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title>Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+type="local"
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>sub-0007</fr:parent></fr:frontmatter><fr:mainmatter><fr:embedded-tex
+hash="8efe46a4066df01c4e80f07f43789adb"><fr:embedded-tex-preamble>\usepackage {tikz-cd} \usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
+                     \begin {tikzcd}
+                        A(F(-), a)  \ar [r, Rightarrow, "(u∘-)"] \ar [d, Rightarrow, "≀"', "πₐ"] &amp; A(F(-), b)  \ar [d, Rightarrow, "≀"', "π_b"]  \\ 
+                        X(-, U(a))  \ar [r, Rightarrow, "( \overline {U} (u)∘-)"] &amp; X(-, U(b))
+                     \end {tikzcd}
+                </fr:embedded-tex-body></fr:embedded-tex></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>822</fr:anchor><fr:addr>sub-0007</fr:addr><fr:route>sub-0007.xml</fr:route><fr:title><fr:link
-type="local"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>684</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>sub-0007</fr:addr><fr:route>sub-0007.xml</fr:route><fr:title><fr:link
 href="hejohns-0007.xml"
-addr="hejohns-0007"
-title="Precursor to The Core of Adjoint Functors">Precursor to The Core of Adjoint Functors</fr:link> › the short proof (sketch)</fr:title><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>7</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
+addr="hejohns-0007">Precursor to The Core of Adjoint Functors</fr:link> › the short proof (sketch)</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>7</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
-addr="hejohns"
-title="Johnson He">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-0007</fr:parent></fr:frontmatter><fr:mainmatter><fr:ul><fr:li>
-            Suppose such a <fr:tex
-display="inline"><![CDATA[\overline {F}]]></fr:tex> exists.
-            Then naturality of <fr:tex
-display="inline"><![CDATA[π]]></fr:tex> requires that
-            <fr:tex
-display="inline"><![CDATA[∀f : X(x, y).]]></fr:tex> this square in <fr:tex
-display="inline"><![CDATA[Setᴬ]]></fr:tex> commutes:
+type="local"
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-0007</fr:parent></fr:frontmatter><fr:mainmatter><fr:ul><fr:li>
+            Suppose such a <fr:tex>\overline {F}</fr:tex> exists.
+            Then naturality of <fr:tex>π</fr:tex> requires that
+            <fr:tex>∀f : X(x, y).</fr:tex> this square in <fr:tex>Setᴬ</fr:tex> commutes:
             <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>375</fr:anchor><fr:addr>subsub-0007</fr:addr><fr:route>subsub-0007.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>7</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
+root="false"><fr:frontmatter><fr:anchor>323</fr:anchor><fr:addr>subsub-0007</fr:addr><fr:route>subsub-0007.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>7</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
-addr="hejohns"
-title="Johnson He">Johnson He</fr:link></fr:author></fr:authors><fr:parent>sub-0007</fr:parent></fr:frontmatter><fr:mainmatter><fr:embedded-tex
-hash="72916137e0dd482f96165eaf52c81f4c"><fr:embedded-tex-preamble><![CDATA[\usepackage {tikz-cd}\usepackage {unicode-math}]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[
-                    \begin {tikzcd}                     A(F(x), -) \ar [d, Rightarrow, "≀", "πₓ"'] & A(F(y), -) \ar [d, Rightarrow, "≀"', "π_y"]\ar [l, Rightarrow, "-∘\overline {F}(f)"'] \\
-                        X(x, U(-)) & X(y, U(-)) \ar [l, Rightarrow, "-∘f"]
-                    \end {tikzcd}
-                ]]></fr:embedded-tex-body></fr:embedded-tex></fr:mainmatter><fr:backmatter /></fr:tree>
-            Then clearly <fr:tex
-display="inline"><![CDATA[∃!\overline {F}.∀f : X(x, y). \overline {F}(f) = よ⁻¹(πₓ⁻¹∘(-∘f)∘π_y)]]></fr:tex>.
+type="local"
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>sub-0007</fr:parent></fr:frontmatter><fr:mainmatter><fr:embedded-tex
+hash="04c41799d5084f092a5df1e435c7b32e"><fr:embedded-tex-preamble>\usepackage {tikz-cd} \usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
+                     \begin {tikzcd}                     A(F(x), -)  \ar [d, Rightarrow, "≀", "πₓ"'] &amp; A(F(y), -)  \ar [d, Rightarrow, "≀"', "π_y"] \ar [l, Rightarrow, "-∘ \overline {F} (f)"']  \\ 
+                        X(x, U(-)) &amp; X(y, U(-))  \ar [l, Rightarrow, "-∘f"]
+                     \end {tikzcd}
+                </fr:embedded-tex-body></fr:embedded-tex></fr:mainmatter></fr:tree>
+            Then clearly <fr:tex>∃! \overline {F} .∀f : X(x, y).  \overline {F} (f) = よ⁻¹(πₓ⁻¹∘(-∘f)∘π_y)</fr:tex>.
         </fr:li>
 
         <fr:li>
-            (dual) Suppose such a <fr:tex
-display="inline"><![CDATA[\overline {U}]]></fr:tex> exists.
-            Then naturality of <fr:tex
-display="inline"><![CDATA[π]]></fr:tex> requires that
-            <fr:tex
-display="inline"><![CDATA[∀u : A(a, b).]]></fr:tex> this square in <fr:tex
-display="inline"><![CDATA[Set^{Xᵒᵖ}]]></fr:tex> commutes:
+            (dual) Suppose such a <fr:tex>\overline {U}</fr:tex> exists.
+            Then naturality of <fr:tex>π</fr:tex> requires that
+            <fr:tex>∀u : A(a, b).</fr:tex> this square in <fr:tex>Set^{Xᵒᵖ}</fr:tex> commutes:
             <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>377</fr:anchor><fr:addr>subsubb-0007</fr:addr><fr:route>subsubb-0007.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>7</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
+root="false"><fr:frontmatter><fr:anchor>325</fr:anchor><fr:addr>subsubb-0007</fr:addr><fr:route>subsubb-0007.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>7</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
-addr="hejohns"
-title="Johnson He">Johnson He</fr:link></fr:author></fr:authors><fr:parent>sub-0007</fr:parent></fr:frontmatter><fr:mainmatter><fr:embedded-tex
-hash="d297a9e21f314451cdc6a305c57a3560"><fr:embedded-tex-preamble><![CDATA[\usepackage {tikz-cd}\usepackage {unicode-math}]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[
-                    \begin {tikzcd}
-                        A(F(-), a) \ar [r, Rightarrow, "(u∘-)"]\ar [d, Rightarrow, "≀"', "πₐ"] & A(F(-), b) \ar [d, Rightarrow, "≀"', "π_b"] \\
-                        X(-, U(a)) \ar [r, Rightarrow, "(\overline {U}(u)∘-)"] & X(-, U(b))
-                    \end {tikzcd}
-                ]]></fr:embedded-tex-body></fr:embedded-tex></fr:mainmatter><fr:backmatter /></fr:tree>
-            and clearly <fr:tex
-display="inline"><![CDATA[∃!\overline {U}.∀u : A(a, b). \overline {U}(u) = よ⁻¹(π_b∘(u∘-)∘πₐ⁻¹)]]></fr:tex>.
-        </fr:li></fr:ul></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
+type="local"
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>sub-0007</fr:parent></fr:frontmatter><fr:mainmatter><fr:embedded-tex
+hash="8efe46a4066df01c4e80f07f43789adb"><fr:embedded-tex-preamble>\usepackage {tikz-cd} \usepackage {unicode-math}</fr:embedded-tex-preamble><fr:embedded-tex-body>
+                     \begin {tikzcd}
+                        A(F(-), a)  \ar [r, Rightarrow, "(u∘-)"] \ar [d, Rightarrow, "≀"', "πₐ"] &amp; A(F(-), b)  \ar [d, Rightarrow, "≀"', "π_b"]  \\ 
+                        X(-, U(a))  \ar [r, Rightarrow, "( \overline {U} (u)∘-)"] &amp; X(-, U(b))
+                     \end {tikzcd}
+                </fr:embedded-tex-body></fr:embedded-tex></fr:mainmatter></fr:tree>
+            and clearly <fr:tex>∃! \overline {U} .∀u : A(a, b).  \overline {U} (u) = よ⁻¹(π_b∘(u∘-)∘πₐ⁻¹)</fr:tex>.
+        </fr:li></fr:ul></fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
