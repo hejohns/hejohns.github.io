@@ -1,129 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>922</fr:anchor><fr:addr>hejohns-0002</fr:addr><fr:route>hejohns-0002.xml</fr:route><fr:title>Bisimulation</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>6</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
+root="false"><fr:frontmatter><fr:anchor>811</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hejohns-0002</fr:addr><fr:route>hejohns-0002.xml</fr:route><fr:title>Bisimulation</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>6</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
-addr="hejohns"
-title="Johnson He">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+type="local"
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
     "The basic case":
 </fr:p><fr:p>
-    A relation <fr:tex
-display="inline"><![CDATA[Z]]></fr:tex> (to not be confused with the accessibility relations <fr:tex
-display="inline"><![CDATA[R]]></fr:tex> for
-    each Kripke frame) between two Kripke frames <fr:tex
-display="inline"><![CDATA[M]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[M]]></fr:tex>' is a *bisimulation* iff
-    <fr:ul><fr:li><fr:tex
-display="inline"><![CDATA[w Z w']]></fr:tex> ⟹ (<fr:tex
-display="inline"><![CDATA[w]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[w]]></fr:tex>' are elementarily equivalent)
+    A relation <fr:tex>Z</fr:tex> (to not be confused with the accessibility relations <fr:tex>R</fr:tex> for
+    each Kripke frame) between two Kripke frames <fr:tex>M</fr:tex> and <fr:tex>M</fr:tex>' is a *bisimulation* iff
+    <fr:ul><fr:li><fr:tex>w Z w'</fr:tex> ⟹ (<fr:tex>w</fr:tex> and <fr:tex>w</fr:tex>' are elementarily equivalent)
         </fr:li>
         <fr:li>
-            (<fr:em>forth</fr:em>) <fr:tex
-display="inline"><![CDATA[w Z w' ∧ w R v ⟹ ∃ v' ∈ M'. w' R' v' ∧ v Z v']]></fr:tex></fr:li>
+            (<fr:em>forth</fr:em>) <fr:tex>w Z w' ∧ w R v ⟹ ∃ v' ∈ M'. w' R' v' ∧ v Z v'</fr:tex></fr:li>
         <fr:li>
-            (<fr:em>backwards</fr:em>) <fr:tex
-display="inline"><![CDATA[w Z w' ∧ w' R' v' ⟹ ∃ v ∈ M. w R v ∧ v Z v']]></fr:tex></fr:li></fr:ul></fr:p><fr:tree
+            (<fr:em>backwards</fr:em>) <fr:tex>w Z w' ∧ w' R' v' ⟹ ∃ v ∈ M. w R v ∧ v Z v'</fr:tex></fr:li></fr:ul></fr:p><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>378</fr:anchor><fr:addr>hejohns-0003</fr:addr><fr:route>hejohns-0003.xml</fr:route><fr:title>Bisimilar Kripke frames are elementarily equivalent</fr:title><fr:taxon>Moral corollary</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>6</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
+root="false"><fr:frontmatter><fr:anchor>433</fr:anchor><fr:taxon>Moral corollary</fr:taxon><fr:addr>hejohns-0003</fr:addr><fr:route>hejohns-0003.xml</fr:route><fr:title>Bisimilar Kripke frames are elementarily equivalent</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>6</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
-addr="hejohns"
-title="Johnson He">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+type="local"
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
     "Modal formulas cannot distinguish between bisimilar worlds or between bisimilar Kripke frames"
 
-</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter><fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title>Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+</fr:p></fr:mainmatter></fr:tree></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>924</fr:anchor><fr:addr>hejohns-0001</fr:addr><fr:route>hejohns-0001.xml</fr:route><fr:title>Simulation</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>6</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>809</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hejohns-0001</fr:addr><fr:route>hejohns-0001.xml</fr:route><fr:title>Simulation</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>6</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
-addr="hejohns"
-title="Johnson He">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+type="local"
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
     Here is Blackburn et all's account:
 </fr:p><fr:p>
     The concept first presented is that of <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>376</fr:anchor><fr:addr>hejohns-0002</fr:addr><fr:route>hejohns-0002.xml</fr:route><fr:title>Bisimulation</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>6</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
+root="false"><fr:frontmatter><fr:anchor>435</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hejohns-0002</fr:addr><fr:route>hejohns-0002.xml</fr:route><fr:title>Bisimulation</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>6</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
-addr="hejohns"
-title="Johnson He">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+type="local"
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
     "The basic case":
 </fr:p><fr:p>
-    A relation <fr:tex
-display="inline"><![CDATA[Z]]></fr:tex> (to not be confused with the accessibility relations <fr:tex
-display="inline"><![CDATA[R]]></fr:tex> for
-    each Kripke frame) between two Kripke frames <fr:tex
-display="inline"><![CDATA[M]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[M]]></fr:tex>' is a *bisimulation* iff
-    <fr:ul><fr:li><fr:tex
-display="inline"><![CDATA[w Z w']]></fr:tex> ⟹ (<fr:tex
-display="inline"><![CDATA[w]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[w]]></fr:tex>' are elementarily equivalent)
+    A relation <fr:tex>Z</fr:tex> (to not be confused with the accessibility relations <fr:tex>R</fr:tex> for
+    each Kripke frame) between two Kripke frames <fr:tex>M</fr:tex> and <fr:tex>M</fr:tex>' is a *bisimulation* iff
+    <fr:ul><fr:li><fr:tex>w Z w'</fr:tex> ⟹ (<fr:tex>w</fr:tex> and <fr:tex>w</fr:tex>' are elementarily equivalent)
         </fr:li>
         <fr:li>
-            (<fr:em>forth</fr:em>) <fr:tex
-display="inline"><![CDATA[w Z w' ∧ w R v ⟹ ∃ v' ∈ M'. w' R' v' ∧ v Z v']]></fr:tex></fr:li>
+            (<fr:em>forth</fr:em>) <fr:tex>w Z w' ∧ w R v ⟹ ∃ v' ∈ M'. w' R' v' ∧ v Z v'</fr:tex></fr:li>
         <fr:li>
-            (<fr:em>backwards</fr:em>) <fr:tex
-display="inline"><![CDATA[w Z w' ∧ w' R' v' ⟹ ∃ v ∈ M. w R v ∧ v Z v']]></fr:tex></fr:li></fr:ul></fr:p><fr:tree
+            (<fr:em>backwards</fr:em>) <fr:tex>w Z w' ∧ w' R' v' ⟹ ∃ v ∈ M. w R v ∧ v Z v'</fr:tex></fr:li></fr:ul></fr:p><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>378</fr:anchor><fr:addr>hejohns-0003</fr:addr><fr:route>hejohns-0003.xml</fr:route><fr:title>Bisimilar Kripke frames are elementarily equivalent</fr:title><fr:taxon>Moral corollary</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>6</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
+root="false"><fr:frontmatter><fr:anchor>433</fr:anchor><fr:taxon>Moral corollary</fr:taxon><fr:addr>hejohns-0003</fr:addr><fr:route>hejohns-0003.xml</fr:route><fr:title>Bisimilar Kripke frames are elementarily equivalent</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>6</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
-addr="hejohns"
-title="Johnson He">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+type="local"
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
     "Modal formulas cannot distinguish between bisimilar worlds or between bisimilar Kripke frames"
 
-</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree>.
+</fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree>.
     A <fr:em>simulation</fr:em> is where we drop the <fr:em>backwards</fr:em> condition.
 </fr:p><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>380</fr:anchor><fr:addr>hejohns-0004</fr:addr><fr:route>hejohns-0004.xml</fr:route><fr:title>Preservation under simulations</fr:title><fr:taxon>Corollary</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>6</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
+root="false"><fr:frontmatter><fr:anchor>437</fr:anchor><fr:taxon>Corollary</fr:taxon><fr:addr>hejohns-0004</fr:addr><fr:route>hejohns-0004.xml</fr:route><fr:title>Preservation under simulations</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>6</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
-addr="hejohns"
-title="Johnson He">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-    Clearly the truth of <fr:tex
-display="inline"><![CDATA[∧,∨,◇]]></fr:tex>-formulas are preserved under simulations.
+type="local"
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+    Clearly the truth of <fr:tex>∧,∨,◇</fr:tex>-formulas are preserved under simulations.
     Actually it's shown that the class of formulas preserved under simulations are exactly these formulas.
-</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
+</fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

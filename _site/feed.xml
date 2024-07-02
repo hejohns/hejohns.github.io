@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://hejohns.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hejohns.github.io/" rel="alternate" type="text/html" /><updated>2024-07-02T03:34:02-04:00</updated><id>https://hejohns.github.io/feed.xml</id><title type="html">hejohns’ jekyll site</title><subtitle>a pure waste of space</subtitle><author><name>Johnson He</name><email>hejohns α umich δ edu</email></author><entry><title type="html">archiving stack overflow (for the forest)</title><link href="https://hejohns.github.io/2024/06/17/archiving-stack-overflow.html" rel="alternate" type="text/html" title="archiving stack overflow (for the forest)" /><published>2024-06-17T00:00:00-04:00</published><updated>2024-06-29T04:03:08-04:00</updated><id>https://hejohns.github.io/2024/06/17/archiving-stack-overflow</id><content type="html" xml:base="https://hejohns.github.io/2024/06/17/archiving-stack-overflow.html"><![CDATA[<h2 id="first-iteration">First Iteration</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://hejohns.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hejohns.github.io/" rel="alternate" type="text/html" /><updated>2024-07-02T03:47:03-04:00</updated><id>https://hejohns.github.io/feed.xml</id><title type="html">hejohns’ jekyll site</title><subtitle>a pure waste of space</subtitle><author><name>Johnson He</name><email>hejohns α umich δ edu</email></author><entry><title type="html">archiving stack overflow (for the forest)</title><link href="https://hejohns.github.io/2024/06/17/archiving-stack-overflow.html" rel="alternate" type="text/html" title="archiving stack overflow (for the forest)" /><published>2024-06-17T00:00:00-04:00</published><updated>2024-06-29T04:03:08-04:00</updated><id>https://hejohns.github.io/2024/06/17/archiving-stack-overflow</id><content type="html" xml:base="https://hejohns.github.io/2024/06/17/archiving-stack-overflow.html"><![CDATA[<h2 id="first-iteration">First Iteration</h2>
 
 <p>(Note: I call any stack exchange site “stack overflow”.)</p>
 
@@ -48,7 +48,42 @@ then save the page with Firefox’s “Save Page As…”, scripted with <code c
 some reason the stack overflow MathJax initially loads fine, then disappears
 with “math processing error”.</p>
 
-<p>Yeah… not the way I wanted this to go but I think this second version works.</p>]]></content><author><name>Johnson He</name><email>hejohns α umich δ edu</email></author><summary type="html"><![CDATA[First Iteration]]></summary></entry><entry><title type="html">fountain pen nibs</title><link href="https://hejohns.github.io/2024/04/11/fountain-pen-nibs.html" rel="alternate" type="text/html" title="fountain pen nibs" /><published>2024-04-11T00:00:00-04:00</published><updated>2024-04-11T17:48:22-04:00</updated><id>https://hejohns.github.io/2024/04/11/fountain-pen-nibs</id><content type="html" xml:base="https://hejohns.github.io/2024/04/11/fountain-pen-nibs.html"><![CDATA[<p>Several weeks ago, I lost my other TWSBI 580 (technically, the 580 ALR)
+<p>Yeah… not the way I wanted this to go but I think this second version works.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+#!/usr/bin/env ruby
+
+require 'selenium-webdriver'
+
+driver = Selenium::WebDriver.for :firefox
+driver.get(ARGV[0])
+
+# https://meta.stackoverflow.com/questions/268400/is-there-a-get-query-string-to-expand-all-comments-by-default#comment555104_268456
+sleep 1
+driver.execute_script(
+  "javascript:for(x of document.getElementsByClassName('js-add-link comments-link'))x.click()"
+)
+
+# We get MathJax rendering errors for some reason, so let's just use the
+# browser's "Save Page As"
+#puts driver.page_source
+
+# For some reason, the selenium action for C-s doesn't work, but things like
+# C-a, tab, S-tab, work
+# Not that it matters much, since we wouldn't be able to interact with the
+# popup anyways
+#driver.action.key_down(:control).key_down('s').key_up(:control).key_up('s').perform
+
+# somehow, we always come back to xdotool...
+`xdotool key ctrl+s`
+system('xdotool', 'type', File.expand_path(ARGV[1]))
+`xdotool key alt+s`
+
+sleep 1
+driver.quit
+
+
+</code></pre></div></div>]]></content><author><name>Johnson He</name><email>hejohns α umich δ edu</email></author><summary type="html"><![CDATA[First Iteration]]></summary></entry><entry><title type="html">fountain pen nibs</title><link href="https://hejohns.github.io/2024/04/11/fountain-pen-nibs.html" rel="alternate" type="text/html" title="fountain pen nibs" /><published>2024-04-11T00:00:00-04:00</published><updated>2024-04-11T17:48:22-04:00</updated><id>https://hejohns.github.io/2024/04/11/fountain-pen-nibs</id><content type="html" xml:base="https://hejohns.github.io/2024/04/11/fountain-pen-nibs.html"><![CDATA[<p>Several weeks ago, I lost my other TWSBI 580 (technically, the 580 ALR)
 which meant that I didn’t have any EF nibs left<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>.</p>
 
 <p>Through the process of sourcing nibs, I learned a lot about the details so:</p>

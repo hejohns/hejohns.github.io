@@ -53,3 +53,9 @@ some reason the stack overflow MathJax initially loads fine, then disappears
 with "math processing error".
 
 Yeah… not the way I wanted this to go but I think this second version works.
+
+```
+
+{% include_absolute '_forest/archive.rb' %}
+
+```

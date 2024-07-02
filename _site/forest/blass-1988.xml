@@ -1,76 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>734</fr:anchor><fr:addr>blass-1988</fr:addr><fr:route>blass-1988.xml</fr:route><fr:title>Topoi and Computation</fr:title><fr:taxon>Reference</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+root="false"><fr:frontmatter><fr:anchor>512</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>blass-1988</fr:addr><fr:route>blass-1988.xml</fr:route><fr:title>Topoi and Computation</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>348</fr:anchor><fr:addr>#211</fr:addr><fr:route>unstable-211.xml</fr:route><fr:taxon>Abstract</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:authors /><fr:parent>blass-1988</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>375</fr:anchor><fr:taxon>Abstract</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:parent>blass-1988</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
         This is the written version of a talk given at the C.I.R.M. Workshop on
         Logic in Computer Science at Marseille, France in June, 1988. Its purpose
         is to argue that there is a close connection between the theory of
         computation and the geometric side of topos theory. We begin with a brief
         outline of the history and basic concepts of topos theory.
-    </fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+    </fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>349</fr:anchor><fr:addr>#212</fr:addr><fr:route>unstable-212.xml</fr:route><fr:taxon>Notes</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:authors /><fr:parent>blass-1988</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>376</fr:anchor><fr:taxon>Notes</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:parent>blass-1988</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
         Prof. Blass essentially described this background over the course of
         the logic seminar last semester (as comments at various meetings,
         culminating with a full talk), but this is a nice written account of
         the history of topos theory, the relation between Grothendieck and
         Elementary topoi, and the relation between geometric and logical
         morphisms.
-    </fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:p><fr:link
-type="external"
-href="blass-1988.pdf">blass-1988.pdf</fr:link></fr:p></fr:mainmatter><fr:backmatter><fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title>Backlinks</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+    </fr:p></fr:mainmatter></fr:tree><fr:p><fr:link
+href="blass-1988.pdf"
+type="external">blass-1988.pdf</fr:link></fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context></fr:context><fr:related></fr:related><fr:backlinks><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>735</fr:anchor><fr:addr>hejohns-000F</fr:addr><fr:route>hejohns-000F.xml</fr:route><fr:title>"Higher-order intuitionistic logic" v. "topos logic"</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>29</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>508</fr:anchor><fr:addr>hejohns-000F</fr:addr><fr:route>hejohns-000F.xml</fr:route><fr:title>"Higher-order intuitionistic logic" v. "topos logic"</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>29</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
-addr="hejohns"
-title="Johnson He">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+type="local"
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
     Many authors object to the name "higher-order intuitionistic logic".
 </fr:p><fr:p><fr:link
-type="local"
 href="blass-1988.xml"
-addr="blass-1988"
-title="Topoi and Computation">Topoi and Computation</fr:link> writes that "Strictly speaking, the phrase 'higher-order
+type="local"
+addr="blass-1988">Topoi and Computation</fr:link> writes that "Strictly speaking, the phrase 'higher-order
     intuitionistic' makes little sense, since it is not clear that
     constructions like the power set are intuitionistically acceptable. What is
     meant by the phrase is a type theory built on a formally intuitionistic
     underlying logic." (p. 2).
 </fr:p><fr:p>
     And <fr:link
-type="local"
 href="mclarty-1992.xml"
-addr="mclarty-1992"
-title="Elementary Categories, Elementary Toposes">Elementary Categories, Elementary Toposes</fr:link> similarly writes "In Part III the first order topos
+type="local"
+addr="mclarty-1992">Elementary Categories, Elementary Toposes</fr:link> similarly writes "In Part III the first order topos
     axioms are used to define the higher order internal language. The logic is
     called 'topos logic' here, although 'intuitionistic logic' is often
     referred to in the literature. I believe that 'intuitionism' is usually,
@@ -91,30 +81,27 @@ title="Elementary Categories, Elementary Toposes">Elementary Categories, Element
     Although I like calling it "finite-type intuitionistic predicate logic" to
     keep in touch with some older terminology you still see around the block.
 
-</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+</fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>737</fr:anchor><fr:addr>hejohns-000H</fr:addr><fr:route>hejohns-000H.xml</fr:route><fr:title>Why is it called an "elementary" topos?</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>510</fr:anchor><fr:addr>hejohns-000H</fr:addr><fr:route>hejohns-000H.xml</fr:route><fr:title>Why is it called an "elementary" topos?</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
-addr="hejohns"
-title="Johnson He">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:link
 type="local"
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:link
 href="blass-1988.xml"
-addr="blass-1988"
-title="Topoi and Computation">Topoi and Computation</fr:link> writes that "The word 'elementary' in connection with the Lawvere-Tierney definition refers to the fact that their axioms are expressed in the first-order language of categories; in fact the axioms are essentially algebraic." (p. 2).
+type="local"
+addr="blass-1988">Topoi and Computation</fr:link> writes that "The word 'elementary' in connection with the Lawvere-Tierney definition refers to the fact that their axioms are expressed in the first-order language of categories; in fact the axioms are essentially algebraic." (p. 2).
     (Recall that categories can be formalized as a two or dependently-sorted
     first order theory.)
 </fr:p><fr:p>
     This is corroborated by <fr:link
-type="local"
 href="marquis-reyes-2012.xml"
-addr="marquis-reyes-2012"
-title="The history of categorical logic: 1963-1977">The history of categorical logic: 1963-1977</fr:link>, writing that "In the years
+type="local"
+addr="marquis-reyes-2012">The history of categorical logic: 1963-1977</fr:link>, writing that "In the years
     that followed, Lawvere tried to extend his analysis and sketched a
     categorical version of first-order theories under the name of elementary
     theories. Then, in 1969, in collaboration with Myles Tierney, Lawvere
@@ -128,10 +115,9 @@ title="The history of categorical logic: 1963-1977">The history of categorical l
     differential geometry, constructive mathematics were made." (p. 2).
 </fr:p><fr:p>
     If <fr:link
-type="local"
 href="lawvere-1970.xml"
-addr="lawvere-1970"
-title="Quantifiers and Sheaves">Quantifiers and Sheaves</fr:link> is indeed the paper that introduces elementary toposes,
+type="local"
+addr="lawvere-1970">Quantifiers and Sheaves</fr:link> is indeed the paper that introduces elementary toposes,
     it's curious to note that the word "elementary" never appears.
     It must've been coined sometime later, but I don't know the details.
-</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
+</fr:p></fr:mainmatter></fr:tree></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

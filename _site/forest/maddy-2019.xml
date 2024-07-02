@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>765</fr:anchor><fr:addr>maddy-2019</fr:addr><fr:route>maddy-2019.xml</fr:route><fr:title>What do we want a foundation to do?</fr:title><fr:taxon>Reference</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>21</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>22</fr:day></fr:date><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+root="false"><fr:frontmatter><fr:anchor>572</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>maddy-2019</fr:addr><fr:route>maddy-2019.xml</fr:route><fr:title>What do we want a foundation to do?</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>21</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>22</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>358</fr:anchor><fr:addr>#171</fr:addr><fr:route>unstable-171.xml</fr:route><fr:taxon>Abstract</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>21</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>22</fr:day></fr:date><fr:authors /><fr:parent>maddy-2019</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>390</fr:anchor><fr:taxon>Abstract</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>21</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>22</fr:day></fr:date><fr:parent>maddy-2019</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
         Mainstream orthodoxy holds that set theory provides a foundation for
         contemporary pure mathematics. Critics of this view argue that category
         theory, or more recently univalent foundations, is better suited to this
@@ -30,7 +30,7 @@ xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3
         done. What matters is these jobs we want our theories to do and how well
         they do them. Whether any or all of them, jobs or theories, deserves to be
         called ‘foundational’ is really beside the point.
-    </fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:p>
+    </fr:p></fr:mainmatter></fr:tree><fr:p>
     A nice article that can be briefly summarized as
     <fr:ul><fr:li>
             There is no one clear set of desiderata for a <fr:em>foundational</fr:em>
@@ -64,5 +64,5 @@ xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3
 </fr:p><fr:p>
     I've used quotes here as air quotes, not actual quotes of Maddy.
     <fr:link
-type="external"
-href="maddy-2019.pdf">maddy-2019.pdf</fr:link></fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
+href="maddy-2019.pdf"
+type="external">maddy-2019.pdf</fr:link></fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context></fr:context><fr:related></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

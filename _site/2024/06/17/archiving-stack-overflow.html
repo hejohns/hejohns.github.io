@@ -119,6 +119,41 @@ with “math processing error”.</p>
 
 <p>Yeah… not the way I wanted this to go but I think this second version works.</p>
 
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+#!/usr/bin/env ruby
+
+require 'selenium-webdriver'
+
+driver = Selenium::WebDriver.for :firefox
+driver.get(ARGV[0])
+
+# https://meta.stackoverflow.com/questions/268400/is-there-a-get-query-string-to-expand-all-comments-by-default#comment555104_268456
+sleep 1
+driver.execute_script(
+  "javascript:for(x of document.getElementsByClassName('js-add-link comments-link'))x.click()"
+)
+
+# We get MathJax rendering errors for some reason, so let's just use the
+# browser's "Save Page As"
+#puts driver.page_source
+
+# For some reason, the selenium action for C-s doesn't work, but things like
+# C-a, tab, S-tab, work
+# Not that it matters much, since we wouldn't be able to interact with the
+# popup anyways
+#driver.action.key_down(:control).key_down('s').key_up(:control).key_up('s').perform
+
+# somehow, we always come back to xdotool...
+`xdotool key ctrl+s`
+system('xdotool', 'type', File.expand_path(ARGV[1]))
+`xdotool key alt+s`
+
+sleep 1
+driver.quit
+
+
+</code></pre></div></div>
+
   </div><!-- use minima's column styling since I don't know css -->
   <div class="footer-col-wrapper">
       <div class="footer-col"><a href="/2024/04/11/fountain-pen-nibs.html">prev</a></div>
