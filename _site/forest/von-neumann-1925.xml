@@ -1,118 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>559</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>von-neumann-1925</fr:addr><fr:route>von-neumann-1925.xml</fr:route><fr:title>An Axiomatization of Set Theory</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>28</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>29</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>745</fr:anchor><fr:addr>von-neumann-1925</fr:addr><fr:route>von-neumann-1925.xml</fr:route><fr:title>An Axiomatization of Set Theory</fr:title><fr:taxon>Reference</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>28</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>29</fr:day></fr:date><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p>
     One of the early NBG papers. Maybe "the" NBG paper.
     My notes on this are currently in <fr:link
-href="quine-1960.xml"
 type="local"
-addr="quine-1960">Variables Explained Away</fr:link>.
+href="quine-1960.xml"
+addr="quine-1960"
+title="Variables Explained Away">Variables Explained Away</fr:link>.
 </fr:p><fr:p>
     English translation in <fr:link
-href="van-heijenoort-1967.xml"
 type="local"
-addr="van-heijenoort-1967">From Frege To Gödel</fr:link>.
-</fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context></fr:context><fr:related></fr:related><fr:backlinks><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
+href="van-heijenoort-1967.xml"
+addr="van-heijenoort-1967"
+title="From Frege To Gödel">From Frege To Gödel</fr:link>.
+</fr:p></fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
 numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>556</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>quine-1960</fr:addr><fr:route>quine-1960.xml</fr:route><fr:title>Variables Explained Away</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>28</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>29</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p>
-    "Separately I sent a copy of Quine's 1950 paper on combinatory logic to
-    this list. Whatever else you might think about Quine, he was a terrific
-    explainer, and this is the best introduction to the subject I know."
-</fr:p><fr:p>
-    (Yes, that 50 should be a 60(b).)
-    Here is the followup I wrote:
-</fr:p><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>381</fr:anchor><fr:taxon>Email</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>28</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>29</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="hejohns.xml"
-type="local"
-addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>quine-1960</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-        Thanks for sharing this nice little note, which sketches a combinatory
-        (classical) first-order logic.
-    </fr:p><fr:p>
-        I was surprised by the mention of von Neumann 1925 in this snippet:
-    </fr:p><fr:p>
-        "In a way our operators are reminiscent also of the axioms of class
-        existence in Neumann, J. von, Eine Axiomatisierung der Mengenlehre,
-        Journal für reine und ungewandte Mathematik 154: 219-240, 1925, despite
-        dissimilarity of purpose." (Footnote 1, p. 346)
-    </fr:p><fr:p>
-        From what I gather, the reminiscence with von Neumann 1925 (I assume
-        Quine was principally referring to the "III. Logical Construction
-        Axioms") is that the purposes (of Quine's predicate combinators and von
-        Neumann's axioms of existence of II-objects) are actually quite
-        similar.
-    </fr:p><fr:p>
-        It seems that the system of von Neumann 1925 isn't couched in any
-        particular formal system (although it's maybe implicitly first-order,
-        and apparently translated into such by Skolem 1938), thus von Neumann
-        wants to recover from any definite property ("logical condition") on
-        I-objects, the (existence of a) class (II-object) of those I-objects.
-        Wikipedia calls this the <fr:link
-href="https://en.wikipedia.org/wiki/Von_Neumann%E2%80%93Bernays%E2%80%93G%C3%B6del_set_theory#Class_existence_theorem"
-type="external">class existence theorem</fr:link>.
-    </fr:p><fr:p>
-        (More generally, the "reduction theorem" in von Neumann 1925 says that
-        every expression of I-objects (definable class-function) is indeed a
-        II-object (class-function). This restricts to logical conditions and
-        classes.)
-    </fr:p><fr:p>
-        To do this economically, the existence of a few basic
-        combinator-classes are stipulated (=, ∀, ∃!), and more complex logical
-        conditions are put in "normal form" by eliminating variables with the
-        combinator-classes.  The 'uneconomic' way, if von Neumann 1925 were
-        working in an explicit logic, would be to just stipulate a schema of
-        class comprehension (also mentioned in the Wikipedia article), as
-        included in the back of Chang and Keisler.
-    </fr:p><fr:p>
-        Actually, while there are explicit class existence axioms for absorbing
-        =, ∀, ∃!, I don't see any for things like ∧ or ¬, and don't see how
-        they'd follow with the other axioms, but I suppose they must. The
-        Wikipedia article has a write-up starting from more user-friendly
-        axioms.
-    </fr:p><fr:p>
-        In any case, I hadn't realized that the historic move to make precise
-        the notion of 'definite property' as 'first-order definable' was
-        nontrivial, and found this connection with Quine's note interesting,
-    </fr:p><fr:p>
-        Johnson He
-    </fr:p></fr:mainmatter></fr:tree><fr:ul><fr:li><fr:link
-href="quine-1960.pdf"
-type="external">quine-1960.pdf</fr:link></fr:li>
-    <fr:li><fr:link
-href="von-neumann-1925.xml"
-type="local"
-addr="von-neumann-1925">An Axiomatization of Set Theory</fr:link></fr:li></fr:ul></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title>Backlinks</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>557</fr:anchor><fr:addr>hejohns-000B</fr:addr><fr:route>hejohns-000B.xml</fr:route><fr:title>Logical Frameworks as a meta-language</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>27</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:authors><fr:author><fr:link
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>746</fr:anchor><fr:addr>hejohns-000B</fr:addr><fr:route>hejohns-000B.xml</fr:route><fr:title>Logical Frameworks as a meta-language</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>27</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
 href="hejohns.xml"
-type="local"
-addr="hejohns">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+addr="hejohns"
+title="Johnson He">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
     While reading <fr:link
-href="von-neumann-1925.xml"
 type="local"
-addr="von-neumann-1925">An Axiomatization of Set Theory</fr:link>, I just had the completely trivial-- and
+href="von-neumann-1925.xml"
+addr="von-neumann-1925"
+title="An Axiomatization of Set Theory">An Axiomatization of Set Theory</fr:link>, I just had the completely trivial-- and
     "that's… the point"-- "realization" that first order logic is the
     meta-language of axiomatic mathematics, just as (it seems) logical
     frameworks are the meta-languages of (typically λ-calculus based)
@@ -121,27 +52,21 @@ addr="von-neumann-1925">An Axiomatization of Set Theory</fr:link>, I just had th
 </fr:p><fr:p>
     That is, (classical) FoL is often the setting in which axiomatic
     mathematical theories are formalized. Classic (no pun intended) examples
-    are <fr:tex>( \mathcal {L}_{group} =  \{ e, ⋅, -⁻¹ \} , Th( \textsf {groups}))</fr:tex>, <fr:tex>( \mathcal {L}_{DLO} =  \{ ≤ \} , Th( \textsf {Dense Linear Orders}))</fr:tex>, <fr:tex>( \mathcal {L}_{sets} =  \{ ∈ \} , ZFC)</fr:tex>.
+    are <fr:tex
+display="inline"><![CDATA[(\mathcal {L}_{group} = \{e, ⋅, -⁻¹\}, Th(\textsf {groups}))]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[(\mathcal {L}_{DLO} = \{≤\}, Th(\textsf {Dense Linear Orders}))]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[(\mathcal {L}_{sets} = \{∈\}, ZFC)]]></fr:tex>.
     (To be ultra-pedantic is a fruitless way, I've paired the language and theory.)
 </fr:p><fr:p>
     "definite property"
-</fr:p></fr:mainmatter></fr:tree></fr:backlinks><fr:references><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>554</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>van-heijenoort-1967</fr:addr><fr:route>van-heijenoort-1967.xml</fr:route><fr:title>From Frege To Gödel</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>28</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>29</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p>
-    A+. I should get a second copy to gift whenever needed.
-</fr:p></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>555</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>quine-1960</fr:addr><fr:route>quine-1960.xml</fr:route><fr:title>Variables Explained Away</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>28</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>29</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p>
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>748</fr:anchor><fr:addr>quine-1960</fr:addr><fr:route>quine-1960.xml</fr:route><fr:title>Variables Explained Away</fr:title><fr:taxon>Reference</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>28</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>29</fr:day></fr:date><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p>
     "Separately I sent a copy of Quine's 1950 paper on combinatory logic to
     this list. Whatever else you might think about Quine, he was a terrific
     explainer, and this is the best introduction to the subject I know."
@@ -149,16 +74,17 @@ root="false"><fr:frontmatter><fr:anchor>555</fr:anchor><fr:taxon>Reference</fr:t
     (Yes, that 50 should be a 60(b).)
     Here is the followup I wrote:
 </fr:p><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>381</fr:anchor><fr:taxon>Email</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>28</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>29</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="hejohns.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>353</fr:anchor><fr:addr>#167</fr:addr><fr:route>unstable-167.xml</fr:route><fr:taxon>Email</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>28</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>29</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>quine-1960</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+href="hejohns.xml"
+addr="hejohns"
+title="Johnson He">Johnson He</fr:link></fr:author></fr:authors><fr:parent>quine-1960</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
         Thanks for sharing this nice little note, which sketches a combinatory
         (classical) first-order logic.
     </fr:p><fr:p>
@@ -181,8 +107,8 @@ addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>quine-196
         wants to recover from any definite property ("logical condition") on
         I-objects, the (existence of a) class (II-object) of those I-objects.
         Wikipedia calls this the <fr:link
-href="https://en.wikipedia.org/wiki/Von_Neumann%E2%80%93Bernays%E2%80%93G%C3%B6del_set_theory#Class_existence_theorem"
-type="external">class existence theorem</fr:link>.
+type="external"
+href="https://en.wikipedia.org/wiki/Von_Neumann%E2%80%93Bernays%E2%80%93G%C3%B6del_set_theory#Class_existence_theorem">class existence theorem</fr:link>.
     </fr:p><fr:p>
         (More generally, the "reduction theorem" in von Neumann 1925 says that
         every expression of I-objects (definable class-function) is indeed a
@@ -208,10 +134,11 @@ type="external">class existence theorem</fr:link>.
         nontrivial, and found this connection with Quine's note interesting,
     </fr:p><fr:p>
         Johnson He
-    </fr:p></fr:mainmatter></fr:tree><fr:ul><fr:li><fr:link
-href="quine-1960.pdf"
-type="external">quine-1960.pdf</fr:link></fr:li>
+    </fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:ul><fr:li><fr:link
+type="external"
+href="quine-1960.pdf">quine-1960.pdf</fr:link></fr:li>
     <fr:li><fr:link
-href="von-neumann-1925.xml"
 type="local"
-addr="von-neumann-1925">An Axiomatization of Set Theory</fr:link></fr:li></fr:ul></fr:mainmatter></fr:tree></fr:references></fr:backmatter></fr:tree>
+href="von-neumann-1925.xml"
+addr="von-neumann-1925"
+title="An Axiomatization of Set Theory">An Axiomatization of Set Theory</fr:link></fr:li></fr:ul></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

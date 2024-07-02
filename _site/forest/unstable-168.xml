@@ -44,7 +44,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>426</fr:anchor><fr:addr>#168</fr:addr><fr:route>unstable-168.xml</fr:route><fr:taxon>Abstract</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:authors /><fr:parent>millies-zeilberger-2015</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>339</fr:anchor><fr:addr>#168</fr:addr><fr:route>unstable-168.xml</fr:route><fr:taxon>Abstract</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:authors /><fr:parent>millies-zeilberger-2015</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
         The standard reading of type theory through the lens of category theory
         is based on the idea of viewing a type system as a category of
         well-typed terms. We propose a basic revision of this reading: rather
@@ -67,7 +67,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>427</fr:anchor><fr:addr>#169</fr:addr><fr:route>unstable-169.xml</fr:route><fr:title>Sections 1-2</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>340</fr:anchor><fr:addr>#169</fr:addr><fr:route>unstable-169.xml</fr:route><fr:title>Sections 1-2</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="hejohns.xml"
 addr="hejohns"

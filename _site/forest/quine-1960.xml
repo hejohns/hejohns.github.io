@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>564</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>quine-1960</fr:addr><fr:route>quine-1960.xml</fr:route><fr:title>Variables Explained Away</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>28</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>29</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>751</fr:anchor><fr:addr>quine-1960</fr:addr><fr:route>quine-1960.xml</fr:route><fr:title>Variables Explained Away</fr:title><fr:taxon>Reference</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>28</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>29</fr:day></fr:date><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p>
     "Separately I sent a copy of Quine's 1950 paper on combinatory logic to
     this list. Whatever else you might think about Quine, he was a terrific
     explainer, and this is the best introduction to the subject I know."
@@ -15,16 +15,17 @@ root="false"><fr:frontmatter><fr:anchor>564</fr:anchor><fr:taxon>Reference</fr:t
     (Yes, that 50 should be a 60(b).)
     Here is the followup I wrote:
 </fr:p><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>381</fr:anchor><fr:taxon>Email</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>28</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>29</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="hejohns.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>353</fr:anchor><fr:addr>#167</fr:addr><fr:route>unstable-167.xml</fr:route><fr:taxon>Email</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>28</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>29</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>quine-1960</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+href="hejohns.xml"
+addr="hejohns"
+title="Johnson He">Johnson He</fr:link></fr:author></fr:authors><fr:parent>quine-1960</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
         Thanks for sharing this nice little note, which sketches a combinatory
         (classical) first-order logic.
     </fr:p><fr:p>
@@ -47,8 +48,8 @@ addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>quine-196
         wants to recover from any definite property ("logical condition") on
         I-objects, the (existence of a) class (II-object) of those I-objects.
         Wikipedia calls this the <fr:link
-href="https://en.wikipedia.org/wiki/Von_Neumann%E2%80%93Bernays%E2%80%93G%C3%B6del_set_theory#Class_existence_theorem"
-type="external">class existence theorem</fr:link>.
+type="external"
+href="https://en.wikipedia.org/wiki/Von_Neumann%E2%80%93Bernays%E2%80%93G%C3%B6del_set_theory#Class_existence_theorem">class existence theorem</fr:link>.
     </fr:p><fr:p>
         (More generally, the "reduction theorem" in von Neumann 1925 says that
         every expression of I-objects (definable class-function) is indeed a
@@ -74,46 +75,65 @@ type="external">class existence theorem</fr:link>.
         nontrivial, and found this connection with Quine's note interesting,
     </fr:p><fr:p>
         Johnson He
-    </fr:p></fr:mainmatter></fr:tree><fr:ul><fr:li><fr:link
-href="quine-1960.pdf"
-type="external">quine-1960.pdf</fr:link></fr:li>
+    </fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:ul><fr:li><fr:link
+type="external"
+href="quine-1960.pdf">quine-1960.pdf</fr:link></fr:li>
     <fr:li><fr:link
+type="local"
 href="von-neumann-1925.xml"
-type="local"
-addr="von-neumann-1925">An Axiomatization of Set Theory</fr:link></fr:li></fr:ul></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context></fr:context><fr:related></fr:related><fr:backlinks><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+addr="von-neumann-1925"
+title="An Axiomatization of Set Theory">An Axiomatization of Set Theory</fr:link></fr:li></fr:ul></fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title>References</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>563</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>von-neumann-1925</fr:addr><fr:route>von-neumann-1925.xml</fr:route><fr:title>An Axiomatization of Set Theory</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>28</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>29</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p>
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>752</fr:anchor><fr:addr>von-neumann-1925</fr:addr><fr:route>von-neumann-1925.xml</fr:route><fr:title>An Axiomatization of Set Theory</fr:title><fr:taxon>Reference</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>28</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>29</fr:day></fr:date><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p>
     One of the early NBG papers. Maybe "the" NBG paper.
     My notes on this are currently in <fr:link
-href="quine-1960.xml"
 type="local"
-addr="quine-1960">Variables Explained Away</fr:link>.
+href="quine-1960.xml"
+addr="quine-1960"
+title="Variables Explained Away">Variables Explained Away</fr:link>.
 </fr:p><fr:p>
     English translation in <fr:link
-href="van-heijenoort-1967.xml"
 type="local"
-addr="van-heijenoort-1967">From Frege To Gödel</fr:link>.
-</fr:p></fr:mainmatter></fr:tree></fr:backlinks><fr:references><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+href="van-heijenoort-1967.xml"
+addr="van-heijenoort-1967"
+title="From Frege To Gödel">From Frege To Gödel</fr:link>.
+</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title>Backlinks</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>562</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>von-neumann-1925</fr:addr><fr:route>von-neumann-1925.xml</fr:route><fr:title>An Axiomatization of Set Theory</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>28</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>29</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p>
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>753</fr:anchor><fr:addr>von-neumann-1925</fr:addr><fr:route>von-neumann-1925.xml</fr:route><fr:title>An Axiomatization of Set Theory</fr:title><fr:taxon>Reference</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>28</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>29</fr:day></fr:date><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p>
     One of the early NBG papers. Maybe "the" NBG paper.
     My notes on this are currently in <fr:link
-href="quine-1960.xml"
 type="local"
-addr="quine-1960">Variables Explained Away</fr:link>.
+href="quine-1960.xml"
+addr="quine-1960"
+title="Variables Explained Away">Variables Explained Away</fr:link>.
 </fr:p><fr:p>
     English translation in <fr:link
-href="van-heijenoort-1967.xml"
 type="local"
-addr="van-heijenoort-1967">From Frege To Gödel</fr:link>.
-</fr:p></fr:mainmatter></fr:tree></fr:references></fr:backmatter></fr:tree>
+href="van-heijenoort-1967.xml"
+addr="van-heijenoort-1967"
+title="From Frege To Gödel">From Frege To Gödel</fr:link>.
+</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
