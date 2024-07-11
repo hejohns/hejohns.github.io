@@ -7,7 +7,7 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>528</fr:anchor><fr:addr>hejohns-000G</fr:addr><fr:route>hejohns-000G.xml</fr:route><fr:title>What is an elementary topos?</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>543</fr:anchor><fr:addr>hejohns-000G</fr:addr><fr:route>hejohns-000G.xml</fr:route><fr:title>What is an elementary topos?</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
 addr="hejohns">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -31,7 +31,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>283</fr:anchor><fr:taxon>Definition</fr:taxon><fr:title>Topos à la <fr:link
+root="false"><fr:frontmatter><fr:anchor>295</fr:anchor><fr:taxon>Definition</fr:taxon><fr:title>Topos à la <fr:link
 href="lambek-scott-1986.xml"
 type="local"
 addr="lambek-scott-1986">Introduction to higher order categorical logic</fr:link> p.140</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
@@ -47,7 +47,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>285</fr:anchor><fr:taxon>Definition</fr:taxon><fr:title>Topos à la <fr:link
+root="false"><fr:frontmatter><fr:anchor>297</fr:anchor><fr:taxon>Definition</fr:taxon><fr:title>Topos à la <fr:link
 href="johnstone-2002.xml"
 type="local"
 addr="johnstone-2002">Sketches of an Elephant: a topos theory compendium</fr:link> 2.1.1</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
@@ -82,7 +82,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>287</fr:anchor><fr:taxon>Definition</fr:taxon><fr:title>Topos à la <fr:link
+root="false"><fr:frontmatter><fr:anchor>299</fr:anchor><fr:taxon>Definition</fr:taxon><fr:title>Topos à la <fr:link
 href="mclarty-1992.xml"
 type="local"
 addr="mclarty-1992">Elementary Categories, Elementary Toposes</fr:link> 13.1</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
@@ -101,7 +101,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>289</fr:anchor><fr:taxon>Definition</fr:taxon><fr:title>Topos à la <fr:link
+root="false"><fr:frontmatter><fr:anchor>301</fr:anchor><fr:taxon>Definition</fr:taxon><fr:title>Topos à la <fr:link
 href="makkai-reyes-1977.xml"
 type="local"
 addr="makkai-reyes-1977">First Order Categorical Logic</fr:link></fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
@@ -117,7 +117,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>291</fr:anchor><fr:taxon>Definition</fr:taxon><fr:title>Topos à la <fr:link
+root="false"><fr:frontmatter><fr:anchor>303</fr:anchor><fr:taxon>Definition</fr:taxon><fr:title>Topos à la <fr:link
 href="awodey-2010.xml"
 type="local"
 addr="awodey-2010">Category Theory</fr:link> 8.17</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
@@ -143,7 +143,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>293</fr:anchor><fr:taxon>Definition</fr:taxon><fr:title>Topos à la <fr:link
+root="false"><fr:frontmatter><fr:anchor>305</fr:anchor><fr:taxon>Definition</fr:taxon><fr:title>Topos à la <fr:link
 href="goldblatt-2006.xml"
 type="local"
 addr="goldblatt-2006">Topoi: The Categorial Analysis of Logic</fr:link> 4.3</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
@@ -193,7 +193,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>299</fr:anchor><fr:title>Topos à la <fr:link
+root="false"><fr:frontmatter><fr:anchor>311</fr:anchor><fr:title>Topos à la <fr:link
 href="maclane-moerdijk-1994.xml"
 type="local"
 addr="maclane-moerdijk-1994">Sheaves in Geometry and Logic: A First Introduction to Topos Theory</fr:link></fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
@@ -206,7 +206,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>295</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>sub-000G</fr:addr><fr:route>sub-000G.xml</fr:route><fr:title>Topos à la <fr:link
+root="false"><fr:frontmatter><fr:anchor>307</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>sub-000G</fr:addr><fr:route>sub-000G.xml</fr:route><fr:title>Topos à la <fr:link
 href="maclane-moerdijk-1994.xml"
 type="local"
 addr="maclane-moerdijk-1994">Sheaves in Geometry and Logic: A First Introduction to Topos Theory</fr:link> p. 48</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
@@ -228,7 +228,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>297</fr:anchor><fr:taxon>Definition</fr:taxon><fr:title>Topos à la <fr:link
+root="false"><fr:frontmatter><fr:anchor>309</fr:anchor><fr:taxon>Definition</fr:taxon><fr:title>Topos à la <fr:link
 href="maclane-moerdijk-1994.xml"
 type="local"
 addr="maclane-moerdijk-1994">Sheaves in Geometry and Logic: A First Introduction to Topos Theory</fr:link> p. 161</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
@@ -275,7 +275,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>301</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hejohns-000I</fr:addr><fr:route>hejohns-000I.xml</fr:route><fr:title>Subobject classifier</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>313</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hejohns-000I</fr:addr><fr:route>hejohns-000I.xml</fr:route><fr:title>Subobject classifier</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p>
     For a category <fr:tex>\mathcal {C}</fr:tex>, a <fr:em>subobject classifier</fr:em> is an object <fr:tex>Ω</fr:tex> together
     with a global element <fr:tex>true : 1 → Ω</fr:tex> such that <fr:tex>∀ A ∈  \mathcal {C} . ∀ s : S ↣ A. ∃!     χ_s : A → Ω.</fr:tex>
     <fr:embedded-tex
@@ -308,7 +308,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>526</fr:anchor><fr:taxon>Exposition</fr:taxon><fr:addr>hejohns-000C</fr:addr><fr:route>hejohns-000C.xml</fr:route><fr:title>Elementary questions, elementary toposes</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>31</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>541</fr:anchor><fr:taxon>Exposition</fr:taxon><fr:addr>hejohns-000C</fr:addr><fr:route>hejohns-000C.xml</fr:route><fr:title>Elementary questions, elementary toposes</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>31</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
 addr="hejohns">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:tree
@@ -318,7 +318,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>279</fr:anchor><fr:title>Elementary questions</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>31</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>291</fr:anchor><fr:title>Elementary questions</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>31</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
 addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000C</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
@@ -378,7 +378,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>309</fr:anchor><fr:title>Elementary answers</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>31</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>321</fr:anchor><fr:title>Elementary answers</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>31</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
 addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000C</fr:parent></fr:frontmatter><fr:mainmatter><fr:tree
@@ -388,7 +388,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>281</fr:anchor><fr:addr>hejohns-000H</fr:addr><fr:route>hejohns-000H.xml</fr:route><fr:title>Why is it called an "elementary" topos?</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>293</fr:anchor><fr:addr>hejohns-000H</fr:addr><fr:route>hejohns-000H.xml</fr:route><fr:title>Why is it called an "elementary" topos?</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
 addr="hejohns">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:link
@@ -427,7 +427,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>302</fr:anchor><fr:addr>hejohns-000G</fr:addr><fr:route>hejohns-000G.xml</fr:route><fr:title>What is an elementary topos?</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>314</fr:anchor><fr:addr>hejohns-000G</fr:addr><fr:route>hejohns-000G.xml</fr:route><fr:title>What is an elementary topos?</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
 addr="hejohns">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -451,7 +451,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>283</fr:anchor><fr:taxon>Definition</fr:taxon><fr:title>Topos à la <fr:link
+root="false"><fr:frontmatter><fr:anchor>295</fr:anchor><fr:taxon>Definition</fr:taxon><fr:title>Topos à la <fr:link
 href="lambek-scott-1986.xml"
 type="local"
 addr="lambek-scott-1986">Introduction to higher order categorical logic</fr:link> p.140</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
@@ -467,7 +467,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>285</fr:anchor><fr:taxon>Definition</fr:taxon><fr:title>Topos à la <fr:link
+root="false"><fr:frontmatter><fr:anchor>297</fr:anchor><fr:taxon>Definition</fr:taxon><fr:title>Topos à la <fr:link
 href="johnstone-2002.xml"
 type="local"
 addr="johnstone-2002">Sketches of an Elephant: a topos theory compendium</fr:link> 2.1.1</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
@@ -502,7 +502,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>287</fr:anchor><fr:taxon>Definition</fr:taxon><fr:title>Topos à la <fr:link
+root="false"><fr:frontmatter><fr:anchor>299</fr:anchor><fr:taxon>Definition</fr:taxon><fr:title>Topos à la <fr:link
 href="mclarty-1992.xml"
 type="local"
 addr="mclarty-1992">Elementary Categories, Elementary Toposes</fr:link> 13.1</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
@@ -521,7 +521,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>289</fr:anchor><fr:taxon>Definition</fr:taxon><fr:title>Topos à la <fr:link
+root="false"><fr:frontmatter><fr:anchor>301</fr:anchor><fr:taxon>Definition</fr:taxon><fr:title>Topos à la <fr:link
 href="makkai-reyes-1977.xml"
 type="local"
 addr="makkai-reyes-1977">First Order Categorical Logic</fr:link></fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
@@ -537,7 +537,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>291</fr:anchor><fr:taxon>Definition</fr:taxon><fr:title>Topos à la <fr:link
+root="false"><fr:frontmatter><fr:anchor>303</fr:anchor><fr:taxon>Definition</fr:taxon><fr:title>Topos à la <fr:link
 href="awodey-2010.xml"
 type="local"
 addr="awodey-2010">Category Theory</fr:link> 8.17</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
@@ -563,7 +563,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>293</fr:anchor><fr:taxon>Definition</fr:taxon><fr:title>Topos à la <fr:link
+root="false"><fr:frontmatter><fr:anchor>305</fr:anchor><fr:taxon>Definition</fr:taxon><fr:title>Topos à la <fr:link
 href="goldblatt-2006.xml"
 type="local"
 addr="goldblatt-2006">Topoi: The Categorial Analysis of Logic</fr:link> 4.3</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
@@ -613,7 +613,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>299</fr:anchor><fr:title>Topos à la <fr:link
+root="false"><fr:frontmatter><fr:anchor>311</fr:anchor><fr:title>Topos à la <fr:link
 href="maclane-moerdijk-1994.xml"
 type="local"
 addr="maclane-moerdijk-1994">Sheaves in Geometry and Logic: A First Introduction to Topos Theory</fr:link></fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
@@ -626,7 +626,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>295</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>sub-000G</fr:addr><fr:route>sub-000G.xml</fr:route><fr:title>Topos à la <fr:link
+root="false"><fr:frontmatter><fr:anchor>307</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>sub-000G</fr:addr><fr:route>sub-000G.xml</fr:route><fr:title>Topos à la <fr:link
 href="maclane-moerdijk-1994.xml"
 type="local"
 addr="maclane-moerdijk-1994">Sheaves in Geometry and Logic: A First Introduction to Topos Theory</fr:link> p. 48</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
@@ -648,7 +648,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>297</fr:anchor><fr:taxon>Definition</fr:taxon><fr:title>Topos à la <fr:link
+root="false"><fr:frontmatter><fr:anchor>309</fr:anchor><fr:taxon>Definition</fr:taxon><fr:title>Topos à la <fr:link
 href="maclane-moerdijk-1994.xml"
 type="local"
 addr="maclane-moerdijk-1994">Sheaves in Geometry and Logic: A First Introduction to Topos Theory</fr:link> p. 161</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
@@ -695,7 +695,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>301</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hejohns-000I</fr:addr><fr:route>hejohns-000I.xml</fr:route><fr:title>Subobject classifier</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>313</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hejohns-000I</fr:addr><fr:route>hejohns-000I.xml</fr:route><fr:title>Subobject classifier</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p>
     For a category <fr:tex>\mathcal {C}</fr:tex>, a <fr:em>subobject classifier</fr:em> is an object <fr:tex>Ω</fr:tex> together
     with a global element <fr:tex>true : 1 → Ω</fr:tex> such that <fr:tex>∀ A ∈  \mathcal {C} . ∀ s : S ↣ A. ∃!     χ_s : A → Ω.</fr:tex>
     <fr:embedded-tex
@@ -728,7 +728,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>304</fr:anchor><fr:addr>hejohns-000F</fr:addr><fr:route>hejohns-000F.xml</fr:route><fr:title>"Higher-order intuitionistic logic" v. "topos logic"</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>29</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>316</fr:anchor><fr:addr>hejohns-000F</fr:addr><fr:route>hejohns-000F.xml</fr:route><fr:title>"Higher-order intuitionistic logic" v. "topos logic"</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>29</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
 addr="hejohns">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -773,7 +773,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>308</fr:anchor><fr:addr>hejohns-000J</fr:addr><fr:route>hejohns-000J.xml</fr:route><fr:title>Higher-order intuitionistic topos logic</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date></fr:frontmatter><fr:mainmatter>
+root="false"><fr:frontmatter><fr:anchor>320</fr:anchor><fr:addr>hejohns-000J</fr:addr><fr:route>hejohns-000J.xml</fr:route><fr:title>Higher-order intuitionistic topos logic</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date></fr:frontmatter><fr:mainmatter>
     
     <fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
@@ -782,7 +782,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>306</fr:anchor><fr:addr>hejohns-000M</fr:addr><fr:route>hejohns-000M.xml</fr:route><fr:title>Syntax</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>29</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>318</fr:anchor><fr:addr>hejohns-000M</fr:addr><fr:route>hejohns-000M.xml</fr:route><fr:title>Syntax</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>29</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p>
     There is some (a posteriori insignificant) variation in the presentation of
     the syntax, thus following through with some input from <fr:link
 href="ericgio.xml"
@@ -801,7 +801,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>249</fr:anchor><fr:taxon>Definition</fr:taxon><fr:title>Syntax à la <fr:link
+root="false"><fr:frontmatter><fr:anchor>261</fr:anchor><fr:taxon>Definition</fr:taxon><fr:title>Syntax à la <fr:link
 href="lambek-scott-1986.xml"
 type="local"
 addr="lambek-scott-1986">Introduction to higher order categorical logic</fr:link> p.128</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>29</fr:day></fr:date><fr:parent>hejohns-000M</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
@@ -824,7 +824,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>246</fr:anchor><fr:title>Types</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>29</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>258</fr:anchor><fr:title>Types</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>29</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p>
             "The class of types is closed under the inductive clauses:
             <fr:ul><fr:li><fr:tex>1</fr:tex>, <fr:tex>N</fr:tex> and <fr:tex>Ω</fr:tex> are types ('basic' types);
                 </fr:li>
@@ -837,7 +837,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>247</fr:anchor><fr:title>Terms</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>29</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>259</fr:anchor><fr:title>Terms</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>29</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p>
             "The class of terms is freely generated from certain basic terms by
             certain operations including the following… and is closed under certain operations.
             <fr:ul><fr:li>
@@ -884,7 +884,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>248</fr:anchor><fr:title>Formulas</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>29</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>260</fr:anchor><fr:title>Formulas</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>29</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p>
             "Terms of type <fr:tex>Ω</fr:tex> are also called <fr:em>formulas</fr:em>."
         </fr:p><fr:p>
             "One may also define a number of widely used term forming
@@ -899,7 +899,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>253</fr:anchor><fr:taxon>Definition</fr:taxon><fr:title>Syntax à la <fr:link
+root="false"><fr:frontmatter><fr:anchor>265</fr:anchor><fr:taxon>Definition</fr:taxon><fr:title>Syntax à la <fr:link
 href="johnstone-2002.xml"
 type="local"
 addr="johnstone-2002">Sketches of an Elephant: a topos theory compendium</fr:link> </fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>29</fr:day></fr:date><fr:parent>hejohns-000M</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
@@ -922,7 +922,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>250</fr:anchor><fr:title>Types</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>29</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:ul><fr:li>
+root="false"><fr:frontmatter><fr:anchor>262</fr:anchor><fr:title>Types</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>29</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:ul><fr:li>
                 (i) <fr:em>Basic types</fr:em>: Each sort is a type
             </fr:li>
             <fr:li>
@@ -967,7 +967,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>251</fr:anchor><fr:title>Terms</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>29</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>263</fr:anchor><fr:title>Terms</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>29</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p>
             (We omit the bookkeeping of free variables that Johnstone inlines with
             the following definitions.)
             "<fr:ul><fr:li>
@@ -1030,7 +1030,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>252</fr:anchor><fr:title>Formulas</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>29</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>264</fr:anchor><fr:title>Formulas</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>29</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p>
             (We again omit the bookkeeping of free variables.)
             "The <fr:em>atomic formulae</fr:em> over <fr:tex>\mathcal {L}</fr:tex> are of three kinds:
             <fr:ul><fr:li>
@@ -1053,7 +1053,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>257</fr:anchor><fr:taxon>Definition</fr:taxon><fr:title>Syntax à la <fr:link
+root="false"><fr:frontmatter><fr:anchor>269</fr:anchor><fr:taxon>Definition</fr:taxon><fr:title>Syntax à la <fr:link
 href="mclarty-1992.xml"
 type="local"
 addr="mclarty-1992">Elementary Categories, Elementary Toposes</fr:link> 14.1</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>29</fr:day></fr:date><fr:parent>hejohns-000M</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
@@ -1069,7 +1069,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>254</fr:anchor><fr:title>Types</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>29</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>266</fr:anchor><fr:title>Types</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>29</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p>
             The types have the structure of the objects of an elementary topos,
             ie a collection of atomic types closed under <fr:tex>1,×,→,Ω</fr:tex>.
         </fr:p></fr:mainmatter></fr:tree><fr:tree
@@ -1079,7 +1079,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>255</fr:anchor><fr:title>Terms</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>29</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>267</fr:anchor><fr:title>Terms</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>29</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p>
             "The [language] is sorted…. We inductively define terms and their sorts:
             <fr:ul><fr:li>
                     (LT1) Each sort <fr:tex>A</fr:tex> has a list of <fr:em>variables over <fr:tex>A</fr:tex></fr:em>,
@@ -1110,7 +1110,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>256</fr:anchor><fr:title>Formulas</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>29</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>268</fr:anchor><fr:title>Formulas</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>29</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p>
             "A formula is a term of sort <fr:tex>Ω</fr:tex>. By LT2 [and the existence of
             these terms in any elementary topos, developed in 13.3 and 13.4],
             for any formulas <fr:tex>ϕ</fr:tex> and <fr:tex>ψ</fr:tex> there are formulas <fr:tex>ϕ∧ψ</fr:tex> and
@@ -1128,7 +1128,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>258</fr:anchor><fr:title>Summary</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>29</fr:day></fr:date><fr:parent>hejohns-000M</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>270</fr:anchor><fr:title>Summary</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>29</fr:day></fr:date><fr:parent>hejohns-000M</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
         Ignoring the natural numbers type and the idiosyncratic list type of
         <fr:link
 href="johnstone-2002.xml"
@@ -1158,14 +1158,14 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>307</fr:anchor><fr:title>Semantics</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date><fr:parent>hejohns-000J</fr:parent></fr:frontmatter><fr:mainmatter></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:context><fr:related><fr:tree
+root="false"><fr:frontmatter><fr:anchor>319</fr:anchor><fr:title>Semantics</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date><fr:parent>hejohns-000J</fr:parent></fr:frontmatter><fr:mainmatter></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:context><fr:related><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>524</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>sub-000G</fr:addr><fr:route>sub-000G.xml</fr:route><fr:title>Topos à la <fr:link
+root="false"><fr:frontmatter><fr:anchor>539</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>sub-000G</fr:addr><fr:route>sub-000G.xml</fr:route><fr:title>Topos à la <fr:link
 href="maclane-moerdijk-1994.xml"
 type="local"
 addr="maclane-moerdijk-1994">Sheaves in Geometry and Logic: A First Introduction to Topos Theory</fr:link> p. 48</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
@@ -1187,7 +1187,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>523</fr:anchor><fr:addr>hejohns-000M</fr:addr><fr:route>hejohns-000M.xml</fr:route><fr:title>Finite-type intuitionistic predicate logic</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>29</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>538</fr:anchor><fr:addr>hejohns-000M</fr:addr><fr:route>hejohns-000M.xml</fr:route><fr:title>Finite-type intuitionistic predicate logic</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>29</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p>
     There is some (a posteriori insignificant) variation in the presentation of
     the syntax, thus following through with some input from <fr:link
 href="ericgio.xml"
@@ -1206,7 +1206,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>249</fr:anchor><fr:taxon>Definition</fr:taxon><fr:title>Syntax à la <fr:link
+root="false"><fr:frontmatter><fr:anchor>261</fr:anchor><fr:taxon>Definition</fr:taxon><fr:title>Syntax à la <fr:link
 href="lambek-scott-1986.xml"
 type="local"
 addr="lambek-scott-1986">Introduction to higher order categorical logic</fr:link> p.128</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>29</fr:day></fr:date><fr:parent>hejohns-000M</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
@@ -1229,7 +1229,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>246</fr:anchor><fr:title>Types</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>29</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>258</fr:anchor><fr:title>Types</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>29</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p>
             "The class of types is closed under the inductive clauses:
             <fr:ul><fr:li><fr:tex>1</fr:tex>, <fr:tex>N</fr:tex> and <fr:tex>Ω</fr:tex> are types ('basic' types);
                 </fr:li>
@@ -1242,7 +1242,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>247</fr:anchor><fr:title>Terms</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>29</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>259</fr:anchor><fr:title>Terms</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>29</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p>
             "The class of terms is freely generated from certain basic terms by
             certain operations including the following… and is closed under certain operations.
             <fr:ul><fr:li>
@@ -1289,7 +1289,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>248</fr:anchor><fr:title>Formulas</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>29</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>260</fr:anchor><fr:title>Formulas</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>29</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p>
             "Terms of type <fr:tex>Ω</fr:tex> are also called <fr:em>formulas</fr:em>."
         </fr:p><fr:p>
             "One may also define a number of widely used term forming
@@ -1304,7 +1304,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>253</fr:anchor><fr:taxon>Definition</fr:taxon><fr:title>Syntax à la <fr:link
+root="false"><fr:frontmatter><fr:anchor>265</fr:anchor><fr:taxon>Definition</fr:taxon><fr:title>Syntax à la <fr:link
 href="johnstone-2002.xml"
 type="local"
 addr="johnstone-2002">Sketches of an Elephant: a topos theory compendium</fr:link> </fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>29</fr:day></fr:date><fr:parent>hejohns-000M</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
@@ -1327,7 +1327,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>250</fr:anchor><fr:title>Types</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>29</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:ul><fr:li>
+root="false"><fr:frontmatter><fr:anchor>262</fr:anchor><fr:title>Types</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>29</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:ul><fr:li>
                 (i) <fr:em>Basic types</fr:em>: Each sort is a type
             </fr:li>
             <fr:li>
@@ -1372,7 +1372,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>251</fr:anchor><fr:title>Terms</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>29</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>263</fr:anchor><fr:title>Terms</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>29</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p>
             (We omit the bookkeeping of free variables that Johnstone inlines with
             the following definitions.)
             "<fr:ul><fr:li>
@@ -1435,7 +1435,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>252</fr:anchor><fr:title>Formulas</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>29</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>264</fr:anchor><fr:title>Formulas</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>29</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p>
             (We again omit the bookkeeping of free variables.)
             "The <fr:em>atomic formulae</fr:em> over <fr:tex>\mathcal {L}</fr:tex> are of three kinds:
             <fr:ul><fr:li>
@@ -1458,7 +1458,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>257</fr:anchor><fr:taxon>Definition</fr:taxon><fr:title>Syntax à la <fr:link
+root="false"><fr:frontmatter><fr:anchor>269</fr:anchor><fr:taxon>Definition</fr:taxon><fr:title>Syntax à la <fr:link
 href="mclarty-1992.xml"
 type="local"
 addr="mclarty-1992">Elementary Categories, Elementary Toposes</fr:link> 14.1</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>29</fr:day></fr:date><fr:parent>hejohns-000M</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
@@ -1474,7 +1474,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>254</fr:anchor><fr:title>Types</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>29</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>266</fr:anchor><fr:title>Types</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>29</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p>
             The types have the structure of the objects of an elementary topos,
             ie a collection of atomic types closed under <fr:tex>1,×,→,Ω</fr:tex>.
         </fr:p></fr:mainmatter></fr:tree><fr:tree
@@ -1484,7 +1484,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>255</fr:anchor><fr:title>Terms</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>29</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>267</fr:anchor><fr:title>Terms</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>29</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p>
             "The [language] is sorted…. We inductively define terms and their sorts:
             <fr:ul><fr:li>
                     (LT1) Each sort <fr:tex>A</fr:tex> has a list of <fr:em>variables over <fr:tex>A</fr:tex></fr:em>,
@@ -1515,7 +1515,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>256</fr:anchor><fr:title>Formulas</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>29</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>268</fr:anchor><fr:title>Formulas</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>29</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p>
             "A formula is a term of sort <fr:tex>Ω</fr:tex>. By LT2 [and the existence of
             these terms in any elementary topos, developed in 13.3 and 13.4],
             for any formulas <fr:tex>ϕ</fr:tex> and <fr:tex>ψ</fr:tex> there are formulas <fr:tex>ϕ∧ψ</fr:tex> and
@@ -1533,7 +1533,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>258</fr:anchor><fr:title>Summary</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>29</fr:day></fr:date><fr:parent>hejohns-000M</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>270</fr:anchor><fr:title>Summary</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>29</fr:day></fr:date><fr:parent>hejohns-000M</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
         Ignoring the natural numbers type and the idiosyncratic list type of
         <fr:link
 href="johnstone-2002.xml"
@@ -1562,21 +1562,21 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>520</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>maclane-moerdijk-1994</fr:addr><fr:route>maclane-moerdijk-1994.xml</fr:route><fr:title>Sheaves in Geometry and Logic: A First Introduction to Topos Theory</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>2</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date></fr:frontmatter><fr:mainmatter></fr:mainmatter></fr:tree><fr:tree
+root="false"><fr:frontmatter><fr:anchor>535</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>maclane-moerdijk-1994</fr:addr><fr:route>maclane-moerdijk-1994.xml</fr:route><fr:title>Sheaves in Geometry and Logic: A First Introduction to Topos Theory</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>2</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date></fr:frontmatter><fr:mainmatter></fr:mainmatter></fr:tree><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>521</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>mclarty-1990b</fr:addr><fr:route>mclarty-1990b.xml</fr:route><fr:title>The Uses and Abuses of the History of Topos Theory</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:tree
+root="false"><fr:frontmatter><fr:anchor>536</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>mclarty-1990b</fr:addr><fr:route>mclarty-1990b.xml</fr:route><fr:title>The Uses and Abuses of the History of Topos Theory</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>372</fr:anchor><fr:taxon>Abstract</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:parent>mclarty-1990b</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>385</fr:anchor><fr:taxon>Abstract</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:parent>mclarty-1990b</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
         The view that toposes originated as generalized set theory is a figment of
         set theoretically educated common sense. This false history obstructs
         understanding of category theory and especially of categorical foundations
@@ -1596,4 +1596,4 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>522</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>mclarty-1992</fr:addr><fr:route>mclarty-1992.xml</fr:route><fr:title>Elementary Categories, Elementary Toposes</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>31</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date></fr:frontmatter><fr:mainmatter></fr:mainmatter></fr:tree></fr:references></fr:backmatter></fr:tree>
+root="false"><fr:frontmatter><fr:anchor>537</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>mclarty-1992</fr:addr><fr:route>mclarty-1992.xml</fr:route><fr:title>Elementary Categories, Elementary Toposes</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>31</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date></fr:frontmatter><fr:mainmatter></fr:mainmatter></fr:tree></fr:references></fr:backmatter></fr:tree>

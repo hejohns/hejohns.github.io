@@ -7,14 +7,14 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>497</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>lawvere-1970</fr:addr><fr:route>lawvere-1970.xml</fr:route><fr:title>Quantifiers and Sheaves</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:tree
+root="false"><fr:frontmatter><fr:anchor>512</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>lawvere-1970</fr:addr><fr:route>lawvere-1970.xml</fr:route><fr:title>Quantifiers and Sheaves</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>368</fr:anchor><fr:taxon>Abstract</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:parent>lawvere-1970</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>381</fr:anchor><fr:taxon>Abstract</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:parent>lawvere-1970</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
         The unity of opposites in the title is essentially that between logic
         and geometry, and there are compelling reasons for maintaining that
         geometry is the leading aspect. At the same lime, in the present joint
@@ -65,7 +65,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>495</fr:anchor><fr:addr>hejohns-000H</fr:addr><fr:route>hejohns-000H.xml</fr:route><fr:title>Why is it called an "elementary" topos?</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>510</fr:anchor><fr:addr>hejohns-000H</fr:addr><fr:route>hejohns-000H.xml</fr:route><fr:title>Why is it called an "elementary" topos?</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
 type="local"
 addr="hejohns">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:link

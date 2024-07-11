@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>256</fr:anchor><fr:addr>cubical-categorical-logic</fr:addr><fr:route>cubical-categorical-logic.xml</fr:route><fr:title>Maxsnew/cubical-categorical-logic</fr:title><fr:date><fr:year>2024</fr:year><fr:month>7</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>7</fr:month><fr:day>11</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p>
+    Formerly known as "multi-poly-cats".
+</fr:p><fr:p><fr:link
+href="https://github.com/maxsnew/cubical-categorical-logic"
+type="external">https://github.com/maxsnew/cubical-categorical-logic</fr:link></fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context></fr:context><fr:related></fr:related><fr:backlinks><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>255</fr:anchor><fr:addr>grayson-2018</fr:addr><fr:route>grayson-2018.xml</fr:route><fr:title>An introduction to univalent foundations for mathematicians</fr:title><fr:date><fr:year>2024</fr:year><fr:month>7</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>7</fr:month><fr:day>11</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p><fr:link
+href="https://unimath.github.io/minneapolis2024/"
+type="external">"An gentle introduction to univalent
+    foundations."</fr:link>,
+    but still made much easier to read after the <fr:link
+href="cubical-categorical-logic.xml"
+type="local"
+addr="cubical-categorical-logic">maxsnew/cubical-categorical-logic</fr:link>
+    hacking experience.
+</fr:p><fr:p>
+    The "two examples, punchline third" expository pattern is very nice.
+</fr:p><fr:p><fr:link
+href="https://arxiv.org/abs/1711.01477v3"
+type="external">https://arxiv.org/abs/1711.01477v3</fr:link></fr:p></fr:mainmatter></fr:tree></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
