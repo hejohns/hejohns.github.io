@@ -1,4 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://hejohns.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hejohns.github.io/" rel="alternate" type="text/html" /><updated>2024-07-11T18:22:43-04:00</updated><id>https://hejohns.github.io/feed.xml</id><title type="html">hejohns’ jekyll site</title><subtitle>a pure waste of space</subtitle><author><name>Johnson He</name><email>hejohns α umich δ edu</email></author><entry><title type="html">archiving stack overflow (for the forest)</title><link href="https://hejohns.github.io/2024/06/17/archiving-stack-overflow.html" rel="alternate" type="text/html" title="archiving stack overflow (for the forest)" /><published>2024-06-17T00:00:00-04:00</published><updated>2024-07-02T03:47:46-04:00</updated><id>https://hejohns.github.io/2024/06/17/archiving-stack-overflow</id><content type="html" xml:base="https://hejohns.github.io/2024/06/17/archiving-stack-overflow.html"><![CDATA[<h2 id="first-iteration">First Iteration</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://hejohns.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hejohns.github.io/" rel="alternate" type="text/html" /><updated>2024-07-24T04:06:55-04:00</updated><id>https://hejohns.github.io/feed.xml</id><title type="html">hejohns’ jekyll site</title><subtitle>a pure waste of space</subtitle><author><name>Johnson He</name><email>hejohns α umich δ edu</email></author><entry><title type="html">aruba access points are AWESOME</title><link href="https://hejohns.github.io/2024/07/24/aruba.html" rel="alternate" type="text/html" title="aruba access points are AWESOME" /><published>2024-07-24T00:00:00-04:00</published><updated>2024-07-24T03:57:30-04:00</updated><id>https://hejohns.github.io/2024/07/24/aruba</id><content type="html" xml:base="https://hejohns.github.io/2024/07/24/aruba.html"><![CDATA[<p>ebay, $6.50/instant AP 215 (incl. shipping).</p>
+
+<p>Title.
+Although maybe it’s because we went from bottom of the barrel ~2010 era retail
+wifi, to ~2015 enterprise wifi.</p>
+
+<p>Uses a 1.35mm 12v barrel connector, I think (or PoE, if you happen to have that).</p>
+
+<p>TODO: update with potentially-useful-for-other-people details, once we get power supplies for the other two hopefully mesh APs. No more powerline!!</p>]]></content><author><name>Johnson He</name><email>hejohns α umich δ edu</email></author><summary type="html"><![CDATA[ebay, $6.50/instant AP 215 (incl. shipping).]]></summary></entry><entry><title type="html">archiving stack overflow (for the forest)</title><link href="https://hejohns.github.io/2024/06/17/archiving-stack-overflow.html" rel="alternate" type="text/html" title="archiving stack overflow (for the forest)" /><published>2024-06-17T00:00:00-04:00</published><updated>2024-07-02T03:47:46-04:00</updated><id>https://hejohns.github.io/2024/06/17/archiving-stack-overflow</id><content type="html" xml:base="https://hejohns.github.io/2024/06/17/archiving-stack-overflow.html"><![CDATA[<h2 id="first-iteration">First Iteration</h2>
 
 <p>(Note: I call any stack exchange site “stack overflow”.)</p>
 
@@ -443,30 +451,4 @@ but the principle stands.</p>
       <p>I did this all as root the first time, and had to do it all over again as my own user since so much of the ghcup and X stuff is per-user. <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
-</div>]]></content><author><name>Johnson He</name><email>hejohns α umich δ edu</email></author><summary type="html"><![CDATA[As with the icecc post, I’m moving xmonad from one server to another for “less downtime”1. I’m reproducing the xmonad setup on the Dell T130 (Pentium G4600) to a container on the Lenovo P720 (dual Xeon 6142s), so I can restart other stuff w/o killing my window manager &#8617;]]></summary></entry><entry><title type="html">icecc</title><link href="https://hejohns.github.io/2023/12/19/icecc.html" rel="alternate" type="text/html" title="icecc" /><published>2023-12-19T00:00:00-05:00</published><updated>2023-12-19T23:50:12-05:00</updated><id>https://hejohns.github.io/2023/12/19/icecc</id><content type="html" xml:base="https://hejohns.github.io/2023/12/19/icecc.html"><![CDATA[<p>It’s break and I’m cleaning up some computer stuff.</p>
-
-<p>One thing I hadn’t gotten around to was setting up <a href="https://github.com/icecc/icecream">icecc</a>,
-which seems like a more automated distcc.
-I thought I’d have to write systemd services for <code class="language-plaintext highlighter-rouge">iceccd -d</code> and <code class="language-plaintext highlighter-rouge">icecc-scheduler -d</code> myself,
-  but the debian package for icecc already does it for you<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>,
-which I was quite pleased about.</p>
-
-<p>So all it takes is</p>
-<ul>
-  <li><code class="language-plaintext highlighter-rouge">apt install icecc</code></li>
-  <li><code class="language-plaintext highlighter-rouge">systemctl enable icecc-scheduler</code></li>
-</ul>
-
-<p>From what I can tell, <code class="language-plaintext highlighter-rouge">iceccd</code> and <code class="language-plaintext highlighter-rouge">icecc-scheduler</code> automagically form a local (sub)network-wide cluster, which can be viewed with <code class="language-plaintext highlighter-rouge">icecream-sundae</code>.</p>
-
-<p>And of course, as the icecc README says, clients of the cluster need to
-<code class="language-plaintext highlighter-rouge">export PATH=/usr/lib/icecc/bin:$PATH</code>.</p>
-
-<p>That’s it.</p>
-<div class="footnotes" role="doc-endnotes">
-  <ol>
-    <li id="fn:1" role="doc-endnote">
-      <p>As you can probably guess, we both named them <code class="language-plaintext highlighter-rouge">iceccd.service</code> and <code class="language-plaintext highlighter-rouge">icecc-scheduler.service</code>… <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-  </ol>
-</div>]]></content><author><name>Johnson He</name><email>hejohns α umich δ edu</email></author><summary type="html"><![CDATA[It’s break and I’m cleaning up some computer stuff.]]></summary></entry></feed>
+</div>]]></content><author><name>Johnson He</name><email>hejohns α umich δ edu</email></author><summary type="html"><![CDATA[As with the icecc post, I’m moving xmonad from one server to another for “less downtime”1. I’m reproducing the xmonad setup on the Dell T130 (Pentium G4600) to a container on the Lenovo P720 (dual Xeon 6142s), so I can restart other stuff w/o killing my window manager &#8617;]]></summary></entry></feed>
