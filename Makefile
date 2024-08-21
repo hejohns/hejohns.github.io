@@ -1,6 +1,6 @@
 .PHONY: site
 site:
-	cd _forest; git pull
+	cd _forest; git pull; git submodule update
 	git add _forest
 	$(MAKE) -C _forest
 	bundler exec jekyll build --lsi --trace
