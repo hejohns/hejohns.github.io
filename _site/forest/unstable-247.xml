@@ -1,83 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>276</fr:anchor><fr:taxon>Abstract</fr:taxon><fr:addr>#247</fr:addr><fr:route>unstable-247.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>24</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>29</fr:day></fr:date><fr:parent>sterling-2022</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-        Logical relations are the main tool for proving <fr:strong>positive</fr:strong>
-        properties of logics, type theories, and programming languages:
-        canonicity, decidability, conservativity, computational adequacy, and
-        more. Logical relations combine pure syntax with non-syntactic objects
-        that are parameretized in syntax in a somewhat complex way; the
-        sophistication of possible parameterizations makes logical relations a
-        tool that is primarily accessible to specialists. In the spirit of
-        Halmos’ Naïve Set Theory, we advance a new viewpoint on logical
-        relations based on synthetic Tait computability, an internal language
-        for categories of logical relations. In <fr:strong>synthetic Tait
-        computability</fr:strong>, logical relations are manipulated as if they were sets,
-        making the essence of many complex logical relations arguments
-        accessible to non-specialists.
-    </fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>800</fr:anchor><fr:addr
+type="machine">#247</fr:addr><fr:route>unstable-247.xml</fr:route><fr:taxon>Abstract</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>13</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p>In this note we shall try to place Friedman's remarkable little paper
+        (<fr:link
+type="local"
+href="friedman-1975.xml"
+addr="friedman-1975"
+title="Equality Between Functionals">3</fr:link>) in the context of what we know today about the model
+        theory of the typed λ-calculus. In order to do this, it is appropriate to
+        survey recent work in this area, in so far as it touches on issues raised
+        by Friedman. We don't intend a general survey; much will be left out. In
+        particular, we shall omit discussion of unification, fragments of L.C.F.,
+        and polymorphic types, which are areas of interest to the author, and the
+        specialist will surely find other omissions. However, we will try to show
+        the reader how Friedman's paper <fr:em>lays the foundation</fr:em> for the general
+        model theory of the typed λ-calculus.</fr:p><fr:p>The plan of this note is the following. We shall begin by a brief, informal
+        introduction to the subject. The reader is then advised to read Friedman's
+        paper. It is, after all, quite accessible and easy to read. We shall then
+        proceed to consider the three major issues touched on in "Equality between
+        functionals" as we view them today. These issues are
+        <fr:ul><fr:li>completness theorems,</fr:li>
+            <fr:li>the solvability of higher type functional equations, and</fr:li>
+            <fr:li>logical relations.</fr:li></fr:ul></fr:p></fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>275</fr:anchor><fr:taxon>Scratch</fr:taxon><fr:addr>sterling-2022</fr:addr><fr:route>sterling-2022.xml</fr:route><fr:title>Naïve Logical Relations in Synthetic Tait Computability</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>24</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>29</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>801</fr:anchor><fr:addr
+type="user">statman-1985</fr:addr><fr:route>statman-1985.xml</fr:route><fr:title
+text="Equality Between Functionals Revisited">Equality Between Functionals Revisited</fr:title><fr:taxon>Reference</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>13</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>273</fr:anchor><fr:taxon>Abstract</fr:taxon><fr:addr>#247</fr:addr><fr:route>unstable-247.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>24</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>29</fr:day></fr:date><fr:parent>sterling-2022</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-        Logical relations are the main tool for proving <fr:strong>positive</fr:strong>
-        properties of logics, type theories, and programming languages:
-        canonicity, decidability, conservativity, computational adequacy, and
-        more. Logical relations combine pure syntax with non-syntactic objects
-        that are parameretized in syntax in a somewhat complex way; the
-        sophistication of possible parameterizations makes logical relations a
-        tool that is primarily accessible to specialists. In the spirit of
-        Halmos’ Naïve Set Theory, we advance a new viewpoint on logical
-        relations based on synthetic Tait computability, an internal language
-        for categories of logical relations. In <fr:strong>synthetic Tait
-        computability</fr:strong>, logical relations are manipulated as if they were sets,
-        making the essence of many complex logical relations arguments
-        accessible to non-specialists.
-    </fr:p></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>274</fr:anchor><fr:addr>#248</fr:addr><fr:route>unstable-248.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>24</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>29</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>25</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>29</fr:day></fr:date><fr:parent>sterling-2022</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-        I can't quite follow the <fr:em>phase distinction</fr:em> and only have a very vague
-        idea of what's going on starting at p. 9.
-    </fr:p><fr:p>
-        From what I can tell, the idea is to work in the internal language of some
-        topos-- really the internal "agda-like dependent type theory"-- to
-        construct the logical relations category, instead of doing something like
-        (analytic) gluing.
-        How this makes anything easier is beyond me at the moment.
-        I can't tell if the <fr:em>object-space/meta-space</fr:em> discussion is clear
-        and I just don't have some context, or it's actually presented almost
-        mystically.
-        The mention of <fr:link
-href="carette-kiselyov-shan-2007.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>484</fr:anchor><fr:addr
+type="machine">#247</fr:addr><fr:route>unstable-247.xml</fr:route><fr:taxon>Abstract</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>13</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p>In this note we shall try to place Friedman's remarkable little paper
+        (<fr:link
 type="local"
-addr="carette-kiselyov-shan-2007">finally tagless encodings</fr:link>
-        and <fr:link
-href="hoffman-1999"
-type="external">a justification for hoas</fr:link> doesn't seem super
-        on-the-point, but if it's mentioned it must be for good reason…
-    </fr:p><fr:p>
-        Again, quotes are air-quotes, not actual quotes.
-        <fr:link
-href="sterling-2022.pdf"
-type="external">sterling-2022.pdf</fr:link></fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+href="friedman-1975.xml"
+addr="friedman-1975"
+title="Equality Between Functionals">3</fr:link>) in the context of what we know today about the model
+        theory of the typed λ-calculus. In order to do this, it is appropriate to
+        survey recent work in this area, in so far as it touches on issues raised
+        by Friedman. We don't intend a general survey; much will be left out. In
+        particular, we shall omit discussion of unification, fragments of L.C.F.,
+        and polymorphic types, which are areas of interest to the author, and the
+        specialist will surely find other omissions. However, we will try to show
+        the reader how Friedman's paper <fr:em>lays the foundation</fr:em> for the general
+        model theory of the typed λ-calculus.</fr:p><fr:p>The plan of this note is the following. We shall begin by a brief, informal
+        introduction to the subject. The reader is then advised to read Friedman's
+        paper. It is, after all, quite accessible and easy to read. We shall then
+        proceed to consider the three major issues touched on in "Equality between
+        functionals" as we view them today. These issues are
+        <fr:ul><fr:li>completness theorems,</fr:li>
+            <fr:li>the solvability of higher type functional equations, and</fr:li>
+            <fr:li>logical relations.</fr:li></fr:ul></fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:p><fr:link
+type="external"
+href="statman-1985.pdf">statman-1985.pdf</fr:link></fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

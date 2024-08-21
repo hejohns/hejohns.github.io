@@ -1,91 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>905</fr:anchor><fr:taxon>Abstract</fr:taxon><fr:addr>#260</fr:addr><fr:route>unstable-260.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>21</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>22</fr:day></fr:date><fr:parent>maddy-2019</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-        Mainstream orthodoxy holds that set theory provides a foundation for
-        contemporary pure mathematics. Critics of this view argue that category
-        theory, or more recently univalent foundations, is better suited to this
-        role. Some observers of this controversy suggest that it might be resolved
-        by a better understanding of what a foundation is. Despite considerable
-        sympathy to this line of thought, I’m skeptical of the unspoken assumption
-        that there’s an underlying concept of a ‘foundation’ up for analysis, that
-        this analysis would properly guide our assessment of the various
-        candidates. In contrast, it seems to me that the considerations the
-        combatants offer against opponents and for their preferred candidates, as
-        well as the roles each candidate actually or potentially succeeds in
-        playing, reveal quite a number of different jobs that mathematicians want
-        done. What matters is these jobs we want our theories to do and how well
-        they do them. Whether any or all of them, jobs or theories, deserves to be
-        called ‘foundational’ is really beside the point.
-    </fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>397</fr:anchor><fr:addr
+type="machine">#260</fr:addr><fr:route>unstable-260.xml</fr:route><fr:title
+text="Preparing for the 2024 School on Univalent Mathematics (Minnesota) › questions from the pre-readings"><fr:link
+type="local"
+href="hejohns-000S.xml"
+addr="hejohns-000S"
+title="Preparing for the 2024 School on Univalent Mathematics (Minnesota)">Preparing for the 2024 School on Univalent Mathematics (Minnesota)</fr:link> › questions from the pre-readings</fr:title><fr:date><fr:year>2024</fr:year><fr:month>7</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>7</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="hejohns.xml"
+addr="hejohns"
+title="Johnson He">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:ul><fr:li>One of the suggested pre-readings is <fr:link
+type="local"
+href="grayson-2018.xml"
+addr="grayson-2018"
+title="An introduction to univalent foundations for mathematicians">An introduction to univalent foundations for mathematicians</fr:link>.
+            On p.20, the so-called "'resizing' rules" are mentioned and the
+            consistency of such a system is left open.
+            Apparently, this is still open as of
+            <fr:link
+type="external"
+href="https://benediktahrens.gitlab.io/talks/HTT-UF-Leeds2019.pdf">2019</fr:link>.
+            Is this still open today? Is anyone working on it? Does anyone
+            still care? Or are people complacent with universe polymorphism and
+            just lifting everything?</fr:li></fr:ul></fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>904</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>maddy-2019</fr:addr><fr:route>maddy-2019.xml</fr:route><fr:title>What do we want a foundation to do?</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>21</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>22</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>399</fr:anchor><fr:addr
+type="user">hejohns-000S</fr:addr><fr:route>hejohns-000S.xml</fr:route><fr:title
+text="Preparing for the 2024 School on Univalent Mathematics (Minnesota)">Preparing for the 2024 School on Univalent Mathematics (Minnesota)</fr:title><fr:date><fr:year>2024</fr:year><fr:month>7</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>7</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="hejohns.xml"
+addr="hejohns"
+title="Johnson He">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>This should be an absolutely wonderful opportunity, for which I'm very
+    grateful to the organizers.</fr:p><fr:tree
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>475</fr:anchor><fr:taxon>Abstract</fr:taxon><fr:addr>#260</fr:addr><fr:route>unstable-260.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>21</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>22</fr:day></fr:date><fr:parent>maddy-2019</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-        Mainstream orthodoxy holds that set theory provides a foundation for
-        contemporary pure mathematics. Critics of this view argue that category
-        theory, or more recently univalent foundations, is better suited to this
-        role. Some observers of this controversy suggest that it might be resolved
-        by a better understanding of what a foundation is. Despite considerable
-        sympathy to this line of thought, I’m skeptical of the unspoken assumption
-        that there’s an underlying concept of a ‘foundation’ up for analysis, that
-        this analysis would properly guide our assessment of the various
-        candidates. In contrast, it seems to me that the considerations the
-        combatants offer against opponents and for their preferred candidates, as
-        well as the roles each candidate actually or potentially succeeds in
-        playing, reveal quite a number of different jobs that mathematicians want
-        done. What matters is these jobs we want our theories to do and how well
-        they do them. Whether any or all of them, jobs or theories, deserves to be
-        called ‘foundational’ is really beside the point.
-    </fr:p></fr:mainmatter></fr:tree><fr:p>
-    A nice article that can be briefly summarized as
-    <fr:ul><fr:li>
-            There is no one clear set of desiderata for a <fr:em>foundational</fr:em>
-            system, whatever that means
-        </fr:li>
-        <fr:li>
-            Classical set theory is perfectly fine as a foundational system in
-            the traditionally (ie ZFC) conceived sense
-        </fr:li>
-        <fr:li>
-            There is promise for the new 21ˢᵗ century desiderata of <fr:em>proof
-            checking</fr:em> (recalling Voevodsky's concerns with correctness "at the
-            bleeding edge").
-        </fr:li></fr:ul></fr:p><fr:p>
-    The contrast between the minimalistic ZFC and potentially enormous "user
-    friendly" univalent type theories is reminiscent of Hilbert style proofs vs
-    natural deduction. Indeed, it's like how Ronnie calls set theory "the
-    machine/assembly language of math" (kind of paraphrase), and Max calls SK
-    combinators "the machine/assembly language of λ-calculus".
-</fr:p><fr:p>
-    Natural deduction is certainly more complicated than SK/Hilbert proof
-    systems, but has nice usability properties that are worth study and
-    implementation.
-    The general mathematical trend seems to be that of starting with a spartan
-    formal system, then gradually making it more user friendly to accomodate
-    every increasingly complicated mathematics, where the minimalistic system
-    starts to leave one wanting.
-</fr:p><fr:p>
-    Maddy only mentions Coq, but being 2019 it would've been nice is somewhat
-    redundant to mention other proof assistants eg Cubical Agda.
-</fr:p><fr:p>
-    I've used quotes here as air quotes, not actual quotes of Maddy.
-    <fr:link
-href="maddy-2019.pdf"
-type="external">maddy-2019.pdf</fr:link></fr:p></fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>388</fr:anchor><fr:addr
+type="machine">#260</fr:addr><fr:route>unstable-260.xml</fr:route><fr:title
+text="Questions from the pre-readings">Questions from the pre-readings</fr:title><fr:date><fr:year>2024</fr:year><fr:month>7</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>7</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="hejohns.xml"
+addr="hejohns"
+title="Johnson He">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:ul><fr:li>One of the suggested pre-readings is <fr:link
+type="local"
+href="grayson-2018.xml"
+addr="grayson-2018"
+title="An introduction to univalent foundations for mathematicians">An introduction to univalent foundations for mathematicians</fr:link>.
+            On p.20, the so-called "'resizing' rules" are mentioned and the
+            consistency of such a system is left open.
+            Apparently, this is still open as of
+            <fr:link
+type="external"
+href="https://benediktahrens.gitlab.io/talks/HTT-UF-Leeds2019.pdf">2019</fr:link>.
+            Is this still open today? Is anyone working on it? Does anyone
+            still care? Or are people complacent with universe polymorphism and
+            just lifting everything?</fr:li></fr:ul></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

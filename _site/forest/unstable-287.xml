@@ -1,54 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>916</fr:anchor><fr:addr>#287</fr:addr><fr:route>unstable-287.xml</fr:route><fr:title><fr:link
-href="dummett-91.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>573</fr:anchor><fr:addr
+type="machine">#287</fr:addr><fr:route>unstable-287.xml</fr:route><fr:title
+text="Johnson He › Extended About"><fr:link
 type="local"
-addr="dummett-91">The Logical Basis of Metaphysics</fr:link> › Stability</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>12</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
+addr="hejohns"
+title="Johnson He">Johnson He</fr:link> › Extended About</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>5</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>29</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>dummett-91</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-        The opening sentence is what <fr:link
-href="zeilberger"
-type="external">zeilberger</fr:link> quotes on his work on
-        polarity.
-    </fr:p><fr:p>
-        What's the relationship between harmony-stability and Pfenning's local
-        soundness and completeness?
-        They're not literally the same thing, but they're similar.
-    </fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+href="hejohns.xml"
+addr="hejohns"
+title="Johnson He">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>My screen name is <fr:code>hejohns</fr:code>, eg <fr:link
+type="external"
+href="https://github.com/hejohns">https://github.com/hejohns</fr:link>.</fr:p></fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>914</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>dummett-91</fr:addr><fr:route>dummett-91.xml</fr:route><fr:title>The Logical Basis of Metaphysics</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>12</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="hejohns.xml"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>575</fr:anchor><fr:addr
+type="user">hejohns</fr:addr><fr:route>hejohns.xml</fr:route><fr:title
+text="Johnson He">Johnson He</fr:title><fr:taxon>Person</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>5</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>29</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-addr="hejohns">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+href="hejohns.xml"
+addr="hejohns"
+title="Johnson He">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+    
+    <fr:tree
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>477</fr:anchor><fr:addr>#287</fr:addr><fr:route>unstable-287.xml</fr:route><fr:title>Stability</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>12</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="hejohns.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>577</fr:anchor><fr:addr
+type="user">hejohns-000O</fr:addr><fr:route>hejohns-000O.xml</fr:route><fr:title
+text="Short About">Short About</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>10</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>dummett-91</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-        The opening sentence is what <fr:link
-href="zeilberger"
-type="external">zeilberger</fr:link> quotes on his work on
-        polarity.
-    </fr:p><fr:p>
-        What's the relationship between harmony-stability and Pfenning's local
-        soundness and completeness?
-        They're not literally the same thing, but they're similar.
-    </fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+href="hejohns.xml"
+addr="hejohns"
+title="Johnson He">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>I am a master's student in Computer Science and Engineering at the
+    University of Michigan.
+    I'm interested in logic and related areas of computer science, particularly
+    programming languages.</fr:p><fr:p>This is my <fr:link
+type="external"
+href="https://www.jonmsterling.com/jms-005P.xml">forest</fr:link>.</fr:p><fr:ul><fr:li>email: <fr:resource
+hash="b17271674d1c5ab22cdb420224373d0d"><fr:resource-content><fr:img
+src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz4KPCEtLSBUaGlzIGZpbGUgd2FzIGdlbmVyYXRlZCBieSBkdmlzdmdtIDMuNCAtLT4KPHN2ZyB2ZXJzaW9uPScxLjEnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZycgeG1sbnM6eGxpbms9J2h0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsnIHdpZHRoPScxMjcuMTczMTAzcHQnIGhlaWdodD0nMTMuNTk5MDA0cHQnIHZpZXdCb3g9Jy03MS42ODEyIC03Mi4wMDAwMDEgODQuNzgyMDY4IDkuMDY2MDAyJz4KPHN0eWxlIHR5cGU9J3RleHQvY3NzJz4KPCFbQ0RBVEFbQGZvbnQtZmFjZXtmb250LWZhbWlseTpuZjA7c3JjOnVybChkYXRhOmFwcGxpY2F0aW9uL3gtZm9udC13b2ZmO2Jhc2U2NCxkMDlHUmdBQkFBQUFBQWhzQUFvQUFBQUFDMUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQlBVeTh5QUFBQTlBQUFBRWNBQUFCZ2h2UjFvV050WVhBQUFBRThBQUFBVmdBQUFKUUNzUU9uWjJ4NVpnQUFBWlFBQUFVL0FBQUhqTHU2SkxOb1pXRmtBQUFHMUFBQUFERUFBQUEyS0FkUUdXaG9aV0VBQUFjSUFBQUFJQUFBQUNRSG5BSlBhRzEwZUFBQUJ5Z0FBQUE0QUFBQU9Cc0tBYTVzYjJOaEFBQUhZQUFBQUI0QUFBQWVEZzRNWUcxaGVIQUFBQWVBQUFBQUdBQUFBQ0FBRVFCZmJtRnRaUUFBQjVnQUFBREhBQUFCTDlza0wwZHdiM04wQUFBSVlBQUFBQXdBQUFBZ0FBTUFBSGphWTJCbWZNYzRnWUdWZ1lGcEZ0UFpmeUlNL1NDYThRM2pHd1pqUms0R0lHQmpnQU5HQmlTUVVseVdEcFRVWXlobGFmcDNuWUdCcFlsUkUxWE4vLzhNREFBdlNBK0ZBSGphWTJCZ1lHSmdZR0FHWWhFZ3lRaW1XUmdhZ0xRTWd3QlFoSWRCajhHQklaa2hoU0dWSVlNaGt5R0xJWmNoanlHZm9aaWg5UDkvb0NvOHN2OHYvei8wZndFWXpnUERPV0E0OC84TXNEMDRBUUNRc3lSREFBQjQybzFWVFhBVFZSeC8vLy9iN3VhNytYeWJwTmxzTm1teWJkSk5hTkxka0JiU3BwVUNWU2hRU21taExkTUNNaVBPZ0FWMUtnN0RoeUllUkFWbEhEM2d3WU9PNDlHVFJ4a09lT0xDd2ZHQ25oMW5sUEVFOWUwR0VmeEFabmZmWk45TzN2LzNmaC8vUjRETUVpRFh5VkhpSXFRZWdHeGh3S3F5NjZBYUtyOHRabzhxSVFSSlkrMHUvb1MzeUFTWkp3U1lLR1VMZWdDa011aE5xRnRNWmlwWVRJcUpURzZDWHJDdm5OZ0pvc1RubVd3TlE4MXlYc1Zjb1FJRm5VOVlkZjRubVVubVFFRXZnOFRYU29QTXJIb1Q4QTcydHRTbVJ4NHY3anBKNmNsZDZrUzNJR2doRjRBMzJaOUNZVnM4T1h2Z3RiM2hYUlFuUTNzdVhENHZKZU1kUnFZU096eDFhYit5QStudXJvVTNUaXl5OFBSTndhMk1KQnZiQUxldEQ0M21QQUxNVForbVdvK21BNTVhV2o2Rm9GVTZFTUFkK2oxUXBmVEZpV3N6WGJFUnVpZXk4TTZiQjZKekFvNVFtZ2g2Z2gxTTJKYzVmUEc5ZzhvY2hja1FXL3pscTBEQVg5UUFqOC9NSEVOTVZJS2RuQ2JPWlc3dExud0JOMGt2SVhrbThRMC9vS2pLWkZIaXJGaDF2dG1DMUNhbXp2ZHIxV1FHbjRQc0NSV205cjlPY1hWcDR3TFNQb05DUkUxdmR2Y1paU29ZSFpXU09oa0h2MHRZOVpUQ3dhS0Fadzh1WGFTREF4VVFTdDZNME9VRDdDdXZ2bHp1S0NMMmpIc0FiYzA0Rmt6aERTS1RNaUdhWkQ3VWk4bW1WWkRNZWtoa2RkM1ViUUZ5QVZ1RHFLMUpsWU9xWStwcVpGUC8zQ2xLejgvdk5sQXhyL0RuS3FBck1aZ3FOb0xNNjQzbXg3UERjUmQ2eHhLOWdHZVhENTlCWWNNUGVRYXE3OTc3K1JqTTNvcUlmaTBGUGZIdUhjUFBhVTBobC9lSmpwZVVCeHhsU04vZldFcUR4RVJkNHk2eXpXQ2JoTHZKYXZ2SnRnOG5LdTMyOWV6Y2Q0N2lxL3NXWndFOG9mcy9ncHVGaDNSUEtWQktnZHdDbitpTkQ2ZUs3aDdYYXNqdytVcWNyQ1BMNXlsOVpiSlRBbVdQcnVoQUEySjRzNSt1S2lhTDlRczA3Y2tmNGRwcEhGdzM1NHVqMG5USlpKYk9hZEt6b20zcmVxdzlFM0tJaXpoWU9VZ3Bsb1k2ZHErY3FLVUJsTXJBTklKYVhWbXBxb0RwZ2N2Z0gyLzFtUjdaQTZEM1VKcUJnUGF6TVlhN2QzeWpCU0RUbnNDb1E5bjlqOVVXaGJnL09kcjZscm5CNFNuTHgzdDRqUVJKa3BEYW8vVnQ0V2lVczRZOHJ2ZGVPTWJyZ2JMdUVpYjYxeXRkSEpaU1ZkdXJRNFFyd1ZkL1N3a0JUa1ExZ0V4Unl4QmN1NzFXSnJmeFU3NXlOeUV5RjUvbjJZNGsvMlZIdWY1bkpUTXFac3Y4UFEyM2NYTEkySVJvR0FqTUgrdU1WanI5UUxYQlQ1UXFMOWdscTdYTk0xRHNLUWxDS1NwVE42SmdWQXJ3Z2JPN3o2SWFyOHVMT3huaFBOTVczQ0RQUElIbi8ySSsxbTQzai9GUFd5c25iQWJTbFZxYi8zOVY0MTIydFZHWTl2dTJqUFJaSHVaOWdpVC9tSUN3czR1ajY0WUFDNjNNNkdOQ1BmQU5YSDhLMzhTZXlqYzIwdit6elNPUUhnSFR6dFlkbmkydmpTci9NUEc4b21YM1pBNHFBTEtUcjFxMWlYQ0hubG1jUDB2eDlOTGltU2x3UmZxMlpJYVozV2xkWWJZeHF6ZXowdmZMWnhCUEgxcCttOUlMQytyMjdHZzJtM3RXVGUzTTViSzk0eE9PbnVyYWIvQVNmRWZHN0RUek1CZDBubFZkckpzRjJiS0QzQVRUNmZwbDUyU3diUDNxOWdrZ3haaHpHTmhEd0dhbGZjTngyTDQzdkNFWGpRZzBRR25RaDRIV3lOQjZJUy9xVVhOSUxnRnNtZmRaNlpCSGtPelBvZ2pRNlphM3RtcUFrNFkybVBTcTV4cFRDQUUxSGhJQUVoZTZBTUpqMndGTTNZelFNSHBDMGF4cFRDSzRZMEVQNy8zSjU3c1FVRXowQm5VSzY1U1NKb25SdUx0aTY3cjJxNk9yNW5SUHNkMkc2ZzlicDIzQ3Yvb29kbDh4Wmc0cGtoQ2ltR2g4aU9sbVl4VHNuc2tGOWU1ZjRMbHhlL3NiSDQxbUtJL2psNzBiQVBkdStyb2QvU3M4bytRUExhY29lZ0I0Mm1OZ1pHQmdBT0pOSC8vSnhmUGJmR1ZnWm1FQWdVZHYyUHBnOVAvci8vV1lIWmt1QWJrY0RFd2dVUUJ6dHcxUkFBQUFlTnBqWUdSZ1lHbjZkNTJCZ1RuMC8zVUdFV1pIQnFBSUN1QURBSUZLQlBJQkh3QUFBUjBBV1FNZEFEa0J4d0FqQWprQUl3SEhBQjBDT1FBaEFSMEFJZ0U1LzljRFZRQWhBamtBSVFJQUFCMEJrd0FmQWprQUlRQUFBQUFBRkFDb0FPNEJPZ0dHQWM0Qi9BSTZBcUlDNkFNaUE0NER4Z0FBZU5wallHUmdZT0JqaUdOZ1lnQUJSZ1kwQUFBTEpnQnhlTm90anIwS3drQVFoQ2VZQkl5ZG9GZ3VhQjBpMnZrQWFiU3hTQ3VST3lWRjlpQUpBUkVFMzl6SmViZXdmTE96UHdjZ3d3Y1JwaGRoNmZQMFlzeW8vcHhnZ1ZYZ2xIVUpuR0dETFhVVXoxblo0UlE0WnRjdGNJSTFiT0NVOFE2Y29jRDNYQStOeXNVWjI2bGNYVnVyUG9yS2RuM2pWUFo1UVZWYXRWMDlXQ1AzbDVpeDZjZG5LNGY4aUROcURHaWcvTTRGRG9abk9xK3VWQzFkWlR4NHB2Sk96MTduL1QxeVZ2OWVTVSs5UDIyejNDSzQ0OFZzTUhLaVozNXltK0RBcWVNUGRROHRXUUI0Mm1OZ1pzQUxBQUI5QUFRPSkgZm9ybWF0KCd3b2ZmJyk7fQp0ZXh0LmYwIHtmb250LWZhbWlseTpuZjA7Zm9udC1zaXplOjkuOTYyNjRweH0KXV0+Cjwvc3R5bGU+CjxnIGlkPSdwYWdlMSc+Cjx0ZXh0IGNsYXNzPSdmMCcgeD0nLTcyLjAwMDAwNCcgeT0nLTY0Ljk3NjM0Jz5oZWpvaG5zQHVtaWM8dHNwYW4geD0nLTEwLjUwMDYyNic+aC5lZHU8L3RzcGFuPjwvdGV4dD4KPC9nPgo8L3N2Zz4=" /></fr:resource-content><fr:resource-source
+type="latex"
+part="preamble"><![CDATA[]]></fr:resource-source><fr:resource-source
+type="latex"
+part="body"><![CDATA[hejohns@umich.edu]]></fr:resource-source></fr:resource></fr:li>
+    <fr:li>photo:
+        <fr:p><html:img
+xmlns:html="http://www.w3.org/1999/xhtml"
+src="hejohns.jpeg"
+width="150"
+height="150" /></fr:p></fr:li>
+    <fr:li>cv: <fr:link
+type="external"
+href="cv.pdf">cv.pdf</fr:link> (TODO)</fr:li></fr:ul></fr:mainmatter><fr:backmatter /></fr:tree>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>579</fr:anchor><fr:addr
+type="machine">#287</fr:addr><fr:route>unstable-287.xml</fr:route><fr:title
+text="Extended About">Extended About</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>5</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>29</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="hejohns.xml"
+addr="hejohns"
+title="Johnson He">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>My screen name is <fr:code>hejohns</fr:code>, eg <fr:link
+type="external"
+href="https://github.com/hejohns">https://github.com/hejohns</fr:link>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

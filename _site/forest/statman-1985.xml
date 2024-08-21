@@ -1,25 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>596</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>statman-1985</fr:addr><fr:route>statman-1985.xml</fr:route><fr:title>Equality Between Functionals Revisited</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>13</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>833</fr:anchor><fr:addr
+type="user">statman-1985</fr:addr><fr:route>statman-1985.xml</fr:route><fr:title
+text="Equality Between Functionals Revisited">Equality Between Functionals Revisited</fr:title><fr:taxon>Reference</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>13</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>408</fr:anchor><fr:taxon>Abstract</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>13</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:parent>statman-1985</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-        In this note we shall try to place Friedman's remarkable little paper
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>484</fr:anchor><fr:addr
+type="machine">#247</fr:addr><fr:route>unstable-247.xml</fr:route><fr:taxon>Abstract</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>13</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p>In this note we shall try to place Friedman's remarkable little paper
         (<fr:link
-href="friedman-1975.xml"
 type="local"
-addr="friedman-1975">3</fr:link>) in the context of what we know today about the model
+href="friedman-1975.xml"
+addr="friedman-1975"
+title="Equality Between Functionals">3</fr:link>) in the context of what we know today about the model
         theory of the typed λ-calculus. In order to do this, it is appropriate to
         survey recent work in this area, in so far as it touches on issues raised
         by Friedman. We don't intend a general survey; much will be left out. In
@@ -27,83 +30,91 @@ addr="friedman-1975">3</fr:link>) in the context of what we know today about the
         and polymorphic types, which are areas of interest to the author, and the
         specialist will surely find other omissions. However, we will try to show
         the reader how Friedman's paper <fr:em>lays the foundation</fr:em> for the general
-        model theory of the typed λ-calculus.
-    </fr:p><fr:p>
-        The plan of this note is the following. We shall begin by a brief, informal
+        model theory of the typed λ-calculus.</fr:p><fr:p>The plan of this note is the following. We shall begin by a brief, informal
         introduction to the subject. The reader is then advised to read Friedman's
         paper. It is, after all, quite accessible and easy to read. We shall then
         proceed to consider the three major issues touched on in "Equality between
         functionals" as we view them today. These issues are
-        <fr:ul><fr:li>
-                completness theorems,
-            </fr:li>
-            <fr:li>
-                the solvability of higher type functional equations, and
-            </fr:li>
-            <fr:li>
-                logical relations.
-            </fr:li></fr:ul></fr:p></fr:mainmatter></fr:tree><fr:p><fr:link
-href="statman-1985.pdf"
-type="external">statman-1985.pdf</fr:link></fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context></fr:context><fr:related></fr:related><fr:backlinks><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+        <fr:ul><fr:li>completness theorems,</fr:li>
+            <fr:li>the solvability of higher type functional equations, and</fr:li>
+            <fr:li>logical relations.</fr:li></fr:ul></fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:p><fr:link
+type="external"
+href="statman-1985.pdf">statman-1985.pdf</fr:link></fr:p></fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="References">References</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>595</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>scherer-2017</fr:addr><fr:route>scherer-2017.xml</fr:route><fr:title>Deciding equivalence with sums and the empty type</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>13</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p><fr:link
-href="https://arxiv.org/pdf/1610.01213"
-type="external">https://arxiv.org/pdf/1610.01213</fr:link>.
-    The nice introduction informed me of <fr:link
-href="friedman-1975.xml"
-type="local"
-addr="friedman-1975">Equality Between Functionals</fr:link> and <fr:link
-href="statman-1985.xml"
-type="local"
-addr="statman-1985">Equality Between Functionals Revisited</fr:link>.
-    Referenced on <fr:link
-href="https://proofassistants.stackexchange.com/a/1177"
-type="external">stack overflow</fr:link>.
-</fr:p></fr:mainmatter></fr:tree></fr:backlinks><fr:references><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>594</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>friedman-1975</fr:addr><fr:route>friedman-1975.xml</fr:route><fr:title>Equality Between Functionals</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>13</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>834</fr:anchor><fr:addr
+type="user">friedman-1975</fr:addr><fr:route>friedman-1975.xml</fr:route><fr:title
+text="Equality Between Functionals">Equality Between Functionals</fr:title><fr:taxon>Reference</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>13</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>406</fr:anchor><fr:taxon>Abstract</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>13</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:parent>friedman-1975</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-        The λ-calculus, in both its typed and untyped forms, has primarily been
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>482</fr:anchor><fr:addr
+type="machine">#288</fr:addr><fr:route>unstable-288.xml</fr:route><fr:taxon>Abstract</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>13</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p>The λ-calculus, in both its typed and untyped forms, has primarily been
         regarded as an attempt to formalize the concept of <fr:em>rule</fr:em> or
         <fr:em>process</fr:em>, and ultimately to provide a new foundation for mathematics.
         It seems fair to say that this aspect of the λ-calculus is currently in an
-        embryonic state of development, awaiting further conceptual advances.
-    </fr:p><fr:p>
-        There is, however, another aspect of the <fr:em>typed</fr:em> λ-calculus, which is
+        embryonic state of development, awaiting further conceptual advances.</fr:p><fr:p>There is, however, another aspect of the <fr:em>typed</fr:em> λ-calculus, which is
         readily understood. This is its connection with the full classical finite
         type structure over ω, (i.e., with the functionals of finite type). In an
         obvious way, each closed term in the typed λ-calculus defines a functional
         of finite type over ω.  Call a functional <fr:em>simple</fr:em> if it is given by
-        some closed term in the typed x-calculus.
-    </fr:p><fr:p>
-        Several definitions of <fr:em>convertibility</fr:em> between terms in the λ-calculus,
+        some closed term in the typed x-calculus.</fr:p><fr:p>Several definitions of <fr:em>convertibility</fr:em> between terms in the λ-calculus,
         with or without types, have been considered. The motivation for introducing
         these definitions has primarily been to analyze the notion of the
-        <fr:em>identity</fr:em> between rules, or processes. The relation <fr:tex>⊢ s = t</fr:tex> defined
+        <fr:em>identity</fr:em> between rules, or processes. The relation <fr:tex
+display="inline"><![CDATA[⊢ s = t]]></fr:tex> defined
         in the text, is equivalent to one of these definitions of convertibility.
         It is easy to see that any two convertible terms define the same functional
         of finite type. We show here that any two non- convertible terms define
         different functionals of finite type.[This result was obtained in 1970.]
         This, coupled with the known decidability of convertibility, tells us that
-        "equality between simple functionals is recursive."
-    </fr:p></fr:mainmatter></fr:tree><fr:p>
-    Square brackets denote author's footnotes.
+        "equality between simple functionals is recursive."</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:p>Square brackets denote author's footnotes.
     <fr:link
-href="friedman-1975.pdf"
-type="external">friedman-1975.pdf</fr:link></fr:p></fr:mainmatter></fr:tree></fr:references></fr:backmatter></fr:tree>
+type="external"
+href="friedman-1975.pdf">friedman-1975.pdf</fr:link></fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Backlinks">Backlinks</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>835</fr:anchor><fr:addr
+type="user">scherer-2017</fr:addr><fr:route>scherer-2017.xml</fr:route><fr:title
+text="Deciding equivalence with sums and the empty type">Deciding equivalence with sums and the empty type</fr:title><fr:taxon>Reference</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>13</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p><fr:link
+type="external"
+href="https://arxiv.org/pdf/1610.01213">https://arxiv.org/pdf/1610.01213</fr:link>.
+    The nice introduction informed me of <fr:link
+type="local"
+href="friedman-1975.xml"
+addr="friedman-1975"
+title="Equality Between Functionals">Equality Between Functionals</fr:link> and <fr:link
+type="local"
+href="statman-1985.xml"
+addr="statman-1985"
+title="Equality Between Functionals Revisited">Equality Between Functionals Revisited</fr:link>.
+    Referenced on <fr:link
+type="external"
+href="https://proofassistants.stackexchange.com/a/1177">stack overflow</fr:link>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

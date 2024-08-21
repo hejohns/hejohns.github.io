@@ -1,71 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>251</fr:anchor><fr:addr>grayson-2018</fr:addr><fr:route>grayson-2018.xml</fr:route><fr:title>An introduction to univalent foundations for mathematicians</fr:title><fr:date><fr:year>2024</fr:year><fr:month>7</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>7</fr:month><fr:day>11</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p><fr:link
-href="https://unimath.github.io/minneapolis2024/"
-type="external">"An gentle introduction to univalent
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>385</fr:anchor><fr:addr
+type="user">grayson-2018</fr:addr><fr:route>grayson-2018.xml</fr:route><fr:title
+text="An introduction to univalent foundations for mathematicians">An introduction to univalent foundations for mathematicians</fr:title><fr:date><fr:year>2024</fr:year><fr:month>7</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>7</fr:month><fr:day>11</fr:day></fr:date><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p><fr:link
+type="external"
+href="https://unimath.github.io/minneapolis2024/">"An gentle introduction to univalent
     foundations."</fr:link>,
     but still made much easier to read after the <fr:link
+type="local"
 href="cubical-categorical-logic.xml"
+addr="cubical-categorical-logic"
+title="Maxsnew/cubical-categorical-logic">maxsnew/cubical-categorical-logic</fr:link>
+    hacking experience.</fr:p><fr:p>The "two examples, punchline third" expository pattern is very nice.</fr:p><fr:p><fr:link
+type="external"
+href="https://arxiv.org/abs/1711.01477v3">https://arxiv.org/abs/1711.01477v3</fr:link></fr:p></fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Backlinks">Backlinks</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>386</fr:anchor><fr:addr
+type="user">hejohns-000S</fr:addr><fr:route>hejohns-000S.xml</fr:route><fr:title
+text="Preparing for the 2024 School on Univalent Mathematics (Minnesota)">Preparing for the 2024 School on Univalent Mathematics (Minnesota)</fr:title><fr:date><fr:year>2024</fr:year><fr:month>7</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>7</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-addr="cubical-categorical-logic">maxsnew/cubical-categorical-logic</fr:link>
-    hacking experience.
-</fr:p><fr:p>
-    The "two examples, punchline third" expository pattern is very nice.
-</fr:p><fr:p><fr:link
-href="https://arxiv.org/abs/1711.01477v3"
-type="external">https://arxiv.org/abs/1711.01477v3</fr:link></fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context></fr:context><fr:related><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>250</fr:anchor><fr:addr>cubical-categorical-logic</fr:addr><fr:route>cubical-categorical-logic.xml</fr:route><fr:title>Maxsnew/cubical-categorical-logic</fr:title><fr:date><fr:year>2024</fr:year><fr:month>7</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>7</fr:month><fr:day>11</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p>
-    Formerly known as "multi-poly-cats".
-</fr:p><fr:p><fr:link
-href="https://github.com/maxsnew/cubical-categorical-logic"
-type="external">https://github.com/maxsnew/cubical-categorical-logic</fr:link></fr:p></fr:mainmatter></fr:tree></fr:related><fr:backlinks><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>248</fr:anchor><fr:addr>hejohns-000S</fr:addr><fr:route>hejohns-000S.xml</fr:route><fr:title>Preparing for the 2024 School on Univalent Mathematics (Minnesota)</fr:title><fr:date><fr:year>2024</fr:year><fr:month>7</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>7</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
-type="local"
-addr="hejohns">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-    This should be an absolutely wonderful opportunity, for which I'm very
-    grateful to the organizers.
-</fr:p><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+addr="hejohns"
+title="Johnson He">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>This should be an absolutely wonderful opportunity, for which I'm very
+    grateful to the organizers.</fr:p><fr:tree
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>246</fr:anchor><fr:title>Questions from the pre-readings</fr:title><fr:date><fr:year>2024</fr:year><fr:month>7</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>7</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>388</fr:anchor><fr:addr
+type="machine">#260</fr:addr><fr:route>unstable-260.xml</fr:route><fr:title
+text="Questions from the pre-readings">Questions from the pre-readings</fr:title><fr:date><fr:year>2024</fr:year><fr:month>7</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>7</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
 href="hejohns.xml"
+addr="hejohns"
+title="Johnson He">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:ul><fr:li>One of the suggested pre-readings is <fr:link
 type="local"
-addr="hejohns">Johnson He</fr:link></fr:author></fr:authors><fr:parent>hejohns-000S</fr:parent></fr:frontmatter><fr:mainmatter><fr:ul><fr:li>
-            One of the suggested pre-readings is <fr:link
 href="grayson-2018.xml"
-type="local"
-addr="grayson-2018">An introduction to univalent foundations for mathematicians</fr:link>.
+addr="grayson-2018"
+title="An introduction to univalent foundations for mathematicians">An introduction to univalent foundations for mathematicians</fr:link>.
             On p.20, the so-called "'resizing' rules" are mentioned and the
             consistency of such a system is left open.
             Apparently, this is still open as of
             <fr:link
-href="https://benediktahrens.gitlab.io/talks/HTT-UF-Leeds2019.pdf"
-type="external">2019</fr:link>.
+type="external"
+href="https://benediktahrens.gitlab.io/talks/HTT-UF-Leeds2019.pdf">2019</fr:link>.
             Is this still open today? Is anyone working on it? Does anyone
             still care? Or are people complacent with universe polymorphism and
-            just lifting everything?
-        </fr:li></fr:ul></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+            just lifting everything?</fr:li></fr:ul></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Related">Related</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>390</fr:anchor><fr:addr
+type="user">cubical-categorical-logic</fr:addr><fr:route>cubical-categorical-logic.xml</fr:route><fr:title
+text="Maxsnew/cubical-categorical-logic">Maxsnew/cubical-categorical-logic</fr:title><fr:date><fr:year>2024</fr:year><fr:month>7</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>7</fr:month><fr:day>11</fr:day></fr:date><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p>Formerly known as "multi-poly-cats".</fr:p><fr:p><fr:link
+type="external"
+href="https://github.com/maxsnew/cubical-categorical-logic">https://github.com/maxsnew/cubical-categorical-logic</fr:link></fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

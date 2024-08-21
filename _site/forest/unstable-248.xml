@@ -1,157 +1,114 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>279</fr:anchor><fr:addr>#248</fr:addr><fr:route>unstable-248.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>24</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>29</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>25</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>29</fr:day></fr:date><fr:parent>sterling-2022</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-        I can't quite follow the <fr:em>phase distinction</fr:em> and only have a very vague
-        idea of what's going on starting at p. 9.
-    </fr:p><fr:p>
-        From what I can tell, the idea is to work in the internal language of some
-        topos-- really the internal "agda-like dependent type theory"-- to
-        construct the logical relations category, instead of doing something like
-        (analytic) gluing.
-        How this makes anything easier is beyond me at the moment.
-        I can't tell if the <fr:em>object-space/meta-space</fr:em> discussion is clear
-        and I just don't have some context, or it's actually presented almost
-        mystically.
-        The mention of <fr:link
-href="carette-kiselyov-shan-2007.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>860</fr:anchor><fr:addr
+type="machine">#248</fr:addr><fr:route>unstable-248.xml</fr:route><fr:taxon>Email</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>28</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>29</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-addr="carette-kiselyov-shan-2007">finally tagless encodings</fr:link>
-        and <fr:link
-href="hoffman-1999"
-type="external">a justification for hoas</fr:link> doesn't seem super
-        on-the-point, but if it's mentioned it must be for good reason…
-    </fr:p><fr:p>
-        Again, quotes are air-quotes, not actual quotes.
-        <fr:link
-href="sterling-2022.pdf"
-type="external">sterling-2022.pdf</fr:link></fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+href="hejohns.xml"
+addr="hejohns"
+title="Johnson He">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Thanks for sharing this nice little note, which sketches a combinatory
+        (classical) first-order logic.</fr:p><fr:p>I was surprised by the mention of von Neumann 1925 in this snippet:</fr:p><fr:p>"In a way our operators are reminiscent also of the axioms of class
+        existence in Neumann, J. von, Eine Axiomatisierung der Mengenlehre,
+        Journal für reine und ungewandte Mathematik 154: 219-240, 1925, despite
+        dissimilarity of purpose." (Footnote 1, p. 346)</fr:p><fr:p>From what I gather, the reminiscence with von Neumann 1925 (I assume
+        Quine was principally referring to the "III. Logical Construction
+        Axioms") is that the purposes (of Quine's predicate combinators and von
+        Neumann's axioms of existence of II-objects) are actually quite
+        similar.</fr:p><fr:p>It seems that the system of von Neumann 1925 isn't couched in any
+        particular formal system (although it's maybe implicitly first-order,
+        and apparently translated into such by Skolem 1938), thus von Neumann
+        wants to recover from any definite property ("logical condition") on
+        I-objects, the (existence of a) class (II-object) of those I-objects.
+        Wikipedia calls this the <fr:link
+type="external"
+href="https://en.wikipedia.org/wiki/Von_Neumann%E2%80%93Bernays%E2%80%93G%C3%B6del_set_theory#Class_existence_theorem">class existence theorem</fr:link>.</fr:p><fr:p>(More generally, the "reduction theorem" in von Neumann 1925 says that
+        every expression of I-objects (definable class-function) is indeed a
+        II-object (class-function). This restricts to logical conditions and
+        classes.)</fr:p><fr:p>To do this economically, the existence of a few basic
+        combinator-classes are stipulated (=, ∀, ∃!), and more complex logical
+        conditions are put in "normal form" by eliminating variables with the
+        combinator-classes.  The 'uneconomic' way, if von Neumann 1925 were
+        working in an explicit logic, would be to just stipulate a schema of
+        class comprehension (also mentioned in the Wikipedia article), as
+        included in the back of Chang and Keisler.</fr:p><fr:p>Actually, while there are explicit class existence axioms for absorbing
+        =, ∀, ∃!, I don't see any for things like ∧ or ¬, and don't see how
+        they'd follow with the other axioms, but I suppose they must. The
+        Wikipedia article has a write-up starting from more user-friendly
+        axioms.</fr:p><fr:p>In any case, I hadn't realized that the historic move to make precise
+        the notion of 'definite property' as 'first-order definable' was
+        nontrivial, and found this connection with Quine's note interesting,</fr:p><fr:p>Johnson He</fr:p></fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>278</fr:anchor><fr:taxon>Scratch</fr:taxon><fr:addr>sterling-2022</fr:addr><fr:route>sterling-2022.xml</fr:route><fr:title>Naïve Logical Relations in Synthetic Tait Computability</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>24</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>29</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>862</fr:anchor><fr:addr
+type="user">quine-1960</fr:addr><fr:route>quine-1960.xml</fr:route><fr:title
+text="Variables Explained Away">Variables Explained Away</fr:title><fr:taxon>Reference</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>28</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>29</fr:day></fr:date><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p>"Separately I sent a copy of Quine's 1950 paper on combinatory logic to
+    this list. Whatever else you might think about Quine, he was a terrific
+    explainer, and this is the best introduction to the subject I know."</fr:p><fr:p>(Yes, that 50 should be a 60(b).)
+    Here is the followup I wrote:</fr:p><fr:tree
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>273</fr:anchor><fr:taxon>Abstract</fr:taxon><fr:addr>#247</fr:addr><fr:route>unstable-247.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>24</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>29</fr:day></fr:date><fr:parent>sterling-2022</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-        Logical relations are the main tool for proving <fr:strong>positive</fr:strong>
-        properties of logics, type theories, and programming languages:
-        canonicity, decidability, conservativity, computational adequacy, and
-        more. Logical relations combine pure syntax with non-syntactic objects
-        that are parameretized in syntax in a somewhat complex way; the
-        sophistication of possible parameterizations makes logical relations a
-        tool that is primarily accessible to specialists. In the spirit of
-        Halmos’ Naïve Set Theory, we advance a new viewpoint on logical
-        relations based on synthetic Tait computability, an internal language
-        for categories of logical relations. In <fr:strong>synthetic Tait
-        computability</fr:strong>, logical relations are manipulated as if they were sets,
-        making the essence of many complex logical relations arguments
-        accessible to non-specialists.
-    </fr:p></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>274</fr:anchor><fr:addr>#248</fr:addr><fr:route>unstable-248.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>24</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>29</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>25</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>29</fr:day></fr:date><fr:parent>sterling-2022</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-        I can't quite follow the <fr:em>phase distinction</fr:em> and only have a very vague
-        idea of what's going on starting at p. 9.
-    </fr:p><fr:p>
-        From what I can tell, the idea is to work in the internal language of some
-        topos-- really the internal "agda-like dependent type theory"-- to
-        construct the logical relations category, instead of doing something like
-        (analytic) gluing.
-        How this makes anything easier is beyond me at the moment.
-        I can't tell if the <fr:em>object-space/meta-space</fr:em> discussion is clear
-        and I just don't have some context, or it's actually presented almost
-        mystically.
-        The mention of <fr:link
-href="carette-kiselyov-shan-2007.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>503</fr:anchor><fr:addr
+type="machine">#248</fr:addr><fr:route>unstable-248.xml</fr:route><fr:taxon>Email</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>28</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>29</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-addr="carette-kiselyov-shan-2007">finally tagless encodings</fr:link>
-        and <fr:link
-href="hoffman-1999"
-type="external">a justification for hoas</fr:link> doesn't seem super
-        on-the-point, but if it's mentioned it must be for good reason…
-    </fr:p><fr:p>
-        Again, quotes are air-quotes, not actual quotes.
-        <fr:link
-href="sterling-2022.pdf"
-type="external">sterling-2022.pdf</fr:link></fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks></fr:backlinks><fr:references><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>277</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>carette-kiselyov-shan-2007</fr:addr><fr:route>carette-kiselyov-shan-2007.xml</fr:route><fr:title>Finally Tagless, Partially Evaluated</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>24</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>29</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>269</fr:anchor><fr:taxon>Abstract</fr:taxon><fr:addr>#264</fr:addr><fr:route>unstable-264.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>24</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>29</fr:day></fr:date><fr:parent>carette-kiselyov-shan-2007</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-        We have built the first family of tagless interpretations for a
-        higher-order typed object language in a typed metalanguage (Haskell or
-        ML) that require no dependent types, generalized algebraic data types,
-        or postprocessing to eliminate tags. The statically type-preserving
-        interpretations include an evaluator, a compiler (or staged evaluator),
-        a partial evaluator, and call-by-name and call-by-value CPS
-        transformers.
-    </fr:p><fr:p>
-        Our main idea is to encode HOAS using cogen functions rather than data
-        constructors. In other words, we represent object terms not in an
-        initial algebra but using the coalgebraic structure of the λ-calculus.
-        Our representation also simulates inductive maps from types to types,
-        which are required for typed partial evaluation and CPS
-        transformations.
-    </fr:p><fr:p>
-        Our encoding of an object term abstracts over the various ways to
-        interpret it, yet statically assures that the interpreters never get
-        stuck.  To achieve self-interpretation and show Jones-optimality, we
-        relate this exemplar of higher-rank and higher-kind polymorphism to
-        plugging a term into a context of let-polymorphic bindings.
-    </fr:p></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>270</fr:anchor><fr:addr>#265</fr:addr><fr:route>unstable-265.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>24</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>29</fr:day></fr:date><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>25</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>29</fr:day></fr:date><fr:parent>carette-kiselyov-shan-2007</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-        This is the APLAS version (confernece paper). There is a roughly twice
-        as long journal version.
-    </fr:p><fr:p>
-        I didn't study a lot of the probably more interesting aspects of this
-        work.
-        I just wanted a first/resonant-understanding of "what does <fr:em>finally
-        tagless</fr:em> mean?".
-    </fr:p><fr:p>
-        It seems the very basic idea is about the general problem of DSLs.
-        The very short way to say it, is that we like to construct languages as
-        object languages of nice meta languages.
-        For example, a nice meta languages gives us nice primitives to reuse as
-        the denotational semantics of the object language.
-        A classic example is to use the <fr:code>Int</fr:code> type in the meta language as
-        the semantics of the DSL/embedded/object language's numeric type.
-    </fr:p><fr:p>
-        Most people's knee jerk reaction is to encode the object language as an
-        ADT. This is fine and well, and can be called <fr:em>initial</fr:em> in the sense
-        that it is the free syntax generated by the encoded rules/initial
-        algebra/inductive dataype.
-        But the naïve TODO
-    </fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:references></fr:backmatter></fr:tree>
+href="hejohns.xml"
+addr="hejohns"
+title="Johnson He">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Thanks for sharing this nice little note, which sketches a combinatory
+        (classical) first-order logic.</fr:p><fr:p>I was surprised by the mention of von Neumann 1925 in this snippet:</fr:p><fr:p>"In a way our operators are reminiscent also of the axioms of class
+        existence in Neumann, J. von, Eine Axiomatisierung der Mengenlehre,
+        Journal für reine und ungewandte Mathematik 154: 219-240, 1925, despite
+        dissimilarity of purpose." (Footnote 1, p. 346)</fr:p><fr:p>From what I gather, the reminiscence with von Neumann 1925 (I assume
+        Quine was principally referring to the "III. Logical Construction
+        Axioms") is that the purposes (of Quine's predicate combinators and von
+        Neumann's axioms of existence of II-objects) are actually quite
+        similar.</fr:p><fr:p>It seems that the system of von Neumann 1925 isn't couched in any
+        particular formal system (although it's maybe implicitly first-order,
+        and apparently translated into such by Skolem 1938), thus von Neumann
+        wants to recover from any definite property ("logical condition") on
+        I-objects, the (existence of a) class (II-object) of those I-objects.
+        Wikipedia calls this the <fr:link
+type="external"
+href="https://en.wikipedia.org/wiki/Von_Neumann%E2%80%93Bernays%E2%80%93G%C3%B6del_set_theory#Class_existence_theorem">class existence theorem</fr:link>.</fr:p><fr:p>(More generally, the "reduction theorem" in von Neumann 1925 says that
+        every expression of I-objects (definable class-function) is indeed a
+        II-object (class-function). This restricts to logical conditions and
+        classes.)</fr:p><fr:p>To do this economically, the existence of a few basic
+        combinator-classes are stipulated (=, ∀, ∃!), and more complex logical
+        conditions are put in "normal form" by eliminating variables with the
+        combinator-classes.  The 'uneconomic' way, if von Neumann 1925 were
+        working in an explicit logic, would be to just stipulate a schema of
+        class comprehension (also mentioned in the Wikipedia article), as
+        included in the back of Chang and Keisler.</fr:p><fr:p>Actually, while there are explicit class existence axioms for absorbing
+        =, ∀, ∃!, I don't see any for things like ∧ or ¬, and don't see how
+        they'd follow with the other axioms, but I suppose they must. The
+        Wikipedia article has a write-up starting from more user-friendly
+        axioms.</fr:p><fr:p>In any case, I hadn't realized that the historic move to make precise
+        the notion of 'definite property' as 'first-order definable' was
+        nontrivial, and found this connection with Quine's note interesting,</fr:p><fr:p>Johnson He</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:ul><fr:li><fr:link
+type="external"
+href="quine-1960.pdf">quine-1960.pdf</fr:link></fr:li>
+    <fr:li><fr:link
+type="local"
+href="von-neumann-1925.xml"
+addr="von-neumann-1925"
+title="An Axiomatization of Set Theory">An Axiomatization of Set Theory</fr:link></fr:li></fr:ul></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

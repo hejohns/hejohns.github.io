@@ -1,30 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>576</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>van-heijenoort-1967</fr:addr><fr:route>van-heijenoort-1967.xml</fr:route><fr:title>From Frege To Gödel</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>28</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>29</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p>
-    A+. I should get a second copy to gift whenever needed.
-</fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context></fr:context><fr:related></fr:related><fr:backlinks><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>867</fr:anchor><fr:addr
+type="user">van-heijenoort-1967</fr:addr><fr:route>van-heijenoort-1967.xml</fr:route><fr:title
+text="From Frege To Gödel">From Frege To Gödel</fr:title><fr:taxon>Reference</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>28</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>29</fr:day></fr:date><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p>A+. I should get a second copy to gift whenever needed.</fr:p></fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Backlinks">Backlinks</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>575</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>von-neumann-1925</fr:addr><fr:route>von-neumann-1925.xml</fr:route><fr:title>An Axiomatization of Set Theory</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>28</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>29</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p>
-    One of the early NBG papers. Maybe "the" NBG paper.
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>868</fr:anchor><fr:addr
+type="user">von-neumann-1925</fr:addr><fr:route>von-neumann-1925.xml</fr:route><fr:title
+text="An Axiomatization of Set Theory">An Axiomatization of Set Theory</fr:title><fr:taxon>Reference</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>28</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>29</fr:day></fr:date><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p>One of the early NBG papers. Maybe "the" NBG paper.
     My notes on this are currently in <fr:link
+type="local"
 href="quine-1960.xml"
+addr="quine-1960"
+title="Variables Explained Away">Variables Explained Away</fr:link>.</fr:p><fr:p>English translation in <fr:link
 type="local"
-addr="quine-1960">Variables Explained Away</fr:link>.
-</fr:p><fr:p>
-    English translation in <fr:link
 href="van-heijenoort-1967.xml"
-type="local"
-addr="van-heijenoort-1967">From Frege To Gödel</fr:link>.
-</fr:p></fr:mainmatter></fr:tree></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+addr="van-heijenoort-1967"
+title="From Frege To Gödel">From Frege To Gödel</fr:link>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

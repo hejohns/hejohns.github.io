@@ -125,12 +125,18 @@ with “math processing error”.</p>
 require 'selenium-webdriver'
 
 driver = Selenium::WebDriver.for :firefox
-driver.get(ARGV[0])
+url = ARGV[0]
+url =~ Regexp.new('/([^/]+)$')
+fail unless Regexp.last_match
+post_name = $1
+puts "post #{post_name}"
+driver.get(url)
 
 # https://meta.stackoverflow.com/questions/268400/is-there-a-get-query-string-to-expand-all-comments-by-default#comment555104_268456
-sleep 1
+# wait for the page to load (yes, I know this isn't the proper way, but I really don't know how to tell if the page is fully loaded)
+sleep 3
 driver.execute_script(
-  "javascript:for(x of document.getElementsByClassName('js-add-link comments-link'))x.click()"
+  "javascript:for(x of document.getElementsByClassName('js-add-link comments-link'))x?.click()"
 )
 
 # We get MathJax rendering errors for some reason, so let's just use the
@@ -142,10 +148,34 @@ driver.execute_script(
 # Not that it matters much, since we wouldn't be able to interact with the
 # popup anyways
 #driver.action.key_down(:control).key_down('s').key_up(:control).key_up('s').perform
-
+#
 # somehow, we always come back to xdotool...
+
+# stack overflow has a giant sign-in pop-up we want to close
+# let's just spam Esc a couple times to get it to go away
+for _ in 1..3 do
+  sleep 1
+  `xdotool key Escape`
+end
+# how to close the other smaller pop-ups:
+# https://www.w3schools.com/jsref/met_html_click.asp
+sleep 1
+# close cookies request pop-up
+driver.execute_script(
+  "javascript:document.getElementById('onetrust-reject-all-handler')?.click()"
+)
+sleep 1
+# close google sign-in pop-up
+driver.execute_script(
+  "javascript:document.getElementById('credential_picker_container')?.remove()"
+)
+
+# and finally, we save by simulating &lt;C-s&gt; with xdotool
+sleep 1
 `xdotool key ctrl+s`
-system('xdotool', 'type', File.expand_path(ARGV[1]))
+sleep 1
+system('xdotool', 'type', File.expand_path(File.join(ARGV[1], post_name)))
+sleep 1
 `xdotool key alt+s`
 
 sleep 1
@@ -190,7 +220,7 @@ driver.quit
             <li>(the answer is yes, you should.)</li>
         </ul>
         <!-- add last-modified-time -->
-        <p>site version: 2024-07-24</p>
+        <p>site version: 2024-08-21</p>
       </div>
       <div class="footer-col">
         <p>a pure waste of space</p>
