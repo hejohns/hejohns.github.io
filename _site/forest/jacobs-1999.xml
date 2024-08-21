@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1034</fr:anchor><fr:addr
-type="user">jacobs-1999</fr:addr><fr:route>jacobs-1999.xml</fr:route><fr:title
-text="Categorical Logic and Type Theory">Categorical Logic and Type Theory</fr:title><fr:taxon>Reference</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>6</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
+root="false"><fr:frontmatter><fr:anchor>738</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>jacobs-1999</fr:addr><fr:route>jacobs-1999.xml</fr:route><fr:title>Categorical Logic and Type Theory</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>6</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="hejohns.xml"
-addr="hejohns"
-title="Johnson He">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter /><fr:backmatter /></fr:tree>
+type="local"
+addr="hejohns">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context></fr:context><fr:related></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
