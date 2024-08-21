@@ -1,32 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>281</fr:anchor><fr:addr>logicmatters</fr:addr><fr:route>logicmatters.xml</fr:route><fr:title>Peter Smith's Book Reviews</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>15</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>15</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p>
-    One of my all-time favorite pages on the web (and that's not an uncommonly
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>629</fr:anchor><fr:addr
+type="user">logicmatters</fr:addr><fr:route>logicmatters.xml</fr:route><fr:title
+text="Peter Smith's Book Reviews">Peter Smith's Book Reviews</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>15</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>15</fr:day></fr:date><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p>One of my all-time favorite pages on the web (and that's not an uncommonly
     held opinion), a tremendous resource and service for the community. I'm not
     able to evaluate too many of Prof. Smith's opinions, but I don't disagree
-    with any of what he's written about the books I have seen.
-</fr:p><fr:p>
-    At least I just reread the review of <fr:link
-href="shoenfield-1967.xml"
+    with any of what he's written about the books I have seen.</fr:p><fr:p>At least I just reread the review of <fr:link
 type="local"
-addr="shoenfield-1967">Mathematical Logic</fr:link>, and "So this
+href="shoenfield-1967.xml"
+addr="shoenfield-1967"
+title="Mathematical Logic">Mathematical Logic</fr:link>, and "So this
     neither has the cleanness of a Hilbert system nor the naturalness of a
     natural deduction system. As far as I noticed, nothing is said to motivate
-    this seemingly horrible choice as against others." always makes me laugh.
-</fr:p><fr:p><fr:link
-href="https://www.logicmatters.net/tyl/booknotes/"
-type="external">https://www.logicmatters.net/tyl/booknotes/</fr:link></fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context></fr:context><fr:related></fr:related><fr:backlinks></fr:backlinks><fr:references><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+    this seemingly horrible choice as against others." always makes me laugh.</fr:p><fr:p><fr:link
+type="external"
+href="https://www.logicmatters.net/tyl/booknotes/">https://www.logicmatters.net/tyl/booknotes/</fr:link></fr:p></fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="References">References</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>280</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>shoenfield-1967</fr:addr><fr:route>shoenfield-1967.xml</fr:route><fr:title>Mathematical Logic</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>15</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>15</fr:day></fr:date></fr:frontmatter><fr:mainmatter></fr:mainmatter></fr:tree></fr:references></fr:backmatter></fr:tree>
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>630</fr:anchor><fr:addr
+type="user">shoenfield-1967</fr:addr><fr:route>shoenfield-1967.xml</fr:route><fr:title
+text="Mathematical Logic">Mathematical Logic</fr:title><fr:taxon>Reference</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>15</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>15</fr:day></fr:date><fr:authors /></fr:frontmatter><fr:mainmatter /><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
