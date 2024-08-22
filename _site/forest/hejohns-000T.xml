@@ -7,88 +7,7 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>612</fr:anchor><fr:addr
-type="machine">#261</fr:addr><fr:route>unstable-261.xml</fr:route><fr:title
-text="Brushing up on Acronyms, Reprise: GATs, SOGATs, or even just Algebraic Theories › Uemura's Thesis §4 (SOGATs)"><fr:link
-type="local"
-href="hejohns-000T.xml"
-addr="hejohns-000T"
-title="Brushing up on Acronyms, Reprise: GATs, SOGATs, or even just Algebraic Theories">Brushing up on Acronyms, Reprise: GATs, SOGATs, or even just Algebraic Theories</fr:link> › Uemura's Thesis §4 (SOGATs)</fr:title><fr:date><fr:year>2024</fr:year><fr:month>8</fr:month><fr:day>20</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>8</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="hejohns.xml"
-addr="hejohns"
-title="Johnson He">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>"In this chapter, we introduce <fr:em>second-order generalized algebraic
-        theories (SOGATs)</fr:em> for several reasons. In short, SOGATs are:
-        <fr:ul><fr:li>1. syntactic counterparts of CwRs;</fr:li>
-            <fr:li>2. extension of the general definition of dependent type
-                theories given by Bauer, Haselwarter, and Lumsdaine [20] to
-                allow user-definable judgment forms;</fr:li>
-            <fr:li>3. second-order extension of <fr:em>generalized algebraic
-                theories</fr:em> of Cartmell [35];</fr:li>
-            <fr:li>4. dependently-typed extension of <fr:em>second-order algebraic
-                theories</fr:em> of Fiore and Mahmoud [57].</fr:li></fr:ul>
-        The first aspect is the most important in this thesis. In [169] the
-        author introduced a logical framework to give syntactic counterparts of
-        CwRs, but it is not satisfactory. When defining a type theory as a
-        theory over a logical framework, one has to prove the <fr:em>adequacy</fr:em> of the
-        definition, that is, the theory over the logical framework derives the
-        same judgments as the original type theory does. Although adequacy can
-        systematically be proved for each individual type theory syntactically
-        [75] or semantically [79], the adequacy of all logical framework
-        presentations cannot be proved nor even stated unless we have a general
-        notion of a type theory outside the logical framework. What we really
-        want is a general notion of a syntactic presentation of a type theory
-        such that a wide range of existing type theories are verified to be
-        instances of that notion by just unfolding the definition. Bauer,
-        Haselwarter, and Lumsdaine [20] have made a careful analysis on
-        inference rules in traditional presentations of type theories and
-        proposed a class of syntactic presentations of type theories that fits
-        our requirement. A restriction on their type theories is that the forms
-        of judgments are fixed, and thus we cannot define some complex type
-        theories such as cubical type theory [41]. We thus modify their
-        definition of type theories to allow users to declare new judgment
-        forms. It turns out that our syntactic presentations of type theories
-        are considered as an extension of algebraic theories by dependent types
-        and variable binding. We thus choose the name 'second-order generalized
-        algebraic theory' combining the dependently-typed extension and the
-        second-order extension of algebraic theories found in the literature."</fr:p><fr:p>Maybe for the cognoscenti this makes perfect sense, but for me:
-        <fr:ul><fr:li>re 1. What does "syntactic counterpart" mean?
-                I suppose now's a great time to go back to §3 and actually
-                learn what a CwR is in the first place, but if it's anything
-                like a natural model, isn't it already very syntactic?
-                Maybe this is totally off, but natural models/CwFs look a lot
-                like hyperdoctrines in the sense that they directly model the
-                syntax.
-                What does it mean to have a syntactic counterpart to something
-                like a hyperdoctrine, that's already the syntactic model?
-                Or is it roughly like (regular) hyperdoctrine : (regular) category :: SOGAT : CwR?
-
-                Uemura's further explanation of 1. seems to suggest I have no idea what "syntactic" means here.</fr:li>
-            <fr:li>re 2. I'm also going to have to follow this reference, but
-                "A restriction on their type theories is that the forms of
-                judgments are fixed, and thus we cannot define some complex
-                type theories such as cubical type theory" indeed seems like a
-                major shortcoming.</fr:li>
-            <fr:li>re 3. Maybe the original syntactic-thing-for-dependent-type-theories.
-                It seems necessary to understand this fundamental notion at some point.</fr:li>
-            <fr:li>re 4. And this of course suggest brushing up on what an
-                algebraic theory even is in the first place-- what's the
-                relationship with Lawvere theories?</fr:li></fr:ul></fr:p></fr:mainmatter><fr:backmatter><fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
-text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>614</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>570</fr:anchor><fr:addr
 type="user">hejohns-000T</fr:addr><fr:route>hejohns-000T.xml</fr:route><fr:title
 text="Brushing up on Acronyms, Reprise: GATs, SOGATs, or even just Algebraic Theories">Brushing up on Acronyms, Reprise: GATs, SOGATs, or even just Algebraic Theories</fr:title><fr:taxon>Exposition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>8</fr:month><fr:day>20</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>8</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -264,4 +183,4 @@ part="body"><![CDATA[
             \end {tikzcd}
         ]]></fr:resource-source></fr:resource>
 
-        <fr:figcaption>[I've changed the 1 to e because of rendering issues I can't figure out.]</fr:figcaption></fr:figure></fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
+        <fr:figcaption>[I've changed the 1 to e because of rendering issues I can't figure out.]</fr:figcaption></fr:figure></fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree>
