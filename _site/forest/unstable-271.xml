@@ -7,12 +7,12 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>656</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>663</fr:anchor><fr:addr
 type="machine">#271</fr:addr><fr:route>unstable-271.xml</fr:route><fr:title
-text="Finite-type intuitionistic predicate logic › Syntax à la Sketches of an Elephant: a topos theory compendium  › formulas"><fr:link
+text="Finite-type intuitionistic predicate logic › Syntax à la Sketches of an Elephant: a topos theory compendium  › terms"><fr:link
 type="local"
-href="unstable-268.xml"
-addr="#268"
+href="unstable-269.xml"
+addr="#269"
 title="Finite-type intuitionistic predicate logic › Syntax à la Sketches of an Elephant: a topos theory compendium "><fr:link
 type="local"
 href="hejohns-000M.xml"
@@ -21,28 +21,67 @@ title="Finite-type intuitionistic predicate logic">Finite-type intuitionistic pr
 type="local"
 href="johnstone-2002.xml"
 addr="johnstone-2002"
-title="Sketches of an Elephant: a topos theory compendium">Sketches of an Elephant: a topos theory compendium</fr:link> </fr:link> › formulas</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>8</fr:month><fr:day>21</fr:day></fr:date><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p>(We again omit the bookkeeping of free variables.)
-            "The <fr:em>atomic formulae</fr:em> over <fr:tex
-display="inline"><![CDATA[\mathcal {L}]]></fr:tex> are of three kinds:
-            <fr:ul><fr:li>(i) If <fr:tex
-display="inline"><![CDATA[R ↣ A]]></fr:tex> is a relation symbol and <fr:tex
-display="inline"><![CDATA[t : A]]></fr:tex>, then
-                    <fr:tex
-display="inline"><![CDATA[R(t)]]></fr:tex> is an atomic formulae.</fr:li>
-                <fr:li>(ii) If <fr:tex
-display="inline"><![CDATA[s]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[t]]></fr:tex> are terms of the same type <fr:tex
+title="Sketches of an Elephant: a topos theory compendium">Sketches of an Elephant: a topos theory compendium</fr:link> </fr:link> › terms</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>8</fr:month><fr:day>21</fr:day></fr:date><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p>(We omit the bookkeeping of free variables that Johnstone inlines with
+            the following definitions.)
+            "<fr:ul><fr:li>(i) We have a stock of <fr:em>variables</fr:em> <fr:tex
+display="inline"><![CDATA[x : A]]></fr:tex> for each type <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>.</fr:li>
+                <fr:li>(ii) if <fr:tex
+display="inline"><![CDATA[f : A→B]]></fr:tex> is a function symbol of <fr:tex
+display="inline"><![CDATA[\mathcal {L}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[t : A]]></fr:tex>,
+                    then <fr:tex
+display="inline"><![CDATA[f t : B]]></fr:tex>.</fr:li>
+                <fr:li>(iii)
+                    <fr:ul><fr:li>(a) we have a distinguished term <fr:tex
+display="inline"><![CDATA[* : 1]]></fr:tex>.</fr:li>
+                        <fr:li>(b) If <fr:tex
+display="inline"><![CDATA[s : A]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[t : B]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[⟨s,t⟩:A×B]]></fr:tex>.</fr:li></fr:ul></fr:li>
+                <fr:li>(iv) If <fr:tex
+display="inline"><![CDATA[t : A×B]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[π₁ t : A]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[π₂ t : B]]></fr:tex>.</fr:li>
+                <fr:li>(v) If <fr:tex
+display="inline"><![CDATA[t : B]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> is a variable of type <fr:tex
 display="inline"><![CDATA[A]]></fr:tex>, then
                     <fr:tex
-display="inline"><![CDATA[s =_A t]]></fr:tex> is an atomic formula.</fr:li>
-                <fr:li>(iii) If <fr:tex
-display="inline"><![CDATA[s : A]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[t : \mathcal {P}A]]></fr:tex> for some <fr:tex
+display="inline"><![CDATA[(λx : A. t) : A→B]]></fr:tex>.</fr:li>
+                <fr:li>(vi) If <fr:tex
+display="inline"><![CDATA[s : A→B]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[t : A]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[s t : B]]></fr:tex>.
+                    [This is formally different from (ii).]</fr:li>
+                <fr:li>(vii) If <fr:tex
+display="inline"><![CDATA[ϕ]]></fr:tex> is a formula and <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> is a variable of type
+                    <fr:tex
 display="inline"><![CDATA[A]]></fr:tex>, then <fr:tex
-display="inline"><![CDATA[s                     ∈_A t]]></fr:tex> is an atomic formula.</fr:li></fr:ul></fr:p><fr:p>The compound formulae over <fr:tex
-display="inline"><![CDATA[\mathcal {L}]]></fr:tex> are built up from the atomic
-            formulae [with <fr:tex
-display="inline"><![CDATA[⊤,∧,⊥,∨,⟹,¬,∃,∀,]]></fr:tex>]."</fr:p></fr:mainmatter><fr:backmatter><fr:tree
+display="inline"><![CDATA[\{x : A | ϕ\} : \mathcal {P}A]]></fr:tex>.</fr:li>
+                <fr:li>(viii)
+                    <fr:ul><fr:li>For each type <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>, there is a distinguished term
+                            <fr:tex
+display="inline"><![CDATA[[]]]></fr:tex> of type <fr:tex
+display="inline"><![CDATA[LA]]></fr:tex>.</fr:li>
+                        <fr:li>If <fr:tex
+display="inline"><![CDATA[s : A]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[t : LA]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[s::t : LA]]></fr:tex>.</fr:li></fr:ul></fr:li>
+                <fr:li>(ix) The remaining term constructor associated with list
+                    types, the <fr:em>iterator</fr:em>, is more complicated [which we
+                    omit for irrelevance].</fr:li></fr:ul></fr:p><fr:p>Of course, clauses (v) and (vi) of the definition above apply only
+            if we have function types in <fr:tex
+display="inline"><![CDATA[\mathcal {L}]]></fr:tex>, clause (vii) only if we have power
+            types, and clauses (viii) and (ix) only if we have list types.
+            Note that, except for power types, the clauses come in pairs [of
+            constructors and destructors]. The reason why we have no
+            'destructor' for power types is that, just as the constructor for
+            power types builds terms out of formulae rather than terms, the
+            corresponding destructor builds formulae out of terms of a power
+            type-- it thus appears as clause (iii) of the next definition."</fr:p></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -57,7 +96,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>657</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>664</fr:anchor><fr:addr
 type="user">hejohns-000M</fr:addr><fr:route>hejohns-000M.xml</fr:route><fr:title
 text="Finite-type intuitionistic predicate logic">Finite-type intuitionistic predicate logic</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>8</fr:month><fr:day>21</fr:day></fr:date><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p>There is some (a posteriori insignificant) variation in the presentation of
     the syntax, thus following through with some input from <fr:link
@@ -78,8 +117,8 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>426</fr:anchor><fr:addr
-type="machine">#264</fr:addr><fr:route>unstable-264.xml</fr:route><fr:title
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>415</fr:anchor><fr:addr
+type="machine">#265</fr:addr><fr:route>unstable-265.xml</fr:route><fr:title
 text="Syntax à la Introduction to higher order categorical logic p.128">Syntax à la <fr:link
 type="local"
 href="lambek-scott-1986.xml"
@@ -102,8 +141,8 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>427</fr:anchor><fr:addr
-type="machine">#265</fr:addr><fr:route>unstable-265.xml</fr:route><fr:title
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>416</fr:anchor><fr:addr
+type="machine">#266</fr:addr><fr:route>unstable-266.xml</fr:route><fr:title
 text="Types">Types</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>8</fr:month><fr:day>21</fr:day></fr:date><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p>"The class of types is closed under the inductive clauses:
             <fr:ul><fr:li><fr:tex
 display="inline"><![CDATA[1]]></fr:tex>, <fr:tex
@@ -120,8 +159,8 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>428</fr:anchor><fr:addr
-type="machine">#266</fr:addr><fr:route>unstable-266.xml</fr:route><fr:title
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>417</fr:anchor><fr:addr
+type="machine">#267</fr:addr><fr:route>unstable-267.xml</fr:route><fr:title
 text="Terms">Terms</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>8</fr:month><fr:day>21</fr:day></fr:date><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p>"The class of terms is freely generated from certain basic terms by
             certain operations including the following… and is closed under certain operations.
             <fr:ul><fr:li>[for each type <fr:tex
@@ -195,8 +234,8 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>429</fr:anchor><fr:addr
-type="machine">#267</fr:addr><fr:route>unstable-267.xml</fr:route><fr:title
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>418</fr:anchor><fr:addr
+type="machine">#268</fr:addr><fr:route>unstable-268.xml</fr:route><fr:title
 text="Formulas">Formulas</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>8</fr:month><fr:day>21</fr:day></fr:date><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p>"Terms of type <fr:tex
 display="inline"><![CDATA[Ω]]></fr:tex> are also called <fr:em>formulas</fr:em>."</fr:p><fr:p>"One may also define a number of widely used term forming
             operations: …
@@ -210,8 +249,8 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>430</fr:anchor><fr:addr
-type="machine">#268</fr:addr><fr:route>unstable-268.xml</fr:route><fr:title
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>419</fr:anchor><fr:addr
+type="machine">#269</fr:addr><fr:route>unstable-269.xml</fr:route><fr:title
 text="Syntax à la Sketches of an Elephant: a topos theory compendium ">Syntax à la <fr:link
 type="local"
 href="johnstone-2002.xml"
@@ -240,8 +279,8 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>431</fr:anchor><fr:addr
-type="machine">#269</fr:addr><fr:route>unstable-269.xml</fr:route><fr:title
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>420</fr:anchor><fr:addr
+type="machine">#270</fr:addr><fr:route>unstable-270.xml</fr:route><fr:title
 text="Types">Types</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>8</fr:month><fr:day>21</fr:day></fr:date><fr:authors /></fr:frontmatter><fr:mainmatter><fr:ul><fr:li>(i) <fr:em>Basic types</fr:em>: Each sort is a type</fr:li>
             <fr:li>(ii) <fr:em>Product types</fr:em>: There is a distinguished type <fr:tex
 display="inline"><![CDATA[1]]></fr:tex> (the
@@ -296,8 +335,8 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>432</fr:anchor><fr:addr
-type="machine">#270</fr:addr><fr:route>unstable-270.xml</fr:route><fr:title
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>421</fr:anchor><fr:addr
+type="machine">#271</fr:addr><fr:route>unstable-271.xml</fr:route><fr:title
 text="Terms">Terms</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>8</fr:month><fr:day>21</fr:day></fr:date><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p>(We omit the bookkeeping of free variables that Johnstone inlines with
             the following definitions.)
             "<fr:ul><fr:li>(i) We have a stock of <fr:em>variables</fr:em> <fr:tex
@@ -365,8 +404,8 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>433</fr:anchor><fr:addr
-type="machine">#271</fr:addr><fr:route>unstable-271.xml</fr:route><fr:title
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>422</fr:anchor><fr:addr
+type="machine">#272</fr:addr><fr:route>unstable-272.xml</fr:route><fr:title
 text="Formulas">Formulas</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>8</fr:month><fr:day>21</fr:day></fr:date><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p>(We again omit the bookkeeping of free variables.)
             "The <fr:em>atomic formulae</fr:em> over <fr:tex
 display="inline"><![CDATA[\mathcal {L}]]></fr:tex> are of three kinds:
@@ -395,8 +434,8 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>434</fr:anchor><fr:addr
-type="machine">#272</fr:addr><fr:route>unstable-272.xml</fr:route><fr:title
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>423</fr:anchor><fr:addr
+type="machine">#273</fr:addr><fr:route>unstable-273.xml</fr:route><fr:title
 text="Syntax à la Elementary Categories, Elementary Toposes 14.1">Syntax à la <fr:link
 type="local"
 href="mclarty-1992.xml"
@@ -415,8 +454,8 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>435</fr:anchor><fr:addr
-type="machine">#273</fr:addr><fr:route>unstable-273.xml</fr:route><fr:title
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>424</fr:anchor><fr:addr
+type="machine">#274</fr:addr><fr:route>unstable-274.xml</fr:route><fr:title
 text="Types">Types</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>8</fr:month><fr:day>21</fr:day></fr:date><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p>The types have the structure of the objects of an elementary topos,
             ie a collection of atomic types closed under <fr:tex
 display="inline"><![CDATA[1,×,→,Ω]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
@@ -426,8 +465,8 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>436</fr:anchor><fr:addr
-type="machine">#274</fr:addr><fr:route>unstable-274.xml</fr:route><fr:title
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>425</fr:anchor><fr:addr
+type="machine">#275</fr:addr><fr:route>unstable-275.xml</fr:route><fr:title
 text="Terms">Terms</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>8</fr:month><fr:day>21</fr:day></fr:date><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p>"The [language] is sorted…. We inductively define terms and their sorts:
             <fr:ul><fr:li>(LT1) Each sort <fr:tex
 display="inline"><![CDATA[A]]></fr:tex> has a list of <fr:em>variables over <fr:tex
@@ -479,8 +518,8 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>437</fr:anchor><fr:addr
-type="machine">#275</fr:addr><fr:route>unstable-275.xml</fr:route><fr:title
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>426</fr:anchor><fr:addr
+type="machine">#276</fr:addr><fr:route>unstable-276.xml</fr:route><fr:title
 text="Formulas">Formulas</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>8</fr:month><fr:day>21</fr:day></fr:date><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p>"A formula is a term of sort <fr:tex
 display="inline"><![CDATA[Ω]]></fr:tex>. By LT2 [and the existence of
             these terms in any elementary topos, developed in 13.3 and 13.4],
@@ -515,8 +554,8 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>438</fr:anchor><fr:addr
-type="machine">#276</fr:addr><fr:route>unstable-276.xml</fr:route><fr:title
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>427</fr:anchor><fr:addr
+type="machine">#277</fr:addr><fr:route>unstable-277.xml</fr:route><fr:title
 text="Summary">Summary</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>8</fr:month><fr:day>21</fr:day></fr:date><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p>Ignoring the natural numbers type and the idiosyncratic list type of
         <fr:link
 type="local"

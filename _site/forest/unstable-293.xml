@@ -7,23 +7,22 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>949</fr:anchor><fr:addr
-type="machine">#293</fr:addr><fr:route>unstable-293.xml</fr:route><fr:taxon>Abstract</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>24</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p>We have built the first family of tagless interpretations for a
-        higher-order typed object language in a typed metalanguage (Haskell or
-        ML) that require no dependent types, generalized algebraic data types,
-        or postprocessing to eliminate tags. The statically type-preserving
-        interpretations include an evaluator, a compiler (or staged evaluator),
-        a partial evaluator, and call-by-name and call-by-value CPS
-        transformers.</fr:p><fr:p>Our main idea is to encode HOAS using cogen functions rather than data
-        constructors. In other words, we represent object terms not in an
-        initial algebra but using the coalgebraic structure of the λ-calculus.
-        Our representation also simulates inductive maps from types to types,
-        which are required for typed partial evaluation and CPS
-        transformations.</fr:p><fr:p>Our encoding of an object term abstracts over the various ways to
-        interpret it, yet statically assures that the interpreters never get
-        stuck.  To achieve self-interpretation and show Jones-optimality, we
-        relate this exemplar of higher-rank and higher-kind polymorphism to
-        plugging a term into a context of let-polymorphic bindings.</fr:p></fr:mainmatter><fr:backmatter><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1017</fr:anchor><fr:addr
+type="machine">#293</fr:addr><fr:route>unstable-293.xml</fr:route><fr:title
+text="The Logical Basis of Metaphysics › Stability"><fr:link
+type="local"
+href="dummett-91.xml"
+addr="dummett-91"
+title="The Logical Basis of Metaphysics">The Logical Basis of Metaphysics</fr:link> › Stability</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>12</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="hejohns.xml"
+addr="hejohns"
+title="Johnson He">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The opening sentence is what <fr:link
+type="external"
+href="zeilberger">zeilberger</fr:link> quotes on his work on
+        polarity.</fr:p><fr:p>What's the relationship between harmony-stability and Pfenning's local
+        soundness and completeness?
+        They're not literally the same thing, but they're similar.</fr:p></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -38,51 +37,28 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>950</fr:anchor><fr:addr
-type="user">carette-kiselyov-shan-2007</fr:addr><fr:route>carette-kiselyov-shan-2007.xml</fr:route><fr:title
-text="Finally Tagless, Partially Evaluated">Finally Tagless, Partially Evaluated</fr:title><fr:taxon>Reference</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>24</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1019</fr:anchor><fr:addr
+type="user">dummett-91</fr:addr><fr:route>dummett-91.xml</fr:route><fr:title
+text="The Logical Basis of Metaphysics">The Logical Basis of Metaphysics</fr:title><fr:taxon>Reference</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>12</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="hejohns.xml"
+addr="hejohns"
+title="Johnson He">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>483</fr:anchor><fr:addr
-type="machine">#293</fr:addr><fr:route>unstable-293.xml</fr:route><fr:taxon>Abstract</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>24</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p>We have built the first family of tagless interpretations for a
-        higher-order typed object language in a typed metalanguage (Haskell or
-        ML) that require no dependent types, generalized algebraic data types,
-        or postprocessing to eliminate tags. The statically type-preserving
-        interpretations include an evaluator, a compiler (or staged evaluator),
-        a partial evaluator, and call-by-name and call-by-value CPS
-        transformers.</fr:p><fr:p>Our main idea is to encode HOAS using cogen functions rather than data
-        constructors. In other words, we represent object terms not in an
-        initial algebra but using the coalgebraic structure of the λ-calculus.
-        Our representation also simulates inductive maps from types to types,
-        which are required for typed partial evaluation and CPS
-        transformations.</fr:p><fr:p>Our encoding of an object term abstracts over the various ways to
-        interpret it, yet statically assures that the interpreters never get
-        stuck.  To achieve self-interpretation and show Jones-optimality, we
-        relate this exemplar of higher-rank and higher-kind polymorphism to
-        plugging a term into a context of let-polymorphic bindings.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>484</fr:anchor><fr:addr
-type="machine">#294</fr:addr><fr:route>unstable-294.xml</fr:route><fr:taxon>Notes</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>24</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>25</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p>This is the APLAS version (conference paper). There is a roughly twice
-        as long journal version.</fr:p><fr:p>I didn't study a lot of the probably more interesting aspects of this
-        work.
-        I just wanted a first/resonant-understanding of "what does <fr:em>finally
-        tagless</fr:em> mean?".</fr:p><fr:p>It seems the very basic idea is about the general problem of DSLs.
-        The very short way to say it, is that we like to construct languages as
-        object languages of nice meta languages.
-        For example, a nice meta languages gives us nice primitives to reuse as
-        the denotational semantics of the object language.
-        A classic example is to use the <fr:code>Int</fr:code> type in the meta language as
-        the semantics of the DSL/embedded/object language's numeric type.</fr:p><fr:p>Most people's knee jerk reaction is to encode the object language as an
-        ADT. This is fine and well, and can be called <fr:em>initial</fr:em> in the sense
-        that it is the free syntax generated by the encoded rules/initial
-        algebra/inductive dataype.
-        But the naïve TODO</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>498</fr:anchor><fr:addr
+type="machine">#293</fr:addr><fr:route>unstable-293.xml</fr:route><fr:title
+text="Stability">Stability</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>12</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="hejohns.xml"
+addr="hejohns"
+title="Johnson He">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The opening sentence is what <fr:link
+type="external"
+href="zeilberger">zeilberger</fr:link> quotes on his work on
+        polarity.</fr:p><fr:p>What's the relationship between harmony-stability and Pfenning's local
+        soundness and completeness?
+        They're not literally the same thing, but they're similar.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
