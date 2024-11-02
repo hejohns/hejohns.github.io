@@ -16,7 +16,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>480</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>494</fr:anchor><fr:addr
 type="machine">#245</fr:addr><fr:route>unstable-245.xml</fr:route><fr:taxon>Abstract</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>24</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p>Logical relations are the main tool for proving <fr:strong>positive</fr:strong>
         properties of logics, type theories, and programming languages:
         canonicity, decidability, conservativity, computational adequacy, and
@@ -36,7 +36,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>481</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>495</fr:anchor><fr:addr
 type="machine">#246</fr:addr><fr:route>unstable-246.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>24</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>25</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p>I can't quite follow the <fr:em>phase distinction</fr:em> and only have a very vague
         idea of what's going on starting at p. 9.</fr:p><fr:p>From what I can tell, the idea is to work in the internal language of some
         topos-- really the internal "agda-like dependent type theory"-- to
@@ -81,7 +81,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>473</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>487</fr:anchor><fr:addr
 type="machine">#294</fr:addr><fr:route>unstable-294.xml</fr:route><fr:taxon>Abstract</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>24</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p>We have built the first family of tagless interpretations for a
         higher-order typed object language in a typed metalanguage (Haskell or
         ML) that require no dependent types, generalized algebraic data types,
@@ -104,7 +104,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>474</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>488</fr:anchor><fr:addr
 type="machine">#295</fr:addr><fr:route>unstable-295.xml</fr:route><fr:taxon>Notes</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>24</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>25</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p>This is the APLAS version (conference paper). There is a roughly twice
         as long journal version.</fr:p><fr:p>I didn't study a lot of the probably more interesting aspects of this
         work.
