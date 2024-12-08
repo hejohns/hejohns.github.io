@@ -7,82 +7,73 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>318</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>620</fr:anchor><fr:addr
 type="machine">#263</fr:addr><fr:route>unstable-263.xml</fr:route><fr:title
-text="Brushing up on Acronyms, Reprise: GATs, SOGATs, or even just Algebraic Theories › Uemura's Thesis §3 (CwRs)"><fr:link
+text="Brushing up on Acronyms, Reprise: GATs, SOGATs, or even just Algebraic Theories › Uemura's Thesis §4 (SOGATs)"><fr:link
 type="local"
 href="hejohns-000T.xml"
 addr="hejohns-000T"
-title="Brushing up on Acronyms, Reprise: GATs, SOGATs, or even just Algebraic Theories">Brushing up on Acronyms, Reprise: GATs, SOGATs, or even just Algebraic Theories</fr:link> › Uemura's Thesis §3 (CwRs)</fr:title><fr:date><fr:year>2024</fr:year><fr:month>8</fr:month><fr:day>20</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>11</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
+title="Brushing up on Acronyms, Reprise: GATs, SOGATs, or even just Algebraic Theories">Brushing up on Acronyms, Reprise: GATs, SOGATs, or even just Algebraic Theories</fr:link> › Uemura's Thesis §4 (SOGATs)</fr:title><fr:date><fr:year>2024</fr:year><fr:month>8</fr:month><fr:day>20</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>11</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="hejohns.xml"
 addr="hejohns"
-title="Johnson He">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>"In this chapter, we introduce the notion of a category with
-        representable maps (CwR) as an abstract notion of a type theory. This
-        notion covers a wide range of syntactically presented type theories as
-        we will see in Chapter 4 and has nice semantic properties proved in
-        Chapter 5.</fr:p><fr:p>The idea comes from Lawvere’s functorial semantics of algebraic
-        theories [108] and its variants [123, 1]. In functorial semantics,
-        theories are identified with struc- tured categories, and models of a
-        theory are identified with structure-preserving functors from the
-        structured category corresponding to the theory. For example, consider
-        the theory of groups whose models are of course groups. A group is a
-        set A equipped with three operators satisfying certain equational
-        axioms. The operators form the following diagram of sets.
-        
-        
-    
-    
-        
-        <fr:figure><fr:resource
-hash="eb23061b9871abe67969e78847a0473e"><fr:resource-content><fr:img
-src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz4KPCEtLSBUaGlzIGZpbGUgd2FzIGdlbmVyYXRlZCBieSBkdmlzdmdtIDMuNCAtLT4KPHN2ZyB2ZXJzaW9uPScxLjEnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZycgeG1sbnM6eGxpbms9J2h0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsnIHdpZHRoPScyNjguMDc3NDEycHQnIGhlaWdodD0nOTQuMzQ3MzU2cHQnIHZpZXdCb3g9Jy03Mi4wMDAwMDQgLTg4LjA5OTY0NiAxNzguNzE4Mjc0IDYyLjg5ODIzNyc+CjxzdHlsZSB0eXBlPSd0ZXh0L2Nzcyc+CjwhW0NEQVRBW0Bmb250LWZhY2V7Zm9udC1mYW1pbHk6bmYwO3NyYzp1cmwoZGF0YTphcHBsaWNhdGlvbi94LWZvbnQtd29mZjtiYXNlNjQsZDA5R1JnQUJBQUFBQUFYa0FBb0FBQUFBQnpRQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUJQVXk4eUFBQUE5QUFBQUV3QUFBQmdoWTUwZTJOdFlYQUFBQUZBQUFBQVVRQUFBSVFBRnVaR1oyeDVaZ0FBQVpRQUFBTFhBQUFEbk9mK084dG9aV0ZrQUFBRWJBQUFBQzhBQUFBMko5S3VBMmhvWldFQUFBU2NBQUFBSGdBQUFDUUdRZ0ovYUcxMGVBQUFCTHdBQUFBb0FBQUFLQlYyQXhwc2IyTmhBQUFFNUFBQUFCWUFBQUFXQkt3RHJtMWhlSEFBQUFUOEFBQUFHQUFBQUNBQURRQTRibUZ0WlFBQUJSUUFBQURDQUFBQkxPd1RieGR3YjNOMEFBQUYyQUFBQUF3QUFBQWdBQU1BQUhqYVkyQm1VbVdjd01ES3dNQTBpK25zUHhHR2ZoRE4rSWJ4RFlNeEl5Y0RFTEF4d0FFM0VEdkFPQ25GWmVsQVNZMy8vNWt0LzFzeU1EQmJNaHdIQ2pNaWxQLy96OEFBQUErWkQvWjQyaTNNdXcyQU1CUkQwZnNJZjFFaEpxQ0NFb25CR0lIbDJBREJMbFE0ZWJGMDVNb0dDcUNVaVVDZmVpRG13TlBLSXF1WWJGbVFOOVBlVGtjRjgraW8xWmVqd2U0OWlaLzJmQWwwUDhnZUREZ0FBQUI0Mm0yU1MyL1RRQlNGNTF3bjR6cjFJM1hzY2FpS1V6Y1FVOUhHRU5kMktjV3BLQWhRRWVWUlZUd2tXQUZDUWl3cUVKVllBR3RXOEROQThDTjRiRUFza01LU0RheVFXQ0lXb0RTTXcydURORE9hTzNOMXZ6UG5EZ083T2lDczBSWnJNRmJtYXRpSzBBcVR0QXM1aE9lbzNBSlhYZEdRZ2NBYU5MN2FkZWVKNXQzdUt0ZFFXb21NYVdEYWlGWktYelZRdnRIZXZMTitaN085a1JPMHNySjRLOWk4dlg1N003aTFxREN3QmNrS2Y3RjJGb1V0eVVxekFwWWxRM0FSZWtPWXpNdEV2c29yZ0xJU21RWEVqRllVb01KWGM1SFIrLzlEeW45RU1DWjVGK1R5bEo2d09tTkIyRlNUdUpPR1l5YkNSRWlxVU1lNDJBODhQZlg0VkxEY1VLYVBqMDFjajhkVUtKTUhBMFdaZENmSXJvMmdRVzZFaXQxL1B1RU9hejVrQ2oxQW56bkZHeUtvdk5WRjJFb2JrQlV0ZUlMdUd0VmV6eG8zZWoxajNPcjFxdHYwWGsrMzlHSXRZbXY4NzI1WTd4RmpsRW1OdnRUWUNwdjhuOHBtRW92Q21qOUtLWnRaZUxjd0U1OElsUFphemJidFhPM3VxNXNvVFoySXBUSEtyT01SczNYTVVvVXFiV2hlLzYzbkRCbjcyQmY2QklkcE11QnFVTGdjQ1BwRWR2OXVqYWhHOTIwd204aVdjNWgvanIxaHI1Q3dFY1pxSnFaYWMybEh2RUpqdGlFSG1PZjdiVi9LSmJaak1LQ1A5SUh0WlhQU0RSUFNEdG5DdWRTVC9rWUlaSWNkNGFYZThLSTRqM05rOGtFZDRkVWNFYWZoS09najlQTE5leXFITVZxYlV6UjFhN0JrR2hNMVE0RlJ2bnBXaDY1TjVUNHVjOGZneU1Xcyt5SjQ3Wml5Undwb3hGSUIzYnR5K0hyZDJWRUZXU1l2emlzV1I3TkQ2MVZvVnYrZXNKVFBPTDMxakJWNkR3Kys0UWRlc2haTHBWNm4rTnB0Sk5MaExJMmxLTUdMNzk2VTA4ZHY2MzJFYlRSYnFyeFJZMUVrNGtkblBMOTUvbUxwcUZzL3M1WWRBWnJ6TTN1T0xjbVBoelNxSHJDWDlsZU0wV1ZFVFJHYlJ0TG9iRi9jT1pWY002ZXJ1MHAwNCtUR0ljZEs5dXl1SDNETlVtbVg2K2M1NmVYcTBpajA3LzZrNHFpVnlVdmdaVlAyN1Nmc201Ui9BSGphWTJCa1lHQUE0c1M1REozeC9EWmZHWmhaR0VEZzBSdlRaZ1Q5bjRucE1kTS9JSmVEZ1Fra0NnQXEwd3NzQUhqYVkyQmtZR0MyL0c4SkpHVVpWQmprbUI0ekFFVlFBQmNBUmRZQ3lBQUFBUjhBQUFHT0FHY0JqZ0E2QWdBQVd3TWRBSkVDdVFDU0F4MEFPUUVkQUZrREFBQWtBaXNBUlFBQUFBQUFOZ0J1QUpnQXdBRHlBUW9CSGdGMkFjNEFBSGphWTJCa1lHRGdZakJuWUdJQUFVWUdOQUFBQnVzQVJuamFMWTY5Q29Nd0ZJV1BWSVhhcVZCS3R3WWZRQlNkK2dJdXVqcDFVUkovQmlPb1NGMTg5aDQxQ2R4ODU1eDdrd0R3c01IQ3ZpemNqN292R3hlcWt4M2M4RERzMG44Yjl2Q0NUMjNaVnpvK1BvWnRkbjBOTzNpaU11eHkvd3g3Q0xGbDVkeHBrUTlTalR6S3VkVjFXS2h4NmdZdG9pQ2tTcFZXWXprckthcFZ5S1dibHFZWGNaQWdRNGtaSFRRRWNneVFVQmlOMnBPV1hQT040dkFuZGc1SEdpR2dlMllwTTMzays0VGlIWUovWFZrbEZrNU1yQTE2NnBoVHlSK3ZYQ3hmQUFCNDJtTmdac0FMQUFCOUFBUT0pIGZvcm1hdCgnd29mZicpO30KdGV4dC5mMCB7Zm9udC1mYW1pbHk6bmYwO2ZvbnQtc2l6ZTo0Ljk4MTMycHh9CnRleHQuZjEge2ZvbnQtZmFtaWx5Om5mMDtmb250LXNpemU6Ni45NzM4NDhweH0KdGV4dC5mMiB7Zm9udC1mYW1pbHk6bmYwO2ZvbnQtc2l6ZTo5Ljk2MjY0cHh9Cl1dPgo8L3N0eWxlPgo8ZyBpZD0ncGFnZTEnPgo8ZyBzdHJva2UtbWl0ZXJsaW1pdD0nMTAnIHRyYW5zZm9ybT0ndHJhbnNsYXRlKC0xNS40MjAwOCwtNDguNjAwNzA2KXNjYWxlKDAuOTk2MjY0LC0wLjk5NjI2NCknPgo8ZyBmaWxsPScjMDAwJyBzdHJva2U9JyMwMDAnPgo8ZyBzdHJva2Utd2lkdGg9JzAuNCc+CjxnIHRyYW5zZm9ybT0ndHJhbnNsYXRlKC01Ni43OTIxLC0xOS44MjM1MyknPgo8ZyBzdHJva2U9J25vbmUnIHRyYW5zZm9ybT0nc2NhbGUoLTEuMDAzNzUsMS4wMDM3NSl0cmFuc2xhdGUoLTE1LjQyMDA4LC00OC42MDA3MDYpc2NhbGUoLTEsLTEpJz4KPGcgc3Ryb2tlPScjMDAwJyBzdHJva2UtbWl0ZXJsaW1pdD0nMTAnIHRyYW5zZm9ybT0ndHJhbnNsYXRlKC04LjYzNTUyNCwtODAuOTY2Mzk2KXNjYWxlKDAuOTk2MjY0LC0wLjk5NjI2NCknPgo8ZyB0cmFuc2Zvcm09J3RyYW5zbGF0ZSgtMi41LDAuMCknPgo8ZyBzdHJva2U9J25vbmUnIHRyYW5zZm9ybT0nc2NhbGUoLTEuMDAzNzUsMS4wMDM3NSl0cmFuc2xhdGUoLTguNjM1NTI0LC04MC45NjYzOTYpc2NhbGUoLTEsLTEpJz4KPGcgZmlsbD0nIzAwMCc+CjxnIHN0cm9rZT0nbm9uZSc+Cjx0ZXh0IGNsYXNzPSdmMicgeD0nLTguNjM1NTI0JyB5PSctODAuOTY2Mzk2Jz4xPC90ZXh0Pgo8L2c+CjwvZz4KPC9nPgo8L2c+CjwvZz4KPGcgc3Ryb2tlPScjMDAwJyBzdHJva2UtbWl0ZXJsaW1pdD0nMTAnIHRyYW5zZm9ybT0ndHJhbnNsYXRlKDMwLjA4OTE5MiwtODAuOTY2Mzk2KXNjYWxlKDAuOTk2MjY0LC0wLjk5NjI2NCknPgo8ZyB0cmFuc2Zvcm09J3RyYW5zbGF0ZSgtMy43NSwwLjApJz4KPGcgc3Ryb2tlPSdub25lJyB0cmFuc2Zvcm09J3NjYWxlKC0xLjAwMzc1LDEuMDAzNzUpdHJhbnNsYXRlKDMwLjA4OTE5MiwtODAuOTY2Mzk2KXNjYWxlKC0xLC0xKSc+CjxnIGZpbGw9JyMwMDAnPgo8ZyBzdHJva2U9J25vbmUnPgo8dGV4dCBjbGFzcz0nZjInIHg9JzMwLjA4OTE5MicgeT0nLTgwLjk2NjM5Nic+8J2QtDwvdGV4dD4KPC9nPgo8L2c+CjwvZz4KPC9nPgo8L2c+CjxnIHN0cm9rZT0nIzAwMCcgc3Ryb2tlLW1pdGVybGltaXQ9JzEwJyB0cmFuc2Zvcm09J3RyYW5zbGF0ZSg3OS44ODQ1NjEsLTgwLjk2NjM5NilzY2FsZSgwLjk5NjI2NCwtMC45OTYyNjQpJz4KPGcgdHJhbnNmb3JtPSd0cmFuc2xhdGUoLTEzLjYxMjE3LDAuMCknPgo8ZyBzdHJva2U9J25vbmUnIHRyYW5zZm9ybT0nc2NhbGUoLTEuMDAzNzUsMS4wMDM3NSl0cmFuc2xhdGUoNzkuODg0NTYxLC04MC45NjYzOTYpc2NhbGUoLTEsLTEpJz4KPGcgZmlsbD0nIzAwMCc+CjxnIHN0cm9rZT0nbm9uZSc+Cjx0ZXh0IGNsYXNzPSdmMicgeD0nNzkuODg0NTYxJyB5PSctODAuOTY2Mzk2Jz7wnZC0PHRzcGFuIHg9Jzg5LjU3MDQwNyc+w5c8L3RzcGFuPjx0c3BhbiB4PSc5OS41MzUyMDcnPvCdkLQ8L3RzcGFuPjwvdGV4dD4KPC9nPgo8L2c+CjwvZz4KPC9nPgo8L2c+CjxnIHN0cm9rZT0nIzAwMCcgc3Ryb2tlLW1pdGVybGltaXQ9JzEwJyB0cmFuc2Zvcm09J3RyYW5zbGF0ZSgtOC42MzU1MjQsLTQ4LjYwMDcwNilzY2FsZSgwLjk5NjI2NCwtMC45OTYyNjQpJy8+CjxnIHN0cm9rZT0nIzAwMCcgc3Ryb2tlLW1pdGVybGltaXQ9JzEwJyB0cmFuc2Zvcm09J3RyYW5zbGF0ZSgzMC4wODkxOTIsLTQ4LjYwMDcwNilzY2FsZSgwLjk5NjI2NCwtMC45OTYyNjQpJz4KPGcgdHJhbnNmb3JtPSd0cmFuc2xhdGUoLTMuNzUsMC4wKSc+CjxnIHN0cm9rZT0nbm9uZScgdHJhbnNmb3JtPSdzY2FsZSgtMS4wMDM3NSwxLjAwMzc1KXRyYW5zbGF0ZSgzMC4wODkxOTIsLTQ4LjYwMDcwNilzY2FsZSgtMSwtMSknPgo8ZyBmaWxsPScjMDAwJz4KPGcgc3Ryb2tlPSdub25lJz4KPHRleHQgY2xhc3M9J2YyJyB4PSczMC4wODkxOTInIHk9Jy00OC42MDA3MDYnPvCdkLQ8L3RleHQ+CjwvZz4KPC9nPgo8L2c+CjwvZz4KPC9nPgo8ZyBzdHJva2U9JyMwMDAnIHN0cm9rZS1taXRlcmxpbWl0PScxMCcgdHJhbnNmb3JtPSd0cmFuc2xhdGUoNzkuODg0NTYxLC00OC42MDA3MDYpc2NhbGUoMC45OTYyNjQsLTAuOTk2MjY0KScvPgo8L2c+CjwvZz4KPGcgc3Ryb2tlLXdpZHRoPScwLjQnPgo8cGF0aCBkPSdNLTQyLjk3MjEgMTUuMTYzNTNILTE5Ljc3MjE2JyBmaWxsPSdub25lJy8+CjxnIHRyYW5zZm9ybT0ndHJhbnNsYXRlKC0xOS41NzIxNiwxNS4xNjM1MyknPgo8ZyBzdHJva2UtZGFzaGFycmF5PSdub25lJyBzdHJva2UtZGFzaG9mZnNldD0nMC4wJz4KIDxnIHN0cm9rZS1saW5lY2FwPSdyb3VuZCc+CiA8ZyBzdHJva2UtbGluZWpvaW49J3JvdW5kJz4KIDxwYXRoIGQ9J00tMi4wNzk5NiAyLjM5OTkzQy0xLjY5OTk1IC45NTk5Ni0uODUzMTYgLjI3OTk4IDAgMEMtLjg1MzE2LS4yNzk5OC0xLjY5OTk1LS45NTk5Ni0yLjA3OTk2LTIuMzk5OTMnIGZpbGw9J25vbmUnLz4KIDwvZz4KIDwvZz4KIDwvZz4KPC9nPgo8ZyB0cmFuc2Zvcm09J3RyYW5zbGF0ZSgtMzMuMDY5MTQsMTcuNTg4NTMpJz4KPGcgc3Ryb2tlPSdub25lJyB0cmFuc2Zvcm09J3NjYWxlKC0xLjAwMzc1LDEuMDAzNzUpdHJhbnNsYXRlKC0xNS40MjAwOCwtNDguNjAwNzA2KXNjYWxlKC0xLC0xKSc+CjxnIGZpbGw9JyMwMDAnPgo8ZyBzdHJva2U9J25vbmUnPgo8dGV4dCBjbGFzcz0nZjEnIHg9Jy0xNS40MjAwOCcgeT0nLTQ4LjYwMDcwNic+8J2bujwvdGV4dD4KPC9nPgo8L2c+CjwvZz4KPC9nPgo8L2c+CjxnIHN0cm9rZS13aWR0aD0nMC40Jz4KPHBhdGggZD0nTTIwLjc0Nzc3IDE1LjE2MzUzSC0yLjQ1MjE4JyBmaWxsPSdub25lJy8+CjxnIHRyYW5zZm9ybT0nbWF0cml4KC0xLjAsMC4wLDAuMCwtMS4wLC0yLjY1MjE4LDE1LjE2MzUzKSc+CjxnIHN0cm9rZS1kYXNoYXJyYXk9J25vbmUnIHN0cm9rZS1kYXNob2Zmc2V0PScwLjAnPgogPGcgc3Ryb2tlLWxpbmVjYXA9J3JvdW5kJz4KIDxnIHN0cm9rZS1saW5lam9pbj0ncm91bmQnPgogPHBhdGggZD0nTS0yLjA3OTk2IDIuMzk5OTNDLTEuNjk5OTUgLjk1OTk2LS44NTMxNiAuMjc5OTggMCAwQy0uODUzMTYtLjI3OTk4LTEuNjk5OTUtLjk1OTk2LTIuMDc5OTYtMi4zOTk5MycgZmlsbD0nbm9uZScvPgogPC9nPgogPC9nPgogPC9nPgo8L2c+CjxnIHRyYW5zZm9ybT0ndHJhbnNsYXRlKDcuOTc0ODEsMTcuNTE4NTIpJz4KPGcgc3Ryb2tlPSdub25lJyB0cmFuc2Zvcm09J3NjYWxlKC0xLjAwMzc1LDEuMDAzNzUpdHJhbnNsYXRlKC0xNS40MjAwOCwtNDguNjAwNzA2KXNjYWxlKC0xLC0xKSc+CjxnIGZpbGw9JyMwMDAnPgo8ZyBzdHJva2U9J25vbmUnPgo8dGV4dCBjbGFzcz0nZjEnIHg9Jy0xNS40MjAwOCcgeT0nLTQ4LjYwMDcwNic+4ouFPC90ZXh0Pgo8L2c+CjwvZz4KPC9nPgo8L2c+CjwvZz4KPGcgc3Ryb2tlLXdpZHRoPScwLjQnPgo8cGF0aCBkPSdNLTExLjExMjE3LTguODAwMDJWOC40MDAwMicgZmlsbD0nbm9uZScvPgo8ZyB0cmFuc2Zvcm09J21hdHJpeCgwLjAsMS4wLC0xLjAsMC4wLC0xMS4xMTIxNyw4LjYwMDAyKSc+CjxnIHN0cm9rZS1kYXNoYXJyYXk9J25vbmUnIHN0cm9rZS1kYXNob2Zmc2V0PScwLjAnPgogPGcgc3Ryb2tlLWxpbmVjYXA9J3JvdW5kJz4KIDxnIHN0cm9rZS1saW5lam9pbj0ncm91bmQnPgogPHBhdGggZD0nTS0yLjA3OTk2IDIuMzk5OTNDLTEuNjk5OTUgLjk1OTk2LS44NTMxNiAuMjc5OTggMCAwQy0uODUzMTYtLjI3OTk4LTEuNjk5OTUtLjk1OTk2LTIuMDc5OTYtMi4zOTk5MycgZmlsbD0nbm9uZScvPgogPC9nPgogPC9nPgogPC9nPgo8L2c+CjxnIHRyYW5zZm9ybT0ndHJhbnNsYXRlKC0zMi4wNDYxNywtMi4wNjc1KSc+CjxnIHN0cm9rZT0nbm9uZScgdHJhbnNmb3JtPSdzY2FsZSgtMS4wMDM3NSwxLjAwMzc1KXRyYW5zbGF0ZSgtMTUuNDIwMDgsLTQ4LjYwMDcwNilzY2FsZSgtMSwtMSknPgo8ZyBmaWxsPScjMDAwJz4KPGcgc3Ryb2tlPSdub25lJz4KPHRleHQgY2xhc3M9J2YxJyB4PSctMTUuNDIwMDgnIHk9Jy00OC42MDA3MDYnPijiiJIpPC90ZXh0Pgo8dGV4dCBjbGFzcz0nZjAnIHg9Jy00LjU2ODc3MicgeT0nLTUxLjEzMjIxNCc+4oiSxoA8L3RleHQ+CjwvZz4KPC9nPgo8L2c+CjwvZz4KPC9nPgo8L2c+CjwvZz4KPC9nPgo8L2c+Cjwvc3ZnPg==" /></fr:resource-content><fr:resource-source
-type="latex"
-part="preamble"><![CDATA[
-            
-    \usepackage {tikz-cd}
-    \usepackage {unicode-math} 
-        ]]></fr:resource-source><fr:resource-source
-type="latex"
-part="body"><![CDATA[
-            \begin {tikzcd}
-                1 \ar [r, "e"] & A & A × A \ar [l, "⋅"'] \\
-                              & A \ar [u, "(-)⁻¹"] &
-            \end {tikzcd}
-        ]]></fr:resource-source></fr:resource>
+title="Johnson He">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>"In this chapter, we introduce <fr:em>second-order generalized algebraic
+        theories (SOGATs)</fr:em> for several reasons. In short, SOGATs are:
+        <fr:ul><fr:li>1. syntactic counterparts of CwRs;</fr:li>
+            <fr:li>2. extension of the general definition of dependent type
+                theories given by Bauer, Haselwarter, and Lumsdaine [20] to
+                allow user-definable judgment forms;</fr:li>
+            <fr:li>3. second-order extension of <fr:em>generalized algebraic
+                theories</fr:em> of Cartmell [35];</fr:li>
+            <fr:li>4. dependently-typed extension of <fr:em>second-order algebraic
+                theories</fr:em> of Fiore and Mahmoud [57].</fr:li></fr:ul>
+        The first aspect is the most important in this thesis. In [169] the
+        author introduced a logical framework to give syntactic counterparts of
+        CwRs, but it is not satisfactory. When defining a type theory as a
+        theory over a logical framework, one has to prove the <fr:em>adequacy</fr:em> of the
+        definition, that is, the theory over the logical framework derives the
+        same judgments as the original type theory does. Although adequacy can
+        systematically be proved for each individual type theory syntactically
+        [75] or semantically [79], the adequacy of all logical framework
+        presentations cannot be proved nor even stated unless we have a general
+        notion of a type theory outside the logical framework. What we really
+        want is a general notion of a syntactic presentation of a type theory
+        such that a wide range of existing type theories are verified to be
+        instances of that notion by just unfolding the definition. Bauer,
+        Haselwarter, and Lumsdaine [20] have made a careful analysis on
+        inference rules in traditional presentations of type theories and
+        proposed a class of syntactic presentations of type theories that fits
+        our requirement. A restriction on their type theories is that the forms
+        of judgments are fixed, and thus we cannot define some complex type
+        theories such as cubical type theory [41]. We thus modify their
+        definition of type theories to allow users to declare new judgment
+        forms. It turns out that our syntactic presentations of type theories
+        are considered as an extension of algebraic theories by dependent types
+        and variable binding. We thus choose the name 'second-order generalized
+        algebraic theory' combining the dependently-typed extension and the
+        second-order extension of algebraic theories found in the literature."</fr:p><fr:p>Maybe for the cognoscenti this makes perfect sense, but for me:
+        <fr:ul><fr:li>re 1. What does "syntactic counterpart" mean?
+                I suppose now's a great time to go back to §3 and actually
+                learn what a CwR is in the first place, but if it's anything
+                like a natural model, isn't it already very syntactic?
+                Maybe this is totally off, but natural models/CwFs look a lot
+                like hyperdoctrines in the sense that they directly model the
+                syntax.
+                What does it mean to have a syntactic counterpart to something
+                like a hyperdoctrine, that's already the syntactic model?
+                Or is it roughly like (regular) hyperdoctrine : (regular) category :: SOGAT : CwR?
 
-        <fr:figcaption>[I've changed the 1 to e because of rendering issues I can't figure out.]</fr:figcaption></fr:figure></fr:p><fr:p>In category theory, a diagram is nothing but a functor, and thus a
-        group would be a functor <fr:tex
-display="inline"><![CDATA[F : \mathcal {C}_\text {group} → \mathsf {Set}]]></fr:tex>
-        from a suitable category <fr:tex
-display="inline"><![CDATA[\mathcal {C}_\text {group}]]></fr:tex>. What structure
-        should <fr:tex
-display="inline"><![CDATA[\mathcal {C}_\text {group}]]></fr:tex> have? The category
-        <fr:tex
-display="inline"><![CDATA[\mathcal {C}_\text {group}]]></fr:tex> should contain a diagram
-        
-        
-    
-    
-        
-        <fr:figure><fr:resource
-hash="881ff28152f16cceac45eb3fbf6e4856"><fr:resource-content><fr:img
-src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz4KPCEtLSBUaGlzIGZpbGUgd2FzIGdlbmVyYXRlZCBieSBkdmlzdmdtIDMuNCAtLT4KPHN2ZyB2ZXJzaW9uPScxLjEnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZycgeG1sbnM6eGxpbms9J2h0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsnIHdpZHRoPScyODkuODI5MDk0cHQnIGhlaWdodD0nOTQuODg1MzE3cHQnIHZpZXdCb3g9Jy03Mi4wMDAwMDQgLTg2LjQ4NTcwMyAxOTMuMjE5Mzk2IDYzLjI1Njg3OCc+CjxzdHlsZSB0eXBlPSd0ZXh0L2Nzcyc+CjwhW0NEQVRBW0Bmb250LWZhY2V7Zm9udC1mYW1pbHk6bmYwO3NyYzp1cmwoZGF0YTphcHBsaWNhdGlvbi94LWZvbnQtd29mZjtiYXNlNjQsZDA5R1JnQUJBQUFBQUFhNEFBb0FBQUFBQ0VnQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUJQVXk4eUFBQUE5QUFBQUV3QUFBQmdoYzUwYldOdFlYQUFBQUZBQUFBQVdBQUFBSkFBRnUxeFoyeDVaZ0FBQVpnQUFBT2tBQUFFb053ZWlaOW9aV0ZrQUFBRlBBQUFBQzhBQUFBMko5S3VBV2hvWldFQUFBVnNBQUFBSGdBQUFDUUdQQUtRYUcxMGVBQUFCWXdBQUFBc0FBQUFMQmNIQTBkc2IyTmhBQUFGdUFBQUFCZ0FBQUFZQlJRR01tMWhlSEFBQUFYUUFBQUFHQUFBQUNBQURnQmFibUZ0WlFBQUJlZ0FBQURDQUFBQkxPd1RieGR3YjNOMEFBQUdyQUFBQUF3QUFBQWdBQU1BQUhqYVkyQm1FbWVjd01ES3dNQTBpK25zUHhHR2ZoRE4rSWJ4RFlNeEl5Y0RFTEF4d0lFM0VEdkFPQ25GWmVsQVNZMy8vNWt0LzFzeU1EQmJNaHdIQ2pNaWxQLy96OEFBQUJkREVDaDQyaTNNdXcyQU1CQ0Q0VCtFWjBTRm1JQUtTc1poQUxhZ1lEazJRTEFMRlU0dWxqNjVzTzZBQWlobHhCTlM5OFFjV0RxWlpSRW5hK2JselhUdlRrT2xhVFBVTUEyR1JuMFpXdHk5Si9HL2U3NEV3Zzh3bkExcGVOcHRVMDF2M0ZRVWZmZmFZMmM4WHg2UC9UeVptZGpqY1dKbmtzbDRZc2ZqWkpKNlFrb1VVSkltZ2FpbFZDcExCSUtDQWxVamRWRzZZUU1iK0JVSWxEK0JLQnZFQW1uNEJkMTJXVmhRaFhBOVVOZ2d2L2Y4am5WMXozbkg1ekZnNzE0aG5PS2Z6R1lzSjhtK0Y0RG54OE14ME9DbUxrc1ZrR1NEMndRNG5FSmVPaG9iNjRqcnh2aEl5b080SDVTNkFOMVNzQzgrendPbVovM3poemNmbnZmUFVvUjhUdGk2NzV3L3VQbmczTG0vSlRCZ0krTHkvK1pheUJwWGlHdVlaR1JKUENYT29Ea2xvN3FFcDBlU0FpRHNCK1dNcEJ6c0N3Q0tkSlR5QkgvOWY1TGNTeEdNRWQ4ZFdpN3dPMVpuelBGZE9ZN0NvVjh0Z3g5ell1VnlWZUtiQUJjbjM1NDQxMjJoZTFCdGZSQlZaUkRhTzQ0Z3RJMFdhclVac05FSVFORXV2MjhaMDU1Zk1RRy9nRXVtWjJjSVFKYThNZmplMEFicVdBR1Q0Nk9TT3BsVUdxWEpwTlNvVENicWJIRXlLVmFLMlpyaFN1UGYzYlRmMTR4aFFob3QwdWo1cnZTZlNqZU9lR2JOUzZXWTlFYS9qSHJSRFVmb245WTBUVXZsOFVhOURHTG5Sa1RHQ0N1NmlVd3J3Z29xcVBRaGIxNytiSkpLaGl5NmVvWWFmc01hYkVDVVhDNlRiTm56K3lRODhaS1VwQ2NXbUJiSVEvcm1laElWbUp4d1FqNmxnQ3JtWmR1S1B2bzR0SzJaUEJKcUU3cDJaOVp0M0JXTnl1NXk1MUFyNUZCUXFnY0x6ckdXRjJIUFAxeTY1WTVGY2V6ZVdqcjAvWVBlN2ZsWFJBZ1g0cy8yUGo5ZEdVQnZjL25EaTFGL0hBSU1kbGZ2a1E4YjdCaytCWjNsU2FFa08xa1NISTVQVWJ0OFZFT3M0V01ObUlhbzBaejZkcHY5eEo1QXpHWVlxNVdoNDYwTlEvNEU3QldiQmpEVHN2cVdsZFZaVjc5aEMzNWtieEVvUXgvaXRXRkNXWnZHRHlWRHR6S0hJNU1ibEhWNnlKUHMxZkY4c2lYa3VpUlRIR21iUXR3SG1heVJzcHl1a1dQWmp6RXo3emoxbi9kckxWNnQ2Q0hQR1lKYkVoc2JielNoSk9lc2d0cmQ2U2NLTmx2aC9BakJyaGRuV3pWVnJYV2k0bHdURjZyTmt6a3NTQkpZQlcxeHA3NWo1SWU5dVcxNGJMZkFLT2x0a2R3V3U4cXkrV1ZzcU0xRlllT29DRGlqcityVlFJVEFVbXhIZERvTkI5U2xPVkZCaE5IZy9VLzRjaE53L2JnSWdMSWUxcW9ERWF4VlBSSEFtbVpoOStwM2VBRS9NSThOS2NGNmRyM0psT2x4b3BBdXVaUmRlWmVtQmYvRXo0SnBLcWIyUkR3cmhCZGhJLzMwN2J2aWEwYjl6ZE5rRDhCZDd3MWUzNmJMQjhOQXZhWnRieXFsd25VSVhCNlZTN0Vkem0wdGRPTDN5bDExVWNSN3gyZXY2cFY0c0Z5L1pwUkZjZEd3MGhTTE9YVzdBTVUvckxhZ3kwcjdIWkJ5WmNydVg2eU9zS0I0Mm1OZ1pHQmdBT0tTTHg2TzhmdzJYeG1ZV1JoQTRORWIweVlFL1orSjZUSFRQeUNYZzRFSkpBb0FQYUlMbEFCNDJtTmdaR0JndHZ4dkNTUmxHZVFZOUpnZU13QkZVQUEzQUVhZEF0TUFBQUVmQUFBQmpnQm5BWTRBT2dJQUFGc0RIUUNSQXJrQWtnSkhBRE1ESFFBNUFSMEFXUUpLQUI0Q0t3QkZBQUFBQUFBMkFHNEFtQURBQVBJQlJBRmNBWEFCK0FKUWVOcGpZR1JnWU9CbWlHUmdZZ0FCUmdZMEFBQUtXQUJwZU5vdGpyMEtnekFVaFk5VWhkcXBVRXEzQmg5QUZKMzZBaTY2T25WUkVuOEdJNmhJWFh6MkhqVUozSHpubkh1VEFQQ3d3Y0srTE55UHVpOGJGNnFUSGR6d01PelNmeHYyOElKUGJkbFhPajQraG0xMmZRMDdlS0l5N0hML0RIc0lzV1hsM0dtUkQxS05QTXE1MVhWWXFISHFCaTJpSUtSS2xWWmpPU3NwcWxYSXBadVdwaGR4a0NCRGlSa2ROQVJ5REpCUUdJM2FrNVpjODQzaThDZDJEa2NhSWFCN1ppa3pmZVQ3aE9JZGduOWRXU1VXVGt5c0RYcnFtRlBKSDY5Y0xGOEFBSGphWTJCbXdBc0FBSDBBQkE9PSkgZm9ybWF0KCd3b2ZmJyk7fQp0ZXh0LmYwIHtmb250LWZhbWlseTpuZjA7Zm9udC1zaXplOjQuOTgxMzJweH0KdGV4dC5mMSB7Zm9udC1mYW1pbHk6bmYwO2ZvbnQtc2l6ZTo2Ljk3Mzg0OHB4fQp0ZXh0LmYyIHtmb250LWZhbWlseTpuZjA7Zm9udC1zaXplOjkuOTYyNjRweH0KXV0+Cjwvc3R5bGU+CjxnIGlkPSdwYWdlMSc+CjxnIHN0cm9rZS1taXRlcmxpbWl0PScxMCcgdHJhbnNmb3JtPSd0cmFuc2xhdGUoLTExLjI5MTA2MywtNDcuNjE0NDE1KXNjYWxlKDAuOTk2MjY0LC0wLjk5NjI2NCknPgo8ZyBmaWxsPScjMDAwJyBzdHJva2U9JyMwMDAnPgo8ZyBzdHJva2Utd2lkdGg9JzAuNCc+CjxnIHRyYW5zZm9ybT0ndHJhbnNsYXRlKC02MC45MzY2LC0xOC4yMDM1NCknPgo8ZyBzdHJva2U9J25vbmUnIHRyYW5zZm9ybT0nc2NhbGUoLTEuMDAzNzUsMS4wMDM3NSl0cmFuc2xhdGUoLTExLjI5MTA2MywtNDcuNjE0NDE1KXNjYWxlKC0xLC0xKSc+CjxnIHN0cm9rZT0nIzAwMCcgc3Ryb2tlLW1pdGVybGltaXQ9JzEwJyB0cmFuc2Zvcm09J3RyYW5zbGF0ZSgtNC41MDY1MDgsLTc5Ljg1MDU4NSlzY2FsZSgwLjk5NjI2NCwtMC45OTYyNjQpJz4KPGcgdHJhbnNmb3JtPSd0cmFuc2xhdGUoLTIuNSwwLjApJz4KPGcgc3Ryb2tlPSdub25lJyB0cmFuc2Zvcm09J3NjYWxlKC0xLjAwMzc1LDEuMDAzNzUpdHJhbnNsYXRlKC00LjUwNjUwOCwtNzkuODUwNTg1KXNjYWxlKC0xLC0xKSc+CjxnIGZpbGw9JyMwMDAnPgo8ZyBzdHJva2U9J25vbmUnPgo8dGV4dCBjbGFzcz0nZjInIHg9Jy00LjUwNjUwOCcgeT0nLTc5Ljg1MDU4NSc+MTwvdGV4dD4KPC9nPgo8L2c+CjwvZz4KPC9nPgo8L2c+CjxnIHN0cm9rZT0nIzAwMCcgc3Ryb2tlLW1pdGVybGltaXQ9JzEwJyB0cmFuc2Zvcm09J3RyYW5zbGF0ZSgzNS41OTQ1NDgsLTc5Ljg1MDU4NSlzY2FsZSgwLjk5NjI2NCwtMC45OTYyNjQpJz4KPGcgdHJhbnNmb3JtPSd0cmFuc2xhdGUoLTUuMTMxNSwwLjApJz4KPGcgc3Ryb2tlPSdub25lJyB0cmFuc2Zvcm09J3NjYWxlKC0xLjAwMzc1LDEuMDAzNzUpdHJhbnNsYXRlKDM1LjU5NDU0OCwtNzkuODUwNTg1KXNjYWxlKC0xLC0xKSc+CjxnIGZpbGw9JyMwMDAnPgo8ZyBzdHJva2U9J25vbmUnPgo8dGV4dCBjbGFzcz0nZjInIHg9JzM1LjU5NDU0OCcgeT0nLTc5Ljg1MDU4NSc+8J2RpTwvdGV4dD4KPHRleHQgY2xhc3M9J2YxJyB4PSc0MS4yOTMxNzgnIHk9Jy03Ny4zODk4MTEnPs2ZPC90ZXh0Pgo8L2c+CjwvZz4KPC9nPgo8L2c+CjwvZz4KPGcgc3Ryb2tlPScjMDAwJyBzdHJva2UtbWl0ZXJsaW1pdD0nMTAnIHRyYW5zZm9ybT0ndHJhbnNsYXRlKDg5LjUxODkzNCwtNzkuODUwNTg1KXNjYWxlKDAuOTk2MjY0LC0wLjk5NjI2NCknPgo8ZyB0cmFuc2Zvcm09J3RyYW5zbGF0ZSgtMTYuMzc1MTcsMC4wKSc+CjxnIHN0cm9rZT0nbm9uZScgdHJhbnNmb3JtPSdzY2FsZSgtMS4wMDM3NSwxLjAwMzc1KXRyYW5zbGF0ZSg4OS41MTg5MzQsLTc5Ljg1MDU4NSlzY2FsZSgtMSwtMSknPgo8ZyBmaWxsPScjMDAwJz4KPGcgc3Ryb2tlPSdub25lJz4KPHRleHQgY2xhc3M9J2YyJyB4PSc4OS41MTg5MzQnIHk9Jy03OS44NTA1ODUnPvCdkaU8L3RleHQ+Cjx0ZXh0IGNsYXNzPSdmMScgeD0nOTUuMjE3NTY0JyB5PSctNzcuMzg5ODExJz7NmTwvdGV4dD4KPHRleHQgY2xhc3M9J2YyJyB4PScxMDEuOTU3NDU2JyB5PSctNzkuODUwNTg1Jz7Dlzx0c3BhbiB4PScxMTEuOTIyMjU2Jz7wnZGlPC90c3Bhbj48L3RleHQ+Cjx0ZXh0IGNsYXNzPSdmMScgeD0nMTE3LjYyMDg4NicgeT0nLTc3LjM4OTgxMSc+zZk8L3RleHQ+CjwvZz4KPC9nPgo8L2c+CjwvZz4KPC9nPgo8ZyBzdHJva2U9JyMwMDAnIHN0cm9rZS1taXRlcmxpbWl0PScxMCcgdHJhbnNmb3JtPSd0cmFuc2xhdGUoLTQuNTA2NTA4LC00Ny42MTQ0MTUpc2NhbGUoMC45OTYyNjQsLTAuOTk2MjY0KScvPgo8ZyBzdHJva2U9JyMwMDAnIHN0cm9rZS1taXRlcmxpbWl0PScxMCcgdHJhbnNmb3JtPSd0cmFuc2xhdGUoMzUuNTk0NTQ4LC00Ny42MTQ0MTUpc2NhbGUoMC45OTYyNjQsLTAuOTk2MjY0KSc+CjxnIHRyYW5zZm9ybT0ndHJhbnNsYXRlKC01LjEzMTUsMC4wKSc+CjxnIHN0cm9rZT0nbm9uZScgdHJhbnNmb3JtPSdzY2FsZSgtMS4wMDM3NSwxLjAwMzc1KXRyYW5zbGF0ZSgzNS41OTQ1NDgsLTQ3LjYxNDQxNSlzY2FsZSgtMSwtMSknPgo8ZyBmaWxsPScjMDAwJz4KPGcgc3Ryb2tlPSdub25lJz4KPHRleHQgY2xhc3M9J2YyJyB4PSczNS41OTQ1NDgnIHk9Jy00Ny42MTQ0MTUnPvCdkaU8L3RleHQ+Cjx0ZXh0IGNsYXNzPSdmMScgeD0nNDEuMjkzMTc4JyB5PSctNDUuMTUzNjQxJz7NmTwvdGV4dD4KPC9nPgo8L2c+CjwvZz4KPC9nPgo8L2c+CjxnIHN0cm9rZT0nIzAwMCcgc3Ryb2tlLW1pdGVybGltaXQ9JzEwJyB0cmFuc2Zvcm09J3RyYW5zbGF0ZSg4OS41MTg5MzQsLTQ3LjYxNDQxNSlzY2FsZSgwLjk5NjI2NCwtMC45OTYyNjQpJy8+CjwvZz4KPC9nPgo8ZyBzdHJva2Utd2lkdGg9JzAuNCc+CjxwYXRoIGQ9J00tNDcuMTE2NjEgMTYuNjUzNTJILTIzLjkxNjY2JyBmaWxsPSdub25lJy8+CjxnIHRyYW5zZm9ybT0ndHJhbnNsYXRlKC0yMy43MTY2NiwxNi42NTM1MiknPgo8ZyBzdHJva2UtZGFzaGFycmF5PSdub25lJyBzdHJva2UtZGFzaG9mZnNldD0nMC4wJz4KIDxnIHN0cm9rZS1saW5lY2FwPSdyb3VuZCc+CiA8ZyBzdHJva2UtbGluZWpvaW49J3JvdW5kJz4KIDxwYXRoIGQ9J00tMi4wNzk5NiAyLjM5OTkzQy0xLjY5OTk1IC45NTk5Ni0uODUzMTYgLjI3OTk4IDAgMEMtLjg1MzE2LS4yNzk5OC0xLjY5OTk1LS45NTk5Ni0yLjA3OTk2LTIuMzk5OTMnIGZpbGw9J25vbmUnLz4KIDwvZz4KIDwvZz4KIDwvZz4KPC9nPgo8ZyB0cmFuc2Zvcm09J3RyYW5zbGF0ZSgtMzcuMjEzNjQsMTkuMDc4NTIpJz4KPGcgc3Ryb2tlPSdub25lJyB0cmFuc2Zvcm09J3NjYWxlKC0xLjAwMzc1LDEuMDAzNzUpdHJhbnNsYXRlKC0xMS4yOTEwNjMsLTQ3LjYxNDQxNSlzY2FsZSgtMSwtMSknPgo8ZyBmaWxsPScjMDAwJz4KPGcgc3Ryb2tlPSdub25lJz4KPHRleHQgY2xhc3M9J2YxJyB4PSctMTEuMjkxMDYzJyB5PSctNDcuNjE0NDE1Jz7wnZu6PC90ZXh0Pgo8L2c+CjwvZz4KPC9nPgo8L2c+CjwvZz4KPGcgc3Ryb2tlLXdpZHRoPScwLjQnPgo8cGF0aCBkPSdNMTkuMzY2MjcgMTYuNjUzNTJILTMuODMzNjgnIGZpbGw9J25vbmUnLz4KPGcgdHJhbnNmb3JtPSdtYXRyaXgoLTEuMCwwLjAsMC4wLC0xLjAsLTQuMDMzNjgsMTYuNjUzNTIpJz4KPGcgc3Ryb2tlLWRhc2hhcnJheT0nbm9uZScgc3Ryb2tlLWRhc2hvZmZzZXQ9JzAuMCc+CiA8ZyBzdHJva2UtbGluZWNhcD0ncm91bmQnPgogPGcgc3Ryb2tlLWxpbmVqb2luPSdyb3VuZCc+CiA8cGF0aCBkPSdNLTIuMDc5OTYgMi4zOTk5M0MtMS42OTk5NSAuOTU5OTYtLjg1MzE2IC4yNzk5OCAwIDBDLS44NTMxNi0uMjc5OTgtMS42OTk5NS0uOTU5OTYtMi4wNzk5Ni0yLjM5OTkzJyBmaWxsPSdub25lJy8+CiA8L2c+CiA8L2c+CiA8L2c+CjwvZz4KPGcgdHJhbnNmb3JtPSd0cmFuc2xhdGUoNi41OTMzLDE5LjAwODUxKSc+CjxnIHN0cm9rZT0nbm9uZScgdHJhbnNmb3JtPSdzY2FsZSgtMS4wMDM3NSwxLjAwMzc1KXRyYW5zbGF0ZSgtMTEuMjkxMDYzLC00Ny42MTQ0MTUpc2NhbGUoLTEsLTEpJz4KPGcgZmlsbD0nIzAwMCc+CjxnIHN0cm9rZT0nbm9uZSc+Cjx0ZXh0IGNsYXNzPSdmMScgeD0nLTExLjI5MTA2MycgeT0nLTQ3LjYxNDQxNSc+4ouFPC90ZXh0Pgo8L2c+CjwvZz4KPC9nPgo8L2c+CjwvZz4KPGcgc3Ryb2tlLXdpZHRoPScwLjQnPgo8cGF0aCBkPSdNLTEzLjg3NTE3LTkuOTIwMDNWNy4yODAwMScgZmlsbD0nbm9uZScvPgo8ZyB0cmFuc2Zvcm09J21hdHJpeCgwLjAsMS4wLC0xLjAsMC4wLC0xMy44NzUxNyw3LjQ4MDAxKSc+CjxnIHN0cm9rZS1kYXNoYXJyYXk9J25vbmUnIHN0cm9rZS1kYXNob2Zmc2V0PScwLjAnPgogPGcgc3Ryb2tlLWxpbmVjYXA9J3JvdW5kJz4KIDxnIHN0cm9rZS1saW5lam9pbj0ncm91bmQnPgogPHBhdGggZD0nTS0yLjA3OTk2IDIuMzk5OTNDLTEuNjk5OTUgLjk1OTk2LS44NTMxNiAuMjc5OTggMCAwQy0uODUzMTYtLjI3OTk4LTEuNjk5OTUtLjk1OTk2LTIuMDc5OTYtMi4zOTk5MycgZmlsbD0nbm9uZScvPgogPC9nPgogPC9nPgogPC9nPgo8L2c+CjxnIHRyYW5zZm9ybT0ndHJhbnNsYXRlKC0zNC44MDkxNywtMy4xODc1MiknPgo8ZyBzdHJva2U9J25vbmUnIHRyYW5zZm9ybT0nc2NhbGUoLTEuMDAzNzUsMS4wMDM3NSl0cmFuc2xhdGUoLTExLjI5MTA2MywtNDcuNjE0NDE1KXNjYWxlKC0xLC0xKSc+CjxnIGZpbGw9JyMwMDAnPgo8ZyBzdHJva2U9J25vbmUnPgo8dGV4dCBjbGFzcz0nZjEnIHg9Jy0xMS4yOTEwNjMnIHk9Jy00Ny42MTQ0MTUnPijiiJIpPC90ZXh0Pgo8dGV4dCBjbGFzcz0nZjAnIHg9Jy0uNDM5NzU1JyB5PSctNTAuMTQ1OTIyJz7iiJLGgDwvdGV4dD4KPC9nPgo8L2c+CjwvZz4KPC9nPgo8L2c+CjwvZz4KPC9nPgo8L2c+CjwvZz4KPC9zdmc+" /></fr:resource-content><fr:resource-source
-type="latex"
-part="preamble"><![CDATA[
-            
-    \usepackage {tikz-cd}
-    \usepackage {unicode-math} 
-        ]]></fr:resource-source><fr:resource-source
-type="latex"
-part="body"><![CDATA[
-            \begin {tikzcd}
-                1 \ar [r, "e"] & x_0 & x_0 × x_0 \ar [l, "⋅"'] \\
-                              & x_0 \ar [u, "(-)⁻¹"] &
-            \end {tikzcd}
-        ]]></fr:resource-source></fr:resource>
-
-        <fr:figcaption>[I've changed the 1 to e because of rendering issues I can't figure out.]</fr:figcaption></fr:figure></fr:p></fr:mainmatter><fr:backmatter><fr:tree
+                Uemura's further explanation of 1. seems to suggest I have no idea what "syntactic" means here.</fr:li>
+            <fr:li>re 2. I'm also going to have to follow this reference, but
+                "A restriction on their type theories is that the forms of
+                judgments are fixed, and thus we cannot define some complex
+                type theories such as cubical type theory" indeed seems like a
+                major shortcoming.</fr:li>
+            <fr:li>re 3. Maybe the original syntactic-thing-for-dependent-type-theories.
+                It seems necessary to understand this fundamental notion at some point.</fr:li>
+            <fr:li>re 4. And this of course suggest brushing up on what an
+                algebraic theory even is in the first place-- what's the
+                relationship with Lawvere theories?</fr:li></fr:ul></fr:p></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -97,7 +88,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>320</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>622</fr:anchor><fr:addr
 type="user">hejohns-000T</fr:addr><fr:route>hejohns-000T.xml</fr:route><fr:title
 text="Brushing up on Acronyms, Reprise: GATs, SOGATs, or even just Algebraic Theories">Brushing up on Acronyms, Reprise: GATs, SOGATs, or even just Algebraic Theories</fr:title><fr:taxon>Exposition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>8</fr:month><fr:day>20</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>11</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -110,8 +101,8 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>308</fr:anchor><fr:addr
-type="machine">#261</fr:addr><fr:route>unstable-261.xml</fr:route><fr:title
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>324</fr:anchor><fr:addr
+type="machine">#262</fr:addr><fr:route>unstable-262.xml</fr:route><fr:title
 text="Intro">Intro</fr:title><fr:date><fr:year>2024</fr:year><fr:month>8</fr:month><fr:day>20</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>11</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="hejohns.xml"
@@ -133,8 +124,8 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>310</fr:anchor><fr:addr
-type="machine">#262</fr:addr><fr:route>unstable-262.xml</fr:route><fr:title
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>326</fr:anchor><fr:addr
+type="machine">#263</fr:addr><fr:route>unstable-263.xml</fr:route><fr:title
 text="Uemura's Thesis §4 (SOGATs)">Uemura's Thesis §4 (SOGATs)</fr:title><fr:date><fr:year>2024</fr:year><fr:month>8</fr:month><fr:day>20</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>11</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="hejohns.xml"
@@ -202,8 +193,8 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>312</fr:anchor><fr:addr
-type="machine">#263</fr:addr><fr:route>unstable-263.xml</fr:route><fr:title
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>328</fr:anchor><fr:addr
+type="machine">#264</fr:addr><fr:route>unstable-264.xml</fr:route><fr:title
 text="Uemura's Thesis §3 (CwRs)">Uemura's Thesis §3 (CwRs)</fr:title><fr:date><fr:year>2024</fr:year><fr:month>8</fr:month><fr:day>20</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>11</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="hejohns.xml"
