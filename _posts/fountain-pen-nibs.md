@@ -46,7 +46,7 @@ so you could swap just the feeds between the housings but this is probably unnec
 
 Unfortunately I forget where I saw this advice
 while I saw looking into all this last month,
-but the man in the youtube video suggested to always keep feeds and housings,
+but the fellow in the youtube video suggested to always keep feeds and housings,
 since those are more often going to be specific to the pen.
 Unless the feed itself somehow breaks, you can always mate it with a new nib if you damage the old one, which is more standard.
 
