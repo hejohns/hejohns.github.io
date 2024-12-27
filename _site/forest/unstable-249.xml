@@ -7,8 +7,8 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1022</fr:anchor><fr:addr
-type="machine">#249</fr:addr><fr:route>unstable-249.xml</fr:route><fr:taxon>Email</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>28</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>29</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>319</fr:anchor><fr:addr
+type="machine">#249</fr:addr><fr:route>unstable-249.xml</fr:route><fr:taxon>Email</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>28</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>27</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="hejohns.xml"
 addr="hejohns"
@@ -57,9 +57,9 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1024</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>321</fr:anchor><fr:addr
 type="user">quine-1960</fr:addr><fr:route>quine-1960.xml</fr:route><fr:title
-text="Variables Explained Away">Variables Explained Away</fr:title><fr:taxon>Reference</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>28</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>29</fr:day></fr:date><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p>"Separately I sent a copy of Quine's 1950 paper on combinatory logic to
+text="Variables Explained Away">Variables Explained Away</fr:title><fr:taxon>Reference</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>28</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>27</fr:day></fr:date><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p>"Separately I sent a copy of Quine's 1950 paper on combinatory logic to
     this list. Whatever else you might think about Quine, he was a terrific
     explainer, and this is the best introduction to the subject I know."</fr:p><fr:p>(Yes, that 50 should be a 60(b).)
     Here is the followup I wrote:</fr:p><fr:tree
@@ -69,8 +69,8 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>468</fr:anchor><fr:addr
-type="machine">#249</fr:addr><fr:route>unstable-249.xml</fr:route><fr:taxon>Email</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>28</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>29</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>322</fr:anchor><fr:addr
+type="machine">#249</fr:addr><fr:route>unstable-249.xml</fr:route><fr:taxon>Email</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>28</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>27</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="hejohns.xml"
 addr="hejohns"
@@ -106,7 +106,7 @@ href="https://en.wikipedia.org/wiki/Von_Neumann%E2%80%93Bernays%E2%80%93G%C3%B6d
         the notion of 'definite property' as 'first-order definable' was
         nontrivial, and found this connection with Quine's note interesting,</fr:p><fr:p>Johnson He</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:ul><fr:li><fr:link
 type="external"
-href="quine-1960.pdf">quine-1960.pdf</fr:link></fr:li>
+href="pdf/quine-1960.html">pdf/quine-1960.html</fr:link></fr:li>
     <fr:li><fr:link
 type="local"
 href="von-neumann-1925.xml"

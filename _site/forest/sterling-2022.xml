@@ -7,17 +7,17 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1008</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>363</fr:anchor><fr:addr
 type="user">sterling-2022</fr:addr><fr:route>sterling-2022.xml</fr:route><fr:title
-text="Naïve Logical Relations in Synthetic Tait Computability">Naïve Logical Relations in Synthetic Tait Computability</fr:title><fr:taxon>Reference</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>24</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+text="Naïve Logical Relations in Synthetic Tait Computability">Naïve Logical Relations in Synthetic Tait Computability</fr:title><fr:taxon>Reference</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>24</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>27</fr:day></fr:date><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>458</fr:anchor><fr:addr
-type="machine">#245</fr:addr><fr:route>unstable-245.xml</fr:route><fr:taxon>Abstract</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>24</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p>Logical relations are the main tool for proving <fr:strong>positive</fr:strong>
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>309</fr:anchor><fr:addr
+type="machine">#245</fr:addr><fr:route>unstable-245.xml</fr:route><fr:taxon>Abstract</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>24</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>27</fr:day></fr:date><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p>Logical relations are the main tool for proving <fr:strong>positive</fr:strong>
         properties of logics, type theories, and programming languages:
         canonicity, decidability, conservativity, computational adequacy, and
         more. Logical relations combine pure syntax with non-syntactic objects
@@ -36,8 +36,8 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>459</fr:anchor><fr:addr
-type="machine">#246</fr:addr><fr:route>unstable-246.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>24</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>25</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p>I can't quite follow the <fr:em>phase distinction</fr:em> and only have a very vague
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>310</fr:anchor><fr:addr
+type="machine">#246</fr:addr><fr:route>unstable-246.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>24</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>27</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>25</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>27</fr:day></fr:date><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p>I can't quite follow the <fr:em>phase distinction</fr:em> and only have a very vague
         idea of what's going on starting at p. 9.</fr:p><fr:p>From what I can tell, the idea is to work in the internal language of some
         topos-- really the internal "agda-like dependent type theory"-- to
         construct the logical relations category, instead of doing something like
@@ -57,7 +57,7 @@ href="hoffman-1999">a justification for hoas</fr:link> doesn't seem super
         on-the-point, but if it's mentioned it must be for good reason…</fr:p><fr:p>Again, quotes are air-quotes, not actual quotes.
         <fr:link
 type="external"
-href="sterling-2022.pdf">sterling-2022.pdf</fr:link></fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter><fr:tree
+href="pdf/sterling-2022.html">pdf/sterling-2022.html</fr:link></fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -72,7 +72,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1009</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>364</fr:anchor><fr:addr
 type="user">carette-kiselyov-shan-2007</fr:addr><fr:route>carette-kiselyov-shan-2007.xml</fr:route><fr:title
 text="Finally Tagless, Partially Evaluated">Finally Tagless, Partially Evaluated</fr:title><fr:taxon>Reference</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>24</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
@@ -81,7 +81,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>451</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>365</fr:anchor><fr:addr
 type="machine">#295</fr:addr><fr:route>unstable-295.xml</fr:route><fr:taxon>Abstract</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>24</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p>We have built the first family of tagless interpretations for a
         higher-order typed object language in a typed metalanguage (Haskell or
         ML) that require no dependent types, generalized algebraic data types,
@@ -104,7 +104,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>452</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>366</fr:anchor><fr:addr
 type="machine">#296</fr:addr><fr:route>unstable-296.xml</fr:route><fr:taxon>Notes</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>24</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>25</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p>This is the APLAS version (conference paper). There is a roughly twice
         as long journal version.</fr:p><fr:p>I didn't study a lot of the probably more interesting aspects of this
         work.

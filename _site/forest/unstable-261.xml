@@ -7,13 +7,13 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>306</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>357</fr:anchor><fr:addr
 type="machine">#261</fr:addr><fr:route>unstable-261.xml</fr:route><fr:title
 text="Things to try › Issue"><fr:link
 type="local"
 href="hejohns-000X.xml"
 addr="hejohns-000X"
-title="Things to try">Things to try</fr:link> › Issue</fr:title><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>7</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
+title="Things to try">Things to try</fr:link> › Issue</fr:title><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>7</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>27</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="hejohns.xml"
 addr="hejohns"
@@ -39,9 +39,9 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>308</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>359</fr:anchor><fr:addr
 type="user">hejohns-000X</fr:addr><fr:route>hejohns-000X.xml</fr:route><fr:title
-text="Things to try">Things to try</fr:title><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>7</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
+text="Things to try">Things to try</fr:title><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>7</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>27</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="hejohns.xml"
 addr="hejohns"
@@ -52,9 +52,9 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>310</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>361</fr:anchor><fr:addr
 type="machine">#261</fr:addr><fr:route>unstable-261.xml</fr:route><fr:title
-text="Issue">Issue</fr:title><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>7</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
+text="Issue">Issue</fr:title><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>7</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>27</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="hejohns.xml"
 addr="hejohns"
@@ -70,7 +70,15 @@ title="Johnson He">Johnson He</fr:link></fr:author></fr:authors></fr:frontmatter
 type="external"
 href="https://agda.readthedocs.io/en/latest/tools/performance.html">Interactive syntax highlighting</fr:link></fr:li>
         <fr:li>Enable <fr:code>{-# OPTIONS --lossy-unification #-}</fr:code> at the top of the current agda file</fr:li>
-        <fr:li>Comment out (especially slow) parts of the current agda file that you don't strictly need to work on this hole</fr:li>
+        <fr:li>Comment out (especially slow) parts of the current agda file that you don't strictly need to work on this hole
+            This is usually the easiest, most effective hammer.</fr:li>
+        <fr:li>Use opaque.
+            Something simple but I only just realized after a lot of head banging:
+            If you use <fr:code>_</fr:code> in a type, opaque can't export the type. You
+            have to <fr:code>C-c C-s</fr:code> the hole <fr:em>first</fr:em>, and export the
+            potentially very ugly proof term.
+            This is typically used to make expensive path proofs opaque.
+            The types of the path need to be non-opaque to be useful.</fr:li>
         <fr:li>Build Agda with the cabal flag <fr:code>cabal configure -f
             optimise-heavily</fr:code>, and maybe try the cabal.project(.local) option
             <fr:code>optimization: 2</fr:code>? Newer versions of Agda may not be able to infer all of the same

@@ -7,8 +7,8 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>962</fr:anchor><fr:addr
-type="machine">#248</fr:addr><fr:route>unstable-248.xml</fr:route><fr:taxon>Abstract</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>13</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p>In this note we shall try to place Friedman's remarkable little paper
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>316</fr:anchor><fr:addr
+type="machine">#248</fr:addr><fr:route>unstable-248.xml</fr:route><fr:taxon>Abstract</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>13</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>27</fr:day></fr:date><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p>In this note we shall try to place Friedman's remarkable little paper
         (<fr:link
 type="local"
 href="friedman-1975.xml"
@@ -43,17 +43,17 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>963</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>317</fr:anchor><fr:addr
 type="user">statman-1985</fr:addr><fr:route>statman-1985.xml</fr:route><fr:title
-text="Equality Between Functionals Revisited">Equality Between Functionals Revisited</fr:title><fr:taxon>Reference</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>13</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+text="Equality Between Functionals Revisited">Equality Between Functionals Revisited</fr:title><fr:taxon>Reference</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>13</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>27</fr:day></fr:date><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>449</fr:anchor><fr:addr
-type="machine">#248</fr:addr><fr:route>unstable-248.xml</fr:route><fr:taxon>Abstract</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>13</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p>In this note we shall try to place Friedman's remarkable little paper
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>318</fr:anchor><fr:addr
+type="machine">#248</fr:addr><fr:route>unstable-248.xml</fr:route><fr:taxon>Abstract</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>13</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>27</fr:day></fr:date><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p>In this note we shall try to place Friedman's remarkable little paper
         (<fr:link
 type="local"
 href="friedman-1975.xml"
@@ -75,4 +75,4 @@ title="Equality Between Functionals">3</fr:link>) in the context of what we know
             <fr:li>the solvability of higher type functional equations, and</fr:li>
             <fr:li>logical relations.</fr:li></fr:ul></fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:p><fr:link
 type="external"
-href="statman-1985.pdf">statman-1985.pdf</fr:link></fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
+href="pdf/statman-1985.html">pdf/statman-1985.html</fr:link></fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

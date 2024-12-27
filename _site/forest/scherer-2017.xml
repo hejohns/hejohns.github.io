@@ -7,7 +7,7 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>978</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1011</fr:anchor><fr:addr
 type="user">scherer-2017</fr:addr><fr:route>scherer-2017.xml</fr:route><fr:title
 text="Deciding equivalence with sums and the empty type">Deciding equivalence with sums and the empty type</fr:title><fr:taxon>Reference</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>13</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p><fr:link
 type="external"
@@ -38,17 +38,17 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>979</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1012</fr:anchor><fr:addr
 type="user">friedman-1975</fr:addr><fr:route>friedman-1975.xml</fr:route><fr:title
-text="Equality Between Functionals">Equality Between Functionals</fr:title><fr:taxon>Reference</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>13</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+text="Equality Between Functionals">Equality Between Functionals</fr:title><fr:taxon>Reference</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>13</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>27</fr:day></fr:date><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>447</fr:anchor><fr:addr
-type="machine">#293</fr:addr><fr:route>unstable-293.xml</fr:route><fr:taxon>Abstract</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>13</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p>The λ-calculus, in both its typed and untyped forms, has primarily been
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>335</fr:anchor><fr:addr
+type="machine">#293</fr:addr><fr:route>unstable-293.xml</fr:route><fr:taxon>Abstract</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>13</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>27</fr:day></fr:date><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p>The λ-calculus, in both its typed and untyped forms, has primarily been
         regarded as an attempt to formalize the concept of <fr:em>rule</fr:em> or
         <fr:em>process</fr:em>, and ultimately to provide a new foundation for mathematics.
         It seems fair to say that this aspect of the λ-calculus is currently in an
@@ -70,24 +70,24 @@ display="inline"><![CDATA[⊢ s = t]]></fr:tex> defined
         "equality between simple functionals is recursive."</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:p>Square brackets denote author's footnotes.
     <fr:link
 type="external"
-href="friedman-1975.pdf">friedman-1975.pdf</fr:link></fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+href="pdf/friedman-1975.html">pdf/friedman-1975.html</fr:link></fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>980</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1013</fr:anchor><fr:addr
 type="user">statman-1985</fr:addr><fr:route>statman-1985.xml</fr:route><fr:title
-text="Equality Between Functionals Revisited">Equality Between Functionals Revisited</fr:title><fr:taxon>Reference</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>13</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+text="Equality Between Functionals Revisited">Equality Between Functionals Revisited</fr:title><fr:taxon>Reference</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>13</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>27</fr:day></fr:date><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>449</fr:anchor><fr:addr
-type="machine">#248</fr:addr><fr:route>unstable-248.xml</fr:route><fr:taxon>Abstract</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>13</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p>In this note we shall try to place Friedman's remarkable little paper
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>318</fr:anchor><fr:addr
+type="machine">#248</fr:addr><fr:route>unstable-248.xml</fr:route><fr:taxon>Abstract</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>13</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>27</fr:day></fr:date><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p>In this note we shall try to place Friedman's remarkable little paper
         (<fr:link
 type="local"
 href="friedman-1975.xml"
@@ -109,4 +109,4 @@ title="Equality Between Functionals">3</fr:link>) in the context of what we know
             <fr:li>the solvability of higher type functional equations, and</fr:li>
             <fr:li>logical relations.</fr:li></fr:ul></fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:p><fr:link
 type="external"
-href="statman-1985.pdf">statman-1985.pdf</fr:link></fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
+href="pdf/statman-1985.html">pdf/statman-1985.html</fr:link></fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

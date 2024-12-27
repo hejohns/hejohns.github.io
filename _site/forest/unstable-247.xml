@@ -7,8 +7,8 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>632</fr:anchor><fr:addr
-type="machine">#247</fr:addr><fr:route>unstable-247.xml</fr:route><fr:taxon>Abstract</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>10</fr:month><fr:day>29</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>10</fr:month><fr:day>29</fr:day></fr:date><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p>What’s the right way to write down type theory (with or without
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>313</fr:anchor><fr:addr
+type="machine">#247</fr:addr><fr:route>unstable-247.xml</fr:route><fr:taxon>Abstract</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>10</fr:month><fr:day>29</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>27</fr:day></fr:date><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p>What’s the right way to write down type theory (with or without
         universes)? It’s unclear that there is a single right way, but there
         are a number of good lessons we’ve learned over time that we can use to
         avoid certain pitfalls and bureaucratic rat-holes. These lessons
@@ -29,17 +29,17 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>633</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>314</fr:anchor><fr:addr
 type="user">sterling-2020</fr:addr><fr:route>sterling-2020.xml</fr:route><fr:title
-text="An OK Version of Type Theory">An OK Version of Type Theory</fr:title><fr:taxon>Reference</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>10</fr:month><fr:day>29</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>10</fr:month><fr:day>29</fr:day></fr:date><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+text="An OK Version of Type Theory">An OK Version of Type Theory</fr:title><fr:taxon>Reference</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>10</fr:month><fr:day>29</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>27</fr:day></fr:date><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>429</fr:anchor><fr:addr
-type="machine">#247</fr:addr><fr:route>unstable-247.xml</fr:route><fr:taxon>Abstract</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>10</fr:month><fr:day>29</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>10</fr:month><fr:day>29</fr:day></fr:date><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p>What’s the right way to write down type theory (with or without
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>315</fr:anchor><fr:addr
+type="machine">#247</fr:addr><fr:route>unstable-247.xml</fr:route><fr:taxon>Abstract</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>10</fr:month><fr:day>29</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>27</fr:day></fr:date><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p>What’s the right way to write down type theory (with or without
         universes)? It’s unclear that there is a single right way, but there
         are a number of good lessons we’ve learned over time that we can use to
         avoid certain pitfalls and bureaucratic rat-holes. These lessons
@@ -102,4 +102,4 @@ display="inline"><![CDATA[Γ ⊢ a : A ⟹ Γ ⊢ A type]]></fr:tex>]
         There's a line of work on what this means precisely, which I should get
         to sooner than later.</fr:li></fr:ul><fr:p><fr:link
 type="external"
-href="sterling-2020.pdf">sterling-2020.pdf</fr:link></fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
+href="pdf/sterling-2020.html">pdf/sterling-2020.html</fr:link></fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
