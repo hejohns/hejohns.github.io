@@ -7,7 +7,7 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "~> 4.3.2"
+gem "jekyll", "~> 4.4.1"
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 gem "minima", github: 'jekyll/minima'
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
@@ -15,7 +15,7 @@ gem "minima", github: 'jekyll/minima'
 #gem "github-pages", group: :jekyll_plugins
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.12"
+  gem "jekyll-feed"
   gem 'jekyll-katex'
   gem 'jekyll-last-modified-at'
 end
@@ -34,28 +34,28 @@ gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 # do not have a Java counterpart.
 gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
-gem "webrick", "~> 1.8"
+gem "webrick"
 
-gem "faraday-retry", "~> 2.1"
+gem "faraday-retry"
 # required by jekyll-last-modified-at
 gem "tzinfo", ">= 1", "< 3"
 
-gem "jekyll-pdf-embed", "~> 1.1"
+gem "jekyll-pdf-embed"
 
-gem "jekyll-sitemap", "~> 1.4"
+gem "jekyll-sitemap"
 
-gem "classifier-reborn", "~> 2.3"
+gem "classifier-reborn"
 
-gem "jekyll-archives", "~> 2.2"
+gem "jekyll-archives"
 
-gem "mini_racer", "~> 0.8.0"
+gem "mini_racer"
 
-gem "bundler", "~> 2.4"
+gem "bundler"
 
-gem "rake", "~> 13.1"
+gem "rake"
 
-gem "csv", "~> 3.2"
+gem "csv"
 
-gem "base64", "~> 0.2.0"
+gem "base64"
 
-gem "bigdecimal", "~> 3.1"
+gem "bigdecimal"
