@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/forest/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/forest/">
+  <fr:frontmatter>
+    <fr:authors />
+    <fr:date>
+      <fr:year>2024</fr:year>
+      <fr:month>5</fr:month>
+      <fr:day>24</fr:day>
+    </fr:date>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>9</fr:month>
+      <fr:day>27</fr:day>
+    </fr:date>
+    <fr:uri>https://hejohns.github.io/forest/sterling-2022/</fr:uri>
+    <fr:display-uri>sterling-2022</fr:display-uri>
+    <fr:route>/forest/sterling-2022/</fr:route>
+    <fr:title text="Naïve Logical Relations in Synthetic Tait Computability">Naïve Logical Relations in Synthetic Tait Computability</fr:title>
+    <fr:taxon>Reference</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:tree show-metadata="false">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:date>
+          <fr:year>2024</fr:year>
+          <fr:month>5</fr:month>
+          <fr:day>24</fr:day>
+        </fr:date>
+        <fr:date>
+          <fr:year>2025</fr:year>
+          <fr:month>9</fr:month>
+          <fr:day>27</fr:day>
+        </fr:date>
+        <fr:taxon>abstract</fr:taxon>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <html:p>
+        Logical relations are the main tool for proving <html:strong>positive</html:strong>
+        properties of logics, type theories, and programming languages:
+        canonicity, decidability, conservativity, computational adequacy, and
+        more. Logical relations combine pure syntax with non-syntactic objects
+        that are parameretized in syntax in a somewhat complex way; the
+        sophistication of possible parameterizations makes logical relations a
+        tool that is primarily accessible to specialists. In the spirit of
+        Halmos’ Naïve Set Theory, we advance a new viewpoint on logical
+        relations based on synthetic Tait computability, an internal language
+        for categories of logical relations. In <html:strong>synthetic Tait
+        computability</html:strong>, logical relations are manipulated as if they were sets,
+        making the essence of many complex logical relations arguments
+        accessible to non-specialists.
+    </html:p>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:date>
+          <fr:year>2024</fr:year>
+          <fr:month>5</fr:month>
+          <fr:day>24</fr:day>
+        </fr:date>
+        <fr:date>
+          <fr:year>2025</fr:year>
+          <fr:month>9</fr:month>
+          <fr:day>27</fr:day>
+        </fr:date>
+        <fr:date>
+          <fr:year>2024</fr:year>
+          <fr:month>5</fr:month>
+          <fr:day>25</fr:day>
+        </fr:date>
+        <fr:date>
+          <fr:year>2025</fr:year>
+          <fr:month>9</fr:month>
+          <fr:day>27</fr:day>
+        </fr:date>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <html:p>
+        I can't quite follow the <html:em>phase distinction</html:em> and only have a very vague
+        idea of what's going on starting at p. 9.
+    </html:p>
+        <html:p>
+        From what I can tell, the idea is to work in the internal language of some
+        topos-- really the internal "agda-like dependent type theory"-- to
+        construct the logical relations category, instead of doing something like
+        (analytic) gluing.
+        How this makes anything easier is beyond me at the moment.
+        I can't tell if the <html:em>object-space/meta-space</html:em> discussion is clear
+        and I just don't have some context, or it's actually presented almost
+        mystically.
+        The mention of <fr:link href="/forest/carette-kiselyov-shan-2007/" title="Finally Tagless, Partially Evaluated" uri="https://hejohns.github.io/forest/carette-kiselyov-shan-2007/" display-uri="carette-kiselyov-shan-2007" type="local">finally tagless encodings</fr:link>
+        and 
+    
+        
+        <html:span class="link local">
+            <html:a href="/forest/bafkrmidmwd5ulpwgcicxqamfn2v5ybqz7iyciviy7ukat4tudh5kuwifme.html">a justification for hoas</html:a>
+        </html:span>
+    
+ doesn't seem super
+        on-the-point, but if it's mentioned it must be for good reason…
+    </html:p>
+        <html:p>
+        Again, quotes are air-quotes, not actual quotes.
+        
+    
+        
+        <html:span class="link local">
+            <html:a href="/forest/bafkrmicqclkfwu54knpw2jf2ciu3rpdyvgquxpcq7m6rxyevathwctkzr4.html">paper</html:a>
+        </html:span></html:p>
+      </fr:mainmatter>
+    </fr:tree>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>24</fr:day>
+            </fr:date>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>9</fr:month>
+              <fr:day>16</fr:day>
+            </fr:date>
+            <fr:uri>https://hejohns.github.io/forest/carette-kiselyov-shan-2007/</fr:uri>
+            <fr:display-uri>carette-kiselyov-shan-2007</fr:display-uri>
+            <fr:route>/forest/carette-kiselyov-shan-2007/</fr:route>
+            <fr:title text="Finally Tagless, Partially Evaluated">Finally Tagless, Partially Evaluated</fr:title>
+            <fr:taxon>Reference</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>5</fr:month>
+                  <fr:day>24</fr:day>
+                </fr:date>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>9</fr:month>
+                  <fr:day>16</fr:day>
+                </fr:date>
+                <fr:taxon>abstract</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+        We have built the first family of tagless interpretations for a
+        higher-order typed object language in a typed metalanguage (Haskell or
+        ML) that require no dependent types, generalized algebraic data types,
+        or postprocessing to eliminate tags. The statically type-preserving
+        interpretations include an evaluator, a compiler (or staged evaluator),
+        a partial evaluator, and call-by-name and call-by-value CPS
+        transformers.
+    </html:p>
+                <html:p>
+        Our main idea is to encode HOAS using cogen functions rather than data
+        constructors. In other words, we represent object terms not in an
+        initial algebra but using the coalgebraic structure of the λ-calculus.
+        Our representation also simulates inductive maps from types to types,
+        which are required for typed partial evaluation and CPS
+        transformations.
+    </html:p>
+                <html:p>
+        Our encoding of an object term abstracts over the various ways to
+        interpret it, yet statically assures that the interpreters never get
+        stuck.  To achieve self-interpretation and show Jones-optimality, we
+        relate this exemplar of higher-rank and higher-kind polymorphism to
+        plugging a term into a context of let-polymorphic bindings.
+    </html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>5</fr:month>
+                  <fr:day>24</fr:day>
+                </fr:date>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>9</fr:month>
+                  <fr:day>16</fr:day>
+                </fr:date>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>5</fr:month>
+                  <fr:day>25</fr:day>
+                </fr:date>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>9</fr:month>
+                  <fr:day>16</fr:day>
+                </fr:date>
+                <fr:taxon>notes</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+        This is the APLAS version (conference paper). There is a roughly twice
+        as long journal version.
+    </html:p>
+                <html:p>
+        I didn't study a lot of the probably more interesting aspects of this
+        work.
+        I just wanted a first/resonant-understanding of "what does <html:em>finally
+        tagless</html:em> mean?".
+    </html:p>
+                <html:p>
+        It seems the very basic idea is about the general problem of DSLs.
+        The very short way to say it, is that we like to construct languages as
+        object languages of nice meta languages.
+        For example, a nice meta languages gives us nice primitives to reuse as
+        the denotational semantics of the object language.
+        A classic example is to use the <html:code>Int</html:code> type in the meta language as
+        the semantics of the DSL/embedded/object language's numeric type.
+    </html:p>
+                <html:p>
+        Most people's knee jerk reaction is to encode the object language as an
+        ADT. This is fine and well, and can be called <html:em>initial</html:em> in the sense
+        that it is the free syntax generated by the encoded rules/initial
+        algebra/inductive dataype.
+        But the naïve TODO
+    </html:p>
+              </fr:mainmatter>
+            </fr:tree>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

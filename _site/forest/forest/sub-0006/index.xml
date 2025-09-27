@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/forest/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/forest/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2024</fr:year>
+      <fr:month>5</fr:month>
+      <fr:day>7</fr:day>
+    </fr:date>
+    <fr:date>
+      <fr:year>2024</fr:year>
+      <fr:month>5</fr:month>
+      <fr:day>11</fr:day>
+    </fr:date>
+    <fr:uri>https://hejohns.github.io/forest/sub-0006/</fr:uri>
+    <fr:display-uri>sub-0006</fr:display-uri>
+    <fr:route>/forest/sub-0006/</fr:route>
+    <fr:taxon>proof</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>
+        Suppose <fr:tex display="inline"><![CDATA[p₁ ≤ p₂]]></fr:tex>.
+        Notice that <fr:tex display="inline"><![CDATA[p₂ ≤ u∘f(p₂)]]></fr:tex>, by the unit of the (thin) adjunction.
+        Then <fr:tex display="inline"><![CDATA[p₁ ≤ p₂ ≤ u∘f(p₂) ⟹ f(p₁) ≤ f(p₂)]]></fr:tex> by the Hom bijection of the (thin) adjunction.
+    </html:p>
+    <html:p>
+        (dual)
+        Suppose <fr:tex display="inline"><![CDATA[q₁ ≤ q₂]]></fr:tex>.
+        Notice that <fr:tex display="inline"><![CDATA[f∘u(q₁) ≤ q₂]]></fr:tex> by the counit of the (thin) adjunction.
+        Then <fr:tex display="inline"><![CDATA[f∘u(q₁) ≤ q₁ ≤ q₂ ⟹ u(q₁) ≤ u(q₂)]]></fr:tex> by the Hom bijection of the (thin) adjunction.
+    </html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>7</fr:day>
+            </fr:date>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>11</fr:day>
+            </fr:date>
+            <fr:uri>https://hejohns.github.io/forest/hejohns-0006/</fr:uri>
+            <fr:display-uri>hejohns-0006</fr:display-uri>
+            <fr:route>/forest/hejohns-0006/</fr:route>
+            <fr:title text="the core of adjoint monotone functions">the core of adjoint monotone functions</fr:title>
+            <fr:taxon>lemma</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+    This is mentioned in passing, in the intro to <fr:link href="/forest/street-2012/" title="The Core of Adjoint Functors" uri="https://hejohns.github.io/forest/street-2012/" display-uri="street-2012" type="local">The Core of Adjoint Functors</fr:link>.
+</html:p>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>5</fr:month>
+                  <fr:day>7</fr:day>
+                </fr:date>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>5</fr:month>
+                  <fr:day>11</fr:day>
+                </fr:date>
+                <fr:taxon>proposition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+        Suppose <fr:tex display="inline"><![CDATA[P]]></fr:tex> and <fr:tex display="inline"><![CDATA[Q]]></fr:tex> are posets, <fr:tex display="inline"><![CDATA[f : P → Q]]></fr:tex> is a priori just a function, and <fr:tex display="inline"><![CDATA[u : P ← Q]]></fr:tex> monotone,
+        such that <fr:tex display="inline"><![CDATA[f(x) ≤ a ⟺ x ≤ u(a)]]></fr:tex>.
+        Then <fr:tex display="inline"><![CDATA[f]]></fr:tex> monotone as well.
+    </html:p>
+                <html:p>
+        Or dually, suppose that <fr:tex display="inline"><![CDATA[f]]></fr:tex> monotone, but <fr:tex display="inline"><![CDATA[u]]></fr:tex> is a priori just a function.
+        Then <fr:tex display="inline"><![CDATA[u]]></fr:tex> monotone as well.
+    </html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>5</fr:month>
+                  <fr:day>7</fr:day>
+                </fr:date>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>5</fr:month>
+                  <fr:day>11</fr:day>
+                </fr:date>
+                <fr:uri>https://hejohns.github.io/forest/sub-0006/</fr:uri>
+                <fr:display-uri>sub-0006</fr:display-uri>
+                <fr:route>/forest/sub-0006/</fr:route>
+                <fr:taxon>proof</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+        Suppose <fr:tex display="inline"><![CDATA[p₁ ≤ p₂]]></fr:tex>.
+        Notice that <fr:tex display="inline"><![CDATA[p₂ ≤ u∘f(p₂)]]></fr:tex>, by the unit of the (thin) adjunction.
+        Then <fr:tex display="inline"><![CDATA[p₁ ≤ p₂ ≤ u∘f(p₂) ⟹ f(p₁) ≤ f(p₂)]]></fr:tex> by the Hom bijection of the (thin) adjunction.
+    </html:p>
+                <html:p>
+        (dual)
+        Suppose <fr:tex display="inline"><![CDATA[q₁ ≤ q₂]]></fr:tex>.
+        Notice that <fr:tex display="inline"><![CDATA[f∘u(q₁) ≤ q₂]]></fr:tex> by the counit of the (thin) adjunction.
+        Then <fr:tex display="inline"><![CDATA[f∘u(q₁) ≤ q₁ ≤ q₂ ⟹ u(q₁) ≤ u(q₂)]]></fr:tex> by the Hom bijection of the (thin) adjunction.
+    </html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>5</fr:month>
+                  <fr:day>7</fr:day>
+                </fr:date>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>5</fr:month>
+                  <fr:day>11</fr:day>
+                </fr:date>
+                <fr:uri>https://hejohns.github.io/forest/subb-0006/</fr:uri>
+                <fr:display-uri>subb-0006</fr:display-uri>
+                <fr:route>/forest/subb-0006/</fr:route>
+                <fr:taxon>proof corollary</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+        Notice that <fr:link href="/forest/sub-0006/" title="the core of adjoint monotone functions › https://hejohns.github.io/forest/sub-0006/" uri="https://hejohns.github.io/forest/sub-0006/" display-uri="sub-0006" type="local">the above proof</fr:link> does <html:em>not</html:em> use the information that <fr:tex display="inline"><![CDATA[u]]></fr:tex> is monotone.
+        Thus <fr:link href="/forest/hejohns-0006/" title="the core of adjoint monotone functions" uri="https://hejohns.github.io/forest/hejohns-0006/" display-uri="hejohns-0006" type="local">the above lemma</fr:link> holds where <fr:tex display="inline"><![CDATA[f]]></fr:tex> and <fr:tex display="inline"><![CDATA[u]]></fr:tex> are just a priori functions.
+        The <fr:link href="/forest/hejohns-0006/" title="the core of adjoint monotone functions" uri="https://hejohns.github.io/forest/hejohns-0006/" display-uri="hejohns-0006" type="local">above lemma</fr:link> is in some sense the more
+        immediately natural question, but can be easily strengthened to
+        the form of this corollary.
+    </html:p>
+              </fr:mainmatter>
+            </fr:tree>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>7</fr:day>
+            </fr:date>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>11</fr:day>
+            </fr:date>
+            <fr:uri>https://hejohns.github.io/forest/subb-0006/</fr:uri>
+            <fr:display-uri>subb-0006</fr:display-uri>
+            <fr:route>/forest/subb-0006/</fr:route>
+            <fr:taxon>proof corollary</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+        Notice that <fr:link href="/forest/sub-0006/" title="the core of adjoint monotone functions › https://hejohns.github.io/forest/sub-0006/" uri="https://hejohns.github.io/forest/sub-0006/" display-uri="sub-0006" type="local">the above proof</fr:link> does <html:em>not</html:em> use the information that <fr:tex display="inline"><![CDATA[u]]></fr:tex> is monotone.
+        Thus <fr:link href="/forest/hejohns-0006/" title="the core of adjoint monotone functions" uri="https://hejohns.github.io/forest/hejohns-0006/" display-uri="hejohns-0006" type="local">the above lemma</fr:link> holds where <fr:tex display="inline"><![CDATA[f]]></fr:tex> and <fr:tex display="inline"><![CDATA[u]]></fr:tex> are just a priori functions.
+        The <fr:link href="/forest/hejohns-0006/" title="the core of adjoint monotone functions" uri="https://hejohns.github.io/forest/hejohns-0006/" display-uri="hejohns-0006" type="local">above lemma</fr:link> is in some sense the more
+        immediately natural question, but can be easily strengthened to
+        the form of this corollary.
+    </html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

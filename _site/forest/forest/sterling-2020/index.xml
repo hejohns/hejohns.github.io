@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/forest/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/forest/">
+  <fr:frontmatter>
+    <fr:authors />
+    <fr:date>
+      <fr:year>2024</fr:year>
+      <fr:month>10</fr:month>
+      <fr:day>29</fr:day>
+    </fr:date>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>9</fr:month>
+      <fr:day>27</fr:day>
+    </fr:date>
+    <fr:uri>https://hejohns.github.io/forest/sterling-2020/</fr:uri>
+    <fr:display-uri>sterling-2020</fr:display-uri>
+    <fr:route>/forest/sterling-2020/</fr:route>
+    <fr:title text="An OK Version of Type Theory">An OK Version of Type Theory</fr:title>
+    <fr:taxon>Reference</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:tree show-metadata="false">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:date>
+          <fr:year>2024</fr:year>
+          <fr:month>10</fr:month>
+          <fr:day>29</fr:day>
+        </fr:date>
+        <fr:date>
+          <fr:year>2025</fr:year>
+          <fr:month>9</fr:month>
+          <fr:day>27</fr:day>
+        </fr:date>
+        <fr:taxon>abstract</fr:taxon>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <html:p>
+        What’s the right way to write down type theory (with or without
+        universes)? It’s unclear that there is a single right way, but there
+        are a number of good lessons we’ve learned over time that we can use to
+        avoid certain pitfalls and bureaucratic rat-holes. These lessons
+        include: avoid subtyping and use coercions instead, and make
+        presupposition admissibilities hold for obvious rather than complex
+        reasons.
+    </html:p>
+      </fr:mainmatter>
+    </fr:tree>
+    <html:p>
+    I haven't been able to read long articles recently, so I appreciate that
+    this note is short and just about one or two things.
+</html:p>
+    <html:p>
+    AFAIU, this short note is about <html:em>very</html:em> syntactical matters.
+    It's a sort of retrospective on the author's experiences with these
+    low-level things, probably a result of the various proof assistants and
+    type theories they'd worked on at that point.
+    I don't feel like I 100% follow the flow, but some comments I found
+    interesting: 
+    (single quotes are actual quotes, double quotes are air "quotes")
+</html:p>
+    <html:ul><html:li>
+        This 'spectrum' of 'very derivable' to 'very admissible' substitution.
+        I don't 100% understand what the author means by each approach (eg
+        what is meant by a 'pre-term' exactly) although no doubt many people
+        will.
+        <html:p>
+            The 'very derivable' seems to be explicit substitutions, and can be
+            taken to the extreme formality by only operating on the last variable
+            in the context and requiring weakening, exchange, etc.
+            This is not a use-facing language, but something that could be
+            elaborated to, for example.
+        </html:p>
+        <html:p>
+            The 'semi-admissible' seems to be the "normal" (meta?) notion of
+            substitution on 'raw' (untyped?) terms, with the typing rules set
+            up such that the 'typing principle of substitution'
+            (presumably the thing that looks like <fr:tex display="inline"><![CDATA[Γ ⊢ M : A, Δ ⊢ δ : Γ ⟹ Δ ⊢ δ*(M) : A]]></fr:tex>)
+            is derivable.
+            I should probably be ashamed that I'm not clear how one could make
+            this derivable aside from directly throwing it in as a rule…
+        </html:p>
+        <html:p>
+            The 'very admissible' approach seems to me, probably unfortunately,
+            the most "normal", which is just "normal" substitution on 'raw'
+            terms with a typing principle justified by induction on
+            derivations.
+            I say unfortunately because 'There is no useful consequence of the
+            substation principle for dependent type theory being admissible but
+            not derivable, so one might as well avoid the headache.'
+        </html:p></html:li>
+    <html:li>
+        A similar story follows for the derivability or admissibility of
+        presuppositions (implicit premisses) of judgments.
+        'Generally speaking, it is quite perverse for
+        [<fr:tex display="inline"><![CDATA[Γ ⊢ a : A ⟹ Γ ⊢ A type]]></fr:tex>]
+        to be a rule of type theory', and although I want to agree, I suppose I
+        don't see an obvious reason why it should be the case.
+        I bring up this seemingly frivolous point because this seems like one way to make the presupposition derivable.
+        Otherwise, one can make the presupposition admissible (as "normal") by
+        having every rule premissed on its presuppositions.
+        'there is essentially zero pay-off to [minimizing the premiss to the rules]'.
+    </html:li>
+    <html:li>
+        'We do not write down any congruence rules! We assume enough rules to
+        ensure that definitional equality is a congruence. This is one of the
+        main motivations for working in an equational logical framework (to
+        rule out any perverse kind of “equality” that is not a congruence!)'
+    </html:li>
+    <html:li>
+        'But let me state what is not negotiable: the most well-adapted notion
+        of substitution for dependent type theory is a simultaneous
+        substitution [inline figure omitted]. So, a definition of when such a
+        simultaneous substitution is well-typed should be given (either by
+        rules, or by induction on contexts)'
+    </html:li>
+    <html:li>
+        And lastly, that there are many ways to handle universes and rules for
+        them, and that some 'are reasonable but even harder to justify in many
+        models', or that some 'has many more useful models'.
+        There's a line of work on what this means precisely, which I should get
+        to sooner than later.
+    </html:li></html:ul>
+    <html:p>
+      <html:span class="link local">
+            <html:a href="/forest/bafkrmihr65jcgxlantqgzgouj7sfmqhsgz6pc6r35k7tekreodjaxrvoce.html">paper</html:a>
+        </html:span>
+    </html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>
