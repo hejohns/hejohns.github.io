@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://hejohns.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hejohns.github.io/" rel="alternate" type="text/html" /><updated>2025-09-27T03:22:06-04:00</updated><id>https://hejohns.github.io/feed.xml</id><title type="html">hejohns’ jekyll site</title><subtitle>a pure waste of space</subtitle><author><name>Johnson He</name><email>hejohns α umich δ edu</email></author><entry><title type="html">aruba access points are AWESOME</title><link href="https://hejohns.github.io/2024/07/24/aruba.html" rel="alternate" type="text/html" title="aruba access points are AWESOME" /><published>2024-07-24T00:00:00-04:00</published><updated>2024-07-24T04:16:06-04:00</updated><id>https://hejohns.github.io/2024/07/24/aruba</id><content type="html" xml:base="https://hejohns.github.io/2024/07/24/aruba.html"><![CDATA[<p>ebay, $6.50/instant AP 215 (incl. shipping).</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://hejohns.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hejohns.github.io/" rel="alternate" type="text/html" /><updated>2025-09-27T03:28:22-04:00</updated><id>https://hejohns.github.io/feed.xml</id><title type="html">hejohns’ jekyll site</title><subtitle>a pure waste of space</subtitle><author><name>Johnson He</name><email>hejohns α umich δ edu</email></author><entry><title type="html">aruba access points are AWESOME</title><link href="https://hejohns.github.io/2024/07/24/aruba.html" rel="alternate" type="text/html" title="aruba access points are AWESOME" /><published>2024-07-24T00:00:00-04:00</published><updated>2024-07-24T04:16:06-04:00</updated><id>https://hejohns.github.io/2024/07/24/aruba</id><content type="html" xml:base="https://hejohns.github.io/2024/07/24/aruba.html"><![CDATA[<p>ebay, $6.50/instant AP 215 (incl. shipping).</p>
 
 <p>Title.
 Although maybe it’s because we went from bottom of the barrel ~2010 era retail
@@ -282,7 +282,7 @@ is some capped off \(V_α\) that is closed under pairing, union, powersets, etc.
 <p>So you can go though each axiom and check off that \(V_ω\) is almost a model
 of \(Z\), but actually \(α\) needs to be a limit ordinal (powerset axiom) above \(ω\) (infinity axiom), so the smallest \(α\) is \(2ω\).</p>
 
-<p>Then Enderton shows that \(V_{2ω} ̸⊧ ZF\), thus it must not satisfy replacement.
+<p>Then Enderton shows that \(¬(V_{2ω} ⊧ ZF)\), thus it must not satisfy replacement.
 But assuming an inaccessible cardinal \(κ\), \(V_κ ⊧ ZF\) (ie the replacement axioms are satisfied as well).</p>
 
 <p>I don’t know if this is the canonical proof that replacement is independent of \(Z\), but it’s a nice one,
@@ -290,9 +290,9 @@ and when I read this section of Enderton,
 it cemented itself as one the all time best things I’d ever read.</p>
 
 <p>To be precise, I should clarify that these results show that
-\(V_{2ω} ⊧ Z\) but \(V_{2ω} ̸⊧ ZF\), ie \(V_{2ω} ̸⊧ Z + \text{replacement}\),
-thus \(Z ̸⊧ \text{replacement}\), thus \(Z ̸⊢ \text{replacement}\).
-And \(Z ̸⊢ ¬\text{replacement}\)<sup id="fnref:2"><a href="#fn:2" class="footnote" rel="footnote" role="doc-noteref">2</a></sup>, since \(Z ̸⊧ ¬\text{replacement}\),
+\(V_{2ω} ⊧ Z\) but \(¬(V_{2ω} ⊧ ZF)\), ie \(¬(V_{2ω} ⊧ Z + \text{replacement})\),
+thus \(¬(Z ⊧ \text{replacement})\), thus \(¬(Z ⊢ \text{replacement})\).
+And \(¬(Z ⊢ ¬\text{replacement})\)<sup id="fnref:2"><a href="#fn:2" class="footnote" rel="footnote" role="doc-noteref">2</a></sup>, since \(¬(Z⊧ ¬\text{replacement})\),
 since \(V_κ ⊧ Z + \text{replacement}\).</p>
 
 <p>Thus replacement is independent of \(Z\), ie \(ZF\) is strictly stronger than \(Z\).
@@ -315,6 +315,8 @@ but another Montague fun fact.
 At least I usually call it “Montague’s notion of natural model”.</p>
 
 <p>Hence my confusion with Awodey’s reuse of the term.</p>
+
+<p>2025-09-27: Removed ̸⊧ instances which Katex wouldn’t render, replacing with ¬(⊩)</p>
 <div class="footnotes" role="doc-endnotes">
   <ol>
     <li id="fn:1">

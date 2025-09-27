@@ -24,7 +24,7 @@ is some capped off $$V_α$$ that is closed under pairing, union, powersets, etc.
 So you can go though each axiom and check off that $$V_ω$$ is almost a model
 of $$Z$$, but actually $$α$$ needs to be a limit ordinal (powerset axiom) above $$ω$$ (infinity axiom), so the smallest $$α$$ is $$2ω$$.
 
-Then Enderton shows that $$V_{2ω} ̸⊧ ZF$$, thus it must not satisfy replacement.
+Then Enderton shows that $$¬(V_{2ω} ⊧ ZF)$$, thus it must not satisfy replacement.
 But assuming an inaccessible cardinal $$κ$$, $$V_κ ⊧ ZF$$ (ie the replacement axioms are satisfied as well).
 
 I don't know if this is the canonical proof that replacement is independent of $$Z$$, but it's a nice one,
@@ -32,9 +32,9 @@ and when I read this section of Enderton,
 it cemented itself as one the all time best things I'd ever read.
 
 To be precise, I should clarify that these results show that
-$$V_{2ω} ⊧ Z$$ but $$V_{2ω} ̸⊧ ZF$$, ie $$V_{2ω} ̸⊧ Z + \text{replacement}$$,
-thus $$Z ̸⊧ \text{replacement}$$, thus $$Z ̸⊢ \text{replacement}$$.
-And $$Z ̸⊢ ¬\text{replacement}$$[^2], since $$Z ̸⊧ ¬\text{replacement}$$,
+$$V_{2ω} ⊧ Z$$ but $$¬(V_{2ω} ⊧ ZF)$$, ie $$¬(V_{2ω} ⊧ Z + \text{replacement})$$,
+thus $$¬(Z ⊧ \text{replacement})$$, thus $$¬(Z ⊢ \text{replacement})$$.
+And $$¬(Z ⊢ ¬\text{replacement})$$[^2], since $$¬(Z⊧ ¬\text{replacement})$$,
 since $$V_κ ⊧ Z + \text{replacement}$$.
 
 [^2]: ok replacement is an axiom schema or something, but you get the point
@@ -59,3 +59,5 @@ but another Montague fun fact.
 At least I usually call it "Montague's notion of natural model".
 
 Hence my confusion with Awodey's reuse of the term.
+
+2025-09-27: Removed ̸⊧ instances which Katex wouldn't render, replacing with ¬(⊩)
