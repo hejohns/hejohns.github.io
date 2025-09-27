@@ -14,3 +14,7 @@ export:
 .PHONY: push
 push: export
 	cd ../hejohns.github.io_git-mirror/ && git push
+
+.PHONY: upload
+upload:
+	$(MAKE) && git add _site && git commit -m "update site" && git push
