@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/forest/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/forest/">
+  <fr:frontmatter>
+    <fr:authors />
+    <fr:date>
+      <fr:year>2024</fr:year>
+      <fr:month>5</fr:month>
+      <fr:day>13</fr:day>
+    </fr:date>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>9</fr:month>
+      <fr:day>27</fr:day>
+    </fr:date>
+    <fr:uri>https://hejohns.github.io/forest/scherer-2017/</fr:uri>
+    <fr:display-uri>scherer-2017</fr:display-uri>
+    <fr:route>/forest/scherer-2017/</fr:route>
+    <fr:title text="Deciding equivalence with sums and the empty type">Deciding equivalence with sums and the empty type</fr:title>
+    <fr:taxon>Reference</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p><fr:link href="https://arxiv.org/pdf/1610.01213" type="external">https://arxiv.org/pdf/1610.01213</fr:link>.
+    The nice introduction informed me of <fr:link href="/forest/friedman-1975/" title="Equality Between Functionals" uri="https://hejohns.github.io/forest/friedman-1975/" display-uri="friedman-1975" type="local">Equality Between Functionals</fr:link> and <fr:link href="/forest/statman-1985/" title="Equality Between Functionals Revisited" uri="https://hejohns.github.io/forest/statman-1985/" display-uri="statman-1985" type="local">Equality Between Functionals Revisited</fr:link>.
+    Referenced on <fr:link href="https://proofassistants.stackexchange.com/a/1177" type="external">stack overflow</fr:link>.
+</html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>13</fr:day>
+            </fr:date>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>9</fr:month>
+              <fr:day>27</fr:day>
+            </fr:date>
+            <fr:uri>https://hejohns.github.io/forest/friedman-1975/</fr:uri>
+            <fr:display-uri>friedman-1975</fr:display-uri>
+            <fr:route>/forest/friedman-1975/</fr:route>
+            <fr:title text="Equality Between Functionals">Equality Between Functionals</fr:title>
+            <fr:taxon>Reference</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>5</fr:month>
+                  <fr:day>13</fr:day>
+                </fr:date>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>9</fr:month>
+                  <fr:day>27</fr:day>
+                </fr:date>
+                <fr:taxon>abstract</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+        The λ-calculus, in both its typed and untyped forms, has primarily been
+        regarded as an attempt to formalize the concept of <html:em>rule</html:em> or
+        <html:em>process</html:em>, and ultimately to provide a new foundation for mathematics.
+        It seems fair to say that this aspect of the λ-calculus is currently in an
+        embryonic state of development, awaiting further conceptual advances.
+    </html:p>
+                <html:p>
+        There is, however, another aspect of the <html:em>typed</html:em> λ-calculus, which is
+        readily understood. This is its connection with the full classical finite
+        type structure over ω, (i.e., with the functionals of finite type). In an
+        obvious way, each closed term in the typed λ-calculus defines a functional
+        of finite type over ω.  Call a functional <html:em>simple</html:em> if it is given by
+        some closed term in the typed x-calculus.
+    </html:p>
+                <html:p>
+        Several definitions of <html:em>convertibility</html:em> between terms in the λ-calculus,
+        with or without types, have been considered. The motivation for introducing
+        these definitions has primarily been to analyze the notion of the
+        <html:em>identity</html:em> between rules, or processes. The relation <fr:tex display="inline"><![CDATA[⊢ s = t]]></fr:tex> defined
+        in the text, is equivalent to one of these definitions of convertibility.
+        It is easy to see that any two convertible terms define the same functional
+        of finite type. We show here that any two non- convertible terms define
+        different functionals of finite type.[This result was obtained in 1970.]
+        This, coupled with the known decidability of convertibility, tells us that
+        "equality between simple functionals is recursive."
+    </html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <html:p>
+    Square brackets denote author's footnotes.
+    
+    
+        
+        <html:span class="link local">
+            <html:a href="/forest/bafkrmiecnspsbtexdtwbf2fvmnfqwqpm7ilbib7fk3ihm6qvuytjfjawzu.html">paper</html:a>
+        </html:span></html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>13</fr:day>
+            </fr:date>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>9</fr:month>
+              <fr:day>27</fr:day>
+            </fr:date>
+            <fr:uri>https://hejohns.github.io/forest/statman-1985/</fr:uri>
+            <fr:display-uri>statman-1985</fr:display-uri>
+            <fr:route>/forest/statman-1985/</fr:route>
+            <fr:title text="Equality Between Functionals Revisited">Equality Between Functionals Revisited</fr:title>
+            <fr:taxon>Reference</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>5</fr:month>
+                  <fr:day>13</fr:day>
+                </fr:date>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>9</fr:month>
+                  <fr:day>27</fr:day>
+                </fr:date>
+                <fr:taxon>abstract</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+        In this note we shall try to place Friedman's remarkable little paper
+        (<fr:link href="/forest/friedman-1975/" title="Equality Between Functionals" uri="https://hejohns.github.io/forest/friedman-1975/" display-uri="friedman-1975" type="local">3</fr:link>) in the context of what we know today about the model
+        theory of the typed λ-calculus. In order to do this, it is appropriate to
+        survey recent work in this area, in so far as it touches on issues raised
+        by Friedman. We don't intend a general survey; much will be left out. In
+        particular, we shall omit discussion of unification, fragments of L.C.F.,
+        and polymorphic types, which are areas of interest to the author, and the
+        specialist will surely find other omissions. However, we will try to show
+        the reader how Friedman's paper <html:em>lays the foundation</html:em> for the general
+        model theory of the typed λ-calculus.
+    </html:p>
+                <html:p>
+        The plan of this note is the following. We shall begin by a brief, informal
+        introduction to the subject. The reader is then advised to read Friedman's
+        paper. It is, after all, quite accessible and easy to read. We shall then
+        proceed to consider the three major issues touched on in "Equality between
+        functionals" as we view them today. These issues are
+        <html:ul><html:li>
+                completness theorems,
+            </html:li>
+            <html:li>
+                the solvability of higher type functional equations, and
+            </html:li>
+            <html:li>
+                logical relations.
+            </html:li></html:ul></html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <html:p>
+              <html:span class="link local">
+            <html:a href="/forest/bafkrmicprq257howtkktdwuyyqdbuzbxnmludfma6b4lhu2ayihrycbjaq.html">paper</html:a>
+        </html:span>
+            </html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

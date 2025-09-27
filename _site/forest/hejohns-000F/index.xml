@@ -1,0 +1,1708 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/forest/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/forest/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2024</fr:year>
+      <fr:month>6</fr:month>
+      <fr:day>1</fr:day>
+    </fr:date>
+    <fr:date>
+      <fr:year>2024</fr:year>
+      <fr:month>6</fr:month>
+      <fr:day>29</fr:day>
+    </fr:date>
+    <fr:uri>https://hejohns.github.io/forest/hejohns-000F/</fr:uri>
+    <fr:display-uri>hejohns-000F</fr:display-uri>
+    <fr:route>/forest/hejohns-000F/</fr:route>
+    <fr:title text="&quot;higher-order intuitionistic logic&quot; v. &quot;topos logic&quot;">"higher-order intuitionistic logic" v. "topos logic"</fr:title>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>
+    Many authors object to the name "higher-order intuitionistic logic".
+</html:p>
+    <html:p><fr:link href="/forest/blass-1988/" title="Topoi and Computation" uri="https://hejohns.github.io/forest/blass-1988/" display-uri="blass-1988" type="local">Topoi and Computation</fr:link> writes that "Strictly speaking, the phrase 'higher-order
+    intuitionistic' makes little sense, since it is not clear that
+    constructions like the power set are intuitionistically acceptable. What is
+    meant by the phrase is a type theory built on a formally intuitionistic
+    underlying logic." (p. 2).
+</html:p>
+    <html:p>
+    And <fr:link href="/forest/mclarty-1992/" title="Elementary Categories, Elementary Toposes" uri="https://hejohns.github.io/forest/mclarty-1992/" display-uri="mclarty-1992" type="local">Elementary Categories, Elementary Toposes</fr:link> similarly writes "In Part III the first order topos
+    axioms are used to define the higher order internal language. The logic is
+    called 'topos logic' here, although 'intuitionistic logic' is often
+    referred to in the literature. I believe that 'intuitionism' is usually,
+    and rightly, taken to mean Brouwer's epistemology of mathematics, which is
+    unrelated to the origin or content of topos theory. Topos logic strikingly resembles formal intuitionistic logic and the two have interacted, as in
+    van der Hoeven and Moerdijk (1984) or many papers in Fourman <html:em>et al.</html:em>
+    (1979). But topos logic coincides with no intuitionistic logic studied
+    before toposes, and this is due to real philosophical differences (see
+    McLarty 1990a)." (p. vii).
+</html:p>
+    <html:p>
+    Of course this discrepancy is what one should come to expect, since the
+    very notion of a formalized logic of intuitionistic reasoning is at odds
+    with Brouwer's notion of intuitionism, so when one speaks of
+    "intuitionistic logic" it's usually in the purely formal sense.
+</html:p>
+    <html:p>
+    Combining the two names, I think "higher-order intuitionistic topos logic"
+    is at least a little more descriptive.
+    Although I like calling it "finite-type intuitionistic predicate logic" to
+    keep in touch with some older terminology you still see around the block.
+
+</html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>1</fr:day>
+            </fr:date>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>9</fr:month>
+              <fr:day>27</fr:day>
+            </fr:date>
+            <fr:uri>https://hejohns.github.io/forest/blass-1988/</fr:uri>
+            <fr:display-uri>blass-1988</fr:display-uri>
+            <fr:route>/forest/blass-1988/</fr:route>
+            <fr:title text="Topoi and Computation">Topoi and Computation</fr:title>
+            <fr:taxon>Reference</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>1</fr:day>
+                </fr:date>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>9</fr:month>
+                  <fr:day>27</fr:day>
+                </fr:date>
+                <fr:taxon>abstract</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+        This is the written version of a talk given at the C.I.R.M. Workshop on
+        Logic in Computer Science at Marseille, France in June, 1988. Its purpose
+        is to argue that there is a close connection between the theory of
+        computation and the geometric side of topos theory. We begin with a brief
+        outline of the history and basic concepts of topos theory.
+    </html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>1</fr:day>
+                </fr:date>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>9</fr:month>
+                  <fr:day>27</fr:day>
+                </fr:date>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>1</fr:day>
+                </fr:date>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>9</fr:month>
+                  <fr:day>27</fr:day>
+                </fr:date>
+                <fr:taxon>notes</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+        Prof. Blass essentially described this background over the course of
+        the logic seminar last semester (as comments at various meetings,
+        culminating with a full talk), but this is a nice written account of
+        the history of topos theory, the relation between Grothendieck and
+        Elementary topoi, and the relation between geometric and logical
+        morphisms.
+    </html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <html:p>
+              <html:span class="link local">
+            <html:a href="/forest/bafkrmigv6fu6nsgtbuq5bzg6y5hmr5tjozbnnfchqxeckve5dcufwf3egm.html">paper</html:a>
+        </html:span>
+            </html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>31</fr:day>
+            </fr:date>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>9</fr:month>
+              <fr:day>16</fr:day>
+            </fr:date>
+            <fr:uri>https://hejohns.github.io/forest/mclarty-1992/</fr:uri>
+            <fr:display-uri>mclarty-1992</fr:display-uri>
+            <fr:route>/forest/mclarty-1992/</fr:route>
+            <fr:title text="Elementary Categories, Elementary Toposes">Elementary Categories, Elementary Toposes</fr:title>
+            <fr:taxon>Reference</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter />
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>31</fr:day>
+            </fr:date>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>9</fr:month>
+              <fr:day>16</fr:day>
+            </fr:date>
+            <fr:uri>https://hejohns.github.io/forest/hejohns-000C/</fr:uri>
+            <fr:display-uri>hejohns-000C</fr:display-uri>
+            <fr:route>/forest/hejohns-000C/</fr:route>
+            <fr:title text="elementary questions, elementary toposes">elementary questions, elementary toposes</fr:title>
+            <fr:taxon>Exposition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>5</fr:month>
+                  <fr:day>31</fr:day>
+                </fr:date>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>9</fr:month>
+                  <fr:day>16</fr:day>
+                </fr:date>
+                <fr:title text="elementary questions">elementary questions</fr:title>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+        Some basic questions, whose "elevator pitch" answers ought to roll off
+        the tongue:
+        <html:ul><html:li>
+                What is a(n elementary) topos?
+            </html:li>
+            <html:li>
+                What is this "topos logic" that is sound in any elementary topos?
+                As in literally, what is the syntax?
+                Is it the same thing as this "higher-order intuitionistic logic"?
+                What are the inference rules/axioms?
+            </html:li>
+            <html:li>
+                What is this "Kripke-Joyal semantics"?
+                Is this the same thing as the so-called "forcing semantics"?
+            </html:li>
+            <html:li>
+                What is this "Mitchell-Bénabou language"?
+                Is it the same thing as "topos logic"?
+            </html:li></html:ul>
+        Following <fr:link href="/forest/mclarty-1992/" title="Elementary Categories, Elementary Toposes" uri="https://hejohns.github.io/forest/mclarty-1992/" display-uri="mclarty-1992" type="local">Elementary Categories, Elementary Toposes</fr:link>, we sketch <html:em>elementary</html:em> answers to these.
+    </html:p>
+                <html:p>
+        Some more difficult questions we do not attempt to answer at the moment:
+        <html:ul><html:li>
+                What is a Grothendieck topos, and what's the difference v.
+                elementary toposes?
+            </html:li>
+            <html:li>
+                What is a "geometric logic" and a "geometric morphism"?
+                And what's the difference v. a "logical morphism"?
+            </html:li>
+            <html:li>
+                In what sense is "Kripke-Joyal semantics" a "forcing semantics"?
+                What is forcing??
+                Why does the concept of "generic" show up everywhere?
+            </html:li>
+            <html:li>
+                What's all this algebraic geometry stuff?
+            </html:li>
+            <html:li>
+                And everything else…
+            </html:li></html:ul></html:p>
+                <html:p>
+        Although as you might expect, we quickly derail from "elevator pitch"
+        answers, to "quick, write that down before I lose motivation and never
+        complete the sentence".
+        A truly FAQ-style answer compendium will have to come later-- after I've
+        actually learned the basics.
+    </html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>5</fr:month>
+                  <fr:day>31</fr:day>
+                </fr:date>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>9</fr:month>
+                  <fr:day>16</fr:day>
+                </fr:date>
+                <fr:title text="elementary answers">elementary answers</fr:title>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors>
+                      <fr:author>
+                        <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                      </fr:author>
+                    </fr:authors>
+                    <fr:date>
+                      <fr:year>2024</fr:year>
+                      <fr:month>6</fr:month>
+                      <fr:day>1</fr:day>
+                    </fr:date>
+                    <fr:date>
+                      <fr:year>2024</fr:year>
+                      <fr:month>6</fr:month>
+                      <fr:day>3</fr:day>
+                    </fr:date>
+                    <fr:uri>https://hejohns.github.io/forest/hejohns-000H/</fr:uri>
+                    <fr:display-uri>hejohns-000H</fr:display-uri>
+                    <fr:route>/forest/hejohns-000H/</fr:route>
+                    <fr:title text="Why is it called an &quot;elementary&quot; topos?">Why is it called an "elementary" topos?</fr:title>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p><fr:link href="/forest/blass-1988/" title="Topoi and Computation" uri="https://hejohns.github.io/forest/blass-1988/" display-uri="blass-1988" type="local">Topoi and Computation</fr:link> writes that "The word 'elementary' in connection with the Lawvere-Tierney definition refers to the fact that their axioms are expressed in the first-order language of categories; in fact the axioms are essentially algebraic." (p. 2).
+    (Recall that categories can be formalized as a two or dependently-sorted
+    first order theory.)
+</html:p>
+                    <html:p>
+    This is corroborated by <fr:link href="/forest/marquis-reyes-2012/" title="The history of categorical logic: 1963-1977" uri="https://hejohns.github.io/forest/marquis-reyes-2012/" display-uri="marquis-reyes-2012" type="local">The history of categorical logic: 1963-1977</fr:link>, writing that "In the years
+    that followed, Lawvere tried to extend his analysis and sketched a
+    categorical version of first-order theories under the name of elementary
+    theories. Then, in 1969, in collaboration with Myles Tierney, Lawvere
+    introduced the notion of an elementary topos, making an explicit connection
+    with higher-order logic and type theories. Both Lawvere and Tierney were
+    aiming at an elementary, that is first-order, axiomatic presentation of
+    what are now called Grothendieck toposes, a special type of categories
+    introduced by Alexandre Grothendieck in the context of algebraic geometry
+    and sheaf theory. Soon after, connections with intuitionistic analysis,
+    recursive functions, completeness theorems for various logical systems,
+    differential geometry, constructive mathematics were made." (p. 2).
+</html:p>
+                    <html:p>
+    If <fr:link href="/forest/lawvere-1970/" title="Quantifiers and Sheaves" uri="https://hejohns.github.io/forest/lawvere-1970/" display-uri="lawvere-1970" type="local">Quantifiers and Sheaves</fr:link> is indeed the paper that introduces elementary toposes,
+    it's curious to note that the word "elementary" never appears.
+    It must've been coined sometime later, but I don't know the details.
+</html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors>
+                      <fr:author>
+                        <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                      </fr:author>
+                    </fr:authors>
+                    <fr:date>
+                      <fr:year>2024</fr:year>
+                      <fr:month>6</fr:month>
+                      <fr:day>1</fr:day>
+                    </fr:date>
+                    <fr:date>
+                      <fr:year>2024</fr:year>
+                      <fr:month>6</fr:month>
+                      <fr:day>4</fr:day>
+                    </fr:date>
+                    <fr:uri>https://hejohns.github.io/forest/hejohns-000G/</fr:uri>
+                    <fr:display-uri>hejohns-000G</fr:display-uri>
+                    <fr:route>/forest/hejohns-000G/</fr:route>
+                    <fr:title text="What is an elementary topos?">What is an elementary topos?</fr:title>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>
+    The usual 30-second description of an elementary topos, is that "it's like
+    <fr:tex display="inline"><![CDATA[Set]]></fr:tex>" (but not quite), or "it's an axiomatization of the basic properties
+    of <fr:tex display="inline"><![CDATA[Set]]></fr:tex>".
+    Of course, these are always the kind of descriptions that only make sense
+    once you've <html:em>already</html:em> learned what a(n elementary) topos is.
+    We remark that <fr:link href="/forest/mclarty-1990b/" title="The Uses and Abuses of the History of Topos Theory" uri="https://hejohns.github.io/forest/mclarty-1990b/" display-uri="mclarty-1990b" type="local">The Uses and Abuses of the History of Topos Theory</fr:link> is precisely about this "<fr:tex display="inline"><![CDATA[Set]]></fr:tex>"-based
+    perspective.
+</html:p>
+                    <html:p>
+    Instead, I've gathered every book I could conveniently get my hands on just
+    now, and we'll see how each defines an elementary topos.
+</html:p>
+                    <fr:tree show-metadata="false">
+                      <fr:frontmatter>
+                        <fr:authors>
+                          <fr:author>
+                            <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                          </fr:author>
+                        </fr:authors>
+                        <fr:date>
+                          <fr:year>2024</fr:year>
+                          <fr:month>6</fr:month>
+                          <fr:day>1</fr:day>
+                        </fr:date>
+                        <fr:date>
+                          <fr:year>2024</fr:year>
+                          <fr:month>6</fr:month>
+                          <fr:day>4</fr:day>
+                        </fr:date>
+                        <fr:title text="Topos à la Introduction to higher order categorical logic p.140">Topos à la <fr:link href="/forest/lambek-scott-1986/" title="Introduction to higher order categorical logic" uri="https://hejohns.github.io/forest/lambek-scott-1986/" display-uri="lambek-scott-1986" type="local">Introduction to higher order categorical logic</fr:link> p.140</fr:title>
+                        <fr:taxon>definition</fr:taxon>
+                      </fr:frontmatter>
+                      <fr:mainmatter>
+                        <html:p>
+        "A <html:em>topos</html:em> is a cartesian closed category with a sub-object
+        classifier and a natural numbers object."
+    </html:p>
+                      </fr:mainmatter>
+                    </fr:tree>
+                    <fr:tree show-metadata="false">
+                      <fr:frontmatter>
+                        <fr:authors>
+                          <fr:author>
+                            <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                          </fr:author>
+                        </fr:authors>
+                        <fr:date>
+                          <fr:year>2024</fr:year>
+                          <fr:month>6</fr:month>
+                          <fr:day>1</fr:day>
+                        </fr:date>
+                        <fr:date>
+                          <fr:year>2024</fr:year>
+                          <fr:month>6</fr:month>
+                          <fr:day>4</fr:day>
+                        </fr:date>
+                        <fr:title text="Topos à la Sketches of an Elephant: a topos theory compendium 2.1.1">Topos à la <fr:link href="/forest/johnstone-2002/" title="Sketches of an Elephant: a topos theory compendium" uri="https://hejohns.github.io/forest/johnstone-2002/" display-uri="johnstone-2002" type="local">Sketches of an Elephant: a topos theory compendium</fr:link> 2.1.1</fr:title>
+                        <fr:taxon>definition</fr:taxon>
+                      </fr:frontmatter>
+                      <fr:mainmatter>
+                        <html:p>
+        "We are now ready to present the definition of an (elementary) topos,
+        which is the central notion of this book: it is a category having all
+        the good 'set-like' properties discussed in the previous chapter,
+        except (possibly) for Booleanness. It is a remarkable fact that all
+        these properties are implied by the conjunction of just two of them:"
+    </html:p>
+                        <html:p>
+        "A <html:em>topos</html:em> is a properly cartesian closed category with a subobject
+        classifier."
+    </html:p>
+                        <html:p>
+        "… Before that, however, we must mention that the above definition of a
+        topos, though it is appreciably simplified from that originally adopted
+        by F. W. Lawvere and M. Tierney when they began the subject in 1969, is
+        not the simplest possible; one can combine the exponentials and the
+        subobject classifier into a single structure, that of power objects."
+    </html:p>
+                        <html:p>
+        ("We say a category <fr:tex display="inline"><![CDATA[\mathcal {C}]]></fr:tex> is <html:em>cartesian closed</html:em> if it has finite
+        products and all its objects are exponentiable. … Nevertheless, most of
+        the cartesian closed categories we shall meet will have equalizers as
+        well as finite products; we shall indicate this (with a note of mild
+        reproof in our voice) by calling them <html:em>properly cartesian closed</html:em>.")
+        (Recall that finite products <fr:tex display="inline"><![CDATA[+]]></fr:tex> equalizers <fr:tex display="inline"><![CDATA[⟺]]></fr:tex> finite limits.)
+    </html:p>
+                      </fr:mainmatter>
+                    </fr:tree>
+                    <fr:tree show-metadata="false">
+                      <fr:frontmatter>
+                        <fr:authors>
+                          <fr:author>
+                            <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                          </fr:author>
+                        </fr:authors>
+                        <fr:date>
+                          <fr:year>2024</fr:year>
+                          <fr:month>6</fr:month>
+                          <fr:day>1</fr:day>
+                        </fr:date>
+                        <fr:date>
+                          <fr:year>2024</fr:year>
+                          <fr:month>6</fr:month>
+                          <fr:day>4</fr:day>
+                        </fr:date>
+                        <fr:title text="Topos à la Elementary Categories, Elementary Toposes 13.1">Topos à la <fr:link href="/forest/mclarty-1992/" title="Elementary Categories, Elementary Toposes" uri="https://hejohns.github.io/forest/mclarty-1992/" display-uri="mclarty-1992" type="local">Elementary Categories, Elementary Toposes</fr:link> 13.1</fr:title>
+                        <fr:taxon>definition</fr:taxon>
+                      </fr:frontmatter>
+                      <fr:mainmatter>
+                        <html:p>
+        "A <html:em>topos</html:em> is a Cartesian closed category with a sub-object
+        classifier."
+    </html:p>
+                        <html:p>
+        Note though, that McLarty "assumes a base category with finite limits"
+        when talking about cartesian closed categories.
+    </html:p>
+                      </fr:mainmatter>
+                    </fr:tree>
+                    <fr:tree show-metadata="false">
+                      <fr:frontmatter>
+                        <fr:authors>
+                          <fr:author>
+                            <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                          </fr:author>
+                        </fr:authors>
+                        <fr:date>
+                          <fr:year>2024</fr:year>
+                          <fr:month>6</fr:month>
+                          <fr:day>1</fr:day>
+                        </fr:date>
+                        <fr:date>
+                          <fr:year>2024</fr:year>
+                          <fr:month>6</fr:month>
+                          <fr:day>4</fr:day>
+                        </fr:date>
+                        <fr:title text="Topos à la First Order Categorical Logic">Topos à la <fr:link href="/forest/makkai-reyes-1977/" title="First Order Categorical Logic" uri="https://hejohns.github.io/forest/makkai-reyes-1977/" display-uri="makkai-reyes-1977" type="local">First Order Categorical Logic</fr:link></fr:title>
+                        <fr:taxon>definition</fr:taxon>
+                      </fr:frontmatter>
+                      <fr:mainmatter>
+                        <html:p>
+        Okay so they only define a Grothendieck topos. We'll leave the
+        discussion of Grothendieck topoi to another time.
+    </html:p>
+                      </fr:mainmatter>
+                    </fr:tree>
+                    <fr:tree show-metadata="false">
+                      <fr:frontmatter>
+                        <fr:authors>
+                          <fr:author>
+                            <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                          </fr:author>
+                        </fr:authors>
+                        <fr:date>
+                          <fr:year>2024</fr:year>
+                          <fr:month>6</fr:month>
+                          <fr:day>1</fr:day>
+                        </fr:date>
+                        <fr:date>
+                          <fr:year>2024</fr:year>
+                          <fr:month>6</fr:month>
+                          <fr:day>4</fr:day>
+                        </fr:date>
+                        <fr:title text="Topos à la Category Theory 8.17">Topos à la <fr:link href="/forest/awodey-2010/" title="Category Theory" uri="https://hejohns.github.io/forest/awodey-2010/" display-uri="awodey-2010" type="local">Category Theory</fr:link> 8.17</fr:title>
+                        <fr:taxon>definition</fr:taxon>
+                      </fr:frontmatter>
+                      <fr:mainmatter>
+                        <html:p>
+        "A <html:em>topos</html:em> is a category <fr:tex display="inline"><![CDATA[\mathcal {E}]]></fr:tex> such that
+        <html:ul><html:li>
+                1. <fr:tex display="inline"><![CDATA[\mathcal {E}]]></fr:tex> has all finite limits,
+            </html:li>
+            <html:li>
+                2. <fr:tex display="inline"><![CDATA[\mathcal {E}]]></fr:tex> has a subobject classifier,
+            </html:li>
+            <html:li>
+                3. <fr:tex display="inline"><![CDATA[\mathcal {E}]]></fr:tex> has all exponentials.
+            </html:li></html:ul>
+        This compact definition proves to be amazingly rich in consequences:
+        it can be shown for instance that topoi also have all finite colimits, and that every slice category of a topos is again a topos."
+    </html:p>
+                      </fr:mainmatter>
+                    </fr:tree>
+                    <fr:tree show-metadata="false">
+                      <fr:frontmatter>
+                        <fr:authors>
+                          <fr:author>
+                            <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                          </fr:author>
+                        </fr:authors>
+                        <fr:date>
+                          <fr:year>2024</fr:year>
+                          <fr:month>6</fr:month>
+                          <fr:day>1</fr:day>
+                        </fr:date>
+                        <fr:date>
+                          <fr:year>2024</fr:year>
+                          <fr:month>6</fr:month>
+                          <fr:day>4</fr:day>
+                        </fr:date>
+                        <fr:title text="Topos à la Topoi: The Categorial Analysis of Logic 4.3">Topos à la <fr:link href="/forest/goldblatt-2006/" title="Topoi: The Categorial Analysis of Logic" uri="https://hejohns.github.io/forest/goldblatt-2006/" display-uri="goldblatt-2006" type="local">Topoi: The Categorial Analysis of Logic</fr:link> 4.3</fr:title>
+                        <fr:taxon>definition</fr:taxon>
+                      </fr:frontmatter>
+                      <fr:mainmatter>
+                        <html:p>
+        "An <html:em>elementary topos</html:em> is a category <fr:tex display="inline"><![CDATA[\mathcal {C}]]></fr:tex> such that
+        <html:ul><html:li>
+                (1) <fr:tex display="inline"><![CDATA[\mathcal {C}]]></fr:tex> is finitely complete,
+            </html:li>
+            <html:li>
+                (2) <fr:tex display="inline"><![CDATA[\mathcal {C}]]></fr:tex> is finitely co-complete,
+            </html:li>
+            <html:li>
+                (3) <fr:tex display="inline"><![CDATA[\mathcal {C}]]></fr:tex> has exponentiation,
+            </html:li>
+            <html:li>
+                (4) <fr:tex display="inline"><![CDATA[\mathcal {C}]]></fr:tex> has a subobject classifier.
+            </html:li></html:ul>
+        As observed in Chapter 3, (1) and (3) constitute the definition of 'Cartesian closed' while (1) can be replaced by
+        <html:ul><html:li>
+                (1') <fr:tex display="inline"><![CDATA[\mathcal {C}]]></fr:tex> has a terminal object and pullbacks,
+            </html:li></html:ul>
+        and dually (2) replaced by
+        <html:ul><html:li>
+                (2') <fr:tex display="inline"><![CDATA[\mathcal {C}]]></fr:tex> has an initial object <fr:tex display="inline"><![CDATA[0]]></fr:tex>, and pushouts.
+            </html:li></html:ul>
+        The definition just given is the one originally proposed by Lawvere and
+        Tierney, in terms of which they started [elementary] topos theory in
+        1969. Subsequently C. Juul Mikkelsen discovered that condition (2) is
+        implied by the combination of (1), (3) and (4) (cf. Paré [1974]). Thus
+        a topos can be defined as a Cartesian closed category with a subobject
+        classifier. In 4.7 we shall consider a different definition, based on a
+        categorial characterisation of power sets."
+    </html:p>
+                        <html:p>
+        (<html:em>complete</html:em>, meaning every diagram has a limit, <html:em>finitely
+        complete</html:em>, meaning every finite diagram (finite objects, finite
+        morphisms) has a limit, "constitute", meaning that "cartesian closed"
+        is defined as (1) and (3), not just (3) as one expects nowadays.  See,
+        <fr:link href="https://math.stackexchange.com/q/1845697" type="external">this stack overflow post</fr:link>.)
+    </html:p>
+                      </fr:mainmatter>
+                    </fr:tree>
+                    <fr:tree show-metadata="false">
+                      <fr:frontmatter>
+                        <fr:authors>
+                          <fr:author>
+                            <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                          </fr:author>
+                        </fr:authors>
+                        <fr:date>
+                          <fr:year>2024</fr:year>
+                          <fr:month>6</fr:month>
+                          <fr:day>1</fr:day>
+                        </fr:date>
+                        <fr:date>
+                          <fr:year>2024</fr:year>
+                          <fr:month>6</fr:month>
+                          <fr:day>4</fr:day>
+                        </fr:date>
+                        <fr:title text="Topos à la Sheaves in Geometry and Logic: A First Introduction to Topos Theory">Topos à la <fr:link href="/forest/maclane-moerdijk-1994/" title="Sheaves in Geometry and Logic: A First Introduction to Topos Theory" uri="https://hejohns.github.io/forest/maclane-moerdijk-1994/" display-uri="maclane-moerdijk-1994" type="local">Sheaves in Geometry and Logic: A First Introduction to Topos Theory</fr:link></fr:title>
+                      </fr:frontmatter>
+                      <fr:mainmatter>
+                        <fr:tree show-metadata="false">
+                          <fr:frontmatter>
+                            <fr:authors>
+                              <fr:author>
+                                <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                              </fr:author>
+                            </fr:authors>
+                            <fr:date>
+                              <fr:year>2024</fr:year>
+                              <fr:month>6</fr:month>
+                              <fr:day>1</fr:day>
+                            </fr:date>
+                            <fr:date>
+                              <fr:year>2024</fr:year>
+                              <fr:month>6</fr:month>
+                              <fr:day>4</fr:day>
+                            </fr:date>
+                            <fr:uri>https://hejohns.github.io/forest/sub-000G/</fr:uri>
+                            <fr:display-uri>sub-000G</fr:display-uri>
+                            <fr:route>/forest/sub-000G/</fr:route>
+                            <fr:title text="Topos à la Sheaves in Geometry and Logic: A First Introduction to Topos Theory p. 48">Topos à la <fr:link href="/forest/maclane-moerdijk-1994/" title="Sheaves in Geometry and Logic: A First Introduction to Topos Theory" uri="https://hejohns.github.io/forest/maclane-moerdijk-1994/" display-uri="maclane-moerdijk-1994" type="local">Sheaves in Geometry and Logic: A First Introduction to Topos Theory</fr:link> p. 48</fr:title>
+                            <fr:taxon>definition</fr:taxon>
+                          </fr:frontmatter>
+                          <fr:mainmatter>
+                            <html:p>
+            "[A <html:em>topos</html:em> <fr:tex display="inline"><![CDATA[\mathcal {E}]]></fr:tex> is a category] with the following properties
+            <html:ul><html:li>
+                    (i) <fr:tex display="inline"><![CDATA[\mathcal {E}]]></fr:tex> has all finite limits and colimits,
+                </html:li>
+                <html:li>
+                    (ii) <fr:tex display="inline"><![CDATA[\mathcal {E}]]></fr:tex> has exponentials,
+                </html:li>
+                <html:li>
+                    (iii) <fr:tex display="inline"><![CDATA[\mathcal {E}]]></fr:tex> has a subobject classifier <fr:tex display="inline"><![CDATA[1 → Ω]]></fr:tex></html:li></html:ul></html:p>
+                          </fr:mainmatter>
+                        </fr:tree>
+                        <fr:tree show-metadata="false">
+                          <fr:frontmatter>
+                            <fr:authors>
+                              <fr:author>
+                                <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                              </fr:author>
+                            </fr:authors>
+                            <fr:date>
+                              <fr:year>2024</fr:year>
+                              <fr:month>6</fr:month>
+                              <fr:day>1</fr:day>
+                            </fr:date>
+                            <fr:date>
+                              <fr:year>2024</fr:year>
+                              <fr:month>6</fr:month>
+                              <fr:day>4</fr:day>
+                            </fr:date>
+                            <fr:title text="Topos à la Sheaves in Geometry and Logic: A First Introduction to Topos Theory p. 161">Topos à la <fr:link href="/forest/maclane-moerdijk-1994/" title="Sheaves in Geometry and Logic: A First Introduction to Topos Theory" uri="https://hejohns.github.io/forest/maclane-moerdijk-1994/" display-uri="maclane-moerdijk-1994" type="local">Sheaves in Geometry and Logic: A First Introduction to Topos Theory</fr:link> p. 161</fr:title>
+                            <fr:taxon>definition</fr:taxon>
+                          </fr:frontmatter>
+                          <fr:mainmatter>
+                            <html:p>
+            "A <html:em>topos</html:em> <fr:tex display="inline"><![CDATA[\mathcal {E}]]></fr:tex> is a category with all finite limites, equipped with
+            an object <fr:tex display="inline"><![CDATA[Ω]]></fr:tex>, with a function <fr:tex display="inline"><![CDATA[P]]></fr:tex> which assigns to each object <fr:tex display="inline"><![CDATA[B]]></fr:tex>
+            of <fr:tex display="inline"><![CDATA[\mathcal {E}]]></fr:tex> an object <fr:tex display="inline"><![CDATA[PB]]></fr:tex> of <fr:tex display="inline"><![CDATA[\mathcal {E}]]></fr:tex>, and, for each object <fr:tex display="inline"><![CDATA[A]]></fr:tex> of <fr:tex display="inline"><![CDATA[\mathcal {E}]]></fr:tex>, with two
+            isomorphisms, each natural in <fr:tex display="inline"><![CDATA[A]]></fr:tex>
+            <fr:tex display="block"><![CDATA[
+                \begin {align*}
+                    Sub_{\mathcal {E}} &≅ Hom_{\mathcal {E}}(A, Ω) &(1)\\
+                    Hom_{\mathcal {E}}(B × A, Ω) &≅ Hom_{\mathcal {E}}(A, PB) &(2) \\
+                \end {align*}
+            ]]></fr:tex>
+            In other words, the functors <fr:tex display="inline"><![CDATA[Sub_{\mathcal {E}}]]></fr:tex> and <fr:tex display="inline"><![CDATA[Hom_{\mathcal {E}}(B × -, Ω)]]></fr:tex>, the
+            latter for each object <fr:tex display="inline"><![CDATA[B]]></fr:tex> of <fr:tex display="inline"><![CDATA[\mathcal {E}]]></fr:tex>, are required to be representable.
+            In the first case, the representing object <fr:tex display="inline"><![CDATA[Ω]]></fr:tex> is the <html:em>subobject
+            classifier</html:em>, as already described in §I.3, while in the second case
+            <fr:tex display="inline"><![CDATA[PB]]></fr:tex> may be called the <html:em>power object</html:em> of <fr:tex display="inline"><![CDATA[B]]></fr:tex>; moreover, the
+            function <fr:tex display="inline"><![CDATA[P]]></fr:tex> can be extended to a functor <fr:tex display="inline"><![CDATA[P : \mathcal {E}^{op} → \mathcal {E}]]></fr:tex> in
+            exactly one way so that (2) becomes natural in <fr:tex display="inline"><![CDATA[B]]></fr:tex> (as well as in
+            <fr:tex display="inline"><![CDATA[A]]></fr:tex>), see (7) below. Equivalently, the natural isomorphism (2) states
+            that <fr:tex display="inline"><![CDATA[PB]]></fr:tex> is the exponential <fr:tex display="inline"><![CDATA[Ω^B]]></fr:tex>, as described in §I.6; therefore,
+            any category which satisfies (1) and has all exponentials will, in
+            particular, have all power objects. We emphasize that at first sight the axioms for at topos just giben seem weaker than those of <fr:link href="/forest/sub-000G/" title="Topos à la Sheaves in Geometry and Logic: A First Introduction to Topos Theory p. 48" uri="https://hejohns.github.io/forest/sub-000G/" display-uri="sub-000G" type="local">§I.6</fr:link>. However, it will be shown in the
+            course of this chapter that the two sets of axioms are actually
+            equivalent.
+        </html:p>
+                            <html:p>
+            Notice that the two natural isomorphisms (1) and (2) may be combined
+            in a single isomorphism
+            <fr:tex display="block"><![CDATA[
+                \begin {align*}
+                    Sub_{\mathcal {E}}(B × A) &≅ Hom_{\mathcal {E}}(A, PB) &(3) \\
+                \end {align*}
+            ]]></fr:tex>
+            natural in A. With <fr:tex display="inline"><![CDATA[B = 1]]></fr:tex>, this implies (1) with <fr:tex display="inline"><![CDATA[Ω = P1]]></fr:tex>, and hence
+            also (2). In other words, we could define a topos as a category with
+            finite limits equipped with a single operation <fr:tex display="inline"><![CDATA[P]]></fr:tex> satisfying (3)."
+        </html:p>
+                          </fr:mainmatter>
+                        </fr:tree>
+                      </fr:mainmatter>
+                    </fr:tree>
+                    <html:p>
+    We collect the definition of a <html:em>subobject classifier</html:em>, which appears in
+    every definition, and give a standard one:
+</html:p>
+                    <fr:tree show-metadata="false">
+                      <fr:frontmatter>
+                        <fr:authors />
+                        <fr:date>
+                          <fr:year>2024</fr:year>
+                          <fr:month>6</fr:month>
+                          <fr:day>3</fr:day>
+                        </fr:date>
+                        <fr:date>
+                          <fr:year>2024</fr:year>
+                          <fr:month>8</fr:month>
+                          <fr:day>21</fr:day>
+                        </fr:date>
+                        <fr:uri>https://hejohns.github.io/forest/hejohns-000I/</fr:uri>
+                        <fr:display-uri>hejohns-000I</fr:display-uri>
+                        <fr:route>/forest/hejohns-000I/</fr:route>
+                        <fr:title text="subobject classifier">subobject classifier</fr:title>
+                        <fr:taxon>definition</fr:taxon>
+                      </fr:frontmatter>
+                      <fr:mainmatter>
+                        <html:p>
+    For a category <fr:tex display="inline"><![CDATA[\mathcal {C}]]></fr:tex>, a <html:em>subobject classifier</html:em> is an object <fr:tex display="inline"><![CDATA[Ω]]></fr:tex> together
+    with a global element <fr:tex display="inline"><![CDATA[true : 1 → Ω]]></fr:tex> such that <fr:tex display="inline"><![CDATA[∀ A ∈ \mathcal {C}. ∀ s : S ↣ A. ∃!
+    χ_s : A → Ω.]]></fr:tex>
+    
+    
+    
+        
+        <html:figure><fr:resource hash="61eb2b59069108c4709816d4014899aa"><fr:resource-content><html:img src="/forest/61eb2b59069108c4709816d4014899aa.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[
+    \usepackage {tikz-cd}
+    \usepackage {unicode-math} ]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+        \begin {tikzcd}
+            S \ar [d, rightarrowtail, "s"']\ar [r]\ar [dr, phantom, "\lrcorner ", very near start] & 1 \ar [d, rightarrowtail, "true"] \\
+            A \ar [r, "χ_s"'] & Ω
+        \end {tikzcd}
+    ]]></fr:resource-source></fr:resource></html:figure>
+    
+
+
+    is a pullback square.
+</html:p>
+                        <html:p>
+    Notice that <fr:tex display="inline"><![CDATA[true]]></fr:tex> is trivially monic since every <fr:link href="/forest/hejohns-000K/" title="global element" uri="https://hejohns.github.io/forest/hejohns-000K/" display-uri="hejohns-000K" type="local">global
+    element</fr:link> is trivially monic. Recall that "monos are stable
+    under pullback".
+</html:p>
+                        <html:p>
+    This is from <fr:link href="/forest/mclarty-1992/" title="Elementary Categories, Elementary Toposes" uri="https://hejohns.github.io/forest/mclarty-1992/" display-uri="mclarty-1992" type="local">Elementary Categories, Elementary Toposes</fr:link>.
+</html:p>
+                      </fr:mainmatter>
+                    </fr:tree>
+                    <html:p>
+    So comparing each definition with another, they're all about par for
+    course, if we ignore natural numbers objects for now.
+</html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors>
+                      <fr:author>
+                        <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                      </fr:author>
+                    </fr:authors>
+                    <fr:date>
+                      <fr:year>2024</fr:year>
+                      <fr:month>6</fr:month>
+                      <fr:day>1</fr:day>
+                    </fr:date>
+                    <fr:date>
+                      <fr:year>2024</fr:year>
+                      <fr:month>6</fr:month>
+                      <fr:day>29</fr:day>
+                    </fr:date>
+                    <fr:uri>https://hejohns.github.io/forest/hejohns-000F/</fr:uri>
+                    <fr:display-uri>hejohns-000F</fr:display-uri>
+                    <fr:route>/forest/hejohns-000F/</fr:route>
+                    <fr:title text="&quot;higher-order intuitionistic logic&quot; v. &quot;topos logic&quot;">"higher-order intuitionistic logic" v. "topos logic"</fr:title>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>
+    Many authors object to the name "higher-order intuitionistic logic".
+</html:p>
+                    <html:p><fr:link href="/forest/blass-1988/" title="Topoi and Computation" uri="https://hejohns.github.io/forest/blass-1988/" display-uri="blass-1988" type="local">Topoi and Computation</fr:link> writes that "Strictly speaking, the phrase 'higher-order
+    intuitionistic' makes little sense, since it is not clear that
+    constructions like the power set are intuitionistically acceptable. What is
+    meant by the phrase is a type theory built on a formally intuitionistic
+    underlying logic." (p. 2).
+</html:p>
+                    <html:p>
+    And <fr:link href="/forest/mclarty-1992/" title="Elementary Categories, Elementary Toposes" uri="https://hejohns.github.io/forest/mclarty-1992/" display-uri="mclarty-1992" type="local">Elementary Categories, Elementary Toposes</fr:link> similarly writes "In Part III the first order topos
+    axioms are used to define the higher order internal language. The logic is
+    called 'topos logic' here, although 'intuitionistic logic' is often
+    referred to in the literature. I believe that 'intuitionism' is usually,
+    and rightly, taken to mean Brouwer's epistemology of mathematics, which is
+    unrelated to the origin or content of topos theory. Topos logic strikingly resembles formal intuitionistic logic and the two have interacted, as in
+    van der Hoeven and Moerdijk (1984) or many papers in Fourman <html:em>et al.</html:em>
+    (1979). But topos logic coincides with no intuitionistic logic studied
+    before toposes, and this is due to real philosophical differences (see
+    McLarty 1990a)." (p. vii).
+</html:p>
+                    <html:p>
+    Of course this discrepancy is what one should come to expect, since the
+    very notion of a formalized logic of intuitionistic reasoning is at odds
+    with Brouwer's notion of intuitionism, so when one speaks of
+    "intuitionistic logic" it's usually in the purely formal sense.
+</html:p>
+                    <html:p>
+    Combining the two names, I think "higher-order intuitionistic topos logic"
+    is at least a little more descriptive.
+    Although I like calling it "finite-type intuitionistic predicate logic" to
+    keep in touch with some older terminology you still see around the block.
+
+</html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:date>
+                      <fr:year>2024</fr:year>
+                      <fr:month>6</fr:month>
+                      <fr:day>3</fr:day>
+                    </fr:date>
+                    <fr:date>
+                      <fr:year>2025</fr:year>
+                      <fr:month>8</fr:month>
+                      <fr:day>26</fr:day>
+                    </fr:date>
+                    <fr:uri>https://hejohns.github.io/forest/hejohns-000J/</fr:uri>
+                    <fr:display-uri>hejohns-000J</fr:display-uri>
+                    <fr:route>/forest/hejohns-000J/</fr:route>
+                    <fr:title text="higher-order intuitionistic topos logic">higher-order intuitionistic topos logic</fr:title>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+    <fr:tree show-metadata="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>8</fr:month><fr:day>21</fr:day></fr:date><fr:uri>https://hejohns.github.io/forest/hejohns-000M/</fr:uri><fr:display-uri>hejohns-000M</fr:display-uri><fr:route>/forest/hejohns-000M/</fr:route><fr:title text="finite-type intuitionistic predicate logic">finite-type intuitionistic predicate logic</fr:title></fr:frontmatter><fr:mainmatter><html:p>
+    There is some (a posteriori insignificant) variation in the presentation of
+    the syntax, thus following through with some input from <fr:link href="/forest/ericgio/" title="Eric Giovannini" uri="https://hejohns.github.io/forest/ericgio/" display-uri="ericgio" type="local">Eric Giovannini</fr:link>, we
+    juxtapose multiple definitions-- <fr:link href="/forest/hejohns-000G/" title="What is an elementary topos?" uri="https://hejohns.github.io/forest/hejohns-000G/" display-uri="hejohns-000G" type="local">as done for elementary
+    topoi</fr:link>--, but this time we slightly modify the source for
+    uniformity as needed.
+</html:p><fr:tree show-metadata="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>8</fr:month><fr:day>21</fr:day></fr:date><fr:title text="Syntax à la Introduction to higher order categorical logic p.128">Syntax à la <fr:link href="/forest/lambek-scott-1986/" title="Introduction to higher order categorical logic" uri="https://hejohns.github.io/forest/lambek-scott-1986/" display-uri="lambek-scott-1986" type="local">Introduction to higher order categorical logic</fr:link> p.128</fr:title><fr:taxon>definition</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>
+        "A <html:em>type theory</html:em> is a formal theory given by the following data:
+        <html:ul><html:li>
+                a class of <html:em>types</html:em>, including a special type <fr:tex display="inline"><![CDATA[Ω]]></fr:tex></html:li>
+            <html:li>
+                a class of <html:em>terms</html:em> of each type, including countably many
+                variables of each type
+            </html:li>
+            <html:li>
+                for each finite set <fr:tex display="inline"><![CDATA[X]]></fr:tex> of variables a binary relation <fr:tex display="inline"><![CDATA[⊢_X]]></fr:tex>
+                of <html:em>entailment</html:em> between terms of type <fr:tex display="inline"><![CDATA[Ω]]></fr:tex> all free
+                variables of which are elements of <fr:tex display="inline"><![CDATA[X]]></fr:tex>.
+            </html:li></html:ul>"
+    </html:p><fr:tree show-metadata="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>8</fr:month><fr:day>21</fr:day></fr:date><fr:title text="types">types</fr:title></fr:frontmatter><fr:mainmatter><html:p>
+            "The class of types is closed under the inductive clauses:
+            <html:ul><html:li><fr:tex display="inline"><![CDATA[1]]></fr:tex>, <fr:tex display="inline"><![CDATA[N]]></fr:tex> and <fr:tex display="inline"><![CDATA[Ω]]></fr:tex> are types ('basic' types);
+                </html:li>
+                <html:li>
+                    if <fr:tex display="inline"><![CDATA[A]]></fr:tex> and <fr:tex display="inline"><![CDATA[B]]></fr:tex> are types, so are <fr:tex display="inline"><![CDATA[A×B]]></fr:tex> and <fr:tex display="inline"><![CDATA[\mathcal {P}A]]></fr:tex></html:li></html:ul>"
+        </html:p></fr:mainmatter></fr:tree><fr:tree show-metadata="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>8</fr:month><fr:day>21</fr:day></fr:date><fr:title text="terms">terms</fr:title></fr:frontmatter><fr:mainmatter><html:p>
+            "The class of terms is freely generated from certain basic terms by
+            certain operations including the following… and is closed under certain operations.
+            <html:ul><html:li>
+                    [for each type <fr:tex display="inline"><![CDATA[A]]></fr:tex>, there are countably many variables
+                    <fr:tex display="inline"><![CDATA[x_1^A, x_2^A, …]]></fr:tex>;]
+                </html:li>
+                <html:li><fr:tex display="inline"><![CDATA[*]]></fr:tex> is a term of type <fr:tex display="inline"><![CDATA[1]]></fr:tex>;
+                </html:li>
+                <html:li>
+                    if <fr:tex display="inline"><![CDATA[a]]></fr:tex> is a term of type <fr:tex display="inline"><![CDATA[A]]></fr:tex> and <fr:tex display="inline"><![CDATA[b]]></fr:tex> is a term of type
+                    <fr:tex display="inline"><![CDATA[B]]></fr:tex>, then <fr:tex display="inline"><![CDATA[⟨a,b⟩]]></fr:tex> is a term of type <fr:tex display="inline"><![CDATA[A×B]]></fr:tex>;
+                </html:li>
+                <html:li>
+                    if <fr:tex display="inline"><![CDATA[a]]></fr:tex> is a term of type <fr:tex display="inline"><![CDATA[A]]></fr:tex> and <fr:tex display="inline"><![CDATA[α]]></fr:tex> is a term of type
+                    <fr:tex display="inline"><![CDATA[\mathcal {P}a]]></fr:tex>, then <fr:tex display="inline"><![CDATA[a ∈ α]]></fr:tex> is a term of type <fr:tex display="inline"><![CDATA[Ω]]></fr:tex>;
+                </html:li>
+                <html:li>
+                    if <fr:tex display="inline"><![CDATA[ϕ(x)]]></fr:tex> is a term of type <fr:tex display="inline"><![CDATA[Ω]]></fr:tex> (possibly containing the
+                    free variable <fr:tex display="inline"><![CDATA[x]]></fr:tex> of type <fr:tex display="inline"><![CDATA[A]]></fr:tex>), then <fr:tex display="inline"><![CDATA[\{x ∈ A | ϕ(x)\}]]></fr:tex>
+                    is a term of type <fr:tex display="inline"><![CDATA[\mathcal {P}A]]></fr:tex> not containing a free occurrence of
+                    <fr:tex display="inline"><![CDATA[x]]></fr:tex>;
+                </html:li>
+                <html:li><fr:tex display="inline"><![CDATA[0]]></fr:tex> is a term of type <fr:tex display="inline"><![CDATA[N]]></fr:tex>;
+                </html:li>
+                <html:li>
+                    if <fr:tex display="inline"><![CDATA[n]]></fr:tex> is a term of type <fr:tex display="inline"><![CDATA[N]]></fr:tex> so is <fr:tex display="inline"><![CDATA[Sn]]></fr:tex>;
+                </html:li>
+                <html:li><fr:tex display="inline"><![CDATA[⊤]]></fr:tex> and <fr:tex display="inline"><![CDATA[⊥]]></fr:tex> are terms of type <fr:tex display="inline"><![CDATA[Ω]]></fr:tex>;
+                </html:li>
+                <html:li>
+                    if <fr:tex display="inline"><![CDATA[p]]></fr:tex> and <fr:tex display="inline"><![CDATA[q]]></fr:tex> are terms of type <fr:tex display="inline"><![CDATA[Ω]]></fr:tex>, so are <fr:tex display="inline"><![CDATA[p∧q]]></fr:tex>,
+                    <fr:tex display="inline"><![CDATA[p∨q]]></fr:tex>, <fr:tex display="inline"><![CDATA[p⟹q]]></fr:tex>;
+                </html:li>
+                <html:li>
+                    if <fr:tex display="inline"><![CDATA[ϕ(x)]]></fr:tex> is a term of type <fr:tex display="inline"><![CDATA[Ω]]></fr:tex> (possibly containing the
+                    free variable <fr:tex display="inline"><![CDATA[x]]></fr:tex> of type <fr:tex display="inline"><![CDATA[A]]></fr:tex>), then <fr:tex display="inline"><![CDATA[∀_{x∈A}ϕ(x)]]></fr:tex> and
+                    <fr:tex display="inline"><![CDATA[∃_{x∈A}ϕ(x)]]></fr:tex> are terms of type <fr:tex display="inline"><![CDATA[Ω]]></fr:tex> not containing free
+                    occurrences of <fr:tex display="inline"><![CDATA[x]]></fr:tex>.
+                </html:li></html:ul>"
+        </html:p></fr:mainmatter></fr:tree><fr:tree show-metadata="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>8</fr:month><fr:day>21</fr:day></fr:date><fr:title text="formulas">formulas</fr:title></fr:frontmatter><fr:mainmatter><html:p>
+            "Terms of type <fr:tex display="inline"><![CDATA[Ω]]></fr:tex> are also called <html:em>formulas</html:em>."
+        </html:p><html:p>
+            "One may also define a number of widely used term forming
+            operations: …
+            <html:ul><html:li><fr:tex display="inline"><![CDATA[p ⟺ q ≡ (p⟹q)∧(q⟹q)]]></fr:tex>,
+                </html:li>
+                <html:li><fr:tex display="inline"><![CDATA[a = a' ≡ ∀_{u∈\mathcal {P}A}(a∈u ⟺ a'∈u)]]></fr:tex></html:li></html:ul>"
+        </html:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree><fr:tree show-metadata="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>8</fr:month><fr:day>21</fr:day></fr:date><fr:title text="Syntax à la Sketches of an Elephant: a topos theory compendium ">Syntax à la <fr:link href="/forest/johnstone-2002/" title="Sketches of an Elephant: a topos theory compendium" uri="https://hejohns.github.io/forest/johnstone-2002/" display-uri="johnstone-2002" type="local">Sketches of an Elephant: a topos theory compendium</fr:link> </fr:title><fr:taxon>definition</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>
+        (We write "language" whenever Johnstone writes "signature", and use the
+        corresponding symbol <fr:tex display="inline"><![CDATA[\mathcal {L}]]></fr:tex> instead of <fr:tex display="inline"><![CDATA[Σ]]></fr:tex>.
+        I don't know if Johnstone prefers the term "signature" because
+        "language" is overloaded and often refers not just to the, well,
+        language, but to the larger logic sans deductive system, but that would
+        be a good reason.)
+    </html:p><html:p>
+        "A <html:em>language</html:em> <fr:tex display="inline"><![CDATA[\mathcal {L}]]></fr:tex> for higher-order logic is defined by specifying a
+        set <fr:tex display="inline"><![CDATA[\mathcal {L}_{\mathsf {base}}]]></fr:tex> of <html:em>atomic types</html:em>, a set <fr:tex display="inline"><![CDATA[\mathcal {L}_{\mathsf {fun}}]]></fr:tex> of <html:em>function symbols</html:em> and
+        a set <fr:tex display="inline"><![CDATA[\mathcal {L}_{\mathsf {rel}}]]></fr:tex> of <html:em>relation symbols</html:em> as in 1.1.1, together with a number
+        of <html:em>type constructors</html:em> chosen from the following list, which
+        recursively define the set <fr:tex display="inline"><![CDATA[\mathcal {L}_{\mathsf {type}}]]></fr:tex> of <fr:tex display="inline"><![CDATA[types]]></fr:tex>:
+    </html:p><fr:tree show-metadata="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>8</fr:month><fr:day>21</fr:day></fr:date><fr:title text="types">types</fr:title></fr:frontmatter><fr:mainmatter><html:ul><html:li>
+                (i) <html:em>Basic types</html:em>: Each sort is a type
+            </html:li>
+            <html:li>
+                (ii) <html:em>Product types</html:em>: There is a distinguished type <fr:tex display="inline"><![CDATA[1]]></fr:tex> (the
+                empty product); and if <fr:tex display="inline"><![CDATA[A]]></fr:tex> and <fr:tex display="inline"><![CDATA[B]]></fr:tex> are types, then <fr:tex display="inline"><![CDATA[A×B]]></fr:tex>is a
+                type.
+            </html:li>
+            <html:li>
+                (iii) <html:em>Function types</html:em>: If <fr:tex display="inline"><![CDATA[A]]></fr:tex> and <fr:tex display="inline"><![CDATA[B]]></fr:tex> are types, then <fr:tex display="inline"><![CDATA[A→B]]></fr:tex> is
+                a type.
+            </html:li>
+            <html:li>
+                (iv) <html:em>Power types</html:em>: If <fr:tex display="inline"><![CDATA[A]]></fr:tex> is a type, the <fr:tex display="inline"><![CDATA[\mathcal {P}A]]></fr:tex> is a type.
+            </html:li>
+            <html:li>
+                (v) <html:em>List types</html:em>: If <fr:tex display="inline"><![CDATA[A]]></fr:tex> is a type, then <fr:tex display="inline"><![CDATA[LA]]></fr:tex> is a type.
+            </html:li></html:ul><html:p>
+            To each function symbol <fr:tex display="inline"><![CDATA[f∈\mathcal {L}_{\mathsf {fun}}]]></fr:tex> we assign an ordered pair
+            <fr:tex display="inline"><![CDATA[(A,B)]]></fr:tex> of elements of <fr:tex display="inline"><![CDATA[\mathcal {L}_{\mathsf {type}}]]></fr:tex>; as before, we write <fr:tex display="inline"><![CDATA[f : A→B]]></fr:tex> to
+            indicate that <fr:tex display="inline"><![CDATA[f]]></fr:tex> has the pair of types <fr:tex display="inline"><![CDATA[(A,B)]]></fr:tex>. Similarly, each
+            relation symbol <fr:tex display="inline"><![CDATA[R∈\mathcal {L}_{\mathsf {rel}}]]></fr:tex> has a type in <fr:tex display="inline"><![CDATA[\mathcal {L}_{\mathsf {type}}]]></fr:tex>, and we write <fr:tex display="inline"><![CDATA[R ↣
+            A]]></fr:tex> to indicate that <fr:tex display="inline"><![CDATA[R]]></fr:tex> has type <fr:tex display="inline"><![CDATA[A]]></fr:tex>."
+        </html:p><html:p>
+            "If our language has the type constructors (ii) and (iv), we shall
+            often write <fr:tex display="inline"><![CDATA[Ω]]></fr:tex> for the particular type <fr:tex display="inline"><![CDATA[\mathcal {P}1]]></fr:tex>. Similarly if it has
+            constructors (ii) and (v), we write <fr:tex display="inline"><![CDATA[N]]></fr:tex> (the type of natural
+            numbers) for <fr:tex display="inline"><![CDATA[L1]]></fr:tex>."
+        </html:p><html:p>
+            "From now on, all our languages will contain the product type
+            constructor; thus we have restricted all our primitive function and
+            relation symbols to be unary. (If our signature also contaisn
+            function types, then we can further restrict our function symbols
+            to be constants… And if <fr:tex display="inline"><![CDATA[\mathcal {L}]]></fr:tex> has power types, then we can replace all
+            primitive relation symbols by constants as well)"
+        </html:p></fr:mainmatter></fr:tree><html:p>
+        "The term constructor for power types in fact builds terms form
+        formulae, so over a language which contains power types we have to
+        define terms and formulae by a simultaneous recursion".
+    </html:p><fr:tree show-metadata="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>8</fr:month><fr:day>21</fr:day></fr:date><fr:title text="terms">terms</fr:title></fr:frontmatter><fr:mainmatter><html:p>
+            (We omit the bookkeeping of free variables that Johnstone inlines with
+            the following definitions.)
+            "<html:ul><html:li>
+                    (i) We have a stock of <html:em>variables</html:em> <fr:tex display="inline"><![CDATA[x : A]]></fr:tex> for each type <fr:tex display="inline"><![CDATA[A]]></fr:tex>.
+                </html:li>
+                <html:li>
+                    (ii) if <fr:tex display="inline"><![CDATA[f : A→B]]></fr:tex> is a function symbol of <fr:tex display="inline"><![CDATA[\mathcal {L}]]></fr:tex> and <fr:tex display="inline"><![CDATA[t : A]]></fr:tex>,
+                    then <fr:tex display="inline"><![CDATA[f t : B]]></fr:tex>.
+                </html:li>
+                <html:li>
+                    (iii)
+                    <html:ul><html:li>
+                            (a) we have a distinguished term <fr:tex display="inline"><![CDATA[* : 1]]></fr:tex>.
+                        </html:li>
+                        <html:li>
+                            (b) If <fr:tex display="inline"><![CDATA[s : A]]></fr:tex> and <fr:tex display="inline"><![CDATA[t : B]]></fr:tex>, then <fr:tex display="inline"><![CDATA[⟨s,t⟩:A×B]]></fr:tex>.
+                        </html:li></html:ul></html:li>
+                <html:li>
+                    (iv) If <fr:tex display="inline"><![CDATA[t : A×B]]></fr:tex>, then <fr:tex display="inline"><![CDATA[π₁ t : A]]></fr:tex> and <fr:tex display="inline"><![CDATA[π₂ t : B]]></fr:tex>.
+                </html:li>
+                <html:li>
+                    (v) If <fr:tex display="inline"><![CDATA[t : B]]></fr:tex> and <fr:tex display="inline"><![CDATA[x]]></fr:tex> is a variable of type <fr:tex display="inline"><![CDATA[A]]></fr:tex>, then
+                    <fr:tex display="inline"><![CDATA[(λx : A. t) : A→B]]></fr:tex>.
+                </html:li>
+                <html:li>
+                    (vi) If <fr:tex display="inline"><![CDATA[s : A→B]]></fr:tex> and <fr:tex display="inline"><![CDATA[t : A]]></fr:tex>, then <fr:tex display="inline"><![CDATA[s t : B]]></fr:tex>.
+                    [This is formally different from (ii).]
+                </html:li>
+                <html:li>
+                    (vii) If <fr:tex display="inline"><![CDATA[ϕ]]></fr:tex> is a formula and <fr:tex display="inline"><![CDATA[x]]></fr:tex> is a variable of type
+                    <fr:tex display="inline"><![CDATA[A]]></fr:tex>, then <fr:tex display="inline"><![CDATA[\{x : A | ϕ\} : \mathcal {P}A]]></fr:tex>.
+                </html:li>
+                <html:li>
+                    (viii)
+                    <html:ul><html:li>
+                            For each type <fr:tex display="inline"><![CDATA[A]]></fr:tex>, there is a distinguished term
+                            <fr:tex display="inline"><![CDATA[[]]]></fr:tex> of type <fr:tex display="inline"><![CDATA[LA]]></fr:tex>.
+                        </html:li>
+                        <html:li>
+                            If <fr:tex display="inline"><![CDATA[s : A]]></fr:tex> and <fr:tex display="inline"><![CDATA[t : LA]]></fr:tex>, then <fr:tex display="inline"><![CDATA[s::t : LA]]></fr:tex>.
+                        </html:li></html:ul></html:li>
+                <html:li>
+                    (ix) The remaining term constructor associated with list
+                    types, the <html:em>iterator</html:em>, is more complicated [which we
+                    omit for irrelevance].
+                </html:li></html:ul></html:p><html:p>
+            Of course, clauses (v) and (vi) of the definition above apply only
+            if we have function types in <fr:tex display="inline"><![CDATA[\mathcal {L}]]></fr:tex>, clause (vii) only if we have power
+            types, and clauses (viii) and (ix) only if we have list types.
+            Note that, except for power types, the clauses come in pairs [of
+            constructors and destructors]. The reason why we have no
+            'destructor' for power types is that, just as the constructor for
+            power types builds terms out of formulae rather than terms, the
+            corresponding destructor builds formulae out of terms of a power
+            type-- it thus appears as clause (iii) of the next definition."
+        </html:p></fr:mainmatter></fr:tree><fr:tree show-metadata="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>8</fr:month><fr:day>21</fr:day></fr:date><fr:title text="formulas">formulas</fr:title></fr:frontmatter><fr:mainmatter><html:p>
+            (We again omit the bookkeeping of free variables.)
+            "The <html:em>atomic formulae</html:em> over <fr:tex display="inline"><![CDATA[\mathcal {L}]]></fr:tex> are of three kinds:
+            <html:ul><html:li>
+                    (i) If <fr:tex display="inline"><![CDATA[R ↣ A]]></fr:tex> is a relation symbol and <fr:tex display="inline"><![CDATA[t : A]]></fr:tex>, then
+                    <fr:tex display="inline"><![CDATA[R(t)]]></fr:tex> is an atomic formulae.
+                </html:li>
+                <html:li>
+                    (ii) If <fr:tex display="inline"><![CDATA[s]]></fr:tex> and <fr:tex display="inline"><![CDATA[t]]></fr:tex> are terms of the same type <fr:tex display="inline"><![CDATA[A]]></fr:tex>, then
+                    <fr:tex display="inline"><![CDATA[s =_A t]]></fr:tex> is an atomic formula.
+                </html:li>
+                <html:li>
+                    (iii) If <fr:tex display="inline"><![CDATA[s : A]]></fr:tex> and <fr:tex display="inline"><![CDATA[t : \mathcal {P}A]]></fr:tex> for some <fr:tex display="inline"><![CDATA[A]]></fr:tex>, then <fr:tex display="inline"><![CDATA[s
+                    ∈_A t]]></fr:tex> is an atomic formula.
+                </html:li></html:ul></html:p><html:p>
+            The compound formulae over <fr:tex display="inline"><![CDATA[\mathcal {L}]]></fr:tex> are built up from the atomic
+            formulae [with <fr:tex display="inline"><![CDATA[⊤,∧,⊥,∨,⟹,¬,∃,∀,]]></fr:tex>]."
+        </html:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree><fr:tree show-metadata="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>8</fr:month><fr:day>21</fr:day></fr:date><fr:title text="Syntax à la Elementary Categories, Elementary Toposes 14.1">Syntax à la <fr:link href="/forest/mclarty-1992/" title="Elementary Categories, Elementary Toposes" uri="https://hejohns.github.io/forest/mclarty-1992/" display-uri="mclarty-1992" type="local">Elementary Categories, Elementary Toposes</fr:link> 14.1</fr:title><fr:taxon>definition</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>
+        (McLarty defines the internal language of a topos <fr:tex display="inline"><![CDATA[\bold {\mathsf {E}}]]></fr:tex> directly (and its
+        interpretation), instead of describing the logic abstractly and taking
+        the internal language to be a diagram (in Tarskian-model theory speak)
+        of <fr:tex display="inline"><![CDATA[\bold {\mathsf {E}}]]></fr:tex>. We rephrase McLarty's presentation to not mention a particular
+        model <fr:tex display="inline"><![CDATA[\bold {\mathsf {E}}]]></fr:tex>. We also preserve usage of the term "sort" instead of "type".)
+    </html:p><fr:tree show-metadata="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>8</fr:month><fr:day>21</fr:day></fr:date><fr:title text="types">types</fr:title></fr:frontmatter><fr:mainmatter><html:p>
+            The types have the structure of the objects of an elementary topos,
+            ie a collection of atomic types closed under <fr:tex display="inline"><![CDATA[1,×,→,Ω]]></fr:tex>.
+        </html:p></fr:mainmatter></fr:tree><fr:tree show-metadata="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>8</fr:month><fr:day>21</fr:day></fr:date><fr:title text="terms">terms</fr:title></fr:frontmatter><fr:mainmatter><html:p>
+            "The [language] is sorted…. We inductively define terms and their sorts:
+            <html:ul><html:li>
+                    (LT1) Each sort <fr:tex display="inline"><![CDATA[A]]></fr:tex> has a list of <html:em>variables over <fr:tex display="inline"><![CDATA[A]]></fr:tex></html:em>,
+                    <fr:tex display="inline"><![CDATA[x₁, x₂, x₃…]]></fr:tex>. Every variable over <fr:tex display="inline"><![CDATA[A]]></fr:tex> is a term of sort
+                    <fr:tex display="inline"><![CDATA[A]]></fr:tex>.
+                </html:li>
+                <html:li>
+                    (LT2) For any [function symbol <fr:tex display="inline"><![CDATA[f : A→B]]></fr:tex>] and term <fr:tex display="inline"><![CDATA[s]]></fr:tex> [of] sort
+                    <fr:tex display="inline"><![CDATA[A]]></fr:tex>, <fr:tex display="inline"><![CDATA[f s]]></fr:tex> is a term of sort <fr:tex display="inline"><![CDATA[B]]></fr:tex>. [Constant symbols <fr:tex display="inline"><![CDATA[c :
+                    1→A]]></fr:tex> are also] a term of sort <fr:tex display="inline"><![CDATA[A]]></fr:tex>…. We write <fr:tex display="inline"><![CDATA[!]]></fr:tex> as a
+                    constant [of sort <fr:tex display="inline"><![CDATA[1]]></fr:tex>].
+                </html:li>
+                <html:li>
+                    (LT3) For every term <fr:tex display="inline"><![CDATA[s₁]]></fr:tex> of sort <fr:tex display="inline"><![CDATA[A]]></fr:tex> and <fr:tex display="inline"><![CDATA[s₂]]></fr:tex> of sort <fr:tex display="inline"><![CDATA[B]]></fr:tex>,
+                    there is a term <fr:tex display="inline"><![CDATA[⟨s₁,s₂⟩]]></fr:tex> of sort <fr:tex display="inline"><![CDATA[A×B]]></fr:tex>.
+                </html:li>
+                <html:li>
+                    (LT4) For every term <fr:tex display="inline"><![CDATA[s]]></fr:tex> of sort <fr:tex display="inline"><![CDATA[B]]></fr:tex> and variable <fr:tex display="inline"><![CDATA[y]]></fr:tex> of
+                    sort <fr:tex display="inline"><![CDATA[A]]></fr:tex>, there is a term <fr:tex display="inline"><![CDATA[λy. s]]></fr:tex> of sort <fr:tex display="inline"><![CDATA[Bᴬ]]></fr:tex>.
+                </html:li></html:ul>"
+            <html:ul><html:li>
+                    "The <html:em>extension</html:em> of <fr:tex display="inline"><![CDATA[ϕ]]></fr:tex> over a list of variables
+                    <fr:tex display="inline"><![CDATA[\overline {x}]]></fr:tex> is the sub-object <fr:tex display="inline"><![CDATA[\{\overline {x} | ϕ\}]]></fr:tex>
+                    of <fr:tex display="inline"><![CDATA[A₁×A₂×…Aₙ]]></fr:tex> classified by [<fr:tex display="inline"><![CDATA[ϕ]]></fr:tex>]."
+                </html:li></html:ul></html:p></fr:mainmatter></fr:tree><fr:tree show-metadata="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>8</fr:month><fr:day>21</fr:day></fr:date><fr:title text="formulas">formulas</fr:title></fr:frontmatter><fr:mainmatter><html:p>
+            "A formula is a term of sort <fr:tex display="inline"><![CDATA[Ω]]></fr:tex>. By LT2 [and the existence of
+            these terms in any elementary topos, developed in 13.3 and 13.4],
+            for any formulas <fr:tex display="inline"><![CDATA[ϕ]]></fr:tex> and <fr:tex display="inline"><![CDATA[ψ]]></fr:tex> there are formulas <fr:tex display="inline"><![CDATA[ϕ∧ψ]]></fr:tex> and
+            <fr:tex display="inline"><![CDATA[ϕ⟹ψ]]></fr:tex>.… There are also formulas <fr:tex display="inline"><![CDATA[⊥, ¬ϕ, ϕ∧ψ]]></fr:tex>, read as 'false',
+            'not-<fr:tex display="inline"><![CDATA[ϕ]]></fr:tex>', and '<fr:tex display="inline"><![CDATA[ϕ]]></fr:tex> or <fr:tex display="inline"><![CDATA[ψ]]></fr:tex>', which [with <fr:tex display="inline"><![CDATA[∃]]></fr:tex> are defined in
+            terms of <fr:tex display="inline"><![CDATA[∧,⟹,∀]]></fr:tex>] using quantification over <fr:tex display="inline"><![CDATA[Ω]]></fr:tex> (15.1)."
+        </html:p><html:p>
+            "For any formula <fr:tex display="inline"><![CDATA[ϕ]]></fr:tex> and variable <fr:tex display="inline"><![CDATA[y]]></fr:tex> over any object <fr:tex display="inline"><![CDATA[A]]></fr:tex>, we
+            define the formula <fr:tex display="inline"><![CDATA[∀y : A. ϕ]]></fr:tex> as an abbreviation for <fr:tex display="inline"><![CDATA[∀_A\{y : A
+            | ϕ\}]]></fr:tex> [where <fr:tex display="inline"><![CDATA[\{y : A | ϕ\}]]></fr:tex> is an abbreviation for <fr:tex display="inline"><![CDATA[λy : A. ϕ]]></fr:tex>,
+            and <fr:tex display="inline"><![CDATA[∀\_A : Ω^A→Ω]]></fr:tex> is a term]."
+        </html:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree><fr:tree show-metadata="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>8</fr:month><fr:day>21</fr:day></fr:date><fr:title text="summary">summary</fr:title></fr:frontmatter><fr:mainmatter><html:p>
+        Ignoring the natural numbers type and the idiosyncratic list type of
+        <fr:link href="/forest/johnstone-2002/" title="Sketches of an Elephant: a topos theory compendium" uri="https://hejohns.github.io/forest/johnstone-2002/" display-uri="johnstone-2002" type="local">Sketches of an Elephant: a topos theory compendium</fr:link>, there is a core concept (using the notion of
+        elementary topops for reference) of <fr:link href="/forest/hejohns-000F/" title="&quot;higher-order intuitionistic logic&quot; v. &quot;topos logic&quot;" uri="https://hejohns.github.io/forest/hejohns-000F/" display-uri="hejohns-000F" type="local">"finite-type intuitionistic
+        predicate logic" aka "topos logic" aka "higher-order intuitionistic
+        logic"</fr:link>, although certain inter-definable choices can be
+        made.
+    </html:p><html:p>
+        There's no clear notion of "taking everything", but a reasonable
+        "logical" choice seems to be that (over a language <fr:tex display="inline"><![CDATA[\mathcal {L}]]></fr:tex>,) the types are
+        <fr:tex display="inline"><![CDATA[→,×,1]]></fr:tex>, the terms are <fr:tex display="inline"><![CDATA[x,λ,f t,⟨t,u⟩,πᵢ,\{x|ϕ(x)\},*]]></fr:tex>, and the
+        formulas are <fr:tex display="inline"><![CDATA[=,R(\overline {x}),∈,∧,∨,¬,⟹,∀,∃]]></fr:tex>.
+    </html:p><html:p>
+        One curiosity with taking a type <fr:tex display="inline"><![CDATA[Ω]]></fr:tex> and formulas to <html:em>just</html:em> be
+        terms of type <fr:tex display="inline"><![CDATA[Ω]]></fr:tex>, is that we then have formulas like <fr:tex display="inline"><![CDATA[π₁ ⟨⊤,⊥⟩]]></fr:tex>
+        (definitionally equal to <fr:tex display="inline"><![CDATA[⊤]]></fr:tex>) which don't seem very formula-like.
+    </html:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree>
+<fr:tree show-metadata="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>3</fr:day></fr:date><fr:date><fr:year>2025</fr:year><fr:month>8</fr:month><fr:day>26</fr:day></fr:date><fr:title text="semantics">semantics</fr:title></fr:frontmatter><fr:mainmatter /></fr:tree></fr:mainmatter>
+                </fr:tree>
+              </fr:mainmatter>
+            </fr:tree>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>3</fr:day>
+            </fr:date>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>8</fr:month>
+              <fr:day>21</fr:day>
+            </fr:date>
+            <fr:uri>https://hejohns.github.io/forest/hejohns-000M/</fr:uri>
+            <fr:display-uri>hejohns-000M</fr:display-uri>
+            <fr:route>/forest/hejohns-000M/</fr:route>
+            <fr:title text="finite-type intuitionistic predicate logic">finite-type intuitionistic predicate logic</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+    There is some (a posteriori insignificant) variation in the presentation of
+    the syntax, thus following through with some input from <fr:link href="/forest/ericgio/" title="Eric Giovannini" uri="https://hejohns.github.io/forest/ericgio/" display-uri="ericgio" type="local">Eric Giovannini</fr:link>, we
+    juxtapose multiple definitions-- <fr:link href="/forest/hejohns-000G/" title="What is an elementary topos?" uri="https://hejohns.github.io/forest/hejohns-000G/" display-uri="hejohns-000G" type="local">as done for elementary
+    topoi</fr:link>--, but this time we slightly modify the source for
+    uniformity as needed.
+</html:p>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>3</fr:day>
+                </fr:date>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>8</fr:month>
+                  <fr:day>21</fr:day>
+                </fr:date>
+                <fr:title text="Syntax à la Introduction to higher order categorical logic p.128">Syntax à la <fr:link href="/forest/lambek-scott-1986/" title="Introduction to higher order categorical logic" uri="https://hejohns.github.io/forest/lambek-scott-1986/" display-uri="lambek-scott-1986" type="local">Introduction to higher order categorical logic</fr:link> p.128</fr:title>
+                <fr:taxon>definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+        "A <html:em>type theory</html:em> is a formal theory given by the following data:
+        <html:ul><html:li>
+                a class of <html:em>types</html:em>, including a special type <fr:tex display="inline"><![CDATA[Ω]]></fr:tex></html:li>
+            <html:li>
+                a class of <html:em>terms</html:em> of each type, including countably many
+                variables of each type
+            </html:li>
+            <html:li>
+                for each finite set <fr:tex display="inline"><![CDATA[X]]></fr:tex> of variables a binary relation <fr:tex display="inline"><![CDATA[⊢_X]]></fr:tex>
+                of <html:em>entailment</html:em> between terms of type <fr:tex display="inline"><![CDATA[Ω]]></fr:tex> all free
+                variables of which are elements of <fr:tex display="inline"><![CDATA[X]]></fr:tex>.
+            </html:li></html:ul>"
+    </html:p>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:date>
+                      <fr:year>2024</fr:year>
+                      <fr:month>6</fr:month>
+                      <fr:day>3</fr:day>
+                    </fr:date>
+                    <fr:date>
+                      <fr:year>2024</fr:year>
+                      <fr:month>8</fr:month>
+                      <fr:day>21</fr:day>
+                    </fr:date>
+                    <fr:title text="types">types</fr:title>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>
+            "The class of types is closed under the inductive clauses:
+            <html:ul><html:li><fr:tex display="inline"><![CDATA[1]]></fr:tex>, <fr:tex display="inline"><![CDATA[N]]></fr:tex> and <fr:tex display="inline"><![CDATA[Ω]]></fr:tex> are types ('basic' types);
+                </html:li>
+                <html:li>
+                    if <fr:tex display="inline"><![CDATA[A]]></fr:tex> and <fr:tex display="inline"><![CDATA[B]]></fr:tex> are types, so are <fr:tex display="inline"><![CDATA[A×B]]></fr:tex> and <fr:tex display="inline"><![CDATA[\mathcal {P}A]]></fr:tex></html:li></html:ul>"
+        </html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:date>
+                      <fr:year>2024</fr:year>
+                      <fr:month>6</fr:month>
+                      <fr:day>3</fr:day>
+                    </fr:date>
+                    <fr:date>
+                      <fr:year>2024</fr:year>
+                      <fr:month>8</fr:month>
+                      <fr:day>21</fr:day>
+                    </fr:date>
+                    <fr:title text="terms">terms</fr:title>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>
+            "The class of terms is freely generated from certain basic terms by
+            certain operations including the following… and is closed under certain operations.
+            <html:ul><html:li>
+                    [for each type <fr:tex display="inline"><![CDATA[A]]></fr:tex>, there are countably many variables
+                    <fr:tex display="inline"><![CDATA[x_1^A, x_2^A, …]]></fr:tex>;]
+                </html:li>
+                <html:li><fr:tex display="inline"><![CDATA[*]]></fr:tex> is a term of type <fr:tex display="inline"><![CDATA[1]]></fr:tex>;
+                </html:li>
+                <html:li>
+                    if <fr:tex display="inline"><![CDATA[a]]></fr:tex> is a term of type <fr:tex display="inline"><![CDATA[A]]></fr:tex> and <fr:tex display="inline"><![CDATA[b]]></fr:tex> is a term of type
+                    <fr:tex display="inline"><![CDATA[B]]></fr:tex>, then <fr:tex display="inline"><![CDATA[⟨a,b⟩]]></fr:tex> is a term of type <fr:tex display="inline"><![CDATA[A×B]]></fr:tex>;
+                </html:li>
+                <html:li>
+                    if <fr:tex display="inline"><![CDATA[a]]></fr:tex> is a term of type <fr:tex display="inline"><![CDATA[A]]></fr:tex> and <fr:tex display="inline"><![CDATA[α]]></fr:tex> is a term of type
+                    <fr:tex display="inline"><![CDATA[\mathcal {P}a]]></fr:tex>, then <fr:tex display="inline"><![CDATA[a ∈ α]]></fr:tex> is a term of type <fr:tex display="inline"><![CDATA[Ω]]></fr:tex>;
+                </html:li>
+                <html:li>
+                    if <fr:tex display="inline"><![CDATA[ϕ(x)]]></fr:tex> is a term of type <fr:tex display="inline"><![CDATA[Ω]]></fr:tex> (possibly containing the
+                    free variable <fr:tex display="inline"><![CDATA[x]]></fr:tex> of type <fr:tex display="inline"><![CDATA[A]]></fr:tex>), then <fr:tex display="inline"><![CDATA[\{x ∈ A | ϕ(x)\}]]></fr:tex>
+                    is a term of type <fr:tex display="inline"><![CDATA[\mathcal {P}A]]></fr:tex> not containing a free occurrence of
+                    <fr:tex display="inline"><![CDATA[x]]></fr:tex>;
+                </html:li>
+                <html:li><fr:tex display="inline"><![CDATA[0]]></fr:tex> is a term of type <fr:tex display="inline"><![CDATA[N]]></fr:tex>;
+                </html:li>
+                <html:li>
+                    if <fr:tex display="inline"><![CDATA[n]]></fr:tex> is a term of type <fr:tex display="inline"><![CDATA[N]]></fr:tex> so is <fr:tex display="inline"><![CDATA[Sn]]></fr:tex>;
+                </html:li>
+                <html:li><fr:tex display="inline"><![CDATA[⊤]]></fr:tex> and <fr:tex display="inline"><![CDATA[⊥]]></fr:tex> are terms of type <fr:tex display="inline"><![CDATA[Ω]]></fr:tex>;
+                </html:li>
+                <html:li>
+                    if <fr:tex display="inline"><![CDATA[p]]></fr:tex> and <fr:tex display="inline"><![CDATA[q]]></fr:tex> are terms of type <fr:tex display="inline"><![CDATA[Ω]]></fr:tex>, so are <fr:tex display="inline"><![CDATA[p∧q]]></fr:tex>,
+                    <fr:tex display="inline"><![CDATA[p∨q]]></fr:tex>, <fr:tex display="inline"><![CDATA[p⟹q]]></fr:tex>;
+                </html:li>
+                <html:li>
+                    if <fr:tex display="inline"><![CDATA[ϕ(x)]]></fr:tex> is a term of type <fr:tex display="inline"><![CDATA[Ω]]></fr:tex> (possibly containing the
+                    free variable <fr:tex display="inline"><![CDATA[x]]></fr:tex> of type <fr:tex display="inline"><![CDATA[A]]></fr:tex>), then <fr:tex display="inline"><![CDATA[∀_{x∈A}ϕ(x)]]></fr:tex> and
+                    <fr:tex display="inline"><![CDATA[∃_{x∈A}ϕ(x)]]></fr:tex> are terms of type <fr:tex display="inline"><![CDATA[Ω]]></fr:tex> not containing free
+                    occurrences of <fr:tex display="inline"><![CDATA[x]]></fr:tex>.
+                </html:li></html:ul>"
+        </html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:date>
+                      <fr:year>2024</fr:year>
+                      <fr:month>6</fr:month>
+                      <fr:day>3</fr:day>
+                    </fr:date>
+                    <fr:date>
+                      <fr:year>2024</fr:year>
+                      <fr:month>8</fr:month>
+                      <fr:day>21</fr:day>
+                    </fr:date>
+                    <fr:title text="formulas">formulas</fr:title>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>
+            "Terms of type <fr:tex display="inline"><![CDATA[Ω]]></fr:tex> are also called <html:em>formulas</html:em>."
+        </html:p>
+                    <html:p>
+            "One may also define a number of widely used term forming
+            operations: …
+            <html:ul><html:li><fr:tex display="inline"><![CDATA[p ⟺ q ≡ (p⟹q)∧(q⟹q)]]></fr:tex>,
+                </html:li>
+                <html:li><fr:tex display="inline"><![CDATA[a = a' ≡ ∀_{u∈\mathcal {P}A}(a∈u ⟺ a'∈u)]]></fr:tex></html:li></html:ul>"
+        </html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>3</fr:day>
+                </fr:date>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>8</fr:month>
+                  <fr:day>21</fr:day>
+                </fr:date>
+                <fr:title text="Syntax à la Sketches of an Elephant: a topos theory compendium ">Syntax à la <fr:link href="/forest/johnstone-2002/" title="Sketches of an Elephant: a topos theory compendium" uri="https://hejohns.github.io/forest/johnstone-2002/" display-uri="johnstone-2002" type="local">Sketches of an Elephant: a topos theory compendium</fr:link> </fr:title>
+                <fr:taxon>definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+        (We write "language" whenever Johnstone writes "signature", and use the
+        corresponding symbol <fr:tex display="inline"><![CDATA[\mathcal {L}]]></fr:tex> instead of <fr:tex display="inline"><![CDATA[Σ]]></fr:tex>.
+        I don't know if Johnstone prefers the term "signature" because
+        "language" is overloaded and often refers not just to the, well,
+        language, but to the larger logic sans deductive system, but that would
+        be a good reason.)
+    </html:p>
+                <html:p>
+        "A <html:em>language</html:em> <fr:tex display="inline"><![CDATA[\mathcal {L}]]></fr:tex> for higher-order logic is defined by specifying a
+        set <fr:tex display="inline"><![CDATA[\mathcal {L}_{\mathsf {base}}]]></fr:tex> of <html:em>atomic types</html:em>, a set <fr:tex display="inline"><![CDATA[\mathcal {L}_{\mathsf {fun}}]]></fr:tex> of <html:em>function symbols</html:em> and
+        a set <fr:tex display="inline"><![CDATA[\mathcal {L}_{\mathsf {rel}}]]></fr:tex> of <html:em>relation symbols</html:em> as in 1.1.1, together with a number
+        of <html:em>type constructors</html:em> chosen from the following list, which
+        recursively define the set <fr:tex display="inline"><![CDATA[\mathcal {L}_{\mathsf {type}}]]></fr:tex> of <fr:tex display="inline"><![CDATA[types]]></fr:tex>:
+    </html:p>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:date>
+                      <fr:year>2024</fr:year>
+                      <fr:month>6</fr:month>
+                      <fr:day>3</fr:day>
+                    </fr:date>
+                    <fr:date>
+                      <fr:year>2024</fr:year>
+                      <fr:month>8</fr:month>
+                      <fr:day>21</fr:day>
+                    </fr:date>
+                    <fr:title text="types">types</fr:title>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:ul><html:li>
+                (i) <html:em>Basic types</html:em>: Each sort is a type
+            </html:li>
+            <html:li>
+                (ii) <html:em>Product types</html:em>: There is a distinguished type <fr:tex display="inline"><![CDATA[1]]></fr:tex> (the
+                empty product); and if <fr:tex display="inline"><![CDATA[A]]></fr:tex> and <fr:tex display="inline"><![CDATA[B]]></fr:tex> are types, then <fr:tex display="inline"><![CDATA[A×B]]></fr:tex>is a
+                type.
+            </html:li>
+            <html:li>
+                (iii) <html:em>Function types</html:em>: If <fr:tex display="inline"><![CDATA[A]]></fr:tex> and <fr:tex display="inline"><![CDATA[B]]></fr:tex> are types, then <fr:tex display="inline"><![CDATA[A→B]]></fr:tex> is
+                a type.
+            </html:li>
+            <html:li>
+                (iv) <html:em>Power types</html:em>: If <fr:tex display="inline"><![CDATA[A]]></fr:tex> is a type, the <fr:tex display="inline"><![CDATA[\mathcal {P}A]]></fr:tex> is a type.
+            </html:li>
+            <html:li>
+                (v) <html:em>List types</html:em>: If <fr:tex display="inline"><![CDATA[A]]></fr:tex> is a type, then <fr:tex display="inline"><![CDATA[LA]]></fr:tex> is a type.
+            </html:li></html:ul>
+                    <html:p>
+            To each function symbol <fr:tex display="inline"><![CDATA[f∈\mathcal {L}_{\mathsf {fun}}]]></fr:tex> we assign an ordered pair
+            <fr:tex display="inline"><![CDATA[(A,B)]]></fr:tex> of elements of <fr:tex display="inline"><![CDATA[\mathcal {L}_{\mathsf {type}}]]></fr:tex>; as before, we write <fr:tex display="inline"><![CDATA[f : A→B]]></fr:tex> to
+            indicate that <fr:tex display="inline"><![CDATA[f]]></fr:tex> has the pair of types <fr:tex display="inline"><![CDATA[(A,B)]]></fr:tex>. Similarly, each
+            relation symbol <fr:tex display="inline"><![CDATA[R∈\mathcal {L}_{\mathsf {rel}}]]></fr:tex> has a type in <fr:tex display="inline"><![CDATA[\mathcal {L}_{\mathsf {type}}]]></fr:tex>, and we write <fr:tex display="inline"><![CDATA[R ↣
+            A]]></fr:tex> to indicate that <fr:tex display="inline"><![CDATA[R]]></fr:tex> has type <fr:tex display="inline"><![CDATA[A]]></fr:tex>."
+        </html:p>
+                    <html:p>
+            "If our language has the type constructors (ii) and (iv), we shall
+            often write <fr:tex display="inline"><![CDATA[Ω]]></fr:tex> for the particular type <fr:tex display="inline"><![CDATA[\mathcal {P}1]]></fr:tex>. Similarly if it has
+            constructors (ii) and (v), we write <fr:tex display="inline"><![CDATA[N]]></fr:tex> (the type of natural
+            numbers) for <fr:tex display="inline"><![CDATA[L1]]></fr:tex>."
+        </html:p>
+                    <html:p>
+            "From now on, all our languages will contain the product type
+            constructor; thus we have restricted all our primitive function and
+            relation symbols to be unary. (If our signature also contaisn
+            function types, then we can further restrict our function symbols
+            to be constants… And if <fr:tex display="inline"><![CDATA[\mathcal {L}]]></fr:tex> has power types, then we can replace all
+            primitive relation symbols by constants as well)"
+        </html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+                <html:p>
+        "The term constructor for power types in fact builds terms form
+        formulae, so over a language which contains power types we have to
+        define terms and formulae by a simultaneous recursion".
+    </html:p>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:date>
+                      <fr:year>2024</fr:year>
+                      <fr:month>6</fr:month>
+                      <fr:day>3</fr:day>
+                    </fr:date>
+                    <fr:date>
+                      <fr:year>2024</fr:year>
+                      <fr:month>8</fr:month>
+                      <fr:day>21</fr:day>
+                    </fr:date>
+                    <fr:title text="terms">terms</fr:title>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>
+            (We omit the bookkeeping of free variables that Johnstone inlines with
+            the following definitions.)
+            "<html:ul><html:li>
+                    (i) We have a stock of <html:em>variables</html:em> <fr:tex display="inline"><![CDATA[x : A]]></fr:tex> for each type <fr:tex display="inline"><![CDATA[A]]></fr:tex>.
+                </html:li>
+                <html:li>
+                    (ii) if <fr:tex display="inline"><![CDATA[f : A→B]]></fr:tex> is a function symbol of <fr:tex display="inline"><![CDATA[\mathcal {L}]]></fr:tex> and <fr:tex display="inline"><![CDATA[t : A]]></fr:tex>,
+                    then <fr:tex display="inline"><![CDATA[f t : B]]></fr:tex>.
+                </html:li>
+                <html:li>
+                    (iii)
+                    <html:ul><html:li>
+                            (a) we have a distinguished term <fr:tex display="inline"><![CDATA[* : 1]]></fr:tex>.
+                        </html:li>
+                        <html:li>
+                            (b) If <fr:tex display="inline"><![CDATA[s : A]]></fr:tex> and <fr:tex display="inline"><![CDATA[t : B]]></fr:tex>, then <fr:tex display="inline"><![CDATA[⟨s,t⟩:A×B]]></fr:tex>.
+                        </html:li></html:ul></html:li>
+                <html:li>
+                    (iv) If <fr:tex display="inline"><![CDATA[t : A×B]]></fr:tex>, then <fr:tex display="inline"><![CDATA[π₁ t : A]]></fr:tex> and <fr:tex display="inline"><![CDATA[π₂ t : B]]></fr:tex>.
+                </html:li>
+                <html:li>
+                    (v) If <fr:tex display="inline"><![CDATA[t : B]]></fr:tex> and <fr:tex display="inline"><![CDATA[x]]></fr:tex> is a variable of type <fr:tex display="inline"><![CDATA[A]]></fr:tex>, then
+                    <fr:tex display="inline"><![CDATA[(λx : A. t) : A→B]]></fr:tex>.
+                </html:li>
+                <html:li>
+                    (vi) If <fr:tex display="inline"><![CDATA[s : A→B]]></fr:tex> and <fr:tex display="inline"><![CDATA[t : A]]></fr:tex>, then <fr:tex display="inline"><![CDATA[s t : B]]></fr:tex>.
+                    [This is formally different from (ii).]
+                </html:li>
+                <html:li>
+                    (vii) If <fr:tex display="inline"><![CDATA[ϕ]]></fr:tex> is a formula and <fr:tex display="inline"><![CDATA[x]]></fr:tex> is a variable of type
+                    <fr:tex display="inline"><![CDATA[A]]></fr:tex>, then <fr:tex display="inline"><![CDATA[\{x : A | ϕ\} : \mathcal {P}A]]></fr:tex>.
+                </html:li>
+                <html:li>
+                    (viii)
+                    <html:ul><html:li>
+                            For each type <fr:tex display="inline"><![CDATA[A]]></fr:tex>, there is a distinguished term
+                            <fr:tex display="inline"><![CDATA[[]]]></fr:tex> of type <fr:tex display="inline"><![CDATA[LA]]></fr:tex>.
+                        </html:li>
+                        <html:li>
+                            If <fr:tex display="inline"><![CDATA[s : A]]></fr:tex> and <fr:tex display="inline"><![CDATA[t : LA]]></fr:tex>, then <fr:tex display="inline"><![CDATA[s::t : LA]]></fr:tex>.
+                        </html:li></html:ul></html:li>
+                <html:li>
+                    (ix) The remaining term constructor associated with list
+                    types, the <html:em>iterator</html:em>, is more complicated [which we
+                    omit for irrelevance].
+                </html:li></html:ul></html:p>
+                    <html:p>
+            Of course, clauses (v) and (vi) of the definition above apply only
+            if we have function types in <fr:tex display="inline"><![CDATA[\mathcal {L}]]></fr:tex>, clause (vii) only if we have power
+            types, and clauses (viii) and (ix) only if we have list types.
+            Note that, except for power types, the clauses come in pairs [of
+            constructors and destructors]. The reason why we have no
+            'destructor' for power types is that, just as the constructor for
+            power types builds terms out of formulae rather than terms, the
+            corresponding destructor builds formulae out of terms of a power
+            type-- it thus appears as clause (iii) of the next definition."
+        </html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:date>
+                      <fr:year>2024</fr:year>
+                      <fr:month>6</fr:month>
+                      <fr:day>3</fr:day>
+                    </fr:date>
+                    <fr:date>
+                      <fr:year>2024</fr:year>
+                      <fr:month>8</fr:month>
+                      <fr:day>21</fr:day>
+                    </fr:date>
+                    <fr:title text="formulas">formulas</fr:title>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>
+            (We again omit the bookkeeping of free variables.)
+            "The <html:em>atomic formulae</html:em> over <fr:tex display="inline"><![CDATA[\mathcal {L}]]></fr:tex> are of three kinds:
+            <html:ul><html:li>
+                    (i) If <fr:tex display="inline"><![CDATA[R ↣ A]]></fr:tex> is a relation symbol and <fr:tex display="inline"><![CDATA[t : A]]></fr:tex>, then
+                    <fr:tex display="inline"><![CDATA[R(t)]]></fr:tex> is an atomic formulae.
+                </html:li>
+                <html:li>
+                    (ii) If <fr:tex display="inline"><![CDATA[s]]></fr:tex> and <fr:tex display="inline"><![CDATA[t]]></fr:tex> are terms of the same type <fr:tex display="inline"><![CDATA[A]]></fr:tex>, then
+                    <fr:tex display="inline"><![CDATA[s =_A t]]></fr:tex> is an atomic formula.
+                </html:li>
+                <html:li>
+                    (iii) If <fr:tex display="inline"><![CDATA[s : A]]></fr:tex> and <fr:tex display="inline"><![CDATA[t : \mathcal {P}A]]></fr:tex> for some <fr:tex display="inline"><![CDATA[A]]></fr:tex>, then <fr:tex display="inline"><![CDATA[s
+                    ∈_A t]]></fr:tex> is an atomic formula.
+                </html:li></html:ul></html:p>
+                    <html:p>
+            The compound formulae over <fr:tex display="inline"><![CDATA[\mathcal {L}]]></fr:tex> are built up from the atomic
+            formulae [with <fr:tex display="inline"><![CDATA[⊤,∧,⊥,∨,⟹,¬,∃,∀,]]></fr:tex>]."
+        </html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>3</fr:day>
+                </fr:date>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>8</fr:month>
+                  <fr:day>21</fr:day>
+                </fr:date>
+                <fr:title text="Syntax à la Elementary Categories, Elementary Toposes 14.1">Syntax à la <fr:link href="/forest/mclarty-1992/" title="Elementary Categories, Elementary Toposes" uri="https://hejohns.github.io/forest/mclarty-1992/" display-uri="mclarty-1992" type="local">Elementary Categories, Elementary Toposes</fr:link> 14.1</fr:title>
+                <fr:taxon>definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+        (McLarty defines the internal language of a topos <fr:tex display="inline"><![CDATA[\bold {\mathsf {E}}]]></fr:tex> directly (and its
+        interpretation), instead of describing the logic abstractly and taking
+        the internal language to be a diagram (in Tarskian-model theory speak)
+        of <fr:tex display="inline"><![CDATA[\bold {\mathsf {E}}]]></fr:tex>. We rephrase McLarty's presentation to not mention a particular
+        model <fr:tex display="inline"><![CDATA[\bold {\mathsf {E}}]]></fr:tex>. We also preserve usage of the term "sort" instead of "type".)
+    </html:p>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:date>
+                      <fr:year>2024</fr:year>
+                      <fr:month>6</fr:month>
+                      <fr:day>3</fr:day>
+                    </fr:date>
+                    <fr:date>
+                      <fr:year>2024</fr:year>
+                      <fr:month>8</fr:month>
+                      <fr:day>21</fr:day>
+                    </fr:date>
+                    <fr:title text="types">types</fr:title>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>
+            The types have the structure of the objects of an elementary topos,
+            ie a collection of atomic types closed under <fr:tex display="inline"><![CDATA[1,×,→,Ω]]></fr:tex>.
+        </html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:date>
+                      <fr:year>2024</fr:year>
+                      <fr:month>6</fr:month>
+                      <fr:day>3</fr:day>
+                    </fr:date>
+                    <fr:date>
+                      <fr:year>2024</fr:year>
+                      <fr:month>8</fr:month>
+                      <fr:day>21</fr:day>
+                    </fr:date>
+                    <fr:title text="terms">terms</fr:title>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>
+            "The [language] is sorted…. We inductively define terms and their sorts:
+            <html:ul><html:li>
+                    (LT1) Each sort <fr:tex display="inline"><![CDATA[A]]></fr:tex> has a list of <html:em>variables over <fr:tex display="inline"><![CDATA[A]]></fr:tex></html:em>,
+                    <fr:tex display="inline"><![CDATA[x₁, x₂, x₃…]]></fr:tex>. Every variable over <fr:tex display="inline"><![CDATA[A]]></fr:tex> is a term of sort
+                    <fr:tex display="inline"><![CDATA[A]]></fr:tex>.
+                </html:li>
+                <html:li>
+                    (LT2) For any [function symbol <fr:tex display="inline"><![CDATA[f : A→B]]></fr:tex>] and term <fr:tex display="inline"><![CDATA[s]]></fr:tex> [of] sort
+                    <fr:tex display="inline"><![CDATA[A]]></fr:tex>, <fr:tex display="inline"><![CDATA[f s]]></fr:tex> is a term of sort <fr:tex display="inline"><![CDATA[B]]></fr:tex>. [Constant symbols <fr:tex display="inline"><![CDATA[c :
+                    1→A]]></fr:tex> are also] a term of sort <fr:tex display="inline"><![CDATA[A]]></fr:tex>…. We write <fr:tex display="inline"><![CDATA[!]]></fr:tex> as a
+                    constant [of sort <fr:tex display="inline"><![CDATA[1]]></fr:tex>].
+                </html:li>
+                <html:li>
+                    (LT3) For every term <fr:tex display="inline"><![CDATA[s₁]]></fr:tex> of sort <fr:tex display="inline"><![CDATA[A]]></fr:tex> and <fr:tex display="inline"><![CDATA[s₂]]></fr:tex> of sort <fr:tex display="inline"><![CDATA[B]]></fr:tex>,
+                    there is a term <fr:tex display="inline"><![CDATA[⟨s₁,s₂⟩]]></fr:tex> of sort <fr:tex display="inline"><![CDATA[A×B]]></fr:tex>.
+                </html:li>
+                <html:li>
+                    (LT4) For every term <fr:tex display="inline"><![CDATA[s]]></fr:tex> of sort <fr:tex display="inline"><![CDATA[B]]></fr:tex> and variable <fr:tex display="inline"><![CDATA[y]]></fr:tex> of
+                    sort <fr:tex display="inline"><![CDATA[A]]></fr:tex>, there is a term <fr:tex display="inline"><![CDATA[λy. s]]></fr:tex> of sort <fr:tex display="inline"><![CDATA[Bᴬ]]></fr:tex>.
+                </html:li></html:ul>"
+            <html:ul><html:li>
+                    "The <html:em>extension</html:em> of <fr:tex display="inline"><![CDATA[ϕ]]></fr:tex> over a list of variables
+                    <fr:tex display="inline"><![CDATA[\overline {x}]]></fr:tex> is the sub-object <fr:tex display="inline"><![CDATA[\{\overline {x} | ϕ\}]]></fr:tex>
+                    of <fr:tex display="inline"><![CDATA[A₁×A₂×…Aₙ]]></fr:tex> classified by [<fr:tex display="inline"><![CDATA[ϕ]]></fr:tex>]."
+                </html:li></html:ul></html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:date>
+                      <fr:year>2024</fr:year>
+                      <fr:month>6</fr:month>
+                      <fr:day>3</fr:day>
+                    </fr:date>
+                    <fr:date>
+                      <fr:year>2024</fr:year>
+                      <fr:month>8</fr:month>
+                      <fr:day>21</fr:day>
+                    </fr:date>
+                    <fr:title text="formulas">formulas</fr:title>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>
+            "A formula is a term of sort <fr:tex display="inline"><![CDATA[Ω]]></fr:tex>. By LT2 [and the existence of
+            these terms in any elementary topos, developed in 13.3 and 13.4],
+            for any formulas <fr:tex display="inline"><![CDATA[ϕ]]></fr:tex> and <fr:tex display="inline"><![CDATA[ψ]]></fr:tex> there are formulas <fr:tex display="inline"><![CDATA[ϕ∧ψ]]></fr:tex> and
+            <fr:tex display="inline"><![CDATA[ϕ⟹ψ]]></fr:tex>.… There are also formulas <fr:tex display="inline"><![CDATA[⊥, ¬ϕ, ϕ∧ψ]]></fr:tex>, read as 'false',
+            'not-<fr:tex display="inline"><![CDATA[ϕ]]></fr:tex>', and '<fr:tex display="inline"><![CDATA[ϕ]]></fr:tex> or <fr:tex display="inline"><![CDATA[ψ]]></fr:tex>', which [with <fr:tex display="inline"><![CDATA[∃]]></fr:tex> are defined in
+            terms of <fr:tex display="inline"><![CDATA[∧,⟹,∀]]></fr:tex>] using quantification over <fr:tex display="inline"><![CDATA[Ω]]></fr:tex> (15.1)."
+        </html:p>
+                    <html:p>
+            "For any formula <fr:tex display="inline"><![CDATA[ϕ]]></fr:tex> and variable <fr:tex display="inline"><![CDATA[y]]></fr:tex> over any object <fr:tex display="inline"><![CDATA[A]]></fr:tex>, we
+            define the formula <fr:tex display="inline"><![CDATA[∀y : A. ϕ]]></fr:tex> as an abbreviation for <fr:tex display="inline"><![CDATA[∀_A\{y : A
+            | ϕ\}]]></fr:tex> [where <fr:tex display="inline"><![CDATA[\{y : A | ϕ\}]]></fr:tex> is an abbreviation for <fr:tex display="inline"><![CDATA[λy : A. ϕ]]></fr:tex>,
+            and <fr:tex display="inline"><![CDATA[∀\_A : Ω^A→Ω]]></fr:tex> is a term]."
+        </html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>3</fr:day>
+                </fr:date>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>8</fr:month>
+                  <fr:day>21</fr:day>
+                </fr:date>
+                <fr:title text="summary">summary</fr:title>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+        Ignoring the natural numbers type and the idiosyncratic list type of
+        <fr:link href="/forest/johnstone-2002/" title="Sketches of an Elephant: a topos theory compendium" uri="https://hejohns.github.io/forest/johnstone-2002/" display-uri="johnstone-2002" type="local">Sketches of an Elephant: a topos theory compendium</fr:link>, there is a core concept (using the notion of
+        elementary topops for reference) of <fr:link href="/forest/hejohns-000F/" title="&quot;higher-order intuitionistic logic&quot; v. &quot;topos logic&quot;" uri="https://hejohns.github.io/forest/hejohns-000F/" display-uri="hejohns-000F" type="local">"finite-type intuitionistic
+        predicate logic" aka "topos logic" aka "higher-order intuitionistic
+        logic"</fr:link>, although certain inter-definable choices can be
+        made.
+    </html:p>
+                <html:p>
+        There's no clear notion of "taking everything", but a reasonable
+        "logical" choice seems to be that (over a language <fr:tex display="inline"><![CDATA[\mathcal {L}]]></fr:tex>,) the types are
+        <fr:tex display="inline"><![CDATA[→,×,1]]></fr:tex>, the terms are <fr:tex display="inline"><![CDATA[x,λ,f t,⟨t,u⟩,πᵢ,\{x|ϕ(x)\},*]]></fr:tex>, and the
+        formulas are <fr:tex display="inline"><![CDATA[=,R(\overline {x}),∈,∧,∨,¬,⟹,∀,∃]]></fr:tex>.
+    </html:p>
+                <html:p>
+        One curiosity with taking a type <fr:tex display="inline"><![CDATA[Ω]]></fr:tex> and formulas to <html:em>just</html:em> be
+        terms of type <fr:tex display="inline"><![CDATA[Ω]]></fr:tex>, is that we then have formulas like <fr:tex display="inline"><![CDATA[π₁ ⟨⊤,⊥⟩]]></fr:tex>
+        (definitionally equal to <fr:tex display="inline"><![CDATA[⊤]]></fr:tex>) which don't seem very formula-like.
+    </html:p>
+              </fr:mainmatter>
+            </fr:tree>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

@@ -5,6 +5,8 @@ site:
 	cd _forest; git pull; git submodule update
 	git add _forest
 	$(MAKE) -C _forest
+	mv forest/forest/* forest/
+	rm -r forest/forest
 	$(BUNDLER) exec jekyll build --lsi --trace
 .PHONY: export
 export:
