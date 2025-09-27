@@ -13,7 +13,7 @@
       <fr:month>9</fr:month>
       <fr:day>27</fr:day>
     </fr:date>
-    <fr:uri>http://localhost:4000/forest/marquis-reyes-2012/</fr:uri>
+    <fr:uri>https://hejohns.github.io/forest/marquis-reyes-2012/</fr:uri>
     <fr:display-uri>marquis-reyes-2012</fr:display-uri>
     <fr:route>/forest/marquis-reyes-2012/</fr:route>
     <fr:title text="The history of categorical logic: 1963-1977">The history of categorical logic: 1963-1977</fr:title>
@@ -21,12 +21,12 @@
   </fr:frontmatter>
   <fr:mainmatter>
     <html:p>
-    I have not read this. This might be a good source, aside from <fr:link href="/forest/ronnie-chen/" title="Ronnie Chen" uri="http://localhost:4000/forest/ronnie-chen/" display-uri="ronnie-chen" type="local">Ronnie Chen</fr:link>,
+    I have not read this. This might be a good source, aside from <fr:link href="/forest/ronnie-chen/" title="Ronnie Chen" uri="https://hejohns.github.io/forest/ronnie-chen/" display-uri="ronnie-chen" type="local">Ronnie Chen</fr:link>,
     where the viewpoint of "generalized algebraic semantics" is developed.
 </html:p>
     <html:p>
       <html:span class="link local">
-            <html:a href="/forest/bafkrmiby5sajx7a2fvlaowsdnmat7wnthv5ig64bqqltijmbcyjc5ccniu.html">paper</html:a>
+            <html:a href="/forest/bafkrmiat7phhpwfjqloqrjqbztns6q5csfrdbgxp5naxjxjodje6jxj2dy.html">paper</html:a>
         </html:span>
     </html:p>
   </fr:mainmatter>
@@ -55,7 +55,7 @@
           <fr:frontmatter>
             <fr:authors>
               <fr:author>
-                <fr:link href="/forest/hejohns/" title="Johnson He" uri="http://localhost:4000/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
               </fr:author>
             </fr:authors>
             <fr:date>
@@ -68,18 +68,18 @@
               <fr:month>6</fr:month>
               <fr:day>3</fr:day>
             </fr:date>
-            <fr:uri>http://localhost:4000/forest/hejohns-000H/</fr:uri>
+            <fr:uri>https://hejohns.github.io/forest/hejohns-000H/</fr:uri>
             <fr:display-uri>hejohns-000H</fr:display-uri>
             <fr:route>/forest/hejohns-000H/</fr:route>
             <fr:title text="Why is it called an &quot;elementary&quot; topos?">Why is it called an "elementary" topos?</fr:title>
           </fr:frontmatter>
           <fr:mainmatter>
-            <html:p><fr:link href="/forest/blass-1988/" title="Topoi and Computation" uri="http://localhost:4000/forest/blass-1988/" display-uri="blass-1988" type="local">Topoi and Computation</fr:link> writes that "The word 'elementary' in connection with the Lawvere-Tierney definition refers to the fact that their axioms are expressed in the first-order language of categories; in fact the axioms are essentially algebraic." (p. 2).
+            <html:p><fr:link href="/forest/blass-1988/" title="Topoi and Computation" uri="https://hejohns.github.io/forest/blass-1988/" display-uri="blass-1988" type="local">Topoi and Computation</fr:link> writes that "The word 'elementary' in connection with the Lawvere-Tierney definition refers to the fact that their axioms are expressed in the first-order language of categories; in fact the axioms are essentially algebraic." (p. 2).
     (Recall that categories can be formalized as a two or dependently-sorted
     first order theory.)
 </html:p>
             <html:p>
-    This is corroborated by <fr:link href="/forest/marquis-reyes-2012/" title="The history of categorical logic: 1963-1977" uri="http://localhost:4000/forest/marquis-reyes-2012/" display-uri="marquis-reyes-2012" type="local">The history of categorical logic: 1963-1977</fr:link>, writing that "In the years
+    This is corroborated by <fr:link href="/forest/marquis-reyes-2012/" title="The history of categorical logic: 1963-1977" uri="https://hejohns.github.io/forest/marquis-reyes-2012/" display-uri="marquis-reyes-2012" type="local">The history of categorical logic: 1963-1977</fr:link>, writing that "In the years
     that followed, Lawvere tried to extend his analysis and sketched a
     categorical version of first-order theories under the name of elementary
     theories. Then, in 1969, in collaboration with Myles Tierney, Lawvere
@@ -93,7 +93,7 @@
     differential geometry, constructive mathematics were made." (p. 2).
 </html:p>
             <html:p>
-    If <fr:link href="/forest/lawvere-1970/" title="Quantifiers and Sheaves" uri="http://localhost:4000/forest/lawvere-1970/" display-uri="lawvere-1970" type="local">Quantifiers and Sheaves</fr:link> is indeed the paper that introduces elementary toposes,
+    If <fr:link href="/forest/lawvere-1970/" title="Quantifiers and Sheaves" uri="https://hejohns.github.io/forest/lawvere-1970/" display-uri="lawvere-1970" type="local">Quantifiers and Sheaves</fr:link> is indeed the paper that introduces elementary toposes,
     it's curious to note that the word "elementary" never appears.
     It must've been coined sometime later, but I don't know the details.
 </html:p>
@@ -120,7 +120,7 @@
               <fr:month>6</fr:month>
               <fr:day>3</fr:day>
             </fr:date>
-            <fr:uri>http://localhost:4000/forest/ronnie-chen/</fr:uri>
+            <fr:uri>https://hejohns.github.io/forest/ronnie-chen/</fr:uri>
             <fr:display-uri>ronnie-chen</fr:display-uri>
             <fr:route>/forest/ronnie-chen/</fr:route>
             <fr:title text="Ronnie Chen">Ronnie Chen</fr:title>

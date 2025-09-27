@@ -13,7 +13,7 @@
       <fr:month>7</fr:month>
       <fr:day>11</fr:day>
     </fr:date>
-    <fr:uri>http://localhost:4000/forest/cubical-categorical-logic/</fr:uri>
+    <fr:uri>https://hejohns.github.io/forest/cubical-categorical-logic/</fr:uri>
     <fr:display-uri>cubical-categorical-logic</fr:display-uri>
     <fr:route>/forest/cubical-categorical-logic/</fr:route>
     <fr:title text="maxsnew/cubical-categorical-logic">maxsnew/cubical-categorical-logic</fr:title>
@@ -60,7 +60,7 @@
               <fr:month>9</fr:month>
               <fr:day>16</fr:day>
             </fr:date>
-            <fr:uri>http://localhost:4000/forest/grayson-2018/</fr:uri>
+            <fr:uri>https://hejohns.github.io/forest/grayson-2018/</fr:uri>
             <fr:display-uri>grayson-2018</fr:display-uri>
             <fr:route>/forest/grayson-2018/</fr:route>
             <fr:title text="An introduction to univalent foundations for mathematicians">An introduction to univalent foundations for mathematicians</fr:title>
@@ -69,7 +69,7 @@
           <fr:mainmatter>
             <html:p><fr:link href="https://unimath.github.io/minneapolis2024/" type="external">"An gentle introduction to univalent
     foundations."</fr:link>,
-    but still made much easier to read after the <fr:link href="/forest/cubical-categorical-logic/" title="maxsnew/cubical-categorical-logic" uri="http://localhost:4000/forest/cubical-categorical-logic/" display-uri="cubical-categorical-logic" type="local">maxsnew/cubical-categorical-logic</fr:link>
+    but still made much easier to read after the <fr:link href="/forest/cubical-categorical-logic/" title="maxsnew/cubical-categorical-logic" uri="https://hejohns.github.io/forest/cubical-categorical-logic/" display-uri="cubical-categorical-logic" type="local">maxsnew/cubical-categorical-logic</fr:link>
     hacking experience.
 </html:p>
             <html:p>

@@ -13,7 +13,7 @@
       <fr:month>9</fr:month>
       <fr:day>27</fr:day>
     </fr:date>
-    <fr:uri>http://localhost:4000/forest/blass-2003/</fr:uri>
+    <fr:uri>https://hejohns.github.io/forest/blass-2003/</fr:uri>
     <fr:display-uri>blass-2003</fr:display-uri>
     <fr:route>/forest/blass-2003/</fr:route>
     <fr:title text="Resource Consciousness in Classical Logic">Resource Consciousness in Classical Logic</fr:title>
@@ -54,7 +54,7 @@
     
         
         <html:span class="link local">
-            <html:a href="/forest/bafkrmihizpqedmwy2hsxosrrvmjdjbhueoyp2lwg65zxb4shqatsxmbchq.html">paper</html:a>
+            <html:a href="/forest/bafkrmiasg2ubutjbil7e6ricosxg53fnhpu7tmpdm4q4krbo5srpbmlnue.html">paper</html:a>
         </html:span></html:p>
   </fr:mainmatter>
   <fr:backmatter>

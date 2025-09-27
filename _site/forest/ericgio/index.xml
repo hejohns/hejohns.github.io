@@ -13,7 +13,7 @@
       <fr:month>6</fr:month>
       <fr:day>29</fr:day>
     </fr:date>
-    <fr:uri>http://localhost:4000/forest/ericgio/</fr:uri>
+    <fr:uri>https://hejohns.github.io/forest/ericgio/</fr:uri>
     <fr:display-uri>ericgio</fr:display-uri>
     <fr:route>/forest/ericgio/</fr:route>
     <fr:title text="Eric Giovannini">Eric Giovannini</fr:title>
@@ -58,7 +58,7 @@
               <fr:month>8</fr:month>
               <fr:day>21</fr:day>
             </fr:date>
-            <fr:uri>http://localhost:4000/forest/hejohns-000M/</fr:uri>
+            <fr:uri>https://hejohns.github.io/forest/hejohns-000M/</fr:uri>
             <fr:display-uri>hejohns-000M</fr:display-uri>
             <fr:route>/forest/hejohns-000M/</fr:route>
             <fr:title text="finite-type intuitionistic predicate logic">finite-type intuitionistic predicate logic</fr:title>
@@ -66,8 +66,8 @@
           <fr:mainmatter>
             <html:p>
     There is some (a posteriori insignificant) variation in the presentation of
-    the syntax, thus following through with some input from <fr:link href="/forest/ericgio/" title="Eric Giovannini" uri="http://localhost:4000/forest/ericgio/" display-uri="ericgio" type="local">Eric Giovannini</fr:link>, we
-    juxtapose multiple definitions-- <fr:link href="/forest/hejohns-000G/" title="What is an elementary topos?" uri="http://localhost:4000/forest/hejohns-000G/" display-uri="hejohns-000G" type="local">as done for elementary
+    the syntax, thus following through with some input from <fr:link href="/forest/ericgio/" title="Eric Giovannini" uri="https://hejohns.github.io/forest/ericgio/" display-uri="ericgio" type="local">Eric Giovannini</fr:link>, we
+    juxtapose multiple definitions-- <fr:link href="/forest/hejohns-000G/" title="What is an elementary topos?" uri="https://hejohns.github.io/forest/hejohns-000G/" display-uri="hejohns-000G" type="local">as done for elementary
     topoi</fr:link>--, but this time we slightly modify the source for
     uniformity as needed.
 </html:p>
@@ -84,7 +84,7 @@
                   <fr:month>8</fr:month>
                   <fr:day>21</fr:day>
                 </fr:date>
-                <fr:title text="Syntax à la Introduction to higher order categorical logic p.128">Syntax à la <fr:link href="/forest/lambek-scott-1986/" title="Introduction to higher order categorical logic" uri="http://localhost:4000/forest/lambek-scott-1986/" display-uri="lambek-scott-1986" type="local">Introduction to higher order categorical logic</fr:link> p.128</fr:title>
+                <fr:title text="Syntax à la Introduction to higher order categorical logic p.128">Syntax à la <fr:link href="/forest/lambek-scott-1986/" title="Introduction to higher order categorical logic" uri="https://hejohns.github.io/forest/lambek-scott-1986/" display-uri="lambek-scott-1986" type="local">Introduction to higher order categorical logic</fr:link> p.128</fr:title>
                 <fr:taxon>definition</fr:taxon>
               </fr:frontmatter>
               <fr:mainmatter>
@@ -229,7 +229,7 @@
                   <fr:month>8</fr:month>
                   <fr:day>21</fr:day>
                 </fr:date>
-                <fr:title text="Syntax à la Sketches of an Elephant: a topos theory compendium ">Syntax à la <fr:link href="/forest/johnstone-2002/" title="Sketches of an Elephant: a topos theory compendium" uri="http://localhost:4000/forest/johnstone-2002/" display-uri="johnstone-2002" type="local">Sketches of an Elephant: a topos theory compendium</fr:link> </fr:title>
+                <fr:title text="Syntax à la Sketches of an Elephant: a topos theory compendium ">Syntax à la <fr:link href="/forest/johnstone-2002/" title="Sketches of an Elephant: a topos theory compendium" uri="https://hejohns.github.io/forest/johnstone-2002/" display-uri="johnstone-2002" type="local">Sketches of an Elephant: a topos theory compendium</fr:link> </fr:title>
                 <fr:taxon>definition</fr:taxon>
               </fr:frontmatter>
               <fr:mainmatter>
@@ -438,7 +438,7 @@
                   <fr:month>8</fr:month>
                   <fr:day>21</fr:day>
                 </fr:date>
-                <fr:title text="Syntax à la Elementary Categories, Elementary Toposes 14.1">Syntax à la <fr:link href="/forest/mclarty-1992/" title="Elementary Categories, Elementary Toposes" uri="http://localhost:4000/forest/mclarty-1992/" display-uri="mclarty-1992" type="local">Elementary Categories, Elementary Toposes</fr:link> 14.1</fr:title>
+                <fr:title text="Syntax à la Elementary Categories, Elementary Toposes 14.1">Syntax à la <fr:link href="/forest/mclarty-1992/" title="Elementary Categories, Elementary Toposes" uri="https://hejohns.github.io/forest/mclarty-1992/" display-uri="mclarty-1992" type="local">Elementary Categories, Elementary Toposes</fr:link> 14.1</fr:title>
                 <fr:taxon>definition</fr:taxon>
               </fr:frontmatter>
               <fr:mainmatter>
@@ -567,8 +567,8 @@
               <fr:mainmatter>
                 <html:p>
         Ignoring the natural numbers type and the idiosyncratic list type of
-        <fr:link href="/forest/johnstone-2002/" title="Sketches of an Elephant: a topos theory compendium" uri="http://localhost:4000/forest/johnstone-2002/" display-uri="johnstone-2002" type="local">Sketches of an Elephant: a topos theory compendium</fr:link>, there is a core concept (using the notion of
-        elementary topops for reference) of <fr:link href="/forest/hejohns-000F/" title="&quot;higher-order intuitionistic logic&quot; v. &quot;topos logic&quot;" uri="http://localhost:4000/forest/hejohns-000F/" display-uri="hejohns-000F" type="local">"finite-type intuitionistic
+        <fr:link href="/forest/johnstone-2002/" title="Sketches of an Elephant: a topos theory compendium" uri="https://hejohns.github.io/forest/johnstone-2002/" display-uri="johnstone-2002" type="local">Sketches of an Elephant: a topos theory compendium</fr:link>, there is a core concept (using the notion of
+        elementary topops for reference) of <fr:link href="/forest/hejohns-000F/" title="&quot;higher-order intuitionistic logic&quot; v. &quot;topos logic&quot;" uri="https://hejohns.github.io/forest/hejohns-000F/" display-uri="hejohns-000F" type="local">"finite-type intuitionistic
         predicate logic" aka "topos logic" aka "higher-order intuitionistic
         logic"</fr:link>, although certain inter-definable choices can be
         made.

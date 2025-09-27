@@ -13,7 +13,7 @@
       <fr:month>9</fr:month>
       <fr:day>27</fr:day>
     </fr:date>
-    <fr:uri>http://localhost:4000/forest/Grunbacher-2003/</fr:uri>
+    <fr:uri>https://hejohns.github.io/forest/Grunbacher-2003/</fr:uri>
     <fr:display-uri>Grunbacher-2003</fr:display-uri>
     <fr:route>/forest/Grunbacher-2003/</fr:route>
     <fr:title text="POSIX Access Control Lists on Linux">POSIX Access Control Lists on Linux</fr:title>
@@ -47,7 +47,7 @@
     </fr:tree>
     <html:p>
       <html:span class="link local">
-            <html:a href="/forest/bafkrmihmf6t2qvxu34gxcznjegv7ce2fpsgkycutstcfvf5pua7yxxfxku.html">paper</html:a>
+            <html:a href="/forest/bafkrmigm4mwz25dhgz3akzs7ln37m7vjvpj5mmbxbqis7znxajc4zfzpry.html">paper</html:a>
         </html:span>
     </html:p>
   </fr:mainmatter>
@@ -85,7 +85,7 @@
               <fr:month>9</fr:month>
               <fr:day>27</fr:day>
             </fr:date>
-            <fr:uri>http://localhost:4000/forest/hejohns-000V/</fr:uri>
+            <fr:uri>https://hejohns.github.io/forest/hejohns-000V/</fr:uri>
             <fr:display-uri>hejohns-000V</fr:display-uri>
             <fr:route>/forest/hejohns-000V/</fr:route>
             <fr:title text="ACL permissions">ACL permissions</fr:title>
@@ -95,7 +95,7 @@
             <html:p>
     I thought I needed (extended) ACL permissions earlier (in the end, it was a
     different problem), and needed to brush up on how they work.
-    <fr:link href="/forest/Grunbacher-2003/" title="POSIX Access Control Lists on Linux" uri="http://localhost:4000/forest/Grunbacher-2003/" display-uri="Grunbacher-2003" type="local">POSIX Access Control Lists on Linux</fr:link> has a nice description of ACL and how it interacts with
+    <fr:link href="/forest/Grunbacher-2003/" title="POSIX Access Control Lists on Linux" uri="https://hejohns.github.io/forest/Grunbacher-2003/" display-uri="Grunbacher-2003" type="local">POSIX Access Control Lists on Linux</fr:link> has a nice description of ACL and how it interacts with
     traditional owner-group-other 3-3-3 permissions.
 </html:p>
             <html:p>

@@ -4,7 +4,7 @@
   <fr:frontmatter>
     <fr:authors>
       <fr:author>
-        <fr:link href="/forest/hejohns/" title="Johnson He" uri="http://localhost:4000/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+        <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
       </fr:author>
     </fr:authors>
     <fr:date>
@@ -17,7 +17,7 @@
       <fr:month>8</fr:month>
       <fr:day>21</fr:day>
     </fr:date>
-    <fr:uri>http://localhost:4000/forest/subbb-000E/</fr:uri>
+    <fr:uri>https://hejohns.github.io/forest/subbb-000E/</fr:uri>
     <fr:display-uri>subbb-000E</fr:display-uri>
     <fr:route>/forest/subbb-000E/</fr:route>
     <fr:title text="II">II</fr:title>
@@ -57,7 +57,7 @@
           <fr:frontmatter>
             <fr:authors>
               <fr:author>
-                <fr:link href="/forest/hejohns/" title="Johnson He" uri="http://localhost:4000/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
               </fr:author>
             </fr:authors>
             <fr:date>
@@ -70,7 +70,7 @@
               <fr:month>8</fr:month>
               <fr:day>21</fr:day>
             </fr:date>
-            <fr:uri>http://localhost:4000/forest/hejohns-000E/</fr:uri>
+            <fr:uri>https://hejohns.github.io/forest/hejohns-000E/</fr:uri>
             <fr:display-uri>hejohns-000E</fr:display-uri>
             <fr:route>/forest/hejohns-000E/</fr:route>
             <fr:title text="adjunction core">adjunction core</fr:title>
@@ -81,7 +81,7 @@
               <fr:frontmatter>
                 <fr:authors>
                   <fr:author>
-                    <fr:link href="/forest/hejohns/" title="Johnson He" uri="http://localhost:4000/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                    <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
                   </fr:author>
                 </fr:authors>
                 <fr:date>
@@ -97,7 +97,7 @@
                 <fr:taxon>definition</fr:taxon>
               </fr:frontmatter>
               <fr:mainmatter>
-                <html:p><fr:link href="/forest/street-2012/" title="The Core of Adjoint Functors" uri="http://localhost:4000/forest/street-2012/" display-uri="street-2012" type="local">"An adjunction core consists of"</fr:link>
+                <html:p><fr:link href="/forest/street-2012/" title="The Core of Adjoint Functors" uri="https://hejohns.github.io/forest/street-2012/" display-uri="street-2012" type="local">"An adjunction core consists of"</fr:link>
         <html:ul><html:li>
                 functions <fr:tex display="inline"><![CDATA[U : A .ob → X .ob]]></fr:tex> and <fr:tex display="inline"><![CDATA[F : X .ob → A .ob]]></fr:tex></html:li>
             <html:li>
@@ -108,7 +108,7 @@
               <fr:frontmatter>
                 <fr:authors>
                   <fr:author>
-                    <fr:link href="/forest/hejohns/" title="Johnson He" uri="http://localhost:4000/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                    <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
                   </fr:author>
                 </fr:authors>
                 <fr:date>
@@ -126,12 +126,12 @@
               <fr:mainmatter>
                 <html:p>
         An adjunction core extends to an adjuction iff <fr:tex display="inline"><![CDATA[∀a,b ∈ A. ∀x ∈ X.]]></fr:tex>
-        <fr:link href="/forest/subb-000E/" title="I" uri="http://localhost:4000/forest/subb-000E/" display-uri="subb-000E" type="local">I</fr:link> commutes, and iff <fr:tex display="inline"><![CDATA[∀x,y ∈ X. a ∈ A.]]></fr:tex> <fr:link href="/forest/subbb-000E/" title="II" uri="http://localhost:4000/forest/subbb-000E/" display-uri="subbb-000E" type="local">II</fr:link>
+        <fr:link href="/forest/subb-000E/" title="I" uri="https://hejohns.github.io/forest/subb-000E/" display-uri="subb-000E" type="local">I</fr:link> commutes, and iff <fr:tex display="inline"><![CDATA[∀x,y ∈ X. a ∈ A.]]></fr:tex> <fr:link href="/forest/subbb-000E/" title="II" uri="https://hejohns.github.io/forest/subbb-000E/" display-uri="subbb-000E" type="local">II</fr:link>
         commutes.
         The adjunction is unique when it exists.
     </html:p>
                 <html:p>
-        The <fr:link href="/forest/street-2012/" title="The Core of Adjoint Functors" uri="http://localhost:4000/forest/street-2012/" display-uri="street-2012" type="local">original theorem</fr:link> is stated in terms of
+        The <fr:link href="/forest/street-2012/" title="The Core of Adjoint Functors" uri="https://hejohns.github.io/forest/street-2012/" display-uri="street-2012" type="local">original theorem</fr:link> is stated in terms of
         <fr:tex display="inline"><![CDATA[\mathcal {V}]]></fr:tex>-enriched categories, but we only treat the simple case
         of Homset-categories here.
     </html:p>
@@ -139,7 +139,7 @@
                   <fr:frontmatter>
                     <fr:authors>
                       <fr:author>
-                        <fr:link href="/forest/hejohns/" title="Johnson He" uri="http://localhost:4000/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                        <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
                       </fr:author>
                     </fr:authors>
                     <fr:date>
@@ -152,7 +152,7 @@
                       <fr:month>8</fr:month>
                       <fr:day>21</fr:day>
                     </fr:date>
-                    <fr:uri>http://localhost:4000/forest/subb-000E/</fr:uri>
+                    <fr:uri>https://hejohns.github.io/forest/subb-000E/</fr:uri>
                     <fr:display-uri>subb-000E</fr:display-uri>
                     <fr:route>/forest/subb-000E/</fr:route>
                     <fr:title text="I">I</fr:title>
@@ -179,7 +179,7 @@
                   <fr:frontmatter>
                     <fr:authors>
                       <fr:author>
-                        <fr:link href="/forest/hejohns/" title="Johnson He" uri="http://localhost:4000/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                        <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
                       </fr:author>
                     </fr:authors>
                     <fr:date>
@@ -192,7 +192,7 @@
                       <fr:month>8</fr:month>
                       <fr:day>21</fr:day>
                     </fr:date>
-                    <fr:uri>http://localhost:4000/forest/subbb-000E/</fr:uri>
+                    <fr:uri>https://hejohns.github.io/forest/subbb-000E/</fr:uri>
                     <fr:display-uri>subbb-000E</fr:display-uri>
                     <fr:route>/forest/subbb-000E/</fr:route>
                     <fr:title text="II">II</fr:title>
@@ -221,7 +221,7 @@
               <fr:frontmatter>
                 <fr:authors>
                   <fr:author>
-                    <fr:link href="/forest/hejohns/" title="Johnson He" uri="http://localhost:4000/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                    <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
                   </fr:author>
                 </fr:authors>
                 <fr:date>
@@ -238,26 +238,26 @@
               </fr:frontmatter>
               <fr:mainmatter>
                 <html:p>
-        We use the same notation and definitions of <fr:tex display="inline"><![CDATA[η, ϵ, \overline {F}, \overline {U}]]></fr:tex> as <fr:link href="/forest/hejohns-000D/" title="the verbose proof" uri="http://localhost:4000/forest/hejohns-000D/" display-uri="hejohns-000D" type="local">the
+        We use the same notation and definitions of <fr:tex display="inline"><![CDATA[η, ϵ, \overline {F}, \overline {U}]]></fr:tex> as <fr:link href="/forest/hejohns-000D/" title="the verbose proof" uri="https://hejohns.github.io/forest/hejohns-000D/" display-uri="hejohns-000D" type="local">the
         explicit proof of the precursor lemma</fr:link>.
-        The definition of <fr:tex display="inline"><![CDATA[\overline {F}, \overline {U}]]></fr:tex> in <fr:link href="/forest/sub-0007/" title="Precursor to The Core of Adjoint Functors › the short proof (sketch)" uri="http://localhost:4000/forest/sub-0007/" display-uri="sub-0007" type="local">the short proof</fr:link>
+        The definition of <fr:tex display="inline"><![CDATA[\overline {F}, \overline {U}]]></fr:tex> in <fr:link href="/forest/sub-0007/" title="Precursor to The Core of Adjoint Functors › the short proof (sketch)" uri="https://hejohns.github.io/forest/sub-0007/" display-uri="sub-0007" type="local">the short proof</fr:link>
         presupposes that <fr:tex display="inline"><![CDATA[U]]></fr:tex> is a functor, so we're scrupulous to avoid
         circularity.
     </html:p>
                 <html:p>
-        This proof is rather low tech and is lifted straight from <fr:link href="/forest/street-2012/" title="The Core of Adjoint Functors" uri="http://localhost:4000/forest/street-2012/" display-uri="street-2012" type="local">the
-        paper</fr:link>. It's also how you'd attack <fr:link href="/forest/hejohns-0007/" title="Precursor to The Core of Adjoint Functors" uri="http://localhost:4000/forest/hejohns-0007/" display-uri="hejohns-0007" type="local">the
+        This proof is rather low tech and is lifted straight from <fr:link href="/forest/street-2012/" title="The Core of Adjoint Functors" uri="https://hejohns.github.io/forest/street-2012/" display-uri="street-2012" type="local">the
+        paper</fr:link>. It's also how you'd attack <fr:link href="/forest/hejohns-0007/" title="Precursor to The Core of Adjoint Functors" uri="https://hejohns.github.io/forest/hejohns-0007/" display-uri="hejohns-0007" type="local">the
         precursor</fr:link> head-on. The utility is that it holds in
         enriched categories.
     </html:p>
                 <html:p>
         The forward directions are trivial.
         Suppose <fr:tex display="inline"><![CDATA[(F, U, (π_{a, x})_{a ∈ A, x ∈ X})]]></fr:tex> extends to <fr:tex display="inline"><![CDATA[\overline {F} ⊣_π \overline {U}]]></fr:tex>.
-        Then <fr:link href="/forest/subb-000E/" title="I" uri="http://localhost:4000/forest/subb-000E/" display-uri="subb-000E" type="local">I</fr:link> expresses that <fr:tex display="inline"><![CDATA[∀g : A(a, b). ∀f : A(F(x), a).
+        Then <fr:link href="/forest/subb-000E/" title="I" uri="https://hejohns.github.io/forest/subb-000E/" display-uri="subb-000E" type="local">I</fr:link> expresses that <fr:tex display="inline"><![CDATA[∀g : A(a, b). ∀f : A(F(x), a).
         π_{x, b}(g∘f) = \overline {U}(g)∘π_{a, x}(f)]]></fr:tex>. This is exactly the condition
         that <fr:tex display="inline"><![CDATA[∀g : A(a, b). π]]></fr:tex> is natural in <fr:tex display="inline"><![CDATA[a]]></fr:tex> at <fr:tex display="inline"><![CDATA[g]]></fr:tex>, which is certainly
         true of an adjunction.
-        <fr:link href="/forest/subbb-000E/" title="II" uri="http://localhost:4000/forest/subbb-000E/" display-uri="subbb-000E" type="local">II</fr:link> expresses something similar (dual).
+        <fr:link href="/forest/subbb-000E/" title="II" uri="https://hejohns.github.io/forest/subbb-000E/" display-uri="subbb-000E" type="local">II</fr:link> expresses something similar (dual).
     </html:p>
                 <html:p>
         The nontrivial directions are the backward directions.
@@ -321,11 +321,11 @@
 
 
             <html:p>
-                Combined with <fr:link href="/forest/hejohns-000D/" title="the verbose proof" uri="http://localhost:4000/forest/hejohns-000D/" display-uri="hejohns-000D" type="local">the earlier proof</fr:link> that <fr:tex display="inline"><![CDATA[\overline {U}(1ₐ)
+                Combined with <fr:link href="/forest/hejohns-000D/" title="the verbose proof" uri="https://hejohns.github.io/forest/hejohns-000D/" display-uri="hejohns-000D" type="local">the earlier proof</fr:link> that <fr:tex display="inline"><![CDATA[\overline {U}(1ₐ)
                 = 1_{\overline {U}(a)}]]></fr:tex> (which just follows by definition),
                 we've shown that <fr:tex display="inline"><![CDATA[\overline {U}]]></fr:tex> defines a functorial action on morphisms.
-                Actually, we saw earlier that <fr:link href="/forest/subb-000E/" title="I" uri="http://localhost:4000/forest/subb-000E/" display-uri="subb-000E" type="local">I</fr:link> expresses that
-                <fr:tex display="inline"><![CDATA[π]]></fr:tex> is natural in <fr:tex display="inline"><![CDATA[a]]></fr:tex>, so we've met the preconditions of <fr:link href="/forest/hejohns-0007/" title="Precursor to The Core of Adjoint Functors" uri="http://localhost:4000/forest/hejohns-0007/" display-uri="hejohns-0007" type="local">the
+                Actually, we saw earlier that <fr:link href="/forest/subb-000E/" title="I" uri="https://hejohns.github.io/forest/subb-000E/" display-uri="subb-000E" type="local">I</fr:link> expresses that
+                <fr:tex display="inline"><![CDATA[π]]></fr:tex> is natural in <fr:tex display="inline"><![CDATA[a]]></fr:tex>, so we've met the preconditions of <fr:link href="/forest/hejohns-0007/" title="Precursor to The Core of Adjoint Functors" uri="https://hejohns.github.io/forest/hejohns-0007/" display-uri="hejohns-0007" type="local">the
                 precursor lemma</fr:link>, thus there is a unique
                 extension <fr:tex display="inline"><![CDATA[\overline {F}]]></fr:tex> st <fr:tex display="inline"><![CDATA[\overline {F} ⊣_π \overline {U}]]></fr:tex>.
             </html:p>
@@ -353,16 +353,16 @@
 
 
                     Thus, <fr:tex display="inline"><![CDATA[∀g. U'(g) = \overline {U}(g)]]></fr:tex>.
-                    Then, with <fr:tex display="inline"><![CDATA[\overline {U}]]></fr:tex> a functor and <fr:tex display="inline"><![CDATA[π]]></fr:tex> natural in <fr:tex display="inline"><![CDATA[a]]></fr:tex>, <fr:link href="/forest/hejohns-0007/" title="Precursor to The Core of Adjoint Functors" uri="http://localhost:4000/forest/hejohns-0007/" display-uri="hejohns-0007" type="local">the
+                    Then, with <fr:tex display="inline"><![CDATA[\overline {U}]]></fr:tex> a functor and <fr:tex display="inline"><![CDATA[π]]></fr:tex> natural in <fr:tex display="inline"><![CDATA[a]]></fr:tex>, <fr:link href="/forest/hejohns-0007/" title="Precursor to The Core of Adjoint Functors" uri="https://hejohns.github.io/forest/hejohns-0007/" display-uri="hejohns-0007" type="local">the
                     precursor</fr:link> gives us a unique <fr:tex display="inline"><![CDATA[\overline {F}]]></fr:tex> st <fr:tex display="inline"><![CDATA[\overline {F}
                     ⊣ \overline {U}]]></fr:tex> uniquely.
                 </html:li>
                 <html:li>
                     (Going backwards) Since the definitions of <fr:tex display="inline"><![CDATA[\overline {F}]]></fr:tex> and
-                    <fr:tex display="inline"><![CDATA[\overline {U}]]></fr:tex> (in <fr:link href="/forest/hejohns-0007/" title="Precursor to The Core of Adjoint Functors" uri="http://localhost:4000/forest/hejohns-0007/" display-uri="hejohns-0007" type="local">the precursor</fr:link>) are not dependent
+                    <fr:tex display="inline"><![CDATA[\overline {U}]]></fr:tex> (in <fr:link href="/forest/hejohns-0007/" title="Precursor to The Core of Adjoint Functors" uri="https://hejohns.github.io/forest/hejohns-0007/" display-uri="hejohns-0007" type="local">the precursor</fr:link>) are not dependent
                     on the other functor, the total adjunction <fr:tex display="inline"><![CDATA[\overline {F} ⊣ \overline {U}]]></fr:tex> is
                     the unique one extending the core by applying the
-                    uniqueness result of <fr:link href="/forest/hejohns-0007/" title="Precursor to The Core of Adjoint Functors" uri="http://localhost:4000/forest/hejohns-0007/" display-uri="hejohns-0007" type="local">the precusor</fr:link> to each
+                    uniqueness result of <fr:link href="/forest/hejohns-0007/" title="Precursor to The Core of Adjoint Functors" uri="https://hejohns.github.io/forest/hejohns-0007/" display-uri="hejohns-0007" type="local">the precusor</fr:link> to each
                     functor in turn, just knowing the other is a well-defined
                     functor.
                 </html:li></html:ul></html:li>
@@ -376,7 +376,7 @@
               <fr:frontmatter>
                 <fr:authors>
                   <fr:author>
-                    <fr:link href="/forest/hejohns/" title="Johnson He" uri="http://localhost:4000/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                    <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
                   </fr:author>
                 </fr:authors>
                 <fr:date>
@@ -389,7 +389,7 @@
                   <fr:month>8</fr:month>
                   <fr:day>21</fr:day>
                 </fr:date>
-                <fr:uri>http://localhost:4000/forest/sub-000E/</fr:uri>
+                <fr:uri>https://hejohns.github.io/forest/sub-000E/</fr:uri>
                 <fr:display-uri>sub-000E</fr:display-uri>
                 <fr:route>/forest/sub-000E/</fr:route>
                 <fr:taxon>proof corollary</fr:taxon>
@@ -400,7 +400,7 @@
         thus an adjunction core always determines an adjunction.
     </html:p>
                 <html:p><fr:tex display="inline"><![CDATA[Set]]></fr:tex> isn't thin, but <fr:tex display="inline"><![CDATA[2]]></fr:tex> is, thus for posets, an adjunction core
-        gives rise to a thin adjunction, as remarked <fr:link href="/forest/subb-0006/" title="the core of adjoint monotone functions › http://localhost:4000/forest/subb-0006/" uri="http://localhost:4000/forest/subb-0006/" display-uri="subb-0006" type="local">here</fr:link>.
+        gives rise to a thin adjunction, as remarked <fr:link href="/forest/subb-0006/" title="the core of adjoint monotone functions › https://hejohns.github.io/forest/subb-0006/" uri="https://hejohns.github.io/forest/subb-0006/" display-uri="subb-0006" type="local">here</fr:link>.
         I don't know how useful this lemma is for ordinary Homset categories.
     </html:p>
               </fr:mainmatter>
@@ -419,7 +419,7 @@
           <fr:frontmatter>
             <fr:authors>
               <fr:author>
-                <fr:link href="/forest/hejohns/" title="Johnson He" uri="http://localhost:4000/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
               </fr:author>
             </fr:authors>
             <fr:date>
@@ -432,7 +432,7 @@
               <fr:month>8</fr:month>
               <fr:day>21</fr:day>
             </fr:date>
-            <fr:uri>http://localhost:4000/forest/hejohns-000E/</fr:uri>
+            <fr:uri>https://hejohns.github.io/forest/hejohns-000E/</fr:uri>
             <fr:display-uri>hejohns-000E</fr:display-uri>
             <fr:route>/forest/hejohns-000E/</fr:route>
             <fr:title text="adjunction core">adjunction core</fr:title>
@@ -443,7 +443,7 @@
               <fr:frontmatter>
                 <fr:authors>
                   <fr:author>
-                    <fr:link href="/forest/hejohns/" title="Johnson He" uri="http://localhost:4000/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                    <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
                   </fr:author>
                 </fr:authors>
                 <fr:date>
@@ -459,7 +459,7 @@
                 <fr:taxon>definition</fr:taxon>
               </fr:frontmatter>
               <fr:mainmatter>
-                <html:p><fr:link href="/forest/street-2012/" title="The Core of Adjoint Functors" uri="http://localhost:4000/forest/street-2012/" display-uri="street-2012" type="local">"An adjunction core consists of"</fr:link>
+                <html:p><fr:link href="/forest/street-2012/" title="The Core of Adjoint Functors" uri="https://hejohns.github.io/forest/street-2012/" display-uri="street-2012" type="local">"An adjunction core consists of"</fr:link>
         <html:ul><html:li>
                 functions <fr:tex display="inline"><![CDATA[U : A .ob → X .ob]]></fr:tex> and <fr:tex display="inline"><![CDATA[F : X .ob → A .ob]]></fr:tex></html:li>
             <html:li>
@@ -470,7 +470,7 @@
               <fr:frontmatter>
                 <fr:authors>
                   <fr:author>
-                    <fr:link href="/forest/hejohns/" title="Johnson He" uri="http://localhost:4000/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                    <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
                   </fr:author>
                 </fr:authors>
                 <fr:date>
@@ -488,12 +488,12 @@
               <fr:mainmatter>
                 <html:p>
         An adjunction core extends to an adjuction iff <fr:tex display="inline"><![CDATA[∀a,b ∈ A. ∀x ∈ X.]]></fr:tex>
-        <fr:link href="/forest/subb-000E/" title="I" uri="http://localhost:4000/forest/subb-000E/" display-uri="subb-000E" type="local">I</fr:link> commutes, and iff <fr:tex display="inline"><![CDATA[∀x,y ∈ X. a ∈ A.]]></fr:tex> <fr:link href="/forest/subbb-000E/" title="II" uri="http://localhost:4000/forest/subbb-000E/" display-uri="subbb-000E" type="local">II</fr:link>
+        <fr:link href="/forest/subb-000E/" title="I" uri="https://hejohns.github.io/forest/subb-000E/" display-uri="subb-000E" type="local">I</fr:link> commutes, and iff <fr:tex display="inline"><![CDATA[∀x,y ∈ X. a ∈ A.]]></fr:tex> <fr:link href="/forest/subbb-000E/" title="II" uri="https://hejohns.github.io/forest/subbb-000E/" display-uri="subbb-000E" type="local">II</fr:link>
         commutes.
         The adjunction is unique when it exists.
     </html:p>
                 <html:p>
-        The <fr:link href="/forest/street-2012/" title="The Core of Adjoint Functors" uri="http://localhost:4000/forest/street-2012/" display-uri="street-2012" type="local">original theorem</fr:link> is stated in terms of
+        The <fr:link href="/forest/street-2012/" title="The Core of Adjoint Functors" uri="https://hejohns.github.io/forest/street-2012/" display-uri="street-2012" type="local">original theorem</fr:link> is stated in terms of
         <fr:tex display="inline"><![CDATA[\mathcal {V}]]></fr:tex>-enriched categories, but we only treat the simple case
         of Homset-categories here.
     </html:p>
@@ -501,7 +501,7 @@
                   <fr:frontmatter>
                     <fr:authors>
                       <fr:author>
-                        <fr:link href="/forest/hejohns/" title="Johnson He" uri="http://localhost:4000/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                        <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
                       </fr:author>
                     </fr:authors>
                     <fr:date>
@@ -514,7 +514,7 @@
                       <fr:month>8</fr:month>
                       <fr:day>21</fr:day>
                     </fr:date>
-                    <fr:uri>http://localhost:4000/forest/subb-000E/</fr:uri>
+                    <fr:uri>https://hejohns.github.io/forest/subb-000E/</fr:uri>
                     <fr:display-uri>subb-000E</fr:display-uri>
                     <fr:route>/forest/subb-000E/</fr:route>
                     <fr:title text="I">I</fr:title>
@@ -541,7 +541,7 @@
                   <fr:frontmatter>
                     <fr:authors>
                       <fr:author>
-                        <fr:link href="/forest/hejohns/" title="Johnson He" uri="http://localhost:4000/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                        <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
                       </fr:author>
                     </fr:authors>
                     <fr:date>
@@ -554,7 +554,7 @@
                       <fr:month>8</fr:month>
                       <fr:day>21</fr:day>
                     </fr:date>
-                    <fr:uri>http://localhost:4000/forest/subbb-000E/</fr:uri>
+                    <fr:uri>https://hejohns.github.io/forest/subbb-000E/</fr:uri>
                     <fr:display-uri>subbb-000E</fr:display-uri>
                     <fr:route>/forest/subbb-000E/</fr:route>
                     <fr:title text="II">II</fr:title>
@@ -583,7 +583,7 @@
               <fr:frontmatter>
                 <fr:authors>
                   <fr:author>
-                    <fr:link href="/forest/hejohns/" title="Johnson He" uri="http://localhost:4000/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                    <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
                   </fr:author>
                 </fr:authors>
                 <fr:date>
@@ -600,26 +600,26 @@
               </fr:frontmatter>
               <fr:mainmatter>
                 <html:p>
-        We use the same notation and definitions of <fr:tex display="inline"><![CDATA[η, ϵ, \overline {F}, \overline {U}]]></fr:tex> as <fr:link href="/forest/hejohns-000D/" title="the verbose proof" uri="http://localhost:4000/forest/hejohns-000D/" display-uri="hejohns-000D" type="local">the
+        We use the same notation and definitions of <fr:tex display="inline"><![CDATA[η, ϵ, \overline {F}, \overline {U}]]></fr:tex> as <fr:link href="/forest/hejohns-000D/" title="the verbose proof" uri="https://hejohns.github.io/forest/hejohns-000D/" display-uri="hejohns-000D" type="local">the
         explicit proof of the precursor lemma</fr:link>.
-        The definition of <fr:tex display="inline"><![CDATA[\overline {F}, \overline {U}]]></fr:tex> in <fr:link href="/forest/sub-0007/" title="Precursor to The Core of Adjoint Functors › the short proof (sketch)" uri="http://localhost:4000/forest/sub-0007/" display-uri="sub-0007" type="local">the short proof</fr:link>
+        The definition of <fr:tex display="inline"><![CDATA[\overline {F}, \overline {U}]]></fr:tex> in <fr:link href="/forest/sub-0007/" title="Precursor to The Core of Adjoint Functors › the short proof (sketch)" uri="https://hejohns.github.io/forest/sub-0007/" display-uri="sub-0007" type="local">the short proof</fr:link>
         presupposes that <fr:tex display="inline"><![CDATA[U]]></fr:tex> is a functor, so we're scrupulous to avoid
         circularity.
     </html:p>
                 <html:p>
-        This proof is rather low tech and is lifted straight from <fr:link href="/forest/street-2012/" title="The Core of Adjoint Functors" uri="http://localhost:4000/forest/street-2012/" display-uri="street-2012" type="local">the
-        paper</fr:link>. It's also how you'd attack <fr:link href="/forest/hejohns-0007/" title="Precursor to The Core of Adjoint Functors" uri="http://localhost:4000/forest/hejohns-0007/" display-uri="hejohns-0007" type="local">the
+        This proof is rather low tech and is lifted straight from <fr:link href="/forest/street-2012/" title="The Core of Adjoint Functors" uri="https://hejohns.github.io/forest/street-2012/" display-uri="street-2012" type="local">the
+        paper</fr:link>. It's also how you'd attack <fr:link href="/forest/hejohns-0007/" title="Precursor to The Core of Adjoint Functors" uri="https://hejohns.github.io/forest/hejohns-0007/" display-uri="hejohns-0007" type="local">the
         precursor</fr:link> head-on. The utility is that it holds in
         enriched categories.
     </html:p>
                 <html:p>
         The forward directions are trivial.
         Suppose <fr:tex display="inline"><![CDATA[(F, U, (π_{a, x})_{a ∈ A, x ∈ X})]]></fr:tex> extends to <fr:tex display="inline"><![CDATA[\overline {F} ⊣_π \overline {U}]]></fr:tex>.
-        Then <fr:link href="/forest/subb-000E/" title="I" uri="http://localhost:4000/forest/subb-000E/" display-uri="subb-000E" type="local">I</fr:link> expresses that <fr:tex display="inline"><![CDATA[∀g : A(a, b). ∀f : A(F(x), a).
+        Then <fr:link href="/forest/subb-000E/" title="I" uri="https://hejohns.github.io/forest/subb-000E/" display-uri="subb-000E" type="local">I</fr:link> expresses that <fr:tex display="inline"><![CDATA[∀g : A(a, b). ∀f : A(F(x), a).
         π_{x, b}(g∘f) = \overline {U}(g)∘π_{a, x}(f)]]></fr:tex>. This is exactly the condition
         that <fr:tex display="inline"><![CDATA[∀g : A(a, b). π]]></fr:tex> is natural in <fr:tex display="inline"><![CDATA[a]]></fr:tex> at <fr:tex display="inline"><![CDATA[g]]></fr:tex>, which is certainly
         true of an adjunction.
-        <fr:link href="/forest/subbb-000E/" title="II" uri="http://localhost:4000/forest/subbb-000E/" display-uri="subbb-000E" type="local">II</fr:link> expresses something similar (dual).
+        <fr:link href="/forest/subbb-000E/" title="II" uri="https://hejohns.github.io/forest/subbb-000E/" display-uri="subbb-000E" type="local">II</fr:link> expresses something similar (dual).
     </html:p>
                 <html:p>
         The nontrivial directions are the backward directions.
@@ -683,11 +683,11 @@
 
 
             <html:p>
-                Combined with <fr:link href="/forest/hejohns-000D/" title="the verbose proof" uri="http://localhost:4000/forest/hejohns-000D/" display-uri="hejohns-000D" type="local">the earlier proof</fr:link> that <fr:tex display="inline"><![CDATA[\overline {U}(1ₐ)
+                Combined with <fr:link href="/forest/hejohns-000D/" title="the verbose proof" uri="https://hejohns.github.io/forest/hejohns-000D/" display-uri="hejohns-000D" type="local">the earlier proof</fr:link> that <fr:tex display="inline"><![CDATA[\overline {U}(1ₐ)
                 = 1_{\overline {U}(a)}]]></fr:tex> (which just follows by definition),
                 we've shown that <fr:tex display="inline"><![CDATA[\overline {U}]]></fr:tex> defines a functorial action on morphisms.
-                Actually, we saw earlier that <fr:link href="/forest/subb-000E/" title="I" uri="http://localhost:4000/forest/subb-000E/" display-uri="subb-000E" type="local">I</fr:link> expresses that
-                <fr:tex display="inline"><![CDATA[π]]></fr:tex> is natural in <fr:tex display="inline"><![CDATA[a]]></fr:tex>, so we've met the preconditions of <fr:link href="/forest/hejohns-0007/" title="Precursor to The Core of Adjoint Functors" uri="http://localhost:4000/forest/hejohns-0007/" display-uri="hejohns-0007" type="local">the
+                Actually, we saw earlier that <fr:link href="/forest/subb-000E/" title="I" uri="https://hejohns.github.io/forest/subb-000E/" display-uri="subb-000E" type="local">I</fr:link> expresses that
+                <fr:tex display="inline"><![CDATA[π]]></fr:tex> is natural in <fr:tex display="inline"><![CDATA[a]]></fr:tex>, so we've met the preconditions of <fr:link href="/forest/hejohns-0007/" title="Precursor to The Core of Adjoint Functors" uri="https://hejohns.github.io/forest/hejohns-0007/" display-uri="hejohns-0007" type="local">the
                 precursor lemma</fr:link>, thus there is a unique
                 extension <fr:tex display="inline"><![CDATA[\overline {F}]]></fr:tex> st <fr:tex display="inline"><![CDATA[\overline {F} ⊣_π \overline {U}]]></fr:tex>.
             </html:p>
@@ -715,16 +715,16 @@
 
 
                     Thus, <fr:tex display="inline"><![CDATA[∀g. U'(g) = \overline {U}(g)]]></fr:tex>.
-                    Then, with <fr:tex display="inline"><![CDATA[\overline {U}]]></fr:tex> a functor and <fr:tex display="inline"><![CDATA[π]]></fr:tex> natural in <fr:tex display="inline"><![CDATA[a]]></fr:tex>, <fr:link href="/forest/hejohns-0007/" title="Precursor to The Core of Adjoint Functors" uri="http://localhost:4000/forest/hejohns-0007/" display-uri="hejohns-0007" type="local">the
+                    Then, with <fr:tex display="inline"><![CDATA[\overline {U}]]></fr:tex> a functor and <fr:tex display="inline"><![CDATA[π]]></fr:tex> natural in <fr:tex display="inline"><![CDATA[a]]></fr:tex>, <fr:link href="/forest/hejohns-0007/" title="Precursor to The Core of Adjoint Functors" uri="https://hejohns.github.io/forest/hejohns-0007/" display-uri="hejohns-0007" type="local">the
                     precursor</fr:link> gives us a unique <fr:tex display="inline"><![CDATA[\overline {F}]]></fr:tex> st <fr:tex display="inline"><![CDATA[\overline {F}
                     ⊣ \overline {U}]]></fr:tex> uniquely.
                 </html:li>
                 <html:li>
                     (Going backwards) Since the definitions of <fr:tex display="inline"><![CDATA[\overline {F}]]></fr:tex> and
-                    <fr:tex display="inline"><![CDATA[\overline {U}]]></fr:tex> (in <fr:link href="/forest/hejohns-0007/" title="Precursor to The Core of Adjoint Functors" uri="http://localhost:4000/forest/hejohns-0007/" display-uri="hejohns-0007" type="local">the precursor</fr:link>) are not dependent
+                    <fr:tex display="inline"><![CDATA[\overline {U}]]></fr:tex> (in <fr:link href="/forest/hejohns-0007/" title="Precursor to The Core of Adjoint Functors" uri="https://hejohns.github.io/forest/hejohns-0007/" display-uri="hejohns-0007" type="local">the precursor</fr:link>) are not dependent
                     on the other functor, the total adjunction <fr:tex display="inline"><![CDATA[\overline {F} ⊣ \overline {U}]]></fr:tex> is
                     the unique one extending the core by applying the
-                    uniqueness result of <fr:link href="/forest/hejohns-0007/" title="Precursor to The Core of Adjoint Functors" uri="http://localhost:4000/forest/hejohns-0007/" display-uri="hejohns-0007" type="local">the precusor</fr:link> to each
+                    uniqueness result of <fr:link href="/forest/hejohns-0007/" title="Precursor to The Core of Adjoint Functors" uri="https://hejohns.github.io/forest/hejohns-0007/" display-uri="hejohns-0007" type="local">the precusor</fr:link> to each
                     functor in turn, just knowing the other is a well-defined
                     functor.
                 </html:li></html:ul></html:li>
@@ -738,7 +738,7 @@
               <fr:frontmatter>
                 <fr:authors>
                   <fr:author>
-                    <fr:link href="/forest/hejohns/" title="Johnson He" uri="http://localhost:4000/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                    <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
                   </fr:author>
                 </fr:authors>
                 <fr:date>
@@ -751,7 +751,7 @@
                   <fr:month>8</fr:month>
                   <fr:day>21</fr:day>
                 </fr:date>
-                <fr:uri>http://localhost:4000/forest/sub-000E/</fr:uri>
+                <fr:uri>https://hejohns.github.io/forest/sub-000E/</fr:uri>
                 <fr:display-uri>sub-000E</fr:display-uri>
                 <fr:route>/forest/sub-000E/</fr:route>
                 <fr:taxon>proof corollary</fr:taxon>
@@ -762,7 +762,7 @@
         thus an adjunction core always determines an adjunction.
     </html:p>
                 <html:p><fr:tex display="inline"><![CDATA[Set]]></fr:tex> isn't thin, but <fr:tex display="inline"><![CDATA[2]]></fr:tex> is, thus for posets, an adjunction core
-        gives rise to a thin adjunction, as remarked <fr:link href="/forest/subb-0006/" title="the core of adjoint monotone functions › http://localhost:4000/forest/subb-0006/" uri="http://localhost:4000/forest/subb-0006/" display-uri="subb-0006" type="local">here</fr:link>.
+        gives rise to a thin adjunction, as remarked <fr:link href="/forest/subb-0006/" title="the core of adjoint monotone functions › https://hejohns.github.io/forest/subb-0006/" uri="https://hejohns.github.io/forest/subb-0006/" display-uri="subb-0006" type="local">here</fr:link>.
         I don't know how useful this lemma is for ordinary Homset categories.
     </html:p>
               </fr:mainmatter>

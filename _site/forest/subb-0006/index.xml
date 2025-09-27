@@ -4,7 +4,7 @@
   <fr:frontmatter>
     <fr:authors>
       <fr:author>
-        <fr:link href="/forest/hejohns/" title="Johnson He" uri="http://localhost:4000/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+        <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
       </fr:author>
     </fr:authors>
     <fr:date>
@@ -17,16 +17,16 @@
       <fr:month>5</fr:month>
       <fr:day>11</fr:day>
     </fr:date>
-    <fr:uri>http://localhost:4000/forest/subb-0006/</fr:uri>
+    <fr:uri>https://hejohns.github.io/forest/subb-0006/</fr:uri>
     <fr:display-uri>subb-0006</fr:display-uri>
     <fr:route>/forest/subb-0006/</fr:route>
     <fr:taxon>proof corollary</fr:taxon>
   </fr:frontmatter>
   <fr:mainmatter>
     <html:p>
-        Notice that <fr:link href="/forest/sub-0006/" title="the core of adjoint monotone functions › http://localhost:4000/forest/sub-0006/" uri="http://localhost:4000/forest/sub-0006/" display-uri="sub-0006" type="local">the above proof</fr:link> does <html:em>not</html:em> use the information that <fr:tex display="inline"><![CDATA[u]]></fr:tex> is monotone.
-        Thus <fr:link href="/forest/hejohns-0006/" title="the core of adjoint monotone functions" uri="http://localhost:4000/forest/hejohns-0006/" display-uri="hejohns-0006" type="local">the above lemma</fr:link> holds where <fr:tex display="inline"><![CDATA[f]]></fr:tex> and <fr:tex display="inline"><![CDATA[u]]></fr:tex> are just a priori functions.
-        The <fr:link href="/forest/hejohns-0006/" title="the core of adjoint monotone functions" uri="http://localhost:4000/forest/hejohns-0006/" display-uri="hejohns-0006" type="local">above lemma</fr:link> is in some sense the more
+        Notice that <fr:link href="/forest/sub-0006/" title="the core of adjoint monotone functions › https://hejohns.github.io/forest/sub-0006/" uri="https://hejohns.github.io/forest/sub-0006/" display-uri="sub-0006" type="local">the above proof</fr:link> does <html:em>not</html:em> use the information that <fr:tex display="inline"><![CDATA[u]]></fr:tex> is monotone.
+        Thus <fr:link href="/forest/hejohns-0006/" title="the core of adjoint monotone functions" uri="https://hejohns.github.io/forest/hejohns-0006/" display-uri="hejohns-0006" type="local">the above lemma</fr:link> holds where <fr:tex display="inline"><![CDATA[f]]></fr:tex> and <fr:tex display="inline"><![CDATA[u]]></fr:tex> are just a priori functions.
+        The <fr:link href="/forest/hejohns-0006/" title="the core of adjoint monotone functions" uri="https://hejohns.github.io/forest/hejohns-0006/" display-uri="hejohns-0006" type="local">above lemma</fr:link> is in some sense the more
         immediately natural question, but can be easily strengthened to
         the form of this corollary.
     </html:p>
@@ -49,7 +49,7 @@
           <fr:frontmatter>
             <fr:authors>
               <fr:author>
-                <fr:link href="/forest/hejohns/" title="Johnson He" uri="http://localhost:4000/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
               </fr:author>
             </fr:authors>
             <fr:date>
@@ -62,7 +62,7 @@
               <fr:month>5</fr:month>
               <fr:day>11</fr:day>
             </fr:date>
-            <fr:uri>http://localhost:4000/forest/hejohns-0006/</fr:uri>
+            <fr:uri>https://hejohns.github.io/forest/hejohns-0006/</fr:uri>
             <fr:display-uri>hejohns-0006</fr:display-uri>
             <fr:route>/forest/hejohns-0006/</fr:route>
             <fr:title text="the core of adjoint monotone functions">the core of adjoint monotone functions</fr:title>
@@ -70,13 +70,13 @@
           </fr:frontmatter>
           <fr:mainmatter>
             <html:p>
-    This is mentioned in passing, in the intro to <fr:link href="/forest/street-2012/" title="The Core of Adjoint Functors" uri="http://localhost:4000/forest/street-2012/" display-uri="street-2012" type="local">The Core of Adjoint Functors</fr:link>.
+    This is mentioned in passing, in the intro to <fr:link href="/forest/street-2012/" title="The Core of Adjoint Functors" uri="https://hejohns.github.io/forest/street-2012/" display-uri="street-2012" type="local">The Core of Adjoint Functors</fr:link>.
 </html:p>
             <fr:tree show-metadata="false">
               <fr:frontmatter>
                 <fr:authors>
                   <fr:author>
-                    <fr:link href="/forest/hejohns/" title="Johnson He" uri="http://localhost:4000/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                    <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
                   </fr:author>
                 </fr:authors>
                 <fr:date>
@@ -107,7 +107,7 @@
               <fr:frontmatter>
                 <fr:authors>
                   <fr:author>
-                    <fr:link href="/forest/hejohns/" title="Johnson He" uri="http://localhost:4000/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                    <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
                   </fr:author>
                 </fr:authors>
                 <fr:date>
@@ -120,7 +120,7 @@
                   <fr:month>5</fr:month>
                   <fr:day>11</fr:day>
                 </fr:date>
-                <fr:uri>http://localhost:4000/forest/sub-0006/</fr:uri>
+                <fr:uri>https://hejohns.github.io/forest/sub-0006/</fr:uri>
                 <fr:display-uri>sub-0006</fr:display-uri>
                 <fr:route>/forest/sub-0006/</fr:route>
                 <fr:taxon>proof</fr:taxon>
@@ -143,7 +143,7 @@
               <fr:frontmatter>
                 <fr:authors>
                   <fr:author>
-                    <fr:link href="/forest/hejohns/" title="Johnson He" uri="http://localhost:4000/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                    <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
                   </fr:author>
                 </fr:authors>
                 <fr:date>
@@ -156,16 +156,16 @@
                   <fr:month>5</fr:month>
                   <fr:day>11</fr:day>
                 </fr:date>
-                <fr:uri>http://localhost:4000/forest/subb-0006/</fr:uri>
+                <fr:uri>https://hejohns.github.io/forest/subb-0006/</fr:uri>
                 <fr:display-uri>subb-0006</fr:display-uri>
                 <fr:route>/forest/subb-0006/</fr:route>
                 <fr:taxon>proof corollary</fr:taxon>
               </fr:frontmatter>
               <fr:mainmatter>
                 <html:p>
-        Notice that <fr:link href="/forest/sub-0006/" title="the core of adjoint monotone functions › http://localhost:4000/forest/sub-0006/" uri="http://localhost:4000/forest/sub-0006/" display-uri="sub-0006" type="local">the above proof</fr:link> does <html:em>not</html:em> use the information that <fr:tex display="inline"><![CDATA[u]]></fr:tex> is monotone.
-        Thus <fr:link href="/forest/hejohns-0006/" title="the core of adjoint monotone functions" uri="http://localhost:4000/forest/hejohns-0006/" display-uri="hejohns-0006" type="local">the above lemma</fr:link> holds where <fr:tex display="inline"><![CDATA[f]]></fr:tex> and <fr:tex display="inline"><![CDATA[u]]></fr:tex> are just a priori functions.
-        The <fr:link href="/forest/hejohns-0006/" title="the core of adjoint monotone functions" uri="http://localhost:4000/forest/hejohns-0006/" display-uri="hejohns-0006" type="local">above lemma</fr:link> is in some sense the more
+        Notice that <fr:link href="/forest/sub-0006/" title="the core of adjoint monotone functions › https://hejohns.github.io/forest/sub-0006/" uri="https://hejohns.github.io/forest/sub-0006/" display-uri="sub-0006" type="local">the above proof</fr:link> does <html:em>not</html:em> use the information that <fr:tex display="inline"><![CDATA[u]]></fr:tex> is monotone.
+        Thus <fr:link href="/forest/hejohns-0006/" title="the core of adjoint monotone functions" uri="https://hejohns.github.io/forest/hejohns-0006/" display-uri="hejohns-0006" type="local">the above lemma</fr:link> holds where <fr:tex display="inline"><![CDATA[f]]></fr:tex> and <fr:tex display="inline"><![CDATA[u]]></fr:tex> are just a priori functions.
+        The <fr:link href="/forest/hejohns-0006/" title="the core of adjoint monotone functions" uri="https://hejohns.github.io/forest/hejohns-0006/" display-uri="hejohns-0006" type="local">above lemma</fr:link> is in some sense the more
         immediately natural question, but can be easily strengthened to
         the form of this corollary.
     </html:p>
@@ -185,7 +185,7 @@
           <fr:frontmatter>
             <fr:authors>
               <fr:author>
-                <fr:link href="/forest/hejohns/" title="Johnson He" uri="http://localhost:4000/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
               </fr:author>
             </fr:authors>
             <fr:date>
@@ -198,7 +198,7 @@
               <fr:month>8</fr:month>
               <fr:day>21</fr:day>
             </fr:date>
-            <fr:uri>http://localhost:4000/forest/sub-000E/</fr:uri>
+            <fr:uri>https://hejohns.github.io/forest/sub-000E/</fr:uri>
             <fr:display-uri>sub-000E</fr:display-uri>
             <fr:route>/forest/sub-000E/</fr:route>
             <fr:taxon>proof corollary</fr:taxon>
@@ -209,7 +209,7 @@
         thus an adjunction core always determines an adjunction.
     </html:p>
             <html:p><fr:tex display="inline"><![CDATA[Set]]></fr:tex> isn't thin, but <fr:tex display="inline"><![CDATA[2]]></fr:tex> is, thus for posets, an adjunction core
-        gives rise to a thin adjunction, as remarked <fr:link href="/forest/subb-0006/" title="the core of adjoint monotone functions › http://localhost:4000/forest/subb-0006/" uri="http://localhost:4000/forest/subb-0006/" display-uri="subb-0006" type="local">here</fr:link>.
+        gives rise to a thin adjunction, as remarked <fr:link href="/forest/subb-0006/" title="the core of adjoint monotone functions › https://hejohns.github.io/forest/subb-0006/" uri="https://hejohns.github.io/forest/subb-0006/" display-uri="subb-0006" type="local">here</fr:link>.
         I don't know how useful this lemma is for ordinary Homset categories.
     </html:p>
           </fr:mainmatter>
@@ -226,7 +226,7 @@
           <fr:frontmatter>
             <fr:authors>
               <fr:author>
-                <fr:link href="/forest/hejohns/" title="Johnson He" uri="http://localhost:4000/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
               </fr:author>
             </fr:authors>
             <fr:date>
@@ -239,7 +239,7 @@
               <fr:month>5</fr:month>
               <fr:day>11</fr:day>
             </fr:date>
-            <fr:uri>http://localhost:4000/forest/hejohns-0006/</fr:uri>
+            <fr:uri>https://hejohns.github.io/forest/hejohns-0006/</fr:uri>
             <fr:display-uri>hejohns-0006</fr:display-uri>
             <fr:route>/forest/hejohns-0006/</fr:route>
             <fr:title text="the core of adjoint monotone functions">the core of adjoint monotone functions</fr:title>
@@ -247,13 +247,13 @@
           </fr:frontmatter>
           <fr:mainmatter>
             <html:p>
-    This is mentioned in passing, in the intro to <fr:link href="/forest/street-2012/" title="The Core of Adjoint Functors" uri="http://localhost:4000/forest/street-2012/" display-uri="street-2012" type="local">The Core of Adjoint Functors</fr:link>.
+    This is mentioned in passing, in the intro to <fr:link href="/forest/street-2012/" title="The Core of Adjoint Functors" uri="https://hejohns.github.io/forest/street-2012/" display-uri="street-2012" type="local">The Core of Adjoint Functors</fr:link>.
 </html:p>
             <fr:tree show-metadata="false">
               <fr:frontmatter>
                 <fr:authors>
                   <fr:author>
-                    <fr:link href="/forest/hejohns/" title="Johnson He" uri="http://localhost:4000/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                    <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
                   </fr:author>
                 </fr:authors>
                 <fr:date>
@@ -284,7 +284,7 @@
               <fr:frontmatter>
                 <fr:authors>
                   <fr:author>
-                    <fr:link href="/forest/hejohns/" title="Johnson He" uri="http://localhost:4000/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                    <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
                   </fr:author>
                 </fr:authors>
                 <fr:date>
@@ -297,7 +297,7 @@
                   <fr:month>5</fr:month>
                   <fr:day>11</fr:day>
                 </fr:date>
-                <fr:uri>http://localhost:4000/forest/sub-0006/</fr:uri>
+                <fr:uri>https://hejohns.github.io/forest/sub-0006/</fr:uri>
                 <fr:display-uri>sub-0006</fr:display-uri>
                 <fr:route>/forest/sub-0006/</fr:route>
                 <fr:taxon>proof</fr:taxon>
@@ -320,7 +320,7 @@
               <fr:frontmatter>
                 <fr:authors>
                   <fr:author>
-                    <fr:link href="/forest/hejohns/" title="Johnson He" uri="http://localhost:4000/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                    <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
                   </fr:author>
                 </fr:authors>
                 <fr:date>
@@ -333,16 +333,16 @@
                   <fr:month>5</fr:month>
                   <fr:day>11</fr:day>
                 </fr:date>
-                <fr:uri>http://localhost:4000/forest/subb-0006/</fr:uri>
+                <fr:uri>https://hejohns.github.io/forest/subb-0006/</fr:uri>
                 <fr:display-uri>subb-0006</fr:display-uri>
                 <fr:route>/forest/subb-0006/</fr:route>
                 <fr:taxon>proof corollary</fr:taxon>
               </fr:frontmatter>
               <fr:mainmatter>
                 <html:p>
-        Notice that <fr:link href="/forest/sub-0006/" title="the core of adjoint monotone functions › http://localhost:4000/forest/sub-0006/" uri="http://localhost:4000/forest/sub-0006/" display-uri="sub-0006" type="local">the above proof</fr:link> does <html:em>not</html:em> use the information that <fr:tex display="inline"><![CDATA[u]]></fr:tex> is monotone.
-        Thus <fr:link href="/forest/hejohns-0006/" title="the core of adjoint monotone functions" uri="http://localhost:4000/forest/hejohns-0006/" display-uri="hejohns-0006" type="local">the above lemma</fr:link> holds where <fr:tex display="inline"><![CDATA[f]]></fr:tex> and <fr:tex display="inline"><![CDATA[u]]></fr:tex> are just a priori functions.
-        The <fr:link href="/forest/hejohns-0006/" title="the core of adjoint monotone functions" uri="http://localhost:4000/forest/hejohns-0006/" display-uri="hejohns-0006" type="local">above lemma</fr:link> is in some sense the more
+        Notice that <fr:link href="/forest/sub-0006/" title="the core of adjoint monotone functions › https://hejohns.github.io/forest/sub-0006/" uri="https://hejohns.github.io/forest/sub-0006/" display-uri="sub-0006" type="local">the above proof</fr:link> does <html:em>not</html:em> use the information that <fr:tex display="inline"><![CDATA[u]]></fr:tex> is monotone.
+        Thus <fr:link href="/forest/hejohns-0006/" title="the core of adjoint monotone functions" uri="https://hejohns.github.io/forest/hejohns-0006/" display-uri="hejohns-0006" type="local">the above lemma</fr:link> holds where <fr:tex display="inline"><![CDATA[f]]></fr:tex> and <fr:tex display="inline"><![CDATA[u]]></fr:tex> are just a priori functions.
+        The <fr:link href="/forest/hejohns-0006/" title="the core of adjoint monotone functions" uri="https://hejohns.github.io/forest/hejohns-0006/" display-uri="hejohns-0006" type="local">above lemma</fr:link> is in some sense the more
         immediately natural question, but can be easily strengthened to
         the form of this corollary.
     </html:p>
@@ -354,7 +354,7 @@
           <fr:frontmatter>
             <fr:authors>
               <fr:author>
-                <fr:link href="/forest/hejohns/" title="Johnson He" uri="http://localhost:4000/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
               </fr:author>
             </fr:authors>
             <fr:date>
@@ -367,7 +367,7 @@
               <fr:month>5</fr:month>
               <fr:day>11</fr:day>
             </fr:date>
-            <fr:uri>http://localhost:4000/forest/sub-0006/</fr:uri>
+            <fr:uri>https://hejohns.github.io/forest/sub-0006/</fr:uri>
             <fr:display-uri>sub-0006</fr:display-uri>
             <fr:route>/forest/sub-0006/</fr:route>
             <fr:taxon>proof</fr:taxon>

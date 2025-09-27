@@ -13,7 +13,7 @@
       <fr:month>9</fr:month>
       <fr:day>16</fr:day>
     </fr:date>
-    <fr:uri>http://localhost:4000/forest/carette-kiselyov-shan-2007/</fr:uri>
+    <fr:uri>https://hejohns.github.io/forest/carette-kiselyov-shan-2007/</fr:uri>
     <fr:display-uri>carette-kiselyov-shan-2007</fr:display-uri>
     <fr:route>/forest/carette-kiselyov-shan-2007/</fr:route>
     <fr:title text="Finally Tagless, Partially Evaluated">Finally Tagless, Partially Evaluated</fr:title>
@@ -151,7 +151,7 @@
               <fr:month>9</fr:month>
               <fr:day>27</fr:day>
             </fr:date>
-            <fr:uri>http://localhost:4000/forest/sterling-2022/</fr:uri>
+            <fr:uri>https://hejohns.github.io/forest/sterling-2022/</fr:uri>
             <fr:display-uri>sterling-2022</fr:display-uri>
             <fr:route>/forest/sterling-2022/</fr:route>
             <fr:title text="Naïve Logical Relations in Synthetic Tait Computability">Naïve Logical Relations in Synthetic Tait Computability</fr:title>
@@ -229,13 +229,13 @@
         I can't tell if the <html:em>object-space/meta-space</html:em> discussion is clear
         and I just don't have some context, or it's actually presented almost
         mystically.
-        The mention of <fr:link href="/forest/carette-kiselyov-shan-2007/" title="Finally Tagless, Partially Evaluated" uri="http://localhost:4000/forest/carette-kiselyov-shan-2007/" display-uri="carette-kiselyov-shan-2007" type="local">finally tagless encodings</fr:link>
+        The mention of <fr:link href="/forest/carette-kiselyov-shan-2007/" title="Finally Tagless, Partially Evaluated" uri="https://hejohns.github.io/forest/carette-kiselyov-shan-2007/" display-uri="carette-kiselyov-shan-2007" type="local">finally tagless encodings</fr:link>
         and 
     
     
         
         <html:span class="link local">
-            <html:a href="/forest/bafkrmide6gbbydaxjwzow6hhx4iju5brgpzlfqjzc62r5p3752dy6lgnza.html">a justification for hoas</html:a>
+            <html:a href="/forest/bafkrmihhjunlkfc5gyfa4kbrlvblg6vavpyd4jr6eqwcrfffn5qxh5nkmu.html">a justification for hoas</html:a>
         </html:span>
     
 
@@ -249,7 +249,7 @@
     
         
         <html:span class="link local">
-            <html:a href="/forest/bafkrmid5hmpu22fppmqtnysdec2icx3rwzbyjzwd7lbr3y4t3d4zl2czfa.html">paper</html:a>
+            <html:a href="/forest/bafkrmifc7bl2gkwbguhfhevce47uszigvqld5uiwsdt4fnp46txru6iege.html">paper</html:a>
         </html:span></html:p>
               </fr:mainmatter>
             </fr:tree>

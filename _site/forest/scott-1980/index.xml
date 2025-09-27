@@ -13,7 +13,7 @@
       <fr:month>9</fr:month>
       <fr:day>16</fr:day>
     </fr:date>
-    <fr:uri>http://localhost:4000/forest/scott-1980/</fr:uri>
+    <fr:uri>https://hejohns.github.io/forest/scott-1980/</fr:uri>
     <fr:display-uri>scott-1980</fr:display-uri>
     <fr:route>/forest/scott-1980/</fr:route>
     <fr:title text="The Presheaf Model for Set Theory">The Presheaf Model for Set Theory</fr:title>

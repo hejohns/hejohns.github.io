@@ -13,7 +13,7 @@
       <fr:month>9</fr:month>
       <fr:day>27</fr:day>
     </fr:date>
-    <fr:uri>http://localhost:4000/forest/mclarty-1990b/</fr:uri>
+    <fr:uri>https://hejohns.github.io/forest/mclarty-1990b/</fr:uri>
     <fr:display-uri>mclarty-1990b</fr:display-uri>
     <fr:route>/forest/mclarty-1990b/</fr:route>
     <fr:title text="The Uses and Abuses of the History of Topos Theory">The Uses and Abuses of the History of Topos Theory</fr:title>
@@ -52,7 +52,7 @@
     </fr:tree>
     <html:p>
       <html:span class="link local">
-            <html:a href="/forest/bafkrmibphqc26szbkzq645v6zpvbjjml4e4rvqokgf3zg676cd7or74ede.html">paper</html:a>
+            <html:a href="/forest/bafkrmigeccdbfmnubpmzhkfjcd2lpxon4yp36e4dhgz4kes3bxkplud53y.html">paper</html:a>
         </html:span>
     </html:p>
   </fr:mainmatter>
@@ -81,7 +81,7 @@
           <fr:frontmatter>
             <fr:authors>
               <fr:author>
-                <fr:link href="/forest/hejohns/" title="Johnson He" uri="http://localhost:4000/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
               </fr:author>
             </fr:authors>
             <fr:date>
@@ -94,7 +94,7 @@
               <fr:month>6</fr:month>
               <fr:day>4</fr:day>
             </fr:date>
-            <fr:uri>http://localhost:4000/forest/hejohns-000G/</fr:uri>
+            <fr:uri>https://hejohns.github.io/forest/hejohns-000G/</fr:uri>
             <fr:display-uri>hejohns-000G</fr:display-uri>
             <fr:route>/forest/hejohns-000G/</fr:route>
             <fr:title text="What is an elementary topos?">What is an elementary topos?</fr:title>
@@ -106,7 +106,7 @@
     of <fr:tex display="inline"><![CDATA[Set]]></fr:tex>".
     Of course, these are always the kind of descriptions that only make sense
     once you've <html:em>already</html:em> learned what a(n elementary) topos is.
-    We remark that <fr:link href="/forest/mclarty-1990b/" title="The Uses and Abuses of the History of Topos Theory" uri="http://localhost:4000/forest/mclarty-1990b/" display-uri="mclarty-1990b" type="local">The Uses and Abuses of the History of Topos Theory</fr:link> is precisely about this "<fr:tex display="inline"><![CDATA[Set]]></fr:tex>"-based
+    We remark that <fr:link href="/forest/mclarty-1990b/" title="The Uses and Abuses of the History of Topos Theory" uri="https://hejohns.github.io/forest/mclarty-1990b/" display-uri="mclarty-1990b" type="local">The Uses and Abuses of the History of Topos Theory</fr:link> is precisely about this "<fr:tex display="inline"><![CDATA[Set]]></fr:tex>"-based
     perspective.
 </html:p>
             <html:p>
@@ -117,7 +117,7 @@
               <fr:frontmatter>
                 <fr:authors>
                   <fr:author>
-                    <fr:link href="/forest/hejohns/" title="Johnson He" uri="http://localhost:4000/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                    <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
                   </fr:author>
                 </fr:authors>
                 <fr:date>
@@ -130,7 +130,7 @@
                   <fr:month>6</fr:month>
                   <fr:day>4</fr:day>
                 </fr:date>
-                <fr:title text="Topos à la Introduction to higher order categorical logic p.140">Topos à la <fr:link href="/forest/lambek-scott-1986/" title="Introduction to higher order categorical logic" uri="http://localhost:4000/forest/lambek-scott-1986/" display-uri="lambek-scott-1986" type="local">Introduction to higher order categorical logic</fr:link> p.140</fr:title>
+                <fr:title text="Topos à la Introduction to higher order categorical logic p.140">Topos à la <fr:link href="/forest/lambek-scott-1986/" title="Introduction to higher order categorical logic" uri="https://hejohns.github.io/forest/lambek-scott-1986/" display-uri="lambek-scott-1986" type="local">Introduction to higher order categorical logic</fr:link> p.140</fr:title>
                 <fr:taxon>definition</fr:taxon>
               </fr:frontmatter>
               <fr:mainmatter>
@@ -144,7 +144,7 @@
               <fr:frontmatter>
                 <fr:authors>
                   <fr:author>
-                    <fr:link href="/forest/hejohns/" title="Johnson He" uri="http://localhost:4000/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                    <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
                   </fr:author>
                 </fr:authors>
                 <fr:date>
@@ -157,7 +157,7 @@
                   <fr:month>6</fr:month>
                   <fr:day>4</fr:day>
                 </fr:date>
-                <fr:title text="Topos à la Sketches of an Elephant: a topos theory compendium 2.1.1">Topos à la <fr:link href="/forest/johnstone-2002/" title="Sketches of an Elephant: a topos theory compendium" uri="http://localhost:4000/forest/johnstone-2002/" display-uri="johnstone-2002" type="local">Sketches of an Elephant: a topos theory compendium</fr:link> 2.1.1</fr:title>
+                <fr:title text="Topos à la Sketches of an Elephant: a topos theory compendium 2.1.1">Topos à la <fr:link href="/forest/johnstone-2002/" title="Sketches of an Elephant: a topos theory compendium" uri="https://hejohns.github.io/forest/johnstone-2002/" display-uri="johnstone-2002" type="local">Sketches of an Elephant: a topos theory compendium</fr:link> 2.1.1</fr:title>
                 <fr:taxon>definition</fr:taxon>
               </fr:frontmatter>
               <fr:mainmatter>
@@ -193,7 +193,7 @@
               <fr:frontmatter>
                 <fr:authors>
                   <fr:author>
-                    <fr:link href="/forest/hejohns/" title="Johnson He" uri="http://localhost:4000/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                    <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
                   </fr:author>
                 </fr:authors>
                 <fr:date>
@@ -206,7 +206,7 @@
                   <fr:month>6</fr:month>
                   <fr:day>4</fr:day>
                 </fr:date>
-                <fr:title text="Topos à la Elementary Categories, Elementary Toposes 13.1">Topos à la <fr:link href="/forest/mclarty-1992/" title="Elementary Categories, Elementary Toposes" uri="http://localhost:4000/forest/mclarty-1992/" display-uri="mclarty-1992" type="local">Elementary Categories, Elementary Toposes</fr:link> 13.1</fr:title>
+                <fr:title text="Topos à la Elementary Categories, Elementary Toposes 13.1">Topos à la <fr:link href="/forest/mclarty-1992/" title="Elementary Categories, Elementary Toposes" uri="https://hejohns.github.io/forest/mclarty-1992/" display-uri="mclarty-1992" type="local">Elementary Categories, Elementary Toposes</fr:link> 13.1</fr:title>
                 <fr:taxon>definition</fr:taxon>
               </fr:frontmatter>
               <fr:mainmatter>
@@ -224,7 +224,7 @@
               <fr:frontmatter>
                 <fr:authors>
                   <fr:author>
-                    <fr:link href="/forest/hejohns/" title="Johnson He" uri="http://localhost:4000/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                    <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
                   </fr:author>
                 </fr:authors>
                 <fr:date>
@@ -237,7 +237,7 @@
                   <fr:month>6</fr:month>
                   <fr:day>4</fr:day>
                 </fr:date>
-                <fr:title text="Topos à la First Order Categorical Logic">Topos à la <fr:link href="/forest/makkai-reyes-1977/" title="First Order Categorical Logic" uri="http://localhost:4000/forest/makkai-reyes-1977/" display-uri="makkai-reyes-1977" type="local">First Order Categorical Logic</fr:link></fr:title>
+                <fr:title text="Topos à la First Order Categorical Logic">Topos à la <fr:link href="/forest/makkai-reyes-1977/" title="First Order Categorical Logic" uri="https://hejohns.github.io/forest/makkai-reyes-1977/" display-uri="makkai-reyes-1977" type="local">First Order Categorical Logic</fr:link></fr:title>
                 <fr:taxon>definition</fr:taxon>
               </fr:frontmatter>
               <fr:mainmatter>
@@ -251,7 +251,7 @@
               <fr:frontmatter>
                 <fr:authors>
                   <fr:author>
-                    <fr:link href="/forest/hejohns/" title="Johnson He" uri="http://localhost:4000/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                    <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
                   </fr:author>
                 </fr:authors>
                 <fr:date>
@@ -264,7 +264,7 @@
                   <fr:month>6</fr:month>
                   <fr:day>4</fr:day>
                 </fr:date>
-                <fr:title text="Topos à la Category Theory 8.17">Topos à la <fr:link href="/forest/awodey-2010/" title="Category Theory" uri="http://localhost:4000/forest/awodey-2010/" display-uri="awodey-2010" type="local">Category Theory</fr:link> 8.17</fr:title>
+                <fr:title text="Topos à la Category Theory 8.17">Topos à la <fr:link href="/forest/awodey-2010/" title="Category Theory" uri="https://hejohns.github.io/forest/awodey-2010/" display-uri="awodey-2010" type="local">Category Theory</fr:link> 8.17</fr:title>
                 <fr:taxon>definition</fr:taxon>
               </fr:frontmatter>
               <fr:mainmatter>
@@ -288,7 +288,7 @@
               <fr:frontmatter>
                 <fr:authors>
                   <fr:author>
-                    <fr:link href="/forest/hejohns/" title="Johnson He" uri="http://localhost:4000/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                    <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
                   </fr:author>
                 </fr:authors>
                 <fr:date>
@@ -301,7 +301,7 @@
                   <fr:month>6</fr:month>
                   <fr:day>4</fr:day>
                 </fr:date>
-                <fr:title text="Topos à la Topoi: The Categorial Analysis of Logic 4.3">Topos à la <fr:link href="/forest/goldblatt-2006/" title="Topoi: The Categorial Analysis of Logic" uri="http://localhost:4000/forest/goldblatt-2006/" display-uri="goldblatt-2006" type="local">Topoi: The Categorial Analysis of Logic</fr:link> 4.3</fr:title>
+                <fr:title text="Topos à la Topoi: The Categorial Analysis of Logic 4.3">Topos à la <fr:link href="/forest/goldblatt-2006/" title="Topoi: The Categorial Analysis of Logic" uri="https://hejohns.github.io/forest/goldblatt-2006/" display-uri="goldblatt-2006" type="local">Topoi: The Categorial Analysis of Logic</fr:link> 4.3</fr:title>
                 <fr:taxon>definition</fr:taxon>
               </fr:frontmatter>
               <fr:mainmatter>
@@ -348,7 +348,7 @@
               <fr:frontmatter>
                 <fr:authors>
                   <fr:author>
-                    <fr:link href="/forest/hejohns/" title="Johnson He" uri="http://localhost:4000/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                    <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
                   </fr:author>
                 </fr:authors>
                 <fr:date>
@@ -361,14 +361,14 @@
                   <fr:month>6</fr:month>
                   <fr:day>4</fr:day>
                 </fr:date>
-                <fr:title text="Topos à la Sheaves in Geometry and Logic: A First Introduction to Topos Theory">Topos à la <fr:link href="/forest/maclane-moerdijk-1994/" title="Sheaves in Geometry and Logic: A First Introduction to Topos Theory" uri="http://localhost:4000/forest/maclane-moerdijk-1994/" display-uri="maclane-moerdijk-1994" type="local">Sheaves in Geometry and Logic: A First Introduction to Topos Theory</fr:link></fr:title>
+                <fr:title text="Topos à la Sheaves in Geometry and Logic: A First Introduction to Topos Theory">Topos à la <fr:link href="/forest/maclane-moerdijk-1994/" title="Sheaves in Geometry and Logic: A First Introduction to Topos Theory" uri="https://hejohns.github.io/forest/maclane-moerdijk-1994/" display-uri="maclane-moerdijk-1994" type="local">Sheaves in Geometry and Logic: A First Introduction to Topos Theory</fr:link></fr:title>
               </fr:frontmatter>
               <fr:mainmatter>
                 <fr:tree show-metadata="false">
                   <fr:frontmatter>
                     <fr:authors>
                       <fr:author>
-                        <fr:link href="/forest/hejohns/" title="Johnson He" uri="http://localhost:4000/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                        <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
                       </fr:author>
                     </fr:authors>
                     <fr:date>
@@ -381,10 +381,10 @@
                       <fr:month>6</fr:month>
                       <fr:day>4</fr:day>
                     </fr:date>
-                    <fr:uri>http://localhost:4000/forest/sub-000G/</fr:uri>
+                    <fr:uri>https://hejohns.github.io/forest/sub-000G/</fr:uri>
                     <fr:display-uri>sub-000G</fr:display-uri>
                     <fr:route>/forest/sub-000G/</fr:route>
-                    <fr:title text="Topos à la Sheaves in Geometry and Logic: A First Introduction to Topos Theory p. 48">Topos à la <fr:link href="/forest/maclane-moerdijk-1994/" title="Sheaves in Geometry and Logic: A First Introduction to Topos Theory" uri="http://localhost:4000/forest/maclane-moerdijk-1994/" display-uri="maclane-moerdijk-1994" type="local">Sheaves in Geometry and Logic: A First Introduction to Topos Theory</fr:link> p. 48</fr:title>
+                    <fr:title text="Topos à la Sheaves in Geometry and Logic: A First Introduction to Topos Theory p. 48">Topos à la <fr:link href="/forest/maclane-moerdijk-1994/" title="Sheaves in Geometry and Logic: A First Introduction to Topos Theory" uri="https://hejohns.github.io/forest/maclane-moerdijk-1994/" display-uri="maclane-moerdijk-1994" type="local">Sheaves in Geometry and Logic: A First Introduction to Topos Theory</fr:link> p. 48</fr:title>
                     <fr:taxon>definition</fr:taxon>
                   </fr:frontmatter>
                   <fr:mainmatter>
@@ -404,7 +404,7 @@
                   <fr:frontmatter>
                     <fr:authors>
                       <fr:author>
-                        <fr:link href="/forest/hejohns/" title="Johnson He" uri="http://localhost:4000/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                        <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
                       </fr:author>
                     </fr:authors>
                     <fr:date>
@@ -417,7 +417,7 @@
                       <fr:month>6</fr:month>
                       <fr:day>4</fr:day>
                     </fr:date>
-                    <fr:title text="Topos à la Sheaves in Geometry and Logic: A First Introduction to Topos Theory p. 161">Topos à la <fr:link href="/forest/maclane-moerdijk-1994/" title="Sheaves in Geometry and Logic: A First Introduction to Topos Theory" uri="http://localhost:4000/forest/maclane-moerdijk-1994/" display-uri="maclane-moerdijk-1994" type="local">Sheaves in Geometry and Logic: A First Introduction to Topos Theory</fr:link> p. 161</fr:title>
+                    <fr:title text="Topos à la Sheaves in Geometry and Logic: A First Introduction to Topos Theory p. 161">Topos à la <fr:link href="/forest/maclane-moerdijk-1994/" title="Sheaves in Geometry and Logic: A First Introduction to Topos Theory" uri="https://hejohns.github.io/forest/maclane-moerdijk-1994/" display-uri="maclane-moerdijk-1994" type="local">Sheaves in Geometry and Logic: A First Introduction to Topos Theory</fr:link> p. 161</fr:title>
                     <fr:taxon>definition</fr:taxon>
                   </fr:frontmatter>
                   <fr:mainmatter>
@@ -442,7 +442,7 @@
             <fr:tex display="inline"><![CDATA[A]]></fr:tex>), see (7) below. Equivalently, the natural isomorphism (2) states
             that <fr:tex display="inline"><![CDATA[PB]]></fr:tex> is the exponential <fr:tex display="inline"><![CDATA[Ω^B]]></fr:tex>, as described in §I.6; therefore,
             any category which satisfies (1) and has all exponentials will, in
-            particular, have all power objects. We emphasize that at first sight the axioms for at topos just giben seem weaker than those of <fr:link href="/forest/sub-000G/" title="Topos à la Sheaves in Geometry and Logic: A First Introduction to Topos Theory p. 48" uri="http://localhost:4000/forest/sub-000G/" display-uri="sub-000G" type="local">§I.6</fr:link>. However, it will be shown in the
+            particular, have all power objects. We emphasize that at first sight the axioms for at topos just giben seem weaker than those of <fr:link href="/forest/sub-000G/" title="Topos à la Sheaves in Geometry and Logic: A First Introduction to Topos Theory p. 48" uri="https://hejohns.github.io/forest/sub-000G/" display-uri="sub-000G" type="local">§I.6</fr:link>. However, it will be shown in the
             course of this chapter that the two sets of axioms are actually
             equivalent.
         </html:p>
@@ -479,7 +479,7 @@
                   <fr:month>8</fr:month>
                   <fr:day>21</fr:day>
                 </fr:date>
-                <fr:uri>http://localhost:4000/forest/hejohns-000I/</fr:uri>
+                <fr:uri>https://hejohns.github.io/forest/hejohns-000I/</fr:uri>
                 <fr:display-uri>hejohns-000I</fr:display-uri>
                 <fr:route>/forest/hejohns-000I/</fr:route>
                 <fr:title text="subobject classifier">subobject classifier</fr:title>
@@ -508,12 +508,12 @@
     is a pullback square.
 </html:p>
                 <html:p>
-    Notice that <fr:tex display="inline"><![CDATA[true]]></fr:tex> is trivially monic since every <fr:link href="/forest/hejohns-000K/" title="global element" uri="http://localhost:4000/forest/hejohns-000K/" display-uri="hejohns-000K" type="local">global
+    Notice that <fr:tex display="inline"><![CDATA[true]]></fr:tex> is trivially monic since every <fr:link href="/forest/hejohns-000K/" title="global element" uri="https://hejohns.github.io/forest/hejohns-000K/" display-uri="hejohns-000K" type="local">global
     element</fr:link> is trivially monic. Recall that "monos are stable
     under pullback".
 </html:p>
                 <html:p>
-    This is from <fr:link href="/forest/mclarty-1992/" title="Elementary Categories, Elementary Toposes" uri="http://localhost:4000/forest/mclarty-1992/" display-uri="mclarty-1992" type="local">Elementary Categories, Elementary Toposes</fr:link>.
+    This is from <fr:link href="/forest/mclarty-1992/" title="Elementary Categories, Elementary Toposes" uri="https://hejohns.github.io/forest/mclarty-1992/" display-uri="mclarty-1992" type="local">Elementary Categories, Elementary Toposes</fr:link>.
 </html:p>
               </fr:mainmatter>
             </fr:tree>

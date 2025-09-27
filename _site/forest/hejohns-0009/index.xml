@@ -4,7 +4,7 @@
   <fr:frontmatter>
     <fr:authors>
       <fr:author>
-        <fr:link href="/forest/hejohns/" title="Johnson He" uri="http://localhost:4000/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+        <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
       </fr:author>
     </fr:authors>
     <fr:date>
@@ -17,7 +17,7 @@
       <fr:month>9</fr:month>
       <fr:day>27</fr:day>
     </fr:date>
-    <fr:uri>http://localhost:4000/forest/hejohns-0009/</fr:uri>
+    <fr:uri>https://hejohns.github.io/forest/hejohns-0009/</fr:uri>
     <fr:display-uri>hejohns-0009</fr:display-uri>
     <fr:route>/forest/hejohns-0009/</fr:route>
     <fr:title text="fibrations v. functors">fibrations v. functors</fr:title>
@@ -30,7 +30,7 @@
     
         
         <html:span class="link local">
-            <html:a href="/forest/bafkrmigbppbwzzbug6ndpcoeqxwp2wmzupsafdu4xgkqur5bfp5cbblrcy.html">Functors as Type Refinement Systems</html:a>
+            <html:a href="/forest/bafkrmigvn7lsj63rs4ndziqnpwii3eezep2ukbitt6e4lrorpr7dj2plpu.html">Functors as Type Refinement Systems</html:a>
         </html:span>
     
 
@@ -42,7 +42,7 @@
     They really just give to different notions of "logic over syntax"--
     a hoare logic, and a implicational (eg FO) logic.
     I suppose one'd want to study a bit the relationship between the two.
-    <fr:link href="/forest/millies-zeilberger-2015/" title="Functors are Type Refinement Systems" uri="http://localhost:4000/forest/millies-zeilberger-2015/" display-uri="millies-zeilberger-2015" type="local">paper</fr:link></html:p>
+    <fr:link href="/forest/millies-zeilberger-2015/" title="Functors are Type Refinement Systems" uri="https://hejohns.github.io/forest/millies-zeilberger-2015/" display-uri="millies-zeilberger-2015" type="local">paper</fr:link></html:p>
   </fr:mainmatter>
   <fr:backmatter>
     <fr:tree show-metadata="false" hidden-when-empty="true">
@@ -55,7 +55,7 @@
           <fr:frontmatter>
             <fr:authors>
               <fr:contributor>
-                <fr:link href="/forest/hejohns/" title="Johnson He" uri="http://localhost:4000/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
               </fr:contributor>
             </fr:authors>
             <fr:date>
@@ -68,7 +68,7 @@
               <fr:month>9</fr:month>
               <fr:day>16</fr:day>
             </fr:date>
-            <fr:uri>http://localhost:4000/forest/millies-zeilberger-2015/</fr:uri>
+            <fr:uri>https://hejohns.github.io/forest/millies-zeilberger-2015/</fr:uri>
             <fr:display-uri>millies-zeilberger-2015</fr:display-uri>
             <fr:route>/forest/millies-zeilberger-2015/</fr:route>
             <fr:title text="Functors are Type Refinement Systems">Functors are Type Refinement Systems</fr:title>
@@ -114,7 +114,7 @@
               <fr:frontmatter>
                 <fr:authors>
                   <fr:author>
-                    <fr:link href="/forest/hejohns/" title="Johnson He" uri="http://localhost:4000/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                    <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
                   </fr:author>
                 </fr:authors>
                 <fr:date>

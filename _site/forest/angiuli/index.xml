@@ -13,7 +13,7 @@
       <fr:month>9</fr:month>
       <fr:day>27</fr:day>
     </fr:date>
-    <fr:uri>http://localhost:4000/forest/angiuli/</fr:uri>
+    <fr:uri>https://hejohns.github.io/forest/angiuli/</fr:uri>
     <fr:display-uri>angiuli</fr:display-uri>
     <fr:route>/forest/angiuli/</fr:route>
     <fr:title text="Carlo Angiuli">Carlo Angiuli</fr:title>
@@ -49,7 +49,7 @@
           <fr:frontmatter>
             <fr:authors>
               <fr:author>
-                <fr:link href="/forest/hejohns/" title="Johnson He" uri="http://localhost:4000/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
               </fr:author>
             </fr:authors>
             <fr:date>
@@ -62,7 +62,7 @@
               <fr:month>9</fr:month>
               <fr:day>27</fr:day>
             </fr:date>
-            <fr:uri>http://localhost:4000/forest/hejohns-000O/</fr:uri>
+            <fr:uri>https://hejohns.github.io/forest/hejohns-000O/</fr:uri>
             <fr:display-uri>hejohns-000O</fr:display-uri>
             <fr:route>/forest/hejohns-000O/</fr:route>
             <fr:title text="About Me">About Me</fr:title>
@@ -70,7 +70,7 @@
           <fr:mainmatter>
             <html:p>
     I am a PhD student in Computer Science at Indiana University.
-    My advisor is <fr:link href="/forest/angiuli/" title="Carlo Angiuli" uri="http://localhost:4000/forest/angiuli/" display-uri="angiuli" type="local">Carlo Angiuli</fr:link>.
+    My advisor is <fr:link href="/forest/angiuli/" title="Carlo Angiuli" uri="https://hejohns.github.io/forest/angiuli/" display-uri="angiuli" type="local">Carlo Angiuli</fr:link>.
     I'm interested in logic and related areas of computer science, particularly
     programming languages.
 </html:p>

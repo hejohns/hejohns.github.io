@@ -13,7 +13,7 @@
       <fr:month>9</fr:month>
       <fr:day>27</fr:day>
     </fr:date>
-    <fr:uri>http://localhost:4000/forest/zeilberger/</fr:uri>
+    <fr:uri>https://hejohns.github.io/forest/zeilberger/</fr:uri>
     <fr:display-uri>zeilberger</fr:display-uri>
     <fr:route>/forest/zeilberger/</fr:route>
     <fr:title text="Noam Zeilberger">Noam Zeilberger</fr:title>
@@ -45,7 +45,7 @@
           <fr:frontmatter>
             <fr:authors>
               <fr:author>
-                <fr:link href="/forest/hejohns/" title="Johnson He" uri="http://localhost:4000/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
               </fr:author>
             </fr:authors>
             <fr:date>
@@ -58,7 +58,7 @@
               <fr:month>9</fr:month>
               <fr:day>16</fr:day>
             </fr:date>
-            <fr:uri>http://localhost:4000/forest/dummett-1991/</fr:uri>
+            <fr:uri>https://hejohns.github.io/forest/dummett-1991/</fr:uri>
             <fr:display-uri>dummett-1991</fr:display-uri>
             <fr:route>/forest/dummett-1991/</fr:route>
             <fr:title text="The Logical Basis of Metaphysics">The Logical Basis of Metaphysics</fr:title>
@@ -69,7 +69,7 @@
               <fr:frontmatter>
                 <fr:authors>
                   <fr:author>
-                    <fr:link href="/forest/hejohns/" title="Johnson He" uri="http://localhost:4000/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                    <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
                   </fr:author>
                 </fr:authors>
                 <fr:date>
@@ -86,7 +86,7 @@
               </fr:frontmatter>
               <fr:mainmatter>
                 <html:p>
-        The opening sentence is what <fr:link href="/forest/zeilberger/" title="Noam Zeilberger" uri="http://localhost:4000/forest/zeilberger/" display-uri="zeilberger" type="local">Noam Zeilberger</fr:link> quotes on his work on
+        The opening sentence is what <fr:link href="/forest/zeilberger/" title="Noam Zeilberger" uri="https://hejohns.github.io/forest/zeilberger/" display-uri="zeilberger" type="local">Noam Zeilberger</fr:link> quotes on his work on
         polarity.
     </html:p>
                 <html:p>

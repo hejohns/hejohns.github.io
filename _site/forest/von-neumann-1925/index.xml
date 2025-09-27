@@ -13,7 +13,7 @@
       <fr:month>9</fr:month>
       <fr:day>16</fr:day>
     </fr:date>
-    <fr:uri>http://localhost:4000/forest/von-neumann-1925/</fr:uri>
+    <fr:uri>https://hejohns.github.io/forest/von-neumann-1925/</fr:uri>
     <fr:display-uri>von-neumann-1925</fr:display-uri>
     <fr:route>/forest/von-neumann-1925/</fr:route>
     <fr:title text="An Axiomatization of Set Theory">An Axiomatization of Set Theory</fr:title>
@@ -22,10 +22,10 @@
   <fr:mainmatter>
     <html:p>
     One of the early NBG papers. Maybe "the" NBG paper.
-    My notes on this are currently in <fr:link href="/forest/quine-1960/" title="Variables Explained Away" uri="http://localhost:4000/forest/quine-1960/" display-uri="quine-1960" type="local">Variables Explained Away</fr:link>.
+    My notes on this are currently in <fr:link href="/forest/quine-1960/" title="Variables Explained Away" uri="https://hejohns.github.io/forest/quine-1960/" display-uri="quine-1960" type="local">Variables Explained Away</fr:link>.
 </html:p>
     <html:p>
-    English translation in <fr:link href="/forest/van-heijenoort-1967/" title="From Frege To Gödel" uri="http://localhost:4000/forest/van-heijenoort-1967/" display-uri="van-heijenoort-1967" type="local">From Frege To Gödel</fr:link>.
+    English translation in <fr:link href="/forest/van-heijenoort-1967/" title="From Frege To Gödel" uri="https://hejohns.github.io/forest/van-heijenoort-1967/" display-uri="van-heijenoort-1967" type="local">From Frege To Gödel</fr:link>.
 </html:p>
   </fr:mainmatter>
   <fr:backmatter>
@@ -39,7 +39,7 @@
           <fr:frontmatter>
             <fr:authors>
               <fr:contributor>
-                <fr:link href="/forest/hejohns/" title="Johnson He" uri="http://localhost:4000/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
               </fr:contributor>
             </fr:authors>
             <fr:date>
@@ -52,7 +52,7 @@
               <fr:month>9</fr:month>
               <fr:day>27</fr:day>
             </fr:date>
-            <fr:uri>http://localhost:4000/forest/quine-1960/</fr:uri>
+            <fr:uri>https://hejohns.github.io/forest/quine-1960/</fr:uri>
             <fr:display-uri>quine-1960</fr:display-uri>
             <fr:route>/forest/quine-1960/</fr:route>
             <fr:title text="Variables Explained Away">Variables Explained Away</fr:title>
@@ -72,7 +72,7 @@
               <fr:frontmatter>
                 <fr:authors>
                   <fr:author>
-                    <fr:link href="/forest/hejohns/" title="Johnson He" uri="http://localhost:4000/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                    <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
                   </fr:author>
                 </fr:authors>
                 <fr:date>
@@ -149,9 +149,9 @@
               </fr:mainmatter>
             </fr:tree>
             <html:ul><html:li><html:span class="link local">
-            <html:a href="/forest/bafkrmicfgvbtcyvpqmoi7ygvr6izd3os3vgvjiahsigwulmmoxahzvb4xa.html">paper</html:a>
+            <html:a href="/forest/bafkrmibpg2ztr2fjb7u7gjfrfu3sqscsjdxifye3cp5uzeubpz4e42v3ti.html">paper</html:a>
         </html:span></html:li>
-    <html:li><fr:link href="/forest/von-neumann-1925/" title="An Axiomatization of Set Theory" uri="http://localhost:4000/forest/von-neumann-1925/" display-uri="von-neumann-1925" type="local">An Axiomatization of Set Theory</fr:link></html:li></html:ul>
+    <html:li><fr:link href="/forest/von-neumann-1925/" title="An Axiomatization of Set Theory" uri="https://hejohns.github.io/forest/von-neumann-1925/" display-uri="von-neumann-1925" type="local">An Axiomatization of Set Theory</fr:link></html:li></html:ul>
           </fr:mainmatter>
         </fr:tree>
         <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
@@ -167,7 +167,7 @@
               <fr:month>9</fr:month>
               <fr:day>16</fr:day>
             </fr:date>
-            <fr:uri>http://localhost:4000/forest/van-heijenoort-1967/</fr:uri>
+            <fr:uri>https://hejohns.github.io/forest/van-heijenoort-1967/</fr:uri>
             <fr:display-uri>van-heijenoort-1967</fr:display-uri>
             <fr:route>/forest/van-heijenoort-1967/</fr:route>
             <fr:title text="From Frege To Gödel">From Frege To Gödel</fr:title>
@@ -198,7 +198,7 @@
           <fr:frontmatter>
             <fr:authors>
               <fr:contributor>
-                <fr:link href="/forest/hejohns/" title="Johnson He" uri="http://localhost:4000/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
               </fr:contributor>
             </fr:authors>
             <fr:date>
@@ -211,7 +211,7 @@
               <fr:month>9</fr:month>
               <fr:day>27</fr:day>
             </fr:date>
-            <fr:uri>http://localhost:4000/forest/quine-1960/</fr:uri>
+            <fr:uri>https://hejohns.github.io/forest/quine-1960/</fr:uri>
             <fr:display-uri>quine-1960</fr:display-uri>
             <fr:route>/forest/quine-1960/</fr:route>
             <fr:title text="Variables Explained Away">Variables Explained Away</fr:title>
@@ -231,7 +231,7 @@
               <fr:frontmatter>
                 <fr:authors>
                   <fr:author>
-                    <fr:link href="/forest/hejohns/" title="Johnson He" uri="http://localhost:4000/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                    <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
                   </fr:author>
                 </fr:authors>
                 <fr:date>
@@ -308,16 +308,16 @@
               </fr:mainmatter>
             </fr:tree>
             <html:ul><html:li><html:span class="link local">
-            <html:a href="/forest/bafkrmicfgvbtcyvpqmoi7ygvr6izd3os3vgvjiahsigwulmmoxahzvb4xa.html">paper</html:a>
+            <html:a href="/forest/bafkrmibpg2ztr2fjb7u7gjfrfu3sqscsjdxifye3cp5uzeubpz4e42v3ti.html">paper</html:a>
         </html:span></html:li>
-    <html:li><fr:link href="/forest/von-neumann-1925/" title="An Axiomatization of Set Theory" uri="http://localhost:4000/forest/von-neumann-1925/" display-uri="von-neumann-1925" type="local">An Axiomatization of Set Theory</fr:link></html:li></html:ul>
+    <html:li><fr:link href="/forest/von-neumann-1925/" title="An Axiomatization of Set Theory" uri="https://hejohns.github.io/forest/von-neumann-1925/" display-uri="von-neumann-1925" type="local">An Axiomatization of Set Theory</fr:link></html:li></html:ul>
           </fr:mainmatter>
         </fr:tree>
         <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
           <fr:frontmatter>
             <fr:authors>
               <fr:author>
-                <fr:link href="/forest/hejohns/" title="Johnson He" uri="http://localhost:4000/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
               </fr:author>
             </fr:authors>
             <fr:date>
@@ -330,14 +330,14 @@
               <fr:month>6</fr:month>
               <fr:day>1</fr:day>
             </fr:date>
-            <fr:uri>http://localhost:4000/forest/hejohns-000B/</fr:uri>
+            <fr:uri>https://hejohns.github.io/forest/hejohns-000B/</fr:uri>
             <fr:display-uri>hejohns-000B</fr:display-uri>
             <fr:route>/forest/hejohns-000B/</fr:route>
             <fr:title text="Logical Frameworks as a meta-language">Logical Frameworks as a meta-language</fr:title>
           </fr:frontmatter>
           <fr:mainmatter>
             <html:p>
-    While reading <fr:link href="/forest/von-neumann-1925/" title="An Axiomatization of Set Theory" uri="http://localhost:4000/forest/von-neumann-1925/" display-uri="von-neumann-1925" type="local">An Axiomatization of Set Theory</fr:link>, I just had the completely trivial-- and
+    While reading <fr:link href="/forest/von-neumann-1925/" title="An Axiomatization of Set Theory" uri="https://hejohns.github.io/forest/von-neumann-1925/" display-uri="von-neumann-1925" type="local">An Axiomatization of Set Theory</fr:link>, I just had the completely trivial-- and
     "that's… the point"-- "realization" that first order logic is the
     meta-language of axiomatic mathematics, just as (it seems) logical
     frameworks are the meta-languages of (typically λ-calculus based)

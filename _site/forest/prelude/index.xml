@@ -3,7 +3,7 @@
 <fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/forest/">
   <fr:frontmatter>
     <fr:authors />
-    <fr:uri>http://localhost:4000/forest/prelude/</fr:uri>
+    <fr:uri>https://hejohns.github.io/forest/prelude/</fr:uri>
     <fr:display-uri>prelude</fr:display-uri>
     <fr:route>/forest/prelude/</fr:route>
   </fr:frontmatter>

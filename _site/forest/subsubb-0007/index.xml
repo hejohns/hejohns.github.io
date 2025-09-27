@@ -4,7 +4,7 @@
   <fr:frontmatter>
     <fr:authors>
       <fr:author>
-        <fr:link href="/forest/hejohns/" title="Johnson He" uri="http://localhost:4000/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+        <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
       </fr:author>
     </fr:authors>
     <fr:date>
@@ -17,7 +17,7 @@
       <fr:month>8</fr:month>
       <fr:day>21</fr:day>
     </fr:date>
-    <fr:uri>http://localhost:4000/forest/subsubb-0007/</fr:uri>
+    <fr:uri>https://hejohns.github.io/forest/subsubb-0007/</fr:uri>
     <fr:display-uri>subsubb-0007</fr:display-uri>
     <fr:route>/forest/subsubb-0007/</fr:route>
   </fr:frontmatter>
@@ -54,7 +54,7 @@
           <fr:frontmatter>
             <fr:authors>
               <fr:author>
-                <fr:link href="/forest/hejohns/" title="Johnson He" uri="http://localhost:4000/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
               </fr:author>
             </fr:authors>
             <fr:date>
@@ -67,10 +67,10 @@
               <fr:month>8</fr:month>
               <fr:day>21</fr:day>
             </fr:date>
-            <fr:uri>http://localhost:4000/forest/sub-0007/</fr:uri>
+            <fr:uri>https://hejohns.github.io/forest/sub-0007/</fr:uri>
             <fr:display-uri>sub-0007</fr:display-uri>
             <fr:route>/forest/sub-0007/</fr:route>
-            <fr:title text="Precursor to The Core of Adjoint Functors › the short proof (sketch)"><fr:link href="/forest/hejohns-0007/" title="Precursor to The Core of Adjoint Functors" uri="http://localhost:4000/forest/hejohns-0007/" display-uri="hejohns-0007" type="local">Precursor to The Core of Adjoint Functors</fr:link> › the short proof (sketch)</fr:title>
+            <fr:title text="Precursor to The Core of Adjoint Functors › the short proof (sketch)"><fr:link href="/forest/hejohns-0007/" title="Precursor to The Core of Adjoint Functors" uri="https://hejohns.github.io/forest/hejohns-0007/" display-uri="hejohns-0007" type="local">Precursor to The Core of Adjoint Functors</fr:link> › the short proof (sketch)</fr:title>
             <fr:taxon>proof</fr:taxon>
           </fr:frontmatter>
           <fr:mainmatter>
@@ -78,7 +78,7 @@
             Suppose such a <fr:tex display="inline"><![CDATA[\overline {F}]]></fr:tex> exists.
             Then naturality of <fr:tex display="inline"><![CDATA[π]]></fr:tex> requires that
             <fr:tex display="inline"><![CDATA[∀f : X(x, y).]]></fr:tex> this square in <fr:tex display="inline"><![CDATA[Setᴬ]]></fr:tex> commutes:
-            <fr:tree show-metadata="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/forest/hejohns/" title="Johnson He" uri="http://localhost:4000/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link></fr:author></fr:authors><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>7</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>8</fr:month><fr:day>21</fr:day></fr:date><fr:uri>http://localhost:4000/forest/subsub-0007/</fr:uri><fr:display-uri>subsub-0007</fr:display-uri><fr:route>/forest/subsub-0007/</fr:route></fr:frontmatter><fr:mainmatter>
+            <fr:tree show-metadata="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link></fr:author></fr:authors><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>7</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>8</fr:month><fr:day>21</fr:day></fr:date><fr:uri>https://hejohns.github.io/forest/subsub-0007/</fr:uri><fr:display-uri>subsub-0007</fr:display-uri><fr:route>/forest/subsub-0007/</fr:route></fr:frontmatter><fr:mainmatter>
     
     
         
@@ -99,7 +99,7 @@
             (dual) Suppose such a <fr:tex display="inline"><![CDATA[\overline {U}]]></fr:tex> exists.
             Then naturality of <fr:tex display="inline"><![CDATA[π]]></fr:tex> requires that
             <fr:tex display="inline"><![CDATA[∀u : A(a, b).]]></fr:tex> this square in <fr:tex display="inline"><![CDATA[Set^{Xᵒᵖ}]]></fr:tex> commutes:
-            <fr:tree show-metadata="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/forest/hejohns/" title="Johnson He" uri="http://localhost:4000/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link></fr:author></fr:authors><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>7</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>8</fr:month><fr:day>21</fr:day></fr:date><fr:uri>http://localhost:4000/forest/subsubb-0007/</fr:uri><fr:display-uri>subsubb-0007</fr:display-uri><fr:route>/forest/subsubb-0007/</fr:route></fr:frontmatter><fr:mainmatter>
+            <fr:tree show-metadata="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link></fr:author></fr:authors><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>7</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>8</fr:month><fr:day>21</fr:day></fr:date><fr:uri>https://hejohns.github.io/forest/subsubb-0007/</fr:uri><fr:display-uri>subsubb-0007</fr:display-uri><fr:route>/forest/subsubb-0007/</fr:route></fr:frontmatter><fr:mainmatter>
     
     
         

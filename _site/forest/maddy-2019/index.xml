@@ -13,7 +13,7 @@
       <fr:month>9</fr:month>
       <fr:day>27</fr:day>
     </fr:date>
-    <fr:uri>http://localhost:4000/forest/maddy-2019/</fr:uri>
+    <fr:uri>https://hejohns.github.io/forest/maddy-2019/</fr:uri>
     <fr:display-uri>maddy-2019</fr:display-uri>
     <fr:route>/forest/maddy-2019/</fr:route>
     <fr:title text="What do we want a foundation to do?">What do we want a foundation to do?</fr:title>
@@ -97,7 +97,7 @@
     
         
         <html:span class="link local">
-            <html:a href="/forest/bafkrmicsvquwqc7tzscp6xlccvxl4bqupavnezgorhsosv27qj2rx2bmqa.html">paper</html:a>
+            <html:a href="/forest/bafkrmibbx6kkruf4xnlvscphgjijso3ui7scv53ui6t5hiuz7zm7hghthq.html">paper</html:a>
         </html:span></html:p>
   </fr:mainmatter>
   <fr:backmatter>

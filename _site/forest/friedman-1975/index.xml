@@ -13,7 +13,7 @@
       <fr:month>9</fr:month>
       <fr:day>27</fr:day>
     </fr:date>
-    <fr:uri>http://localhost:4000/forest/friedman-1975/</fr:uri>
+    <fr:uri>https://hejohns.github.io/forest/friedman-1975/</fr:uri>
     <fr:display-uri>friedman-1975</fr:display-uri>
     <fr:route>/forest/friedman-1975/</fr:route>
     <fr:title text="Equality Between Functionals">Equality Between Functionals</fr:title>
@@ -72,7 +72,7 @@
     
         
         <html:span class="link local">
-            <html:a href="/forest/bafkrmiepqxvnrpkpu2zupg4rnz7dahqhcm5bzukkdpoxadlpadpjib5sdm.html">paper</html:a>
+            <html:a href="/forest/bafkrmidfamosh4rm2qn46vjt5agbhtvlzk63wtalshwob7aszpwpn7zoyy.html">paper</html:a>
         </html:span></html:p>
   </fr:mainmatter>
   <fr:backmatter>
@@ -109,7 +109,7 @@
               <fr:month>9</fr:month>
               <fr:day>27</fr:day>
             </fr:date>
-            <fr:uri>http://localhost:4000/forest/scherer-2017/</fr:uri>
+            <fr:uri>https://hejohns.github.io/forest/scherer-2017/</fr:uri>
             <fr:display-uri>scherer-2017</fr:display-uri>
             <fr:route>/forest/scherer-2017/</fr:route>
             <fr:title text="Deciding equivalence with sums and the empty type">Deciding equivalence with sums and the empty type</fr:title>
@@ -117,7 +117,7 @@
           </fr:frontmatter>
           <fr:mainmatter>
             <html:p><fr:link href="https://arxiv.org/pdf/1610.01213" type="external">https://arxiv.org/pdf/1610.01213</fr:link>.
-    The nice introduction informed me of <fr:link href="/forest/friedman-1975/" title="Equality Between Functionals" uri="http://localhost:4000/forest/friedman-1975/" display-uri="friedman-1975" type="local">Equality Between Functionals</fr:link> and <fr:link href="/forest/statman-1985/" title="Equality Between Functionals Revisited" uri="http://localhost:4000/forest/statman-1985/" display-uri="statman-1985" type="local">Equality Between Functionals Revisited</fr:link>.
+    The nice introduction informed me of <fr:link href="/forest/friedman-1975/" title="Equality Between Functionals" uri="https://hejohns.github.io/forest/friedman-1975/" display-uri="friedman-1975" type="local">Equality Between Functionals</fr:link> and <fr:link href="/forest/statman-1985/" title="Equality Between Functionals Revisited" uri="https://hejohns.github.io/forest/statman-1985/" display-uri="statman-1985" type="local">Equality Between Functionals Revisited</fr:link>.
     Referenced on <fr:link href="https://proofassistants.stackexchange.com/a/1177" type="external">stack overflow</fr:link>.
 </html:p>
           </fr:mainmatter>
@@ -135,7 +135,7 @@
               <fr:month>9</fr:month>
               <fr:day>27</fr:day>
             </fr:date>
-            <fr:uri>http://localhost:4000/forest/statman-1985/</fr:uri>
+            <fr:uri>https://hejohns.github.io/forest/statman-1985/</fr:uri>
             <fr:display-uri>statman-1985</fr:display-uri>
             <fr:route>/forest/statman-1985/</fr:route>
             <fr:title text="Equality Between Functionals Revisited">Equality Between Functionals Revisited</fr:title>
@@ -160,7 +160,7 @@
               <fr:mainmatter>
                 <html:p>
         In this note we shall try to place Friedman's remarkable little paper
-        (<fr:link href="/forest/friedman-1975/" title="Equality Between Functionals" uri="http://localhost:4000/forest/friedman-1975/" display-uri="friedman-1975" type="local">3</fr:link>) in the context of what we know today about the model
+        (<fr:link href="/forest/friedman-1975/" title="Equality Between Functionals" uri="https://hejohns.github.io/forest/friedman-1975/" display-uri="friedman-1975" type="local">3</fr:link>) in the context of what we know today about the model
         theory of the typed λ-calculus. In order to do this, it is appropriate to
         survey recent work in this area, in so far as it touches on issues raised
         by Friedman. We don't intend a general survey; much will be left out. In
@@ -189,7 +189,7 @@
             </fr:tree>
             <html:p>
               <html:span class="link local">
-            <html:a href="/forest/bafkrmicd2q25pt7laiem25qiqblkkxyju547bjs7i4zugmeyggbvk7ahnm.html">paper</html:a>
+            <html:a href="/forest/bafkrmibr3u5xvtkusf7xlneijvngquwvl75k6cx5lvq4zou2p7pe5xdjla.html">paper</html:a>
         </html:span>
             </html:p>
           </fr:mainmatter>

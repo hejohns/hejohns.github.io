@@ -13,7 +13,7 @@
       <fr:month>9</fr:month>
       <fr:day>27</fr:day>
     </fr:date>
-    <fr:uri>http://localhost:4000/forest/sterling-2020/</fr:uri>
+    <fr:uri>https://hejohns.github.io/forest/sterling-2020/</fr:uri>
     <fr:display-uri>sterling-2020</fr:display-uri>
     <fr:route>/forest/sterling-2020/</fr:route>
     <fr:title text="An OK Version of Type Theory">An OK Version of Type Theory</fr:title>
@@ -124,7 +124,7 @@
     </html:li></html:ul>
     <html:p>
       <html:span class="link local">
-            <html:a href="/forest/bafkrmidlb6dove3aszbpbjpfrwdmyt32q5fed5yxiw5rudzddjgww2hso4.html">paper</html:a>
+            <html:a href="/forest/bafkrmiht3p4rmizto4th6gifmp4di3wxk56wkoer4mpwbkw4szegs2izye.html">paper</html:a>
         </html:span>
     </html:p>
   </fr:mainmatter>

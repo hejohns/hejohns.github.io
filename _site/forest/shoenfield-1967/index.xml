@@ -13,7 +13,7 @@
       <fr:month>9</fr:month>
       <fr:day>16</fr:day>
     </fr:date>
-    <fr:uri>http://localhost:4000/forest/shoenfield-1967/</fr:uri>
+    <fr:uri>https://hejohns.github.io/forest/shoenfield-1967/</fr:uri>
     <fr:display-uri>shoenfield-1967</fr:display-uri>
     <fr:route>/forest/shoenfield-1967/</fr:route>
     <fr:title text="Mathematical Logic">Mathematical Logic</fr:title>
@@ -54,7 +54,7 @@
               <fr:month>9</fr:month>
               <fr:day>16</fr:day>
             </fr:date>
-            <fr:uri>http://localhost:4000/forest/logicmatters/</fr:uri>
+            <fr:uri>https://hejohns.github.io/forest/logicmatters/</fr:uri>
             <fr:display-uri>logicmatters</fr:display-uri>
             <fr:route>/forest/logicmatters/</fr:route>
             <fr:title text="Peter Smith's Book Reviews">Peter Smith's Book Reviews</fr:title>
@@ -68,7 +68,7 @@
     with any of what he's written about the books I have seen.
 </html:p>
             <html:p>
-    At least I just reread the review of <fr:link href="/forest/shoenfield-1967/" title="Mathematical Logic" uri="http://localhost:4000/forest/shoenfield-1967/" display-uri="shoenfield-1967" type="local">Mathematical Logic</fr:link>, and "So this
+    At least I just reread the review of <fr:link href="/forest/shoenfield-1967/" title="Mathematical Logic" uri="https://hejohns.github.io/forest/shoenfield-1967/" display-uri="shoenfield-1967" type="local">Mathematical Logic</fr:link>, and "So this
     neither has the cleanness of a Hilbert system nor the naturalness of a
     natural deduction system. As far as I noticed, nothing is said to motivate
     this seemingly horrible choice as against others." always makes me laugh.

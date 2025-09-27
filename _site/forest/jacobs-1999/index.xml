@@ -13,7 +13,7 @@
       <fr:month>9</fr:month>
       <fr:day>16</fr:day>
     </fr:date>
-    <fr:uri>http://localhost:4000/forest/jacobs-1999/</fr:uri>
+    <fr:uri>https://hejohns.github.io/forest/jacobs-1999/</fr:uri>
     <fr:display-uri>jacobs-1999</fr:display-uri>
     <fr:route>/forest/jacobs-1999/</fr:route>
     <fr:title text="Categorical Logic and Type Theory">Categorical Logic and Type Theory</fr:title>
