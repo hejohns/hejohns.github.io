@@ -1341,7 +1341,7 @@
     
         
         <html:span class="link local">
-            <html:a href="\relurl">Jekyll Blog</html:a>
+            <html:a href="/posts.html">Jekyll Blog</html:a>
         </html:span>
     
 </fr:title></fr:frontmatter><fr:mainmatter /></fr:tree>
@@ -1427,9 +1427,9 @@
         There's a line of work on what this means precisely, which I should get
         to sooner than later.
     </html:li></html:ul><html:p><html:span class="link local">
-            <html:a href="\relurl">paper</html:a>
+            <html:a href="/forest/bafkrmifjf4iktqdz2fqfemd3dx3cta7hdui6kurna2imd7olgmtw3e6fuy.html">paper</html:a>
         </html:span></html:p></fr:mainmatter></fr:tree><fr:tree show-metadata="true" expanded="false" toc="false" numbered="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2025</fr:year><fr:month>9</fr:month><fr:day>27</fr:day></fr:date><fr:uri>https://hejohns.github.io/forest/mclarty-1990a/</fr:uri><fr:display-uri>mclarty-1990a</fr:display-uri><fr:route>/forest/mclarty-1990a/</fr:route><fr:title text="Book Review (1990) of John Bell's Toposes and Local Set Theories (1988)">Book Review (1990) of John Bell's Toposes and Local Set Theories (1988)</fr:title><fr:taxon>Reference</fr:taxon></fr:frontmatter><fr:mainmatter><html:p><html:span class="link local">
-            <html:a href="\relurl">paper</html:a>
+            <html:a href="/forest/bafkrmibvfcn7af4qb7ftogoolp3r4fzorkosc6ybjlkvhni6m34ybbfdwq.html">paper</html:a>
         </html:span></html:p></fr:mainmatter></fr:tree><fr:tree show-metadata="true" expanded="false" toc="false" numbered="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>13</fr:day></fr:date><fr:date><fr:year>2025</fr:year><fr:month>9</fr:month><fr:day>27</fr:day></fr:date><fr:uri>https://hejohns.github.io/forest/scherer-2017/</fr:uri><fr:display-uri>scherer-2017</fr:display-uri><fr:route>/forest/scherer-2017/</fr:route><fr:title text="Deciding equivalence with sums and the empty type">Deciding equivalence with sums and the empty type</fr:title><fr:taxon>Reference</fr:taxon></fr:frontmatter><fr:mainmatter><html:p><fr:link href="https://arxiv.org/pdf/1610.01213" type="external">https://arxiv.org/pdf/1610.01213</fr:link>.
     The nice introduction informed me of <fr:link href="/forest/friedman-1975/" title="Equality Between Functionals" uri="https://hejohns.github.io/forest/friedman-1975/" display-uri="friedman-1975" type="local">Equality Between Functionals</fr:link> and <fr:link href="/forest/statman-1985/" title="Equality Between Functionals Revisited" uri="https://hejohns.github.io/forest/statman-1985/" display-uri="statman-1985" type="local">Equality Between Functionals Revisited</fr:link>.
     Referenced on <fr:link href="https://proofassistants.stackexchange.com/a/1177" type="external">stack overflow</fr:link>.
@@ -1464,7 +1464,7 @@
     
         
         <html:span class="link local">
-            <html:a href="\relurl">paper</html:a>
+            <html:a href="/forest/bafkrmibf76i3snev45sejvjawrn47e4cgqsguu7brypbpvtdyk33ct7lge.html">paper</html:a>
         </html:span></html:p></fr:mainmatter></fr:tree><fr:tree show-metadata="true" expanded="false" toc="false" numbered="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>13</fr:day></fr:date><fr:date><fr:year>2025</fr:year><fr:month>9</fr:month><fr:day>27</fr:day></fr:date><fr:uri>https://hejohns.github.io/forest/statman-1985/</fr:uri><fr:display-uri>statman-1985</fr:display-uri><fr:route>/forest/statman-1985/</fr:route><fr:title text="Equality Between Functionals Revisited">Equality Between Functionals Revisited</fr:title><fr:taxon>Reference</fr:taxon></fr:frontmatter><fr:mainmatter><fr:tree show-metadata="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>13</fr:day></fr:date><fr:date><fr:year>2025</fr:year><fr:month>9</fr:month><fr:day>27</fr:day></fr:date><fr:taxon>abstract</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>
         In this note we shall try to place Friedman's remarkable little paper
         (<fr:link href="/forest/friedman-1975/" title="Equality Between Functionals" uri="https://hejohns.github.io/forest/friedman-1975/" display-uri="friedman-1975" type="local">3</fr:link>) in the context of what we know today about the model
@@ -1491,7 +1491,7 @@
             <html:li>
                 logical relations.
             </html:li></html:ul></html:p></fr:mainmatter></fr:tree><html:p><html:span class="link local">
-            <html:a href="\relurl">paper</html:a>
+            <html:a href="/forest/bafkrmigiuz5r4bdlt5kykdupv6o37b4n7gzfuzqawcgbzaweela4lhpoui.html">paper</html:a>
         </html:span></html:p></fr:mainmatter></fr:tree><fr:tree show-metadata="true" expanded="false" toc="false" numbered="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>24</fr:day></fr:date><fr:date><fr:year>2025</fr:year><fr:month>9</fr:month><fr:day>27</fr:day></fr:date><fr:uri>https://hejohns.github.io/forest/sterling-2022/</fr:uri><fr:display-uri>sterling-2022</fr:display-uri><fr:route>/forest/sterling-2022/</fr:route><fr:title text="Naïve Logical Relations in Synthetic Tait Computability">Naïve Logical Relations in Synthetic Tait Computability</fr:title><fr:taxon>Reference</fr:taxon></fr:frontmatter><fr:mainmatter><fr:tree show-metadata="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>24</fr:day></fr:date><fr:date><fr:year>2025</fr:year><fr:month>9</fr:month><fr:day>27</fr:day></fr:date><fr:taxon>abstract</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>
         Logical relations are the main tool for proving <html:strong>positive</html:strong>
         properties of logics, type theories, and programming languages:
@@ -1524,7 +1524,7 @@
     
         
         <html:span class="link local">
-            <html:a href="\relurl">a justification for hoas</html:a>
+            <html:a href="/forest/bafkrmigsr62kwkqy3la7lx7umke5uvyhpyigkocagc2hcx5z4irkm4yfhe.html">a justification for hoas</html:a>
         </html:span>
     
 
@@ -1537,7 +1537,7 @@
     
         
         <html:span class="link local">
-            <html:a href="\relurl">paper</html:a>
+            <html:a href="/forest/bafkrmic6y7f4xtyacwvnjrbbpgtjouolcb5a2fdjztcsihcsb5s2ysneiu.html">paper</html:a>
         </html:span></html:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree><fr:tree show-metadata="true" expanded="false" toc="false" numbered="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2024</fr:year><fr:month>11</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2025</fr:year><fr:month>9</fr:month><fr:day>27</fr:day></fr:date><fr:uri>https://hejohns.github.io/forest/Grunbacher-2003/</fr:uri><fr:display-uri>Grunbacher-2003</fr:display-uri><fr:route>/forest/Grunbacher-2003/</fr:route><fr:title text="POSIX Access Control Lists on Linux">POSIX Access Control Lists on Linux</fr:title><fr:taxon>Reference</fr:taxon></fr:frontmatter><fr:mainmatter><fr:tree show-metadata="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2024</fr:year><fr:month>11</fr:month><fr:day>11</fr:day></fr:date><fr:date><fr:year>2025</fr:year><fr:month>9</fr:month><fr:day>27</fr:day></fr:date><fr:taxon>abstract</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>
         This paper discusses file system Access Control Lists as implemented in
         several UNIX-like operating systems. After recapitulating the concepts
@@ -1545,7 +1545,7 @@
         standard, we focus on the different aspects of implementation and use
         on Linux.
     </html:p></fr:mainmatter></fr:tree><html:p><html:span class="link local">
-            <html:a href="\relurl">paper</html:a>
+            <html:a href="/forest/bafkrmibassuqtfceabe4t4bxojlkjdnk275r6vrmpw2uegk2vznqnfnosy.html">paper</html:a>
         </html:span></html:p></fr:mainmatter></fr:tree><fr:tree show-metadata="true" expanded="false" toc="false" numbered="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2025</fr:year><fr:month>9</fr:month><fr:day>27</fr:day></fr:date><fr:uri>https://hejohns.github.io/forest/lawvere-1970/</fr:uri><fr:display-uri>lawvere-1970</fr:display-uri><fr:route>/forest/lawvere-1970/</fr:route><fr:title text="Quantifiers and Sheaves">Quantifiers and Sheaves</fr:title><fr:taxon>Reference</fr:taxon></fr:frontmatter><fr:mainmatter><fr:tree show-metadata="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2025</fr:year><fr:month>9</fr:month><fr:day>27</fr:day></fr:date><fr:taxon>abstract</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>
         The unity of opposites in the title is essentially that between logic
         and geometry, and there are compelling reasons for maintaining that
@@ -1593,7 +1593,7 @@
     
         
         <html:span class="link local">
-            <html:a href="\relurl">paper</html:a>
+            <html:a href="/forest/bafkrmihdts4fcxfmaxvk72prbibv5xgaodjziqh6zltgjkxiskvinz7dea.html">paper</html:a>
         </html:span></html:p></fr:mainmatter></fr:tree><fr:tree show-metadata="true" expanded="false" toc="false" numbered="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2025</fr:year><fr:month>9</fr:month><fr:day>27</fr:day></fr:date><fr:uri>https://hejohns.github.io/forest/blass-2003/</fr:uri><fr:display-uri>blass-2003</fr:display-uri><fr:route>/forest/blass-2003/</fr:route><fr:title text="Resource Consciousness in Classical Logic">Resource Consciousness in Classical Logic</fr:title><fr:taxon>Reference</fr:taxon></fr:frontmatter><fr:mainmatter><fr:tree show-metadata="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2025</fr:year><fr:month>9</fr:month><fr:day>27</fr:day></fr:date><fr:taxon>abstract</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>
         Using Herbrand's Theorem, we define simple Herbrand validity, a sort of
         resource consciousness that makes sense in classical predicate logic.
@@ -1609,14 +1609,14 @@
     
         
         <html:span class="link local">
-            <html:a href="\relurl">paper</html:a>
+            <html:a href="/forest/bafkrmidn3mv2akfybcbr25psdni3deymt55m2zdsxr6prbhotyr2h44m5a.html">paper</html:a>
         </html:span></html:p></fr:mainmatter></fr:tree><fr:tree show-metadata="true" expanded="false" toc="false" numbered="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>9</fr:month><fr:day>27</fr:day></fr:date><fr:date><fr:year>2025</fr:year><fr:month>9</fr:month><fr:day>27</fr:day></fr:date><fr:uri>https://hejohns.github.io/forest/hofmann-1999/</fr:uri><fr:display-uri>hofmann-1999</fr:display-uri><fr:route>/forest/hofmann-1999/</fr:route><fr:title text="Semantical analysis of higher-order abstract syntax">Semantical analysis of higher-order abstract syntax</fr:title><fr:taxon>Reference</fr:taxon></fr:frontmatter><fr:mainmatter><fr:tree show-metadata="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>9</fr:month><fr:day>27</fr:day></fr:date><fr:date><fr:year>2025</fr:year><fr:month>9</fr:month><fr:day>27</fr:day></fr:date><fr:taxon>abstract</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>
         A functor category semantics for higher-order abstract syntax is
             proposed with the following aims: relating higher-order and first
             order syntax, justifying induction principles, suggesting new
             logical principles to reason about higher-order syntax.
     </html:p></fr:mainmatter></fr:tree><html:p><html:span class="link local">
-            <html:a href="\relurl">paper</html:a>
+            <html:a href="/forest/bafkrmigsr62kwkqy3la7lx7umke5uvyhpyigkocagc2hcx5z4irkm4yfhe.html">paper</html:a>
         </html:span></html:p></fr:mainmatter></fr:tree><fr:tree show-metadata="true" expanded="false" toc="false" numbered="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2025</fr:year><fr:month>9</fr:month><fr:day>27</fr:day></fr:date><fr:uri>https://hejohns.github.io/forest/mclarty-1990b/</fr:uri><fr:display-uri>mclarty-1990b</fr:display-uri><fr:route>/forest/mclarty-1990b/</fr:route><fr:title text="The Uses and Abuses of the History of Topos Theory">The Uses and Abuses of the History of Topos Theory</fr:title><fr:taxon>Reference</fr:taxon></fr:frontmatter><fr:mainmatter><fr:tree show-metadata="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2025</fr:year><fr:month>9</fr:month><fr:day>27</fr:day></fr:date><fr:taxon>abstract</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>
         The view that toposes originated as generalized set theory is a figment of
         set theoretically educated common sense. This false history obstructs
@@ -1629,12 +1629,12 @@
         false history plausible from that point of view that would make it helpful
         to introduce toposes as a generalization from set theory.
     </html:p></fr:mainmatter></fr:tree><html:p><html:span class="link local">
-            <html:a href="\relurl">paper</html:a>
+            <html:a href="/forest/bafkrmih2wx3xfzuijc3gps2rlgznxwd7pjxosh2eqz6cixfdne2usz6dy4.html">paper</html:a>
         </html:span></html:p></fr:mainmatter></fr:tree><fr:tree show-metadata="true" expanded="false" toc="false" numbered="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2025</fr:year><fr:month>9</fr:month><fr:day>27</fr:day></fr:date><fr:uri>https://hejohns.github.io/forest/marquis-reyes-2012/</fr:uri><fr:display-uri>marquis-reyes-2012</fr:display-uri><fr:route>/forest/marquis-reyes-2012/</fr:route><fr:title text="The history of categorical logic: 1963-1977">The history of categorical logic: 1963-1977</fr:title><fr:taxon>Reference</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>
     I have not read this. This might be a good source, aside from <fr:link href="/forest/ronnie-chen/" title="Ronnie Chen" uri="https://hejohns.github.io/forest/ronnie-chen/" display-uri="ronnie-chen" type="local">Ronnie Chen</fr:link>,
     where the viewpoint of "generalized algebraic semantics" is developed.
 </html:p><html:p><html:span class="link local">
-            <html:a href="\relurl">paper</html:a>
+            <html:a href="/forest/bafkrmibdatedikbakrpczpelhxepqewtfpbbnp4wgj5oc3ncgzqrwy55wm.html">paper</html:a>
         </html:span></html:p></fr:mainmatter></fr:tree><fr:tree show-metadata="true" expanded="false" toc="false" numbered="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2025</fr:year><fr:month>9</fr:month><fr:day>27</fr:day></fr:date><fr:uri>https://hejohns.github.io/forest/blass-1988/</fr:uri><fr:display-uri>blass-1988</fr:display-uri><fr:route>/forest/blass-1988/</fr:route><fr:title text="Topoi and Computation">Topoi and Computation</fr:title><fr:taxon>Reference</fr:taxon></fr:frontmatter><fr:mainmatter><fr:tree show-metadata="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:date><fr:year>2025</fr:year><fr:month>9</fr:month><fr:day>27</fr:day></fr:date><fr:taxon>abstract</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>
         This is the written version of a talk given at the C.I.R.M. Workshop on
         Logic in Computer Science at Marseille, France in June, 1988. Its purpose
@@ -1649,7 +1649,7 @@
         Elementary topoi, and the relation between geometric and logical
         morphisms.
     </html:p></fr:mainmatter></fr:tree><html:p><html:span class="link local">
-            <html:a href="\relurl">paper</html:a>
+            <html:a href="/forest/bafkrmibo5gb3z6ror45a6se2exvnwdi4f6xi4ttqgd43gwuezxsjoyrsgy.html">paper</html:a>
         </html:span></html:p></fr:mainmatter></fr:tree><fr:tree show-metadata="true" expanded="false" toc="false" numbered="false"><fr:frontmatter><fr:authors><fr:contributor><fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link></fr:contributor></fr:authors><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>28</fr:day></fr:date><fr:date><fr:year>2025</fr:year><fr:month>9</fr:month><fr:day>27</fr:day></fr:date><fr:uri>https://hejohns.github.io/forest/quine-1960/</fr:uri><fr:display-uri>quine-1960</fr:display-uri><fr:route>/forest/quine-1960/</fr:route><fr:title text="Variables Explained Away">Variables Explained Away</fr:title><fr:taxon>Reference</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>
     "Separately I sent a copy of Quine's 1950 paper on combinatory logic to
     this list. Whatever else you might think about Quine, he was a terrific
@@ -1706,7 +1706,7 @@
     </html:p><html:p>
         Johnson He
     </html:p></fr:mainmatter></fr:tree><html:ul><html:li><html:span class="link local">
-            <html:a href="\relurl">paper</html:a>
+            <html:a href="/forest/bafkrmicsrjeidpugtinye25qzmxvs5fr2ka5vzhpve35l5zhrzxs6thbxm.html">paper</html:a>
         </html:span></html:li>
     <html:li><fr:link href="/forest/von-neumann-1925/" title="An Axiomatization of Set Theory" uri="https://hejohns.github.io/forest/von-neumann-1925/" display-uri="von-neumann-1925" type="local">An Axiomatization of Set Theory</fr:link></html:li></html:ul></fr:mainmatter></fr:tree><fr:tree show-metadata="true" expanded="false" toc="false" numbered="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>21</fr:day></fr:date><fr:date><fr:year>2025</fr:year><fr:month>9</fr:month><fr:day>27</fr:day></fr:date><fr:uri>https://hejohns.github.io/forest/maddy-2019/</fr:uri><fr:display-uri>maddy-2019</fr:display-uri><fr:route>/forest/maddy-2019/</fr:route><fr:title text="What do we want a foundation to do?">What do we want a foundation to do?</fr:title><fr:taxon>Reference</fr:taxon></fr:frontmatter><fr:mainmatter><fr:tree show-metadata="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>21</fr:day></fr:date><fr:date><fr:year>2025</fr:year><fr:month>9</fr:month><fr:day>27</fr:day></fr:date><fr:taxon>abstract</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>
         Mainstream orthodoxy holds that set theory provides a foundation for
@@ -1762,7 +1762,7 @@
     
         
         <html:span class="link local">
-            <html:a href="\relurl">paper</html:a>
+            <html:a href="/forest/bafkrmibbowawpjsxgoq2euhgeg6dhvasqath6ndbax76uusbmhec5cva3m.html">paper</html:a>
         </html:span></html:p></fr:mainmatter></fr:tree><fr:tree show-metadata="true" expanded="false" toc="false" numbered="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2024</fr:year><fr:month>11</fr:month><fr:day>2</fr:day></fr:date><fr:date><fr:year>2025</fr:year><fr:month>9</fr:month><fr:day>16</fr:day></fr:date><fr:uri>https://hejohns.github.io/forest/Adámek-Rosický-Vitale-2010/</fr:uri><fr:display-uri>Adámek-Rosický-Vitale-2010</fr:display-uri><fr:route>/forest/Adámek-Rosický-Vitale-2010/</fr:route><fr:title text="Algebraic Theories : A Categorical Introduction to General Algebra">Algebraic Theories : A Categorical Introduction to General Algebra</fr:title><fr:taxon>Reference</fr:taxon></fr:frontmatter><fr:mainmatter /></fr:tree><fr:tree show-metadata="true" expanded="false" toc="false" numbered="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>28</fr:day></fr:date><fr:date><fr:year>2025</fr:year><fr:month>9</fr:month><fr:day>16</fr:day></fr:date><fr:uri>https://hejohns.github.io/forest/von-neumann-1925/</fr:uri><fr:display-uri>von-neumann-1925</fr:display-uri><fr:route>/forest/von-neumann-1925/</fr:route><fr:title text="An Axiomatization of Set Theory">An Axiomatization of Set Theory</fr:title><fr:taxon>Reference</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>
     One of the early NBG papers. Maybe "the" NBG paper.
     My notes on this are currently in <fr:link href="/forest/quine-1960/" title="Variables Explained Away" uri="https://hejohns.github.io/forest/quine-1960/" display-uri="quine-1960" type="local">Variables Explained Away</fr:link>.
