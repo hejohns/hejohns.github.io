@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
+  <fr:frontmatter>
+    <fr:authors />
+    <fr:date>
+      <fr:year>2024</fr:year>
+      <fr:month>6</fr:month>
+      <fr:day>2</fr:day>
+    </fr:date>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>9</fr:month>
+      <fr:day>16</fr:day>
+    </fr:date>
+    <fr:uri>https://hejohns.github.io/makkai-reyes-1977/</fr:uri>
+    <fr:display-uri>makkai-reyes-1977</fr:display-uri>
+    <fr:route>/makkai-reyes-1977/</fr:route>
+    <fr:title text="First Order Categorical Logic">First Order Categorical Logic</fr:title>
+    <fr:taxon>Reference</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>
+    I've heard/been told this is <html:em>the</html:em> book for, well, the subject in the
+    title, and Makkai completeness.
+</html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/hejohns/" title="Johnson He" uri="https://hejohns.github.io/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>1</fr:day>
+            </fr:date>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>4</fr:day>
+            </fr:date>
+            <fr:uri>https://hejohns.github.io/hejohns-000G/</fr:uri>
+            <fr:display-uri>hejohns-000G</fr:display-uri>
+            <fr:route>/hejohns-000G/</fr:route>
+            <fr:title text="What is an elementary topos?">What is an elementary topos?</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+    The usual 30-second description of an elementary topos, is that "it's like
+    <fr:tex display="inline"><![CDATA[Set]]></fr:tex>" (but not quite), or "it's an axiomatization of the basic properties
+    of <fr:tex display="inline"><![CDATA[Set]]></fr:tex>".
+    Of course, these are always the kind of descriptions that only make sense
+    once you've <html:em>already</html:em> learned what a(n elementary) topos is.
+    We remark that <fr:link href="/mclarty-1990b/" title="The Uses and Abuses of the History of Topos Theory" uri="https://hejohns.github.io/mclarty-1990b/" display-uri="mclarty-1990b" type="local">The Uses and Abuses of the History of Topos Theory</fr:link> is precisely about this "<fr:tex display="inline"><![CDATA[Set]]></fr:tex>"-based
+    perspective.
+</html:p>
+            <html:p>
+    Instead, I've gathered every book I could conveniently get my hands on just
+    now, and we'll see how each defines an elementary topos.
+</html:p>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/hejohns/" title="Johnson He" uri="https://hejohns.github.io/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>1</fr:day>
+                </fr:date>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>4</fr:day>
+                </fr:date>
+                <fr:title text="Topos à la Introduction to higher order categorical logic p.140">Topos à la <fr:link href="/lambek-scott-1986/" title="Introduction to higher order categorical logic" uri="https://hejohns.github.io/lambek-scott-1986/" display-uri="lambek-scott-1986" type="local">Introduction to higher order categorical logic</fr:link> p.140</fr:title>
+                <fr:taxon>definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+        "A <html:em>topos</html:em> is a cartesian closed category with a sub-object
+        classifier and a natural numbers object."
+    </html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/hejohns/" title="Johnson He" uri="https://hejohns.github.io/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>1</fr:day>
+                </fr:date>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>4</fr:day>
+                </fr:date>
+                <fr:title text="Topos à la Sketches of an Elephant: a topos theory compendium 2.1.1">Topos à la <fr:link href="/johnstone-2002/" title="Sketches of an Elephant: a topos theory compendium" uri="https://hejohns.github.io/johnstone-2002/" display-uri="johnstone-2002" type="local">Sketches of an Elephant: a topos theory compendium</fr:link> 2.1.1</fr:title>
+                <fr:taxon>definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+        "We are now ready to present the definition of an (elementary) topos,
+        which is the central notion of this book: it is a category having all
+        the good 'set-like' properties discussed in the previous chapter,
+        except (possibly) for Booleanness. It is a remarkable fact that all
+        these properties are implied by the conjunction of just two of them:"
+    </html:p>
+                <html:p>
+        "A <html:em>topos</html:em> is a properly cartesian closed category with a subobject
+        classifier."
+    </html:p>
+                <html:p>
+        "… Before that, however, we must mention that the above definition of a
+        topos, though it is appreciably simplified from that originally adopted
+        by F. W. Lawvere and M. Tierney when they began the subject in 1969, is
+        not the simplest possible; one can combine the exponentials and the
+        subobject classifier into a single structure, that of power objects."
+    </html:p>
+                <html:p>
+        ("We say a category <fr:tex display="inline"><![CDATA[\mathcal {C}]]></fr:tex> is <html:em>cartesian closed</html:em> if it has finite
+        products and all its objects are exponentiable. … Nevertheless, most of
+        the cartesian closed categories we shall meet will have equalizers as
+        well as finite products; we shall indicate this (with a note of mild
+        reproof in our voice) by calling them <html:em>properly cartesian closed</html:em>.")
+        (Recall that finite products <fr:tex display="inline"><![CDATA[+]]></fr:tex> equalizers <fr:tex display="inline"><![CDATA[⟺]]></fr:tex> finite limits.)
+    </html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/hejohns/" title="Johnson He" uri="https://hejohns.github.io/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>1</fr:day>
+                </fr:date>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>4</fr:day>
+                </fr:date>
+                <fr:title text="Topos à la Elementary Categories, Elementary Toposes 13.1">Topos à la <fr:link href="/mclarty-1992/" title="Elementary Categories, Elementary Toposes" uri="https://hejohns.github.io/mclarty-1992/" display-uri="mclarty-1992" type="local">Elementary Categories, Elementary Toposes</fr:link> 13.1</fr:title>
+                <fr:taxon>definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+        "A <html:em>topos</html:em> is a Cartesian closed category with a sub-object
+        classifier."
+    </html:p>
+                <html:p>
+        Note though, that McLarty "assumes a base category with finite limits"
+        when talking about cartesian closed categories.
+    </html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/hejohns/" title="Johnson He" uri="https://hejohns.github.io/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>1</fr:day>
+                </fr:date>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>4</fr:day>
+                </fr:date>
+                <fr:title text="Topos à la First Order Categorical Logic">Topos à la <fr:link href="/makkai-reyes-1977/" title="First Order Categorical Logic" uri="https://hejohns.github.io/makkai-reyes-1977/" display-uri="makkai-reyes-1977" type="local">First Order Categorical Logic</fr:link></fr:title>
+                <fr:taxon>definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+        Okay so they only define a Grothendieck topos. We'll leave the
+        discussion of Grothendieck topoi to another time.
+    </html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/hejohns/" title="Johnson He" uri="https://hejohns.github.io/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>1</fr:day>
+                </fr:date>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>4</fr:day>
+                </fr:date>
+                <fr:title text="Topos à la Category Theory 8.17">Topos à la <fr:link href="/awodey-2010/" title="Category Theory" uri="https://hejohns.github.io/awodey-2010/" display-uri="awodey-2010" type="local">Category Theory</fr:link> 8.17</fr:title>
+                <fr:taxon>definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+        "A <html:em>topos</html:em> is a category <fr:tex display="inline"><![CDATA[\mathcal {E}]]></fr:tex> such that
+        <html:ul><html:li>
+                1. <fr:tex display="inline"><![CDATA[\mathcal {E}]]></fr:tex> has all finite limits,
+            </html:li>
+            <html:li>
+                2. <fr:tex display="inline"><![CDATA[\mathcal {E}]]></fr:tex> has a subobject classifier,
+            </html:li>
+            <html:li>
+                3. <fr:tex display="inline"><![CDATA[\mathcal {E}]]></fr:tex> has all exponentials.
+            </html:li></html:ul>
+        This compact definition proves to be amazingly rich in consequences:
+        it can be shown for instance that topoi also have all finite colimits, and that every slice category of a topos is again a topos."
+    </html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/hejohns/" title="Johnson He" uri="https://hejohns.github.io/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>1</fr:day>
+                </fr:date>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>4</fr:day>
+                </fr:date>
+                <fr:title text="Topos à la Topoi: The Categorial Analysis of Logic 4.3">Topos à la <fr:link href="/goldblatt-2006/" title="Topoi: The Categorial Analysis of Logic" uri="https://hejohns.github.io/goldblatt-2006/" display-uri="goldblatt-2006" type="local">Topoi: The Categorial Analysis of Logic</fr:link> 4.3</fr:title>
+                <fr:taxon>definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+        "An <html:em>elementary topos</html:em> is a category <fr:tex display="inline"><![CDATA[\mathcal {C}]]></fr:tex> such that
+        <html:ul><html:li>
+                (1) <fr:tex display="inline"><![CDATA[\mathcal {C}]]></fr:tex> is finitely complete,
+            </html:li>
+            <html:li>
+                (2) <fr:tex display="inline"><![CDATA[\mathcal {C}]]></fr:tex> is finitely co-complete,
+            </html:li>
+            <html:li>
+                (3) <fr:tex display="inline"><![CDATA[\mathcal {C}]]></fr:tex> has exponentiation,
+            </html:li>
+            <html:li>
+                (4) <fr:tex display="inline"><![CDATA[\mathcal {C}]]></fr:tex> has a subobject classifier.
+            </html:li></html:ul>
+        As observed in Chapter 3, (1) and (3) constitute the definition of 'Cartesian closed' while (1) can be replaced by
+        <html:ul><html:li>
+                (1') <fr:tex display="inline"><![CDATA[\mathcal {C}]]></fr:tex> has a terminal object and pullbacks,
+            </html:li></html:ul>
+        and dually (2) replaced by
+        <html:ul><html:li>
+                (2') <fr:tex display="inline"><![CDATA[\mathcal {C}]]></fr:tex> has an initial object <fr:tex display="inline"><![CDATA[0]]></fr:tex>, and pushouts.
+            </html:li></html:ul>
+        The definition just given is the one originally proposed by Lawvere and
+        Tierney, in terms of which they started [elementary] topos theory in
+        1969. Subsequently C. Juul Mikkelsen discovered that condition (2) is
+        implied by the combination of (1), (3) and (4) (cf. Paré [1974]). Thus
+        a topos can be defined as a Cartesian closed category with a subobject
+        classifier. In 4.7 we shall consider a different definition, based on a
+        categorial characterisation of power sets."
+    </html:p>
+                <html:p>
+        (<html:em>complete</html:em>, meaning every diagram has a limit, <html:em>finitely
+        complete</html:em>, meaning every finite diagram (finite objects, finite
+        morphisms) has a limit, "constitute", meaning that "cartesian closed"
+        is defined as (1) and (3), not just (3) as one expects nowadays.  See,
+        <fr:link href="https://math.stackexchange.com/q/1845697" type="external">this stack overflow post</fr:link>.)
+    </html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/hejohns/" title="Johnson He" uri="https://hejohns.github.io/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>1</fr:day>
+                </fr:date>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>4</fr:day>
+                </fr:date>
+                <fr:title text="Topos à la Sheaves in Geometry and Logic: A First Introduction to Topos Theory">Topos à la <fr:link href="/maclane-moerdijk-1994/" title="Sheaves in Geometry and Logic: A First Introduction to Topos Theory" uri="https://hejohns.github.io/maclane-moerdijk-1994/" display-uri="maclane-moerdijk-1994" type="local">Sheaves in Geometry and Logic: A First Introduction to Topos Theory</fr:link></fr:title>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors>
+                      <fr:author>
+                        <fr:link href="/hejohns/" title="Johnson He" uri="https://hejohns.github.io/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                      </fr:author>
+                    </fr:authors>
+                    <fr:date>
+                      <fr:year>2024</fr:year>
+                      <fr:month>6</fr:month>
+                      <fr:day>1</fr:day>
+                    </fr:date>
+                    <fr:date>
+                      <fr:year>2024</fr:year>
+                      <fr:month>6</fr:month>
+                      <fr:day>4</fr:day>
+                    </fr:date>
+                    <fr:uri>https://hejohns.github.io/sub-000G/</fr:uri>
+                    <fr:display-uri>sub-000G</fr:display-uri>
+                    <fr:route>/sub-000G/</fr:route>
+                    <fr:title text="Topos à la Sheaves in Geometry and Logic: A First Introduction to Topos Theory p. 48">Topos à la <fr:link href="/maclane-moerdijk-1994/" title="Sheaves in Geometry and Logic: A First Introduction to Topos Theory" uri="https://hejohns.github.io/maclane-moerdijk-1994/" display-uri="maclane-moerdijk-1994" type="local">Sheaves in Geometry and Logic: A First Introduction to Topos Theory</fr:link> p. 48</fr:title>
+                    <fr:taxon>definition</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>
+            "[A <html:em>topos</html:em> <fr:tex display="inline"><![CDATA[\mathcal {E}]]></fr:tex> is a category] with the following properties
+            <html:ul><html:li>
+                    (i) <fr:tex display="inline"><![CDATA[\mathcal {E}]]></fr:tex> has all finite limits and colimits,
+                </html:li>
+                <html:li>
+                    (ii) <fr:tex display="inline"><![CDATA[\mathcal {E}]]></fr:tex> has exponentials,
+                </html:li>
+                <html:li>
+                    (iii) <fr:tex display="inline"><![CDATA[\mathcal {E}]]></fr:tex> has a subobject classifier <fr:tex display="inline"><![CDATA[1 → Ω]]></fr:tex></html:li></html:ul></html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors>
+                      <fr:author>
+                        <fr:link href="/hejohns/" title="Johnson He" uri="https://hejohns.github.io/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                      </fr:author>
+                    </fr:authors>
+                    <fr:date>
+                      <fr:year>2024</fr:year>
+                      <fr:month>6</fr:month>
+                      <fr:day>1</fr:day>
+                    </fr:date>
+                    <fr:date>
+                      <fr:year>2024</fr:year>
+                      <fr:month>6</fr:month>
+                      <fr:day>4</fr:day>
+                    </fr:date>
+                    <fr:title text="Topos à la Sheaves in Geometry and Logic: A First Introduction to Topos Theory p. 161">Topos à la <fr:link href="/maclane-moerdijk-1994/" title="Sheaves in Geometry and Logic: A First Introduction to Topos Theory" uri="https://hejohns.github.io/maclane-moerdijk-1994/" display-uri="maclane-moerdijk-1994" type="local">Sheaves in Geometry and Logic: A First Introduction to Topos Theory</fr:link> p. 161</fr:title>
+                    <fr:taxon>definition</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>
+            "A <html:em>topos</html:em> <fr:tex display="inline"><![CDATA[\mathcal {E}]]></fr:tex> is a category with all finite limites, equipped with
+            an object <fr:tex display="inline"><![CDATA[Ω]]></fr:tex>, with a function <fr:tex display="inline"><![CDATA[P]]></fr:tex> which assigns to each object <fr:tex display="inline"><![CDATA[B]]></fr:tex>
+            of <fr:tex display="inline"><![CDATA[\mathcal {E}]]></fr:tex> an object <fr:tex display="inline"><![CDATA[PB]]></fr:tex> of <fr:tex display="inline"><![CDATA[\mathcal {E}]]></fr:tex>, and, for each object <fr:tex display="inline"><![CDATA[A]]></fr:tex> of <fr:tex display="inline"><![CDATA[\mathcal {E}]]></fr:tex>, with two
+            isomorphisms, each natural in <fr:tex display="inline"><![CDATA[A]]></fr:tex>
+            <fr:tex display="block"><![CDATA[
+                \begin {align*}
+                    Sub_{\mathcal {E}} &≅ Hom_{\mathcal {E}}(A, Ω) &(1)\\
+                    Hom_{\mathcal {E}}(B × A, Ω) &≅ Hom_{\mathcal {E}}(A, PB) &(2) \\
+                \end {align*}
+            ]]></fr:tex>
+            In other words, the functors <fr:tex display="inline"><![CDATA[Sub_{\mathcal {E}}]]></fr:tex> and <fr:tex display="inline"><![CDATA[Hom_{\mathcal {E}}(B × -, Ω)]]></fr:tex>, the
+            latter for each object <fr:tex display="inline"><![CDATA[B]]></fr:tex> of <fr:tex display="inline"><![CDATA[\mathcal {E}]]></fr:tex>, are required to be representable.
+            In the first case, the representing object <fr:tex display="inline"><![CDATA[Ω]]></fr:tex> is the <html:em>subobject
+            classifier</html:em>, as already described in §I.3, while in the second case
+            <fr:tex display="inline"><![CDATA[PB]]></fr:tex> may be called the <html:em>power object</html:em> of <fr:tex display="inline"><![CDATA[B]]></fr:tex>; moreover, the
+            function <fr:tex display="inline"><![CDATA[P]]></fr:tex> can be extended to a functor <fr:tex display="inline"><![CDATA[P : \mathcal {E}^{op} → \mathcal {E}]]></fr:tex> in
+            exactly one way so that (2) becomes natural in <fr:tex display="inline"><![CDATA[B]]></fr:tex> (as well as in
+            <fr:tex display="inline"><![CDATA[A]]></fr:tex>), see (7) below. Equivalently, the natural isomorphism (2) states
+            that <fr:tex display="inline"><![CDATA[PB]]></fr:tex> is the exponential <fr:tex display="inline"><![CDATA[Ω^B]]></fr:tex>, as described in §I.6; therefore,
+            any category which satisfies (1) and has all exponentials will, in
+            particular, have all power objects. We emphasize that at first sight the axioms for at topos just giben seem weaker than those of <fr:link href="/sub-000G/" title="Topos à la Sheaves in Geometry and Logic: A First Introduction to Topos Theory p. 48" uri="https://hejohns.github.io/sub-000G/" display-uri="sub-000G" type="local">§I.6</fr:link>. However, it will be shown in the
+            course of this chapter that the two sets of axioms are actually
+            equivalent.
+        </html:p>
+                    <html:p>
+            Notice that the two natural isomorphisms (1) and (2) may be combined
+            in a single isomorphism
+            <fr:tex display="block"><![CDATA[
+                \begin {align*}
+                    Sub_{\mathcal {E}}(B × A) &≅ Hom_{\mathcal {E}}(A, PB) &(3) \\
+                \end {align*}
+            ]]></fr:tex>
+            natural in A. With <fr:tex display="inline"><![CDATA[B = 1]]></fr:tex>, this implies (1) with <fr:tex display="inline"><![CDATA[Ω = P1]]></fr:tex>, and hence
+            also (2). In other words, we could define a topos as a category with
+            finite limits equipped with a single operation <fr:tex display="inline"><![CDATA[P]]></fr:tex> satisfying (3)."
+        </html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+              </fr:mainmatter>
+            </fr:tree>
+            <html:p>
+    We collect the definition of a <html:em>subobject classifier</html:em>, which appears in
+    every definition, and give a standard one:
+</html:p>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>3</fr:day>
+                </fr:date>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>8</fr:month>
+                  <fr:day>21</fr:day>
+                </fr:date>
+                <fr:uri>https://hejohns.github.io/hejohns-000I/</fr:uri>
+                <fr:display-uri>hejohns-000I</fr:display-uri>
+                <fr:route>/hejohns-000I/</fr:route>
+                <fr:title text="subobject classifier">subobject classifier</fr:title>
+                <fr:taxon>definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+    For a category <fr:tex display="inline"><![CDATA[\mathcal {C}]]></fr:tex>, a <html:em>subobject classifier</html:em> is an object <fr:tex display="inline"><![CDATA[Ω]]></fr:tex> together
+    with a global element <fr:tex display="inline"><![CDATA[true : 1 → Ω]]></fr:tex> such that <fr:tex display="inline"><![CDATA[∀ A ∈ \mathcal {C}. ∀ s : S ↣ A. ∃!
+    χ_s : A → Ω.]]></fr:tex>
+    
+    
+    
+        
+        <html:figure><fr:resource hash="61eb2b59069108c4709816d4014899aa"><fr:resource-content><html:img src="/61eb2b59069108c4709816d4014899aa.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[
+    \usepackage {tikz-cd}
+    \usepackage {unicode-math} ]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+        \begin {tikzcd}
+            S \ar [d, rightarrowtail, "s"']\ar [r]\ar [dr, phantom, "\lrcorner ", very near start] & 1 \ar [d, rightarrowtail, "true"] \\
+            A \ar [r, "χ_s"'] & Ω
+        \end {tikzcd}
+    ]]></fr:resource-source></fr:resource></html:figure>
+    
+
+
+    is a pullback square.
+</html:p>
+                <html:p>
+    Notice that <fr:tex display="inline"><![CDATA[true]]></fr:tex> is trivially monic since every <fr:link href="/hejohns-000K/" title="global element" uri="https://hejohns.github.io/hejohns-000K/" display-uri="hejohns-000K" type="local">global
+    element</fr:link> is trivially monic. Recall that "monos are stable
+    under pullback".
+</html:p>
+                <html:p>
+    This is from <fr:link href="/mclarty-1992/" title="Elementary Categories, Elementary Toposes" uri="https://hejohns.github.io/mclarty-1992/" display-uri="mclarty-1992" type="local">Elementary Categories, Elementary Toposes</fr:link>.
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <html:p>
+    So comparing each definition with another, they're all about par for
+    course, if we ignore natural numbers objects for now.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

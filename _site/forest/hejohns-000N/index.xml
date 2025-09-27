@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/hejohns/" title="Johnson He" uri="https://hejohns.github.io/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2024</fr:year>
+      <fr:month>6</fr:month>
+      <fr:day>3</fr:day>
+    </fr:date>
+    <fr:date>
+      <fr:year>2024</fr:year>
+      <fr:month>6</fr:month>
+      <fr:day>4</fr:day>
+    </fr:date>
+    <fr:uri>https://hejohns.github.io/hejohns-000N/</fr:uri>
+    <fr:display-uri>hejohns-000N</fr:display-uri>
+    <fr:route>/hejohns-000N/</fr:route>
+    <fr:title text="L (Language)">L (Language)</fr:title>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>
+    I vaguely recall reading that the tradition of isolating the non-logical
+    symbols (constants, functions, relations) of a first order logic for a
+    language <fr:tex display="inline"><![CDATA[\mathcal {L}]]></fr:tex>, and referring to suitable models as
+    <fr:tex display="inline"><![CDATA[\mathcal {L}]]></fr:tex>-structures, was popularized by Carnap, and maybe in
+    particular by <html:em>The Logical Syntax of Language</html:em>.
+</html:p>
+    <html:p>
+    I am unable to track down a source for this now. I'll have to check <html:em>The
+    Syntax</html:em> sometime. I can say at least <html:em>Meaning and Necessity</html:em> does
+    <html:em>not</html:em> make use of this terminology in the same way.
+</html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

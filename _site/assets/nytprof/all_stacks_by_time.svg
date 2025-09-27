@@ -1,0 +1,575 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" width="1200" height="370" onload="init(evt)" viewBox="0 0 1200 370" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<!-- Flame graph stack visualization. See https://github.com/brendangregg/FlameGraph for latest version, and http://www.brendangregg.com/flamegraphs.html for examples. -->
+<defs >
+	<linearGradient id="background" y1="0" y2="1" x1="0" x2="0" >
+		<stop stop-color="#eeeeee" offset="5%" />
+		<stop stop-color="#eeeeb0" offset="95%" />
+	</linearGradient>
+</defs>
+<style type="text/css">
+	.func_g:hover { stroke:black; stroke-width:0.5; cursor:pointer; }
+</style>
+<script type="text/ecmascript">
+<![CDATA[
+	var details, svg;
+	function init(evt) { 
+		details = document.getElementById("details").firstChild; 
+		svg = document.getElementsByTagName("svg")[0];
+		searching = 0;
+	}
+
+	// mouse-over for info
+	function s(info) { details.nodeValue = "sub " + info; }
+	function c() { details.nodeValue = ' '; }
+
+	// functions
+	function find_child(parent, name, attr) {
+		var children = parent.childNodes;
+		for (var i=0; i<children.length;i++) {
+			if (children[i].tagName == name)
+				return (attr != undefined) ? children[i].attributes[attr].value : children[i];
+		}
+		return;
+	}
+	function orig_save(e, attr, val) {
+		if (e.attributes["_orig_"+attr] != undefined) return;
+		if (e.attributes[attr] == undefined) return;
+		if (val == undefined) val = e.attributes[attr].value;
+		e.setAttribute("_orig_"+attr, val);
+	}
+	function orig_load(e, attr) {
+		if (e.attributes["_orig_"+attr] == undefined) return;
+		e.attributes[attr].value = e.attributes["_orig_"+attr].value;
+		e.removeAttribute("_orig_"+attr);
+	}
+	function update_text(e) {
+		var r = find_child(e, "rect");
+		var t = find_child(e, "text");
+		var w = parseFloat(r.attributes["width"].value) -3;
+		var txt = find_child(e, "title").textContent.replace(/\([^(]*\)/,"");
+		t.attributes["x"].value = parseFloat(r.attributes["x"].value) +3;
+		
+		// Smaller than this size won't fit anything
+		if (w < 2*12*0.59) {
+			t.textContent = "";
+			return;
+		}
+		
+		t.textContent = txt;
+		// Fit in full text width
+		if (/^ *$/.test(txt) || t.getSubStringLength(0, txt.length) < w)
+			return;
+		
+		for (var x=txt.length-2; x>0; x--) {
+			if (t.getSubStringLength(0, x+2) <= w) { 
+				t.textContent = txt.substring(0,x) + "..";
+				return;
+			}
+		}
+		t.textContent = "";
+	}
+
+	// zoom
+	function zoom_reset(e) {
+		if (e.attributes != undefined) {
+			orig_load(e, "x");
+			orig_load(e, "width");
+		}
+		if (e.childNodes == undefined) return;
+		for(var i=0, c=e.childNodes; i<c.length; i++) {
+			zoom_reset(c[i]);
+		}
+	}
+	function zoom_child(e, x, ratio) {
+		if (e.attributes != undefined) {
+			if (e.attributes["x"] != undefined) {
+				orig_save(e, "x");
+				e.attributes["x"].value = (parseFloat(e.attributes["x"].value) - x - 10) * ratio + 10;
+				if(e.tagName == "text") e.attributes["x"].value = find_child(e.parentNode, "rect", "x") + 3;
+			}
+			if (e.attributes["width"] != undefined) {
+				orig_save(e, "width");
+				e.attributes["width"].value = parseFloat(e.attributes["width"].value) * ratio;
+			}
+		}
+		
+		if (e.childNodes == undefined) return;
+		for(var i=0, c=e.childNodes; i<c.length; i++) {
+			zoom_child(c[i], x-10, ratio);
+		}
+	}
+	function zoom_parent(e) {
+		if (e.attributes) {
+			if (e.attributes["x"] != undefined) {
+				orig_save(e, "x");
+				e.attributes["x"].value = 10;
+			}
+			if (e.attributes["width"] != undefined) {
+				orig_save(e, "width");
+				e.attributes["width"].value = parseInt(svg.width.baseVal.value) - (10*2);
+			}
+		}
+		if (e.childNodes == undefined) return;
+		for(var i=0, c=e.childNodes; i<c.length; i++) {
+			zoom_parent(c[i]);
+		}
+	}
+	function zoom(node) { 
+		var attr = find_child(node, "rect").attributes;
+		var width = parseFloat(attr["width"].value);
+		var xmin = parseFloat(attr["x"].value);
+		var xmax = parseFloat(xmin + width);
+		var ymin = parseFloat(attr["y"].value);
+		var ratio = (svg.width.baseVal.value - 2*10) / width;
+		
+		// XXX: Workaround for JavaScript float issues (fix me)
+		var fudge = 0.0001;
+		
+		var unzoombtn = document.getElementById("unzoom");
+		unzoombtn.style["opacity"] = "1.0";
+		
+		var el = document.getElementsByTagName("g");
+		for(var i=0;i<el.length;i++){
+			var e = el[i];
+			var a = find_child(e, "rect").attributes;
+			var ex = parseFloat(a["x"].value);
+			var ew = parseFloat(a["width"].value);
+			// Is it an ancestor
+			if (0 == 0) {
+				var upstack = parseFloat(a["y"].value) > ymin;
+			} else {
+				var upstack = parseFloat(a["y"].value) < ymin;
+			}
+			if (upstack) {
+				// Direct ancestor
+				if (ex <= xmin && (ex+ew+fudge) >= xmax) {
+					e.style["opacity"] = "0.5";
+					zoom_parent(e);
+					e.onclick = function(e){unzoom(); zoom(this);};
+					update_text(e);
+				}
+				// not in current path
+				else
+					e.style["display"] = "none";
+			}
+			// Children maybe
+			else {
+				// no common path
+				if (ex < xmin || ex + fudge >= xmax) {
+					e.style["display"] = "none";
+				}
+				else {
+					zoom_child(e, xmin, ratio);
+					e.onclick = function(e){zoom(this);};
+					update_text(e);
+				}
+			}
+		}
+	}
+	function unzoom() {
+		var unzoombtn = document.getElementById("unzoom");
+		unzoombtn.style["opacity"] = "0.0";
+		
+		var el = document.getElementsByTagName("g");
+		for(i=0;i<el.length;i++) {
+			el[i].style["display"] = "block";
+			el[i].style["opacity"] = "1";
+			zoom_reset(el[i]);
+			update_text(el[i]);
+		}
+	}	
+
+	// search
+	function reset_search() {
+		var el = document.getElementsByTagName("rect");
+		for (var i=0; i < el.length; i++){
+			orig_load(el[i], "fill")
+		}
+	}
+	function search_prompt() {
+		if (!searching) {
+			var term = prompt("Enter a search term (regexp " +
+			    "allowed, eg: ^ext4_)", "");
+			if (term != null) {
+				search(term)
+			}
+		} else {
+			reset_search();
+			searching = 0;
+			var searchbtn = document.getElementById("search");
+			searchbtn.style["opacity"] = "0.1";
+			searchbtn.firstChild.nodeValue = "Search"
+		}
+	}
+	function search(term) {
+		var re = new RegExp(term);
+		var el = document.getElementsByTagName("g");
+		for (var i=0; i < el.length; i++){
+			var e = el[i];
+			if (e.attributes["class"].value == "func_g") {
+				// Scrape the function name from the onmouseover
+				// callback text. This is a little dirty.
+				var func = e.attributes["onmouseover"].value;
+				if (func != null) {
+					func = func.substr(3);
+					func = func.replace(/ .*/, "");
+					var r = find_child(e, "rect");
+					if (r == null) {
+						// the rect might be wrapped in an anchor
+						// if nameattr href is being used
+						if (r = find_child(e, "a")) {
+						    r = find_child(r, "rect");
+						}
+					}
+				}
+				if (func != null && r != null &&
+				    func.match(re)) {
+					orig_save(r, "fill");
+					r.attributes["fill"].value =
+					    "rgb(230,0,230)";
+					searching = 1;
+				}
+			}
+		}
+		if (searching) {
+			var searchbtn = document.getElementById("search");
+			searchbtn.style["opacity"] = "1.0";
+			searchbtn.firstChild.nodeValue = "Reset Search"
+		}
+	}
+	function searchover(e) {
+		var searchbtn = document.getElementById("search");
+		searchbtn.style["opacity"] = "1.0";
+	}
+	function searchout(e) {
+		var searchbtn = document.getElementById("search");
+		if (searching) {
+			searchbtn.style["opacity"] = "1.0";
+		} else {
+			searchbtn.style["opacity"] = "0.1";
+		}
+	}
+]]>
+</script>
+<rect x="0.0" y="0" width="1200.0" height="370.0" fill="url(#background)"  />
+<text text-anchor="middle" x="600.00" y="24" font-size="17" font-family="Verdana" fill="rgb(0,0,0)"  >Flame Graph</text>
+<text text-anchor="" x="10.00" y="353" font-size="12" font-family="Verdana" fill="rgb(0,0,0)" id="details" > </text>
+<text text-anchor="" x="10.00" y="24" font-size="12" font-family="Verdana" fill="rgb(0,0,0)" id="unzoom" onclick="unzoom()" style="opacity:0.0;cursor:pointer" >Reset Zoom</text>
+<text text-anchor="" x="1090.00" y="24" font-size="12" font-family="Verdana" fill="rgb(0,0,0)" id="search" onmouseover="searchover()" onmouseout="searchout()" onclick="search_prompt()" style="opacity:0.1;cursor:pointer" >Search</text>
+<g class="func_g" onmouseover="s('Text::CSV_XS::getline_hr_all (53,714,453,096 microseconds, 100.00%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Text::CSV_XS::getline_hr_all (53,714,453,096 microseconds, 100.00%)</title><a xlink:href="Text-CSV_XS-pm-49-line.html#1043" target="_top"><rect x="10.0" y="273" width="1180.0" height="15.0" fill="rgb(230,187,28)" rx="2" ry="2" />
+<text text-anchor="" x="13.02" y="283.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Text::CSV_XS::getline_hr_all</text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('IPC::Run::get_more_input (6,555,839 microseconds, 0.01%)')" onmouseout="c()" onclick="zoom(this)">
+<title>IPC::Run::get_more_input (6,555,839 microseconds, 0.01%)</title><a xlink:href="IPC-Run-pm-73-line.html#4155" target="_top"><rect x="845.7" y="65" width="0.1" height="15.0" fill="rgb(234,168,31)" rx="2" ry="2" />
+<text text-anchor="" x="848.70" y="75.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('POSIX::read (15,218,908,889 microseconds, 28.33%)')" onmouseout="c()" onclick="zoom(this)">
+<title>POSIX::read (15,218,908,889 microseconds, 28.33%)</title><a xlink:href="POSIX-pm-43-line.html#POSIX__read" target="_top"><rect x="855.0" y="113" width="334.3" height="15.0" fill="rgb(241,184,40)" rx="2" ry="2" />
+<text text-anchor="" x="858.02" y="123.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >POSIX::read</text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Text::CSV_XS::CORE:readline (5,311,306 microseconds, 0.01%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Text::CSV_XS::CORE:readline (5,311,306 microseconds, 0.01%)</title><a xlink:href="Text-CSV_XS-pm-49-line.html#Text__CSV_XS__CORE_readline" target="_top"><rect x="10.1" y="225" width="0.1" height="15.0" fill="rgb(246,187,46)" rx="2" ry="2" />
+<text text-anchor="" x="13.12" y="235.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('File::Temp::_gettemp (28,916,033 microseconds, 0.05%)')" onmouseout="c()" onclick="zoom(this)">
+<title>File::Temp::_gettemp (28,916,033 microseconds, 0.05%)</title><a xlink:href="File-Temp-pm-25-line.html#331" target="_top"><rect x="12.6" y="161" width="0.6" height="15.0" fill="rgb(237,199,35)" rx="2" ry="2" />
+<text text-anchor="" x="15.61" y="171.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('IO::Handle::getline (5,957,007 microseconds, 0.01%)')" onmouseout="c()" onclick="zoom(this)">
+<title>IO::Handle::getline (5,957,007 microseconds, 0.01%)</title><a xlink:href="IO-Handle-pm-30-line.html#IO__Handle__getline" target="_top"><rect x="10.1" y="241" width="0.1" height="15.0" fill="rgb(246,163,46)" rx="2" ry="2" />
+<text text-anchor="" x="13.10" y="251.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('IPC::Run::CORE:sselect (127,291,863 microseconds, 0.24%)')" onmouseout="c()" onclick="zoom(this)">
+<title>IPC::Run::CORE:sselect (127,291,863 microseconds, 0.24%)</title><a xlink:href="IPC-Run-pm-73-line.html#IPC__Run__CORE_sselect" target="_top"><rect x="846.2" y="113" width="2.8" height="15.0" fill="rgb(241,168,39)" rx="2" ry="2" />
+<text text-anchor="" x="849.23" y="123.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Capture::Tiny::_relayer (7,277,358 microseconds, 0.01%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Capture::Tiny::_relayer (7,277,358 microseconds, 0.01%)</title><a xlink:href="Capture-Tiny-pm-68-line.html#83" target="_top"><rect x="11.5" y="193" width="0.2" height="15.0" fill="rgb(245,115,44)" rx="2" ry="2" />
+<text text-anchor="" x="14.55" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('all (53,715,829,213 microseconds, 100%)')" onmouseout="c()" onclick="zoom(this)">
+<title>all (53,715,829,213 microseconds, 100%)</title><rect x="10.0" y="321" width="1180.0" height="15.0" fill="rgb(255,230,55)" rx="2" ry="2" />
+<text text-anchor="" x="13.00" y="331.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</g>
+<g class="func_g" onmouseover="s('main::__ANON__[split.pl:88] (53,562,708,102 microseconds, 99.71%)')" onmouseout="c()" onclick="zoom(this)">
+<title>main::__ANON__[split.pl:88] (53,562,708,102 microseconds, 99.71%)</title><a xlink:href="split-pl-1-line.html#86" target="_top"><rect x="13.3" y="193" width="1176.7" height="15.0" fill="rgb(243,83,41)" rx="2" ry="2" />
+<text text-anchor="" x="16.34" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >main::__ANON__[split.pl:88]</text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('IPC::Run::IO::poll (48,417,244 microseconds, 0.09%)')" onmouseout="c()" onclick="zoom(this)">
+<title>IPC::Run::IO::poll (48,417,244 microseconds, 0.09%)</title><a xlink:href="IPC-Run-IO-pm-78-line.html#514" target="_top"><rect x="844.8" y="129" width="1.1" height="15.0" fill="rgb(229,168,26)" rx="2" ry="2" />
+<text text-anchor="" x="847.80" y="139.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('IPC::Run::_clobber (13,416,157 microseconds, 0.02%)')" onmouseout="c()" onclick="zoom(this)">
+<title>IPC::Run::_clobber (13,416,157 microseconds, 0.02%)</title><a xlink:href="IPC-Run-pm-73-line.html#2950" target="_top"><rect x="845.3" y="65" width="0.3" height="15.0" fill="rgb(244,168,43)" rx="2" ry="2" />
+<text text-anchor="" x="848.31" y="75.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('IPC::Run::_cleanup (15,370,748 microseconds, 0.03%)')" onmouseout="c()" onclick="zoom(this)">
+<title>IPC::Run::_cleanup (15,370,748 microseconds, 0.03%)</title><a xlink:href="IPC-Run-pm-73-line.html#3207" target="_top"><rect x="13.8" y="145" width="0.3" height="15.0" fill="rgb(242,168,41)" rx="2" ry="2" />
+<text text-anchor="" x="16.81" y="155.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('IPC::Run::reap_nb (50,156,622 microseconds, 0.09%)')" onmouseout="c()" onclick="zoom(this)">
+<title>IPC::Run::reap_nb (50,156,622 microseconds, 0.09%)</title><a xlink:href="IPC-Run-pm-73-line.html#3437" target="_top"><rect x="849.1" y="113" width="1.1" height="15.0" fill="rgb(233,168,31)" rx="2" ry="2" />
+<text text-anchor="" x="852.09" y="123.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('IPC::Run::pumpable (197,029,292 microseconds, 0.37%)')" onmouseout="c()" onclick="zoom(this)">
+<title>IPC::Run::pumpable (197,029,292 microseconds, 0.37%)</title><a xlink:href="IPC-Run-pm-73-line.html#3383" target="_top"><rect x="845.9" y="129" width="4.3" height="15.0" fill="rgb(241,168,40)" rx="2" ry="2" />
+<text text-anchor="" x="848.86" y="139.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('IPC::Run::Debug::_debugging_details (21,415,685 microseconds, 0.04%)')" onmouseout="c()" onclick="zoom(this)">
+<title>IPC::Run::Debug::_debugging_details (21,415,685 microseconds, 0.04%)</title><a xlink:href="(eval 24)[IPC-Run-Debug-pm-103]-76-line.html#93" target="_top"><rect x="844.3" y="129" width="0.5" height="15.0" fill="rgb(230,168,27)" rx="2" ry="2" />
+<text text-anchor="" x="847.33" y="139.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('File::Temp::unlink1 (20,319,212 microseconds, 0.04%)')" onmouseout="c()" onclick="zoom(this)">
+<title>File::Temp::unlink1 (20,319,212 microseconds, 0.04%)</title><a xlink:href="File-Temp-pm-25-line.html#2278" target="_top"><rect x="11.9" y="177" width="0.5" height="15.0" fill="rgb(229,199,26)" rx="2" ry="2" />
+<text text-anchor="" x="14.94" y="187.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('IPC::Run::Debug::_debugging_details (12,817,968 microseconds, 0.02%)')" onmouseout="c()" onclick="zoom(this)">
+<title>IPC::Run::Debug::_debugging_details (12,817,968 microseconds, 0.02%)</title><a xlink:href="(eval 24)[IPC-Run-Debug-pm-103]-76-line.html#93" target="_top"><rect x="854.0" y="129" width="0.3" height="15.0" fill="rgb(230,168,27)" rx="2" ry="2" />
+<text text-anchor="" x="857.01" y="139.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('IPC::Run::_pipe_nb (15,828,840 microseconds, 0.03%)')" onmouseout="c()" onclick="zoom(this)">
+<title>IPC::Run::_pipe_nb (15,828,840 microseconds, 0.03%)</title><a xlink:href="IPC-Run-pm-73-line.html#1390" target="_top"><rect x="851.1" y="97" width="0.3" height="15.0" fill="rgb(233,168,31)" rx="2" ry="2" />
+<text text-anchor="" x="854.07" y="107.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('IPC::Run::Debug::_debugging_details (4,838,363 microseconds, 0.01%)')" onmouseout="c()" onclick="zoom(this)">
+<title>IPC::Run::Debug::_debugging_details (4,838,363 microseconds, 0.01%)</title><a xlink:href="(eval 24)[IPC-Run-Debug-pm-103]-76-line.html#93" target="_top"><rect x="14.0" y="129" width="0.1" height="15.0" fill="rgb(230,168,27)" rx="2" ry="2" />
+<text text-anchor="" x="17.03" y="139.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('IPC::Run::IO::_do_filters (39,953,352 microseconds, 0.07%)')" onmouseout="c()" onclick="zoom(this)">
+<title>IPC::Run::IO::_do_filters (39,953,352 microseconds, 0.07%)</title><a xlink:href="IPC-Run-IO-pm-78-line.html#538" target="_top"><rect x="845.0" y="113" width="0.8" height="15.0" fill="rgb(238,168,36)" rx="2" ry="2" />
+<text text-anchor="" x="847.96" y="123.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('IPC::Run::_read (15,225,417,281 microseconds, 28.34%)')" onmouseout="c()" onclick="zoom(this)">
+<title>IPC::Run::_read (15,225,417,281 microseconds, 28.34%)</title><a xlink:href="IPC-Run-pm-73-line.html#1424" target="_top"><rect x="854.9" y="129" width="334.4" height="15.0" fill="rgb(241,168,40)" rx="2" ry="2" />
+<text text-anchor="" x="857.88" y="139.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >IPC::Run::_read</text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('IPC::Run::get_more_input (33,887,147 microseconds, 0.06%)')" onmouseout="c()" onclick="zoom(this)">
+<title>IPC::Run::get_more_input (33,887,147 microseconds, 0.06%)</title><a xlink:href="IPC-Run-pm-73-line.html#4155" target="_top"><rect x="845.1" y="97" width="0.7" height="15.0" fill="rgb(234,168,31)" rx="2" ry="2" />
+<text text-anchor="" x="848.10" y="107.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Capture::Tiny::_open_std (13,798,390 microseconds, 0.03%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Capture::Tiny::_open_std (13,798,390 microseconds, 0.03%)</title><a xlink:href="Capture-Tiny-pm-68-line.html#191" target="_top"><rect x="11.2" y="193" width="0.3" height="15.0" fill="rgb(243,115,42)" rx="2" ry="2" />
+<text text-anchor="" x="14.23" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('IPC::Run::start (15,459,889,470 microseconds, 28.78%)')" onmouseout="c()" onclick="zoom(this)">
+<title>IPC::Run::start (15,459,889,470 microseconds, 28.78%)</title><a xlink:href="IPC-Run-pm-73-line.html#2783" target="_top"><rect x="850.3" y="161" width="339.6" height="15.0" fill="rgb(239,168,37)" rx="2" ry="2" />
+<text text-anchor="" x="853.28" y="171.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >IPC::Run::start</text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('IPC::Run::harness (24,925,354 microseconds, 0.05%)')" onmouseout="c()" onclick="zoom(this)">
+<title>IPC::Run::harness (24,925,354 microseconds, 0.05%)</title><a xlink:href="IPC-Run-pm-73-line.html#1734" target="_top"><rect x="1189.3" y="145" width="0.6" height="15.0" fill="rgb(237,168,35)" rx="2" ry="2" />
+<text text-anchor="" x="1192.35" y="155.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('IPC::Run::Debug::_debugging_atleast (13,116,690 microseconds, 0.02%)')" onmouseout="c()" onclick="zoom(this)">
+<title>IPC::Run::Debug::_debugging_atleast (13,116,690 microseconds, 0.02%)</title><a xlink:href="(eval 24)[IPC-Run-Debug-pm-103]-76-line.html#83" target="_top"><rect x="844.5" y="113" width="0.3" height="15.0" fill="rgb(238,168,36)" rx="2" ry="2" />
+<text text-anchor="" x="847.51" y="123.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('IPC::Run::_spawn (15,369,942,888 microseconds, 28.61%)')" onmouseout="c()" onclick="zoom(this)">
+<title>IPC::Run::_spawn (15,369,942,888 microseconds, 28.61%)</title><a xlink:href="IPC-Run-pm-73-line.html#1435" target="_top"><rect x="851.7" y="145" width="337.6" height="15.0" fill="rgb(244,168,43)" rx="2" ry="2" />
+<text text-anchor="" x="854.71" y="155.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >IPC::Run::_spawn</text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('IPC::Run::IO::_do_open (17,512,669 microseconds, 0.03%)')" onmouseout="c()" onclick="zoom(this)">
+<title>IPC::Run::IO::_do_open (17,512,669 microseconds, 0.03%)</title><a xlink:href="IPC-Run-IO-pm-78-line.html#310" target="_top"><rect x="851.0" y="113" width="0.4" height="15.0" fill="rgb(250,168,49)" rx="2" ry="2" />
+<text text-anchor="" x="854.03" y="123.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('IPC::Run::_select_loop (38,058,513,080 microseconds, 70.85%)')" onmouseout="c()" onclick="zoom(this)">
+<title>IPC::Run::_select_loop (38,058,513,080 microseconds, 70.85%)</title><a xlink:href="IPC-Run-pm-73-line.html#2985" target="_top"><rect x="14.1" y="145" width="836.1" height="15.0" fill="rgb(248,168,47)" rx="2" ry="2" />
+<text text-anchor="" x="17.15" y="155.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >IPC::Run::_select_loop</text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Text::CSV_XS::getline_all (53,714,421,218 microseconds, 100.00%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Text::CSV_XS::getline_all (53,714,421,218 microseconds, 100.00%)</title><a xlink:href="Text-CSV_XS-pm-49-line.html#Text__CSV_XS__getline_all" target="_top"><rect x="10.0" y="257" width="1180.0" height="15.0" fill="rgb(230,187,28)" rx="2" ry="2" />
+<text text-anchor="" x="13.02" y="267.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Text::CSV_XS::getline_all</text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('IPC::Run::run (53,557,604,929 microseconds, 99.71%)')" onmouseout="c()" onclick="zoom(this)">
+<title>IPC::Run::run (53,557,604,929 microseconds, 99.71%)</title><a xlink:href="IPC-Run-pm-73-line.html#1517" target="_top"><rect x="13.4" y="177" width="1176.5" height="15.0" fill="rgb(243,168,41)" rx="2" ry="2" />
+<text text-anchor="" x="16.37" y="187.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >IPC::Run::run</text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('File::Temp::DESTROY (30,283,195 microseconds, 0.06%)')" onmouseout="c()" onclick="zoom(this)">
+<title>File::Temp::DESTROY (30,283,195 microseconds, 0.06%)</title><a xlink:href="File-Temp-pm-25-line.html#1235" target="_top"><rect x="11.7" y="193" width="0.7" height="15.0" fill="rgb(230,199,27)" rx="2" ry="2" />
+<text text-anchor="" x="14.72" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('IPC::Run::IO::_new_internal (5,692,432 microseconds, 0.01%)')" onmouseout="c()" onclick="zoom(this)">
+<title>IPC::Run::IO::_new_internal (5,692,432 microseconds, 0.01%)</title><a xlink:href="IPC-Run-IO-pm-78-line.html#127" target="_top"><rect x="1189.7" y="129" width="0.2" height="15.0" fill="rgb(229,168,27)" rx="2" ry="2" />
+<text text-anchor="" x="1192.73" y="139.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('IPC::Run::IO::close (6,653,919 microseconds, 0.01%)')" onmouseout="c()" onclick="zoom(this)">
+<title>IPC::Run::IO::close (6,653,919 microseconds, 0.01%)</title><a xlink:href="IPC-Run-IO-pm-78-line.html#357" target="_top"><rect x="845.5" y="49" width="0.1" height="15.0" fill="rgb(245,168,44)" rx="2" ry="2" />
+<text text-anchor="" x="848.46" y="59.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('IPC::Run::_close (5,524,320 microseconds, 0.01%)')" onmouseout="c()" onclick="zoom(this)">
+<title>IPC::Run::_close (5,524,320 microseconds, 0.01%)</title><a xlink:href="IPC-Run-pm-73-line.html#1273" target="_top"><rect x="845.5" y="33" width="0.1" height="15.0" fill="rgb(245,168,44)" rx="2" ry="2" />
+<text text-anchor="" x="848.48" y="43.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Capture::Tiny::_copy_std (12,424,926 microseconds, 0.02%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Capture::Tiny::_copy_std (12,424,926 microseconds, 0.02%)</title><a xlink:href="Capture-Tiny-pm-68-line.html#179" target="_top"><rect x="11.0" y="193" width="0.2" height="15.0" fill="rgb(243,115,42)" rx="2" ry="2" />
+<text text-anchor="" x="13.96" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('IPC::Run::_dup (4,597,824 microseconds, 0.01%)')" onmouseout="c()" onclick="zoom(this)">
+<title>IPC::Run::_dup (4,597,824 microseconds, 0.01%)</title><a xlink:href="IPC-Run-pm-73-line.html#1316" target="_top"><rect x="851.3" y="81" width="0.1" height="15.0" fill="rgb(241,168,39)" rx="2" ry="2" />
+<text text-anchor="" x="854.32" y="91.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('IPC::Run::CORE:waitpid (5,288,698 microseconds, 0.01%)')" onmouseout="c()" onclick="zoom(this)">
+<title>IPC::Run::CORE:waitpid (5,288,698 microseconds, 0.01%)</title><a xlink:href="IPC-Run-pm-73-line.html#IPC__Run__CORE_waitpid" target="_top"><rect x="849.7" y="97" width="0.1" height="15.0" fill="rgb(245,168,44)" rx="2" ry="2" />
+<text text-anchor="" x="852.69" y="107.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('File::Temp::CORE:sysopen (6,493,399 microseconds, 0.01%)')" onmouseout="c()" onclick="zoom(this)">
+<title>File::Temp::CORE:sysopen (6,493,399 microseconds, 0.01%)</title><a xlink:href="File-Temp-pm-25-line.html#File__Temp__CORE_sysopen" target="_top"><rect x="12.9" y="145" width="0.2" height="15.0" fill="rgb(250,199,49)" rx="2" ry="2" />
+<text text-anchor="" x="15.92" y="155.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('IO::Handle::new (5,433,205 microseconds, 0.01%)')" onmouseout="c()" onclick="zoom(this)">
+<title>IO::Handle::new (5,433,205 microseconds, 0.01%)</title><a xlink:href="IO-Handle-pm-30-line.html#311" target="_top"><rect x="11.1" y="177" width="0.1" height="15.0" fill="rgb(235,163,33)" rx="2" ry="2" />
+<text text-anchor="" x="14.11" y="187.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('File::Temp::CORE:unlink (4,622,591 microseconds, 0.01%)')" onmouseout="c()" onclick="zoom(this)">
+<title>File::Temp::CORE:unlink (4,622,591 microseconds, 0.01%)</title><a xlink:href="File-Temp-pm-25-line.html#File__Temp__CORE_unlink" target="_top"><rect x="12.0" y="161" width="0.1" height="15.0" fill="rgb(236,199,34)" rx="2" ry="2" />
+<text text-anchor="" x="15.01" y="171.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('main::__ANON__[split.pl:90] (53,700,893,571 microseconds, 99.97%)')" onmouseout="c()" onclick="zoom(this)">
+<title>main::__ANON__[split.pl:90] (53,700,893,571 microseconds, 99.97%)</title><a xlink:href="split-pl-1-line.html#82" target="_top"><rect x="10.3" y="225" width="1179.7" height="15.0" fill="rgb(239,83,37)" rx="2" ry="2" />
+<text text-anchor="" x="13.32" y="235.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >main::__ANON__[split.pl:90]</text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('IPC::Run::CORE:sselect (37,760,216,013 microseconds, 70.30%)')" onmouseout="c()" onclick="zoom(this)">
+<title>IPC::Run::CORE:sselect (37,760,216,013 microseconds, 70.30%)</title><a xlink:href="IPC-Run-pm-73-line.html#IPC__Run__CORE_sselect" target="_top"><rect x="14.8" y="129" width="829.5" height="15.0" fill="rgb(241,168,39)" rx="2" ry="2" />
+<text text-anchor="" x="17.83" y="139.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >IPC::Run::CORE:sselect</text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('IPC::Run::Debug::_debugging_atleast (8,213,704 microseconds, 0.02%)')" onmouseout="c()" onclick="zoom(this)">
+<title>IPC::Run::Debug::_debugging_atleast (8,213,704 microseconds, 0.02%)</title><a xlink:href="(eval 24)[IPC-Run-Debug-pm-103]-76-line.html#83" target="_top"><rect x="850.0" y="81" width="0.2" height="15.0" fill="rgb(238,168,36)" rx="2" ry="2" />
+<text text-anchor="" x="852.98" y="91.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Text::CSV_XS::__ANON__[/home/hejohns/perl5/lib/perl5/x86_64-linux-gnu-thread-multi/Text/CSV_XS.pm:1460] (53,704,763,384 microseconds, 99.98%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Text::CSV_XS::__ANON__[/home/hejohns/perl5/lib/perl5/x86_64-linux-gnu-thread-multi/Text/CSV_XS.pm:1460] (53,704,763,384 microseconds, 99.98%)</title><a xlink:href="Text-CSV_XS-pm-49-line.html#1451" target="_top"><rect x="10.2" y="241" width="1179.8" height="15.0" fill="rgb(241,187,39)" rx="2" ry="2" />
+<text text-anchor="" x="13.23" y="251.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Text::CSV_XS::__ANON__[/home/hejohns/perl5/lib/perl5/x86_64-linux-gnu-thread-multi/Text/CSV_XS.pm:1460]</text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('File::Temp::_replace_XX (7,840,004 microseconds, 0.01%)')" onmouseout="c()" onclick="zoom(this)">
+<title>File::Temp::_replace_XX (7,840,004 microseconds, 0.01%)</title><a xlink:href="File-Temp-pm-25-line.html#619" target="_top"><rect x="13.1" y="145" width="0.1" height="15.0" fill="rgb(233,199,31)" rx="2" ry="2" />
+<text text-anchor="" x="16.07" y="155.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('IPC::Run::finish (38,083,307,026 microseconds, 70.90%)')" onmouseout="c()" onclick="zoom(this)">
+<title>IPC::Run::finish (38,083,307,026 microseconds, 70.90%)</title><a xlink:href="IPC-Run-pm-73-line.html#3523" target="_top"><rect x="13.7" y="161" width="836.6" height="15.0" fill="rgb(236,168,34)" rx="2" ry="2" />
+<text text-anchor="" x="16.69" y="171.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >IPC::Run::finish</text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('IPC::Run::Debug::_debugging_atleast (6,799,833 microseconds, 0.01%)')" onmouseout="c()" onclick="zoom(this)">
+<title>IPC::Run::Debug::_debugging_atleast (6,799,833 microseconds, 0.01%)</title><a xlink:href="(eval 24)[IPC-Run-Debug-pm-103]-76-line.html#83" target="_top"><rect x="854.1" y="113" width="0.2" height="15.0" fill="rgb(238,168,36)" rx="2" ry="2" />
+<text text-anchor="" x="857.15" y="123.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('IPC::Run::IO::open_pipe (18,632,841 microseconds, 0.03%)')" onmouseout="c()" onclick="zoom(this)">
+<title>IPC::Run::IO::open_pipe (18,632,841 microseconds, 0.03%)</title><a xlink:href="IPC-Run-IO-pm-78-line.html#330" target="_top"><rect x="851.0" y="129" width="0.4" height="15.0" fill="rgb(244,168,43)" rx="2" ry="2" />
+<text text-anchor="" x="854.01" y="139.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('File::Temp::tempfile (38,636,775 microseconds, 0.07%)')" onmouseout="c()" onclick="zoom(this)">
+<title>File::Temp::tempfile (38,636,775 microseconds, 0.07%)</title><a xlink:href="File-Temp-pm-25-line.html#1383" target="_top"><rect x="12.5" y="177" width="0.8" height="15.0" fill="rgb(237,199,35)" rx="2" ry="2" />
+<text text-anchor="" x="15.47" y="187.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('IPC::Run::__ANON__[/home/hejohns/perl5/lib/perl5/IPC/Run.pm:2514] (31,279,829 microseconds, 0.06%)')" onmouseout="c()" onclick="zoom(this)">
+<title>IPC::Run::__ANON__[/home/hejohns/perl5/lib/perl5/IPC/Run.pm:2514] (31,279,829 microseconds, 0.06%)</title><a xlink:href="IPC-Run-pm-73-line.html#2475" target="_top"><rect x="845.2" y="81" width="0.6" height="15.0" fill="rgb(240,168,38)" rx="2" ry="2" />
+<text text-anchor="" x="848.15" y="91.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Capture::Tiny::CORE:open (7,565,952 microseconds, 0.01%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Capture::Tiny::CORE:open (7,565,952 microseconds, 0.01%)</title><a xlink:href="Capture-Tiny-pm-68-line.html#Capture__Tiny__CORE_open" target="_top"><rect x="11.4" y="161" width="0.1" height="15.0" fill="rgb(250,115,49)" rx="2" ry="2" />
+<text text-anchor="" x="14.37" y="171.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('IPC::Run::_open_pipes (45,676,705 microseconds, 0.09%)')" onmouseout="c()" onclick="zoom(this)">
+<title>IPC::Run::_open_pipes (45,676,705 microseconds, 0.09%)</title><a xlink:href="IPC-Run-pm-73-line.html#2097" target="_top"><rect x="850.7" y="145" width="1.0" height="15.0" fill="rgb(241,168,39)" rx="2" ry="2" />
+<text text-anchor="" x="853.70" y="155.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Gradescope::Translate::read_csv (53,714,525,602 microseconds, 100.00%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Gradescope::Translate::read_csv (53,714,525,602 microseconds, 100.00%)</title><a xlink:href="Translate-pm-150-line.html#45" target="_top"><rect x="10.0" y="305" width="1180.0" height="15.0" fill="rgb(233,198,31)" rx="2" ry="2" />
+<text text-anchor="" x="13.02" y="315.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Gradescope::Translate::read_csv</text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('IPC::Run::_close (23,225,703 microseconds, 0.04%)')" onmouseout="c()" onclick="zoom(this)">
+<title>IPC::Run::_close (23,225,703 microseconds, 0.04%)</title><a xlink:href="IPC-Run-pm-73-line.html#1273" target="_top"><rect x="854.3" y="129" width="0.5" height="15.0" fill="rgb(245,168,44)" rx="2" ry="2" />
+<text text-anchor="" x="857.29" y="139.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Text::CSV_XS::csv (53,714,522,473 microseconds, 100.00%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Text::CSV_XS::csv (53,714,522,473 microseconds, 100.00%)</title><a xlink:href="Text-CSV_XS-pm-49-line.html#1325" target="_top"><rect x="10.0" y="289" width="1180.0" height="15.0" fill="rgb(233,187,31)" rx="2" ry="2" />
+<text text-anchor="" x="13.02" y="299.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Text::CSV_XS::csv</text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('File::Temp::cmpstat (8,018,399 microseconds, 0.01%)')" onmouseout="c()" onclick="zoom(this)">
+<title>File::Temp::cmpstat (8,018,399 microseconds, 0.01%)</title><a xlink:href="File-Temp-pm-25-line.html#2183" target="_top"><rect x="12.2" y="161" width="0.2" height="15.0" fill="rgb(229,199,26)" rx="2" ry="2" />
+<text text-anchor="" x="15.21" y="171.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('IPC::Run::Debug::_debugging_details (14,119,082 microseconds, 0.03%)')" onmouseout="c()" onclick="zoom(this)">
+<title>IPC::Run::Debug::_debugging_details (14,119,082 microseconds, 0.03%)</title><a xlink:href="(eval 24)[IPC-Run-Debug-pm-103]-76-line.html#93" target="_top"><rect x="849.9" y="97" width="0.3" height="15.0" fill="rgb(230,168,27)" rx="2" ry="2" />
+<text text-anchor="" x="852.85" y="107.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('IPC::Run::_search_path (11,236,457 microseconds, 0.02%)')" onmouseout="c()" onclick="zoom(this)">
+<title>IPC::Run::_search_path (11,236,457 microseconds, 0.02%)</title><a xlink:href="IPC-Run-pm-73-line.html#1162" target="_top"><rect x="851.5" y="129" width="0.2" height="15.0" fill="rgb(240,168,39)" rx="2" ry="2" />
+<text text-anchor="" x="854.46" y="139.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Capture::Tiny::_open (10,320,649 microseconds, 0.02%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Capture::Tiny::_open (10,320,649 microseconds, 0.02%)</title><a xlink:href="Capture-Tiny-pm-68-line.html#106" target="_top"><rect x="11.3" y="177" width="0.2" height="15.0" fill="rgb(250,115,49)" rx="2" ry="2" />
+<text text-anchor="" x="14.31" y="187.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('File::Temp::new (42,768,744 microseconds, 0.08%)')" onmouseout="c()" onclick="zoom(this)">
+<title>File::Temp::new (42,768,744 microseconds, 0.08%)</title><a xlink:href="File-Temp-pm-25-line.html#1069" target="_top"><rect x="12.4" y="193" width="0.9" height="15.0" fill="rgb(235,199,33)" rx="2" ry="2" />
+<text text-anchor="" x="15.38" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Capture::Tiny::_capture_tee (53,694,562,032 microseconds, 99.96%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Capture::Tiny::_capture_tee (53,694,562,032 microseconds, 99.96%)</title><a xlink:href="Capture-Tiny-pm-68-line.html#303" target="_top"><rect x="10.4" y="209" width="1179.6" height="15.0" fill="rgb(245,115,44)" rx="2" ry="2" />
+<text text-anchor="" x="13.45" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Capture::Tiny::_capture_tee</text>
+</a>
+</g>
+</svg>

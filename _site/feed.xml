@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://hejohns.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hejohns.github.io/" rel="alternate" type="text/html" /><updated>2025-09-27T03:12:16-04:00</updated><id>https://hejohns.github.io/feed.xml</id><title type="html">hejohns’ jekyll site</title><subtitle>a pure waste of space</subtitle><author><name>Johnson He</name><email>hejohns α umich δ edu</email></author><entry><title type="html">aruba access points are AWESOME</title><link href="https://hejohns.github.io/2024/07/24/aruba.html" rel="alternate" type="text/html" title="aruba access points are AWESOME" /><published>2024-07-24T00:00:00-04:00</published><updated>2024-07-24T04:16:06-04:00</updated><id>https://hejohns.github.io/2024/07/24/aruba</id><content type="html" xml:base="https://hejohns.github.io/2024/07/24/aruba.html"><![CDATA[<p>ebay, $6.50/instant AP 215 (incl. shipping).</p>
+
+<p>Title.
+Although maybe it’s because we went from bottom of the barrel ~2010 era retail
+wifi, to ~2015 enterprise wifi.</p>
+
+<p>Uses a 1.7/4.0mm 12v barrel connector according to the docs (or PoE, if you
+happen to have that).</p>
+
+<p>TODO: update with potentially-useful-for-other-people details, once we get power supplies for the other two hopefully mesh APs. No more powerline!!</p>]]></content><author><name>Johnson He</name><email>hejohns α umich δ edu</email></author><summary type="html"><![CDATA[ebay, $6.50/instant AP 215 (incl. shipping).]]></summary></entry><entry><title type="html">archiving stack overflow (for the forest)</title><link href="https://hejohns.github.io/2024/06/17/archiving-stack-overflow.html" rel="alternate" type="text/html" title="archiving stack overflow (for the forest)" /><published>2024-06-17T00:00:00-04:00</published><updated>2024-07-02T03:47:46-04:00</updated><id>https://hejohns.github.io/2024/06/17/archiving-stack-overflow</id><content type="html" xml:base="https://hejohns.github.io/2024/06/17/archiving-stack-overflow.html"><![CDATA[<h2 id="first-iteration">First Iteration</h2>
+
+<p>(Note: I call any stack exchange site “stack overflow”.)</p>
+
+<p>Stack overflow has some phenomenal content.
+I won’t wax on what precisely is great about stack overflow, but one issue is
+that the comments are often too good.</p>
+
+<p>This is an issue because comments are meant to be more ephemeral, and I’m
+already generally worried about broken hyperlinks– the existence of comments
+is not stable.</p>
+
+<p>The wayback machine is essentially <em>the</em> solution, except it seems to break
+some math rendering on stack overflow.
+I’m not sure how deep of an issue this is, but I’d like an archival solution
+that doesn’t have this shortcoming.</p>
+
+<p><code class="language-plaintext highlighter-rouge">wget</code> seems to be the tool for the job, so this post is really to collect the
+<code class="language-plaintext highlighter-rouge">wget</code> flags we should use for our own web snapshotting.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wget --timestamping --convert-links --page-requisites --wait=1 --random-wait LINK
+</code></pre></div></div>
+
+<p>This will download a single html page, with (hopefully) any resources required
+for that page, in a hierarchical directory structure.</p>
+
+<h2 id="second-iteration">Second Iteration</h2>
+
+<p>So I was completely and utterly wrong.</p>
+
+<p>I just spent a low several hours realising that the command should also have <code class="language-plaintext highlighter-rouge">--adjust-extension</code>, so the full <code class="language-plaintext highlighter-rouge">wget</code> command should be</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wget --timestamping --convert-links --page-requisites --adjust-extension --wait=1 --random-wait LINK
+</code></pre></div></div>
+
+<p>Except that the stack overflow “Show \(n\) more comment” button is javascript
+(uses javascript to load the rest of the comments).
+Which means any <code class="language-plaintext highlighter-rouge">wget</code> solution fails to save any collapsed comments.
+And the much of the point was to save the (full of content) comments.</p>
+
+<p>So we instead need a tool to expand the comments by running the javascript
+click events, <em>then</em> save the page as it appears.
+The method we settled on and hacked up is to use <a href="https://www.selenium.dev/documentation/webdriver/">selenium webdriver</a>
+to run <a href="https://meta.stackoverflow.com/q/268400">javascript to expand all comments</a>,
+then save the page with Firefox’s “Save Page As…”, scripted with <code class="language-plaintext highlighter-rouge">xdotool</code>.</p>
+
+<p>The slightly less gross way would be to dump the page from selenium, but for
+some reason the stack overflow MathJax initially loads fine, then disappears
+with “math processing error”.</p>
+
+<p>Yeah… not the way I wanted this to go but I think this second version works.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+#!/usr/bin/env ruby
+
+require 'selenium-webdriver'
+
+driver = Selenium::WebDriver.for :firefox
+url = ARGV[0]
+url =~ Regexp.new('/([^/]+)$')
+fail unless Regexp.last_match
+post_name = $1
+puts "post #{post_name}"
+driver.get(url)
+
+# https://meta.stackoverflow.com/questions/268400/is-there-a-get-query-string-to-expand-all-comments-by-default#comment555104_268456
+# wait for the page to load (yes, I know this isn't the proper way, but I really don't know how to tell if the page is fully loaded)
+sleep 3
+driver.execute_script(
+  "javascript:for(x of document.getElementsByClassName('js-add-link comments-link'))x?.click()"
+)
+
+# We get MathJax rendering errors for some reason, so let's just use the
+# browser's "Save Page As"
+#puts driver.page_source
+
+# For some reason, the selenium action for C-s doesn't work, but things like
+# C-a, tab, S-tab, work
+# Not that it matters much, since we wouldn't be able to interact with the
+# popup anyways
+#driver.action.key_down(:control).key_down('s').key_up(:control).key_up('s').perform
+#
+# somehow, we always come back to xdotool...
+
+# stack overflow has a giant sign-in pop-up we want to close
+# let's just spam Esc a couple times to get it to go away
+for _ in 1..3 do
+  sleep 1
+  `xdotool key Escape`
+end
+# how to close the other smaller pop-ups:
+# https://www.w3schools.com/jsref/met_html_click.asp
+sleep 1
+# close cookies request pop-up
+driver.execute_script(
+  "javascript:document.getElementById('onetrust-reject-all-handler')?.click()"
+)
+sleep 1
+# close google sign-in pop-up
+driver.execute_script(
+  "javascript:document.getElementById('credential_picker_container')?.remove()"
+)
+
+# and finally, we save by simulating &lt;C-s&gt; with xdotool
+sleep 1
+`xdotool key ctrl+s`
+sleep 1
+system('xdotool', 'type', File.expand_path(File.join(ARGV[1], post_name)))
+sleep 1
+`xdotool key alt+s`
+
+sleep 1
+driver.quit
+
+
+</code></pre></div></div>]]></content><author><name>Johnson He</name><email>hejohns α umich δ edu</email></author><summary type="html"><![CDATA[First Iteration]]></summary></entry><entry><title type="html">fountain pen nibs</title><link href="https://hejohns.github.io/2024/04/11/fountain-pen-nibs.html" rel="alternate" type="text/html" title="fountain pen nibs" /><published>2024-04-11T00:00:00-04:00</published><updated>2024-12-14T01:54:46-05:00</updated><id>https://hejohns.github.io/2024/04/11/fountain-pen-nibs</id><content type="html" xml:base="https://hejohns.github.io/2024/04/11/fountain-pen-nibs.html"><![CDATA[<p>Several weeks ago, I lost my other TWSBI 580 (technically, the 580 ALR)
+which meant that I didn’t have any EF nibs left<sup id="fnref:1"><a href="#fn:1" class="footnote" rel="footnote" role="doc-noteref">1</a></sup>.</p>
+
+<p>Through the process of sourcing nibs, I learned a lot about the details so:</p>
+
+<p>You can buy “nib units” from TWSBI for around $20.
+This is the standard replacement part.
+This includes a (EF|F|M) nib,
+already fit on a feed (the plastic thing with fins),
+and the plastic housing that holds the nib and feed together, and that screws into the pen.</p>
+
+<p>The TWSBI replacement unit also comes in a small threaded storage case,
+which the nib + feed + housing comes threaded into,
+and the little upper metal grip section between the grip proper and nib on the 580
+that fits around the housing.
+We will come back to this crucial point later.</p>
+
+<p>It turns out that the TWSBI is one of the many companies that makes the pen, but not the nibs–
+the TWSBI 580 uses the Jowo #5 nib + feed + housing.
+That is, the 580 uses stock Jowo #5 nibs with the Jowo #5 compatible feeds and housings,
+and the pen body is threaded to fit a Jowo #5 nib/feed housing.</p>
+
+<p>So you can use any replacement Jowo #5 nib,
+but the reason I don’t say that the 580 uses the stock Jowo #5 housings
+is that the TWSBI housings actually have small grooves that align with the upper metal grip section.</p>
+
+<p>I had gotten a Jowo #5 nib + feed + housing from Franklin-Christoph to make sure that the TWSBI replacement unit
+is just the same thing,
+but <em>the Franklin-Christoph housing doesn’t have the grooves</em>.</p>
+
+<p>So when you try to screw the nib unit into the pen,
+the upper grip section rotates by itself and you can’t completely screw the nib in.</p>
+
+<p>This means that while eg you can take the nib off the Franklin-Christoph nib unit and fit it onto an existing TWSBI feed + housing,
+you can’t directly use the Franklin-Christoph nib unit in the 580.</p>
+
+<p>I think aside from the small grooves, the nib units are otherwise identical,
+so you could swap just the feeds between the housings but this is probably unnecessary.</p>
+
+<p>Unfortunately I forget where I saw this advice
+while I saw looking into all this last month,
+but the fellow in the youtube video suggested to always keep feeds and housings,
+since those are more often going to be specific to the pen.
+Unless the feed itself somehow breaks, you can always mate it with a new nib if you damage the old one, which is more standard.</p>
+
+<p>Actually I might’ve misremembered the reason he gave, but definitely always keep old feeds around.</p>
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1">
+      <p>TWSBI F nibs are more like a M, so you need a EF if you want a F. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>]]></content><author><name>Johnson He</name><email>hejohns α umich δ edu</email></author><summary type="html"><![CDATA[Several weeks ago, I lost my other TWSBI 580 (technically, the 580 ALR) which meant that I didn’t have any EF nibs left1. TWSBI F nibs are more like a M, so you need a EF if you want a F. &#8617;]]></summary></entry><entry><title type="html">deoplete</title><link href="https://hejohns.github.io/2024/03/10/deoplete.html" rel="alternate" type="text/html" title="deoplete" /><published>2024-03-10T00:00:00-05:00</published><updated>2024-03-23T16:43:34-04:00</updated><id>https://hejohns.github.io/2024/03/10/deoplete</id><content type="html" xml:base="https://hejohns.github.io/2024/03/10/deoplete.html"><![CDATA[<p>Instead of doing work, I spent the better half of a day fixing my
+<a href="https://github.com/Shougo/deoplete.nvim">deoplete</a>
+<a href="https://github.com/hejohns/hejohns-vim/blob/trunk/plugin/hejohns.vim">config</a>,
+and added <a href="https://github.com/hejohns/hejohns-vim/blob/trunk/plugins.vim">these deoplete <em>sources</em></a><sup id="fnref:1"><a href="#fn:1" class="footnote" rel="footnote" role="doc-noteref">1</a></sup> on top of the ones that ship with deoplete–
+which are fabulous and could well be all you need.</p>
+
+<p>Autocompletion <em>candidates</em> are sorted by the source that generated them,
+and <em>ranked</em> between sources.
+The <em>rank</em> is a <em>var</em>
+(as in <code class="language-plaintext highlighter-rouge">deoplete#custom#var</code> for global configuration,
+ or <code class="language-plaintext highlighter-rouge">deoplete#custom#buffer#var#</code> for buffer local configuration)
+or <em>source</em> setting
+(as in <code class="language-plaintext highlighter-rouge">deoplete#custom#source</code>).</p>
+
+<p><em>source</em> settings have to be set before deoplete starts up,
+which I’m pretty sure means before <code class="language-plaintext highlighter-rouge">deoplete#initialize()</code>,
+but <em>var</em>s can be updated any time.
+I’m not sure why some sources have the <em>rank</em> or the <em>mark</em>
+as a <em>source</em> settings,
+while others have it as a <em>var</em>, but it’s not a big deal either way.</p>
+
+<p>A <em>mark</em> is a string shown on the right of a <em>candidate</em> in the pum,
+to show which <em>source</em> it came from.
+The default <em>marks</em> are something like ‘[A]’ for the stock “around” source,
+or ‘[B]’ for the stock “buffer” source.</p>
+
+<p>I’ve changed the <em>marks</em> to make it more obvious,
+like ‘[buf]’ for “buffer” or ‘[dict]’ for the “dictionary” third-party source.</p>
+
+<p><strong>Note</strong> that not all sources are asynchronous.
+One thing I haven’t dug far enough into is how <em>sources</em> are written,
+and deoplete implements asynchronous <em>candidate</em> generation and pum update.
+But some sources are explicitly synchronous,
+namely the “omni” (omnicompletion) source,
+which takes candidates from vim’s omnifunc.</p>
+
+<p>This is one of (vanilla) vim’s primary autocompletion hooks,
+which means many other plugins generate <em>candidates</em> with omnifunc,
+but which also means that “omni” <em>candidate</em> generation is synchronous,
+as vim is.</p>
+
+<p>In general, any <em>source</em> that calls vimscript is synchronous.</p>
+
+<p>This was my original problem:
+in some cases, autocompletion would take so long, vim was unusable.
+I’d either have to turn off automatic autocompletion, or <C-c> the autocompletion every time.
+This was usually when I was using vimtex, which searches through all the packages for completions or something.</C-c></p>
+
+<p>So deoplete solves the general problem by providing vim with asynchronous autocompletion,
+but of course you any time you try to use vim’s omnifunc,
+you have the original issue.</p>
+
+<p>I bring this up because as is, I’m still using the “omni” source,
+which means that the original problem is still possible.
+I haven’t observed it recently, but this is a note to my future self.</p>
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1">
+      <p>deoplete has a notion of <em>source</em>, which is what generates autocompletion <em>candidates</em> in the pum (pop up menu, as in ‘pumvisible’). Sources are python3 scripts that can contribute candidates asyncly. I haven’t stared much at how to write a source, but the system looks well designed at a glance. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>]]></content><author><name>Johnson He</name><email>hejohns α umich δ edu</email></author><summary type="html"><![CDATA[Instead of doing work, I spent the better half of a day fixing my deoplete config, and added these deoplete sources1 on top of the ones that ship with deoplete– which are fabulous and could well be all you need. deoplete has a notion of source, which is what generates autocompletion candidates in the pum (pop up menu, as in ‘pumvisible’). Sources are python3 scripts that can contribute candidates asyncly. I haven’t stared much at how to write a source, but the system looks well designed at a glance. &#8617;]]></summary></entry><entry><title type="html">vim</title><link href="https://hejohns.github.io/2024/02/24/vim.html" rel="alternate" type="text/html" title="vim" /><published>2024-02-24T00:00:00-05:00</published><updated>2024-06-11T03:21:47-04:00</updated><id>https://hejohns.github.io/2024/02/24/vim</id><content type="html" xml:base="https://hejohns.github.io/2024/02/24/vim.html"><![CDATA[<p>Instead of doing work, I got to thinking that since I spend so much time in vim,
+I should really build and configure vim from source,
+instead of just using the debian packaged vim-gtk3.</p>
+
+<p>Also I should really contribute a little to vim over time.
+The only thing I’ve contributed back was a bug report about unicode character handling,
+which someone patched and Bram merged the same day(!).</p>
+
+<p>So let’s keep a <a href="https://github.com/hejohns/vim">fork</a> to track my config.</p>
+
+<p>Building notes:</p>
+<ul>
+  <li>Certain system packages need to be installed for features like gui, ‘+perl’, ‘+python’
+    <ul>
+      <li>I won’t make an exhaustive list, but see src/INSTALL</li>
+      <li><code class="language-plaintext highlighter-rouge">make reconfig</code> after installing</li>
+    </ul>
+  </li>
+</ul>]]></content><author><name>Johnson He</name><email>hejohns α umich δ edu</email></author><summary type="html"><![CDATA[Instead of doing work, I got to thinking that since I spend so much time in vim, I should really build and configure vim from source, instead of just using the debian packaged vim-gtk3.]]></summary></entry><entry><title type="html">noctua fans</title><link href="https://hejohns.github.io/2024/02/12/noctua.html" rel="alternate" type="text/html" title="noctua fans" /><published>2024-02-12T00:00:00-05:00</published><updated>2024-02-12T00:57:57-05:00</updated><id>https://hejohns.github.io/2024/02/12/noctua</id><content type="html" xml:base="https://hejohns.github.io/2024/02/12/noctua.html"><![CDATA[<p>I finally replaced the cpu and case fan on the T130 with noctua fans
+because I couldn’t bear the racket anymore–
+I can’t remember if the stock fans just wouldn’t spin slower or were just loud–
+and I have to say I’m an instant fan– no pun intended.
+The box is finally quiet. It only took ~6 years. Speaking of which, those stock fans were… dirty.</p>
+
+<p>I had to increase the minimum pwm from 5% to 25%,
+or else iDRAC would warn that the fan rpm is <em>too low</em>.</p>
+
+<p>This post is to point out that the noctua voltage reducing cable (“low noise adapter”) is unnecessary, unless the fans are stuck at high rpm for whatever reason (eg non-pwm fans).
+I had installed them first, so I had to then remove them and turn all the fans around, which was annoying and a little painful– those rubber case fan plugs are so hard to reattach.</p>]]></content><author><name>Johnson He</name><email>hejohns α umich δ edu</email></author><summary type="html"><![CDATA[I finally replaced the cpu and case fan on the T130 with noctua fans because I couldn’t bear the racket anymore– I can’t remember if the stock fans just wouldn’t spin slower or were just loud– and I have to say I’m an instant fan– no pun intended. The box is finally quiet. It only took ~6 years. Speaking of which, those stock fans were… dirty.]]></summary></entry><entry><title type="html">Natural Models</title><link href="https://hejohns.github.io/2024/02/08/natural-models.html" rel="alternate" type="text/html" title="Natural Models" /><published>2024-02-08T00:00:00-05:00</published><updated>2024-02-08T18:40:15-05:00</updated><id>https://hejohns.github.io/2024/02/08/natural-models</id><content type="html" xml:base="https://hejohns.github.io/2024/02/08/natural-models.html"><![CDATA[<p>We were talking about natural models today,
+in the sense of <a href="https://arxiv.org/abs/1406.3219">Awodey</a>.
+And I still have yet to read most of the paper,
+but I’d always thought that that paper must’ve been about, well, natural models.
+But as far as I can tell, the paper is not about models of homotopy type theory
+in a model of homotopy type theory.</p>
+
+<p>(I first wrote “<em>the</em> intended model” instead of “a model”, but afaik there is no intended model of homotopy type theory– or many type theories– anyways, at least not in the sense which will be described below.)</p>
+
+<p>You see, at the end of Enderton’s undergraduate set theory book,
+he has a small section on <em>natural models</em> of set theory.
+A natural model is \(V_α ⊆ V\)<sup id="fnref:1"><a href="#fn:1" class="footnote" rel="footnote" role="doc-noteref">1</a></sup>, that is closed under the set theory axioms.
+For example, a natural model of \(Z\)
+(ie \(ZF∖\{\) replacement \(\}\), as per Enderton)
+is some capped off \(V_α\) that is closed under pairing, union, powersets, etc.</p>
+
+<p>So you can go though each axiom and check off that \(V_ω\) is almost a model
+of \(Z\), but actually \(α\) needs to be a limit ordinal (powerset axiom) above \(ω\) (infinity axiom), so the smallest \(α\) is \(2ω\).</p>
+
+<p>Then Enderton shows that \(V_{2ω} ̸⊧ ZF\), thus it must not satisfy replacement.
+But assuming an inaccessible cardinal \(κ\), \(V_κ ⊧ ZF\) (ie the replacement axioms are satisfied as well).</p>
+
+<p>I don’t know if this is the canonical proof that replacement is independent of \(Z\), but it’s a nice one,
+and when I read this section of Enderton,
+it cemented itself as one the all time best things I’d ever read.</p>
+
+<p>To be precise, I should clarify that these results show that
+\(V_{2ω} ⊧ Z\) but \(V_{2ω} ̸⊧ ZF\), ie \(V_{2ω} ̸⊧ Z + \text{replacement}\),
+thus \(Z ̸⊧ \text{replacement}\), thus \(Z ̸⊢ \text{replacement}\).
+And \(Z ̸⊢ ¬\text{replacement}\)<sup id="fnref:2"><a href="#fn:2" class="footnote" rel="footnote" role="doc-noteref">2</a></sup>, since \(Z ̸⊧ ¬\text{replacement}\),
+since \(V_κ ⊧ Z + \text{replacement}\).</p>
+
+<p>Thus replacement is independent of \(Z\), ie \(ZF\) is strictly stronger than \(Z\).
+Now, one would ask about \(ZF\) and \(ZFC\)!</p>
+
+<p>I don’t think Enderton makes comment on it in the small section on natural models.
+I would think that choice only gives you sets of smaller rank, so any \(V_α\) is closed under choice? Or at least for nontrivial \(α\)?
+I think I’ve seen that somewhere, but if I’m horribly wrong I’ll be quite embarrassed.</p>
+
+<p>In any case, \(V_κ\) should be a model of \(ZFC\) then,
+which means that Gödel’s famous half of the independence of choice
+presumably doesn’t require inaccessible cardinal assumptions,
+and the famous work of Cohen suggests that there’s no natural model of \(ZF +\)¬\(C\)– in addition to the fact that any \(V_α\) should satisfy choice.</p>
+
+<p>Okay the reasoning in the last paragraph is all backwards, so let’s cap it there.</p>
+
+<p>I forgot to write that the notion <em>natural model</em> appears to be due to Montague.
+I can’t seem to find this mentioned in Enderton anymore,
+but another Montague fun fact.
+At least I usually call it “Montague’s notion of natural model”.</p>
+
+<p>Hence my confusion with Awodey’s reuse of the term.</p>
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1">
+      <p>To pay respect to the historical development of models of set theory, and since Enderton mentions as much, we take all models to have the standard \(ϵ\) interpretation. Of course, in general, models \(M ⊆ V\) need not have the same \(ϵ\), and even more generally, models need not be subsets of \(V\). <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:2">
+      <p>ok replacement is an axiom schema or something, but you get the point <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>]]></content><author><name>Johnson He</name><email>hejohns α umich δ edu</email></author><summary type="html"><![CDATA[We were talking about natural models today, in the sense of Awodey. And I still have yet to read most of the paper, but I’d always thought that that paper must’ve been about, well, natural models. But as far as I can tell, the paper is not about models of homotopy type theory in a model of homotopy type theory.]]></summary></entry><entry><title type="html">Mellanox ConnectX-4 10gbe</title><link href="https://hejohns.github.io/2024/01/16/mellanox.html" rel="alternate" type="text/html" title="Mellanox ConnectX-4 10gbe" /><published>2024-01-16T00:00:00-05:00</published><updated>2024-01-17T00:16:12-05:00</updated><id>https://hejohns.github.io/2024/01/16/mellanox</id><content type="html" xml:base="https://hejohns.github.io/2024/01/16/mellanox.html"><![CDATA[<p>A short post for now:</p>
+
+<p>Got two Mellanox ConnectX-4 cards off ebay, and 10gtek dacs, and they all work!
+Or at least iperf says they work at 10gbps.</p>
+
+<p>One for the T130, and one for the Lenovo p720.</p>]]></content><author><name>Johnson He</name><email>hejohns α umich δ edu</email></author><summary type="html"><![CDATA[A short post for now:]]></summary></entry><entry><title type="html">Thunderbird and Nix</title><link href="https://hejohns.github.io/2024/01/08/thunderbird-and-nix.html" rel="alternate" type="text/html" title="Thunderbird and Nix" /><published>2024-01-08T00:00:00-05:00</published><updated>2024-01-08T15:21:35-05:00</updated><id>https://hejohns.github.io/2024/01/08/thunderbird-and-nix</id><content type="html" xml:base="https://hejohns.github.io/2024/01/08/thunderbird-and-nix.html"><![CDATA[<p>This is the second time I’ve come across this issue,
+and since it seems I’d forgotten about it after the first time,
+I’m making a note here.</p>
+
+<h2 id="context">Context</h2>
+<p>I’m using nix, as installed by <code class="language-plaintext highlighter-rouge">apt</code> (on debian).
+And thunderbird<sup id="fnref:1"><a href="#fn:1" class="footnote" rel="footnote" role="doc-noteref">1</a></sup> is installed by nix,
+to get the daily release<sup id="fnref:2"><a href="#fn:2" class="footnote" rel="footnote" role="doc-noteref">2</a></sup>.</p>
+
+<p>I’m using using the <a href="https://github.com/Frederick888/external-editor-revived">external-editor-revived</a>
+plugin so I can write emails in vim.
+The setup turns out to be a bit finicky with nix though.</p>
+
+<h2 id="issue">Issue</h2>
+<p>After <code class="language-plaintext highlighter-rouge">nix profile upgrade '.*'</code> ing thunderbird,
+when I try to use the external editor,
+I get the following errors<sup id="fnref:3"><a href="#fn:3" class="footnote" rel="footnote" role="doc-noteref">3</a></sup> as some sort of floating X11 dialog/notification box:</p>
+
+<blockquote>
+  <p>gvim: /nix/store/…/libc.so.6: version ‘GLIBC_2.38’ not found
+(required by /nix/store/…-libcap-2.69-lib/lib/libcap.so.2).</p>
+
+  <p>gvim: /nix/store/…/libc.so.6: version ‘GLIBC_2.38’ not found
+(required by /nix/store/…-libtool-2.4.7-lib/lib/libltdl.so.7).</p>
+
+  <p>…</p>
+</blockquote>
+
+<p>And the external editor doesn’t fire up.</p>
+
+<p>My <code class="language-plaintext highlighter-rouge">ldd --version</code> on my host debian system
+shows glibc version 2.37.</p>
+
+<p>Note that gvim is installed through apt,
+on the host system (the “optiplex780” which is actually a hp z2 mini g3).
+A similar error happens on the T130
+when using konsole and vim,
+where konsole is installed with nix.</p>
+
+<h2 id="resolution">Resolution</h2>
+<p>I’m embarrassed to say I still can’t make heads or tails of how nix works,
+much as I’ve tried.
+So I don’t know exactly why some part of the process wants the host system to have
+what’s presumably the glibc version used to build thunderbird.</p>
+
+<p>I hope eventually I’ll figure this one out,
+but the workaround I can live with for now is just to either</p>
+
+<ol>
+  <li>not upgrade thunderbird too much (rollback if it uses a glibc version I don’t have yet)</li>
+  <li>temporarily live w/o a working external-editor until the debian glibc version catches up (which is iirc what I did the last time this happened). And then 1.</li>
+</ol>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1">
+      <p>not my email client of choice, but I can’t use mutt with my university gmail, and I get html support this way <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:2">
+      <p>for absolutely no reason, especially considering the amount of plugins that are always losing version support, and issues like the one in this post <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:3">
+      <p>paraphrased from two different pictures of different thunderbird configurations/instances, so the libraries don’t match up, but you get the point. Actually these may be right, but I don’t guarantee it <a href="#fnref:3" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>]]></content><author><name>Johnson He</name><email>hejohns α umich δ edu</email></author><summary type="html"><![CDATA[This is the second time I’ve come across this issue, and since it seems I’d forgotten about it after the first time, I’m making a note here.]]></summary></entry><entry><title type="html">xmonad</title><link href="https://hejohns.github.io/2023/12/20/xmonad.html" rel="alternate" type="text/html" title="xmonad" /><published>2023-12-20T00:00:00-05:00</published><updated>2023-12-20T11:36:46-05:00</updated><id>https://hejohns.github.io/2023/12/20/xmonad</id><content type="html" xml:base="https://hejohns.github.io/2023/12/20/xmonad.html"><![CDATA[<p>As with the <a href="{$ link _posts/icecc.md %}">icecc post</a>,
+I’m moving <a href="https://xmonad.org/">xmonad</a> from one server to another
+for “less downtime”<sup id="fnref:1"><a href="#fn:1" class="footnote" rel="footnote" role="doc-noteref">1</a></sup>.</p>
+
+<p>I had all the configuration files in <a href="https://github.com/hejohns/.rc">my rc github repo</a>,
+but I didn’t document what to actually do, so here we go:</p>
+
+<ul>
+  <li>Take a fresh debian container
+    <ul>
+      <li>You probably want to <code class="language-plaintext highlighter-rouge">adduser hejohns</code> and <code class="language-plaintext highlighter-rouge">apt install sudo</code> and  <code class="language-plaintext highlighter-rouge">adduser hejohns sudo</code>
+  since we want to <code class="language-plaintext highlighter-rouge">ssh -X</code> into this box later<sup id="fnref:2"><a href="#fn:2" class="footnote" rel="footnote" role="doc-noteref">2</a></sup></li>
+    </ul>
+  </li>
+  <li>Install ghc/cabal w/ ghcup
+    <ul>
+      <li>See <a href="https://www.haskell.org/ghcup/install/">https://www.haskell.org/ghcup/install/</a></li>
+      <li>Install the required system packages (eg curl, libffi-dev, libgmp-dev, …)</li>
+      <li>Do their <code class="language-plaintext highlighter-rouge">curl | sh</code> thing</li>
+      <li>If this container is just for xmonad, can do a minimal ghcup install</li>
+      <li>Can probably just use the default version of ghc.
+  You can <code class="language-plaintext highlighter-rouge">ghcup tui</code> to install something newer, but if you pick something too bleeding edge, you might get cabal package constraint errors later</li>
+    </ul>
+  </li>
+  <li>Install xmonad
+    <ul>
+      <li>See <a href="https://xmonad.org/INSTALL.html">https://xmonad.org/INSTALL.html</a></li>
+      <li>Install the required system dependencies (eg libx11-dev, libxss-dev, …)</li>
+      <li><code class="language-plaintext highlighter-rouge">cabal update</code></li>
+      <li><code class="language-plaintext highlighter-rouge">cabal install --lib xmonad xmonad-contrib</code>
+  for the libraries xmonad needs on recompile</li>
+      <li><code class="language-plaintext highlighter-rouge">cabal install xmonad</code> for the actual executable</li>
+    </ul>
+  </li>
+  <li>You still need some X infrastructure for xmonad to work
+    <ul>
+      <li>At the least, you need <code class="language-plaintext highlighter-rouge">apt install x11-utils</code> or else xmonad will error out on some missing executable</li>
+      <li>This might be included in <code class="language-plaintext highlighter-rouge">apt install xorg</code></li>
+      <li>I don’t know anything about X,
+  so I don’t even know if you need an X server or not–
+  but I think it didn’t work until I installed one</li>
+    </ul>
+  </li>
+  <li>I’m lazy, so <code class="language-plaintext highlighter-rouge">xmonad --recompile</code> and wait for it to error out b/c of the missing <em>xmonad.hs</em></li>
+  <li>This creates <em>~/.config/xmonad</em> for you (for create it yourself)</li>
+  <li><code class="language-plaintext highlighter-rouge">git clone</code> the rc repo or equivalent
+(for <em>xmonad.hs</em>, <em>.xsession</em>, and associated systemd files)</li>
+  <li><code class="language-plaintext highlighter-rouge">cp</code> the <em>xmonad.hs</em> into <em>~/.config/xmonad</em></li>
+  <li>Confirm that <code class="language-plaintext highlighter-rouge">xmonad --recompile</code> works now</li>
+  <li><code class="language-plaintext highlighter-rouge">xmonad --replace</code> won’t work yet since the X env isn’t setup properly</li>
+  <li><code class="language-plaintext highlighter-rouge">cp</code> the systemd files in rc under <em>etc/systemd/user</em> to their respective place in the actual system</li>
+  <li>You probably need to <code class="language-plaintext highlighter-rouge">systemctl --user enable</code> the two services</li>
+  <li><code class="language-plaintext highlighter-rouge">cp</code> the <em>xsession</em> into <em>~/.xsession</em></li>
+  <li>Finally add <code class="language-plaintext highlighter-rouge">(bash ~/.xsession &gt; /dev/null 2&gt;&amp;1 &amp;)</code> or equivalent to your <em>.bashrc</em></li>
+</ul>
+
+<h2 id="summary">Summary</h2>
+<p>Now, when you’re on your desktop, you can <code class="language-plaintext highlighter-rouge">ssh -X</code> into this box we just setup
+and when the bashrc gets sourced on login,
+the xsession file will also run and start the systemd user target to fire up
+xmonad and xcompmgr.</p>
+
+<p>Oh right, so you probably want to install <code class="language-plaintext highlighter-rouge">xcompmgr</code> as well.
+The systemd file in the repo currently assumes it was installed with <code class="language-plaintext highlighter-rouge">nix</code>,
+but you can just install it with <code class="language-plaintext highlighter-rouge">apt</code> and change the path.
+(I did that just now.)</p>
+
+<p>My desktop is a “dumb” client
+(actually, it’s a minimally configured debian + xfce install),
+so I can outsource the ghc and xmonad mess to another machine this way.</p>
+
+<p>Why the fuss with systemd?
+xmonad used to segfault all the time for some reason,
+and having your (remote) window manager suddenly stop really sucks.
+A systemd user service that automatically restarts seemed like the right solution.
+(When xmonad restarts, all the tilings get reset, but at least a window manager is still running.)</p>
+
+<p>Actually, I don’t think I’ve had xmonad segfault in a long time now,
+but the principle stands.</p>
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1">
+      <p>I’m reproducing the xmonad setup on the Dell T130 (Pentium G4600) to a container on the Lenovo P720 (dual Xeon 6142s), so I can restart other stuff w/o killing my window manager <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:2">
+      <p>I did this all as root the first time, and had to do it all over again as my own user since so much of the ghcup and X stuff is per-user. <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>]]></content><author><name>Johnson He</name><email>hejohns α umich δ edu</email></author><summary type="html"><![CDATA[As with the icecc post, I’m moving xmonad from one server to another for “less downtime”1. I’m reproducing the xmonad setup on the Dell T130 (Pentium G4600) to a container on the Lenovo P720 (dual Xeon 6142s), so I can restart other stuff w/o killing my window manager &#8617;]]></summary></entry></feed>

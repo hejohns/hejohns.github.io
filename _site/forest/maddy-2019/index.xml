@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
+  <fr:frontmatter>
+    <fr:authors />
+    <fr:date>
+      <fr:year>2024</fr:year>
+      <fr:month>5</fr:month>
+      <fr:day>21</fr:day>
+    </fr:date>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>9</fr:month>
+      <fr:day>27</fr:day>
+    </fr:date>
+    <fr:uri>https://hejohns.github.io/maddy-2019/</fr:uri>
+    <fr:display-uri>maddy-2019</fr:display-uri>
+    <fr:route>/maddy-2019/</fr:route>
+    <fr:title text="What do we want a foundation to do?">What do we want a foundation to do?</fr:title>
+    <fr:taxon>Reference</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:tree show-metadata="false">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:date>
+          <fr:year>2024</fr:year>
+          <fr:month>5</fr:month>
+          <fr:day>21</fr:day>
+        </fr:date>
+        <fr:date>
+          <fr:year>2025</fr:year>
+          <fr:month>9</fr:month>
+          <fr:day>27</fr:day>
+        </fr:date>
+        <fr:taxon>abstract</fr:taxon>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <html:p>
+        Mainstream orthodoxy holds that set theory provides a foundation for
+        contemporary pure mathematics. Critics of this view argue that category
+        theory, or more recently univalent foundations, is better suited to this
+        role. Some observers of this controversy suggest that it might be resolved
+        by a better understanding of what a foundation is. Despite considerable
+        sympathy to this line of thought, I’m skeptical of the unspoken assumption
+        that there’s an underlying concept of a ‘foundation’ up for analysis, that
+        this analysis would properly guide our assessment of the various
+        candidates. In contrast, it seems to me that the considerations the
+        combatants offer against opponents and for their preferred candidates, as
+        well as the roles each candidate actually or potentially succeeds in
+        playing, reveal quite a number of different jobs that mathematicians want
+        done. What matters is these jobs we want our theories to do and how well
+        they do them. Whether any or all of them, jobs or theories, deserves to be
+        called ‘foundational’ is really beside the point.
+    </html:p>
+      </fr:mainmatter>
+    </fr:tree>
+    <html:p>
+    A nice article that can be briefly summarized as
+    <html:ul><html:li>
+            There is no one clear set of desiderata for a <html:em>foundational</html:em>
+            system, whatever that means
+        </html:li>
+        <html:li>
+            Classical set theory is perfectly fine as a foundational system in
+            the traditionally (ie ZFC) conceived sense
+        </html:li>
+        <html:li>
+            There is promise for the new 21ˢᵗ century desiderata of <html:em>proof
+            checking</html:em> (recalling Voevodsky's concerns with correctness "at the
+            bleeding edge").
+        </html:li></html:ul></html:p>
+    <html:p>
+    The contrast between the minimalistic ZFC and potentially enormous "user
+    friendly" univalent type theories is reminiscent of Hilbert style proofs vs
+    natural deduction. Indeed, it's like how Ronnie calls set theory "the
+    machine/assembly language of math" (kind of paraphrase), and Max calls SK
+    combinators "the machine/assembly language of λ-calculus".
+</html:p>
+    <html:p>
+    Natural deduction is certainly more complicated than SK/Hilbert proof
+    systems, but has nice usability properties that are worth study and
+    implementation.
+    The general mathematical trend seems to be that of starting with a spartan
+    formal system, then gradually making it more user friendly to accomodate
+    every increasingly complicated mathematics, where the minimalistic system
+    starts to leave one wanting.
+</html:p>
+    <html:p>
+    Maddy only mentions Coq, but being 2019 it would've been nice if somewhat
+    redundant to mention other proof assistants eg Cubical Agda.
+</html:p>
+    <html:p>
+    I've used quotes here as air quotes, not actual quotes of Maddy.
+    
+    
+        
+        <html:span class="link local">
+            <html:a href="/bafkrmiai7uevubjfesratutnvam2asnsxhejpiqivucwjs7og72ldeg35m.html">paper</html:a>
+        </html:span></html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

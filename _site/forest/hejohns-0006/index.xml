@@ -1,0 +1,1812 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/hejohns/" title="Johnson He" uri="https://hejohns.github.io/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2024</fr:year>
+      <fr:month>5</fr:month>
+      <fr:day>7</fr:day>
+    </fr:date>
+    <fr:date>
+      <fr:year>2024</fr:year>
+      <fr:month>5</fr:month>
+      <fr:day>11</fr:day>
+    </fr:date>
+    <fr:uri>https://hejohns.github.io/hejohns-0006/</fr:uri>
+    <fr:display-uri>hejohns-0006</fr:display-uri>
+    <fr:route>/hejohns-0006/</fr:route>
+    <fr:title text="the core of adjoint monotone functions">the core of adjoint monotone functions</fr:title>
+    <fr:taxon>lemma</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>
+    This is mentioned in passing, in the intro to <fr:link href="/street-2012/" title="The Core of Adjoint Functors" uri="https://hejohns.github.io/street-2012/" display-uri="street-2012" type="local">The Core of Adjoint Functors</fr:link>.
+</html:p>
+    <fr:tree show-metadata="false">
+      <fr:frontmatter>
+        <fr:authors>
+          <fr:author>
+            <fr:link href="/hejohns/" title="Johnson He" uri="https://hejohns.github.io/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+          </fr:author>
+        </fr:authors>
+        <fr:date>
+          <fr:year>2024</fr:year>
+          <fr:month>5</fr:month>
+          <fr:day>7</fr:day>
+        </fr:date>
+        <fr:date>
+          <fr:year>2024</fr:year>
+          <fr:month>5</fr:month>
+          <fr:day>11</fr:day>
+        </fr:date>
+        <fr:taxon>proposition</fr:taxon>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <html:p>
+        Suppose <fr:tex display="inline"><![CDATA[P]]></fr:tex> and <fr:tex display="inline"><![CDATA[Q]]></fr:tex> are posets, <fr:tex display="inline"><![CDATA[f : P → Q]]></fr:tex> is a priori just a function, and <fr:tex display="inline"><![CDATA[u : P ← Q]]></fr:tex> monotone,
+        such that <fr:tex display="inline"><![CDATA[f(x) ≤ a ⟺ x ≤ u(a)]]></fr:tex>.
+        Then <fr:tex display="inline"><![CDATA[f]]></fr:tex> monotone as well.
+    </html:p>
+        <html:p>
+        Or dually, suppose that <fr:tex display="inline"><![CDATA[f]]></fr:tex> monotone, but <fr:tex display="inline"><![CDATA[u]]></fr:tex> is a priori just a function.
+        Then <fr:tex display="inline"><![CDATA[u]]></fr:tex> monotone as well.
+    </html:p>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false">
+      <fr:frontmatter>
+        <fr:authors>
+          <fr:author>
+            <fr:link href="/hejohns/" title="Johnson He" uri="https://hejohns.github.io/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+          </fr:author>
+        </fr:authors>
+        <fr:date>
+          <fr:year>2024</fr:year>
+          <fr:month>5</fr:month>
+          <fr:day>7</fr:day>
+        </fr:date>
+        <fr:date>
+          <fr:year>2024</fr:year>
+          <fr:month>5</fr:month>
+          <fr:day>11</fr:day>
+        </fr:date>
+        <fr:uri>https://hejohns.github.io/sub-0006/</fr:uri>
+        <fr:display-uri>sub-0006</fr:display-uri>
+        <fr:route>/sub-0006/</fr:route>
+        <fr:taxon>proof</fr:taxon>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <html:p>
+        Suppose <fr:tex display="inline"><![CDATA[p₁ ≤ p₂]]></fr:tex>.
+        Notice that <fr:tex display="inline"><![CDATA[p₂ ≤ u∘f(p₂)]]></fr:tex>, by the unit of the (thin) adjunction.
+        Then <fr:tex display="inline"><![CDATA[p₁ ≤ p₂ ≤ u∘f(p₂) ⟹ f(p₁) ≤ f(p₂)]]></fr:tex> by the Hom bijection of the (thin) adjunction.
+    </html:p>
+        <html:p>
+        (dual)
+        Suppose <fr:tex display="inline"><![CDATA[q₁ ≤ q₂]]></fr:tex>.
+        Notice that <fr:tex display="inline"><![CDATA[f∘u(q₁) ≤ q₂]]></fr:tex> by the counit of the (thin) adjunction.
+        Then <fr:tex display="inline"><![CDATA[f∘u(q₁) ≤ q₁ ≤ q₂ ⟹ u(q₁) ≤ u(q₂)]]></fr:tex> by the Hom bijection of the (thin) adjunction.
+    </html:p>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false">
+      <fr:frontmatter>
+        <fr:authors>
+          <fr:author>
+            <fr:link href="/hejohns/" title="Johnson He" uri="https://hejohns.github.io/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+          </fr:author>
+        </fr:authors>
+        <fr:date>
+          <fr:year>2024</fr:year>
+          <fr:month>5</fr:month>
+          <fr:day>7</fr:day>
+        </fr:date>
+        <fr:date>
+          <fr:year>2024</fr:year>
+          <fr:month>5</fr:month>
+          <fr:day>11</fr:day>
+        </fr:date>
+        <fr:uri>https://hejohns.github.io/subb-0006/</fr:uri>
+        <fr:display-uri>subb-0006</fr:display-uri>
+        <fr:route>/subb-0006/</fr:route>
+        <fr:taxon>proof corollary</fr:taxon>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <html:p>
+        Notice that <fr:link href="/sub-0006/" title="the core of adjoint monotone functions › https://hejohns.github.io/sub-0006/" uri="https://hejohns.github.io/sub-0006/" display-uri="sub-0006" type="local">the above proof</fr:link> does <html:em>not</html:em> use the information that <fr:tex display="inline"><![CDATA[u]]></fr:tex> is monotone.
+        Thus <fr:link href="/hejohns-0006/" title="the core of adjoint monotone functions" uri="https://hejohns.github.io/hejohns-0006/" display-uri="hejohns-0006" type="local">the above lemma</fr:link> holds where <fr:tex display="inline"><![CDATA[f]]></fr:tex> and <fr:tex display="inline"><![CDATA[u]]></fr:tex> are just a priori functions.
+        The <fr:link href="/hejohns-0006/" title="the core of adjoint monotone functions" uri="https://hejohns.github.io/hejohns-0006/" display-uri="hejohns-0006" type="local">above lemma</fr:link> is in some sense the more
+        immediately natural question, but can be easily strengthened to
+        the form of this corollary.
+    </html:p>
+      </fr:mainmatter>
+    </fr:tree>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>7</fr:day>
+            </fr:date>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>9</fr:month>
+              <fr:day>16</fr:day>
+            </fr:date>
+            <fr:uri>https://hejohns.github.io/street-2012/</fr:uri>
+            <fr:display-uri>street-2012</fr:display-uri>
+            <fr:route>/street-2012/</fr:route>
+            <fr:title text="The Core of Adjoint Functors">The Core of Adjoint Functors</fr:title>
+            <fr:taxon>Reference</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+    The first point:
+</html:p>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>5</fr:month>
+                  <fr:day>7</fr:day>
+                </fr:date>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>9</fr:month>
+                  <fr:day>16</fr:day>
+                </fr:date>
+                <fr:taxon>abstract</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+        During my Topology lectures at Macquarie University in the 1970s, the
+        students and I realized, in proving that a function f between posets was
+        order preserving when there was a function u in the reverse direction such
+        that f (x) ≤ a if and only if x ≤ u(a), did not require u to be order
+        preserving. I realized then that knowing functors in the two directions
+        only on objects and the usual hom adjointness isomorphism implied the
+        effect of the functors on homs was uniquely determined. Writing this down
+        properly led to the present paper.
+    </html:p>
+              </fr:mainmatter>
+            </fr:tree>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/hejohns/" title="Johnson He" uri="https://hejohns.github.io/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>8</fr:day>
+            </fr:date>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>9</fr:month>
+              <fr:day>16</fr:day>
+            </fr:date>
+            <fr:uri>https://hejohns.github.io/hejohns-0008/</fr:uri>
+            <fr:display-uri>hejohns-0008</fr:display-uri>
+            <fr:route>/hejohns-0008/</fr:route>
+            <fr:title text="the core of adjoint functors">the core of adjoint functors</fr:title>
+            <fr:taxon>Exposition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/hejohns/" title="Johnson He" uri="https://hejohns.github.io/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>5</fr:month>
+                  <fr:day>7</fr:day>
+                </fr:date>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>5</fr:month>
+                  <fr:day>11</fr:day>
+                </fr:date>
+                <fr:uri>https://hejohns.github.io/hejohns-0006/</fr:uri>
+                <fr:display-uri>hejohns-0006</fr:display-uri>
+                <fr:route>/hejohns-0006/</fr:route>
+                <fr:title text="the core of adjoint monotone functions">the core of adjoint monotone functions</fr:title>
+                <fr:taxon>lemma</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+    This is mentioned in passing, in the intro to <fr:link href="/street-2012/" title="The Core of Adjoint Functors" uri="https://hejohns.github.io/street-2012/" display-uri="street-2012" type="local">The Core of Adjoint Functors</fr:link>.
+</html:p>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors>
+                      <fr:author>
+                        <fr:link href="/hejohns/" title="Johnson He" uri="https://hejohns.github.io/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                      </fr:author>
+                    </fr:authors>
+                    <fr:date>
+                      <fr:year>2024</fr:year>
+                      <fr:month>5</fr:month>
+                      <fr:day>7</fr:day>
+                    </fr:date>
+                    <fr:date>
+                      <fr:year>2024</fr:year>
+                      <fr:month>5</fr:month>
+                      <fr:day>11</fr:day>
+                    </fr:date>
+                    <fr:taxon>proposition</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>
+        Suppose <fr:tex display="inline"><![CDATA[P]]></fr:tex> and <fr:tex display="inline"><![CDATA[Q]]></fr:tex> are posets, <fr:tex display="inline"><![CDATA[f : P → Q]]></fr:tex> is a priori just a function, and <fr:tex display="inline"><![CDATA[u : P ← Q]]></fr:tex> monotone,
+        such that <fr:tex display="inline"><![CDATA[f(x) ≤ a ⟺ x ≤ u(a)]]></fr:tex>.
+        Then <fr:tex display="inline"><![CDATA[f]]></fr:tex> monotone as well.
+    </html:p>
+                    <html:p>
+        Or dually, suppose that <fr:tex display="inline"><![CDATA[f]]></fr:tex> monotone, but <fr:tex display="inline"><![CDATA[u]]></fr:tex> is a priori just a function.
+        Then <fr:tex display="inline"><![CDATA[u]]></fr:tex> monotone as well.
+    </html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors>
+                      <fr:author>
+                        <fr:link href="/hejohns/" title="Johnson He" uri="https://hejohns.github.io/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                      </fr:author>
+                    </fr:authors>
+                    <fr:date>
+                      <fr:year>2024</fr:year>
+                      <fr:month>5</fr:month>
+                      <fr:day>7</fr:day>
+                    </fr:date>
+                    <fr:date>
+                      <fr:year>2024</fr:year>
+                      <fr:month>5</fr:month>
+                      <fr:day>11</fr:day>
+                    </fr:date>
+                    <fr:uri>https://hejohns.github.io/sub-0006/</fr:uri>
+                    <fr:display-uri>sub-0006</fr:display-uri>
+                    <fr:route>/sub-0006/</fr:route>
+                    <fr:taxon>proof</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>
+        Suppose <fr:tex display="inline"><![CDATA[p₁ ≤ p₂]]></fr:tex>.
+        Notice that <fr:tex display="inline"><![CDATA[p₂ ≤ u∘f(p₂)]]></fr:tex>, by the unit of the (thin) adjunction.
+        Then <fr:tex display="inline"><![CDATA[p₁ ≤ p₂ ≤ u∘f(p₂) ⟹ f(p₁) ≤ f(p₂)]]></fr:tex> by the Hom bijection of the (thin) adjunction.
+    </html:p>
+                    <html:p>
+        (dual)
+        Suppose <fr:tex display="inline"><![CDATA[q₁ ≤ q₂]]></fr:tex>.
+        Notice that <fr:tex display="inline"><![CDATA[f∘u(q₁) ≤ q₂]]></fr:tex> by the counit of the (thin) adjunction.
+        Then <fr:tex display="inline"><![CDATA[f∘u(q₁) ≤ q₁ ≤ q₂ ⟹ u(q₁) ≤ u(q₂)]]></fr:tex> by the Hom bijection of the (thin) adjunction.
+    </html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors>
+                      <fr:author>
+                        <fr:link href="/hejohns/" title="Johnson He" uri="https://hejohns.github.io/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                      </fr:author>
+                    </fr:authors>
+                    <fr:date>
+                      <fr:year>2024</fr:year>
+                      <fr:month>5</fr:month>
+                      <fr:day>7</fr:day>
+                    </fr:date>
+                    <fr:date>
+                      <fr:year>2024</fr:year>
+                      <fr:month>5</fr:month>
+                      <fr:day>11</fr:day>
+                    </fr:date>
+                    <fr:uri>https://hejohns.github.io/subb-0006/</fr:uri>
+                    <fr:display-uri>subb-0006</fr:display-uri>
+                    <fr:route>/subb-0006/</fr:route>
+                    <fr:taxon>proof corollary</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>
+        Notice that <fr:link href="/sub-0006/" title="the core of adjoint monotone functions › https://hejohns.github.io/sub-0006/" uri="https://hejohns.github.io/sub-0006/" display-uri="sub-0006" type="local">the above proof</fr:link> does <html:em>not</html:em> use the information that <fr:tex display="inline"><![CDATA[u]]></fr:tex> is monotone.
+        Thus <fr:link href="/hejohns-0006/" title="the core of adjoint monotone functions" uri="https://hejohns.github.io/hejohns-0006/" display-uri="hejohns-0006" type="local">the above lemma</fr:link> holds where <fr:tex display="inline"><![CDATA[f]]></fr:tex> and <fr:tex display="inline"><![CDATA[u]]></fr:tex> are just a priori functions.
+        The <fr:link href="/hejohns-0006/" title="the core of adjoint monotone functions" uri="https://hejohns.github.io/hejohns-0006/" display-uri="hejohns-0006" type="local">above lemma</fr:link> is in some sense the more
+        immediately natural question, but can be easily strengthened to
+        the form of this corollary.
+    </html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/hejohns/" title="Johnson He" uri="https://hejohns.github.io/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>5</fr:month>
+                  <fr:day>7</fr:day>
+                </fr:date>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>8</fr:month>
+                  <fr:day>21</fr:day>
+                </fr:date>
+                <fr:uri>https://hejohns.github.io/hejohns-0007/</fr:uri>
+                <fr:display-uri>hejohns-0007</fr:display-uri>
+                <fr:route>/hejohns-0007/</fr:route>
+                <fr:title text="Precursor to The Core of Adjoint Functors">Precursor to The Core of Adjoint Functors</fr:title>
+                <fr:taxon>lemma</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+    Mentioned in passing as <fr:link href="/street-2012/" title="The Core of Adjoint Functors" uri="https://hejohns.github.io/street-2012/" display-uri="street-2012" type="local">2.1. Proposition.</fr:link>, as "well-known".
+</html:p>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors>
+                      <fr:author>
+                        <fr:link href="/hejohns/" title="Johnson He" uri="https://hejohns.github.io/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                      </fr:author>
+                    </fr:authors>
+                    <fr:date>
+                      <fr:year>2024</fr:year>
+                      <fr:month>5</fr:month>
+                      <fr:day>7</fr:day>
+                    </fr:date>
+                    <fr:date>
+                      <fr:year>2024</fr:year>
+                      <fr:month>8</fr:month>
+                      <fr:day>21</fr:day>
+                    </fr:date>
+                    <fr:taxon>proposition</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:ul><html:li>
+            Suppose <fr:tex display="inline"><![CDATA[U : A → X]]></fr:tex> is a functor, <fr:tex display="inline"><![CDATA[F : X .ob → A .ob]]></fr:tex> a function,
+            and <fr:tex display="inline"><![CDATA[(πₓ : A(F(x), -) ≅ X(x, U(-)))_{x ∈ X}]]></fr:tex> a family of natural
+            isomorphisms. Then there is a unique extension <fr:tex display="inline"><![CDATA[\overline {F}]]></fr:tex> of <fr:tex display="inline"><![CDATA[F]]></fr:tex> such
+            that <fr:tex display="inline"><![CDATA[(πₓ)_{x ∈ X}]]></fr:tex> is natural in <fr:tex display="inline"><![CDATA[x]]></fr:tex>, witnessing <fr:tex display="inline"><![CDATA[\overline {F} ⊣ U]]></fr:tex>.
+        </html:li>
+        <html:li>
+            Or dually, suppose that <fr:tex display="inline"><![CDATA[F]]></fr:tex> is a functor, but <fr:tex display="inline"><![CDATA[U]]></fr:tex> is just a
+            function on objects, and <fr:tex display="inline"><![CDATA[(πₐ : A(F(-), a) ≅ X(-, U(a)))_{a ∈ A}]]></fr:tex>.
+            Then <fr:tex display="inline"><![CDATA[U]]></fr:tex> uniquely extends to <fr:tex display="inline"><![CDATA[\overline {U}]]></fr:tex>.
+        </html:li></html:ul>
+                  </fr:mainmatter>
+                </fr:tree>
+                <html:p>
+    Let's be pedantic and clarify that <fr:tex display="inline"><![CDATA[A(F(-), -), X(-, U(-)): Xᵒᵖ → Setᴬ]]></fr:tex>
+    have the same action on morphisms as <fr:tex display="inline"><![CDATA[Hom(-, -)∘Fᵒᵖ, λx. Hom(x, -)∘U]]></fr:tex>.
+    This is conventionally left implicit, but we remark to clarify what we mean
+    by the family of natural isomorphisms being natural.
+</html:p>
+                <html:p>
+    NOTE: I couldn't get よ to render in the latex (diagrams).
+    I'm not sure if it's a lualatex/dvi or font issue.
+</html:p>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors>
+                      <fr:author>
+                        <fr:link href="/hejohns/" title="Johnson He" uri="https://hejohns.github.io/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                      </fr:author>
+                    </fr:authors>
+                    <fr:date>
+                      <fr:year>2024</fr:year>
+                      <fr:month>5</fr:month>
+                      <fr:day>7</fr:day>
+                    </fr:date>
+                    <fr:date>
+                      <fr:year>2024</fr:year>
+                      <fr:month>8</fr:month>
+                      <fr:day>21</fr:day>
+                    </fr:date>
+                    <fr:uri>https://hejohns.github.io/sub-0007/</fr:uri>
+                    <fr:display-uri>sub-0007</fr:display-uri>
+                    <fr:route>/sub-0007/</fr:route>
+                    <fr:title text="the short proof (sketch)">the short proof (sketch)</fr:title>
+                    <fr:taxon>proof</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:ul><html:li>
+            Suppose such a <fr:tex display="inline"><![CDATA[\overline {F}]]></fr:tex> exists.
+            Then naturality of <fr:tex display="inline"><![CDATA[π]]></fr:tex> requires that
+            <fr:tex display="inline"><![CDATA[∀f : X(x, y).]]></fr:tex> this square in <fr:tex display="inline"><![CDATA[Setᴬ]]></fr:tex> commutes:
+            <fr:tree show-metadata="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/hejohns/" title="Johnson He" uri="https://hejohns.github.io/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link></fr:author></fr:authors><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>7</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>8</fr:month><fr:day>21</fr:day></fr:date><fr:uri>https://hejohns.github.io/subsub-0007/</fr:uri><fr:display-uri>subsub-0007</fr:display-uri><fr:route>/subsub-0007/</fr:route></fr:frontmatter><fr:mainmatter>
+    
+    
+        
+        <html:figure><fr:resource hash="1995a6cacd5688e305b4b8476e2607d0"><fr:resource-content><html:img src="/1995a6cacd5688e305b4b8476e2607d0.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[
+    \usepackage {tikz-cd}
+    \usepackage {unicode-math} ]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+                    \begin {tikzcd} A(F(x), -) \ar [d, Rightarrow, "≀", "πₓ"'] & A(F(y), -) \ar [d, Rightarrow, "≀"', "π_y"]\ar [l, Rightarrow, "-∘\overline {F}(f)"'] \\
+                        X(x, U(-)) & X(y, U(-)) \ar [l, Rightarrow, "-∘f"]
+                    \end {tikzcd}
+                ]]></fr:resource-source></fr:resource></html:figure>
+    
+
+</fr:mainmatter></fr:tree>
+            Then clearly <fr:tex display="inline"><![CDATA[∃!\overline {F}.∀f : X(x, y). \overline {F}(f) = よ⁻¹(πₓ⁻¹∘(-∘f)∘π_y)]]></fr:tex>.
+        </html:li>
+
+        <html:li>
+            (dual) Suppose such a <fr:tex display="inline"><![CDATA[\overline {U}]]></fr:tex> exists.
+            Then naturality of <fr:tex display="inline"><![CDATA[π]]></fr:tex> requires that
+            <fr:tex display="inline"><![CDATA[∀u : A(a, b).]]></fr:tex> this square in <fr:tex display="inline"><![CDATA[Set^{Xᵒᵖ}]]></fr:tex> commutes:
+            <fr:tree show-metadata="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/hejohns/" title="Johnson He" uri="https://hejohns.github.io/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link></fr:author></fr:authors><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>7</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>8</fr:month><fr:day>21</fr:day></fr:date><fr:uri>https://hejohns.github.io/subsubb-0007/</fr:uri><fr:display-uri>subsubb-0007</fr:display-uri><fr:route>/subsubb-0007/</fr:route></fr:frontmatter><fr:mainmatter>
+    
+    
+        
+        <html:figure><fr:resource hash="301254c448e6a3f6edef20bb39295a2e"><fr:resource-content><html:img src="/301254c448e6a3f6edef20bb39295a2e.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[
+    \usepackage {tikz-cd}
+    \usepackage {unicode-math} ]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+                    \begin {tikzcd}
+                        A(F(-), a) \ar [r, Rightarrow, "(u∘-)"]\ar [d, Rightarrow, "≀"', "πₐ"] & A(F(-), b) \ar [d, Rightarrow, "≀"', "π_b"] \\
+                        X(-, U(a)) \ar [r, Rightarrow, "(\overline {U}(u)∘-)"] & X(-, U(b))
+                    \end {tikzcd}
+                ]]></fr:resource-source></fr:resource></html:figure>
+    
+
+</fr:mainmatter></fr:tree>
+            and clearly <fr:tex display="inline"><![CDATA[∃!\overline {U}.∀u : A(a, b). \overline {U}(u) = よ⁻¹(π_b∘(u∘-)∘πₐ⁻¹)]]></fr:tex>.
+        </html:li></html:ul>
+                  </fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors>
+                      <fr:author>
+                        <fr:link href="/hejohns/" title="Johnson He" uri="https://hejohns.github.io/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                      </fr:author>
+                    </fr:authors>
+                    <fr:date>
+                      <fr:year>2024</fr:year>
+                      <fr:month>5</fr:month>
+                      <fr:day>10</fr:day>
+                    </fr:date>
+                    <fr:date>
+                      <fr:year>2025</fr:year>
+                      <fr:month>9</fr:month>
+                      <fr:day>27</fr:day>
+                    </fr:date>
+                    <fr:uri>https://hejohns.github.io/hejohns-000D/</fr:uri>
+                    <fr:display-uri>hejohns-000D</fr:display-uri>
+                    <fr:route>/hejohns-000D/</fr:route>
+                    <fr:title text="the verbose proof">the verbose proof</fr:title>
+                    <fr:taxon>proof</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>
+    We take inspiration from <fr:link href="/hejohns-0006/" title="the core of adjoint monotone functions" uri="https://hejohns.github.io/hejohns-0006/" display-uri="hejohns-0006" type="local">the thin case</fr:link>.
+    We wts the <fr:tex display="inline"><![CDATA[F]]></fr:tex>-action on morphisms is fully determined already (∃!).
+    That is, we have two goals:
+    <html:ul><html:li>
+            (∃) Show that there is a suitable <fr:tex display="inline"><![CDATA[F]]></fr:tex>-action.
+        </html:li>
+        <html:li>
+            (!) That any other <fr:tex display="inline"><![CDATA[F]]></fr:tex>-action is <html:em>equal</html:em> to it.
+        </html:li></html:ul>
+    As usual, let <fr:tex display="inline"><![CDATA[η_x = πₓ(F(x))(1_{F(x)}) : X(x, U∘F(x))]]></fr:tex> denote the
+    component of the unit of the (a posteriori) adjunction
+    and <fr:tex display="inline"><![CDATA[ϵₐ = π_{U(a)}(a)⁻¹(1_{U(a)})]]></fr:tex> denote the component of the counit.
+</html:p>
+                    <html:ul><html:li>
+        (∃)
+        <html:p>
+            Now suppose <fr:tex display="inline"><![CDATA[∃f : X(x, y)]]></fr:tex>.
+            Since <fr:tex display="inline"><![CDATA[η_y : X(y, U∘F(y))]]></fr:tex>, we have <fr:tex display="inline"><![CDATA[η_y∘f : X(x, U∘F(y))]]></fr:tex>.
+            By the Hom bijection, <fr:tex display="inline"><![CDATA[πₓ(F(y))⁻¹(η_y∘f) : A(F(x), F(y))]]></fr:tex>.
+            This is our candidate for the <fr:tex display="inline"><![CDATA[F]]></fr:tex>-action.
+            <fr:tex display="inline"><![CDATA[\overline {F}(f) ≔ πₓ(F(y))⁻¹(η_y ∘ f)]]></fr:tex>.
+        </html:p>
+        <html:p>
+            As a picture, each <fr:tex display="inline"><![CDATA[f : X(x, y)]]></fr:tex> gives rise to the following
+            square in <fr:tex display="inline"><![CDATA[Set]]></fr:tex>:
+            <fr:tree show-metadata="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/hejohns/" title="Johnson He" uri="https://hejohns.github.io/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link></fr:author></fr:authors><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>10</fr:day></fr:date><fr:date><fr:year>2025</fr:year><fr:month>9</fr:month><fr:day>27</fr:day></fr:date><fr:uri>https://hejohns.github.io/subb-000D/</fr:uri><fr:display-uri>subb-000D</fr:display-uri><fr:route>/subb-000D/</fr:route></fr:frontmatter><fr:mainmatter>
+    
+    
+        
+        <html:figure><fr:resource hash="761cbcd656862beae5f5b3f16094816f"><fr:resource-content><html:img src="/761cbcd656862beae5f5b3f16094816f.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[
+    \usepackage {tikz-cd}
+    \usepackage {unicode-math} ]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+                    \begin {tikzcd}
+                        A(F(x), F(y)) & A(F(y), F(y)) \ar [d, "≀"', "π_y(F(y))"] \\
+                        X(x, U∘F(y)) \ar [u, "≀"', "πₓ(F(y))⁻¹"] & X(y, U∘F(y)) \ar [l, "-∘f"]
+                    \end {tikzcd}
+                ]]></fr:resource-source></fr:resource></html:figure>
+    
+
+</fr:mainmatter></fr:tree>
+            And our candidate <fr:tex display="inline"><![CDATA[\overline {F}(f)]]></fr:tex> is the one we know to exist by
+            chasing <fr:tex display="inline"><![CDATA[1_{F(y)}]]></fr:tex> around the square.
+        </html:p>
+        <html:p>
+            We could directly try to show that <fr:tex display="inline"><![CDATA[\overline {F}]]></fr:tex> defined as such is
+            indeed functorial--and I <html:em>have</html:em> tried--, but it's rather
+            difficult without the clarifying perspective of the Yoneda
+            lemma (no, seriously, although I'm sure one could do it).
+        </html:p>
+        <html:p>
+            It's instructive to try directly, if one hasn't.
+            The problem is that <fr:tex display="inline"><![CDATA[\overline {F}(f)]]></fr:tex> as defined is not obviously the
+            composition of morphisms in any diagram-- how do you reason
+            about the functoriality of <fr:tex display="inline"><![CDATA[πₓ(F(y))⁻¹]]></fr:tex>?
+            Instead, we want to invoke a representation theorem and work
+            with <fr:tex display="inline"><![CDATA[\overline {F}(f)]]></fr:tex> as an explicit composition in some diagram.
+            The solution is to follow the Yoneda principle and
+            pass from reasoning in <fr:tex display="inline"><![CDATA[Set]]></fr:tex> to <fr:tex display="inline"><![CDATA[Setᴬ]]></fr:tex>.
+        </html:p>
+        <html:p>
+            Notice that the <fr:link href="/subb-000D/" title="https://hejohns.github.io/subb-000D/" uri="https://hejohns.github.io/subb-000D/" display-uri="subb-000D" type="local">above square</fr:link> is
+            moreover <html:em>natural</html:em> in the variable <fr:tex display="inline"><![CDATA[F(y)]]></fr:tex>.
+            That is, we've actually described the <fr:tex display="inline"><![CDATA[F(y)]]></fr:tex> component of the
+            natural transformation <fr:tex display="inline"><![CDATA[πₓ⁻¹∘(-∘f)∘π_y : A(F(x), -) ⇐ A(F(y),
+            -)]]></fr:tex>.
+            As a picture, each <fr:tex display="inline"><![CDATA[f : X(x, y)]]></fr:tex> gives
+            rise to the following square in <fr:tex display="inline"><![CDATA[Setᴬ]]></fr:tex>:
+            <fr:tree show-metadata="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/hejohns/" title="Johnson He" uri="https://hejohns.github.io/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link></fr:author></fr:authors><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>10</fr:day></fr:date><fr:date><fr:year>2025</fr:year><fr:month>9</fr:month><fr:day>27</fr:day></fr:date><fr:uri>https://hejohns.github.io/sub-000D/</fr:uri><fr:display-uri>sub-000D</fr:display-uri><fr:route>/sub-000D/</fr:route></fr:frontmatter><fr:mainmatter>
+    
+    
+        
+        <html:figure><fr:resource hash="7b95bb36722ba04f1499ea595ce69018"><fr:resource-content><html:img src="/7b95bb36722ba04f1499ea595ce69018.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[
+    \usepackage {tikz-cd}
+    \usepackage {unicode-math} ]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+                    \begin {tikzcd}
+                        A(F(x), -) & A(F(y), -) \ar [d, Rightarrow, "≀"', "π_y"] \\
+                        X(x, U(-)) \ar [u, Rightarrow, "≀"', "πₓ⁻¹"] & X(y, U(-)) \ar [l, Rightarrow, "-∘f"]
+                    \end {tikzcd}
+                ]]></fr:resource-source></fr:resource></html:figure>
+    
+
+</fr:mainmatter></fr:tree></html:p>
+        <html:p>
+            We first make the trivial observation that <fr:tex display="inline"><![CDATA[A(F(x), -)]]></fr:tex> and
+            <fr:tex display="inline"><![CDATA[A(F(y), -)]]></fr:tex> are both Yoneda embeddings (we use the "version"
+            where <fr:tex display="inline"><![CDATA[よ : Aᵒᵖ → Setᴬ]]></fr:tex>, ie the Yoneda embedding on <fr:tex display="inline"><![CDATA[Aᵒᵖ]]></fr:tex>),
+            <fr:tex display="inline"><![CDATA[よ(F(x))]]></fr:tex> and <fr:tex display="inline"><![CDATA[よ(F(y))]]></fr:tex> respectively.
+        </html:p>
+        <html:ul><html:li><html:p>
+                    Then the Yoneda lemma tells us that by specifying an
+                    element <fr:tex display="inline"><![CDATA[\overline {F}(f) : A(F(x), F(y))]]></fr:tex>, this fully
+                    determines (ie freely extends to) a natural
+                    transformation <fr:tex display="block"><![CDATA[よ(\overline {F}(f)) = (-∘\overline {F}(f)) : よ(F(x)) ⇐
+                    よ(F(y))]]></fr:tex></html:p></html:li>
+            <html:li><html:p>
+                    Equivalently, the Yoneda principle tells us that an
+                    element <fr:tex display="inline"><![CDATA[\overline {F}(f) : A(F(x), F(y))]]></fr:tex> fully failthfully
+                    embeds as a natural transformation <fr:tex display="block"><![CDATA[よ(\overline {F}(f)) =
+                    (-∘\overline {F}(f)) : よ(F(x)) ⇐ よ(F(y))]]></fr:tex></html:p></html:li></html:ul>
+        <html:p>
+            With this in mind, we notice that by definition,
+            <fr:tex display="inline"><![CDATA[よ(\overline {F}(f))]]></fr:tex> is exactly the lid to <fr:link href="/sub-000D/" title="https://hejohns.github.io/sub-000D/" uri="https://hejohns.github.io/sub-000D/" display-uri="sub-000D" type="local">the above <fr:tex display="inline"><![CDATA[Setᴬ]]></fr:tex>
+            square</fr:link>.
+            
+    
+    
+        
+        <html:figure><fr:resource hash="8e1e5b224fafba02d2fcb343c0989965"><fr:resource-content><html:img src="/8e1e5b224fafba02d2fcb343c0989965.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[
+    \usepackage {tikz-cd}
+    \usepackage {unicode-math} ]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+                \begin {tikzcd} A(F(x), -) & A(F(y), -) \ar [d, Rightarrow, "≀"', "π_y"]\ar [l, Rightarrow, "-∘\overline {F}(f)"'] \\
+                    X(x, U(-)) \ar [u, Rightarrow, "≀", "πₓ⁻¹"'] & X(y, U(-)) \ar [l, Rightarrow, "-∘f"]
+                \end {tikzcd}
+            ]]></fr:resource-source></fr:resource></html:figure>
+    
+
+
+            That is, both natural transformations map <fr:tex display="inline"><![CDATA[1_{F(y)}]]></fr:tex> to the
+            same thing-- <fr:tex display="inline"><![CDATA[\overline {F}{F}(f)]]></fr:tex>-- by definition, thus must be equal
+            by the Yoneda Lemma.
+            (<fr:link href="/subbb-000D/" title="https://hejohns.github.io/subbb-000D/" uri="https://hejohns.github.io/subbb-000D/" display-uri="subbb-000D" type="local">In hindsight</fr:link>, this line of reasoning is quite
+            circumlocutious and you might as well start by saying such a
+            <fr:tex display="inline"><![CDATA[\overline {F}]]></fr:tex> would have to satisfy this square, but I think it's the
+            more obvious starting point without presupposing it exists.)
+            Now that we've represented <fr:tex display="inline"><![CDATA[\overline {F}(f)]]></fr:tex> as an explicit
+            composition, we have enough to tools consider
+            functoriality.
+        </html:p>
+        <html:p>
+            Wts <fr:tex display="inline"><![CDATA[\overline {F}]]></fr:tex> actually defines a functorial action on morphisms for a functor extending <fr:tex display="inline"><![CDATA[F]]></fr:tex>.
+            Indeed, <fr:tex display="inline"><![CDATA[\overline {F}(1ₓ : X(x, x)) =  πₓ(F(x))⁻¹(ηₓ∘1ₓ) = πₓ(F(x))⁻¹(ηₓ) = 1_{F(x)}]]></fr:tex> by definition.
+            And suppose <fr:tex display="inline"><![CDATA[∃g : X(y, z)]]></fr:tex>.
+            Then <fr:tex display="inline"><![CDATA[\overline {F}(g∘f : X(x, z))]]></fr:tex> viewed as a natural transformation gives rise to the following superimposed squares:
+            
+    
+    
+        
+        <html:figure><fr:resource hash="663232c3ab41e3a3294191aa10712374"><fr:resource-content><html:img src="/663232c3ab41e3a3294191aa10712374.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[
+    \usepackage {tikz-cd}
+    \usepackage {unicode-math} ]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+                \begin {tikzcd}
+                    A(F(x), -) & A(F(y), -) \ar [d, Rightarrow, "π_y"', shift right=2]\ar [l, Rightarrow, "-∘\overline {F}(f)"'] & A(F(z), -) \ar [d, Rightarrow, "π_z"]\ar [l, Rightarrow, "-∘\tilde {F}(g)"']\ar [ll, Rightarrow, "-∘\overline {F}(g∘f)"', bend right] \\
+                    X(x, U(-)) \ar [u, Rightarrow, "≀"', "πₓ⁻¹"] & X(y, U(-)) \ar [l, Rightarrow, "-∘f"]\ar [u, Rightarrow, "π_y⁻¹"', shift right=2] & X(z, U(-)) \ar [l, Rightarrow, "-∘g"]\ar [ll, Rightarrow, "-∘(g∘f)", bend left]
+                \end {tikzcd}
+            ]]></fr:resource-source></fr:resource></html:figure>
+    
+
+
+            A diagram chase verifies that the diagram indeed commutes, and
+            that <fr:tex display="inline"><![CDATA[よ(\overline {F}(g∘f)) = よ(\overline {F}(f))∘よ(\overline {F}(g))]]></fr:tex>.
+            By the ("going home" direction of the) Yoneda principle, <fr:tex display="inline"><![CDATA[\overline {F}(g∘f) = \overline {F}(f)∘\overline {F}(g)]]></fr:tex>.
+            Thus at last, <fr:tex display="inline"><![CDATA[\overline {F}]]></fr:tex> defines a functorial action on <fr:tex display="inline"><![CDATA[X]]></fr:tex>-morphisms.
+        </html:p>
+        <html:p>
+            We should also check that <fr:tex display="inline"><![CDATA[\overline {F}]]></fr:tex> is actually adjoint to <fr:tex display="inline"><![CDATA[U]]></fr:tex>--
+            ie, that <fr:tex display="inline"><![CDATA[(πₓ)_{x ∈ X}]]></fr:tex> is indeed <html:em>natural in the variable
+            <fr:tex display="inline"><![CDATA[x]]></fr:tex></html:em> as well as <fr:tex display="inline"><![CDATA[a]]></fr:tex>.
+            By great good fortune, by defining <fr:tex display="inline"><![CDATA[\overline {F}]]></fr:tex> st
+            <fr:tex display="inline"><![CDATA[∀x,y ∈ X. ∀f ∈ X(x, y).]]></fr:tex>
+            <fr:tree show-metadata="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/hejohns/" title="Johnson He" uri="https://hejohns.github.io/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link></fr:author></fr:authors><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>7</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>8</fr:month><fr:day>21</fr:day></fr:date><fr:uri>https://hejohns.github.io/subsub-0007/</fr:uri><fr:display-uri>subsub-0007</fr:display-uri><fr:route>/subsub-0007/</fr:route></fr:frontmatter><fr:mainmatter>
+    
+    
+        
+        <html:figure><fr:resource hash="1995a6cacd5688e305b4b8476e2607d0"><fr:resource-content><html:img src="/1995a6cacd5688e305b4b8476e2607d0.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[
+    \usepackage {tikz-cd}
+    \usepackage {unicode-math} ]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+                    \begin {tikzcd} A(F(x), -) \ar [d, Rightarrow, "≀", "πₓ"'] & A(F(y), -) \ar [d, Rightarrow, "≀"', "π_y"]\ar [l, Rightarrow, "-∘\overline {F}(f)"'] \\
+                        X(x, U(-)) & X(y, U(-)) \ar [l, Rightarrow, "-∘f"]
+                    \end {tikzcd}
+                ]]></fr:resource-source></fr:resource></html:figure>
+    
+
+</fr:mainmatter></fr:tree>
+            it is indeed the case.
+        </html:p></html:li>
+    <html:li>
+        (!)
+        <html:p>
+            To finish off the result, we wts for any other <fr:tex display="inline"><![CDATA[F']]></fr:tex> extending
+            <fr:tex display="inline"><![CDATA[F]]></fr:tex> to morphisms st <fr:tex display="inline"><![CDATA[F' ⊣ U]]></fr:tex>, witnessed by <fr:tex display="inline"><![CDATA[π : Xᵒᵖ → Setᴬ]]></fr:tex>,
+            that <fr:tex display="inline"><![CDATA[F' = \overline {F}]]></fr:tex>.
+            This simply follows from the observation that <fr:tex display="inline"><![CDATA[∀f.]]></fr:tex> naturality
+            of <fr:tex display="inline"><![CDATA[π]]></fr:tex> is exactly <fr:link href="/subb-000D/" title="https://hejohns.github.io/subb-000D/" uri="https://hejohns.github.io/subb-000D/" display-uri="subb-000D" type="local">this square</fr:link>, and forces
+            <fr:tex display="inline"><![CDATA[よ(F'(f)) = πₓ⁻¹∘(-∘f)∘π_y = よ(\overline {F}(f))]]></fr:tex></html:p></html:li></html:ul>
+                    <html:p>
+    So this result is really a corollary of the Yoneda lemma.
+    <fr:link href="https://ncatlab.org/nlab/show/adjoint+functorAdjointFunctorFromObjectwiseRepresentingObject" type="external">The nlab page is here</fr:link>.
+</html:p>
+                    <fr:tree show-metadata="false">
+                      <fr:frontmatter>
+                        <fr:authors>
+                          <fr:author>
+                            <fr:link href="/hejohns/" title="Johnson He" uri="https://hejohns.github.io/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                          </fr:author>
+                        </fr:authors>
+                        <fr:date>
+                          <fr:year>2024</fr:year>
+                          <fr:month>5</fr:month>
+                          <fr:day>10</fr:day>
+                        </fr:date>
+                        <fr:date>
+                          <fr:year>2025</fr:year>
+                          <fr:month>9</fr:month>
+                          <fr:day>27</fr:day>
+                        </fr:date>
+                        <fr:uri>https://hejohns.github.io/subbb-000D/</fr:uri>
+                        <fr:display-uri>subbb-000D</fr:display-uri>
+                        <fr:route>/subbb-000D/</fr:route>
+                        <fr:taxon>Moral</fr:taxon>
+                      </fr:frontmatter>
+                      <fr:mainmatter>
+                        <html:p>
+        Of course in hindsight, we could've (or even should've)
+        <html:em>just</html:em> defined  <fr:tex display="inline"><![CDATA[\overline {F}]]></fr:tex> <html:em>to be</html:em>
+        <fr:tex display="inline"><![CDATA[よ⁻¹(πₓ⁻¹∘(-∘f)∘π_y)]]></fr:tex> from the get-go, since it's a much
+        more clearly well-behaved definition, but unless you're
+        already sold on the Yoneda principle, I find it a difficult
+        leap without struggling with lower-level objects a bit
+        first.
+        I'm still in training.
+    </html:p>
+                        <html:p>
+        This is the perspective taken in <fr:link href="/sub-0007/" title="Precursor to The Core of Adjoint Functors › the short proof (sketch)" uri="https://hejohns.github.io/sub-0007/" display-uri="sub-0007" type="local">the short proof</fr:link>.
+    </html:p>
+                      </fr:mainmatter>
+                    </fr:tree>
+                  </fr:mainmatter>
+                </fr:tree>
+                <html:p>
+    However, unlike <fr:link href="/hejohns-0006/" title="the core of adjoint monotone functions" uri="https://hejohns.github.io/hejohns-0006/" display-uri="hejohns-0006" type="local">the thin case</fr:link>,
+    we crucially use the information that <fr:tex display="inline"><![CDATA[U]]></fr:tex> is a functor
+    so the natural transformation squares are well-defined.
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/hejohns/" title="Johnson He" uri="https://hejohns.github.io/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>5</fr:month>
+                  <fr:day>11</fr:day>
+                </fr:date>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>8</fr:month>
+                  <fr:day>21</fr:day>
+                </fr:date>
+                <fr:uri>https://hejohns.github.io/hejohns-000E/</fr:uri>
+                <fr:display-uri>hejohns-000E</fr:display-uri>
+                <fr:route>/hejohns-000E/</fr:route>
+                <fr:title text="adjunction core">adjunction core</fr:title>
+                <fr:taxon>lemma</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors>
+                      <fr:author>
+                        <fr:link href="/hejohns/" title="Johnson He" uri="https://hejohns.github.io/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                      </fr:author>
+                    </fr:authors>
+                    <fr:date>
+                      <fr:year>2024</fr:year>
+                      <fr:month>5</fr:month>
+                      <fr:day>11</fr:day>
+                    </fr:date>
+                    <fr:date>
+                      <fr:year>2024</fr:year>
+                      <fr:month>8</fr:month>
+                      <fr:day>21</fr:day>
+                    </fr:date>
+                    <fr:taxon>definition</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p><fr:link href="/street-2012/" title="The Core of Adjoint Functors" uri="https://hejohns.github.io/street-2012/" display-uri="street-2012" type="local">"An adjunction core consists of"</fr:link>
+        <html:ul><html:li>
+                functions <fr:tex display="inline"><![CDATA[U : A .ob → X .ob]]></fr:tex> and <fr:tex display="inline"><![CDATA[F : X .ob → A .ob]]></fr:tex></html:li>
+            <html:li>
+                a family of isomorphisms <fr:tex display="inline"><![CDATA[(π_{x,a} : A(F(x), a) ≅ X(X, U(a)))_{a ∈ A, x ∈ X}]]></fr:tex></html:li></html:ul></html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors>
+                      <fr:author>
+                        <fr:link href="/hejohns/" title="Johnson He" uri="https://hejohns.github.io/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                      </fr:author>
+                    </fr:authors>
+                    <fr:date>
+                      <fr:year>2024</fr:year>
+                      <fr:month>5</fr:month>
+                      <fr:day>11</fr:day>
+                    </fr:date>
+                    <fr:date>
+                      <fr:year>2024</fr:year>
+                      <fr:month>8</fr:month>
+                      <fr:day>21</fr:day>
+                    </fr:date>
+                    <fr:taxon>proposition</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>
+        An adjunction core extends to an adjuction iff <fr:tex display="inline"><![CDATA[∀a,b ∈ A. ∀x ∈ X.]]></fr:tex>
+        <fr:link href="/subb-000E/" title="I" uri="https://hejohns.github.io/subb-000E/" display-uri="subb-000E" type="local">I</fr:link> commutes, and iff <fr:tex display="inline"><![CDATA[∀x,y ∈ X. a ∈ A.]]></fr:tex> <fr:link href="/subbb-000E/" title="II" uri="https://hejohns.github.io/subbb-000E/" display-uri="subbb-000E" type="local">II</fr:link>
+        commutes.
+        The adjunction is unique when it exists.
+    </html:p>
+                    <html:p>
+        The <fr:link href="/street-2012/" title="The Core of Adjoint Functors" uri="https://hejohns.github.io/street-2012/" display-uri="street-2012" type="local">original theorem</fr:link> is stated in terms of
+        <fr:tex display="inline"><![CDATA[\mathcal {V}]]></fr:tex>-enriched categories, but we only treat the simple case
+        of Homset-categories here.
+    </html:p>
+                    <fr:tree show-metadata="false">
+                      <fr:frontmatter>
+                        <fr:authors>
+                          <fr:author>
+                            <fr:link href="/hejohns/" title="Johnson He" uri="https://hejohns.github.io/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                          </fr:author>
+                        </fr:authors>
+                        <fr:date>
+                          <fr:year>2024</fr:year>
+                          <fr:month>5</fr:month>
+                          <fr:day>11</fr:day>
+                        </fr:date>
+                        <fr:date>
+                          <fr:year>2024</fr:year>
+                          <fr:month>8</fr:month>
+                          <fr:day>21</fr:day>
+                        </fr:date>
+                        <fr:uri>https://hejohns.github.io/subb-000E/</fr:uri>
+                        <fr:display-uri>subb-000E</fr:display-uri>
+                        <fr:route>/subb-000E/</fr:route>
+                        <fr:title text="I">I</fr:title>
+                      </fr:frontmatter>
+                      <fr:mainmatter>
+        
+    
+    
+        
+        <html:figure><fr:resource hash="bbf5972b9c164a83fc1884a8f3c82e26"><fr:resource-content><html:img src="/bbf5972b9c164a83fc1884a8f3c82e26.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[
+    \usepackage {tikz-cd}
+    \usepackage {unicode-math} ]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+            \begin {tikzcd}
+                A(a, b)×A(Fx, a) \ar [r, "\overline {U}×π_{a,x}"]\ar [d, "∘"] & X(Ua, Ub)×X(x, Ua) \ar [d, "∘"] \\
+                A(Fx, b) \ar [r, "π_{x, b}"] & X(x, Ub)
+            \end {tikzcd}
+        ]]></fr:resource-source></fr:resource></html:figure>
+    
+
+
+</fr:mainmatter>
+                    </fr:tree>
+                    <fr:tree show-metadata="false">
+                      <fr:frontmatter>
+                        <fr:authors>
+                          <fr:author>
+                            <fr:link href="/hejohns/" title="Johnson He" uri="https://hejohns.github.io/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                          </fr:author>
+                        </fr:authors>
+                        <fr:date>
+                          <fr:year>2024</fr:year>
+                          <fr:month>5</fr:month>
+                          <fr:day>11</fr:day>
+                        </fr:date>
+                        <fr:date>
+                          <fr:year>2024</fr:year>
+                          <fr:month>8</fr:month>
+                          <fr:day>21</fr:day>
+                        </fr:date>
+                        <fr:uri>https://hejohns.github.io/subbb-000E/</fr:uri>
+                        <fr:display-uri>subbb-000E</fr:display-uri>
+                        <fr:route>/subbb-000E/</fr:route>
+                        <fr:title text="II">II</fr:title>
+                      </fr:frontmatter>
+                      <fr:mainmatter>
+        
+    
+    
+        
+        <html:figure><fr:resource hash="8e354e0cc9eea59853471d2e03dddeb7"><fr:resource-content><html:img src="/8e354e0cc9eea59853471d2e03dddeb7.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[
+    \usepackage {tikz-cd}
+    \usepackage {unicode-math} ]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+            \begin {tikzcd}
+                X(y, Ua)×X(x, y) \ar [r, "π_{y, a}⁻¹×\overline {F}"]\ar [d, "∘"] & A(Fy, a)×A(Fx, Fy) \ar [d, "∘"] \\
+                X(x, Ua) \ar [r, "π_{x, a}⁻¹"] & A(Fx, a)
+            \end {tikzcd}
+        ]]></fr:resource-source></fr:resource></html:figure>
+    
+
+
+</fr:mainmatter>
+                    </fr:tree>
+                  </fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors>
+                      <fr:author>
+                        <fr:link href="/hejohns/" title="Johnson He" uri="https://hejohns.github.io/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                      </fr:author>
+                    </fr:authors>
+                    <fr:date>
+                      <fr:year>2024</fr:year>
+                      <fr:month>5</fr:month>
+                      <fr:day>11</fr:day>
+                    </fr:date>
+                    <fr:date>
+                      <fr:year>2024</fr:year>
+                      <fr:month>8</fr:month>
+                      <fr:day>21</fr:day>
+                    </fr:date>
+                    <fr:taxon>proof</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>
+        We use the same notation and definitions of <fr:tex display="inline"><![CDATA[η, ϵ, \overline {F}, \overline {U}]]></fr:tex> as <fr:link href="/hejohns-000D/" title="the verbose proof" uri="https://hejohns.github.io/hejohns-000D/" display-uri="hejohns-000D" type="local">the
+        explicit proof of the precursor lemma</fr:link>.
+        The definition of <fr:tex display="inline"><![CDATA[\overline {F}, \overline {U}]]></fr:tex> in <fr:link href="/sub-0007/" title="Precursor to The Core of Adjoint Functors › the short proof (sketch)" uri="https://hejohns.github.io/sub-0007/" display-uri="sub-0007" type="local">the short proof</fr:link>
+        presupposes that <fr:tex display="inline"><![CDATA[U]]></fr:tex> is a functor, so we're scrupulous to avoid
+        circularity.
+    </html:p>
+                    <html:p>
+        This proof is rather low tech and is lifted straight from <fr:link href="/street-2012/" title="The Core of Adjoint Functors" uri="https://hejohns.github.io/street-2012/" display-uri="street-2012" type="local">the
+        paper</fr:link>. It's also how you'd attack <fr:link href="/hejohns-0007/" title="Precursor to The Core of Adjoint Functors" uri="https://hejohns.github.io/hejohns-0007/" display-uri="hejohns-0007" type="local">the
+        precursor</fr:link> head-on. The utility is that it holds in
+        enriched categories.
+    </html:p>
+                    <html:p>
+        The forward directions are trivial.
+        Suppose <fr:tex display="inline"><![CDATA[(F, U, (π_{a, x})_{a ∈ A, x ∈ X})]]></fr:tex> extends to <fr:tex display="inline"><![CDATA[\overline {F} ⊣_π \overline {U}]]></fr:tex>.
+        Then <fr:link href="/subb-000E/" title="I" uri="https://hejohns.github.io/subb-000E/" display-uri="subb-000E" type="local">I</fr:link> expresses that <fr:tex display="inline"><![CDATA[∀g : A(a, b). ∀f : A(F(x), a).
+        π_{x, b}(g∘f) = \overline {U}(g)∘π_{a, x}(f)]]></fr:tex>. This is exactly the condition
+        that <fr:tex display="inline"><![CDATA[∀g : A(a, b). π]]></fr:tex> is natural in <fr:tex display="inline"><![CDATA[a]]></fr:tex> at <fr:tex display="inline"><![CDATA[g]]></fr:tex>, which is certainly
+        true of an adjunction.
+        <fr:link href="/subbb-000E/" title="II" uri="https://hejohns.github.io/subbb-000E/" display-uri="subbb-000E" type="local">II</fr:link> expresses something similar (dual).
+    </html:p>
+                    <html:p>
+        The nontrivial directions are the backward directions.
+    </html:p>
+                    <html:ul><html:li><html:p>
+                (I) wts I <fr:tex display="inline"><![CDATA[⟹ \overline {U}]]></fr:tex> is a functor.
+                Suppose <fr:tex display="inline"><![CDATA[∀a,b ∈ A. ∀x ∈ X.]]></fr:tex> I holds.
+                Then in particular, <fr:tex display="inline"><![CDATA[∀c ∈ A. ]]></fr:tex>I holds at <fr:tex display="inline"><![CDATA[x = U(c)]]></fr:tex>.
+            </html:p>
+            
+        
+    
+    
+        
+        <html:figure><fr:resource hash="03b722c1100af75655d30df33037cefa"><fr:resource-content><html:img src="/03b722c1100af75655d30df33037cefa.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[
+    \usepackage {tikz-cd}
+    \usepackage {unicode-math} ]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+            \begin {tikzcd}
+                A(a, b)×A(FUc, a) \ar [r, "\overline {U}×π_{a,Uc}"]\ar [d, "∘"] & X(Ua, Ub)×X(Uc, Ua) \ar [d, "∘"] \\
+                A(FUc, b) \ar [r, "π_{Uc, b}"] & X(Uc, Ub)
+            \end {tikzcd}
+        ]]></fr:resource-source></fr:resource></html:figure>
+    
+
+
+
+            <html:p>
+                As does this trivial square:
+            </html:p>
+            
+    
+    
+        
+        <html:figure><fr:resource hash="afd77b7fca2d46c6c513439e75444e2e"><fr:resource-content><html:img src="/afd77b7fca2d46c6c513439e75444e2e.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[
+    \usepackage {tikz-cd}
+    \usepackage {unicode-math} ]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+                \begin {tikzcd}
+                    A(a, b)×A(c, a) \ar [r, "id×(-∘ϵ_c)"]\ar [d, "∘"] & A(a, b)×A(FUc, a) \ar [d, "∘"] \\
+                    A(c, b) \ar [r, "(-∘ϵ_c)"] & A(FUc, b)
+                \end {tikzcd}
+            ]]></fr:resource-source></fr:resource></html:figure>
+    
+
+
+            <html:p>
+                which when pasted together, tells us magically:
+            </html:p>
+            
+    
+    
+        
+        <html:figure><fr:resource hash="073e844f8e36fa3cbe17d8a6715b57d6"><fr:resource-content><html:img src="/073e844f8e36fa3cbe17d8a6715b57d6.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[
+    \usepackage {tikz-cd}
+    \usepackage {unicode-math} ]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+                \begin {tikzcd}
+                    A(a, b)×A(c, a) \ar [r, "\overline {U}×\overline {U}"]\ar [d, "∘"] & X(Ua, Ub)×X(Uc, Ua) \ar [d, "∘"] \\
+                    A(c, b) \ar [r, "\overline {U}"] & X(Uc, Ub)
+                \end {tikzcd}
+            ]]></fr:resource-source></fr:resource></html:figure>
+    
+
+
+            <html:p>
+                Combined with <fr:link href="/hejohns-000D/" title="the verbose proof" uri="https://hejohns.github.io/hejohns-000D/" display-uri="hejohns-000D" type="local">the earlier proof</fr:link> that <fr:tex display="inline"><![CDATA[\overline {U}(1ₐ)
+                = 1_{\overline {U}(a)}]]></fr:tex> (which just follows by definition),
+                we've shown that <fr:tex display="inline"><![CDATA[\overline {U}]]></fr:tex> defines a functorial action on morphisms.
+                Actually, we saw earlier that <fr:link href="/subb-000E/" title="I" uri="https://hejohns.github.io/subb-000E/" display-uri="subb-000E" type="local">I</fr:link> expresses that
+                <fr:tex display="inline"><![CDATA[π]]></fr:tex> is natural in <fr:tex display="inline"><![CDATA[a]]></fr:tex>, so we've met the preconditions of <fr:link href="/hejohns-0007/" title="Precursor to The Core of Adjoint Functors" uri="https://hejohns.github.io/hejohns-0007/" display-uri="hejohns-0007" type="local">the
+                precursor lemma</fr:link>, thus there is a unique
+                extension <fr:tex display="inline"><![CDATA[\overline {F}]]></fr:tex> st <fr:tex display="inline"><![CDATA[\overline {F} ⊣_π \overline {U}]]></fr:tex>.
+            </html:p>
+            <html:p>
+                There's two ways ways to see the uniqueness situation:
+            </html:p>
+            <html:ul><html:li>
+                    (An intermediate notion) <fr:tex display="inline"><![CDATA[\overline {U}]]></fr:tex> is the unique extension of
+                    <fr:tex display="inline"><![CDATA[U]]></fr:tex> to a functor st <fr:tex display="inline"><![CDATA[π]]></fr:tex> is natural in <fr:tex display="inline"><![CDATA[a]]></fr:tex>.
+                    We've essentially seen this already, if not literally.
+                    For any functor <fr:tex display="inline"><![CDATA[U']]></fr:tex>, naturality in <fr:tex display="inline"><![CDATA[a]]></fr:tex> requires the following square to hold for all <fr:tex display="inline"><![CDATA[g : A(a, b)]]></fr:tex>:
+                    
+    
+    
+        
+        <html:figure><fr:resource hash="a9692d0c3ec25fa07e8d042666200bcb"><fr:resource-content><html:img src="/a9692d0c3ec25fa07e8d042666200bcb.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[
+    \usepackage {tikz-cd}
+    \usepackage {unicode-math} ]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+                        \begin {tikzcd}
+                            A(FU'a, a) \ar [r, "g∘-"] & A(FU'a, b) \ar [d, "≀"', "π"] \\
+                            X(U'a, U'a) \ar [r, "U'g∘-"]\ar [u, "≀"', "π⁻¹"] & X(U'a, U'b)
+                        \end {tikzcd}
+                    ]]></fr:resource-source></fr:resource></html:figure>
+    
+
+
+                    Thus, <fr:tex display="inline"><![CDATA[∀g. U'(g) = \overline {U}(g)]]></fr:tex>.
+                    Then, with <fr:tex display="inline"><![CDATA[\overline {U}]]></fr:tex> a functor and <fr:tex display="inline"><![CDATA[π]]></fr:tex> natural in <fr:tex display="inline"><![CDATA[a]]></fr:tex>, <fr:link href="/hejohns-0007/" title="Precursor to The Core of Adjoint Functors" uri="https://hejohns.github.io/hejohns-0007/" display-uri="hejohns-0007" type="local">the
+                    precursor</fr:link> gives us a unique <fr:tex display="inline"><![CDATA[\overline {F}]]></fr:tex> st <fr:tex display="inline"><![CDATA[\overline {F}
+                    ⊣ \overline {U}]]></fr:tex> uniquely.
+                </html:li>
+                <html:li>
+                    (Going backwards) Since the definitions of <fr:tex display="inline"><![CDATA[\overline {F}]]></fr:tex> and
+                    <fr:tex display="inline"><![CDATA[\overline {U}]]></fr:tex> (in <fr:link href="/hejohns-0007/" title="Precursor to The Core of Adjoint Functors" uri="https://hejohns.github.io/hejohns-0007/" display-uri="hejohns-0007" type="local">the precursor</fr:link>) are not dependent
+                    on the other functor, the total adjunction <fr:tex display="inline"><![CDATA[\overline {F} ⊣ \overline {U}]]></fr:tex> is
+                    the unique one extending the core by applying the
+                    uniqueness result of <fr:link href="/hejohns-0007/" title="Precursor to The Core of Adjoint Functors" uri="https://hejohns.github.io/hejohns-0007/" display-uri="hejohns-0007" type="local">the precusor</fr:link> to each
+                    functor in turn, just knowing the other is a well-defined
+                    functor.
+                </html:li></html:ul></html:li>
+        <html:li><html:p>
+                (II) wts II <fr:tex display="inline"><![CDATA[⟹ \overline {F}]]></fr:tex> is a functor.
+                This is dual.
+            </html:p></html:li></html:ul>
+                  </fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors>
+                      <fr:author>
+                        <fr:link href="/hejohns/" title="Johnson He" uri="https://hejohns.github.io/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                      </fr:author>
+                    </fr:authors>
+                    <fr:date>
+                      <fr:year>2024</fr:year>
+                      <fr:month>5</fr:month>
+                      <fr:day>11</fr:day>
+                    </fr:date>
+                    <fr:date>
+                      <fr:year>2024</fr:year>
+                      <fr:month>8</fr:month>
+                      <fr:day>21</fr:day>
+                    </fr:date>
+                    <fr:uri>https://hejohns.github.io/sub-000E/</fr:uri>
+                    <fr:display-uri>sub-000E</fr:display-uri>
+                    <fr:route>/sub-000E/</fr:route>
+                    <fr:taxon>proof corollary</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>
+        (For <fr:tex display="inline"><![CDATA[V]]></fr:tex>-enriched categories, ) If <fr:tex display="inline"><![CDATA[V]]></fr:tex> is thin, all diagrams commute,
+        thus an adjunction core always determines an adjunction.
+    </html:p>
+                    <html:p><fr:tex display="inline"><![CDATA[Set]]></fr:tex> isn't thin, but <fr:tex display="inline"><![CDATA[2]]></fr:tex> is, thus for posets, an adjunction core
+        gives rise to a thin adjunction, as remarked <fr:link href="/subb-0006/" title="the core of adjoint monotone functions › https://hejohns.github.io/subb-0006/" uri="https://hejohns.github.io/subb-0006/" display-uri="subb-0006" type="local">here</fr:link>.
+        I don't know how useful this lemma is for ordinary Homset categories.
+    </html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+              </fr:mainmatter>
+            </fr:tree>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/hejohns/" title="Johnson He" uri="https://hejohns.github.io/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>10</fr:day>
+            </fr:date>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>9</fr:month>
+              <fr:day>27</fr:day>
+            </fr:date>
+            <fr:uri>https://hejohns.github.io/hejohns-000D/</fr:uri>
+            <fr:display-uri>hejohns-000D</fr:display-uri>
+            <fr:route>/hejohns-000D/</fr:route>
+            <fr:title text="the verbose proof">the verbose proof</fr:title>
+            <fr:taxon>proof</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+    We take inspiration from <fr:link href="/hejohns-0006/" title="the core of adjoint monotone functions" uri="https://hejohns.github.io/hejohns-0006/" display-uri="hejohns-0006" type="local">the thin case</fr:link>.
+    We wts the <fr:tex display="inline"><![CDATA[F]]></fr:tex>-action on morphisms is fully determined already (∃!).
+    That is, we have two goals:
+    <html:ul><html:li>
+            (∃) Show that there is a suitable <fr:tex display="inline"><![CDATA[F]]></fr:tex>-action.
+        </html:li>
+        <html:li>
+            (!) That any other <fr:tex display="inline"><![CDATA[F]]></fr:tex>-action is <html:em>equal</html:em> to it.
+        </html:li></html:ul>
+    As usual, let <fr:tex display="inline"><![CDATA[η_x = πₓ(F(x))(1_{F(x)}) : X(x, U∘F(x))]]></fr:tex> denote the
+    component of the unit of the (a posteriori) adjunction
+    and <fr:tex display="inline"><![CDATA[ϵₐ = π_{U(a)}(a)⁻¹(1_{U(a)})]]></fr:tex> denote the component of the counit.
+</html:p>
+            <html:ul><html:li>
+        (∃)
+        <html:p>
+            Now suppose <fr:tex display="inline"><![CDATA[∃f : X(x, y)]]></fr:tex>.
+            Since <fr:tex display="inline"><![CDATA[η_y : X(y, U∘F(y))]]></fr:tex>, we have <fr:tex display="inline"><![CDATA[η_y∘f : X(x, U∘F(y))]]></fr:tex>.
+            By the Hom bijection, <fr:tex display="inline"><![CDATA[πₓ(F(y))⁻¹(η_y∘f) : A(F(x), F(y))]]></fr:tex>.
+            This is our candidate for the <fr:tex display="inline"><![CDATA[F]]></fr:tex>-action.
+            <fr:tex display="inline"><![CDATA[\overline {F}(f) ≔ πₓ(F(y))⁻¹(η_y ∘ f)]]></fr:tex>.
+        </html:p>
+        <html:p>
+            As a picture, each <fr:tex display="inline"><![CDATA[f : X(x, y)]]></fr:tex> gives rise to the following
+            square in <fr:tex display="inline"><![CDATA[Set]]></fr:tex>:
+            <fr:tree show-metadata="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/hejohns/" title="Johnson He" uri="https://hejohns.github.io/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link></fr:author></fr:authors><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>10</fr:day></fr:date><fr:date><fr:year>2025</fr:year><fr:month>9</fr:month><fr:day>27</fr:day></fr:date><fr:uri>https://hejohns.github.io/subb-000D/</fr:uri><fr:display-uri>subb-000D</fr:display-uri><fr:route>/subb-000D/</fr:route></fr:frontmatter><fr:mainmatter>
+    
+    
+        
+        <html:figure><fr:resource hash="761cbcd656862beae5f5b3f16094816f"><fr:resource-content><html:img src="/761cbcd656862beae5f5b3f16094816f.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[
+    \usepackage {tikz-cd}
+    \usepackage {unicode-math} ]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+                    \begin {tikzcd}
+                        A(F(x), F(y)) & A(F(y), F(y)) \ar [d, "≀"', "π_y(F(y))"] \\
+                        X(x, U∘F(y)) \ar [u, "≀"', "πₓ(F(y))⁻¹"] & X(y, U∘F(y)) \ar [l, "-∘f"]
+                    \end {tikzcd}
+                ]]></fr:resource-source></fr:resource></html:figure>
+    
+
+</fr:mainmatter></fr:tree>
+            And our candidate <fr:tex display="inline"><![CDATA[\overline {F}(f)]]></fr:tex> is the one we know to exist by
+            chasing <fr:tex display="inline"><![CDATA[1_{F(y)}]]></fr:tex> around the square.
+        </html:p>
+        <html:p>
+            We could directly try to show that <fr:tex display="inline"><![CDATA[\overline {F}]]></fr:tex> defined as such is
+            indeed functorial--and I <html:em>have</html:em> tried--, but it's rather
+            difficult without the clarifying perspective of the Yoneda
+            lemma (no, seriously, although I'm sure one could do it).
+        </html:p>
+        <html:p>
+            It's instructive to try directly, if one hasn't.
+            The problem is that <fr:tex display="inline"><![CDATA[\overline {F}(f)]]></fr:tex> as defined is not obviously the
+            composition of morphisms in any diagram-- how do you reason
+            about the functoriality of <fr:tex display="inline"><![CDATA[πₓ(F(y))⁻¹]]></fr:tex>?
+            Instead, we want to invoke a representation theorem and work
+            with <fr:tex display="inline"><![CDATA[\overline {F}(f)]]></fr:tex> as an explicit composition in some diagram.
+            The solution is to follow the Yoneda principle and
+            pass from reasoning in <fr:tex display="inline"><![CDATA[Set]]></fr:tex> to <fr:tex display="inline"><![CDATA[Setᴬ]]></fr:tex>.
+        </html:p>
+        <html:p>
+            Notice that the <fr:link href="/subb-000D/" title="https://hejohns.github.io/subb-000D/" uri="https://hejohns.github.io/subb-000D/" display-uri="subb-000D" type="local">above square</fr:link> is
+            moreover <html:em>natural</html:em> in the variable <fr:tex display="inline"><![CDATA[F(y)]]></fr:tex>.
+            That is, we've actually described the <fr:tex display="inline"><![CDATA[F(y)]]></fr:tex> component of the
+            natural transformation <fr:tex display="inline"><![CDATA[πₓ⁻¹∘(-∘f)∘π_y : A(F(x), -) ⇐ A(F(y),
+            -)]]></fr:tex>.
+            As a picture, each <fr:tex display="inline"><![CDATA[f : X(x, y)]]></fr:tex> gives
+            rise to the following square in <fr:tex display="inline"><![CDATA[Setᴬ]]></fr:tex>:
+            <fr:tree show-metadata="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/hejohns/" title="Johnson He" uri="https://hejohns.github.io/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link></fr:author></fr:authors><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>10</fr:day></fr:date><fr:date><fr:year>2025</fr:year><fr:month>9</fr:month><fr:day>27</fr:day></fr:date><fr:uri>https://hejohns.github.io/sub-000D/</fr:uri><fr:display-uri>sub-000D</fr:display-uri><fr:route>/sub-000D/</fr:route></fr:frontmatter><fr:mainmatter>
+    
+    
+        
+        <html:figure><fr:resource hash="7b95bb36722ba04f1499ea595ce69018"><fr:resource-content><html:img src="/7b95bb36722ba04f1499ea595ce69018.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[
+    \usepackage {tikz-cd}
+    \usepackage {unicode-math} ]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+                    \begin {tikzcd}
+                        A(F(x), -) & A(F(y), -) \ar [d, Rightarrow, "≀"', "π_y"] \\
+                        X(x, U(-)) \ar [u, Rightarrow, "≀"', "πₓ⁻¹"] & X(y, U(-)) \ar [l, Rightarrow, "-∘f"]
+                    \end {tikzcd}
+                ]]></fr:resource-source></fr:resource></html:figure>
+    
+
+</fr:mainmatter></fr:tree></html:p>
+        <html:p>
+            We first make the trivial observation that <fr:tex display="inline"><![CDATA[A(F(x), -)]]></fr:tex> and
+            <fr:tex display="inline"><![CDATA[A(F(y), -)]]></fr:tex> are both Yoneda embeddings (we use the "version"
+            where <fr:tex display="inline"><![CDATA[よ : Aᵒᵖ → Setᴬ]]></fr:tex>, ie the Yoneda embedding on <fr:tex display="inline"><![CDATA[Aᵒᵖ]]></fr:tex>),
+            <fr:tex display="inline"><![CDATA[よ(F(x))]]></fr:tex> and <fr:tex display="inline"><![CDATA[よ(F(y))]]></fr:tex> respectively.
+        </html:p>
+        <html:ul><html:li><html:p>
+                    Then the Yoneda lemma tells us that by specifying an
+                    element <fr:tex display="inline"><![CDATA[\overline {F}(f) : A(F(x), F(y))]]></fr:tex>, this fully
+                    determines (ie freely extends to) a natural
+                    transformation <fr:tex display="block"><![CDATA[よ(\overline {F}(f)) = (-∘\overline {F}(f)) : よ(F(x)) ⇐
+                    よ(F(y))]]></fr:tex></html:p></html:li>
+            <html:li><html:p>
+                    Equivalently, the Yoneda principle tells us that an
+                    element <fr:tex display="inline"><![CDATA[\overline {F}(f) : A(F(x), F(y))]]></fr:tex> fully failthfully
+                    embeds as a natural transformation <fr:tex display="block"><![CDATA[よ(\overline {F}(f)) =
+                    (-∘\overline {F}(f)) : よ(F(x)) ⇐ よ(F(y))]]></fr:tex></html:p></html:li></html:ul>
+        <html:p>
+            With this in mind, we notice that by definition,
+            <fr:tex display="inline"><![CDATA[よ(\overline {F}(f))]]></fr:tex> is exactly the lid to <fr:link href="/sub-000D/" title="https://hejohns.github.io/sub-000D/" uri="https://hejohns.github.io/sub-000D/" display-uri="sub-000D" type="local">the above <fr:tex display="inline"><![CDATA[Setᴬ]]></fr:tex>
+            square</fr:link>.
+            
+    
+    
+        
+        <html:figure><fr:resource hash="8e1e5b224fafba02d2fcb343c0989965"><fr:resource-content><html:img src="/8e1e5b224fafba02d2fcb343c0989965.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[
+    \usepackage {tikz-cd}
+    \usepackage {unicode-math} ]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+                \begin {tikzcd} A(F(x), -) & A(F(y), -) \ar [d, Rightarrow, "≀"', "π_y"]\ar [l, Rightarrow, "-∘\overline {F}(f)"'] \\
+                    X(x, U(-)) \ar [u, Rightarrow, "≀", "πₓ⁻¹"'] & X(y, U(-)) \ar [l, Rightarrow, "-∘f"]
+                \end {tikzcd}
+            ]]></fr:resource-source></fr:resource></html:figure>
+    
+
+
+            That is, both natural transformations map <fr:tex display="inline"><![CDATA[1_{F(y)}]]></fr:tex> to the
+            same thing-- <fr:tex display="inline"><![CDATA[\overline {F}{F}(f)]]></fr:tex>-- by definition, thus must be equal
+            by the Yoneda Lemma.
+            (<fr:link href="/subbb-000D/" title="https://hejohns.github.io/subbb-000D/" uri="https://hejohns.github.io/subbb-000D/" display-uri="subbb-000D" type="local">In hindsight</fr:link>, this line of reasoning is quite
+            circumlocutious and you might as well start by saying such a
+            <fr:tex display="inline"><![CDATA[\overline {F}]]></fr:tex> would have to satisfy this square, but I think it's the
+            more obvious starting point without presupposing it exists.)
+            Now that we've represented <fr:tex display="inline"><![CDATA[\overline {F}(f)]]></fr:tex> as an explicit
+            composition, we have enough to tools consider
+            functoriality.
+        </html:p>
+        <html:p>
+            Wts <fr:tex display="inline"><![CDATA[\overline {F}]]></fr:tex> actually defines a functorial action on morphisms for a functor extending <fr:tex display="inline"><![CDATA[F]]></fr:tex>.
+            Indeed, <fr:tex display="inline"><![CDATA[\overline {F}(1ₓ : X(x, x)) =  πₓ(F(x))⁻¹(ηₓ∘1ₓ) = πₓ(F(x))⁻¹(ηₓ) = 1_{F(x)}]]></fr:tex> by definition.
+            And suppose <fr:tex display="inline"><![CDATA[∃g : X(y, z)]]></fr:tex>.
+            Then <fr:tex display="inline"><![CDATA[\overline {F}(g∘f : X(x, z))]]></fr:tex> viewed as a natural transformation gives rise to the following superimposed squares:
+            
+    
+    
+        
+        <html:figure><fr:resource hash="663232c3ab41e3a3294191aa10712374"><fr:resource-content><html:img src="/663232c3ab41e3a3294191aa10712374.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[
+    \usepackage {tikz-cd}
+    \usepackage {unicode-math} ]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+                \begin {tikzcd}
+                    A(F(x), -) & A(F(y), -) \ar [d, Rightarrow, "π_y"', shift right=2]\ar [l, Rightarrow, "-∘\overline {F}(f)"'] & A(F(z), -) \ar [d, Rightarrow, "π_z"]\ar [l, Rightarrow, "-∘\tilde {F}(g)"']\ar [ll, Rightarrow, "-∘\overline {F}(g∘f)"', bend right] \\
+                    X(x, U(-)) \ar [u, Rightarrow, "≀"', "πₓ⁻¹"] & X(y, U(-)) \ar [l, Rightarrow, "-∘f"]\ar [u, Rightarrow, "π_y⁻¹"', shift right=2] & X(z, U(-)) \ar [l, Rightarrow, "-∘g"]\ar [ll, Rightarrow, "-∘(g∘f)", bend left]
+                \end {tikzcd}
+            ]]></fr:resource-source></fr:resource></html:figure>
+    
+
+
+            A diagram chase verifies that the diagram indeed commutes, and
+            that <fr:tex display="inline"><![CDATA[よ(\overline {F}(g∘f)) = よ(\overline {F}(f))∘よ(\overline {F}(g))]]></fr:tex>.
+            By the ("going home" direction of the) Yoneda principle, <fr:tex display="inline"><![CDATA[\overline {F}(g∘f) = \overline {F}(f)∘\overline {F}(g)]]></fr:tex>.
+            Thus at last, <fr:tex display="inline"><![CDATA[\overline {F}]]></fr:tex> defines a functorial action on <fr:tex display="inline"><![CDATA[X]]></fr:tex>-morphisms.
+        </html:p>
+        <html:p>
+            We should also check that <fr:tex display="inline"><![CDATA[\overline {F}]]></fr:tex> is actually adjoint to <fr:tex display="inline"><![CDATA[U]]></fr:tex>--
+            ie, that <fr:tex display="inline"><![CDATA[(πₓ)_{x ∈ X}]]></fr:tex> is indeed <html:em>natural in the variable
+            <fr:tex display="inline"><![CDATA[x]]></fr:tex></html:em> as well as <fr:tex display="inline"><![CDATA[a]]></fr:tex>.
+            By great good fortune, by defining <fr:tex display="inline"><![CDATA[\overline {F}]]></fr:tex> st
+            <fr:tex display="inline"><![CDATA[∀x,y ∈ X. ∀f ∈ X(x, y).]]></fr:tex>
+            <fr:tree show-metadata="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/hejohns/" title="Johnson He" uri="https://hejohns.github.io/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link></fr:author></fr:authors><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>7</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>8</fr:month><fr:day>21</fr:day></fr:date><fr:uri>https://hejohns.github.io/subsub-0007/</fr:uri><fr:display-uri>subsub-0007</fr:display-uri><fr:route>/subsub-0007/</fr:route></fr:frontmatter><fr:mainmatter>
+    
+    
+        
+        <html:figure><fr:resource hash="1995a6cacd5688e305b4b8476e2607d0"><fr:resource-content><html:img src="/1995a6cacd5688e305b4b8476e2607d0.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[
+    \usepackage {tikz-cd}
+    \usepackage {unicode-math} ]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+                    \begin {tikzcd} A(F(x), -) \ar [d, Rightarrow, "≀", "πₓ"'] & A(F(y), -) \ar [d, Rightarrow, "≀"', "π_y"]\ar [l, Rightarrow, "-∘\overline {F}(f)"'] \\
+                        X(x, U(-)) & X(y, U(-)) \ar [l, Rightarrow, "-∘f"]
+                    \end {tikzcd}
+                ]]></fr:resource-source></fr:resource></html:figure>
+    
+
+</fr:mainmatter></fr:tree>
+            it is indeed the case.
+        </html:p></html:li>
+    <html:li>
+        (!)
+        <html:p>
+            To finish off the result, we wts for any other <fr:tex display="inline"><![CDATA[F']]></fr:tex> extending
+            <fr:tex display="inline"><![CDATA[F]]></fr:tex> to morphisms st <fr:tex display="inline"><![CDATA[F' ⊣ U]]></fr:tex>, witnessed by <fr:tex display="inline"><![CDATA[π : Xᵒᵖ → Setᴬ]]></fr:tex>,
+            that <fr:tex display="inline"><![CDATA[F' = \overline {F}]]></fr:tex>.
+            This simply follows from the observation that <fr:tex display="inline"><![CDATA[∀f.]]></fr:tex> naturality
+            of <fr:tex display="inline"><![CDATA[π]]></fr:tex> is exactly <fr:link href="/subb-000D/" title="https://hejohns.github.io/subb-000D/" uri="https://hejohns.github.io/subb-000D/" display-uri="subb-000D" type="local">this square</fr:link>, and forces
+            <fr:tex display="inline"><![CDATA[よ(F'(f)) = πₓ⁻¹∘(-∘f)∘π_y = よ(\overline {F}(f))]]></fr:tex></html:p></html:li></html:ul>
+            <html:p>
+    So this result is really a corollary of the Yoneda lemma.
+    <fr:link href="https://ncatlab.org/nlab/show/adjoint+functorAdjointFunctorFromObjectwiseRepresentingObject" type="external">The nlab page is here</fr:link>.
+</html:p>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/hejohns/" title="Johnson He" uri="https://hejohns.github.io/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>5</fr:month>
+                  <fr:day>10</fr:day>
+                </fr:date>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>9</fr:month>
+                  <fr:day>27</fr:day>
+                </fr:date>
+                <fr:uri>https://hejohns.github.io/subbb-000D/</fr:uri>
+                <fr:display-uri>subbb-000D</fr:display-uri>
+                <fr:route>/subbb-000D/</fr:route>
+                <fr:taxon>Moral</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+        Of course in hindsight, we could've (or even should've)
+        <html:em>just</html:em> defined  <fr:tex display="inline"><![CDATA[\overline {F}]]></fr:tex> <html:em>to be</html:em>
+        <fr:tex display="inline"><![CDATA[よ⁻¹(πₓ⁻¹∘(-∘f)∘π_y)]]></fr:tex> from the get-go, since it's a much
+        more clearly well-behaved definition, but unless you're
+        already sold on the Yoneda principle, I find it a difficult
+        leap without struggling with lower-level objects a bit
+        first.
+        I'm still in training.
+    </html:p>
+                <html:p>
+        This is the perspective taken in <fr:link href="/sub-0007/" title="Precursor to The Core of Adjoint Functors › the short proof (sketch)" uri="https://hejohns.github.io/sub-0007/" display-uri="sub-0007" type="local">the short proof</fr:link>.
+    </html:p>
+              </fr:mainmatter>
+            </fr:tree>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/hejohns/" title="Johnson He" uri="https://hejohns.github.io/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>7</fr:day>
+            </fr:date>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>8</fr:month>
+              <fr:day>21</fr:day>
+            </fr:date>
+            <fr:uri>https://hejohns.github.io/hejohns-0007/</fr:uri>
+            <fr:display-uri>hejohns-0007</fr:display-uri>
+            <fr:route>/hejohns-0007/</fr:route>
+            <fr:title text="Precursor to The Core of Adjoint Functors">Precursor to The Core of Adjoint Functors</fr:title>
+            <fr:taxon>lemma</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+    Mentioned in passing as <fr:link href="/street-2012/" title="The Core of Adjoint Functors" uri="https://hejohns.github.io/street-2012/" display-uri="street-2012" type="local">2.1. Proposition.</fr:link>, as "well-known".
+</html:p>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/hejohns/" title="Johnson He" uri="https://hejohns.github.io/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>5</fr:month>
+                  <fr:day>7</fr:day>
+                </fr:date>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>8</fr:month>
+                  <fr:day>21</fr:day>
+                </fr:date>
+                <fr:taxon>proposition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:ul><html:li>
+            Suppose <fr:tex display="inline"><![CDATA[U : A → X]]></fr:tex> is a functor, <fr:tex display="inline"><![CDATA[F : X .ob → A .ob]]></fr:tex> a function,
+            and <fr:tex display="inline"><![CDATA[(πₓ : A(F(x), -) ≅ X(x, U(-)))_{x ∈ X}]]></fr:tex> a family of natural
+            isomorphisms. Then there is a unique extension <fr:tex display="inline"><![CDATA[\overline {F}]]></fr:tex> of <fr:tex display="inline"><![CDATA[F]]></fr:tex> such
+            that <fr:tex display="inline"><![CDATA[(πₓ)_{x ∈ X}]]></fr:tex> is natural in <fr:tex display="inline"><![CDATA[x]]></fr:tex>, witnessing <fr:tex display="inline"><![CDATA[\overline {F} ⊣ U]]></fr:tex>.
+        </html:li>
+        <html:li>
+            Or dually, suppose that <fr:tex display="inline"><![CDATA[F]]></fr:tex> is a functor, but <fr:tex display="inline"><![CDATA[U]]></fr:tex> is just a
+            function on objects, and <fr:tex display="inline"><![CDATA[(πₐ : A(F(-), a) ≅ X(-, U(a)))_{a ∈ A}]]></fr:tex>.
+            Then <fr:tex display="inline"><![CDATA[U]]></fr:tex> uniquely extends to <fr:tex display="inline"><![CDATA[\overline {U}]]></fr:tex>.
+        </html:li></html:ul>
+              </fr:mainmatter>
+            </fr:tree>
+            <html:p>
+    Let's be pedantic and clarify that <fr:tex display="inline"><![CDATA[A(F(-), -), X(-, U(-)): Xᵒᵖ → Setᴬ]]></fr:tex>
+    have the same action on morphisms as <fr:tex display="inline"><![CDATA[Hom(-, -)∘Fᵒᵖ, λx. Hom(x, -)∘U]]></fr:tex>.
+    This is conventionally left implicit, but we remark to clarify what we mean
+    by the family of natural isomorphisms being natural.
+</html:p>
+            <html:p>
+    NOTE: I couldn't get よ to render in the latex (diagrams).
+    I'm not sure if it's a lualatex/dvi or font issue.
+</html:p>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/hejohns/" title="Johnson He" uri="https://hejohns.github.io/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>5</fr:month>
+                  <fr:day>7</fr:day>
+                </fr:date>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>8</fr:month>
+                  <fr:day>21</fr:day>
+                </fr:date>
+                <fr:uri>https://hejohns.github.io/sub-0007/</fr:uri>
+                <fr:display-uri>sub-0007</fr:display-uri>
+                <fr:route>/sub-0007/</fr:route>
+                <fr:title text="the short proof (sketch)">the short proof (sketch)</fr:title>
+                <fr:taxon>proof</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:ul><html:li>
+            Suppose such a <fr:tex display="inline"><![CDATA[\overline {F}]]></fr:tex> exists.
+            Then naturality of <fr:tex display="inline"><![CDATA[π]]></fr:tex> requires that
+            <fr:tex display="inline"><![CDATA[∀f : X(x, y).]]></fr:tex> this square in <fr:tex display="inline"><![CDATA[Setᴬ]]></fr:tex> commutes:
+            <fr:tree show-metadata="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/hejohns/" title="Johnson He" uri="https://hejohns.github.io/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link></fr:author></fr:authors><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>7</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>8</fr:month><fr:day>21</fr:day></fr:date><fr:uri>https://hejohns.github.io/subsub-0007/</fr:uri><fr:display-uri>subsub-0007</fr:display-uri><fr:route>/subsub-0007/</fr:route></fr:frontmatter><fr:mainmatter>
+    
+    
+        
+        <html:figure><fr:resource hash="1995a6cacd5688e305b4b8476e2607d0"><fr:resource-content><html:img src="/1995a6cacd5688e305b4b8476e2607d0.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[
+    \usepackage {tikz-cd}
+    \usepackage {unicode-math} ]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+                    \begin {tikzcd} A(F(x), -) \ar [d, Rightarrow, "≀", "πₓ"'] & A(F(y), -) \ar [d, Rightarrow, "≀"', "π_y"]\ar [l, Rightarrow, "-∘\overline {F}(f)"'] \\
+                        X(x, U(-)) & X(y, U(-)) \ar [l, Rightarrow, "-∘f"]
+                    \end {tikzcd}
+                ]]></fr:resource-source></fr:resource></html:figure>
+    
+
+</fr:mainmatter></fr:tree>
+            Then clearly <fr:tex display="inline"><![CDATA[∃!\overline {F}.∀f : X(x, y). \overline {F}(f) = よ⁻¹(πₓ⁻¹∘(-∘f)∘π_y)]]></fr:tex>.
+        </html:li>
+
+        <html:li>
+            (dual) Suppose such a <fr:tex display="inline"><![CDATA[\overline {U}]]></fr:tex> exists.
+            Then naturality of <fr:tex display="inline"><![CDATA[π]]></fr:tex> requires that
+            <fr:tex display="inline"><![CDATA[∀u : A(a, b).]]></fr:tex> this square in <fr:tex display="inline"><![CDATA[Set^{Xᵒᵖ}]]></fr:tex> commutes:
+            <fr:tree show-metadata="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/hejohns/" title="Johnson He" uri="https://hejohns.github.io/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link></fr:author></fr:authors><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>7</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>8</fr:month><fr:day>21</fr:day></fr:date><fr:uri>https://hejohns.github.io/subsubb-0007/</fr:uri><fr:display-uri>subsubb-0007</fr:display-uri><fr:route>/subsubb-0007/</fr:route></fr:frontmatter><fr:mainmatter>
+    
+    
+        
+        <html:figure><fr:resource hash="301254c448e6a3f6edef20bb39295a2e"><fr:resource-content><html:img src="/301254c448e6a3f6edef20bb39295a2e.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[
+    \usepackage {tikz-cd}
+    \usepackage {unicode-math} ]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+                    \begin {tikzcd}
+                        A(F(-), a) \ar [r, Rightarrow, "(u∘-)"]\ar [d, Rightarrow, "≀"', "πₐ"] & A(F(-), b) \ar [d, Rightarrow, "≀"', "π_b"] \\
+                        X(-, U(a)) \ar [r, Rightarrow, "(\overline {U}(u)∘-)"] & X(-, U(b))
+                    \end {tikzcd}
+                ]]></fr:resource-source></fr:resource></html:figure>
+    
+
+</fr:mainmatter></fr:tree>
+            and clearly <fr:tex display="inline"><![CDATA[∃!\overline {U}.∀u : A(a, b). \overline {U}(u) = よ⁻¹(π_b∘(u∘-)∘πₐ⁻¹)]]></fr:tex>.
+        </html:li></html:ul>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/hejohns/" title="Johnson He" uri="https://hejohns.github.io/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>5</fr:month>
+                  <fr:day>10</fr:day>
+                </fr:date>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>9</fr:month>
+                  <fr:day>27</fr:day>
+                </fr:date>
+                <fr:uri>https://hejohns.github.io/hejohns-000D/</fr:uri>
+                <fr:display-uri>hejohns-000D</fr:display-uri>
+                <fr:route>/hejohns-000D/</fr:route>
+                <fr:title text="the verbose proof">the verbose proof</fr:title>
+                <fr:taxon>proof</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+    We take inspiration from <fr:link href="/hejohns-0006/" title="the core of adjoint monotone functions" uri="https://hejohns.github.io/hejohns-0006/" display-uri="hejohns-0006" type="local">the thin case</fr:link>.
+    We wts the <fr:tex display="inline"><![CDATA[F]]></fr:tex>-action on morphisms is fully determined already (∃!).
+    That is, we have two goals:
+    <html:ul><html:li>
+            (∃) Show that there is a suitable <fr:tex display="inline"><![CDATA[F]]></fr:tex>-action.
+        </html:li>
+        <html:li>
+            (!) That any other <fr:tex display="inline"><![CDATA[F]]></fr:tex>-action is <html:em>equal</html:em> to it.
+        </html:li></html:ul>
+    As usual, let <fr:tex display="inline"><![CDATA[η_x = πₓ(F(x))(1_{F(x)}) : X(x, U∘F(x))]]></fr:tex> denote the
+    component of the unit of the (a posteriori) adjunction
+    and <fr:tex display="inline"><![CDATA[ϵₐ = π_{U(a)}(a)⁻¹(1_{U(a)})]]></fr:tex> denote the component of the counit.
+</html:p>
+                <html:ul><html:li>
+        (∃)
+        <html:p>
+            Now suppose <fr:tex display="inline"><![CDATA[∃f : X(x, y)]]></fr:tex>.
+            Since <fr:tex display="inline"><![CDATA[η_y : X(y, U∘F(y))]]></fr:tex>, we have <fr:tex display="inline"><![CDATA[η_y∘f : X(x, U∘F(y))]]></fr:tex>.
+            By the Hom bijection, <fr:tex display="inline"><![CDATA[πₓ(F(y))⁻¹(η_y∘f) : A(F(x), F(y))]]></fr:tex>.
+            This is our candidate for the <fr:tex display="inline"><![CDATA[F]]></fr:tex>-action.
+            <fr:tex display="inline"><![CDATA[\overline {F}(f) ≔ πₓ(F(y))⁻¹(η_y ∘ f)]]></fr:tex>.
+        </html:p>
+        <html:p>
+            As a picture, each <fr:tex display="inline"><![CDATA[f : X(x, y)]]></fr:tex> gives rise to the following
+            square in <fr:tex display="inline"><![CDATA[Set]]></fr:tex>:
+            <fr:tree show-metadata="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/hejohns/" title="Johnson He" uri="https://hejohns.github.io/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link></fr:author></fr:authors><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>10</fr:day></fr:date><fr:date><fr:year>2025</fr:year><fr:month>9</fr:month><fr:day>27</fr:day></fr:date><fr:uri>https://hejohns.github.io/subb-000D/</fr:uri><fr:display-uri>subb-000D</fr:display-uri><fr:route>/subb-000D/</fr:route></fr:frontmatter><fr:mainmatter>
+    
+    
+        
+        <html:figure><fr:resource hash="761cbcd656862beae5f5b3f16094816f"><fr:resource-content><html:img src="/761cbcd656862beae5f5b3f16094816f.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[
+    \usepackage {tikz-cd}
+    \usepackage {unicode-math} ]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+                    \begin {tikzcd}
+                        A(F(x), F(y)) & A(F(y), F(y)) \ar [d, "≀"', "π_y(F(y))"] \\
+                        X(x, U∘F(y)) \ar [u, "≀"', "πₓ(F(y))⁻¹"] & X(y, U∘F(y)) \ar [l, "-∘f"]
+                    \end {tikzcd}
+                ]]></fr:resource-source></fr:resource></html:figure>
+    
+
+</fr:mainmatter></fr:tree>
+            And our candidate <fr:tex display="inline"><![CDATA[\overline {F}(f)]]></fr:tex> is the one we know to exist by
+            chasing <fr:tex display="inline"><![CDATA[1_{F(y)}]]></fr:tex> around the square.
+        </html:p>
+        <html:p>
+            We could directly try to show that <fr:tex display="inline"><![CDATA[\overline {F}]]></fr:tex> defined as such is
+            indeed functorial--and I <html:em>have</html:em> tried--, but it's rather
+            difficult without the clarifying perspective of the Yoneda
+            lemma (no, seriously, although I'm sure one could do it).
+        </html:p>
+        <html:p>
+            It's instructive to try directly, if one hasn't.
+            The problem is that <fr:tex display="inline"><![CDATA[\overline {F}(f)]]></fr:tex> as defined is not obviously the
+            composition of morphisms in any diagram-- how do you reason
+            about the functoriality of <fr:tex display="inline"><![CDATA[πₓ(F(y))⁻¹]]></fr:tex>?
+            Instead, we want to invoke a representation theorem and work
+            with <fr:tex display="inline"><![CDATA[\overline {F}(f)]]></fr:tex> as an explicit composition in some diagram.
+            The solution is to follow the Yoneda principle and
+            pass from reasoning in <fr:tex display="inline"><![CDATA[Set]]></fr:tex> to <fr:tex display="inline"><![CDATA[Setᴬ]]></fr:tex>.
+        </html:p>
+        <html:p>
+            Notice that the <fr:link href="/subb-000D/" title="https://hejohns.github.io/subb-000D/" uri="https://hejohns.github.io/subb-000D/" display-uri="subb-000D" type="local">above square</fr:link> is
+            moreover <html:em>natural</html:em> in the variable <fr:tex display="inline"><![CDATA[F(y)]]></fr:tex>.
+            That is, we've actually described the <fr:tex display="inline"><![CDATA[F(y)]]></fr:tex> component of the
+            natural transformation <fr:tex display="inline"><![CDATA[πₓ⁻¹∘(-∘f)∘π_y : A(F(x), -) ⇐ A(F(y),
+            -)]]></fr:tex>.
+            As a picture, each <fr:tex display="inline"><![CDATA[f : X(x, y)]]></fr:tex> gives
+            rise to the following square in <fr:tex display="inline"><![CDATA[Setᴬ]]></fr:tex>:
+            <fr:tree show-metadata="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/hejohns/" title="Johnson He" uri="https://hejohns.github.io/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link></fr:author></fr:authors><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>10</fr:day></fr:date><fr:date><fr:year>2025</fr:year><fr:month>9</fr:month><fr:day>27</fr:day></fr:date><fr:uri>https://hejohns.github.io/sub-000D/</fr:uri><fr:display-uri>sub-000D</fr:display-uri><fr:route>/sub-000D/</fr:route></fr:frontmatter><fr:mainmatter>
+    
+    
+        
+        <html:figure><fr:resource hash="7b95bb36722ba04f1499ea595ce69018"><fr:resource-content><html:img src="/7b95bb36722ba04f1499ea595ce69018.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[
+    \usepackage {tikz-cd}
+    \usepackage {unicode-math} ]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+                    \begin {tikzcd}
+                        A(F(x), -) & A(F(y), -) \ar [d, Rightarrow, "≀"', "π_y"] \\
+                        X(x, U(-)) \ar [u, Rightarrow, "≀"', "πₓ⁻¹"] & X(y, U(-)) \ar [l, Rightarrow, "-∘f"]
+                    \end {tikzcd}
+                ]]></fr:resource-source></fr:resource></html:figure>
+    
+
+</fr:mainmatter></fr:tree></html:p>
+        <html:p>
+            We first make the trivial observation that <fr:tex display="inline"><![CDATA[A(F(x), -)]]></fr:tex> and
+            <fr:tex display="inline"><![CDATA[A(F(y), -)]]></fr:tex> are both Yoneda embeddings (we use the "version"
+            where <fr:tex display="inline"><![CDATA[よ : Aᵒᵖ → Setᴬ]]></fr:tex>, ie the Yoneda embedding on <fr:tex display="inline"><![CDATA[Aᵒᵖ]]></fr:tex>),
+            <fr:tex display="inline"><![CDATA[よ(F(x))]]></fr:tex> and <fr:tex display="inline"><![CDATA[よ(F(y))]]></fr:tex> respectively.
+        </html:p>
+        <html:ul><html:li><html:p>
+                    Then the Yoneda lemma tells us that by specifying an
+                    element <fr:tex display="inline"><![CDATA[\overline {F}(f) : A(F(x), F(y))]]></fr:tex>, this fully
+                    determines (ie freely extends to) a natural
+                    transformation <fr:tex display="block"><![CDATA[よ(\overline {F}(f)) = (-∘\overline {F}(f)) : よ(F(x)) ⇐
+                    よ(F(y))]]></fr:tex></html:p></html:li>
+            <html:li><html:p>
+                    Equivalently, the Yoneda principle tells us that an
+                    element <fr:tex display="inline"><![CDATA[\overline {F}(f) : A(F(x), F(y))]]></fr:tex> fully failthfully
+                    embeds as a natural transformation <fr:tex display="block"><![CDATA[よ(\overline {F}(f)) =
+                    (-∘\overline {F}(f)) : よ(F(x)) ⇐ よ(F(y))]]></fr:tex></html:p></html:li></html:ul>
+        <html:p>
+            With this in mind, we notice that by definition,
+            <fr:tex display="inline"><![CDATA[よ(\overline {F}(f))]]></fr:tex> is exactly the lid to <fr:link href="/sub-000D/" title="https://hejohns.github.io/sub-000D/" uri="https://hejohns.github.io/sub-000D/" display-uri="sub-000D" type="local">the above <fr:tex display="inline"><![CDATA[Setᴬ]]></fr:tex>
+            square</fr:link>.
+            
+    
+    
+        
+        <html:figure><fr:resource hash="8e1e5b224fafba02d2fcb343c0989965"><fr:resource-content><html:img src="/8e1e5b224fafba02d2fcb343c0989965.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[
+    \usepackage {tikz-cd}
+    \usepackage {unicode-math} ]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+                \begin {tikzcd} A(F(x), -) & A(F(y), -) \ar [d, Rightarrow, "≀"', "π_y"]\ar [l, Rightarrow, "-∘\overline {F}(f)"'] \\
+                    X(x, U(-)) \ar [u, Rightarrow, "≀", "πₓ⁻¹"'] & X(y, U(-)) \ar [l, Rightarrow, "-∘f"]
+                \end {tikzcd}
+            ]]></fr:resource-source></fr:resource></html:figure>
+    
+
+
+            That is, both natural transformations map <fr:tex display="inline"><![CDATA[1_{F(y)}]]></fr:tex> to the
+            same thing-- <fr:tex display="inline"><![CDATA[\overline {F}{F}(f)]]></fr:tex>-- by definition, thus must be equal
+            by the Yoneda Lemma.
+            (<fr:link href="/subbb-000D/" title="https://hejohns.github.io/subbb-000D/" uri="https://hejohns.github.io/subbb-000D/" display-uri="subbb-000D" type="local">In hindsight</fr:link>, this line of reasoning is quite
+            circumlocutious and you might as well start by saying such a
+            <fr:tex display="inline"><![CDATA[\overline {F}]]></fr:tex> would have to satisfy this square, but I think it's the
+            more obvious starting point without presupposing it exists.)
+            Now that we've represented <fr:tex display="inline"><![CDATA[\overline {F}(f)]]></fr:tex> as an explicit
+            composition, we have enough to tools consider
+            functoriality.
+        </html:p>
+        <html:p>
+            Wts <fr:tex display="inline"><![CDATA[\overline {F}]]></fr:tex> actually defines a functorial action on morphisms for a functor extending <fr:tex display="inline"><![CDATA[F]]></fr:tex>.
+            Indeed, <fr:tex display="inline"><![CDATA[\overline {F}(1ₓ : X(x, x)) =  πₓ(F(x))⁻¹(ηₓ∘1ₓ) = πₓ(F(x))⁻¹(ηₓ) = 1_{F(x)}]]></fr:tex> by definition.
+            And suppose <fr:tex display="inline"><![CDATA[∃g : X(y, z)]]></fr:tex>.
+            Then <fr:tex display="inline"><![CDATA[\overline {F}(g∘f : X(x, z))]]></fr:tex> viewed as a natural transformation gives rise to the following superimposed squares:
+            
+    
+    
+        
+        <html:figure><fr:resource hash="663232c3ab41e3a3294191aa10712374"><fr:resource-content><html:img src="/663232c3ab41e3a3294191aa10712374.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[
+    \usepackage {tikz-cd}
+    \usepackage {unicode-math} ]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+                \begin {tikzcd}
+                    A(F(x), -) & A(F(y), -) \ar [d, Rightarrow, "π_y"', shift right=2]\ar [l, Rightarrow, "-∘\overline {F}(f)"'] & A(F(z), -) \ar [d, Rightarrow, "π_z"]\ar [l, Rightarrow, "-∘\tilde {F}(g)"']\ar [ll, Rightarrow, "-∘\overline {F}(g∘f)"', bend right] \\
+                    X(x, U(-)) \ar [u, Rightarrow, "≀"', "πₓ⁻¹"] & X(y, U(-)) \ar [l, Rightarrow, "-∘f"]\ar [u, Rightarrow, "π_y⁻¹"', shift right=2] & X(z, U(-)) \ar [l, Rightarrow, "-∘g"]\ar [ll, Rightarrow, "-∘(g∘f)", bend left]
+                \end {tikzcd}
+            ]]></fr:resource-source></fr:resource></html:figure>
+    
+
+
+            A diagram chase verifies that the diagram indeed commutes, and
+            that <fr:tex display="inline"><![CDATA[よ(\overline {F}(g∘f)) = よ(\overline {F}(f))∘よ(\overline {F}(g))]]></fr:tex>.
+            By the ("going home" direction of the) Yoneda principle, <fr:tex display="inline"><![CDATA[\overline {F}(g∘f) = \overline {F}(f)∘\overline {F}(g)]]></fr:tex>.
+            Thus at last, <fr:tex display="inline"><![CDATA[\overline {F}]]></fr:tex> defines a functorial action on <fr:tex display="inline"><![CDATA[X]]></fr:tex>-morphisms.
+        </html:p>
+        <html:p>
+            We should also check that <fr:tex display="inline"><![CDATA[\overline {F}]]></fr:tex> is actually adjoint to <fr:tex display="inline"><![CDATA[U]]></fr:tex>--
+            ie, that <fr:tex display="inline"><![CDATA[(πₓ)_{x ∈ X}]]></fr:tex> is indeed <html:em>natural in the variable
+            <fr:tex display="inline"><![CDATA[x]]></fr:tex></html:em> as well as <fr:tex display="inline"><![CDATA[a]]></fr:tex>.
+            By great good fortune, by defining <fr:tex display="inline"><![CDATA[\overline {F}]]></fr:tex> st
+            <fr:tex display="inline"><![CDATA[∀x,y ∈ X. ∀f ∈ X(x, y).]]></fr:tex>
+            <fr:tree show-metadata="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/hejohns/" title="Johnson He" uri="https://hejohns.github.io/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link></fr:author></fr:authors><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>7</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>8</fr:month><fr:day>21</fr:day></fr:date><fr:uri>https://hejohns.github.io/subsub-0007/</fr:uri><fr:display-uri>subsub-0007</fr:display-uri><fr:route>/subsub-0007/</fr:route></fr:frontmatter><fr:mainmatter>
+    
+    
+        
+        <html:figure><fr:resource hash="1995a6cacd5688e305b4b8476e2607d0"><fr:resource-content><html:img src="/1995a6cacd5688e305b4b8476e2607d0.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[
+    \usepackage {tikz-cd}
+    \usepackage {unicode-math} ]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+                    \begin {tikzcd} A(F(x), -) \ar [d, Rightarrow, "≀", "πₓ"'] & A(F(y), -) \ar [d, Rightarrow, "≀"', "π_y"]\ar [l, Rightarrow, "-∘\overline {F}(f)"'] \\
+                        X(x, U(-)) & X(y, U(-)) \ar [l, Rightarrow, "-∘f"]
+                    \end {tikzcd}
+                ]]></fr:resource-source></fr:resource></html:figure>
+    
+
+</fr:mainmatter></fr:tree>
+            it is indeed the case.
+        </html:p></html:li>
+    <html:li>
+        (!)
+        <html:p>
+            To finish off the result, we wts for any other <fr:tex display="inline"><![CDATA[F']]></fr:tex> extending
+            <fr:tex display="inline"><![CDATA[F]]></fr:tex> to morphisms st <fr:tex display="inline"><![CDATA[F' ⊣ U]]></fr:tex>, witnessed by <fr:tex display="inline"><![CDATA[π : Xᵒᵖ → Setᴬ]]></fr:tex>,
+            that <fr:tex display="inline"><![CDATA[F' = \overline {F}]]></fr:tex>.
+            This simply follows from the observation that <fr:tex display="inline"><![CDATA[∀f.]]></fr:tex> naturality
+            of <fr:tex display="inline"><![CDATA[π]]></fr:tex> is exactly <fr:link href="/subb-000D/" title="https://hejohns.github.io/subb-000D/" uri="https://hejohns.github.io/subb-000D/" display-uri="subb-000D" type="local">this square</fr:link>, and forces
+            <fr:tex display="inline"><![CDATA[よ(F'(f)) = πₓ⁻¹∘(-∘f)∘π_y = よ(\overline {F}(f))]]></fr:tex></html:p></html:li></html:ul>
+                <html:p>
+    So this result is really a corollary of the Yoneda lemma.
+    <fr:link href="https://ncatlab.org/nlab/show/adjoint+functorAdjointFunctorFromObjectwiseRepresentingObject" type="external">The nlab page is here</fr:link>.
+</html:p>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors>
+                      <fr:author>
+                        <fr:link href="/hejohns/" title="Johnson He" uri="https://hejohns.github.io/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                      </fr:author>
+                    </fr:authors>
+                    <fr:date>
+                      <fr:year>2024</fr:year>
+                      <fr:month>5</fr:month>
+                      <fr:day>10</fr:day>
+                    </fr:date>
+                    <fr:date>
+                      <fr:year>2025</fr:year>
+                      <fr:month>9</fr:month>
+                      <fr:day>27</fr:day>
+                    </fr:date>
+                    <fr:uri>https://hejohns.github.io/subbb-000D/</fr:uri>
+                    <fr:display-uri>subbb-000D</fr:display-uri>
+                    <fr:route>/subbb-000D/</fr:route>
+                    <fr:taxon>Moral</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>
+        Of course in hindsight, we could've (or even should've)
+        <html:em>just</html:em> defined  <fr:tex display="inline"><![CDATA[\overline {F}]]></fr:tex> <html:em>to be</html:em>
+        <fr:tex display="inline"><![CDATA[よ⁻¹(πₓ⁻¹∘(-∘f)∘π_y)]]></fr:tex> from the get-go, since it's a much
+        more clearly well-behaved definition, but unless you're
+        already sold on the Yoneda principle, I find it a difficult
+        leap without struggling with lower-level objects a bit
+        first.
+        I'm still in training.
+    </html:p>
+                    <html:p>
+        This is the perspective taken in <fr:link href="/sub-0007/" title="Precursor to The Core of Adjoint Functors › the short proof (sketch)" uri="https://hejohns.github.io/sub-0007/" display-uri="sub-0007" type="local">the short proof</fr:link>.
+    </html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+              </fr:mainmatter>
+            </fr:tree>
+            <html:p>
+    However, unlike <fr:link href="/hejohns-0006/" title="the core of adjoint monotone functions" uri="https://hejohns.github.io/hejohns-0006/" display-uri="hejohns-0006" type="local">the thin case</fr:link>,
+    we crucially use the information that <fr:tex display="inline"><![CDATA[U]]></fr:tex> is a functor
+    so the natural transformation squares are well-defined.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/hejohns/" title="Johnson He" uri="https://hejohns.github.io/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>7</fr:day>
+            </fr:date>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>11</fr:day>
+            </fr:date>
+            <fr:uri>https://hejohns.github.io/subb-0006/</fr:uri>
+            <fr:display-uri>subb-0006</fr:display-uri>
+            <fr:route>/subb-0006/</fr:route>
+            <fr:taxon>proof corollary</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+        Notice that <fr:link href="/sub-0006/" title="the core of adjoint monotone functions › https://hejohns.github.io/sub-0006/" uri="https://hejohns.github.io/sub-0006/" display-uri="sub-0006" type="local">the above proof</fr:link> does <html:em>not</html:em> use the information that <fr:tex display="inline"><![CDATA[u]]></fr:tex> is monotone.
+        Thus <fr:link href="/hejohns-0006/" title="the core of adjoint monotone functions" uri="https://hejohns.github.io/hejohns-0006/" display-uri="hejohns-0006" type="local">the above lemma</fr:link> holds where <fr:tex display="inline"><![CDATA[f]]></fr:tex> and <fr:tex display="inline"><![CDATA[u]]></fr:tex> are just a priori functions.
+        The <fr:link href="/hejohns-0006/" title="the core of adjoint monotone functions" uri="https://hejohns.github.io/hejohns-0006/" display-uri="hejohns-0006" type="local">above lemma</fr:link> is in some sense the more
+        immediately natural question, but can be easily strengthened to
+        the form of this corollary.
+    </html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>
