@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/forest/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/forest/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:contributor>
+        <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+      </fr:contributor>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2024</fr:year>
+      <fr:month>5</fr:month>
+      <fr:day>28</fr:day>
+    </fr:date>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>9</fr:month>
+      <fr:day>27</fr:day>
+    </fr:date>
+    <fr:uri>https://hejohns.github.io/forest/quine-1960/</fr:uri>
+    <fr:display-uri>quine-1960</fr:display-uri>
+    <fr:route>/forest/quine-1960/</fr:route>
+    <fr:title text="Variables Explained Away">Variables Explained Away</fr:title>
+    <fr:taxon>Reference</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>
+    "Separately I sent a copy of Quine's 1950 paper on combinatory logic to
+    this list. Whatever else you might think about Quine, he was a terrific
+    explainer, and this is the best introduction to the subject I know."
+</html:p>
+    <html:p>
+    (Yes, that 50 should be a 60(b).)
+    Here is the followup I wrote:
+</html:p>
+    <fr:tree show-metadata="false">
+      <fr:frontmatter>
+        <fr:authors>
+          <fr:author>
+            <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+          </fr:author>
+        </fr:authors>
+        <fr:date>
+          <fr:year>2024</fr:year>
+          <fr:month>5</fr:month>
+          <fr:day>28</fr:day>
+        </fr:date>
+        <fr:date>
+          <fr:year>2025</fr:year>
+          <fr:month>9</fr:month>
+          <fr:day>27</fr:day>
+        </fr:date>
+        <fr:taxon>email</fr:taxon>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <html:p>
+        Thanks for sharing this nice little note, which sketches a combinatory
+        (classical) first-order logic.
+    </html:p>
+        <html:p>
+        I was surprised by the mention of von Neumann 1925 in this snippet:
+    </html:p>
+        <html:p>
+        "In a way our operators are reminiscent also of the axioms of class
+        existence in Neumann, J. von, Eine Axiomatisierung der Mengenlehre,
+        Journal für reine und ungewandte Mathematik 154: 219-240, 1925, despite
+        dissimilarity of purpose." (Footnote 1, p. 346)
+    </html:p>
+        <html:p>
+        From what I gather, the reminiscence with von Neumann 1925 (I assume
+        Quine was principally referring to the "III. Logical Construction
+        Axioms") is that the purposes (of Quine's predicate combinators and von
+        Neumann's axioms of existence of II-objects) are actually quite
+        similar.
+    </html:p>
+        <html:p>
+        It seems that the system of von Neumann 1925 isn't couched in any
+        particular formal system (although it's maybe implicitly first-order,
+        and apparently translated into such by Skolem 1938), thus von Neumann
+        wants to recover from any definite property ("logical condition") on
+        I-objects, the (existence of a) class (II-object) of those I-objects.
+        Wikipedia calls this the <fr:link href="https://en.wikipedia.org/wiki/Von_Neumann%E2%80%93Bernays%E2%80%93G%C3%B6del_set_theoryClass_existence_theorem" type="external">class existence theorem</fr:link>.
+    </html:p>
+        <html:p>
+        (More generally, the "reduction theorem" in von Neumann 1925 says that
+        every expression of I-objects (definable class-function) is indeed a
+        II-object (class-function). This restricts to logical conditions and
+        classes.)
+    </html:p>
+        <html:p>
+        To do this economically, the existence of a few basic
+        combinator-classes are stipulated (=, ∀, ∃!), and more complex logical
+        conditions are put in "normal form" by eliminating variables with the
+        combinator-classes.  The 'uneconomic' way, if von Neumann 1925 were
+        working in an explicit logic, would be to just stipulate a schema of
+        class comprehension (also mentioned in the Wikipedia article), as
+        included in the back of Chang and Keisler.
+    </html:p>
+        <html:p>
+        Actually, while there are explicit class existence axioms for absorbing
+        =, ∀, ∃!, I don't see any for things like ∧ or ¬, and don't see how
+        they'd follow with the other axioms, but I suppose they must. The
+        Wikipedia article has a write-up starting from more user-friendly
+        axioms.
+    </html:p>
+        <html:p>
+        In any case, I hadn't realized that the historic move to make precise
+        the notion of 'definite property' as 'first-order definable' was
+        nontrivial, and found this connection with Quine's note interesting,
+    </html:p>
+        <html:p>
+        Johnson He
+    </html:p>
+      </fr:mainmatter>
+    </fr:tree>
+    <html:ul><html:li><html:span class="link local">
+            <html:a href="/forest/bafkrmifljznec7ucm5647a6gkdr7dba5lr3vrbese46vswf67aip3zp4aq.html">paper</html:a>
+        </html:span></html:li>
+    <html:li><fr:link href="/forest/von-neumann-1925/" title="An Axiomatization of Set Theory" uri="https://hejohns.github.io/forest/von-neumann-1925/" display-uri="von-neumann-1925" type="local">An Axiomatization of Set Theory</fr:link></html:li></html:ul>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>28</fr:day>
+            </fr:date>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>9</fr:month>
+              <fr:day>16</fr:day>
+            </fr:date>
+            <fr:uri>https://hejohns.github.io/forest/von-neumann-1925/</fr:uri>
+            <fr:display-uri>von-neumann-1925</fr:display-uri>
+            <fr:route>/forest/von-neumann-1925/</fr:route>
+            <fr:title text="An Axiomatization of Set Theory">An Axiomatization of Set Theory</fr:title>
+            <fr:taxon>Reference</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+    One of the early NBG papers. Maybe "the" NBG paper.
+    My notes on this are currently in <fr:link href="/forest/quine-1960/" title="Variables Explained Away" uri="https://hejohns.github.io/forest/quine-1960/" display-uri="quine-1960" type="local">Variables Explained Away</fr:link>.
+</html:p>
+            <html:p>
+    English translation in <fr:link href="/forest/van-heijenoort-1967/" title="From Frege To Gödel" uri="https://hejohns.github.io/forest/van-heijenoort-1967/" display-uri="van-heijenoort-1967" type="local">From Frege To Gödel</fr:link>.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>28</fr:day>
+            </fr:date>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>9</fr:month>
+              <fr:day>16</fr:day>
+            </fr:date>
+            <fr:uri>https://hejohns.github.io/forest/von-neumann-1925/</fr:uri>
+            <fr:display-uri>von-neumann-1925</fr:display-uri>
+            <fr:route>/forest/von-neumann-1925/</fr:route>
+            <fr:title text="An Axiomatization of Set Theory">An Axiomatization of Set Theory</fr:title>
+            <fr:taxon>Reference</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+    One of the early NBG papers. Maybe "the" NBG paper.
+    My notes on this are currently in <fr:link href="/forest/quine-1960/" title="Variables Explained Away" uri="https://hejohns.github.io/forest/quine-1960/" display-uri="quine-1960" type="local">Variables Explained Away</fr:link>.
+</html:p>
+            <html:p>
+    English translation in <fr:link href="/forest/van-heijenoort-1967/" title="From Frege To Gödel" uri="https://hejohns.github.io/forest/van-heijenoort-1967/" display-uri="van-heijenoort-1967" type="local">From Frege To Gödel</fr:link>.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/forest/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/forest/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2024</fr:year>
+      <fr:month>12</fr:month>
+      <fr:day>7</fr:day>
+    </fr:date>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>9</fr:month>
+      <fr:day>16</fr:day>
+    </fr:date>
+    <fr:uri>https://hejohns.github.io/forest/hejohns-000X/</fr:uri>
+    <fr:display-uri>hejohns-000X</fr:display-uri>
+    <fr:route>/forest/hejohns-000X/</fr:route>
+    <fr:title text="Things to try">Things to try</fr:title>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:tree show-metadata="false">
+      <fr:frontmatter>
+        <fr:authors>
+          <fr:author>
+            <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+          </fr:author>
+        </fr:authors>
+        <fr:date>
+          <fr:year>2024</fr:year>
+          <fr:month>12</fr:month>
+          <fr:day>7</fr:day>
+        </fr:date>
+        <fr:date>
+          <fr:year>2025</fr:year>
+          <fr:month>9</fr:month>
+          <fr:day>16</fr:day>
+        </fr:date>
+        <fr:title text="Issue">Issue</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <html:p>
+        Each <html:code>C-c C-l</html:code>, <html:code>C-c C-,</html:code> takes so long, it's difficult to do
+        focused work.
+        I delineate "fast enough" from "too slow" when I find
+        myself either
+        <html:ul><html:li>
+                Finding other low-attention work to do on the computer-- like
+                filling out forms-- while I'm waiting for emacs to color the agda
+                buffer and stop saying 'Agda is busy with something'
+            </html:li>
+            <html:li>
+                Doing literally anything else on the computer, which usually ends up being r*dd*t, much to the detriment of my productivity
+            </html:li></html:ul></html:p>
+      </fr:mainmatter>
+    </fr:tree>
+    <html:p><html:p>
+        Somewhat in order
+    </html:p>
+    <html:ul><html:li><fr:link href="https://agda.readthedocs.io/en/latest/tools/performance.html" type="external">Interactive syntax highlighting</fr:link></html:li>
+        <html:li>
+            Enable <html:code>{-# OPTIONS --lossy-unification -}</html:code> at the top of the current agda file
+        </html:li>
+        <html:li>
+            Comment out (especially slow) parts of the current agda file that you don't strictly need to work on this hole
+            This is usually the easiest, most effective hammer.
+        </html:li>
+        <html:li>
+            Use opaque.
+            Something simple but I only just realized after a lot of head banging:
+            If you use <html:code>_</html:code> in a type, opaque can't export the type. You
+            have to <html:code>C-c C-s</html:code> the hole <html:em>first</html:em>, and export the
+            potentially very ugly proof term.
+            This is typically used to make expensive path proofs opaque.
+            The types of the path need to be non-opaque to be useful.
+        </html:li>
+        <html:li>
+            Build Agda with the cabal flag <html:code>cabal configure -f
+            optimise-heavily</html:code>, and maybe try the cabal.project(.local) option
+            <html:code>optimization: 2</html:code>? Newer versions of Agda may not be able to infer all of the same
+            <html:code>_</html:code> holes, so maybe checkout <html:code>v2.7.0.1</html:code> or what have you.
+            This kind of works? TODO: Benchmark?
+        </html:li>
+        <html:li>
+            I haven't been able to get any positive result by tinkering with
+            the ghc runtime settings <html:code>+RTS -RTS</html:code>.
+            About <fr:tex display="inline"><![CDATA[\frac {1}{4}]]></fr:tex> of the time is spent in GC.
+            I tried to offload some of that work to another cpu, but was not successful in my attempts.
+        </html:li></html:ul></html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

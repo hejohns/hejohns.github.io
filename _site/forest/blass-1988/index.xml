@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/forest/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/forest/">
+  <fr:frontmatter>
+    <fr:authors />
+    <fr:date>
+      <fr:year>2024</fr:year>
+      <fr:month>6</fr:month>
+      <fr:day>1</fr:day>
+    </fr:date>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>9</fr:month>
+      <fr:day>27</fr:day>
+    </fr:date>
+    <fr:uri>https://hejohns.github.io/forest/blass-1988/</fr:uri>
+    <fr:display-uri>blass-1988</fr:display-uri>
+    <fr:route>/forest/blass-1988/</fr:route>
+    <fr:title text="Topoi and Computation">Topoi and Computation</fr:title>
+    <fr:taxon>Reference</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:tree show-metadata="false">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:date>
+          <fr:year>2024</fr:year>
+          <fr:month>6</fr:month>
+          <fr:day>1</fr:day>
+        </fr:date>
+        <fr:date>
+          <fr:year>2025</fr:year>
+          <fr:month>9</fr:month>
+          <fr:day>27</fr:day>
+        </fr:date>
+        <fr:taxon>abstract</fr:taxon>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <html:p>
+        This is the written version of a talk given at the C.I.R.M. Workshop on
+        Logic in Computer Science at Marseille, France in June, 1988. Its purpose
+        is to argue that there is a close connection between the theory of
+        computation and the geometric side of topos theory. We begin with a brief
+        outline of the history and basic concepts of topos theory.
+    </html:p>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:date>
+          <fr:year>2024</fr:year>
+          <fr:month>6</fr:month>
+          <fr:day>1</fr:day>
+        </fr:date>
+        <fr:date>
+          <fr:year>2025</fr:year>
+          <fr:month>9</fr:month>
+          <fr:day>27</fr:day>
+        </fr:date>
+        <fr:date>
+          <fr:year>2024</fr:year>
+          <fr:month>6</fr:month>
+          <fr:day>1</fr:day>
+        </fr:date>
+        <fr:date>
+          <fr:year>2025</fr:year>
+          <fr:month>9</fr:month>
+          <fr:day>27</fr:day>
+        </fr:date>
+        <fr:taxon>notes</fr:taxon>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <html:p>
+        Prof. Blass essentially described this background over the course of
+        the logic seminar last semester (as comments at various meetings,
+        culminating with a full talk), but this is a nice written account of
+        the history of topos theory, the relation between Grothendieck and
+        Elementary topoi, and the relation between geometric and logical
+        morphisms.
+    </html:p>
+      </fr:mainmatter>
+    </fr:tree>
+    <html:p>
+      <html:span class="link local">
+            <html:a href="/forest/bafkrmiftasjqnff3ahq5yznygaujtlajqv3serswc4lu4abhz56iu2ifwa.html">paper</html:a>
+        </html:span>
+    </html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>1</fr:day>
+            </fr:date>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>29</fr:day>
+            </fr:date>
+            <fr:uri>https://hejohns.github.io/forest/hejohns-000F/</fr:uri>
+            <fr:display-uri>hejohns-000F</fr:display-uri>
+            <fr:route>/forest/hejohns-000F/</fr:route>
+            <fr:title text="&quot;higher-order intuitionistic logic&quot; v. &quot;topos logic&quot;">"higher-order intuitionistic logic" v. "topos logic"</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+    Many authors object to the name "higher-order intuitionistic logic".
+</html:p>
+            <html:p><fr:link href="/forest/blass-1988/" title="Topoi and Computation" uri="https://hejohns.github.io/forest/blass-1988/" display-uri="blass-1988" type="local">Topoi and Computation</fr:link> writes that "Strictly speaking, the phrase 'higher-order
+    intuitionistic' makes little sense, since it is not clear that
+    constructions like the power set are intuitionistically acceptable. What is
+    meant by the phrase is a type theory built on a formally intuitionistic
+    underlying logic." (p. 2).
+</html:p>
+            <html:p>
+    And <fr:link href="/forest/mclarty-1992/" title="Elementary Categories, Elementary Toposes" uri="https://hejohns.github.io/forest/mclarty-1992/" display-uri="mclarty-1992" type="local">Elementary Categories, Elementary Toposes</fr:link> similarly writes "In Part III the first order topos
+    axioms are used to define the higher order internal language. The logic is
+    called 'topos logic' here, although 'intuitionistic logic' is often
+    referred to in the literature. I believe that 'intuitionism' is usually,
+    and rightly, taken to mean Brouwer's epistemology of mathematics, which is
+    unrelated to the origin or content of topos theory. Topos logic strikingly resembles formal intuitionistic logic and the two have interacted, as in
+    van der Hoeven and Moerdijk (1984) or many papers in Fourman <html:em>et al.</html:em>
+    (1979). But topos logic coincides with no intuitionistic logic studied
+    before toposes, and this is due to real philosophical differences (see
+    McLarty 1990a)." (p. vii).
+</html:p>
+            <html:p>
+    Of course this discrepancy is what one should come to expect, since the
+    very notion of a formalized logic of intuitionistic reasoning is at odds
+    with Brouwer's notion of intuitionism, so when one speaks of
+    "intuitionistic logic" it's usually in the purely formal sense.
+</html:p>
+            <html:p>
+    Combining the two names, I think "higher-order intuitionistic topos logic"
+    is at least a little more descriptive.
+    Although I like calling it "finite-type intuitionistic predicate logic" to
+    keep in touch with some older terminology you still see around the block.
+
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>1</fr:day>
+            </fr:date>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>3</fr:day>
+            </fr:date>
+            <fr:uri>https://hejohns.github.io/forest/hejohns-000H/</fr:uri>
+            <fr:display-uri>hejohns-000H</fr:display-uri>
+            <fr:route>/forest/hejohns-000H/</fr:route>
+            <fr:title text="Why is it called an &quot;elementary&quot; topos?">Why is it called an "elementary" topos?</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p><fr:link href="/forest/blass-1988/" title="Topoi and Computation" uri="https://hejohns.github.io/forest/blass-1988/" display-uri="blass-1988" type="local">Topoi and Computation</fr:link> writes that "The word 'elementary' in connection with the Lawvere-Tierney definition refers to the fact that their axioms are expressed in the first-order language of categories; in fact the axioms are essentially algebraic." (p. 2).
+    (Recall that categories can be formalized as a two or dependently-sorted
+    first order theory.)
+</html:p>
+            <html:p>
+    This is corroborated by <fr:link href="/forest/marquis-reyes-2012/" title="The history of categorical logic: 1963-1977" uri="https://hejohns.github.io/forest/marquis-reyes-2012/" display-uri="marquis-reyes-2012" type="local">The history of categorical logic: 1963-1977</fr:link>, writing that "In the years
+    that followed, Lawvere tried to extend his analysis and sketched a
+    categorical version of first-order theories under the name of elementary
+    theories. Then, in 1969, in collaboration with Myles Tierney, Lawvere
+    introduced the notion of an elementary topos, making an explicit connection
+    with higher-order logic and type theories. Both Lawvere and Tierney were
+    aiming at an elementary, that is first-order, axiomatic presentation of
+    what are now called Grothendieck toposes, a special type of categories
+    introduced by Alexandre Grothendieck in the context of algebraic geometry
+    and sheaf theory. Soon after, connections with intuitionistic analysis,
+    recursive functions, completeness theorems for various logical systems,
+    differential geometry, constructive mathematics were made." (p. 2).
+</html:p>
+            <html:p>
+    If <fr:link href="/forest/lawvere-1970/" title="Quantifiers and Sheaves" uri="https://hejohns.github.io/forest/lawvere-1970/" display-uri="lawvere-1970" type="local">Quantifiers and Sheaves</fr:link> is indeed the paper that introduces elementary toposes,
+    it's curious to note that the word "elementary" never appears.
+    It must've been coined sometime later, but I don't know the details.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

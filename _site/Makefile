@@ -7,7 +7,7 @@ site:
 	$(MAKE) -C _forest
 	$(BUNDLER) exec jekyll build --lsi --trace
 	find _site/forest -maxdepth 1 ! -name 'forest' -exec mv {} _site/ ';'
-	mv _site/forest/forest/* forest/
+	mv _site/forest/forest/* _site/forest/
 	rm -r _site/forest/forest
 .PHONY: export
 export:
