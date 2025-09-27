@@ -13,7 +13,7 @@
       <fr:month>9</fr:month>
       <fr:day>27</fr:day>
     </fr:date>
-    <fr:uri>https://hejohns.github.io/forest/hofmann-1999/</fr:uri>
+    <fr:uri>http://localhost:4000/forest/hofmann-1999/</fr:uri>
     <fr:display-uri>hofmann-1999</fr:display-uri>
     <fr:route>/forest/hofmann-1999/</fr:route>
     <fr:title text="Semantical analysis of higher-order abstract syntax">Semantical analysis of higher-order abstract syntax</fr:title>
@@ -46,7 +46,7 @@
     </fr:tree>
     <html:p>
       <html:span class="link local">
-            <html:a href="/forest/bafkrmigepfawkme7yvvgcu5rmkfq65k5acrs2pp36jjdhwst3k7rlrthmi.html">paper</html:a>
+            <html:a href="/forest/bafkrmide6gbbydaxjwzow6hhx4iju5brgpzlfqjzc62r5p3752dy6lgnza.html">paper</html:a>
         </html:span>
     </html:p>
   </fr:mainmatter>

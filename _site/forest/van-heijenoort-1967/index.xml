@@ -13,7 +13,7 @@
       <fr:month>9</fr:month>
       <fr:day>16</fr:day>
     </fr:date>
-    <fr:uri>https://hejohns.github.io/forest/van-heijenoort-1967/</fr:uri>
+    <fr:uri>http://localhost:4000/forest/van-heijenoort-1967/</fr:uri>
     <fr:display-uri>van-heijenoort-1967</fr:display-uri>
     <fr:route>/forest/van-heijenoort-1967/</fr:route>
     <fr:title text="From Frege To Gödel">From Frege To Gödel</fr:title>
@@ -58,7 +58,7 @@
               <fr:month>9</fr:month>
               <fr:day>16</fr:day>
             </fr:date>
-            <fr:uri>https://hejohns.github.io/forest/von-neumann-1925/</fr:uri>
+            <fr:uri>http://localhost:4000/forest/von-neumann-1925/</fr:uri>
             <fr:display-uri>von-neumann-1925</fr:display-uri>
             <fr:route>/forest/von-neumann-1925/</fr:route>
             <fr:title text="An Axiomatization of Set Theory">An Axiomatization of Set Theory</fr:title>
@@ -67,10 +67,10 @@
           <fr:mainmatter>
             <html:p>
     One of the early NBG papers. Maybe "the" NBG paper.
-    My notes on this are currently in <fr:link href="/forest/quine-1960/" title="Variables Explained Away" uri="https://hejohns.github.io/forest/quine-1960/" display-uri="quine-1960" type="local">Variables Explained Away</fr:link>.
+    My notes on this are currently in <fr:link href="/forest/quine-1960/" title="Variables Explained Away" uri="http://localhost:4000/forest/quine-1960/" display-uri="quine-1960" type="local">Variables Explained Away</fr:link>.
 </html:p>
             <html:p>
-    English translation in <fr:link href="/forest/van-heijenoort-1967/" title="From Frege To Gödel" uri="https://hejohns.github.io/forest/van-heijenoort-1967/" display-uri="van-heijenoort-1967" type="local">From Frege To Gödel</fr:link>.
+    English translation in <fr:link href="/forest/van-heijenoort-1967/" title="From Frege To Gödel" uri="http://localhost:4000/forest/van-heijenoort-1967/" display-uri="van-heijenoort-1967" type="local">From Frege To Gödel</fr:link>.
 </html:p>
           </fr:mainmatter>
         </fr:tree>

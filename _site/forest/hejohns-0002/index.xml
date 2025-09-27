@@ -4,7 +4,7 @@
   <fr:frontmatter>
     <fr:authors>
       <fr:author>
-        <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+        <fr:link href="/forest/hejohns/" title="Johnson He" uri="http://localhost:4000/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
       </fr:author>
     </fr:authors>
     <fr:date>
@@ -17,7 +17,7 @@
       <fr:month>5</fr:month>
       <fr:day>6</fr:day>
     </fr:date>
-    <fr:uri>https://hejohns.github.io/forest/hejohns-0002/</fr:uri>
+    <fr:uri>http://localhost:4000/forest/hejohns-0002/</fr:uri>
     <fr:display-uri>hejohns-0002</fr:display-uri>
     <fr:route>/forest/hejohns-0002/</fr:route>
     <fr:title text="bisimulation">bisimulation</fr:title>
@@ -40,7 +40,7 @@
       <fr:frontmatter>
         <fr:authors>
           <fr:author>
-            <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+            <fr:link href="/forest/hejohns/" title="Johnson He" uri="http://localhost:4000/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
           </fr:author>
         </fr:authors>
         <fr:date>
@@ -53,7 +53,7 @@
           <fr:month>5</fr:month>
           <fr:day>6</fr:day>
         </fr:date>
-        <fr:uri>https://hejohns.github.io/forest/hejohns-0003/</fr:uri>
+        <fr:uri>http://localhost:4000/forest/hejohns-0003/</fr:uri>
         <fr:display-uri>hejohns-0003</fr:display-uri>
         <fr:route>/forest/hejohns-0003/</fr:route>
         <fr:title text="bisimilar Kripke frames are elementarily equivalent">bisimilar Kripke frames are elementarily equivalent</fr:title>
@@ -85,7 +85,7 @@
           <fr:frontmatter>
             <fr:authors>
               <fr:author>
-                <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                <fr:link href="/forest/hejohns/" title="Johnson He" uri="http://localhost:4000/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
               </fr:author>
             </fr:authors>
             <fr:date>
@@ -98,7 +98,7 @@
               <fr:month>5</fr:month>
               <fr:day>6</fr:day>
             </fr:date>
-            <fr:uri>https://hejohns.github.io/forest/hejohns-0001/</fr:uri>
+            <fr:uri>http://localhost:4000/forest/hejohns-0001/</fr:uri>
             <fr:display-uri>hejohns-0001</fr:display-uri>
             <fr:route>/forest/hejohns-0001/</fr:route>
             <fr:title text="simulation">simulation</fr:title>
@@ -109,7 +109,7 @@
     Here is Blackburn et all's account:
 </html:p>
             <html:p>
-    The concept first presented is that of <fr:tree show-metadata="false" expanded="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link></fr:author></fr:authors><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>6</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>6</fr:day></fr:date><fr:uri>https://hejohns.github.io/forest/hejohns-0002/</fr:uri><fr:display-uri>hejohns-0002</fr:display-uri><fr:route>/forest/hejohns-0002/</fr:route><fr:title text="bisimulation">bisimulation</fr:title><fr:taxon>definition</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>
+    The concept first presented is that of <fr:tree show-metadata="false" expanded="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/forest/hejohns/" title="Johnson He" uri="http://localhost:4000/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link></fr:author></fr:authors><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>6</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>6</fr:day></fr:date><fr:uri>http://localhost:4000/forest/hejohns-0002/</fr:uri><fr:display-uri>hejohns-0002</fr:display-uri><fr:route>/forest/hejohns-0002/</fr:route><fr:title text="bisimulation">bisimulation</fr:title><fr:taxon>definition</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>
     "The basic case":
 </html:p><html:p>
     A relation <fr:tex display="inline"><![CDATA[Z]]></fr:tex> (to not be confused with the accessibility relations <fr:tex display="inline"><![CDATA[R]]></fr:tex> for
@@ -119,7 +119,7 @@
         <html:li>
             (<html:em>forth</html:em>) <fr:tex display="inline"><![CDATA[w Z w' ∧ w R v ⟹ ∃ v' ∈ M'. w' R' v' ∧ v Z v']]></fr:tex></html:li>
         <html:li>
-            (<html:em>backwards</html:em>) <fr:tex display="inline"><![CDATA[w Z w' ∧ w' R' v' ⟹ ∃ v ∈ M. w R v ∧ v Z v']]></fr:tex></html:li></html:ul></html:p><fr:tree show-metadata="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link></fr:author></fr:authors><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>6</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>6</fr:day></fr:date><fr:uri>https://hejohns.github.io/forest/hejohns-0003/</fr:uri><fr:display-uri>hejohns-0003</fr:display-uri><fr:route>/forest/hejohns-0003/</fr:route><fr:title text="bisimilar Kripke frames are elementarily equivalent">bisimilar Kripke frames are elementarily equivalent</fr:title><fr:taxon>moral corollary</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>
+            (<html:em>backwards</html:em>) <fr:tex display="inline"><![CDATA[w Z w' ∧ w' R' v' ⟹ ∃ v ∈ M. w R v ∧ v Z v']]></fr:tex></html:li></html:ul></html:p><fr:tree show-metadata="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/forest/hejohns/" title="Johnson He" uri="http://localhost:4000/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link></fr:author></fr:authors><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>6</fr:day></fr:date><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>6</fr:day></fr:date><fr:uri>http://localhost:4000/forest/hejohns-0003/</fr:uri><fr:display-uri>hejohns-0003</fr:display-uri><fr:route>/forest/hejohns-0003/</fr:route><fr:title text="bisimilar Kripke frames are elementarily equivalent">bisimilar Kripke frames are elementarily equivalent</fr:title><fr:taxon>moral corollary</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>
     "Modal formulas cannot distinguish between bisimilar worlds or between bisimilar Kripke frames"
 
 </html:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree>.
@@ -129,7 +129,7 @@
               <fr:frontmatter>
                 <fr:authors>
                   <fr:author>
-                    <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                    <fr:link href="/forest/hejohns/" title="Johnson He" uri="http://localhost:4000/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
                   </fr:author>
                 </fr:authors>
                 <fr:date>
@@ -142,7 +142,7 @@
                   <fr:month>5</fr:month>
                   <fr:day>6</fr:day>
                 </fr:date>
-                <fr:uri>https://hejohns.github.io/forest/hejohns-0004/</fr:uri>
+                <fr:uri>http://localhost:4000/forest/hejohns-0004/</fr:uri>
                 <fr:display-uri>hejohns-0004</fr:display-uri>
                 <fr:route>/forest/hejohns-0004/</fr:route>
                 <fr:title text="preservation under simulations">preservation under simulations</fr:title>

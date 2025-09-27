@@ -13,7 +13,7 @@
       <fr:month>9</fr:month>
       <fr:day>16</fr:day>
     </fr:date>
-    <fr:uri>https://hejohns.github.io/forest/hinman-2005/</fr:uri>
+    <fr:uri>http://localhost:4000/forest/hinman-2005/</fr:uri>
     <fr:display-uri>hinman-2005</fr:display-uri>
     <fr:route>/forest/hinman-2005/</fr:route>
     <fr:title text="Fundamentals of Mathematical Logic">Fundamentals of Mathematical Logic</fr:title>

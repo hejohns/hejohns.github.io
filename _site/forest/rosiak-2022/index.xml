@@ -13,7 +13,7 @@
       <fr:month>9</fr:month>
       <fr:day>16</fr:day>
     </fr:date>
-    <fr:uri>https://hejohns.github.io/forest/rosiak-2022/</fr:uri>
+    <fr:uri>http://localhost:4000/forest/rosiak-2022/</fr:uri>
     <fr:display-uri>rosiak-2022</fr:display-uri>
     <fr:route>/forest/rosiak-2022/</fr:route>
     <fr:title text="Sheaf Theory through Examples">Sheaf Theory through Examples</fr:title>

@@ -4,7 +4,7 @@
   <fr:frontmatter>
     <fr:authors>
       <fr:author>
-        <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+        <fr:link href="/forest/hejohns/" title="Johnson He" uri="http://localhost:4000/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
       </fr:author>
     </fr:authors>
     <fr:date>
@@ -17,7 +17,7 @@
       <fr:month>7</fr:month>
       <fr:day>11</fr:day>
     </fr:date>
-    <fr:uri>https://hejohns.github.io/forest/hejohns-000S/</fr:uri>
+    <fr:uri>http://localhost:4000/forest/hejohns-000S/</fr:uri>
     <fr:display-uri>hejohns-000S</fr:display-uri>
     <fr:route>/forest/hejohns-000S/</fr:route>
     <fr:title text="Preparing for the 2024 School on Univalent Mathematics (Minnesota)">Preparing for the 2024 School on Univalent Mathematics (Minnesota)</fr:title>
@@ -31,7 +31,7 @@
       <fr:frontmatter>
         <fr:authors>
           <fr:author>
-            <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+            <fr:link href="/forest/hejohns/" title="Johnson He" uri="http://localhost:4000/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
           </fr:author>
         </fr:authors>
         <fr:date>
@@ -49,7 +49,7 @@
       <fr:mainmatter>
         <html:ul>
           <html:li>
-            One of the suggested pre-readings is <fr:link href="/forest/grayson-2018/" title="An introduction to univalent foundations for mathematicians" uri="https://hejohns.github.io/forest/grayson-2018/" display-uri="grayson-2018" type="local">An introduction to univalent foundations for mathematicians</fr:link>.
+            One of the suggested pre-readings is <fr:link href="/forest/grayson-2018/" title="An introduction to univalent foundations for mathematicians" uri="http://localhost:4000/forest/grayson-2018/" display-uri="grayson-2018" type="local">An introduction to univalent foundations for mathematicians</fr:link>.
             On p.20, the so-called "'resizing' rules" are mentioned and the
             consistency of such a system is left open.
             Apparently, this is still open as of
@@ -82,7 +82,7 @@
               <fr:month>9</fr:month>
               <fr:day>16</fr:day>
             </fr:date>
-            <fr:uri>https://hejohns.github.io/forest/grayson-2018/</fr:uri>
+            <fr:uri>http://localhost:4000/forest/grayson-2018/</fr:uri>
             <fr:display-uri>grayson-2018</fr:display-uri>
             <fr:route>/forest/grayson-2018/</fr:route>
             <fr:title text="An introduction to univalent foundations for mathematicians">An introduction to univalent foundations for mathematicians</fr:title>
@@ -91,7 +91,7 @@
           <fr:mainmatter>
             <html:p><fr:link href="https://unimath.github.io/minneapolis2024/" type="external">"An gentle introduction to univalent
     foundations."</fr:link>,
-    but still made much easier to read after the <fr:link href="/forest/cubical-categorical-logic/" title="maxsnew/cubical-categorical-logic" uri="https://hejohns.github.io/forest/cubical-categorical-logic/" display-uri="cubical-categorical-logic" type="local">maxsnew/cubical-categorical-logic</fr:link>
+    but still made much easier to read after the <fr:link href="/forest/cubical-categorical-logic/" title="maxsnew/cubical-categorical-logic" uri="http://localhost:4000/forest/cubical-categorical-logic/" display-uri="cubical-categorical-logic" type="local">maxsnew/cubical-categorical-logic</fr:link>
     hacking experience.
 </html:p>
             <html:p>

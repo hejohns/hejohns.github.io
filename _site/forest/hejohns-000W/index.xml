@@ -4,7 +4,7 @@
   <fr:frontmatter>
     <fr:authors>
       <fr:author>
-        <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+        <fr:link href="/forest/hejohns/" title="Johnson He" uri="http://localhost:4000/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
       </fr:author>
     </fr:authors>
     <fr:date>
@@ -17,7 +17,7 @@
       <fr:month>9</fr:month>
       <fr:day>16</fr:day>
     </fr:date>
-    <fr:uri>https://hejohns.github.io/forest/hejohns-000W/</fr:uri>
+    <fr:uri>http://localhost:4000/forest/hejohns-000W/</fr:uri>
     <fr:display-uri>hejohns-000W</fr:display-uri>
     <fr:route>/forest/hejohns-000W/</fr:route>
     <fr:title text="Presheaf/Sheaf/Topos models">Presheaf/Sheaf/Topos models</fr:title>

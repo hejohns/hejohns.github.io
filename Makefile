@@ -17,3 +17,7 @@ push: export
 .PHONY: upload
 upload:
 	$(MAKE) && git add _site && git commit -m "update site" && git push
+
+.PHONY: force
+force:
+	rsync -aXA _forest/output/ _site

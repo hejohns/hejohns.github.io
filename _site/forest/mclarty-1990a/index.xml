@@ -13,7 +13,7 @@
       <fr:month>9</fr:month>
       <fr:day>27</fr:day>
     </fr:date>
-    <fr:uri>https://hejohns.github.io/forest/mclarty-1990a/</fr:uri>
+    <fr:uri>http://localhost:4000/forest/mclarty-1990a/</fr:uri>
     <fr:display-uri>mclarty-1990a</fr:display-uri>
     <fr:route>/forest/mclarty-1990a/</fr:route>
     <fr:title text="Book Review (1990) of John Bell's Toposes and Local Set Theories (1988)">Book Review (1990) of John Bell's Toposes and Local Set Theories (1988)</fr:title>
@@ -22,7 +22,7 @@
   <fr:mainmatter>
     <html:p>
       <html:span class="link local">
-            <html:a href="/forest/bafkrmicbwblq5s36rofcebrui3fjhfuivy76hkyxbe3pxhz4j3oxxzv5ey.html">paper</html:a>
+            <html:a href="/forest/bafkrmiceaivgt7wx6ybv5g3tmsqxalkk7irmkrgsrfjcl25h7iyvvgavfa.html">paper</html:a>
         </html:span>
     </html:p>
   </fr:mainmatter>

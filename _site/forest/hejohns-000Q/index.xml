@@ -13,7 +13,7 @@
       <fr:month>6</fr:month>
       <fr:day>29</fr:day>
     </fr:date>
-    <fr:uri>https://hejohns.github.io/forest/hejohns-000Q/</fr:uri>
+    <fr:uri>http://localhost:4000/forest/hejohns-000Q/</fr:uri>
     <fr:display-uri>hejohns-000Q</fr:display-uri>
     <fr:route>/forest/hejohns-000Q/</fr:route>
     <fr:title text="every (elementary) topos is regular">every (elementary) topos is regular</fr:title>
