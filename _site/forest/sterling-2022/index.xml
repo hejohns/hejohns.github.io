@@ -94,11 +94,13 @@
         The mention of <fr:link href="/forest/carette-kiselyov-shan-2007/" title="Finally Tagless, Partially Evaluated" uri="https://hejohns.github.io/forest/carette-kiselyov-shan-2007/" display-uri="carette-kiselyov-shan-2007" type="local">finally tagless encodings</fr:link>
         and 
     
+    
         
         <html:span class="link local">
-            <html:a href="/forest/bafkrmibicvccpjm45ugwqpumrmumzbpxrifleliyuty4lg4qxxim3jnszi.html">a justification for hoas</html:a>
+            <html:a href="\relurl">a justification for hoas</html:a>
         </html:span>
     
+
  doesn't seem super
         on-the-point, but if it's mentioned it must be for good reason…
     </html:p>
@@ -106,9 +108,10 @@
         Again, quotes are air-quotes, not actual quotes.
         
     
+    
         
         <html:span class="link local">
-            <html:a href="/forest/bafkrmicyvgwco4onh3a35h7lwvsralc7zujb4ck4s324klh6e6r5zmm7ku.html">paper</html:a>
+            <html:a href="\relurl">paper</html:a>
         </html:span></html:p>
       </fr:mainmatter>
     </fr:tree>

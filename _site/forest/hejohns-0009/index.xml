@@ -27,11 +27,13 @@
     What is the actual <html:em>logic</html:em> when doing a logical relation?
     Do you only actually need functors? Zeilberger's 
     
+    
         
         <html:span class="link local">
-            <html:a href="/forest/bafkrmihcxf3lovny5rxq74567wncmr2v4rtyf7dzj336dvtzcdp6f2ioge.html">Functors as Type Refinement Systems</html:a>
+            <html:a href="\relurl">Functors as Type Refinement Systems</html:a>
         </html:span>
     
+
 , is a <html:strong>must read</html:strong>.
     Then you lose the internal logic... maybe? Maybe you just have a different internal logic?
 </html:p>

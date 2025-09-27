@@ -94,9 +94,10 @@
     I've used quotes here as air quotes, not actual quotes of Maddy.
     
     
+    
         
         <html:span class="link local">
-            <html:a href="/forest/bafkrmibd2xyzcsyblbnncd5mddmwk2fzalgs4qjauuacnjskv7eoou46rq.html">paper</html:a>
+            <html:a href="\relurl">paper</html:a>
         </html:span></html:p>
   </fr:mainmatter>
   <fr:backmatter>

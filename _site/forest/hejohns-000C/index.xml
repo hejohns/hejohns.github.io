@@ -1045,9 +1045,10 @@
     I have not read this, and have no idea what "contradictions" he's referring to.
     
     
+    
         
         <html:span class="link local">
-            <html:a href="/forest/bafkrmibmj7we6cwskewwgrbhqis446tuwklzyhxp7r24wfn7gp5ahkqzle.html">paper</html:a>
+            <html:a href="\relurl">paper</html:a>
         </html:span></html:p>
           </fr:mainmatter>
         </fr:tree>
@@ -1103,7 +1104,7 @@
             </fr:tree>
             <html:p>
               <html:span class="link local">
-            <html:a href="/forest/bafkrmie72igxidwojajyhvxkg46kadb4rnntptxus5r7qucpdqiq6fxkcy.html">paper</html:a>
+            <html:a href="\relurl">paper</html:a>
         </html:span>
             </html:p>
           </fr:mainmatter>
@@ -1134,7 +1135,7 @@
 </html:p>
             <html:p>
               <html:span class="link local">
-            <html:a href="/forest/bafkrmiav3lkrt3bacq7ac2ddspy6kj56bli2u3tpa6y6sikrqx67id32ou.html">paper</html:a>
+            <html:a href="\relurl">paper</html:a>
         </html:span>
             </html:p>
           </fr:mainmatter>
@@ -1222,7 +1223,7 @@
             </fr:tree>
             <html:p>
               <html:span class="link local">
-            <html:a href="/forest/bafkrmid6ny5jmx34obqiyiip5qe57ioicmsrmwuxjfwzp2fiwp4j4idfba.html">paper</html:a>
+            <html:a href="\relurl">paper</html:a>
         </html:span>
             </html:p>
           </fr:mainmatter>

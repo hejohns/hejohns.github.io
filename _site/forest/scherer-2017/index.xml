@@ -101,9 +101,10 @@
     Square brackets denote author's footnotes.
     
     
+    
         
         <html:span class="link local">
-            <html:a href="/forest/bafkrmidtgrewqfftbfiyqstalmamz3nnx4t22zybebt5ge75jr5xwlnt2u.html">paper</html:a>
+            <html:a href="\relurl">paper</html:a>
         </html:span></html:p>
           </fr:mainmatter>
         </fr:tree>
@@ -174,7 +175,7 @@
             </fr:tree>
             <html:p>
               <html:span class="link local">
-            <html:a href="/forest/bafkrmicjseptknzjqvc5bu5avxkqbjlyjuwnlpkxxgnmad2lv5whxgdvby.html">paper</html:a>
+            <html:a href="\relurl">paper</html:a>
         </html:span>
             </html:p>
           </fr:mainmatter>
