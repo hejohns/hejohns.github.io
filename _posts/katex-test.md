@@ -41,3 +41,8 @@ single dollar sign inside katexmm
 {% katexmm -%}
 $f : A \to B \in \mathcal{P}B$
 {%- endkatexmm %}
+
+**edit: 2025-09-28: **
+Unfortunately, it looks like "minima master" ie minima 3.0-dev, breaks this
+site so I had to revert to minima 2.5.2 and backport the
+`_includes/custom-head.html` functionality, which thankfully in classic jekyll fashion-- in the best sense--, just required that I create a local copy of `_includes/head.html` from minima 2.5.2, and backport the `_includes/custom-head.html` functionality from `_includes/head.html` from minima 3.0-dev.
