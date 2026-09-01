@@ -22,7 +22,7 @@
 
 # NOTE: this is an amalgamation of old(?) and new minima fields/comments
 title: hejohns' jekyll site
-email: hejohns@umich.edu
+email: hejo@iu.edu
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
 description: >- # this means to ignore newlines until "baseurl:"
@@ -36,7 +36,7 @@ github_username:  hejohns
 # (c/p from minima master)
 author:
   name: Johnson He
-  email: 'hejohns α umich δ edu'
+  email: 'hejohns α iu δ edu'
 
 # for github pages (this option also has to be synced w/ the github settings web interface)
 destination: _site
