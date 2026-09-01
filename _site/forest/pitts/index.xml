@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/forest/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/forest/">
+  <fr:frontmatter>
+    <fr:authors />
+    <fr:date>
+      <fr:year>2026</fr:year>
+      <fr:month>6</fr:month>
+      <fr:day>28</fr:day>
+    </fr:date>
+    <fr:date>
+      <fr:year>2026</fr:year>
+      <fr:month>6</fr:month>
+      <fr:day>28</fr:day>
+    </fr:date>
+    <fr:uri>https://hejohns.github.io/forest/pitts/</fr:uri>
+    <fr:display-uri>pitts</fr:display-uri>
+    <fr:route>/forest/pitts/</fr:route>
+    <fr:title text="Andrew Pitts">Andrew Pitts</fr:title>
+    <fr:taxon>Person</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>
+      <fr:link href="https://www.cl.cam.ac.uk/~amp12/" type="external">https://www.cl.cam.ac.uk/~amp12/</fr:link>
+    </html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/pitts/" title="Andrew Pitts" uri="https://hejohns.github.io/forest/pitts/" display-uri="pitts" type="local">Andrew Pitts</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2026</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>28</fr:day>
+            </fr:date>
+            <fr:date>
+              <fr:year>2026</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>28</fr:day>
+            </fr:date>
+            <fr:uri>https://hejohns.github.io/forest/pitts-2026/</fr:uri>
+            <fr:display-uri>pitts-2026</fr:display-uri>
+            <fr:route>/forest/pitts-2026/</fr:route>
+            <fr:title text="Well-Scoped Locally Nameless Representation of Syntax">Well-Scoped Locally Nameless Representation of Syntax</fr:title>
+            <fr:taxon>Reference</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/forest/pitts/" title="Andrew Pitts" uri="https://hejohns.github.io/forest/pitts/" display-uri="pitts" type="local">Andrew Pitts</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2026</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>28</fr:day>
+                </fr:date>
+                <fr:date>
+                  <fr:year>2026</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>28</fr:day>
+                </fr:date>
+                <fr:title text="abstract">abstract</fr:title>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+        When using interactive theorem provers based on dependent type
+        theory to define and reason about languages involving binding
+        constructs, we advocate the use of a well-scoped version of
+        the locally nameless method of representing syntax. This paper
+        describes generic code parameterized by a Plotkin-style binding
+        signature for this style of syntax representation within the
+        Agda theorem prover, gives a proof of its adequacy with respect
+        to naive nameful syntax modulo alpha-conversion and discusses
+        some examples of its use.
+    </html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <html:p>
+              <fr:link href="https://arxiv.org/abs/2605.08990" type="external">https://arxiv.org/abs/2605.08990</fr:link>
+            </html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

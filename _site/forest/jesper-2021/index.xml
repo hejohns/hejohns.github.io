@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/forest/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/forest/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/forest/jesper/" title="Jesper Cockx" uri="https://hejohns.github.io/forest/jesper/" display-uri="jesper" type="local">Jesper Cockx</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2026</fr:year>
+      <fr:month>6</fr:month>
+      <fr:day>28</fr:day>
+    </fr:date>
+    <fr:date>
+      <fr:year>2026</fr:year>
+      <fr:month>6</fr:month>
+      <fr:day>28</fr:day>
+    </fr:date>
+    <fr:uri>https://hejohns.github.io/forest/jesper-2021/</fr:uri>
+    <fr:display-uri>jesper-2021</fr:display-uri>
+    <fr:route>/forest/jesper-2021/</fr:route>
+    <fr:title text="1001 Representations of Syntax with Binding">1001 Representations of Syntax with Binding</fr:title>
+    <fr:taxon>Reference</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>
+      <fr:link href="https://jesper.sikanda.be/posts/1001-syntax-representations.html" type="external">https://jesper.sikanda.be/posts/1001-syntax-representations.html</fr:link>
+    </html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2026</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>25</fr:day>
+            </fr:date>
+            <fr:date>
+              <fr:year>2026</fr:year>
+              <fr:month>8</fr:month>
+              <fr:day>31</fr:day>
+            </fr:date>
+            <fr:uri>https://hejohns.github.io/forest/hejohns-000Y/</fr:uri>
+            <fr:display-uri>hejohns-000Y</fr:display-uri>
+            <fr:route>/forest/hejohns-000Y/</fr:route>
+            <fr:title text="Syntax with relevant variables">Syntax with relevant variables</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2026</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>25</fr:day>
+                </fr:date>
+                <fr:date>
+                  <fr:year>2026</fr:year>
+                  <fr:month>8</fr:month>
+                  <fr:day>31</fr:day>
+                </fr:date>
+                <fr:title text="Preface">Preface</fr:title>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+        This is an exercise to write about something which I've been
+        looking at recently, and will not be edited or maintained to
+        the level at which might be expected of a Zettelkasten entry.
+        Instead, this will be more similar to a jekyll post but still using
+        the linking features which I like about forester (and which is the
+        main reason I haven't totally abandoned using forester).
+    </html:p>
+                <html:p>
+        The nature of the topic is extremely low-tech, and so I expect-- and
+        I intend for-- this short exposition to be readable by anyone who has
+        considered the particular problem of encoding syntax with binders,
+        for example by having seen the (straight-ahead, and not necessarily
+        well-scoped) deBruijn encoding of λ-calculus. There are plenty of
+        places to look for such an introduction and I will not curate any
+        pointers here (although <fr:link href="/forest/jesper-2021/" title="1001 Representations of Syntax with Binding" uri="https://hejohns.github.io/forest/jesper-2021/" display-uri="jesper-2021" type="local">1001 Representations of Syntax with Binding</fr:link>, which is mentioned below,
+        is one).
+    </html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2026</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>25</fr:day>
+                </fr:date>
+                <fr:date>
+                  <fr:year>2026</fr:year>
+                  <fr:month>8</fr:month>
+                  <fr:day>31</fr:day>
+                </fr:date>
+                <fr:title text="Intro">Intro</fr:title>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+        First of all, credit where credit's due, I appreciate that
+        <fr:link href="/forest/jesper/" title="Jesper Cockx" uri="https://hejohns.github.io/forest/jesper/" display-uri="jesper" type="local">Jesper Cockx</fr:link> wrote the nice summary <fr:link href="/forest/jesper-2021/" title="1001 Representations of Syntax with Binding" uri="https://hejohns.github.io/forest/jesper-2021/" display-uri="jesper-2021" type="local">1001 Representations of Syntax with Binding</fr:link>, which provides
+        a quick but reasonably comprehensive overview of the different
+        approaches to encoding syntax which people have came up with
+        over the years. (I should add that one "omission"-- air quotes
+        because it would not be until 5 years after <fr:link href="/forest/jesper/" title="Jesper Cockx" uri="https://hejohns.github.io/forest/jesper/" display-uri="jesper" type="local">Jesper Cockx</fr:link> wrote
+        <fr:link href="/forest/jesper-2021/" title="1001 Representations of Syntax with Binding" uri="https://hejohns.github.io/forest/jesper-2021/" display-uri="jesper-2021" type="local">1001 Representations of Syntax with Binding</fr:link>-- is <fr:link href="/forest/pitts-2026/" title="Well-Scoped Locally Nameless Representation of Syntax" uri="https://hejohns.github.io/forest/pitts-2026/" display-uri="pitts-2026" type="local">Well-Scoped Locally Nameless Representation of Syntax</fr:link>, a variation on locally
+        nameless, which <fr:link href="/forest/angiuli/" title="Carlo Angiuli" uri="https://hejohns.github.io/forest/angiuli/" display-uri="angiuli" type="local">Carlo Angiuli</fr:link> made known to me (and <fr:link href="/forest/toucanian/" title="Ian Ray" uri="https://hejohns.github.io/forest/toucanian/" display-uri="toucanian" type="local">Ian Ray</fr:link>)
+        after his latest search for essential papers on the topic of
+        encoding syntax and α-equivalence.)
+    </html:p>
+                <html:p>
+        At the end of the blog post, the co-deBruijn (spelled
+        "co-de Buijn" in post) encoding due to <fr:link href="/forest/mcbride-2018/" title="Everybody's Got To Be Somewhere" uri="https://hejohns.github.io/forest/mcbride-2018/" display-uri="mcbride-2018" type="local">Everybody's Got To Be Somewhere</fr:link>, is
+        described, although my understanding is that while <fr:link href="/forest/jesper/" title="Jesper Cockx" uri="https://hejohns.github.io/forest/jesper/" display-uri="jesper" type="local">Jesper Cockx</fr:link>'s
+        summarization is not incorrect, it's also not exactly faithful
+        to <fr:link href="/forest/pigworker/" title="Conor McBride" uri="https://hejohns.github.io/forest/pigworker/" display-uri="pigworker" type="local">Conor McBride</fr:link>'s presentation-- and I don't mean because
+        <fr:link href="/forest/jesper/" title="Jesper Cockx" uri="https://hejohns.github.io/forest/jesper/" display-uri="jesper" type="local">Jesper Cockx</fr:link> "[b]rutally stripp[ed] all the categorical concepts
+        from the paper", but because the explicit "thinnings" are
+        <html:em>absent</html:em>. (<fr:link href="/forest/mcbride-2018/" title="Everybody's Got To Be Somewhere" uri="https://hejohns.github.io/forest/mcbride-2018/" display-uri="mcbride-2018" type="local">Everybody's Got To Be Somewhere</fr:link> calls an (order-)embedding of
+        variable contexts/scopes a "thinning".)
+    </html:p>
+                <html:p>
+        (I'll also call the co-deBruijn encoding "relevant syntax", since
+        as <fr:link href="/forest/jesper/" title="Jesper Cockx" uri="https://hejohns.github.io/forest/jesper/" display-uri="jesper" type="local">Jesper Cockx</fr:link> shows in <fr:link href="/forest/jesper-2021/" title="1001 Representations of Syntax with Binding" uri="https://hejohns.github.io/forest/jesper-2021/" display-uri="jesper-2021" type="local">1001 Representations of Syntax with Binding</fr:link>, <fr:link href="/forest/mcbride-2018/" title="Everybody's Got To Be Somewhere" uri="https://hejohns.github.io/forest/mcbride-2018/" display-uri="mcbride-2018" type="local">Everybody's Got To Be Somewhere</fr:link> is really
+        about the relevancy of variables-- whether the variable is used--
+        regardless of whether the variables are named or indices.)
+    </html:p>
+                <html:p>
+        Are explicit thinnings actually essential to the co-deBruijn
+        encoding? (An alternative formulation of the question: What is
+        materially different, whether lost or gained, by <fr:link href="/forest/jesper/" title="Jesper Cockx" uri="https://hejohns.github.io/forest/jesper/" display-uri="jesper" type="local">Jesper Cockx</fr:link>'s
+        expulsion of explicit thinnings, as compared to <fr:link href="/forest/pigworker/" title="Conor McBride" uri="https://hejohns.github.io/forest/pigworker/" display-uri="pigworker" type="local">Conor McBride</fr:link>'s
+        original presentation?) I don't really know, but I think there
+        are two minor points to be made in support of explicit thinnings:
+        <html:ul><html:li>
+                The explicit thinnings clarify how to compare (what
+                I'll call) more traditional encodings of syntax with
+                co-deBruijn. I'll try to make this vague statement
+                more precise:
+                Maybe it's obvious to someone else-- and likely that this
+                question is being raised seems strange--, but I don't
+                obviously see how a co-deBruijn encoding without explicit
+                thinnings is supposed to play the same role as traditional
+                syntax since traditional syntax has irrelevant variables.
+                I suppose this just leaves a design space for how to
+                work with syntax where all variables are relevant, but
+                a "compatibility feature" is given already by explicit
+                thinnings.
+                In fact, the penultimate punchline of <fr:link href="/forest/mcbride-2018/" title="Everybody's Got To Be Somewhere" uri="https://hejohns.github.io/forest/mcbride-2018/" display-uri="mcbride-2018" type="local">Everybody's Got To Be Somewhere</fr:link>
+                (before considerations of general syntax) is a conversion
+                function from the deBruijn to co-deBruijn encoding of
+                untyped λ-calculus, and although not explicitly stated,
+                this conversion should be an equivalence-- to be made
+                precise below.
+            </html:li>
+            <html:li><fr:link href="/forest/pigworker/" title="Conor McBride" uri="https://hejohns.github.io/forest/pigworker/" display-uri="pigworker" type="local">Conor McBride</fr:link>'s original presentation already provides
+                a resolution to <fr:link href="/forest/jesper/" title="Jesper Cockx" uri="https://hejohns.github.io/forest/jesper/" display-uri="jesper" type="local">Jesper Cockx</fr:link>'s remark that "[he's] sure
+                there's a more elegant way to [encode lambda abstractions
+                which use their argument versus those which don't use
+                their argument (ie deal with the relevancy of the variable
+                the lambda is binding)]"-- since <fr:link href="/forest/pigworker/" title="Conor McBride" uri="https://hejohns.github.io/forest/pigworker/" display-uri="pigworker" type="local">Conor McBride</fr:link>'s encoding
+                of λ-abstraction pairs the body of the λ with a thinning
+                which marks whether the bound variable is used or not.
+            </html:li></html:ul></html:p>
+                <html:p>
+        Since, I claim, there is a seeming discrepency between
+        how relevant syntax is presented in <fr:link href="/forest/jesper-2021/" title="1001 Representations of Syntax with Binding" uri="https://hejohns.github.io/forest/jesper-2021/" display-uri="jesper-2021" type="local">1001 Representations of Syntax with Binding</fr:link> and
+        <fr:link href="/forest/mcbride-2018/" title="Everybody's Got To Be Somewhere" uri="https://hejohns.github.io/forest/mcbride-2018/" display-uri="mcbride-2018" type="local">Everybody's Got To Be Somewhere</fr:link>, in <fr:link href="/forest/sub-000Y/" title="Syntax with relevant variables › Reconstructing the narrative" uri="https://hejohns.github.io/forest/sub-000Y/" display-uri="sub-000Y" type="local"><fr:link href="/forest/hejohns-000Y/" title="Syntax with relevant variables" uri="https://hejohns.github.io/forest/hejohns-000Y/" display-uri="hejohns-000Y" type="local">Syntax with relevant variables</fr:link> › Reconstructing the narrative</fr:link> we reconstruct <fr:link href="/forest/pigworker/" title="Conor McBride" uri="https://hejohns.github.io/forest/pigworker/" display-uri="pigworker" type="local">Conor McBride</fr:link>'s
+        presentation based on our interpretation of the text.  I note
+        however that am <html:em>not</html:em> particulary thinking about the more
+        general problem of general syntax with binders, which the papers
+        on this topic (bring your own bibliography) generally consider.
+    </html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2026</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>25</fr:day>
+                </fr:date>
+                <fr:date>
+                  <fr:year>2026</fr:year>
+                  <fr:month>8</fr:month>
+                  <fr:day>31</fr:day>
+                </fr:date>
+                <fr:uri>https://hejohns.github.io/forest/sub-000Y/</fr:uri>
+                <fr:display-uri>sub-000Y</fr:display-uri>
+                <fr:route>/forest/sub-000Y/</fr:route>
+                <fr:title text="Reconstructing the narrative">Reconstructing the narrative</fr:title>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors>
+                      <fr:author>
+                        <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                      </fr:author>
+                    </fr:authors>
+                    <fr:date>
+                      <fr:year>2026</fr:year>
+                      <fr:month>6</fr:month>
+                      <fr:day>25</fr:day>
+                    </fr:date>
+                    <fr:date>
+                      <fr:year>2026</fr:year>
+                      <fr:month>8</fr:month>
+                      <fr:day>31</fr:day>
+                    </fr:date>
+                    <fr:title text="Intro">Intro</fr:title>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>
+            Frankly, I found <fr:link href="/forest/mcbride-2018/" title="Everybody's Got To Be Somewhere" uri="https://hejohns.github.io/forest/mcbride-2018/" display-uri="mcbride-2018" type="local">Everybody's Got To Be Somewhere</fr:link> quite difficult to read.
+            The names in the (almost-)agda code frequently didn't
+            make obvious sense and there was insufficient prose to
+            really explain the bizarre looking code (of course this
+            is subjective). But since there is (almost-)agda code, one
+            can use it as a reference to reconstruct what <fr:link href="/forest/pigworker/" title="Conor McBride" uri="https://hejohns.github.io/forest/pigworker/" display-uri="pigworker" type="local">Conor McBride</fr:link>
+            is describing.
+        </html:p>
+                    <html:p>
+            To start, <fr:link href="/forest/jesper/" title="Jesper Cockx" uri="https://hejohns.github.io/forest/jesper/" display-uri="jesper" type="local">Jesper Cockx</fr:link>'s summary of the core idea of relevant
+            syntax in the paragraph starting with <fr:link href="/forest/jesper-2021/" title="1001 Representations of Syntax with Binding" uri="https://hejohns.github.io/forest/jesper-2021/" display-uri="jesper-2021" type="local">"Since the invention
+            of NomPa…"</fr:link>, is quite nice. Read it and come back.
+            I think an abridged example rubbed from <fr:link href="/forest/mcbride-2018/" title="Everybody's Got To Be Somewhere" uri="https://hejohns.github.io/forest/mcbride-2018/" display-uri="mcbride-2018" type="local">Everybody's Got To Be Somewhere</fr:link> is the
+            best way to see what that summary is talking about:
+            <html:ul><html:li><html:code>K ≔ λ.λ.1 </html:code></html:li>
+                <html:li><html:code>coK ≔ λ.(take🙽λ.(drop🙽var))</html:code></html:li></html:ul>
+            Above, we have the (closed) <html:code>K</html:code> combinator as a
+            (straight-ahead) deBruijn λ-term, and the corresponding
+            co-deBruijn encoding. (Since we're talking about nameless syntax
+            in this example, I'll refer to "binding sites" and "indices"
+            instead of "variables".) The <html:code>take</html:code> and <html:code>drop</html:code> terms
+            are so-called "thinnings", so the body of a λ-abstraction is a
+            pairing of a thinning which says whether or not the binding site
+            is relevant to the body, and a λ-term in the appropriate scope,
+            where <html:code>🙽</html:code> (<html:code><![CDATA[\fatbslash]]></html:code> in the
+            <html:code>stmaryrd</html:code> font) is <fr:link href="/forest/pigworker/" title="Conor McBride" uri="https://hejohns.github.io/forest/pigworker/" display-uri="pigworker" type="local">Conor McBride</fr:link>'s (strange) name for the
+            constructor of this pair. The <html:code>var</html:code> term is a pointer to
+            a binding site.
+        </html:p>
+                    <html:p>
+            This raises three immediate questions:
+            <html:ul><html:li>
+                    What do we mean by "scope"? As <fr:link href="/forest/jesper/" title="Jesper Cockx" uri="https://hejohns.github.io/forest/jesper/" display-uri="jesper" type="local">Jesper Cockx</fr:link>'s summary tells
+                    us, in relevant syntax a term has a unique scope for which
+                    every free variable is in scope, and every variable in
+                    scope is relevant. Thus for example, if a λ-abstraction
+                    is closed (has empty scope) and is marked as having a
+                    relevant binding site, the body has singleton scope.
+                </html:li>
+                <html:li>
+                    Which binding sites do the seemingly ambiguous thinnings
+                    <html:code>take</html:code> and <html:code>drop</html:code> refer to? Here they just
+                    refer to the <html:em>unique</html:em> binding site of a λ.
+                </html:li>
+                <html:li>
+                    Which binding site does the seemingly ambiguous <html:code>var</html:code>
+                    point to? If you take as given that <html:code>K</html:code> is the
+                    corresponding deBruijn term, then <html:code>var</html:code> must refer
+                    to the outer binding site, but how does one read off a
+                    freestanding co-deBruijn term?
+                    The principle of relevant syntax leads us-- or rather
+                    <fr:link href="/forest/pigworker/" title="Conor McBride" uri="https://hejohns.github.io/forest/pigworker/" display-uri="pigworker" type="local">Conor McBride</fr:link>-- to the logical conclusion that a pointer
+                    to a binding site must have singleton scope. Thus the
+                    <html:code>var</html:code> refers to the outer binding site since the
+                    inner binding site is marked irrelevant by <html:code>drop</html:code>
+                    and thus not in the scope of the innermost body, while
+                    the outer binding <html:em>is marked relevant</html:em>.
+                </html:li></html:ul></html:p>
+                    <html:p>
+            We have argued that the above co-deBruijn encoding is actually
+            unambiguous. For some extra annotations about what is exactly
+            <html:code>take</html:code>n and <html:code>drop</html:code>ped, we can use named variables as
+            <fr:link href="/forest/jesper/" title="Jesper Cockx" uri="https://hejohns.github.io/forest/jesper/" display-uri="jesper" type="local">Jesper Cockx</fr:link> demonstrates.
+            <html:ul><html:li><html:code>K ≔ λx.λy.x</html:code></html:li>
+                <html:li><html:code>coK ≔ λx.(take x🙽λy.(drop y🙽var x))</html:code></html:li></html:ul></html:p>
+                    <html:p>
+            To be fair, the thinning in a λ-abstraction is only one bit of
+            information since there is only one bound variable, but the idea
+            is that this framework accomodates syntax which simultaneously
+            binds multiple variables. Thus for (untyped) λ-calculus, where
+            the thinning is a single bit, the encoding of λ-abstractions
+            with explicit thinnings is equivalent to <fr:link href="/forest/jesper/" title="Jesper Cockx" uri="https://hejohns.github.io/forest/jesper/" display-uri="jesper" type="local">Jesper Cockx</fr:link>'s "inelegant"
+            encoding which has two constructors for λ-abstractions-- one
+            where the bound variable is relevant to the body, and one where
+            the bound variable is irrelevant to the body.
+        </html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors>
+                      <fr:author>
+                        <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                      </fr:author>
+                    </fr:authors>
+                    <fr:date>
+                      <fr:year>2026</fr:year>
+                      <fr:month>6</fr:month>
+                      <fr:day>25</fr:day>
+                    </fr:date>
+                    <fr:date>
+                      <fr:year>2026</fr:year>
+                      <fr:month>8</fr:month>
+                      <fr:day>31</fr:day>
+                    </fr:date>
+                    <fr:title text="Thinnings and co(mpany)">Thinnings and co(mpany)</fr:title>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>
+            We should make precise what "thinnings" are.
+        </html:p>
+                    <html:p>
+                      <html:code>🙽</html:code>
+                    </html:p>
+                    <html:p>
+                      <html:code>⊢</html:code>
+                    </html:p>
+                    <html:p />
+                    <html:p>
+            TODO
+        </html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors>
+                      <fr:author>
+                        <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                      </fr:author>
+                    </fr:authors>
+                    <fr:date>
+                      <fr:year>2026</fr:year>
+                      <fr:month>6</fr:month>
+                      <fr:day>25</fr:day>
+                    </fr:date>
+                    <fr:date>
+                      <fr:year>2026</fr:year>
+                      <fr:month>8</fr:month>
+                      <fr:day>31</fr:day>
+                    </fr:date>
+                    <fr:title text="Substitution">Substitution</fr:title>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>
+            TODO: The src tgt order is backwards I'm pretty sure
+        </html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+              </fr:mainmatter>
+            </fr:tree>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2026</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>25</fr:day>
+            </fr:date>
+            <fr:date>
+              <fr:year>2026</fr:year>
+              <fr:month>8</fr:month>
+              <fr:day>31</fr:day>
+            </fr:date>
+            <fr:uri>https://hejohns.github.io/forest/sub-000Y/</fr:uri>
+            <fr:display-uri>sub-000Y</fr:display-uri>
+            <fr:route>/forest/sub-000Y/</fr:route>
+            <fr:title text="Syntax with relevant variables › Reconstructing the narrative"><fr:link href="/forest/hejohns-000Y/" title="Syntax with relevant variables" uri="https://hejohns.github.io/forest/hejohns-000Y/" display-uri="hejohns-000Y" type="local">Syntax with relevant variables</fr:link> › Reconstructing the narrative</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2026</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>25</fr:day>
+                </fr:date>
+                <fr:date>
+                  <fr:year>2026</fr:year>
+                  <fr:month>8</fr:month>
+                  <fr:day>31</fr:day>
+                </fr:date>
+                <fr:title text="Intro">Intro</fr:title>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+            Frankly, I found <fr:link href="/forest/mcbride-2018/" title="Everybody's Got To Be Somewhere" uri="https://hejohns.github.io/forest/mcbride-2018/" display-uri="mcbride-2018" type="local">Everybody's Got To Be Somewhere</fr:link> quite difficult to read.
+            The names in the (almost-)agda code frequently didn't
+            make obvious sense and there was insufficient prose to
+            really explain the bizarre looking code (of course this
+            is subjective). But since there is (almost-)agda code, one
+            can use it as a reference to reconstruct what <fr:link href="/forest/pigworker/" title="Conor McBride" uri="https://hejohns.github.io/forest/pigworker/" display-uri="pigworker" type="local">Conor McBride</fr:link>
+            is describing.
+        </html:p>
+                <html:p>
+            To start, <fr:link href="/forest/jesper/" title="Jesper Cockx" uri="https://hejohns.github.io/forest/jesper/" display-uri="jesper" type="local">Jesper Cockx</fr:link>'s summary of the core idea of relevant
+            syntax in the paragraph starting with <fr:link href="/forest/jesper-2021/" title="1001 Representations of Syntax with Binding" uri="https://hejohns.github.io/forest/jesper-2021/" display-uri="jesper-2021" type="local">"Since the invention
+            of NomPa…"</fr:link>, is quite nice. Read it and come back.
+            I think an abridged example rubbed from <fr:link href="/forest/mcbride-2018/" title="Everybody's Got To Be Somewhere" uri="https://hejohns.github.io/forest/mcbride-2018/" display-uri="mcbride-2018" type="local">Everybody's Got To Be Somewhere</fr:link> is the
+            best way to see what that summary is talking about:
+            <html:ul><html:li><html:code>K ≔ λ.λ.1 </html:code></html:li>
+                <html:li><html:code>coK ≔ λ.(take🙽λ.(drop🙽var))</html:code></html:li></html:ul>
+            Above, we have the (closed) <html:code>K</html:code> combinator as a
+            (straight-ahead) deBruijn λ-term, and the corresponding
+            co-deBruijn encoding. (Since we're talking about nameless syntax
+            in this example, I'll refer to "binding sites" and "indices"
+            instead of "variables".) The <html:code>take</html:code> and <html:code>drop</html:code> terms
+            are so-called "thinnings", so the body of a λ-abstraction is a
+            pairing of a thinning which says whether or not the binding site
+            is relevant to the body, and a λ-term in the appropriate scope,
+            where <html:code>🙽</html:code> (<html:code><![CDATA[\fatbslash]]></html:code> in the
+            <html:code>stmaryrd</html:code> font) is <fr:link href="/forest/pigworker/" title="Conor McBride" uri="https://hejohns.github.io/forest/pigworker/" display-uri="pigworker" type="local">Conor McBride</fr:link>'s (strange) name for the
+            constructor of this pair. The <html:code>var</html:code> term is a pointer to
+            a binding site.
+        </html:p>
+                <html:p>
+            This raises three immediate questions:
+            <html:ul><html:li>
+                    What do we mean by "scope"? As <fr:link href="/forest/jesper/" title="Jesper Cockx" uri="https://hejohns.github.io/forest/jesper/" display-uri="jesper" type="local">Jesper Cockx</fr:link>'s summary tells
+                    us, in relevant syntax a term has a unique scope for which
+                    every free variable is in scope, and every variable in
+                    scope is relevant. Thus for example, if a λ-abstraction
+                    is closed (has empty scope) and is marked as having a
+                    relevant binding site, the body has singleton scope.
+                </html:li>
+                <html:li>
+                    Which binding sites do the seemingly ambiguous thinnings
+                    <html:code>take</html:code> and <html:code>drop</html:code> refer to? Here they just
+                    refer to the <html:em>unique</html:em> binding site of a λ.
+                </html:li>
+                <html:li>
+                    Which binding site does the seemingly ambiguous <html:code>var</html:code>
+                    point to? If you take as given that <html:code>K</html:code> is the
+                    corresponding deBruijn term, then <html:code>var</html:code> must refer
+                    to the outer binding site, but how does one read off a
+                    freestanding co-deBruijn term?
+                    The principle of relevant syntax leads us-- or rather
+                    <fr:link href="/forest/pigworker/" title="Conor McBride" uri="https://hejohns.github.io/forest/pigworker/" display-uri="pigworker" type="local">Conor McBride</fr:link>-- to the logical conclusion that a pointer
+                    to a binding site must have singleton scope. Thus the
+                    <html:code>var</html:code> refers to the outer binding site since the
+                    inner binding site is marked irrelevant by <html:code>drop</html:code>
+                    and thus not in the scope of the innermost body, while
+                    the outer binding <html:em>is marked relevant</html:em>.
+                </html:li></html:ul></html:p>
+                <html:p>
+            We have argued that the above co-deBruijn encoding is actually
+            unambiguous. For some extra annotations about what is exactly
+            <html:code>take</html:code>n and <html:code>drop</html:code>ped, we can use named variables as
+            <fr:link href="/forest/jesper/" title="Jesper Cockx" uri="https://hejohns.github.io/forest/jesper/" display-uri="jesper" type="local">Jesper Cockx</fr:link> demonstrates.
+            <html:ul><html:li><html:code>K ≔ λx.λy.x</html:code></html:li>
+                <html:li><html:code>coK ≔ λx.(take x🙽λy.(drop y🙽var x))</html:code></html:li></html:ul></html:p>
+                <html:p>
+            To be fair, the thinning in a λ-abstraction is only one bit of
+            information since there is only one bound variable, but the idea
+            is that this framework accomodates syntax which simultaneously
+            binds multiple variables. Thus for (untyped) λ-calculus, where
+            the thinning is a single bit, the encoding of λ-abstractions
+            with explicit thinnings is equivalent to <fr:link href="/forest/jesper/" title="Jesper Cockx" uri="https://hejohns.github.io/forest/jesper/" display-uri="jesper" type="local">Jesper Cockx</fr:link>'s "inelegant"
+            encoding which has two constructors for λ-abstractions-- one
+            where the bound variable is relevant to the body, and one where
+            the bound variable is irrelevant to the body.
+        </html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2026</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>25</fr:day>
+                </fr:date>
+                <fr:date>
+                  <fr:year>2026</fr:year>
+                  <fr:month>8</fr:month>
+                  <fr:day>31</fr:day>
+                </fr:date>
+                <fr:title text="Thinnings and co(mpany)">Thinnings and co(mpany)</fr:title>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+            We should make precise what "thinnings" are.
+        </html:p>
+                <html:p>
+                  <html:code>🙽</html:code>
+                </html:p>
+                <html:p>
+                  <html:code>⊢</html:code>
+                </html:p>
+                <html:p />
+                <html:p>
+            TODO
+        </html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2026</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>25</fr:day>
+                </fr:date>
+                <fr:date>
+                  <fr:year>2026</fr:year>
+                  <fr:month>8</fr:month>
+                  <fr:day>31</fr:day>
+                </fr:date>
+                <fr:title text="Substitution">Substitution</fr:title>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+            TODO: The src tgt order is backwards I'm pretty sure
+        </html:p>
+              </fr:mainmatter>
+            </fr:tree>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

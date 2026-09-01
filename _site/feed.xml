@@ -1,4 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://hejohns.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hejohns.github.io/" rel="alternate" type="text/html" /><updated>2025-09-28T04:50:20-04:00</updated><id>https://hejohns.github.io/feed.xml</id><title type="html">hejohns’ jekyll site</title><subtitle>a pure waste of space</subtitle><author><name>Johnson He</name><email>hejohns α umich δ edu</email></author><entry><title type="html">aruba access points are AWESOME</title><link href="https://hejohns.github.io/2024/07/24/aruba.html" rel="alternate" type="text/html" title="aruba access points are AWESOME" /><published>2024-07-24T00:00:00-04:00</published><updated>2024-07-24T04:16:06-04:00</updated><id>https://hejohns.github.io/2024/07/24/aruba</id><content type="html" xml:base="https://hejohns.github.io/2024/07/24/aruba.html"><![CDATA[<p>ebay, $6.50/instant AP 215 (incl. shipping).</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://hejohns.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hejohns.github.io/" rel="alternate" type="text/html" /><updated>2026-08-31T22:14:47-04:00</updated><id>https://hejohns.github.io/feed.xml</id><title type="html">hejohns’ jekyll site</title><subtitle>a pure waste of space</subtitle><author><name>Johnson He</name><email>hejohns α iu δ edu</email></author><entry><title type="html">stripped thread on safety razor</title><link href="https://hejohns.github.io/2026/07/22/razor.html" rel="alternate" type="text/html" title="stripped thread on safety razor" /><published>2026-07-22T00:00:00-04:00</published><updated>2026-07-22T17:51:57-04:00</updated><id>https://hejohns.github.io/2026/07/22/razor</id><content type="html" xml:base="https://hejohns.github.io/2026/07/22/razor.html"><![CDATA[<p>About three years ago I got a Merkur 34C, but unfortunately the thread on the lid stripped recently, so I’d been having to manually press the lid down while shaving, which is difficult to do quickly.
+I thought I’d be using that razor indefinitely, and I quite liked how it held,
+but it turns out that the shallow threading wears out quite quickly because the razor is <em>not</em> made of stainless steel.
+A replacement lid is fairly cheap but fundamentally the parts of a razor which
+are in frequent contact with water need to be made of something stronger.
+Merkur and Feather have stainless steel razors– including basically a stainless steel 34C– but they’re over $100.</p>
+
+<p>After some internet searching, I saw that Razorock (a Canadian CNC company?) makes a stainless 34C clone for $60 + $10 shipping.
+I’ll have to see if everything is still looking good in three years, but it feels okay so far, the handle is just a little narrower and longer.</p>]]></content><author><name>Johnson He</name><email>hejohns α iu δ edu</email></author><summary type="html"><![CDATA[About three years ago I got a Merkur 34C, but unfortunately the thread on the lid stripped recently, so I’d been having to manually press the lid down while shaving, which is difficult to do quickly. I thought I’d be using that razor indefinitely, and I quite liked how it held, but it turns out that the shallow threading wears out quite quickly because the razor is not made of stainless steel. A replacement lid is fairly cheap but fundamentally the parts of a razor which are in frequent contact with water need to be made of something stronger. Merkur and Feather have stainless steel razors– including basically a stainless steel 34C– but they’re over $100.]]></summary></entry><entry><title type="html">aruba access points are AWESOME</title><link href="https://hejohns.github.io/2024/07/24/aruba.html" rel="alternate" type="text/html" title="aruba access points are AWESOME" /><published>2024-07-24T00:00:00-04:00</published><updated>2024-07-24T04:16:06-04:00</updated><id>https://hejohns.github.io/2024/07/24/aruba</id><content type="html" xml:base="https://hejohns.github.io/2024/07/24/aruba.html"><![CDATA[<p>ebay, $6.50/instant AP 215 (incl. shipping).</p>
 
 <p>Title.
 Although maybe it’s because we went from bottom of the barrel ~2010 era retail
@@ -7,7 +15,7 @@ wifi, to ~2015 enterprise wifi.</p>
 <p>Uses a 1.7/4.0mm 12v barrel connector according to the docs (or PoE, if you
 happen to have that).</p>
 
-<p>TODO: update with potentially-useful-for-other-people details, once we get power supplies for the other two hopefully mesh APs. No more powerline!!</p>]]></content><author><name>Johnson He</name><email>hejohns α umich δ edu</email></author><summary type="html"><![CDATA[ebay, $6.50/instant AP 215 (incl. shipping).]]></summary></entry><entry><title type="html">archiving stack overflow (for the forest)</title><link href="https://hejohns.github.io/2024/06/17/archiving-stack-overflow.html" rel="alternate" type="text/html" title="archiving stack overflow (for the forest)" /><published>2024-06-17T00:00:00-04:00</published><updated>2024-07-02T03:47:46-04:00</updated><id>https://hejohns.github.io/2024/06/17/archiving-stack-overflow</id><content type="html" xml:base="https://hejohns.github.io/2024/06/17/archiving-stack-overflow.html"><![CDATA[<h2 id="first-iteration">First Iteration</h2>
+<p>TODO: update with potentially-useful-for-other-people details, once we get power supplies for the other two hopefully mesh APs. No more powerline!!</p>]]></content><author><name>Johnson He</name><email>hejohns α iu δ edu</email></author><summary type="html"><![CDATA[ebay, $6.50/instant AP 215 (incl. shipping).]]></summary></entry><entry><title type="html">archiving stack overflow (for the forest)</title><link href="https://hejohns.github.io/2024/06/17/archiving-stack-overflow.html" rel="alternate" type="text/html" title="archiving stack overflow (for the forest)" /><published>2024-06-17T00:00:00-04:00</published><updated>2024-07-02T03:47:46-04:00</updated><id>https://hejohns.github.io/2024/06/17/archiving-stack-overflow</id><content type="html" xml:base="https://hejohns.github.io/2024/06/17/archiving-stack-overflow.html"><![CDATA[<h2 id="first-iteration">First Iteration</h2>
 
 <p>(Note: I call any stack exchange site “stack overflow”.)</p>
 
@@ -122,7 +130,7 @@ sleep 1
 driver.quit
 
 
-</code></pre></div></div>]]></content><author><name>Johnson He</name><email>hejohns α umich δ edu</email></author><summary type="html"><![CDATA[First Iteration]]></summary></entry><entry><title type="html">fountain pen nibs</title><link href="https://hejohns.github.io/2024/04/11/fountain-pen-nibs.html" rel="alternate" type="text/html" title="fountain pen nibs" /><published>2024-04-11T00:00:00-04:00</published><updated>2024-12-14T01:54:46-05:00</updated><id>https://hejohns.github.io/2024/04/11/fountain-pen-nibs</id><content type="html" xml:base="https://hejohns.github.io/2024/04/11/fountain-pen-nibs.html"><![CDATA[<p>Several weeks ago, I lost my other TWSBI 580 (technically, the 580 ALR)
+</code></pre></div></div>]]></content><author><name>Johnson He</name><email>hejohns α iu δ edu</email></author><summary type="html"><![CDATA[First Iteration]]></summary></entry><entry><title type="html">fountain pen nibs</title><link href="https://hejohns.github.io/2024/04/11/fountain-pen-nibs.html" rel="alternate" type="text/html" title="fountain pen nibs" /><published>2024-04-11T00:00:00-04:00</published><updated>2024-12-14T01:54:46-05:00</updated><id>https://hejohns.github.io/2024/04/11/fountain-pen-nibs</id><content type="html" xml:base="https://hejohns.github.io/2024/04/11/fountain-pen-nibs.html"><![CDATA[<p>Several weeks ago, I lost my other TWSBI 580 (technically, the 580 ALR)
 which meant that I didn’t have any EF nibs left<sup id="fnref:1"><a href="#fn:1" class="footnote" rel="footnote" role="doc-noteref">1</a></sup>.</p>
 
 <p>Through the process of sourcing nibs, I learned a lot about the details so:</p>
@@ -174,7 +182,7 @@ Unless the feed itself somehow breaks, you can always mate it with a new nib if 
       <p>TWSBI F nibs are more like a M, so you need a EF if you want a F. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
-</div>]]></content><author><name>Johnson He</name><email>hejohns α umich δ edu</email></author><summary type="html"><![CDATA[Several weeks ago, I lost my other TWSBI 580 (technically, the 580 ALR) which meant that I didn’t have any EF nibs left1. TWSBI F nibs are more like a M, so you need a EF if you want a F. &#8617;]]></summary></entry><entry><title type="html">deoplete</title><link href="https://hejohns.github.io/2024/03/10/deoplete.html" rel="alternate" type="text/html" title="deoplete" /><published>2024-03-10T00:00:00-05:00</published><updated>2024-03-23T16:43:34-04:00</updated><id>https://hejohns.github.io/2024/03/10/deoplete</id><content type="html" xml:base="https://hejohns.github.io/2024/03/10/deoplete.html"><![CDATA[<p>Instead of doing work, I spent the better half of a day fixing my
+</div>]]></content><author><name>Johnson He</name><email>hejohns α iu δ edu</email></author><summary type="html"><![CDATA[Several weeks ago, I lost my other TWSBI 580 (technically, the 580 ALR) which meant that I didn’t have any EF nibs left1. TWSBI F nibs are more like a M, so you need a EF if you want a F. &#8617;]]></summary></entry><entry><title type="html">deoplete</title><link href="https://hejohns.github.io/2024/03/10/deoplete.html" rel="alternate" type="text/html" title="deoplete" /><published>2024-03-10T00:00:00-05:00</published><updated>2024-03-23T16:43:34-04:00</updated><id>https://hejohns.github.io/2024/03/10/deoplete</id><content type="html" xml:base="https://hejohns.github.io/2024/03/10/deoplete.html"><![CDATA[<p>Instead of doing work, I spent the better half of a day fixing my
 <a href="https://github.com/Shougo/deoplete.nvim">deoplete</a>
 <a href="https://github.com/hejohns/hejohns-vim/blob/trunk/plugin/hejohns.vim">config</a>,
 and added <a href="https://github.com/hejohns/hejohns-vim/blob/trunk/plugins.vim">these deoplete <em>sources</em></a><sup id="fnref:1"><a href="#fn:1" class="footnote" rel="footnote" role="doc-noteref">1</a></sup> on top of the ones that ship with deoplete–
@@ -235,7 +243,7 @@ I haven’t observed it recently, but this is a note to my future self.</p>
       <p>deoplete has a notion of <em>source</em>, which is what generates autocompletion <em>candidates</em> in the pum (pop up menu, as in ‘pumvisible’). Sources are python3 scripts that can contribute candidates asyncly. I haven’t stared much at how to write a source, but the system looks well designed at a glance. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
-</div>]]></content><author><name>Johnson He</name><email>hejohns α umich δ edu</email></author><summary type="html"><![CDATA[Instead of doing work, I spent the better half of a day fixing my deoplete config, and added these deoplete sources1 on top of the ones that ship with deoplete– which are fabulous and could well be all you need. deoplete has a notion of source, which is what generates autocompletion candidates in the pum (pop up menu, as in ‘pumvisible’). Sources are python3 scripts that can contribute candidates asyncly. I haven’t stared much at how to write a source, but the system looks well designed at a glance. &#8617;]]></summary></entry><entry><title type="html">vim</title><link href="https://hejohns.github.io/2024/02/24/vim.html" rel="alternate" type="text/html" title="vim" /><published>2024-02-24T00:00:00-05:00</published><updated>2024-06-11T03:21:47-04:00</updated><id>https://hejohns.github.io/2024/02/24/vim</id><content type="html" xml:base="https://hejohns.github.io/2024/02/24/vim.html"><![CDATA[<p>Instead of doing work, I got to thinking that since I spend so much time in vim,
+</div>]]></content><author><name>Johnson He</name><email>hejohns α iu δ edu</email></author><summary type="html"><![CDATA[Instead of doing work, I spent the better half of a day fixing my deoplete config, and added these deoplete sources1 on top of the ones that ship with deoplete– which are fabulous and could well be all you need. deoplete has a notion of source, which is what generates autocompletion candidates in the pum (pop up menu, as in ‘pumvisible’). Sources are python3 scripts that can contribute candidates asyncly. I haven’t stared much at how to write a source, but the system looks well designed at a glance. &#8617;]]></summary></entry><entry><title type="html">vim</title><link href="https://hejohns.github.io/2024/02/24/vim.html" rel="alternate" type="text/html" title="vim" /><published>2024-02-24T00:00:00-05:00</published><updated>2024-06-11T03:21:47-04:00</updated><id>https://hejohns.github.io/2024/02/24/vim</id><content type="html" xml:base="https://hejohns.github.io/2024/02/24/vim.html"><![CDATA[<p>Instead of doing work, I got to thinking that since I spend so much time in vim,
 I should really build and configure vim from source,
 instead of just using the debian packaged vim-gtk3.</p>
 
@@ -253,7 +261,7 @@ which someone patched and Bram merged the same day(!).</p>
       <li><code class="language-plaintext highlighter-rouge">make reconfig</code> after installing</li>
     </ul>
   </li>
-</ul>]]></content><author><name>Johnson He</name><email>hejohns α umich δ edu</email></author><summary type="html"><![CDATA[Instead of doing work, I got to thinking that since I spend so much time in vim, I should really build and configure vim from source, instead of just using the debian packaged vim-gtk3.]]></summary></entry><entry><title type="html">noctua fans</title><link href="https://hejohns.github.io/2024/02/12/noctua.html" rel="alternate" type="text/html" title="noctua fans" /><published>2024-02-12T00:00:00-05:00</published><updated>2024-02-12T00:57:57-05:00</updated><id>https://hejohns.github.io/2024/02/12/noctua</id><content type="html" xml:base="https://hejohns.github.io/2024/02/12/noctua.html"><![CDATA[<p>I finally replaced the cpu and case fan on the T130 with noctua fans
+</ul>]]></content><author><name>Johnson He</name><email>hejohns α iu δ edu</email></author><summary type="html"><![CDATA[Instead of doing work, I got to thinking that since I spend so much time in vim, I should really build and configure vim from source, instead of just using the debian packaged vim-gtk3.]]></summary></entry><entry><title type="html">noctua fans</title><link href="https://hejohns.github.io/2024/02/12/noctua.html" rel="alternate" type="text/html" title="noctua fans" /><published>2024-02-12T00:00:00-05:00</published><updated>2024-02-12T00:57:57-05:00</updated><id>https://hejohns.github.io/2024/02/12/noctua</id><content type="html" xml:base="https://hejohns.github.io/2024/02/12/noctua.html"><![CDATA[<p>I finally replaced the cpu and case fan on the T130 with noctua fans
 because I couldn’t bear the racket anymore–
 I can’t remember if the stock fans just wouldn’t spin slower or were just loud–
 and I have to say I’m an instant fan– no pun intended.
@@ -263,7 +271,7 @@ The box is finally quiet. It only took ~6 years. Speaking of which, those stock 
 or else iDRAC would warn that the fan rpm is <em>too low</em>.</p>
 
 <p>This post is to point out that the noctua voltage reducing cable (“low noise adapter”) is unnecessary, unless the fans are stuck at high rpm for whatever reason (eg non-pwm fans).
-I had installed them first, so I had to then remove them and turn all the fans around, which was annoying and a little painful– those rubber case fan plugs are so hard to reattach.</p>]]></content><author><name>Johnson He</name><email>hejohns α umich δ edu</email></author><summary type="html"><![CDATA[I finally replaced the cpu and case fan on the T130 with noctua fans because I couldn’t bear the racket anymore– I can’t remember if the stock fans just wouldn’t spin slower or were just loud– and I have to say I’m an instant fan– no pun intended. The box is finally quiet. It only took ~6 years. Speaking of which, those stock fans were… dirty.]]></summary></entry><entry><title type="html">Natural Models</title><link href="https://hejohns.github.io/2024/02/08/natural-models.html" rel="alternate" type="text/html" title="Natural Models" /><published>2024-02-08T00:00:00-05:00</published><updated>2025-09-27T03:29:06-04:00</updated><id>https://hejohns.github.io/2024/02/08/natural-models</id><content type="html" xml:base="https://hejohns.github.io/2024/02/08/natural-models.html"><![CDATA[<p>We were talking about natural models today,
+I had installed them first, so I had to then remove them and turn all the fans around, which was annoying and a little painful– those rubber case fan plugs are so hard to reattach.</p>]]></content><author><name>Johnson He</name><email>hejohns α iu δ edu</email></author><summary type="html"><![CDATA[I finally replaced the cpu and case fan on the T130 with noctua fans because I couldn’t bear the racket anymore– I can’t remember if the stock fans just wouldn’t spin slower or were just loud– and I have to say I’m an instant fan– no pun intended. The box is finally quiet. It only took ~6 years. Speaking of which, those stock fans were… dirty.]]></summary></entry><entry><title type="html">Natural Models</title><link href="https://hejohns.github.io/2024/02/08/natural-models.html" rel="alternate" type="text/html" title="Natural Models" /><published>2024-02-08T00:00:00-05:00</published><updated>2025-09-27T03:29:06-04:00</updated><id>https://hejohns.github.io/2024/02/08/natural-models</id><content type="html" xml:base="https://hejohns.github.io/2024/02/08/natural-models.html"><![CDATA[<p>We were talking about natural models today,
 in the sense of <a href="https://arxiv.org/abs/1406.3219">Awodey</a>.
 And I still have yet to read most of the paper,
 but I’d always thought that that paper must’ve been about, well, natural models.
@@ -326,12 +334,12 @@ At least I usually call it “Montague’s notion of natural model”.</p>
       <p>ok replacement is an axiom schema or something, but you get the point <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
-</div>]]></content><author><name>Johnson He</name><email>hejohns α umich δ edu</email></author><summary type="html"><![CDATA[We were talking about natural models today, in the sense of Awodey. And I still have yet to read most of the paper, but I’d always thought that that paper must’ve been about, well, natural models. But as far as I can tell, the paper is not about models of homotopy type theory in a model of homotopy type theory.]]></summary></entry><entry><title type="html">Mellanox ConnectX-4 10gbe</title><link href="https://hejohns.github.io/2024/01/16/mellanox.html" rel="alternate" type="text/html" title="Mellanox ConnectX-4 10gbe" /><published>2024-01-16T00:00:00-05:00</published><updated>2024-01-17T00:16:12-05:00</updated><id>https://hejohns.github.io/2024/01/16/mellanox</id><content type="html" xml:base="https://hejohns.github.io/2024/01/16/mellanox.html"><![CDATA[<p>A short post for now:</p>
+</div>]]></content><author><name>Johnson He</name><email>hejohns α iu δ edu</email></author><summary type="html"><![CDATA[We were talking about natural models today, in the sense of Awodey. And I still have yet to read most of the paper, but I’d always thought that that paper must’ve been about, well, natural models. But as far as I can tell, the paper is not about models of homotopy type theory in a model of homotopy type theory.]]></summary></entry><entry><title type="html">Mellanox ConnectX-4 10gbe</title><link href="https://hejohns.github.io/2024/01/16/mellanox.html" rel="alternate" type="text/html" title="Mellanox ConnectX-4 10gbe" /><published>2024-01-16T00:00:00-05:00</published><updated>2024-01-17T00:16:12-05:00</updated><id>https://hejohns.github.io/2024/01/16/mellanox</id><content type="html" xml:base="https://hejohns.github.io/2024/01/16/mellanox.html"><![CDATA[<p>A short post for now:</p>
 
 <p>Got two Mellanox ConnectX-4 cards off ebay, and 10gtek dacs, and they all work!
 Or at least iperf says they work at 10gbps.</p>
 
-<p>One for the T130, and one for the Lenovo p720.</p>]]></content><author><name>Johnson He</name><email>hejohns α umich δ edu</email></author><summary type="html"><![CDATA[A short post for now:]]></summary></entry><entry><title type="html">Thunderbird and Nix</title><link href="https://hejohns.github.io/2024/01/08/thunderbird-and-nix.html" rel="alternate" type="text/html" title="Thunderbird and Nix" /><published>2024-01-08T00:00:00-05:00</published><updated>2024-01-08T15:21:35-05:00</updated><id>https://hejohns.github.io/2024/01/08/thunderbird-and-nix</id><content type="html" xml:base="https://hejohns.github.io/2024/01/08/thunderbird-and-nix.html"><![CDATA[<p>This is the second time I’ve come across this issue,
+<p>One for the T130, and one for the Lenovo p720.</p>]]></content><author><name>Johnson He</name><email>hejohns α iu δ edu</email></author><summary type="html"><![CDATA[A short post for now:]]></summary></entry><entry><title type="html">Thunderbird and Nix</title><link href="https://hejohns.github.io/2024/01/08/thunderbird-and-nix.html" rel="alternate" type="text/html" title="Thunderbird and Nix" /><published>2024-01-08T00:00:00-05:00</published><updated>2024-01-08T15:21:35-05:00</updated><id>https://hejohns.github.io/2024/01/08/thunderbird-and-nix</id><content type="html" xml:base="https://hejohns.github.io/2024/01/08/thunderbird-and-nix.html"><![CDATA[<p>This is the second time I’ve come across this issue,
 and since it seems I’d forgotten about it after the first time,
 I’m making a note here.</p>
 
@@ -396,92 +404,4 @@ but the workaround I can live with for now is just to either</p>
       <p>paraphrased from two different pictures of different thunderbird configurations/instances, so the libraries don’t match up, but you get the point. Actually these may be right, but I don’t guarantee it <a href="#fnref:3" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
-</div>]]></content><author><name>Johnson He</name><email>hejohns α umich δ edu</email></author><summary type="html"><![CDATA[This is the second time I’ve come across this issue, and since it seems I’d forgotten about it after the first time, I’m making a note here.]]></summary></entry><entry><title type="html">xmonad</title><link href="https://hejohns.github.io/2023/12/20/xmonad.html" rel="alternate" type="text/html" title="xmonad" /><published>2023-12-20T00:00:00-05:00</published><updated>2023-12-20T11:36:46-05:00</updated><id>https://hejohns.github.io/2023/12/20/xmonad</id><content type="html" xml:base="https://hejohns.github.io/2023/12/20/xmonad.html"><![CDATA[<p>As with the <a href="{$ link _posts/icecc.md %}">icecc post</a>,
-I’m moving <a href="https://xmonad.org/">xmonad</a> from one server to another
-for “less downtime”<sup id="fnref:1"><a href="#fn:1" class="footnote" rel="footnote" role="doc-noteref">1</a></sup>.</p>
-
-<p>I had all the configuration files in <a href="https://github.com/hejohns/.rc">my rc github repo</a>,
-but I didn’t document what to actually do, so here we go:</p>
-
-<ul>
-  <li>Take a fresh debian container
-    <ul>
-      <li>You probably want to <code class="language-plaintext highlighter-rouge">adduser hejohns</code> and <code class="language-plaintext highlighter-rouge">apt install sudo</code> and  <code class="language-plaintext highlighter-rouge">adduser hejohns sudo</code>
-  since we want to <code class="language-plaintext highlighter-rouge">ssh -X</code> into this box later<sup id="fnref:2"><a href="#fn:2" class="footnote" rel="footnote" role="doc-noteref">2</a></sup></li>
-    </ul>
-  </li>
-  <li>Install ghc/cabal w/ ghcup
-    <ul>
-      <li>See <a href="https://www.haskell.org/ghcup/install/">https://www.haskell.org/ghcup/install/</a></li>
-      <li>Install the required system packages (eg curl, libffi-dev, libgmp-dev, …)</li>
-      <li>Do their <code class="language-plaintext highlighter-rouge">curl | sh</code> thing</li>
-      <li>If this container is just for xmonad, can do a minimal ghcup install</li>
-      <li>Can probably just use the default version of ghc.
-  You can <code class="language-plaintext highlighter-rouge">ghcup tui</code> to install something newer, but if you pick something too bleeding edge, you might get cabal package constraint errors later</li>
-    </ul>
-  </li>
-  <li>Install xmonad
-    <ul>
-      <li>See <a href="https://xmonad.org/INSTALL.html">https://xmonad.org/INSTALL.html</a></li>
-      <li>Install the required system dependencies (eg libx11-dev, libxss-dev, …)</li>
-      <li><code class="language-plaintext highlighter-rouge">cabal update</code></li>
-      <li><code class="language-plaintext highlighter-rouge">cabal install --lib xmonad xmonad-contrib</code>
-  for the libraries xmonad needs on recompile</li>
-      <li><code class="language-plaintext highlighter-rouge">cabal install xmonad</code> for the actual executable</li>
-    </ul>
-  </li>
-  <li>You still need some X infrastructure for xmonad to work
-    <ul>
-      <li>At the least, you need <code class="language-plaintext highlighter-rouge">apt install x11-utils</code> or else xmonad will error out on some missing executable</li>
-      <li>This might be included in <code class="language-plaintext highlighter-rouge">apt install xorg</code></li>
-      <li>I don’t know anything about X,
-  so I don’t even know if you need an X server or not–
-  but I think it didn’t work until I installed one</li>
-    </ul>
-  </li>
-  <li>I’m lazy, so <code class="language-plaintext highlighter-rouge">xmonad --recompile</code> and wait for it to error out b/c of the missing <em>xmonad.hs</em></li>
-  <li>This creates <em>~/.config/xmonad</em> for you (for create it yourself)</li>
-  <li><code class="language-plaintext highlighter-rouge">git clone</code> the rc repo or equivalent
-(for <em>xmonad.hs</em>, <em>.xsession</em>, and associated systemd files)</li>
-  <li><code class="language-plaintext highlighter-rouge">cp</code> the <em>xmonad.hs</em> into <em>~/.config/xmonad</em></li>
-  <li>Confirm that <code class="language-plaintext highlighter-rouge">xmonad --recompile</code> works now</li>
-  <li><code class="language-plaintext highlighter-rouge">xmonad --replace</code> won’t work yet since the X env isn’t setup properly</li>
-  <li><code class="language-plaintext highlighter-rouge">cp</code> the systemd files in rc under <em>etc/systemd/user</em> to their respective place in the actual system</li>
-  <li>You probably need to <code class="language-plaintext highlighter-rouge">systemctl --user enable</code> the two services</li>
-  <li><code class="language-plaintext highlighter-rouge">cp</code> the <em>xsession</em> into <em>~/.xsession</em></li>
-  <li>Finally add <code class="language-plaintext highlighter-rouge">(bash ~/.xsession &gt; /dev/null 2&gt;&amp;1 &amp;)</code> or equivalent to your <em>.bashrc</em></li>
-</ul>
-
-<h2 id="summary">Summary</h2>
-<p>Now, when you’re on your desktop, you can <code class="language-plaintext highlighter-rouge">ssh -X</code> into this box we just setup
-and when the bashrc gets sourced on login,
-the xsession file will also run and start the systemd user target to fire up
-xmonad and xcompmgr.</p>
-
-<p>Oh right, so you probably want to install <code class="language-plaintext highlighter-rouge">xcompmgr</code> as well.
-The systemd file in the repo currently assumes it was installed with <code class="language-plaintext highlighter-rouge">nix</code>,
-but you can just install it with <code class="language-plaintext highlighter-rouge">apt</code> and change the path.
-(I did that just now.)</p>
-
-<p>My desktop is a “dumb” client
-(actually, it’s a minimally configured debian + xfce install),
-so I can outsource the ghc and xmonad mess to another machine this way.</p>
-
-<p>Why the fuss with systemd?
-xmonad used to segfault all the time for some reason,
-and having your (remote) window manager suddenly stop really sucks.
-A systemd user service that automatically restarts seemed like the right solution.
-(When xmonad restarts, all the tilings get reset, but at least a window manager is still running.)</p>
-
-<p>Actually, I don’t think I’ve had xmonad segfault in a long time now,
-but the principle stands.</p>
-<div class="footnotes" role="doc-endnotes">
-  <ol>
-    <li id="fn:1">
-      <p>I’m reproducing the xmonad setup on the Dell T130 (Pentium G4600) to a container on the Lenovo P720 (dual Xeon 6142s), so I can restart other stuff w/o killing my window manager <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-    <li id="fn:2">
-      <p>I did this all as root the first time, and had to do it all over again as my own user since so much of the ghcup and X stuff is per-user. <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-  </ol>
-</div>]]></content><author><name>Johnson He</name><email>hejohns α umich δ edu</email></author><summary type="html"><![CDATA[As with the icecc post, I’m moving xmonad from one server to another for “less downtime”1. I’m reproducing the xmonad setup on the Dell T130 (Pentium G4600) to a container on the Lenovo P720 (dual Xeon 6142s), so I can restart other stuff w/o killing my window manager &#8617;]]></summary></entry></feed>
+</div>]]></content><author><name>Johnson He</name><email>hejohns α iu δ edu</email></author><summary type="html"><![CDATA[This is the second time I’ve come across this issue, and since it seems I’d forgotten about it after the first time, I’m making a note here.]]></summary></entry></feed>

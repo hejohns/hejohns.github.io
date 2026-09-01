@@ -9,15 +9,15 @@
       <fr:day>1</fr:day>
     </fr:date>
     <fr:date>
-      <fr:year>2024</fr:year>
+      <fr:year>2026</fr:year>
       <fr:month>6</fr:month>
-      <fr:day>3</fr:day>
+      <fr:day>25</fr:day>
     </fr:date>
     <fr:uri>https://hejohns.github.io/forest/ronnie-chen/</fr:uri>
     <fr:display-uri>ronnie-chen</fr:display-uri>
     <fr:route>/forest/ronnie-chen/</fr:route>
     <fr:title text="Ronnie Chen">Ronnie Chen</fr:title>
-    <fr:taxon>person</fr:taxon>
+    <fr:taxon>Person</fr:taxon>
   </fr:frontmatter>
   <fr:mainmatter />
   <fr:backmatter>
@@ -67,7 +67,7 @@
 </html:p>
             <html:p>
               <html:span class="link local">
-            <html:a href="/forest/bafkrmiahry7qcmlthqrr3wr23p5ifrmeu3mcd7ok7sldtcbb2xvlpzzdve.html">paper</html:a>
+            <html:a href="/forest/bafkrmibxgj4hqrylbkckfin4agyvpsnqmxvq4ieprl7tcoq52nwcy2g6zm.html">paper</html:a>
         </html:span>
             </html:p>
           </fr:mainmatter>

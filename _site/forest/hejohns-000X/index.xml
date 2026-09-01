@@ -63,7 +63,7 @@
     </html:p>
     <html:ul><html:li><fr:link href="https://agda.readthedocs.io/en/latest/tools/performance.html" type="external">Interactive syntax highlighting</fr:link></html:li>
         <html:li>
-            Enable <html:code>{-# OPTIONS --lossy-unification -}</html:code> at the top of the current agda file
+            Enable <html:code>{-# OPTIONS --lossy-unification #-}</html:code> at the top of the current agda file
         </html:li>
         <html:li>
             Comment out (especially slow) parts of the current agda file that you don't strictly need to work on this hole

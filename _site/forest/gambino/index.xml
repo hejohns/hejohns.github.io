@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/forest/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/forest/">
+  <fr:frontmatter>
+    <fr:authors />
+    <fr:date>
+      <fr:year>2026</fr:year>
+      <fr:month>7</fr:month>
+      <fr:day>2</fr:day>
+    </fr:date>
+    <fr:date>
+      <fr:year>2026</fr:year>
+      <fr:month>7</fr:month>
+      <fr:day>2</fr:day>
+    </fr:date>
+    <fr:uri>https://hejohns.github.io/forest/gambino/</fr:uri>
+    <fr:display-uri>gambino</fr:display-uri>
+    <fr:route>/forest/gambino/</fr:route>
+    <fr:title text="Nicola Gambino">Nicola Gambino</fr:title>
+    <fr:taxon>Person</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter />
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/gambino/" title="Nicola Gambino" uri="https://hejohns.github.io/forest/gambino/" display-uri="gambino" type="local">Nicola Gambino</fr:link>
+              </fr:author>
+              <fr:author>
+                <fr:link href="/forest/kock/" title="Joachim Kock" uri="https://hejohns.github.io/forest/kock/" display-uri="kock" type="local">Joachim Kock</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2026</fr:year>
+              <fr:month>7</fr:month>
+              <fr:day>2</fr:day>
+            </fr:date>
+            <fr:date>
+              <fr:year>2026</fr:year>
+              <fr:month>7</fr:month>
+              <fr:day>2</fr:day>
+            </fr:date>
+            <fr:uri>https://hejohns.github.io/forest/gambino-kock-2013/</fr:uri>
+            <fr:display-uri>gambino-kock-2013</fr:display-uri>
+            <fr:route>/forest/gambino-kock-2013/</fr:route>
+            <fr:title text="Polynomial functors and polynomial monads">Polynomial functors and polynomial monads</fr:title>
+            <fr:taxon>Reference</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter />
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

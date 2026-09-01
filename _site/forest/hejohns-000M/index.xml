@@ -919,6 +919,31 @@
       <fr:mainmatter>
         <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
           <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>28</fr:day>
+            </fr:date>
+            <fr:date>
+              <fr:year>2026</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>25</fr:day>
+            </fr:date>
+            <fr:uri>https://hejohns.github.io/forest/ericgio/</fr:uri>
+            <fr:display-uri>ericgio</fr:display-uri>
+            <fr:route>/forest/ericgio/</fr:route>
+            <fr:title text="Eric Giovannini">Eric Giovannini</fr:title>
+            <fr:taxon>Person</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+              <fr:link href="https://public.websites.umich.edu/~ericgio/index.html" type="external">https://public.websites.umich.edu/~ericgio/index.html</fr:link>
+            </html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
             <fr:authors>
               <fr:author>
                 <fr:link href="/forest/hejohns/" title="Johnson He" uri="https://hejohns.github.io/forest/hejohns/" display-uri="hejohns" type="local">Johnson He</fr:link>
@@ -974,31 +999,6 @@
     keep in touch with some older terminology you still see around the block.
 
 </html:p>
-          </fr:mainmatter>
-        </fr:tree>
-        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
-          <fr:frontmatter>
-            <fr:authors />
-            <fr:date>
-              <fr:year>2024</fr:year>
-              <fr:month>6</fr:month>
-              <fr:day>28</fr:day>
-            </fr:date>
-            <fr:date>
-              <fr:year>2024</fr:year>
-              <fr:month>6</fr:month>
-              <fr:day>29</fr:day>
-            </fr:date>
-            <fr:uri>https://hejohns.github.io/forest/ericgio/</fr:uri>
-            <fr:display-uri>ericgio</fr:display-uri>
-            <fr:route>/forest/ericgio/</fr:route>
-            <fr:title text="Eric Giovannini">Eric Giovannini</fr:title>
-            <fr:taxon>person</fr:taxon>
-          </fr:frontmatter>
-          <fr:mainmatter>
-            <html:p>
-              <fr:link href="https://public.websites.umich.edu/~ericgio/index.html" type="external">https://public.websites.umich.edu/~ericgio/index.html</fr:link>
-            </html:p>
           </fr:mainmatter>
         </fr:tree>
         <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">

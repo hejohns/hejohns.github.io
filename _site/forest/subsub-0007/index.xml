@@ -260,7 +260,7 @@
             <fr:tex display="inline"><![CDATA[よ(F'(f)) = πₓ⁻¹∘(-∘f)∘π_y = よ(\overline {F}(f))]]></fr:tex></html:p></html:li></html:ul>
             <html:p>
     So this result is really a corollary of the Yoneda lemma.
-    <fr:link href="https://ncatlab.org/nlab/show/adjoint+functorAdjointFunctorFromObjectwiseRepresentingObject" type="external">The nlab page is here</fr:link>.
+    <fr:link href="https://ncatlab.org/nlab/show/adjoint+functor#AdjointFunctorFromObjectwiseRepresentingObject" type="external">The nlab page is here</fr:link>.
 </html:p>
             <fr:tree show-metadata="false">
               <fr:frontmatter>

@@ -22,7 +22,7 @@
   <fr:mainmatter>
     <html:p><fr:link href="https://unimath.github.io/minneapolis2024/" type="external">"An gentle introduction to univalent
     foundations."</fr:link>,
-    but still made much easier to read after the <fr:link href="/forest/cubical-categorical-logic/" title="maxsnew/cubical-categorical-logic" uri="https://hejohns.github.io/forest/cubical-categorical-logic/" display-uri="cubical-categorical-logic" type="local">maxsnew/cubical-categorical-logic</fr:link>
+    but still made much easier to read after the <fr:link href="/forest/cubical-categorical-logic/" title="cubical-categorical-logic" uri="https://hejohns.github.io/forest/cubical-categorical-logic/" display-uri="cubical-categorical-logic" type="local">cubical-categorical-logic</fr:link>
     hacking experience.
 </html:p>
     <html:p>
@@ -126,29 +126,35 @@
       <fr:mainmatter>
         <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
           <fr:frontmatter>
-            <fr:authors />
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/steven/" title="Steven Shaefer" uri="https://hejohns.github.io/forest/steven/" display-uri="steven" type="local">Steven Shaefer</fr:link>
+              </fr:author>
+              <fr:author>
+                <fr:link href="/forest/max/" title="Max New" uri="https://hejohns.github.io/forest/max/" display-uri="max" type="local">Max New</fr:link>
+              </fr:author>
+            </fr:authors>
             <fr:date>
               <fr:year>2024</fr:year>
               <fr:month>7</fr:month>
               <fr:day>11</fr:day>
             </fr:date>
             <fr:date>
-              <fr:year>2024</fr:year>
-              <fr:month>7</fr:month>
-              <fr:day>11</fr:day>
+              <fr:year>2026</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>25</fr:day>
             </fr:date>
             <fr:uri>https://hejohns.github.io/forest/cubical-categorical-logic/</fr:uri>
             <fr:display-uri>cubical-categorical-logic</fr:display-uri>
             <fr:route>/forest/cubical-categorical-logic/</fr:route>
-            <fr:title text="maxsnew/cubical-categorical-logic">maxsnew/cubical-categorical-logic</fr:title>
+            <fr:title text="cubical-categorical-logic">cubical-categorical-logic</fr:title>
           </fr:frontmatter>
           <fr:mainmatter>
             <html:p>
-    Formerly known as "multi-poly-cats".
-</html:p>
-            <html:p>
-              <fr:link href="https://github.com/maxsnew/cubical-categorical-logic" type="external">https://github.com/maxsnew/cubical-categorical-logic</fr:link>
-            </html:p>
+    "cubical agda formalizations of different approaches to categorical semantics of type theories"
+
+    <html:ul><html:li><fr:link href="https://github.com/um-catlab/cubical-categorical-logic" type="external">https://github.com/um-catlab/cubical-categorical-logic</fr:link></html:li>
+        <html:li><fr:link href="https://stevenschaefer.net/sss-00DK" type="external">https://stevenschaefer.net/sss-00DK</fr:link></html:li></html:ul></html:p>
           </fr:mainmatter>
         </fr:tree>
       </fr:mainmatter>
