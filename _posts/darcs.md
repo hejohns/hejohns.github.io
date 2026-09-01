@@ -17,3 +17,4 @@ to import into the correct git branch.
 
 **NOTE**: Should be "refs/heads/**master**#refs/heads/trunk". I don't know why but it keeps showing up as trunk twice when I export
 
+2026-09-01: Sadly, I have stopped using `darcs` long ago. I don't really have any problems with `git`, and the colored output is nice which at least back then, `darcs` didn't have.
