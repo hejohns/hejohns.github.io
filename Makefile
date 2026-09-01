@@ -21,3 +21,7 @@ upload:
 .PHONY: force
 force:
 	rsync -aXA _forest/output/ _site
+
+.PHONY: test
+test: site
+	python3 -m http.server -d _site 4000
